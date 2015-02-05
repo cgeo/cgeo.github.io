@@ -1,7 +1,7 @@
 html, body {
-    background: url('#{$imagedir}/bg.gif');
+    background: url("#{$imagedir}/bg.gif");
     color: #e0e0e0;
-    font-family: 'Droid Sans', sans-serif;
+    font-family: "Droid Sans", sans-serif;
     font-size: $fontsize;
 }
 
@@ -79,4 +79,12 @@ a {
         margin-bottom: 0.5em;
         text-align: justify;
     }
+}
+
+.donate-btn {
+    width: 180px;
+    height: 90px;
+    display: block;
+    background-image: url("#{$imagedir}/donate_big.png");
+    margin: auto;
 }
