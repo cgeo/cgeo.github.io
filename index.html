@@ -6,6 +6,20 @@
         <meta charset="utf-8">
 
         <style type="text/css">
+            /*--- RESET --------------------------------------------------*/
+            html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit;}
+            table {border-collapse: collapse; border-spacing: 0;}
+            caption, th, td {text-align: left; font-weight: normal;}
+            form legend {display: none;}
+            blockquote:before, blockquote:after, q:before, q:after {content: "";}
+            blockquote, q {quotes: "" "";}
+            ol, ul {list-style: none;}
+            hr {display: none; visibility: hidden;}
+            button::-moz-focus-inner {padding: 0; border: 0;}
+            a {color: inherit; text-decoration: none;}
+
+            @import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
             * {
                 margin: 0;
                 padding: 0; 
@@ -13,9 +27,8 @@
 
             html, body {
                 background: url('bg.gif');
-                height: 100%;
-                color: #dddddd;
-                font-family: sans-serif;
+                color: #e0e0e0;
+                font-family: 'Droid Sans', sans-serif;
                 font-size: 16px;
             }
 
@@ -24,71 +37,147 @@
                 color: inherit;
             }
 
-            #header {
-                position: fixed;
-                right: 0px;
-                left: 0px;
-                top: 16px;
+            #navigation {
+                width: 100%;
+                margin: 16px 0 48px 0;
                 text-align: right;
             }
 
-            #header a {
+            #navigation a {
                 margin-right: 32px;
                 font-size: 1.2em;
             }
 
-            #floater {
-                float: left;
-                height: 40%;
-                margin-bottom: -100px;
+            #bar {
+                width: 100%;
+                background: rgba(255,255,255,0.1);
+                padding: 2em 0;
+                color: #ffffff;
+                margin: 64px 0 100px 0;
             }
 
-            #container {
-                clear: both;
+            #bar .logo {
+                float: left;
+                display: block;
+                width: 200px;
+            }
+
+            #bar .column.right {
+                margin-left: 250px;
+            }
+
+            #bar h1 {
+                font-weight: bold;
+                font-size: 2em;
+                margin-bottom: 24px;
+            }
+
+            #bar #buttons {
+                margin-top: 32px;
+                text-align: center;
+            }
+
+            .container {
                 width: 800px;
-                height: 250px;
                 margin: auto;
                 text-align: justify;
             }
 
-            #logo {
+            .container .column.left {
                 float: left;
-                display: block;
-                margin-right: 2em;
+                width: 500px;
             }
 
-            #container h1 {
-                font-weight: bold;
-                font-size: 2em;
-                padding-top: 16px;
-                margin-bottom: 24px;
+            .container .column.right {
+                margin-left: 550px;
             }
 
-            #buttons {
-                margin-top: 32px;
-                text-align: center;
+            .container p {
+                margin-bottom: 1em;
+                line-height: 1.2em;
+            }
+
+            .container ul {
+                list-style-type: disc;
+                margin-left: 2.5em;
+                margin-bottom: 1em;
+            }
+
+            .container li {
+                margin-bottom: 1em;
+                text-align: justify;
             }
         </style>
     </head>
     <body>
-        <div id="header">
-            <a href="#">Changelog</a>
+        <div id="navigation">
+            <a href="https://github.com/cgeo/cgeo/releases">Changelog</a>
+            <a href="#">Nightly</a>
             <a href="#">Support</a>
             <a href="#">F.A.Q.</a>
-            <a href="#">Code</a>
-            <a href="#">Report Bug</a>
+            <a href="https://github.com/cgeo/cgeo">Development</a>
         </div>
 
-        <div id="floater"></div>
+        <div id="bar">
+            <div class="container">
+                <img src="cgeo-logo.png" class="logo">
+                <div class="column right">
+                    <h1>Geocaching for Android</h1>
+                    <p>c:geo is an open source, full-featured, always ready-to-go client for geocaching.com (unofficial) and offers basic support for other geocaching platforms (like Opencaching). It does not require a web browser or exports - just download and start right away.</p>
+                    <div id="buttons">
+                        <a href="https://play.google.com/store/apps/details?id=cgeo.geocaching"><img src="play.png"></a>
+                        <span style="margin-right: 40px;">&nbsp;</span>
+                        <a href="https://github.com/cgeo/cgeo/releases/latest"><img src="apk.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <div id="container">
-            <img src="cgeo-logo.png" id="logo">
-            <h1>Geocaching for Android</h1>
-            <p>c:geo is an open source, full-featured, always ready-to-go client for geocaching.com (unofficial) and offers basic support for other geocaching platforms (like Opencaching). It does not require a web browser or exports - just download and start right away.</p>
-            <div id="buttons">
-                <a href="https://play.google.com/store/apps/details?id=cgeo.geocaching"><img src="play.png"></a>
-                <span style="margin-right: 40px;">&nbsp;</span>
-                <a href="https://github.com/cgeo/cgeo/releases/latest"><img src="apk.png"></a>
+        <div class="container">
+            <div class="column left">
+                <p>
+                    c:geo is an open source, full-featured, always ready-to-go client for geocaching.com (unofficial) and offers basic support for other geocaching platforms (like Opencaching). It does not require a web browser or exports - just download and start right away.
+                </p>
+
+                <p>
+                    Main features:
+                </p>
+                <ul>
+                    <li>View caches on a Live Map</li>
+                    <li>Use Google Maps or OpenStreet Maps</li>
+                    <li>Search for caches by various criteria</li>
+                    <li>Log your finds online or offline</li>
+                    <li>Store cache information on your device</li>
+                    <li>Create and manage waypoints</li>
+                    <li>Navigate using compass, map, or other apps</li>
+                    <li>Import/Export GPX files</li>
+                    <li>Full support for trackables</li>
+                    <li>Offline caching functions including offline maps</li>
+                </ul>
+
+                <p>
+                    c:geo is a simple to use but powerful geocaching client with a lot of additional features. All you need to get started is an account on geocaching.com.
+                    Find caches using the live map or by using one of the many search functions.
+                </p>
+
+                <p>
+                    Navigate to a cache or a waypoint of a cache with the built-in compass function, the map or hand over the coordinates to various external apps (e.g. Radar, Google Navigation, StreetView, Locus, Navigon, Sygic and many more).
+                </p>
+
+                <p>
+                    Store cache information to your device directly from geocaching.com as well as via GPX file import to have it available whenever you want.
+                    You can manage your stored caches in different lists and can sort and filter them according to your needs.
+                    Stored caches together with offline map files or static maps can be used to find caches without an internet connection (e.g. when roaming).
+                    Logs can be posted online or stored offline for later submission or exported via field notes.
+                    Search and discover trackables, manage your trackable inventory and drop a trackable while posting a cache log.
+                </p>
+            </div>
+            <div class="column right">
+                <p>This is the place for screenshot thumbnails with lightbox script.</p>
+                <p>And the donation button.</p>
+                <p>And social media icons/links.</p>
+                <p>And IRC?</p>
+                <p>More?</p>
             </div>
         </div>
     </body>
