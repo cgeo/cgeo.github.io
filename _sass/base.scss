@@ -12,11 +12,11 @@ a {
 
 #navigation {
     width: 100%;
-    margin: 16px 0 48px 0;
+    margin: 1em 0 3em 0;
     text-align: right;
 
     a {
-        margin-right: 32px;
+        margin-right: 1.5em;
         font-size: 1.2em;
     }
 }
@@ -26,7 +26,7 @@ a {
     background: rgba(255,255,255,0.1);
     padding: 2em 0;
     color: #ffffff;
-    margin: 64px 0 100px 0;
+    margin: 4em 0 6em 0;
 
     .logo {
         float: left;
@@ -41,11 +41,11 @@ a {
     h1 {
         font-weight: bold;
         font-size: 2em;
-        margin-bottom: 24px;
+        margin-bottom: 0.8em;
     }
 
     #buttons {
-        margin-top: 32px;
+        margin-top: 2em;
         text-align: center;
     }
 }
@@ -64,15 +64,17 @@ a {
         margin-left: $leftcolumnwidth + $columnpadding;
     }
 
+    $paragraphskip: 1em;
+
     p {
-        margin-bottom: 1em;
+        margin-bottom: $paragraphskip;
         line-height: 1.3em;
     }
 
     ul {
         list-style-type: disc;
         margin-left: 2.5em;
-        margin-bottom: 1em;
+        margin-bottom: $paragraphskip;
     }
 
     li {
