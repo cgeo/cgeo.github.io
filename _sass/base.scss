@@ -1,0 +1,82 @@
+html, body {
+    background: url('#{$imagedir}/bg.gif');
+    color: #e0e0e0;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: $fontsize;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navigation {
+    width: 100%;
+    margin: 16px 0 48px 0;
+    text-align: right;
+
+    a {
+        margin-right: 32px;
+        font-size: 1.2em;
+    }
+}
+
+#bar {
+    width: 100%;
+    background: rgba(255,255,255,0.1);
+    padding: 2em 0;
+    color: #ffffff;
+    margin: 64px 0 100px 0;
+
+    .logo {
+        float: left;
+        display: block;
+        width: 200px;
+    }
+
+    .column.right {
+        margin-left: 250px;
+    }
+
+    h1 {
+        font-weight: bold;
+        font-size: 2em;
+        margin-bottom: 24px;
+    }
+
+    #buttons {
+        margin-top: 32px;
+        text-align: center;
+    }
+}
+
+.container {
+    width: $contentwidth;
+    margin: auto;
+    text-align: justify;
+
+    .column.left {
+        float: left;
+        width: $leftcolumnwidth;
+    }
+
+    .column.right {
+        margin-left: $leftcolumnwidth + $columnpadding;
+    }
+
+    p {
+        margin-bottom: 1em;
+        line-height: 1.2em;
+    }
+
+    ul {
+        list-style-type: disc;
+        margin-left: 2.5em;
+        margin-bottom: 1em;
+    }
+
+    li {
+        margin-bottom: 1em;
+        text-align: justify;
+    }
+}

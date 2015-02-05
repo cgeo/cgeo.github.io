@@ -1,0 +1,8 @@
+title: Geocaching for Android
+
+exclude:
+- Gemfile
+- Gemfile.lock
+- README.md
+
+markdown: kramdown
