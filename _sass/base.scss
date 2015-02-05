@@ -1,6 +1,6 @@
 html, body {
     background: url("#{$imagedir}/bg.gif");
-    color: #e0e0e0;
+    color: #c0c0c0;
     font-family: "Droid Sans", sans-serif;
     font-size: $fontsize;
 }
@@ -28,31 +28,43 @@ a {
     color: #ffffff;
     margin: 4em 0 6em 0;
 
-    .logo {
-        float: left;
-        display: block;
-        width: 200px;
-    }
+    .cont {
+        width: $contentwidth;
+        margin: auto;
+        text-align: justify;
 
-    .column.right {
-        margin-left: 250px;
-    }
+        .logo {
+            float: left;
+            display: block;
+            width: 200px;
+        }
 
-    h1 {
-        font-weight: bold;
-        font-size: 2em;
-        margin-bottom: 0.8em;
-    }
+        .column.right {
+            margin-left: 250px;
+        }
 
-    #buttons {
-        margin-top: 2em;
-        text-align: center;
+        h1 {
+            font-weight: bold;
+            font-size: 2em;
+            margin-bottom: 0.8em;
+        }
+
+        p {
+            margin-bottom: 1em;
+            line-height: 1.3em;
+        }
+
+        #buttons {
+            margin-top: 2em;
+            text-align: center;
+        }
     }
 }
 
 .container {
     width: $contentwidth;
     margin: auto;
+    margin-top: 6em;
     text-align: justify;
 
     .column.left {
@@ -65,6 +77,19 @@ a {
     }
 
     $paragraphskip: 1em;
+
+    h1 {
+        font-size: 1.8em;
+        font-weight: bold;
+        color: #eeeeee;
+        margin-top: 1.5 * $fontsize;
+        margin-bottom: $fontsize;
+    }
+
+    h2 {
+        @extend h1;
+        font-size: 1.3em;
+    }
 
     p {
         margin-bottom: $paragraphskip;
@@ -79,8 +104,19 @@ a {
 
     li {
         margin-bottom: 0.5em;
-        text-align: justify;
     }
+
+    a{
+        color: #dd9324;
+    }
+
+    a:hover {
+        color: #7abf47;
+    }
+}
+
+.container.small {
+    width: $contentwidth * 0.75;
 }
 
 .donate-btn {
