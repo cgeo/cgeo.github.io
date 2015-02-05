@@ -19,8 +19,8 @@ layout: default
 
 <div class="container">
     <div class="column left">
-        {% capture content %}{% include description_long.md %}{% endcapture %}
-        {{ content | markdownify }}
+        {% capture mdtmp %}{% include description_long.md %}{% endcapture %}
+        {{ mdtmp | markdownify }}
     </div>
     <div class="column right">
         {% include index_sidebar.html %}

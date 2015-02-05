@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+    {% include head.html %}
 
-  <body>
+    <body>
+        <div id="navigation">
+            {% capture mdtmp %}{% include navigation.md %}{% endcapture %}
+            {{ mdtmp | markdownify }}
+        </div>
 
-    {% include navigation.html %}
+        {{ content }}
 
-    {{ content }}
-
-  </body>
+    </body>
 
 </html>
