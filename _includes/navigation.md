@@ -1,6 +1,6 @@
 [send2cgeo](#)
 [F.A.Q.](#)
 [Support](#)
-[Changelog](https://github.com/cgeo/cgeo/releases")
+[Changelog](https://github.com/cgeo/cgeo/releases)
 [Nightly](nightly.html)
-[Development](https://github.com/cgeo/cgeo")
+[Development](https://github.com/cgeo/cgeo)
