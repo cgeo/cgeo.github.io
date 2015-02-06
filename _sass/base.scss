@@ -150,3 +150,30 @@ a {
         width: 0.3 * ($contentwidth - $leftcolumnwidth - $columnpadding);
     }
 }
+
+.socialmedia {
+    text-align: center;
+    margin-bottom: 2em;
+
+    a {
+        margin: 0 0.5em;
+        display: inline-block;
+        width: 48px;
+        height: 48px;
+    }
+
+    .facebook {
+        background: url("#{$imagedir}/socialmedia/facebook.png");
+        &:hover { background: url("#{$imagedir}/socialmedia/facebook_hover.png"); }
+    }
+
+    .googleplus {
+        background: url("#{$imagedir}/socialmedia/googleplus.png");
+        &:hover { background: url("#{$imagedir}/socialmedia/googleplus_hover.png"); }
+    }
+
+    .twitter {
+        background: url("#{$imagedir}/socialmedia/twitter.png");
+        &:hover { background: url("#{$imagedir}/socialmedia/twitter_hover.png"); }
+    }
+}
