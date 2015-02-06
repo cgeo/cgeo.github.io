@@ -7,10 +7,11 @@ $contentwidth: 800px;
 $leftcolumnwidth: 500px;
 $columnpadding: 30px;
 
-$imagedir: '../images';
+$imagedir: "../images";
 
 @import
     "reset",
-    url('http://fonts.googleapis.com/css?family=Droid+Sans'),
-    "base"
+    url("http://fonts.googleapis.com/css?family=Droid+Sans"),
+    "base",
+    "jquery.fancybox"
 ;

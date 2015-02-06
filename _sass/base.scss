@@ -135,3 +135,18 @@ a {
     background-image: url("#{$imagedir}/donate_big.png");
     margin: auto;
 }
+
+.screenshots {
+    text-align: justify;
+    text-align-last: justify;
+
+    &:after {
+        content: "";
+        display: inline-block;
+        width: 100%;
+    }
+
+    img {
+        width: 0.3 * ($contentwidth - $leftcolumnwidth - $columnpadding);
+    }
+}
