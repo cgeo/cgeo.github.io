@@ -22,6 +22,10 @@ a {
     a {
         margin-right: 1.5em;
         font-size: 1.2em;
+
+        &:hover {
+            color: #ffffff;
+        }
     }
 
     .home {
