@@ -5,6 +5,7 @@
 
     <body>
         <div id="navigation">
+            <a href="/" class="home">Home</a>
             {% capture mdtmp %}{% include navigation.md %}{% endcapture %}
             {{ mdtmp | markdownify }}
         </div>
