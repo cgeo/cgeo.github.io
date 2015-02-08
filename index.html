@@ -6,8 +6,8 @@ layout: default
     <div class="cont">
         <img src="images/cgeo-logo.png" class="logo">
         <div class="column right">
-            {% capture content %}{% include description_short.md %}{% endcapture %}
-            {{ content | markdownify }}
+            {% capture mdtmp %}{% include description_short.md %}{% endcapture %}
+            {{ mdtmp | markdownify }}
             <div id="buttons">
                 <a href="https://play.google.com/store/apps/details?id=cgeo.geocaching"><img src="images/btn_play.png"></a>
                 <span style="margin-right: 40px;">&nbsp;</span>
@@ -16,6 +16,13 @@ layout: default
         </div>
     </div>
 </div>
+
+{% capture mdtmp %}{% include warning.md %}{% endcapture %}
+{% if mdtmp != "" %}
+    <div class="warning">
+        {{ mdtmp | markdownify }}
+    </div>
+{% endif %}
 
 <div class="container">
     <div class="column left">
