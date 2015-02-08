@@ -15,4 +15,5 @@ If you install one of our nightly build to your device, you will get no support 
 ## Download Nightly Builds
 
 [c:geo application](http://download.cgeo.org/cgeo-nightly.apk)\\
-[calendar plugin](http://download.cgeo.org/cgeo-calendar-nightly.apk)
+[calendar plugin](http://download.cgeo.org/cgeo-calendar-nightly.apk)\\
+[contacts plugin](http://download.cgeo.org/cgeo-contacts-nightly.apk)
