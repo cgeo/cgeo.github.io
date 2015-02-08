@@ -1,0 +1,29 @@
+---
+title: F.A.Q.
+layout: page
+---
+
+<h1>FAQ - Frequently Asked Questions</h1>
+
+<ul class="faqnavigation">
+{% for category in site.data.faq %}
+    <li>{{ category.title }}
+        <ul>
+        {% for item in category.items %}
+            <li><a href="#faq.{{ item.title | escape | remove:' ' }}">{{ item.title }}</a></li>
+        {% endfor %}
+        </ul>
+    </li>
+{% endfor %}
+</ul>
+
+{% for category in site.data.faq %}
+    <h2>{{ category.title }}</h2>
+
+    {% for item in category.items %}
+        <div class="faqitem">
+            <h3 id="faq.{{ item.title | escape | remove:' ' }}">{{ item.title }}</h3>
+            {{ item.content | markdownify }}
+        </div>
+    {% endfor %}
+{% endfor %}

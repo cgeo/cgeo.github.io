@@ -104,6 +104,12 @@ a {
         font-size: 1.3em;
     }
 
+    h3 {
+        @extend h1;
+        font-size: 1em;
+        margin-bottom: 0.5 * $fontsize;
+    }
+
     p {
         margin-bottom: $paragraphskip;
         line-height: 1.3em;
@@ -111,6 +117,12 @@ a {
 
     ul {
         list-style-type: disc;
+        margin-left: 2.5em;
+        margin-bottom: $paragraphskip;
+    }
+
+    ol {
+        list-style-type: decimal;
         margin-left: 2.5em;
         margin-bottom: $paragraphskip;
     }
@@ -209,5 +221,41 @@ a {
 
     p:last-child {
         margin-bottom: 0;
+    }
+}
+
+.faqnavigation {
+    list-style-type: none !important;
+    margin-left: 0 !important;
+    color: white;
+    font-weight: bold;
+    line-height: 2em;
+    background: rgba(0,0,0,0.3);
+    border-radius: 0.7em;
+    padding: 1em 2em;
+
+    ul {
+        list-style-type: none;
+        margin-left: 2em;
+    }
+
+    ul li {
+        margin-bottom: 0;
+        font-weight: normal;
+        line-height: 1em;
+    }
+}
+
+.faqitem {
+    background: rgba(0,0,0,0.3);
+    border: 1px solid rgba(100,100,100,0.3);
+    padding: 0.5em 2em;
+    font-size: 0.9em;
+    margin-bottom: 2em;
+
+    h3 {
+        margin-top: 0.5em;
+        margin-bottom: 1em;
+        font-size: 1.3em;
     }
 }
