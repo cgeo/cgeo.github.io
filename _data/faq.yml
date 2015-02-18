@@ -1,0 +1,73 @@
+- title: Getting started
+  items:
+      - title: I am new to Geocaching. How does all of this work?
+        content: |
+            Explaining all details of Geocaching would be a little to much here. However there are some facts you need to know to start Geocaching with c:geo:
+
+            1. You need an account on a geocaching platform to use it in c:geo:
+
+                We are supporting [geocaching.com](http://www.geocaching.com/), which is an international caching platform, and Opencaching platforms in several countries (e.g. [opencaching.de](http://www.opencaching.de/) and [opencaching.pl](http://www.opencaching.pl/)).
+
+                Choose the platform you would like to use, go to the website and create an account (basic accounts are usually free of charge).
+
+                After you retrieved a username and password for one of the platforms, enter them in c:geo settings to allow c:geo to login to the server.
+
+            2. You have to learn about the different cache types, D/T-ratings, etc.
+
+                You might not be successful finding a cache by just selecting a random one in c:geo and navigating to it. There is a lot more which you need to know in order to pick a cache which is suitable for you.
+
+                Most of the mentioned platforms offer detailed tutorials about how Geocaching works. We strongly suggest, that you read through these tutorials to learn what you need to know to find your first cache and how to log it.
+
+                Especially you should be aware of the different types of caches (You will typically not find a mystery cache at the given coordinates) and the T-rating (a rating of 5 means, that you need to climb/swim/dive to get the cache).
+
+            3. Find a cache near you and try it:
+
+                Use the "Live Map" or the "Nearby" function of c:geo to see which caches are around you. Pick a cache (a traditional cache with a low D/T rating will be a good startin point) which you would like to find and go for it!
+
+            Once again: You should make yourself familiar with the different types, terrain ratings, attributes, etc. before starting out to find a cache.
+
+      - title: I managed to login, but how to continue?
+        content: |
+            If you start c:geo the first time, it will directly take you to the service settings.
+
+            If you entered your username and password there, all you have to do is pressing the back key on your device until you reach the c:geo main menu. On the next start c:geo will automatically take you there.
+
+            If you are at the main menu we hope most function are self explaining. Otherwise you might also find some hints in this FAQ.
+
+
+      - title: I see caches in c:geo, but how to get them?
+        content: |
+            If you managed to see caches on the map or in the nearby list, select a cache and open its details.
+
+            Read the listing text and pay attention to the D/T-ratings and attributes to learn more about how to log this cache.
+
+            If you are good to go, press the menu key and select "Navigate".
+
+            You will have several options depending on your needs. Here is a brief description of the most important navigation methods:
+
+            - Compass:
+                It will constantly show you distance and direction to the cache.
+
+            - Radar (optional):
+
+                If you installed an app supporting radar functions this will open a radar screen.
+
+                It is similar to the compass, but the working mode is a little different. You will typically see the cache coordinates as a marker on the radar. If the marker reaches the center, you reached the cache coordinates.
+
+            - Navigation (Drive, Walk, Cycle):
+
+                This will start turn-by-turn navigation using Google Maps
+
+            When you reach the coordinates, remember that GPS has an accuracy of several meters/feet only (also depending on your phones GPS performance). So you might to look around your position as well to find the cache.
+
+      - title: I forgot my username and/or password
+        content: |
+            c:geo is only using the login details you are using on the geocaching website.
+
+            You have to go to geocaching.com to reset your password. After you successfully restored your password there, please go to c:geo settings and enter the new login data.
+
+- title: General
+  items:
+
+- title: Live Map
+  items:
