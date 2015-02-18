@@ -74,6 +74,7 @@
           c:geo uses metric units by default but should detect automatically if your phones default is set to imperial units.
 
           You can also manually select your preference in c:geo settings:
+          
           Menu button - Settings - Appearance - "Use Imperial units"
           
 - title: Live Map
