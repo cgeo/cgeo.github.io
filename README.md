@@ -24,7 +24,7 @@ $ bundle exec jekyll serve
 
 The site is available at `http://localhost:4000`.
 
-As there might be changes in the dependencies and development in Jerkyll you should run `bundle update` once a while to update everything.
+As there might be changes in the dependencies and development in Jekyll you should run `bundle update` once in a while to update everything.
 
 
 
