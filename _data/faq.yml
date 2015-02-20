@@ -67,46 +67,119 @@
             c:geo is only using the login details you specified on the geocaching website.
 
             You have to go to the geocaching website to reset your password. After you successfully restored your password there, please go to c:geo settings and enter the new login data.
-            
+
             For example on [geocaching.com](http://www.geocaching.com/) you can reset your password on [this page](https://www.geocaching.com/login/password.aspx).
 
 - title: General
   items:
       - title: How can I change to miles instead of meters?
         content: |
-          c:geo uses metric units by default but should detect automatically if your phones default is set to imperial units.
+            c:geo uses metric units by default but should detect automatically if your phones default is set to imperial units.
 
-          You can also manually select your preference in c:geo settings: \\
-          Menu button - Settings - Appearance - "Use Imperial units"
+            You can also manually select your preference in c:geo settings: \\
+            Menu button - Settings - Appearance - "Use Imperial units"
 
       - title: Why do the cache details miss new information?
         content: |
-          In order to minimize the network traffic c:geo downloads caches only once and stores them temporary or permanently (if you save them on your list).
-          
-          So if you miss some information (e.g. newest logs are missing, description has changed,etc.) please refresh the stored cache by selecting "Refresh" on the cache detail page.
+            In order to minimize the network traffic c:geo downloads caches only once and stores them temporary or permanently (if you save them on your list).
+
+            So if you miss some information (e.g. newest logs are missing, description has changed,etc.) please refresh the stored cache by selecting "Refresh" on the cache detail page.
 
       - title: Why are all cache coords wrong by some meters/feet?
         content: |
-          In case you are not logged in the geocaching website does not provide correct coordinates. So it seems you did not provide login data or the login data you provided is not correct.
-          
-          Please refer to [Getting started](./faq.html#faq.IamnewtoGe) to learn how to login with c:geo.
+            In case you are not logged in the geocaching website does not provide correct coordinates. So it seems you did not provide login data or the login data you provided is not correct.
+
+            Please refer to [Getting started](./faq.html#faq.IamnewtoGe) to learn how to login with c:geo.
 
       - title: Why does c:geo not use Groundspeak's public API?
         content: |
-          The initial idea of c:geo is to provide a free (and open-source) app for mobile geocaching for everybody. \\
-          What would change with the API? \\
-          - c:geo only for premium members \\
-          - No support for OpenCaching or other platforms than geocaching.com \\
-          - Groundspeak advertisements 
-          
-          There are also problems with the development: \\
-          - The API requires a private key for the app. But c:geo is open-source. There are a lot of independent developers, but only one would get the key. All other developers wouldn't be able to test what they do \\
-          - c:geo would no longer be open source \\
-          - Only a few core developers would be allowed \\
-          - Much slower development would result from that\\
+            The initial idea of c:geo is to provide a free (and open-source) app for mobile geocaching for everybody. \\
+            What would change with the API?
 
-          While Groundspeak's API would fix most of our current problems, c:geo would then force users to pay money to a corporation. This is not the opensource spirit.
-          If Groundspeak says OK to our ideas then c:geo might have an API some day...
-          
+            - c:geo only for premium members
+            - No support for OpenCaching or other platforms than geocaching.com
+            - Groundspeak advertisements
+
+            There are also problems with the development:
+
+            - The API requires a private key for the app. But c:geo is open-source. There are a lot of independent developers, but only one would get the key. All other developers wouldn't be able to test what they do.
+            - c:geo would no longer be open source
+            - Only a few core developers would be allowed
+            - Much slower development would result from that
+
+            While Groundspeak's API would fix most of our current problems, c:geo would then force users to pay money to a corporation. This is not the opensource spirit.
+            If Groundspeak says OK to our ideas then c:geo might have an API some day...
+
+      - title: The website is always shown to English!
+        content: |
+            c:geo is accessing the geocaching website as a customized internet browser. \\
+            In order to retrieve the information from the website it needs to have reliable information. Therefore c:geo will change the language to english when logging in, because iz can not support all different languages.
+
+            Feel free to change the language on the website back to your desired language anytime when using it. c:geo will detect this and automatically swuitch back to english on the next login.
+
+      - title: Unkown Location is shown on the main screen!
+        content: |
+            The address information shown at the bottom of the main screen is an information we receive from a geocoding database based on your position. Sometimes this database has no address information for your location or the service is not running. In this case 'Unknown Location' or even a wrong city could be shown.
+
+            This does not have any impact on the c:geo functionality. As long as you have a GPS fix everything will work normal. \\
+            If you want you can also disable the address information in c:geo settings so your coordinates are shown on the main screen instead of the address information: \\
+            Menu - Settings - Appearance - "Show Address"
+
+      - title: What coordinate formats are supported in c:geo?
+        content: |
+            c:geo supports geocoordinate notations in the following formats:
+
+            1. Degrees and decimal minutes (MinDec)
+
+                Notation: DDD° MM.MMM'
+                Example: N 51° 20.382 E 007° 01.820
+
+            2. Degrees, decimal minutes and seconds (DMS)
+
+                Notation: DDD° MM' SS.SSS"
+                Example: N 51° 20' 22.920" E 007° 01' 49.200"
+
+            3. Only degrees (DegDec)
+
+                Notation: DDD.DDDDD°
+                Example: 51.339700° 7.030333°
+
+            Format 1 is commonly used for Geocaching and thus also the default notation used in c:geo.
+
+            You can change to the other formats by short tap on coordinates shown for caches and waypoints.
+            When entering coordinates in c:geo (e.g. creating a waypoint) you can select the desired format in the headline of the dialog according to the notations listed above.
+
+            The conversion from and to UTM notation is currently not supported by c:geo. In case you need to convert coordinates to UTM you can copy the cache coordinates by long tap on them to perform conversion in another app.
+
+      - title: What is the storage path for log pictures taken with c:geo?
+        content: |
+            If you select to take a new picture it will be saved to a directory which follows a system default. \\
+            On most devices it can be found in a directory "/sdcard/Picures/cgeo".
+
+      - title: Is it possible to edit an existing geocache log with c:geo?
+        content: |
+            No, this is not possible and we do not have plans to implement this on short term.
+            Please use the geocaching website to edit your log after you posted it.
+
+      - title: c:geo data is always stored in internal memory!
+        content: |
+            There are two things we are storing on your device:
+
+            1. The geocache database containing basically the content of your lists
+
+                The database is stored in an internal folder on your device (not accessible without root access). Typically this database will only have a size of some megabyte.
+                For the database you can choose in the c:geo settings whether it is stored internally or on the SD-card.
+
+            2. The additional data (e.g. images, maps) for all the caches stored in the database
+
+                This additional data can be much larger as it contains the images of the cache description and (optionally) the images retrieved from logs and (optionally) static maps.
+                The additional data is stored on SD-card by default (in a folder called ".cgeo").
+
+            Some users are complaining, that the additional data as well as the database (if external storage is selected) are still stored in the internal memory of their devices.
+            We always place the folder on the storage medium that the device tells us is the sdcard. And in fact, technically this is on some devices only a part of the internal memory which is mounted as a SD-card (It's like a SD-card fixed mounted in your device).
+
+            Unfortunately there is no standardized method to find the location of a real SD-card on your device. There are some workarounds but those might fail on some devices, thus we decided not to implement them for now.
+            Furthermore starting with Android 4.4 write access to the real SD-card is forbidden for apps.
+
 - title: Live Map
   items:
