@@ -29,6 +29,7 @@
       - title: How to login?
         content: |
             When you start c:geo the first time it will directly take you to the service settings where you can enter your username and password for the desired caching platforms.
+
             To access the service menu manually from the c:geo main screen please select: \\
             Menu - Settings - Services
 
@@ -61,7 +62,7 @@
 
             When you reach the coordinates, remember that GPS has an accuracy of several meters/feet only (also depending on your phones GPS performance). So you should look around your position as well to find the cache.
 
-      - title: I forgot my username and/or password
+      - title: I forgot my username and/or password!
         content: |
             c:geo is only using the login details you specified on the geocaching website.
 
