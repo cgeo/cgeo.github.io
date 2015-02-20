@@ -26,9 +26,12 @@
 
             Once again: You should make yourself familiar with the different types, terrain ratings, attributes, etc. before starting out to find a cache.
 
-      - title: I managed to login, but how to continue?
+      - title: How to login?
         content: |
-            When you start c:geo the first time, it will directly take you to the service settings.
+            When you start c:geo the first time it will directly take you to the service settings where you can enter your username and password for the desired caching platforms.
+
+            To access the service menu manually from the c:geo main screen please select: \\
+            Menu - Settings - Services
 
             After you entered your username and password there, all you have to do is pressing the back key on your device until you reach the c:geo main menu. On the next start c:geo will automatically take you there.
 
@@ -59,7 +62,7 @@
 
             When you reach the coordinates, remember that GPS has an accuracy of several meters/feet only (also depending on your phones GPS performance). So you should look around your position as well to find the cache.
 
-      - title: I forgot my username and/or password
+      - title: I forgot my username and/or password!
         content: |
             c:geo is only using the login details you specified on the geocaching website.
 
@@ -75,6 +78,35 @@
 
           You can also manually select your preference in c:geo settings: \\
           Menu button - Settings - Appearance - "Use Imperial units"
+
+      - title: Why do the cache details miss new information?
+        content: |
+          In order to minimize the network traffic c:geo downloads caches only once and stores them temporary or permanently (if you save them on your list).
+          
+          So if you miss some information (e.g. newest logs are missing, description has changed,etc.) please refresh the stored cache by selecting "Refresh" on the cache detail page.
+
+      - title: Why are all cache coords wrong by some meters/feet?
+        content: |
+          In case you are not logged in the geocaching website does not provide correct coordinates. So it seems you did not provide login data or the login data you provided is not correct.
+          
+          Please refer to [Getting started](./faq.html#faq.IamnewtoGe) to learn how to login with c:geo.
+
+      - title: Why does c:geo not use Groundspeak's public API?
+        content: |
+          The initial idea of c:geo is to provide a free (and open-source) app for mobile geocaching for everybody. \\
+          What would change with the API? \\
+          - c:geo only for premium members \\
+          - No support for OpenCaching or other platforms than geocaching.com \\
+          - Groundspeak advertisements 
+          
+          There are also problems with the development: \\
+          - The API requires a private key for the app. But c:geo is open-source. There are a lot of independent developers, but only one would get the key. All other developers wouldn't be able to test what they do \\
+          - c:geo would no longer be open source \\
+          - Only a few core developers would be allowed \\
+          - Much slower development would result from that\\
+
+          While Groundspeak's API would fix most of our current problems, c:geo would then force users to pay money to a corporation. This is not the opensource spirit.
+          If Groundspeak says OK to our ideas then c:geo might have an API some day...
           
 - title: Live Map
   items:
