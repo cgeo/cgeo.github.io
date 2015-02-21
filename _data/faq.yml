@@ -1,4 +1,4 @@
-- title: Getting started
+- title: Basics
   items:
       - title: I am new to Geocaching. How does all of this work?
         content: |
@@ -51,7 +51,7 @@
 
                 It will constantly show you distance and direction to the cache.
 
-            - Radar (optional):
+            - Radar ([optional](http://lineflyer.github.io/faq.html#faq.HowcanIuse)):
 
                 If you installed an app supporting radar functions this will open a radar screen.
                 It is similar to the compass, but the working mode is a little different. You will typically see the cache coordinates as a marker on the radar. If the marker reaches the center, you reached the cache coordinates.
@@ -69,6 +69,36 @@
             You have to go to the geocaching website to reset your password. After you successfully restored your password there, please go to c:geo settings and enter the new login data.
 
             For example on [geocaching.com](http://www.geocaching.com/) you can reset your password on [this page](https://www.geocaching.com/login/password.aspx).
+
+      - title: Login failed is shown on the main screen!
+        content: |
+            First of all please check carefully whether you entered the correct username and password.
+            You can find this in: \\
+            Menu - Settings - Services
+            Afterwards select "Check Login" (for geocaching.com users only) to see if login is either now possible or what error is returned.
+
+            If you have doublechecked your credentials and still get an error message (e.g. Login failed, Unknown Error) the following might be helpful:
+
+            Sometimes network providers insert messages into the HTML-traffic which prevents c:geo from logging in while on mobile network.
+            A clear indication for this problem is, that c:geo only works on your WiFi connection at home but not while on a mobile network.
+            In this case please go to the c:geo settings Menu - Settings - Services and enable "Identify as Android Browser".
+            Afterwards you might have to restart your phone to be sure these settings take effect.
+
+            There have been reports, that in rare cases the login still fails although the login data is OK and also "Identify as Android browser" did not help.
+            In this case we recommend resetting c:geo to factory defaults as described [here - LINK TBC](#):
+
+            If the problem still persists, please contact our support and provide a system log.
+
+      - title: How to reset c:geo to factory defaults?
+        content: |
+            Attention: \\
+            This procedure will delete all stored caches and app settings!
+
+            1. If needed, perform a backup of your caches in Menu - Settings - System - Backup
+            2. Go to your Android settings (not c:geo settings) and select Apps or Appmanager - c:geo - "Delete data"
+            3. On the next start of c:geo it will be back to factory settings and take you directly to the login screen.
+            4. Enter your login data for the desired geocaching website
+            5. Restore your backup (You will be asked for restoring once you enter the main screen of c:geo)
 
 - title: General
   items:
@@ -420,5 +450,140 @@
 
             If you are premium member and c:geo does not know the location of a cache, please check your login and relogin to make sure c:geo knows you are a premium member.
 
+      - title: How can I use the Radar navigation? 
+        content: |
+            The "Radar" function works together with the third party app called "GPS Status & Toolbox" available on [GooglePlay](https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2).
+
+            Once you installed the app c:geo will additionally offer "Radar" as a navigation option.
+
+      - title: The dates in the logbook are wrong or not shown at all! 
+        content: |
+            If you are running the legacy version of c:geo (only for Android version below 2.3) we have some limtations regarding the supported date formats of geocaching.com.
+            In all other versions of c:geo all possible date formats are supported.
+
+            If you are on an Android version above 2.2 and notice incorrect dates please update to the newest version of c:geo and refresh the affected caches.
+
+            The following explanation is only applicable to the legacy version of c:geo:
+
+            With the legacy version the following formats are supported:
+
+            yyyy-MM-dd \\
+            yyyy/MM/dd \\
+            MM/dd/yyyy \\
+            dd/MMM/yyyy \\
+            MMM/dd/yyyy \\
+            dd MMM yy
+
+            (dd = day, MM = month, yyyy/yy = year)
+
+            The format can be changed on the geocaching websites user preferences page.
+
+            Maybe you notice that one format is missing: dd/MM/yyyy \\
+            The reason for this is quite simple: \\
+            Is 04/10/2011 the 4th of October or 10th of April? So we would have to guess which would lead to inconsistency. 
+            Since MM/dd/yyyy is the default at the geocaching website we are supporting this. 
+            No problems have ever been reported with MM/dd/yyyy. If you have problems please change the date format to this on the website and refresh the caches showing wrong dates.
+
 - title: Live Map
+  items:
+      - title: What are the different markers on the cache icons?
+        content: |
+            In order to provide more info about the status of a cache c:geo provides several markers which are shown together with the cache icon on the live map.
+
+            Below you will find a short description of them:
+
+            Pen icon: Personal note available for this cache \\
+            Flagpost icon: Cache is shown at modified coordinates \\
+            Disk icon: Cache is saved on device \\
+            Yellow Smiley: You already found this cache \\
+            Red Smiley: An offline log is stored in c:geo for this cache \\
+            Yellow star: This is your own cache
+
+      - title: Why do I see ??-caches on the map?
+        content: |
+            It is normal that you sometimes see some ??-caches on the map.
+
+            The ?? means that c:geo was not able to identify the type of this cache.
+            This mostly happens if too many caches are displayed at once (i.e. your zoom level is very low or the cache densitiy is very high).
+            If you reduce the amount of caches shown (by zooming in) or if you click on a specific cache you will get the info about the cache type.
+            
+            If all caches are shown as ?? you probably changed the live map loading strategy to "Fastest". With this setting the cache types are not requested to speed up live map loading.
+            You have to change it back to another mode to see the cache types. This can be done in \\
+            Live Map - Menu - Strategy
+
+      - title: Why do I see orange circles around the caches on the map?
+        content: |
+            Caches with orange circles mean that c:geo does only have a graphical approximation of the cache coordinates.
+            The accuracy of the cache position on the map depends on the zoom level and maybe some meters/feet off. 
+            The closer you zoom in the more precise the cache position will get.
+
+            To retrieve precise coordinates for the map you can also open the cache details once or store the cache for offline.
+            In these cases the orange circle will disappear indicating that the coordinates are precise.
+
+            You can influence the accuracy of the live map by selecting an appropriate live map loading strategy in \\
+            Live Map - Menu - Strategy
+
+      - title: What are the live map loading strategies?
+        content: |
+            Depending on your requirements the live map offers four different strategies.
+            Some are focused on fast loading, some on accuracy of cache positions and information.
+
+            You can select the strategy in \\
+            Live Map - Menu - Strategy
+
+            This is the meaning of the different options:
+
+            Fastest: \\
+            Load approximated cache coordinates only and don't identify the cache type 
+
+            Fast: \\
+            Same as fastest but try to identify the cache type
+
+            Detailed: \\
+            Same as fast but load details for 20 caches around your position
+
+            Speed dependent: \\
+            Automatic switch from "Detailed" to "Fast" at 30km/h (This is the default setting)
+
+            For getting most accurate information you should select "Detailed", for a fast loading and less priority on detailed information you should select "Fastest" or "Fast".
+
+            The "fast" strategy will only identify "Traditional", "Multi", "Mystery" and "Event" caches. Other cache types will be shown as ??-caches.
+
+      - title: I cannot use Google Maps anymore!
+        content: |
+            On some devices there seems to be a problem for c:geo to initially detect whether Google Maps is installed on them.
+            This leads to the problem, that only OSM maps are offered on the live map at the first start of c:geo after installing it.
+
+            If this happens to you, please force stop c:geo or reboot your phone and start c:geo again.
+            Then open the live map, click the layer icon and select Google Maps. After doing this once, usually Google Maps will stay available.
+
+      - title: My owned/found caches are still shown!
+        content: |
+            Although you activated the option to hide your owned/found caches in c:geo there are some situations where some of them might still be shown on the live map.
+            This is the same as in the live map on the geocaching website: If you zoom out to a huge area own/found caches will no longer be hidden.
+
+            Please zoom in to allow c:geo to detect own/found and hide them.
+
+- title: Send2cgeo
+  items:
+
+- title: Offline maps
+  items:
+  
+- title: Offline caching
+  items:
+  
+- title: Opencaching platforms
+  items:
+  
+- title: Device specific
+  items:
+
+- title: Actionbar menus
+  items:
+  
+- title: Calendar plugin
+  items:
+  
+- title: Contacts plugin
   items:
