@@ -486,6 +486,19 @@
 
 - title: Live Map
   items:
+        - title: What are the different markers on the cache icons?
+        content: |
+            In order to provide more info about the status of a cache c:geo provides several markers which are shown together with the cache icon on the live map.
+
+            Below you will find a short description of them:
+
+            Pen icon: Personal note available for this cache \\
+            Flagpost icon: Cache is shown at modified coordinates \\
+            Disk icon: Cache is saved on device \\
+            Yellow Smiley: You already found this cache \\
+            Red Smiley: An offline log is stored in c:geo for this cache \\
+            Yellow star: This is your own cache
+
       - title: I cannot use Google Maps anymore!
         content: |
             On some devices there seems to be a problem for c:geo to initially detect whether Google Maps is installed on them.
