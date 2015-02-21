@@ -252,9 +252,31 @@
             c:geo scans the whole SD card if it cannot find gpx files in the predefined folder.
             If you have a lot of files and folders on your SD-card this scanning might take some time.
 
-            It is useful to put all of your PQs into a specific folder and set this as the default import directory for gpx imports. This folder will be scanned first which will speed up the process. \\
+            It is useful to put all of your PQs into a specific folder and set this as the default import directory for gpx imports. This folder will be scanned first which will speed up the process. 
+
             You can specify the GPX import and export folders in the settings of c:geo: \\
             Menu - Settings - System - "GPX Export Directory" / "GPX Import Directory"
+
+      - title: I am not able to install c:geo from PlayStore!
+        content: |
+            There are some reasons why installing c:geo from the PlayStore might not be possible.
+            
+            1. c:geo is shown as "Not supported" for your device:
+
+                This means that either your device is running on an Android version below 2.1 or it does not support GPS.
+
+                Android versions below 2.1 are no longer supported by c:geo. 
+
+                If you are on a Android version above 2.1 but your device has no GPS and you still want to install c:geo on it, you have to install c:geo manually by downloading the APK file [here](https://github.com/cgeo/cgeo/releases/latest).
+                But be aware, that you can not navigate to caches without GPS!
+
+            2. You can not find c:geo on the Playstore:
+                That is probably a wrong setting in your PlayStore. 
+                It has a content filtering with a rating that has four different levels, where "All" is the level which can be shown to all users. 
+                c:geo however is not on that level, because Google requires apps with position tracking to be level "Low".
+  
+                To be able to install the app, you must either choose "Low" (pre teen) or set the option "Install all apps" (which looks exactly like the "All" level, but has a completely different meaning).
+
 
 - title: Live Map
   items:
