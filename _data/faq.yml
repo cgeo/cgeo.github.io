@@ -218,5 +218,87 @@
 
             If nothing helps and the problem persists, please contact us and provide detailed information about your device and the compass misbehaviour.
 
+      - title: Is c:geo available for iOS or WindowsPhone?
+        content: |
+            No, c:geo is written for Android and has more than 50 000 lines of code. We will not port it to iOS or other non android systems because it is too much work. Furthermore the iOS AppStore / Apple is very restrictive and most of us don't like it.
+
+            But c:geo is open source! That means that everyone can get the code from [GitHub](https://github.com/cgeo/cgeo) and rewrite it for other operating systems. Feel free to port (and maintain) it, but please keep the open source license in mind.
+
+      - title: Does c:geo work on Blackberry devices?
+        content: |
+            Although there is no native c:geo app for Blackberry OS you can still run c:geo on it.
+            The current version of Blackberry OS supports sideloading of Android applications. 
+
+            Just download the Android APK file [here](https://github.com/cgeo/cgeo/releases/latest) and install it to your Blackberry phone. Instructions about sideloading Android applications can be found in the internet.
+            But please be aware, that we can not give a guarantee that all features are working and can't provide support in case of problems.
+
+      - title: Translations are missing or wrong!
+        content: |
+            We are using a crowd sourced translation platform to improve the translation and even include new languages.
+            If you see untranslated (i.e. English) or wrong strings or your language is not even supported, you are invited to contribute on this platform!
+            
+            Just create a free account on [Crowdin](https://crowdin.com/) and start contributing translations or vote for existing proposals to the [c:geo Crowdin Project](https://crowdin.com/project/cgeo).
+
+      - title: Logs made with c:geo are truncated on the website!
+        content: |
+            Especially on [geocaching.com](http://www.geocaching.com/) it may happen that log texts are interpreted as HTML code although they are not written in HTML. \\
+            If you e.g. include a "<" or ">" sign in your log, it may appear truncated or bad formatted later. This does not only affect c:geo but also if you write this kind of log direclty on the website.
+            Reason for this is a bad implementation for HTML detection on the website, but no fault in c:geo.
+
+            You need either to avoid such special characters in your log or use HTML-formatted logs to work around this problem.
+
+      - title: Scanning for GPX files takes a long time!
+        content: |
+            c:geo scans the whole SD card if it cannot find gpx files in the predefined folder.
+            If you have a lot of files and folders on your SD-card this scanning might take some time.
+
+            It is useful to put all of your PQs into a specific folder and set this as the default import directory for gpx imports. This folder will be scanned first which will speed up the process. 
+
+            You can specify the GPX import and export folders in the settings of c:geo: \\
+            Menu - Settings - System - "GPX Export Directory" / "GPX Import Directory"
+
+      - title: I am not able to install c:geo from PlayStore!
+        content: |
+            There are some reasons why installing c:geo from the [PlayStore](https://play.google.com/store/apps/details?id=cgeo.geocaching) might not be possible.
+            
+            1. c:geo is shown as "Not supported" for your device:
+
+                This means that either your device is running on an Android version below 2.1 or it does not support GPS.
+
+                Android versions below 2.1 are no longer supported by c:geo. 
+
+                If you are on a Android version above 2.1 but your device has no GPS and you still want to install c:geo on it, you have to install c:geo manually by downloading the APK file [here](https://github.com/cgeo/cgeo/releases/latest).
+                But be aware, that you can not navigate to caches without GPS!
+
+            2. You can not find c:geo on the Playstore:
+
+                That is probably a wrong setting in your [PlayStore settings](https://play.google.com/settings). 
+                It has a content filtering with a rating that has four different levels, where "All" is the level which can be shown to all users. 
+                c:geo however is not on that level, because Google requires apps with position tracking to be level "Low".
+  
+                To be able to install the app, you must either choose "Low" (pre teen) or set the option "Install all apps" (which looks exactly like the "All" level, but has a completely different meaning).
+
+      - title: How to send a log to the developers?
+        content: |
+            If the app is not working as it should you can send a log to the developers.
+
+            When c:geo crashes or does not work properly it writes debug messages to an android log if this option is set in c:geo settings.
+            This log contains data of all apps for a short period of time (from several seconds to several minutes).
+            Collecting a log as fast as possible after the crash is essential for us.
+
+            Please note that your device needs to have an Android version below 4.1 to get a proper system log.
+            On higher Android versions Google disabled the logging ability for security reasons except your device is rooted.
+
+            Please find a detailed description of how to get a log in our [GitHub Wiki](https://github.com/cgeo/cgeo/wiki/Send-log-to-developers).
+
+      - title: I want to install an older version of c:geo!
+        content: |
+            Generally we do not recommend to install an outdated version of c:geo, because it might no longer work as expected as newer versions often include adaptions to changed functions of the geocaching platforms.
+            So we strongly recommend not to go back but to apply all updates as soon as they are available.
+
+            We can not guarantee that older versions will still work!
+
+            If you however still want to install an old version (e.g. for testing purposes) you can find a version history with download option in our [Guthub Release History](https://github.com/cgeo/cgeo/releases/).
+
 - title: Live Map
   items:
