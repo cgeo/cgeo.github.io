@@ -348,6 +348,15 @@
             The only possibility is to hide them in your lists and search results by applying a local filter in c:geo: \\
             Menu - Filter - Status - "All member access"
 
+      - title: I can't see PM only caches although I am Premium Member!
+        content: |
+            While logging in to the geocaching.com website c:geo will automatically detect whether you are basic or premium member, but c:geo will only perform a login if it is necessary.
+            So after you became a premium member it can happen, that c:geo does not know this yet.
+
+            In this case you can force c:geo to login by either selecting \\
+            Menu - Settings - Services - geocaching.com - Check Login \\
+            or simply rebooting your phone and starting c:geo again.
+
       - title: What is the meaning of the icons on the right side of cache lists?
         content: |
             If you look at a list of caches (a search result or caches saved on your device) the right side contains some symbols, colors and numbers.
