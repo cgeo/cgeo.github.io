@@ -385,5 +385,14 @@
 
             If your problem is still not solved, please contact us and provide a detailed description of your problem and what you tried already to sovle it. We will answer as soon as possible.
 
+      - title: The nearby search also returns caches far away!
+        content: |
+            Besides geocaching.com c:geo is also supporting opencaching platforms for several countries.
+            If you activate the opencaching service in the c:geo settings the nearby search will also provide you the nearest opencaching caches.
+
+            if you however accidentally activate an opencaching platform of a foreign country (e.g. you are living in Germany and have activated "opencaching.org.uk") you will see caches some hundred kilometers away in the nearby list as those are the nearest caches on this platform.
+            In this case please deactivate the unneeded opencaching platforms in: \\
+            Menu - Settings - Services - "Opencaching.xx". 
+
 - title: Live Map
   items:
