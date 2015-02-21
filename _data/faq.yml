@@ -534,11 +534,14 @@
             This is the meaning of the different options:
 
             Fastest: \\
-            Load approximated cache coordinates only and don't identify the cache type
+            Load approximated cache coordinates only and don't identify the cache type 
+
             Fast: \\
             Same as fastest but try to identify the cache type
+
             Detailed: \\
             Same as fast but load details for 20 caches around your position
+
             Speed dependent: \\
             Automatic switch from "Detailed" to "Fast" at 30km/h (This is the default setting)
 
