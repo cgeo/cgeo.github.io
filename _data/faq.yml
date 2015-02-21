@@ -585,6 +585,16 @@
 
             You can now use Menu - "Enable live" to activate the live map function.
 
+      - title: The live map is not showing any caches!
+        content: |
+            Please make sure that live mode is enabled. You might have accidentally disabled it: \\
+            Live Map - Menu - Enable live
+
+            You can see whether live is enabled or not by looking at the headline: \\
+            "Map" means live mode is disabled \\
+            "Live Map" means live mode is enabled \\
+
+            If still no caches are loaded please make sure you are logged in correctly.
 
 - title: Send2cgeo
   items:
