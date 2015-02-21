@@ -204,6 +204,18 @@
             As current smartphones can produce high res pictures with a size of several MB the upload of those can take some minutes (depending on the connection speed) if you do not select to scale them.
             Please consider using the c:geo scaling function to scale down the resolution before submitting the log.
 
+     - title: The compass shows wrong directions or stops moving!
+        content: |
+            In 99% of these cases the problem is your device. 
+            c:geo only uses the position and compass information provided by the Android system.
+
+            Please first of all try to calibrate the compass sensors of your device. On most devices this can be done by turning the devices around all of its axis three times or moving it horizontally in shape of the number 8 until the compass shows the right magnetic direction.
+            Please be aware that electric field (such as high voltage lines near to you) might influence the device sensors.
+
+            If the problem is still not solved you should try another app with compass functionality (e.g. [GPS Status & Toolbox](https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2)) to verify your device capabilities.
+            If another app has the same problems you can be sure, that the problem is on your device.
+
+            If nothing helps and the problem persists, please contact us and provide detailed information about your device and the compass misbehaviour.
 
 - title: Live Map
   items:
