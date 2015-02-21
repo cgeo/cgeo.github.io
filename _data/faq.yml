@@ -426,6 +426,34 @@
 
             Once you installed the app c:geo will additionally offer "Radar" as a navigation option.
 
+      - title: The dates in the logbook are wrong or not shown at all! 
+        content: |
+            If you are running the legacy version of c:geo (only for Android version below 2.3) we have some limtations regarding the supported date formats of geocaching.com.
+            In all other versions of c:geo all possible date formats are supported.
+
+            If you are on an Android version above 2.2 and notice incorrect dates please update to the newest version of c:geo and refresh the affected caches.
+
+            The following explanation is only applicable to the legacy version of c:geo:
+
+            With the legacy version the following formats are supported:
+
+            yyyy-MM-dd \\
+            yyyy/MM/dd \\
+            MM/dd/yyyy \\
+            dd/MMM/yyyy \\
+            MMM/dd/yyyy \\
+            dd MMM yy
+
+            (dd = day, MM = month, yyyy/yy = year)
+
+            The format can be changed on the geocaching websites user preferences page.
+
+            Maybe you notice that one format is missing: dd/MM/yyyy \\
+            The reason for this is quite simple: \\
+            Is 04/10/2011 the 4th of October or 10th of April? So we would have to guess which would lead to inconsistency. 
+            Since MM/dd/yyyy is the default at the geocaching website we are supporting this. 
+            No problems have ever been reported with MM/dd/yyyy. If you have problems please change the date format to this on the website and refresh the caches showing wrong dates.
+
 - title: Live Map
   items:
       - title: I cannot use Google Maps anymore!
