@@ -319,7 +319,8 @@
       - title: How to setup my device to get the best possible location?
         content: |
             Android has different meachnisms to provide location information to apps:
-            1. Network based location information derived from Wifi signals and mobile networks
+
+            1. Network based location information derived from Wifi signals and mobile networks \\
             2. GPS position information derived from the device GPS receiver
 
             You should make sure to enable both of these sources to get the best possible location information in c:geo in every situation.
