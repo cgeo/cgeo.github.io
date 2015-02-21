@@ -499,6 +499,15 @@
             Red Smiley: An offline log is stored in c:geo for this cache \\
             Yellow star: This is your own cache
 
+      - title: Why do I see ??-caches on the map?
+        content: |
+            It is normal that you sometimes see some ??-caches on the map.
+
+            The ?? means that c:geo was not able to identify the type of this cache.
+            This mostly happens if too many caches are displayed at once (i.e. your zoom level is very low or the cache densitiy is very high).
+            If you reduce the amount of caches shown (by zooming in) or if you click on a specific cache you will get the info about the cache type.
+
+
       - title: I cannot use Google Maps anymore!
         content: |
             On some devices there seems to be a problem for c:geo to initially detect whether Google Maps is installed on them.
