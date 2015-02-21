@@ -299,6 +299,126 @@
             We can not guarantee that older versions will still work!
 
             If you however still want to install an old version (e.g. for testing purposes) you can find a version history with download option in our [Guthub Release History](https://github.com/cgeo/cgeo/releases/).
+            Please be aware that you need to uninstall a newer version of c:geo on your device before installing an older version as downgrading is not possible.
+
+      - title: I don't use Google Play but still want to use c:geo!
+        content: |
+            You can download the newest version of c:geo directly to your device from [here](https://github.com/cgeo/cgeo/releases/latest/).
+
+      - title: Can I hide a cache and publish it using c:geo?
+        content: |
+            Publishing a new cache with c:geo is not possible and there are no plans to implement this function.
+            However you can still use c:geo to record waypoints to help you planning your cache hide. 
+            To do so simply use the 'All destination' function which offers a history of the coordinates you entered.
+
+            There are also other apps available on [GooglePlay](https://play.google.com/) helping you to record and average coordinates for your new cache (e.g. [GPS Averaging](https://play.google.com/store/apps/details?id=org.destil.gpsaveraging) or [Geocache Placer](https://play.google.com/store/apps/details?id=dk.rocologo.geocacheplacer)).
+
+            In order to e.g. beta-test an unpublished cache you will not be able to access the cache online (because it is unpublished) but you can import the cache via GPX or add the cache waypoints manually to another cache already stored on your device.
+            Furthermore you can view your own unpublished caches with c:geo by searching for its geocode online.
+
+      - title: How to setup my device to get the best possible location?
+        content: |
+            Android has different meachnisms to provide location information to apps:
+
+            1. Network based location information derived from Wifi signals and mobile networks
+            2. GPS position information derived from the device GPS receiver
+
+            You should make sure to enable both of these sources to get the best possible location information in c:geo in every situation.
+            This can usually be done in your device settings (not in c:geo itself) in a menu called "Locations" or similar.
+            Please select all possible sources in that menu or (in newer Android versions) select the "High accuracy mode".
+
+            Furthermore you should check if your device supports "Google Play Services" and eventually enable the usage of that in c:geo: \\
+            Menu - Settings - System - "Use Google Play Services"
+
+      - title: I am not able to post a log online!
+        content: |
+            If you select the menu icon to send your log and you get a message saying "Loading Log-Page" the log page on the server was not yet loaded.
+            Check if you have an internet connection and wait a moment until the required data has been loaded and then try again to send your log.
+
+            In case you can not establish an internet connection or the geocaching server is down you can also select to just save the log on your device and send it later by reaccessing the log page.
+            To do this just press back on your device, the log will automatically be saved.
+
+            You can also batch submit offline stored logs as fieldnotes to the geocaching website at a later point of time.
+
+      - title: How can I hide PM only caches?
+        content: |
+            On geocaching.com some caches are accessible for Premium Members only. If you are a Basic Member you will still see them in your search results and on the live map but can't open them.
+            Sadly it is not possible to hide them by default due to server limitations.
+
+            The only possibility is to hide them in your lists and search results by applying a local filter in c:geo: \\
+            Menu - Filter - Status - "All member access"
+
+      - title: I can't see PM only caches although I am Premium Member!
+        content: |
+            While logging in to the geocaching.com website c:geo will automatically detect whether you are basic or premium member, but c:geo will only perform a login if it is necessary.
+            So after you became a premium member it can happen, that c:geo does not know this yet.
+
+            In this case you can force c:geo to login by either selecting Menu - Settings - Services - geocaching.com - Check Login or simply rebooting your phone and starting c:geo again.
+
+      - title: What is the meaning of the icons on the right side of cache lists?
+        content: |
+            If you look at a list of caches (a search result or caches saved on your device) the right side contains some symbols, colors and numbers.
+            Here is a brief explanation of their meaning:
+
+            Color in the lower half:
+
+            The color represents the average [GCVote](http://www.gcvote.com) rating for this cache, where green means good (>3,5 stars),brown means average (between 2,5 and 3,5) and red means a rather bad rating (<2,5 stars).
+            If there is no color shown the cache does not have any votes yet or is not supported in GCVote (GCVote does curerntly only support geocaching.com caches).
+
+            Number in the lower half:
+
+            The number in this field represents the amount of favorite points of geocaching.com or referals for opencaching.x given to that cache by users.
+
+            Symbol with number in the upper half:
+
+            The symbol is a marker which is only shown if the cache contains trackables.
+            The number right next to it is the amount of trackables listed in this cache.
+
+      - title: c:geo suddenly stopped working!
+        content: |
+            There can be several reasons that c:geo is not working as it should.
+            You should do the following steps:
+
+            First of all please check if you are using the latest version (check on [GooglePlay](https://play.google.com/store/apps/details?id=cgeo.geocaching) for updates or load the latest version directly from [here](https://github.com/cgeo/cgeo/releases/latest)). If a new version is available you should also see an update notification on the c:geo main screen.
+            If you are using an outdated version please update, because there might be changes on the geocaching website which need a new version of c:geo to work.
+
+            Please check if your device is connected to the internet and also try other connections (e.g. Wifi instead of mobile network or vice versa).
+            If c:geo works on another connection there seems to be a problem with your network.
+
+            Go to c:geo settings (Menu - Settings - Services) and check your login. 
+            If it fails please make sure you are using the correct login credentials. Those are the same you use for the geocaching website.
+
+            Check if there are any notifications about problems shown on the c:geo main screen and check our [Facebook page](https://www.facebook.com/android.geocaching) to see if others also have a problem and/or we reported a known problem there.
+
+            If your problem is still not solved, please contact us and provide a detailed description of your problem and what you tried already to solve it. We will answer as soon as possible.
+
+      - title: The nearby search also returns caches far away!
+        content: |
+            Besides geocaching.com c:geo is also supporting opencaching platforms for several countries.
+            If you activate the opencaching service in the c:geo settings the nearby search will also provide you the nearest opencaching caches.
+
+            if you however accidentally activate an opencaching platform of a foreign country (e.g. you are living in Germany and have activated "opencaching.org.uk") you will see caches some hundred kilometers away in the nearby list as those are the nearest caches on this platform.
+            In this case please deactivate the unneeded opencaching platforms in: \\
+            Menu - Settings - Services - "Opencaching.xx". 
+
+      - title: c:geo does not know the location of a cache!
+        content: |
+            If you are Basic Member of geocaching.com and try to navigate to a cache directly from a search result, you might see this error message.
+
+            If you are no Premium member the geocaching server does not provide coordinates in searches but only an estimation of the distance to the caches and "directional images".
+            c:geo uses and shows this distance estimation and the "directional images" in the search results.
+            The caches are still sorted by distance, but be aware that the distance shown is the one based on your location when you performed that search. It will not change if your position changes.
+
+            Additionally you will not be able to show a map of those results or directly navigate to a cache as c:geo does not have the coordinates for these caches.
+
+            To get exact coordinates as a basic member you have to do one of the following:
+
+            1. Open the details or save the geocache to your device. This will request the exact coordinates.
+
+            2. Enable the CAPTCHA in the c:geo settings if desired (Menu - Settings - Services - geocaching.com - Basic member options). 
+            After entering the CAPTCHA c:geo will have the coordinates and proper sorting by distance, showing on map and navigating is possible.
+
+            If you are premium member and c:geo does not know the location of a cache, please check your login and relogin to make sure c:geo knows you are a premium member.
 
 - title: Live Map
   items:
