@@ -33,3 +33,11 @@ As there might be changes in the dependencies and development in Jekyll you shou
 The FAQ is located in `_data/faq.yml`. As you can see this is a [YAML](http://www.yaml.org/) file. You do not need to understand the complete syntax, just keep the indentation as it is.
 
 Each FAQ entry uses Markdown (with [kramdown](http://kramdown.gettalong.org/) extensions) for its content.
+
+
+
+# Enable a warning
+
+You can enable a warning by adding content to `_includes/warning.md` (Markdown syntax). It will be shown on the index page (currently only a single, red warning block).
+
+To disable the warning again, delete the content of `_includes/warning.md` (including all whitespaces, but not the file).
