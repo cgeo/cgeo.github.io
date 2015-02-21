@@ -564,6 +564,37 @@
 
             Please zoom in to allow c:geo to detect own/found and hide them.
 
+      - title: Starting the live map crashes c:geo!
+        content: |
+            In rare cases starting the (live) map freezes or crashes c:geo permanently. This is a rare problem we were not yet able to debug.
+            
+            If this happens to you please send us a log (as described in this FAQ).
+            
+            To get around this problem start c:geo, go to \\
+            Menu - Settings - Map - "Select Map Source" \\
+            and change the map to OSM:Mapnik.
+
+            Now start the live map, it should work. After the live map is started you can switch back to Google Maps if desired.
+
+      - title: Is there an easy way to start the live map for a distant location?
+        content: |
+            Yes, there is an easy way to do this without the need to zoom/scroll around:
+
+            Perform a search for the desired address/region. Once the results are displayed, click on the map icon in the upper right.
+            You will get the map for the location already containing the caches from your search. 
+
+            You can now use Menu - "Enable live" to activate the live map function.
+
+      - title: The live map is not showing any caches!
+        content: |
+            Please make sure that live mode is enabled. You might have accidentally disabled it: \\
+            Live Map - Menu - Enable live
+
+            You can see whether live is enabled or not by looking at the headline: \\
+            "Map" means live mode is disabled, "Live Map" means live mode is enabled
+
+            If still no caches are loaded please make sure you are logged in correctly.
+
 - title: Send2cgeo
   items:
 
