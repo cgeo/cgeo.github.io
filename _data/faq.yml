@@ -591,8 +591,7 @@
             Live Map - Menu - Enable live
 
             You can see whether live is enabled or not by looking at the headline: \\
-            "Map" means live mode is disabled \\
-            "Live Map" means live mode is enabled \\
+            "Map" means live mode is disabled, "Live Map" means live mode is enabled
 
             If still no caches are loaded please make sure you are logged in correctly.
 
