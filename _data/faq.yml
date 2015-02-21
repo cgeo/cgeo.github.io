@@ -566,3 +566,24 @@
 
 - title: Send2cgeo
   items:
+
+- title: Offline maps
+  items:
+  
+- title: Offline caching
+  items:
+  
+- title: Opencaching platforms
+  items:
+  
+- title: Device specific
+  items:
+
+- title: Actionbar menus
+  items:
+  
+- title: Calendar plugin
+  items:
+  
+- title: Contacts plugin
+  items:
