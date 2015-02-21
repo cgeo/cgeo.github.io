@@ -320,7 +320,7 @@
         content: |
             Android has different meachnisms to provide location information to apps:
 
-            1. Network based location information derived from Wifi signals and mobile networks \\
+            1. Network based location information derived from Wifi signals and mobile networks
             2. GPS position information derived from the device GPS receiver
 
             You should make sure to enable both of these sources to get the best possible location information in c:geo in every situation.
@@ -339,6 +339,14 @@
             To do this just press back on your device, the log will automatically be saved.
 
             You can also batch submit offline stored logs as fieldnotes to the geocaching website at a later point of time.
+
+      - title: How can I hide PM only caches?
+        content: |
+            On geocaching.com some caches are accessible for Premium Members only. If you are a Basic Member you will still see them in your search results and on the live map but can't open them.
+            Sadly it is not possible to hide them by default due to server limitations.
+
+            The only possibility is to hide them in your lists and search results by applying a local filter in c:geo: \\
+            Menu - Filter - Status - "All member access"
 
 - title: Live Map
   items:
