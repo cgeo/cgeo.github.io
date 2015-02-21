@@ -202,6 +202,7 @@
       - title: Submitting a log with picture takes a long time!
         content: |
             As current smartphones can produce high res pictures with a size of several MB the upload of those can take some minutes (depending on the connection speed) if you do not select to scale them.
+
             Please consider using the c:geo scaling function to scale down the resolution before submitting the log.
 
       - title: The compass shows wrong directions or stops moving!
