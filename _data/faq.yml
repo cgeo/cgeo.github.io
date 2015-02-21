@@ -189,7 +189,7 @@
             In case you currently only use Facebook to login to geocaching.com, you have to go to the [Password Reset Page](https://www.geocaching.com/login/password.aspx) to set up a regular password first.
             After you got this password you can use it together with your username to log in with c:geo.
 
-     - title: Can c:geo post to Facebook?
+      - title: Can c:geo post to Facebook?
         content: |
             No, currently c:geo does only support Twitter as a social network.
             As the development team has limited ressources and is focussing on new geocaching features we currently do not have plans to implement a Facebook connection.
@@ -199,12 +199,12 @@
 
             You can find more info on the [Twitter support website](https://support.twitter.com/articles/31113-using-twitter-with-facebook/).
 
-     - title: Submitting a log with picture takes a long time!
+      - title: Submitting a log with picture takes a long time!
         content: |
             As current smartphones can produce high res pictures with a size of several MB the upload of those can take some minutes (depending on the connection speed) if you do not select to scale them.
             Please consider using the c:geo scaling function to scale down the resolution before submitting the log.
 
-     - title: The compass shows wrong directions or stops moving!
+      - title: The compass shows wrong directions or stops moving!
         content: |
             In 99% of these cases the problem is your device. 
             c:geo only uses the position and compass information provided by the Android system.
