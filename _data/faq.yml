@@ -401,5 +401,24 @@
             In this case please deactivate the unneeded opencaching platforms in: \\
             Menu - Settings - Services - "Opencaching.xx". 
 
+      - title: c:geo does not know the location of a cache!
+        content: |
+            If you are Basic Member of geocaching.com and try to navigate to a cache directly from a search result, you might see this error message.
+
+            If you are no Premium member the geocaching server does not provide coordinates in searches but only an estimation of the distance to the caches and "directional images".
+            c:geo uses and shows this distance estimation and the "directional images" in the search results.
+            The caches are still sorted by distance, but be aware that the distance shown is the one based on your location when you performed that search. It will not change if your position changes.
+
+            Additionally you will not be able to show a map of those results or directly navigate to a cache as c:geo does not have the coordinates for these caches.
+
+            To get exact coordinates as a basic member you have to do one of the following:
+
+            1. Open the details or save the geocache to your device. This will request the exact coordinates.
+
+            2. Enable the CAPTCHA in the c:geo settings if desired (Menu - Settings - Services - geocaching.com - Basic member options). 
+            After entering the CAPTCHA c:geo will have the coordinates and proper sorting by distance, showing on map and navigating is possible.
+
+            If you are premium member and c:geo does not know the location of a cache, please check your login and relogin to make sure c:geo knows you are a premium member.
+
 - title: Live Map
   items:
