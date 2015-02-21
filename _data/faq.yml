@@ -241,11 +241,20 @@
 
       - title: Logs made with c:geo are truncated on the website!
         content: |
-            Especially on [geocaching.com](http://www.geocaching.com/) it may happen that log texts are interpreted as HTML code although they are not written in HTML.
+            Especially on [geocaching.com](http://www.geocaching.com/) it may happen that log texts are interpreted as HTML code although they are not written in HTML. \\
             If you e.g. include a "<" or ">" sign in your log, it may appear truncated or bad formatted later. This does not only affect c:geo but also if you write this kind of log direclty on the website.
             Reason for this is a bad implementation for HTML detection on the website, but no fault in c:geo.
 
             You need either to avoid such special characters in your log or use HTML-formatted logs to work around this problem.
+
+      - title: Scanning for GPX files takes a long time!
+        content: |
+            c:geo scans the whole SD card if it cannot find gpx files in the predefined folder.
+            If you have a lot of files and folders on your SD-card this scanning might take some time.
+
+            It is useful to put all of your PQs into a specific folder and set this as the default import directory for gpx imports. This folder will be scanned first which will speed up the process. \\
+            You can specify the GPX import and export folders in the settings of c:geo: \\
+            Menu - Settings - System - "GPX Export Directory" / "GPX Import Directory"
 
 - title: Live Map
   items:
