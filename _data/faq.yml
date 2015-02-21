@@ -420,6 +420,12 @@
 
             If you are premium member and c:geo does not know the location of a cache, please check your login and relogin to make sure c:geo knows you are a premium member.
 
+      - title: How can I use the Radar navigation? 
+        content: |
+            The "Radar" function works together with the third party app called "GPS Status & Toolbox" available on [GooglePlay](https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2).
+
+            Once you installed the app c:geo will additionally offer "Radar" as a navigation option.
+
 - title: Live Map
   items:
       - title: I cannot use Google Maps anymore!
