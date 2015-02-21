@@ -51,7 +51,7 @@
 
                 It will constantly show you distance and direction to the cache.
 
-            - Radar ([optional](http://lineflyer.github.io/faq.html#faq.HowcanIuse)):
+            - Radar ([optional](./faq.html#faq.HowcanIuse)):
 
                 If you installed an app supporting radar functions this will open a radar screen.
                 It is similar to the compass, but the working mode is a little different. You will typically see the cache coordinates as a marker on the radar. If the marker reaches the center, you reached the cache coordinates.
