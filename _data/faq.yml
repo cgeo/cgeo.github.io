@@ -238,5 +238,14 @@
             If you see untranslated (i.e. English) or wrong strings or your language is not even supported, you are invited to contribute on this platform!
             
             Just create a free account on [Crowdin](https://crowdin.com/) and start contributing translations or vote for existing proposals to the [c:geo Crowdin Project](https://crowdin.com/project/cgeo).
+
+      - title: Logs made with c:geo are truncated on the website!
+        content: |
+            Especially on [geocaching.com](http://www.geocaching.com/) it may happen that log texts are interpreted as HTML code although they are not written in HTML.
+            If you e.g. include a "<" or ">" sign in your log, it may appear truncated or bad formatted later. This does not only affect c:geo but also if you write this kind of log direclty on the website.
+            Reason for this is a bad implementation for HTML detection on the website, but no fault in c:geo.
+
+            You need either to avoid such special characters in your log or use HTML-formatted logs to work around this problem.
+
 - title: Live Map
   items:
