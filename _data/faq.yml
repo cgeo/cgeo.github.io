@@ -70,6 +70,25 @@
 
             For example on [geocaching.com](http://www.geocaching.com/) you can reset your password on [this page](https://www.geocaching.com/login/password.aspx).
 
+      - title: Login failed is shown on the main screen!
+        content: |
+            First of all please check carefully whether you entered the correct username and password.
+            You can find this in: \\
+            Menu - Settings - Services
+            Afterwards select "Check Login" (for geocaching.com users only) to see if login is either now possible or what error is returned.
+
+            If you have doublechecked your credentials and still get an error message (e.g. Login failed, Unknown Error) the following might be helpful:
+
+            Sometimes network providers insert messages into the HTML-traffic which prevents c:geo from logging in while on mobile network.
+            A clear indication for this problem is, that c:geo only works on your WiFi connection at home but not while on a mobile network.
+            In this case please go to the c:geo settings Menu - Settings - Services and enable "Identify as Android Browser".
+            Afterwards you might have to restart your phone to be sure these settings take effect.
+
+            There have been reports, that in rare cases the login still fails although the login data is OK and also "Identify as Android browser" did not help.
+            In this case we recommend resetting c:geo to factory defaults as described [here - LINK TBC](#):
+
+            If the problem still persists, please contact our support and provide a system log.
+
 - title: General
   items:
       - title: How can I change to miles instead of meters?
