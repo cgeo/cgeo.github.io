@@ -232,5 +232,11 @@
             Just download the Android APK file [here](https://github.com/cgeo/cgeo/releases/latest) and install it to your Blackberry phone. Instructions about sideloading Android applications can be found in the internet.
             But please be aware, that we can not give a guarantee that all features are working and can't provide support in case of problems.
 
+      - title: Translations are missing or wrong!
+        content: |
+            We are using a crowd sourced translation platform to improve the translation and even include new languages.
+            If you see untranslated (i.e. English) or wrong strings or your language is not even supported, you are invited to contribute on this platform!
+            
+            Just create a free account on [Crowdin](https://crowdin.com/) and start contributing translations or vote for existing proposals to the [c:geo Crowdin Project](https://crowdin.com/project/cgeo).
 - title: Live Map
   items:
