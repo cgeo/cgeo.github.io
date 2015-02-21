@@ -348,5 +348,24 @@
             The only possibility is to hide them in your lists and search results by applying a local filter in c:geo: \\
             Menu - Filter - Status - "All member access"
 
+      - title: What is the meaning of the icons on the right side of cache lists?
+        content: |
+            If you look at a list of caches (a search result or caches saved on your device) the right side contains some symbols, colors and numbers.
+            Here is a brief explanation of their meaning:
+
+            Color in the lower half:
+
+            The color represents the average [GCVote](http://www.gcvote.com) rating for this cache, where green means good (>3,5 stars),brown means average (between 2,5 and 3,5) and red means a rather bad rating (<2,5 stars).
+            If there is no color shown the cache does not have any votes yet or is not supported in GCVote (GCVote does curerntly only support geocaching.com caches).
+
+            Number in the lower half:
+
+            The number in this field represents the amount of favorite points of geocaching.com or referals for opencaching.x given to that cache by users.
+
+            Symbol with number in the upper half:
+
+            The symbol is a marker which is only shown if the cache contains trackables.
+            The number right next to it is the amount of trackables listed in this cache.
+
 - title: Live Map
   items:
