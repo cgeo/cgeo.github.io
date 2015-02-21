@@ -556,3 +556,13 @@
 
             If this happens to you, please force stop c:geo or reboot your phone and start c:geo again.
             Then open the live map, click the layer icon and select Google Maps. After doing this once, usually Google Maps will stay available.
+
+      - title: My owned/found caches are still shown!
+        content: |
+            Although you activated the option to hide your owned/found caches in c:geo there are some situations where some of them might still be shown on the live map.
+            This is the same as in the live map on the geocaching website: If you zoom out to a huge area own/found caches will no longer be hidden.
+
+            Please zoom in to allow c:geo to detect own/found and hide them.
+
+- title: Send2cgeo
+  items:
