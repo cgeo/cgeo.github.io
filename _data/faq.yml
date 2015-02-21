@@ -506,7 +506,22 @@
             The ?? means that c:geo was not able to identify the type of this cache.
             This mostly happens if too many caches are displayed at once (i.e. your zoom level is very low or the cache densitiy is very high).
             If you reduce the amount of caches shown (by zooming in) or if you click on a specific cache you will get the info about the cache type.
+            
+            If all caches are shown as ?? you probably changed the live map loading strategy to "Fastest". With this setting the cache types are not requested to speed up live map loading.
+            You have to change it back to another mode to see the cache types. This can be done in: \\
+            Live Map - Menu - Strategy
 
+      - title: Why do I see orange circles around the caches on the map?
+        content: |
+            Caches with orange circles mean that c:geo does only have a graphical approximation of the cache coordinates.
+            The accuracy of the cache position on the map depends on the zoom level and maybe some meters/feet off. 
+            The closer you zoom in the more precise the cache position will get.
+
+            To retrieve precise coordinates for the map you can also open the cache details once or store the cache for offline.
+            In these cases the orange circle will disappear indicating that the coordinates are precise.
+
+            You can influence the accuracy of the live map by selecting an appropriate live map loading strategy in: \\
+            Live Map - Menu - Strategy
 
       - title: I cannot use Google Maps anymore!
         content: |
