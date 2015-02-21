@@ -316,5 +316,18 @@
             In order to e.g. beta-test an unpublished cache you will not be able to access the cache online (because it is unpublished) but you can import the cache via GPX or add the cache waypoints manually to another cache already stored on your device.
             Furthermore you can view your own unpublished caches with c:geo by searching for its geocode online.
 
+      - title: How to setup my device to get the best possible location?
+        content: |
+            Android has different meachnisms to provide location information to apps:
+            1. Network based location information derived from Wifi signals and mobile networks
+            2. GPS position information derived from the device GPS receiver
+
+            You should make sure to enable both of these sources to get the best possible location information in c:geo in every situation.
+            This can usually be done in your device settings (not in c:geo itself) in a menu called "Locations" or similar.
+            Please select all possible sources in that menu or (in newer Android versions) select the "High accuracy mode".
+
+            Furthermore you should check if your device supports "Google Play Services" and eventually enable the usage of that in c:geo: \\
+            Menu - Settings - System - "Use Google Play Services"
+
 - title: Live Map
   items:
