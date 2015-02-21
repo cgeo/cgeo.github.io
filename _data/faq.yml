@@ -181,5 +181,42 @@
             Unfortunately there is no standardized method to find the location of a real SD-card on your device. There are some workarounds but those might fail on some devices, thus we decided not to implement them for now.
             Furthermore starting with Android 4.4 write access to the real SD-card is forbidden for apps.
 
+      - title: Can I login using my Facebook account?
+        content: |
+            No, the login via Facebook is an option on the geocaching website only.
+            In order to login to geocaching.com via c:geo you need to enter the username and password dedicated to the website.
+
+            In case you currently only use Facebook to login to geocaching.com, you have to go to the [Password Reset Page](https://www.geocaching.com/login/password.aspx) to set up a regular password first.
+            After you got this password you can use it together with your username to log in with c:geo.
+
+      - title: Can c:geo post to Facebook?
+        content: |
+            No, currently c:geo does only support Twitter as a social network.
+            As the development team has limited ressources and is focussing on new geocaching features we currently do not have plans to implement a Facebook connection.
+
+            However if you are Twitter user already and/or you are looking for a way to post your findings to Facebook, please note that there is a possibility to link Twitter to Facebook.
+            Doing so all your tweets will also be posted on Facebook (including the c:geo tweets).
+
+            You can find more info on the [Twitter support website](https://support.twitter.com/articles/31113-using-twitter-with-facebook/).
+
+      - title: Submitting a log with picture takes a long time!
+        content: |
+            As current smartphones can produce high res pictures with a size of several MB the upload of those can take some minutes (depending on the connection speed) if you do not select to scale them.
+
+            Please consider using the c:geo scaling function to scale down the resolution before submitting the log.
+
+      - title: The compass shows wrong directions or stops moving!
+        content: |
+            In 99% of these cases the problem is your device. 
+            c:geo only uses the position and compass information provided by the Android system.
+
+            Please first of all try to calibrate the compass sensors of your device. On most devices this can be done by turning the devices around all of its axis three times or moving it horizontally in shape of the number 8 until the compass shows the right magnetic direction.
+            Please be aware that electric field (such as high voltage lines near to you) might influence the device sensors.
+
+            If the problem is still not solved you should try another app with compass functionality (e.g. [GPS Status & Toolbox](https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2)) to verify your device capabilities.
+            If another app has the same problems you can be sure, that the problem is on your device.
+
+            If nothing helps and the problem persists, please contact us and provide detailed information about your device and the compass misbehaviour.
+
 - title: Live Map
   items:
