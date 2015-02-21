@@ -420,6 +420,8 @@
 
             If you are premium member and c:geo does not know the location of a cache, please check your login and relogin to make sure c:geo knows you are a premium member.
 
+- title: Live Map
+  items:
       - title: I cannot use Google Maps anymore!
         content: |
             On some devices there seems to be a problem for c:geo to initially detect whether Google Maps is installed on them.
@@ -427,6 +429,3 @@
 
             If this happens to you, please force stop c:geo or reboot your phone and start c:geo again.
             Then open the live map, click the layer icon and select Google Maps. After doing this once, usually Google Maps will stay available.
-
-- title: Live Map
-  items:
