@@ -330,5 +330,15 @@
             Furthermore you should check if your device supports "Google Play Services" and eventually enable the usage of that in c:geo: \\
             Menu - Settings - System - "Use Google Play Services"
 
+      - title: I am not able to post a log online!
+        content: |
+            If you select the menu icon to send your log and you get a message saying "Loading Log-Page" the log page on the server was not yet loaded.
+            Check if you have an internet connection and wait a moment until the required data has been loaded and then try again to send your log.
+
+            In case you can not establish an internet connection or the geocaching server is down you can also select to just save the log on your device and send it later by reaccessing the log page.
+            To do this just press back on your device, the log will automatically be saved.
+
+            You can also batch submit offline stored logs as fieldnotes to the geocaching website at a later point of time.
+
 - title: Live Map
   items:
