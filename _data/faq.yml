@@ -486,7 +486,7 @@
 
 - title: Live Map
   items:
-        - title: What are the different markers on the cache icons?
+      - title: What are the different markers on the cache icons?
         content: |
             In order to provide more info about the status of a cache c:geo provides several markers which are shown together with the cache icon on the live map.
 
