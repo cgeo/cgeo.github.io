@@ -218,5 +218,11 @@
 
             If nothing helps and the problem persists, please contact us and provide detailed information about your device and the compass misbehaviour.
 
+      - title: Is c:geo available for iOS or WindowsPhone?
+        content: |
+            No, c:geo is written for Android and has more than 50 000 lines of code. We will not port it to iOS or other non android systems because it is too much work. Furthermore the iOS AppStore / Apple is very restrictive and most of us don't like it.
+
+            But c:geo is open source! That means that everyone can get the code from [GitHub](https://github.com/cgeo/cgeo) and rewrite it for other operating systems. Feel free to port (and maintain) it, but please keep the open source license in mind.
+
 - title: Live Map
   items:
