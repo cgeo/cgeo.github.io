@@ -181,5 +181,13 @@
             Unfortunately there is no standardized method to find the location of a real SD-card on your device. There are some workarounds but those might fail on some devices, thus we decided not to implement them for now.
             Furthermore starting with Android 4.4 write access to the real SD-card is forbidden for apps.
 
+      - title: Can I login using my facebook account?
+        content: |
+            No, the login via Facebook is an option on the geocaching website only.
+            In order to login to geocaching.com via c:geo you need to enter the username and password dedicated to the website.
+
+            In case you currently only use Facebook to login to geocaching.com, you have to go to the [Password Reset Page](https://www.geocaching.com/login/password.aspx) to set up a regular password first.
+            After you got this password you can use it together with your username to log in with c:geo.
+
 - title: Live Map
   items:
