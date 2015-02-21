@@ -508,7 +508,7 @@
             If you reduce the amount of caches shown (by zooming in) or if you click on a specific cache you will get the info about the cache type.
             
             If all caches are shown as ?? you probably changed the live map loading strategy to "Fastest". With this setting the cache types are not requested to speed up live map loading.
-            You have to change it back to another mode to see the cache types. This can be done in: \\
+            You have to change it back to another mode to see the cache types. This can be done in \\
             Live Map - Menu - Strategy
 
       - title: Why do I see orange circles around the caches on the map?
@@ -520,8 +520,31 @@
             To retrieve precise coordinates for the map you can also open the cache details once or store the cache for offline.
             In these cases the orange circle will disappear indicating that the coordinates are precise.
 
-            You can influence the accuracy of the live map by selecting an appropriate live map loading strategy in: \\
+            You can influence the accuracy of the live map by selecting an appropriate live map loading strategy in \\
             Live Map - Menu - Strategy
+
+      - title: What are the live map loading strategies?
+        content: |
+            Depending on your requirements the live map offers four different strategies.
+            Some are focused on fast loading, some on accuracy of cache positions and information.
+
+            You can select the strategy in \\
+            Live Map - Menu - Strategy
+
+            This is the meaning of the different options:
+
+            Fastest: \\
+            Load approximated cache coordinates only and don't identify the cache type
+            Fast: \\
+            Same as fastest but try to identify the cache type
+            Detailed: \\
+            Same as fast but load details for 20 caches around your position
+            Speed dependent: \\
+            Automatic switch from "Detailed" to "Fast" at 30km/h (This is the default setting)
+
+            For getting most accurate information you should select "Detailed", for a fast loading and less priority on detailed information you should select "Fastest" or "Fast".
+
+            The "fast" strategy will only identify "Traditional", "Multi", "Mystery" and "Event" caches. Other cache types will be shown as ??-caches.
 
       - title: I cannot use Google Maps anymore!
         content: |
