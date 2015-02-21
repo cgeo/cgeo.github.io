@@ -271,6 +271,7 @@
                 But be aware, that you can not navigate to caches without GPS!
 
             2. You can not find c:geo on the Playstore:
+
                 That is probably a wrong setting in your [PlayStore settings](https://play.google.com/settings). 
                 It has a content filtering with a rating that has four different levels, where "All" is the level which can be shown to all users. 
                 c:geo however is not on that level, because Google requires apps with position tracking to be level "Low".
