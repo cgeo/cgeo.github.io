@@ -224,5 +224,13 @@
 
             But c:geo is open source! That means that everyone can get the code from [GitHub](https://github.com/cgeo/cgeo) and rewrite it for other operating systems. Feel free to port (and maintain) it, but please keep the open source license in mind.
 
+      - title: Does c:geo work on Blackberry devices?
+        content: |
+            Although there is no native c:geo app for Blackberry OS you can still run c:geo on it.
+            The current version of Blackberry OS supports sideloading of Android applications. 
+
+            Just download the Android APK file [here](https://github.com/cgeo/cgeo/releases/latest) and install it to your Blackberry phone. Instructions about sideloading Android applications can be found in the internet.
+            But please be aware, that we can not give a guarantee that all features are working and can't provide support in case of problems.
+
 - title: Live Map
   items:
