@@ -576,6 +576,16 @@
 
             Now start the live map, it should work. After the live map is started you can switch back to Google Maps if desired.
 
+      - title: Is there an easy way to start the live map for a distant location?
+        content: |
+            Yes, there is an easy way to do this without the need to zoom/scroll around:
+
+            Perform a search for the desired address/region. Once the results are displayed, click on the map icon in the upper right.
+            You will get the map for the location already containing the caches from your search. 
+
+            You can now use Menu - "Enable live" to activate the live map function.
+
+
 - title: Send2cgeo
   items:
 
