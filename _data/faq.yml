@@ -291,5 +291,13 @@
 
             Please find a detailed description of how to get a log in our [GitHub Wiki](https://github.com/cgeo/cgeo/wiki/Send-log-to-developers).
 
+      - title: I want to install an older version of c:geo!
+        content: |
+            Generally we do not recommend to install an outdated version of c:geo, because it might no longer work as expected as newer versions often include adaptions to changed functions of the geocaching platforms.
+            So we strongly recommend not to go back but to apply all updates as soon as they are available!
+            We can not guarantee that older versions will still work.
+
+            If you however still want to install an old version (e.g. for testing purposes) you can find a version history with download option in our [Guthub Release History](https://github.com/cgeo/cgeo/releases/).
+
 - title: Live Map
   items:
