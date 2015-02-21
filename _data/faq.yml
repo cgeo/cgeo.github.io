@@ -299,6 +299,22 @@
             We can not guarantee that older versions will still work!
 
             If you however still want to install an old version (e.g. for testing purposes) you can find a version history with download option in our [Guthub Release History](https://github.com/cgeo/cgeo/releases/).
+            Please be aware that you need to uninstall a newer version of c:geo on your device before installing an older version as downgrading is not possible.
+
+      - title: I don't use Google Play but still want to use c:geo!
+        content: |
+            You can download the newest version of c:geo directly to your device from [here](https://github.com/cgeo/cgeo/releases/latest/).
+
+      - title: Can I hide a cache and publish it using c:geo?
+        content: |
+            Publishing a new cache with c:geo is not possible and there are no plans to implement this function.
+            However you can still use c:geo to record waypoints to help you planning your cache hide. 
+            To do so simply use the 'All destination' function which offers a history of the coordinates you entered.
+
+            There are also other apps available on [GooglePlay](https://play.google.com/) helping you to record and average coordinates for your new cache (e.g. [GPS Averaging](https://play.google.com/store/apps/details?id=org.destil.gpsaveraging) or [Geocache Placer](https://play.google.com/store/apps/details?id=dk.rocologo.geocacheplacer)).
+
+            In order to e.g. beta-test an unpublished cache you will not be able to access the cache online (because it is unpublished) but you can import the cache via GPX or add the cache waypoints manually to another cache already stored on your device.
+            Furthermore you can view your own unpublished caches with c:geo by searching for its geocode online.
 
 - title: Live Map
   items:
