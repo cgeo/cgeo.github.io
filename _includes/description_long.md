@@ -11,7 +11,7 @@ Main features:
 - Full support for trackables
 - Offline caching functions including offline maps
 
-c:geo is a simple to use but powerful geocaching client with a lot of additional features. All you need to get started is an account on geocaching.com.
+c:geo is a simple to use but powerful geocaching client with a lot of additional features. All you need to get started is an account on geocaching.com or on one of the supported opencaching websites.
 Find caches using the live map or by using one of the many search functions.
 
 Navigate to a cache or a waypoint of a cache with the built-in compass function, the map or hand over the coordinates to various external apps (e.g. Radar, Google Navigation, StreetView, Locus, Navigon, Sygic and many more).
