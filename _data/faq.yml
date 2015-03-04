@@ -631,7 +631,7 @@
             You need to "Register the device" for every browser. The PIN can only be used once.
             Afterwards you can send caches to c:geo from each of the registered browsers and they will be retrieved on all registered devices on which the import is currently active.
 
-      - title: 'Register first' is shown on the website although I am registered!
+      - title: Register first is shown on the website although I am registered!
         content: |
             If this appears to you while using Google Chrome please check your cookie settings.
             It might be required to allow third party cookies for send2cgeo.
