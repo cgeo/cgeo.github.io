@@ -484,6 +484,16 @@
             Since MM/dd/yyyy is the default at the geocaching website we are supporting this. 
             No problems have ever been reported with MM/dd/yyyy. If you have problems please change the date format to this on the website and refresh the caches showing wrong dates.
 
+      - title: I am always located at Paris/France!
+        content: |
+            Paris/France is the default location if c:geo is unable to get **any** location information on your device, no home coordinates are set on geocaching.com and c:geo never before had any information about your position since start of your phone.
+
+            Please make sure all location sources are activated in your device settings.
+            Please check [this FAQ entry](./faq.html#faq.Howtosetup) for more information.
+
+            If you had a GPS fix at least once while c:geo is running it should remember this as your last position and open the live map at this position.
+            Additionally you can set your home coordinates on [this page](https://www.geocaching.com/account/settings/homelocation) on geocaching.com. c:geo will then use these coordinates if no other location information is available.
+
 - title: Live Map
   items:
       - title: What are the different markers on the cache icons?
@@ -594,6 +604,7 @@
             "Map" means live mode is disabled, "Live Map" means live mode is enabled
 
             If still no caches are loaded please make sure you are logged in correctly.
+
 
 - title: Send2cgeo
   items:
