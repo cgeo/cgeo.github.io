@@ -609,6 +609,21 @@
 - title: Send2cgeo
   items:
 
+      - title: What is send2cgeo?
+        content: |
+            Send to c:geo is a quicker way to transfer a cache opened in your browser to your c:geo.
+            You will find all relevant information for installation ans usage here: [send2cgeo](#)
+
+      - title: I tried to register my device but it shows 'Registation failed'!
+        content: |
+            If the registration fails the reason can be one of the following:
+
+            - Your device does not have internet connection
+            - Our servers are down or busy
+            - A communication error or timeout occurred
+
+            You should try again in a couple of minutes/hours and if the problem persists please contact our support.
+
 - title: Offline maps
   items:
   
