@@ -624,6 +624,13 @@
 
             You should try again in a couple of minutes/hours and if the problem persists please contact our support.
 
+      - title: Can I use multiple devices and/or browsers with send2cgeo?
+        content: |
+            Yes, multiple devices can be on multiple browsers.
+
+            You need to "Register the device" for every browser. The PIN can only be used once.
+            Afterwards you can send caches to c:geo from each of the registered browsers and they will be retrieved on all registered devices on which the import is currently active.
+
 - title: Offline maps
   items:
   
