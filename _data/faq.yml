@@ -661,6 +661,21 @@
 
             In combination with caches already stored in c:geo (manually or via GPX import) and the possibility for offline-logging (e.g. for later fieldnote export) you will get a full offline solution for caching.
 
+      - title: How to use an OSM:Offline map with c:geo?
+        content: |
+            Once you downloaded or created a map, store it into a folder (e.g. /mfmaps) on your device or SD-card. You can also store mulitple maps (e.g. for several countries) into this folder to have easy access later directly from c:geo.
+            If you are additionally using Locus it is useful to store the maps in /Locus/mapsVector to have them accessible for Locus as well as for c:geo.
+
+            Afterwards go to c:geo Menu - Settings - Map and select the section "Directory with offline maps".
+            It will automatically scan for maps on your phone memory and offer you the results.
+
+            If either no results are returned or your map file is not listed you can select "Choose directory" on the top to use a dir chooser to select the correct path manually.
+
+            In order for c:geo to use the selected map you have to choose one of the offline maps (it will list all the map files found in the given directory) in the dropdown menu "Select Map Source" located above the directory settings. You can change this setting also directly from live map.
+            If you now access any map functionality (live map, cache map,etc.) the offline file will be used.
+
+            You can quickly switch between different offline maps or switch back to online maps by clicking the layer icon in the titlebar while on a map.
+
       - title: Are there known problems for OSM:Offline?
         content: |
             Yes, the mapsforge library we are currently using has some problems which we know of:
@@ -679,6 +694,19 @@
             Additionally [openandromaps.org](http://www.openandromaps.org) also offers free, compatible offline maps for many countries and regions. These maps are even including some custom map themes suitable for hiking or cycling (including the display of height lines/isohypses).
 
             If you would like to create your own map please read these [instructions](https://github.com/cgeo/cgeo/wiki/How-to-create-your-own-offline-maps).
+
+      - title: How to use custom themes for OSM:Offline?
+        content: |
+            c:geo is supporting custom rendering themes for OSM:Offline maps. These can be used to change the color style of the map (e.g. to have a nightview map) or to highlight certain objects within the map (e.g. cycle paths or height lines).
+
+            Up to now we do not have build-in themes but you need to create them by yourself or download some user made themes from the internet. Try e.g. searching the net for "RGB Night Theme for Vectormaps" to find appropriate nightview themes.
+
+            If you have created a personal version of a theme which you are willing to share with us, feel free to contact us.
+
+            After having downloaded a theme-pacakge (usually a ZIP-file containing a lot of xml files and graphics) exract it including all its sub-directories into a folder in your device or SD-card. 
+            Afterwards select this folder as base-folder for map themes in c:geo settings.
+            If you have done it right and the theme is valid it should now be selectable from live map via\\
+            Live map menu - Map modes - Select map theme
 
 - title: Offline caching
   items:
