@@ -685,8 +685,7 @@
 
       - title: Where to get an OSM:Offline map?
         content: |
-            c:geo supports offline maps from mapsforge in versions 0.3.0 and 0.2.4. 
-            Using v0.3.0 maps is recommended as the support for v0.2.4 might be discontinued in a future version of c:geo.
+            c:geo supports offline maps from mapsforge in version 0.3.0.
 
             Many OSM:Offline maps are already pre made on the [mapsforge download site](http://download.mapsforge.org/maps/). 
             Almost all countries are available for download and will be updated frequently.
