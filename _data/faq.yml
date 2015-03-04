@@ -636,7 +636,7 @@
             If this appears to you while using Google Chrome please check your cookie settings.
             It might be required to allow third party cookies for send2cgeo.
 
-            Look into your geocaching.com browser tab. If there is a cookie symbol with a red X at the end of the URL dialog, click on it, and in the popup click "Maintain cookie blocking" (or similar) and permit *.send2.cgeo.org.
+            Look into your geocaching.com browser tab. If there is a cookie symbol with a red X at the end of the URL dialog, click on it, and in the popup click "Maintain cookie blocking" (or similar) and permit [*.]send2.cgeo.org.
 
 - title: Offline maps
   items:
