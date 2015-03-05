@@ -739,9 +739,36 @@
             The offline logged caches are marked by an orange line in your lists. To export the logs you have to open the relevant list of saved caches or the history and select\\
             Menu - Manage - Export - Fieldnotes.\\
             From there you can either only export the fieldnote file to your device or additionally upload them to the geocaching website.
+            The option 'Since last export' will check the last upload date on geocaching.com and only export those which are composed after this date.
 
             After you exported your fieldnotes to the geocaching website, the website will show that you have pending fieldnotes [on this page](https://www.geocaching.com/my/fieldnotes.aspx) and you can compose your logs in your browser.
             Please be aware that it might take a minute after the upload until the website shows the pending fieldnotes.
+
+      - title: What are static maps?
+        content: |
+            c:geo optionally downloads Google Maps snapshots of the area around the cache and its waypoints for offline usage while storing a cache.
+            It will download satellite views as well as map views on different zoom levels. So you will have a map function also in case you don't have an internet connection and you don't use an OSM:Offline map.
+
+            You have to enable this function in\\
+            c:geo Menu - Settings - Offline data\\
+            for the cache position itself  and (if needed) also for the additional waypoints of a cache.
+
+            To access the static maps of a cache later on please select Menu - Navigate - Static Maps from the cache details.
+
+      - title: Some caches are missing the static maps!
+        content: |
+            Google limits the download of static maps to 1000 requests per day for a single user.
+            So if you batch download or refresh a lot of caches this limit can be reached easily (because for each cache at least five maps are loaded and optionally even more if you enabled the download also for waypoints of a cache).
+
+            If the limit is reached you will have to wait for the next day to get more static maps. c:geo will automatically refresh those caches without a static map first.
+            You can also consider to switch off static map loading for additional waypoints to limit the amount of maps which are downloaded.
+
+      - title: Can I batch submit offline logs to the website with c:geo?
+        content: |
+            This is not (yet) possible.
+
+            While we are against mass logging of caches still batch sending offline stored logs might be meaningful as this is another usecase.
+            Therefore we are thinking about implementing this but we encourage you to use the existing field note submission for the time being.
 
 - title: Opencaching platforms
   items:
