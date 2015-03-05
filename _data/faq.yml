@@ -833,9 +833,58 @@
 
             After disabling Google Play location services the interworking with Bluetooth GPS receivers should work as it used to in older versions of c:geo.
 
-- title: Actionbar menus
+- title: New menu implementation
   items:
-  
+
+      - title: Why was the menu implementation changed at all?
+        content: |
+            We are now following the Android design guidelines and thus have the same appearance like other modern apps.
+
+            This will also solve the problems with devices with physical buttons and no menu button as the menu is now usuable without the need for a HW button.
+            Furthermore the new title bar allows a more consistent menu usage throughout the whole app, which will make it easier for you to find all functionalities and will also help us when implementing new features.
+
+      - title: How does the new menu work?
+        content: |
+            Although the new implementation looks a lot different compared to the old menu, there is actually not much difference once you understood the mechanism.
+            The main difference is the title bar which is shown on the top in each screen of c:geo. You might already know similar title bars from other apps, and this one works alike:
+
+            All menu functions are now located on that title bar either as an icon or behind the overflow menu (three-dot button) if they do not fit into the window title.
+            If a menu entry appears as an icon or behind the overflow menu is mainly depending on the screen size of your device.
+            So e.g. turning your phone into landscape mode or using a device with higher resolution (tablet) will also change the appearance of the actionbar items.
+
+            If you are unsure about the functionality behind an icon you can always long press it to get the description of it.
+
+            Clicking the menu button on your device is now the same as clicking the overflow button.
+
+      - title: I still see the old menu!
+        content: |
+            If you use the most current version and still see the old menu your device is probably running on an Android version <2.3.
+            New features and functions will no longer be implemented for these old versions.
+
+            Please refer to [this FAQ entry](./faq.html#faq.Iamnotable) for more information.
+
+      - title: I see the new menu but no overflow (three dot) button!
+        content: |
+            If your device is running on Android 2.3 the overflow button (three dot button) is not used.
+            You have to use the menu key of your device instead, which will give you the same options like in the overflow menu.
+
+      - title: I can not find all menu entries. Did you remove features?
+        content: |
+            No, we did not remove any feature/functionality and also preserved the existing menu structure as much as possible.
+
+            Due to the actionbar style the menu entries are now divided into icons shown on the title bar itself and a list of entries behind the overflow (three dot) menu. So if you miss an entry in the overflow section it will be located as an icon on the title bar instead.
+            If you are unsure about the function of an icon just long click on it to get its description.
+
+            In some parts of the app we used the opportunity to rearrange or regroup some menu items to make the sorting more consistent.
+
+      - title: The menu Set destination is missing in the compass now!
+        content: |
+            We decided to remove this option while implementing the new menus as it may lead to problems changing the destination directly inside the compass.
+
+            You should instead use the various other functions c:geo offers for setting new target coordinates:
+            1. Go to the cache details and swipe to the 'Waypoint' tab. There you can create a new waypoint and afterwards start navigating to it by either long press on the waypoint or short or long click on the compass rose icon shown on the right side of the waypoint list.
+            2. Go to the 'Any destination' menu from the main screen, enter coordinates and start navigating right away.
+
 - title: Calendar plugin
   items:
   
