@@ -15,11 +15,13 @@ We kindly ask you to make sure your problem is not covered by the following info
 
 - You should also check if your problem is already listed on our [Bugtracking system](https://github.com/cgeo/cgeo/issues?q=+sort%3Aupdated-desc+). In this case we are already working on it and you can follow the status of the problem there.
 
-- Finally please check out our social network presence (and follow us there) to get the latest information about recent problems or service interruptions:\\
-\\
-[![Facebook](/images/socialmedia/facebook.png)](https://www.facebook.com/android.geocaching)
-[![Google+](/images/socialmedia/googleplus.png)](https://plus.google.com/105588163414303246956)
-[![Twitter](/images/socialmedia/twitter.png)](https://twitter.com/android_gc)
+- Finally please check out our social network presence (and follow us there) to get the latest information about recent problems or service interruptions:
+
+<div class="socialmedia">
+    <a href="https://www.facebook.com/android.geocaching" class="facebook"></a>
+    <a href="https://plus.google.com/105588163414303246956" class="googleplus" rel="publisher"></a>
+    <a href="https://twitter.com/android_gc" class="twitter"></a>
+</div>
 
 ### Ask our support team about your problem
 
