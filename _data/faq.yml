@@ -254,14 +254,6 @@
 
             But c:geo is open source! That means that everyone can get the code from [GitHub](https://github.com/cgeo/cgeo) and rewrite it for other operating systems. Feel free to port (and maintain) it, but please keep the open source license in mind.
 
-      - title: Does c:geo work on Blackberry devices?
-        content: |
-            Although there is no native c:geo app for Blackberry OS you can still run c:geo on it.
-            The current version of Blackberry OS supports sideloading of Android applications. 
-
-            Just download the Android APK file [here](https://github.com/cgeo/cgeo/releases/latest) and install it to your Blackberry phone. Instructions about sideloading Android applications can be found in the internet.
-            But please be aware, that we can not give a guarantee that all features are working and can't provide support in case of problems.
-
       - title: Translations are missing or wrong!
         content: |
             We are using a crowd sourced translation platform to improve the translation and even include new languages.
@@ -804,6 +796,24 @@
             using Cyanogenmod ROM, this might be caused by a known bug in Cyanogenmod 10.
 
             Pleasae udpate to a newer version of Cyanogenmod or change to another ROM.
+
+      - title: Does c:geo work on Blackberry devices?
+        content: |
+            Although there is no native c:geo app for Blackberry OS you can still run c:geo on it.
+            The current version of Blackberry OS supports sideloading of Android applications. 
+
+            Just download the Android APK file [here](https://github.com/cgeo/cgeo/releases/latest) and install it to your Blackberry phone. Instructions about sideloading Android applications can be found in the internet.
+            But please be aware, that we can not give a guarantee that all features are working and can't provide support in case of problems.
+
+      - title: Parts of the text are not shown or shown blurred on my device!
+        content: |
+            We are using a hardware acceleration modes to speed up c:geo. 
+            It seems some devices on some Android versions have problems with that. They may show blurred fonts or no fonts at all.
+
+            For some of these known problematic devices we switched this feature off automatically, but you can also do this manually in\\
+            Menu - Settings - System - Hardware acceleration
+
+            For devices with Android versions <4.2 we deactivate hardware acceleration by default on a new installation. Nevertheless check the setting if you encounter problems.
 
 - title: Actionbar menus
   items:
