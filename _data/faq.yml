@@ -772,7 +772,18 @@
 
 - title: Opencaching platforms
   items:
-  
+
+      - title: Is Opencaching supported with c:geo?
+        content: |
+            Yes, c:geo supports Opencaching platforms in several countries already and we are also planning to add more platforms once they provide an OKAPI interface.
+
+            Please check\\
+            c:geo Menu - Settings - Services\\
+            to see which platforms are supported.
+
+            To use these you have to activate the platform and authorize yourself to the opencaching website with your login credentials.
+            Afterwards opencaching caches will be shown on live map, nearby search and you can post logs online.
+
 - title: Device specific
   items:
 
