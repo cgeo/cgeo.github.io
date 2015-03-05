@@ -4,4 +4,4 @@
 [Status](/status.html)
 [Changelog](https://github.com/cgeo/cgeo/releases)
 [Nightly](nightly.html)
-[Development](https://github.com/cgeo/cgeo)
+[Development](development.html)
