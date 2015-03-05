@@ -709,7 +709,40 @@
 
 - title: Offline caching
   items:
-  
+
+      - title: Can I use c:geo also for offline caching?
+        content: |
+            The main purpose of c:geo is to have an online access to your geocaching platform.
+            However c:geo also provides an offline functionality to use it without any network connection (e.g. while caching abroad).
+
+            In order to use c:geo completely offline you will have to prepare some things depending on your needs:
+
+            1. Store the caches for offline use (manually or via GPX import).
+            2. Optionally download an offline map as described in [this section of the FAQ](./faq.html#faq.WhatisOSM:).
+
+            In case you want to avoid any data transfer you should generally disable the internet connection on your device anyhow, because c:geo will always try to login once you started it.
+            On most devices the internet connection is disconnected automatically in roaming conditions or if the mobile part is switched off.
+        
+            To allow offline logging of caches please go to\\
+            c:geo Menu - Settings - Logging\\
+            and enable "Offline Logging".
+
+            Afterwards c:geo will not post logs online but only store the found status offline.
+            You can then at a later point either upload the logs via field note export or reaccess the log page and submit them online while having an internet connection.
+
+      - title: What are fieldnotes and how do I use them?
+        content: |
+            Fieldnotes are supported by geocaching.com and allow an offline logging of cache finds and batch uploading them to the website.
+            c:geo is supporting fieldnote export and also an automatic upload to the website.
+
+            If you save your cache logs offline in c:geo (e.g. when caching abroad) you have the possibility to export these logs as fieldnote instead of logging them online.
+            The offline logged caches are marked by an orange line in your lists. To export the logs you have to open the relevant list of saved caches or the history and select\\
+            Menu - Manage - Export - Fieldnotes.\\
+            From there you can either only export the fieldnote file to your device or additionally upload them to the geocaching website.
+
+            After you exported your fieldnotes to the geocaching website, the website will show that you have pending fieldnotes [on this page](https://www.geocaching.com/my/fieldnotes.aspx) and you can compose your logs in your browser.
+            Please be aware that it might take a minute after the upload until the website shows the pending fieldnotes.
+
 - title: Opencaching platforms
   items:
   
