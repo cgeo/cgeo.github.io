@@ -815,6 +815,24 @@
 
             For devices with Android versions <4.2 we deactivate hardware acceleration by default on a new installation. Nevertheless check the setting if you encounter problems.
 
+      - title: The map does not have a menu bar!
+        content: |
+            Our current version has a problem to show the menu bar in map screens (like the live map) on tablet devices running Android 3.x.
+            We are trying to find a solution for this, but it is not that easy to solve.
+
+            As Android 3 is quite old and since some years Android 4 is available for tablet devices we also recommend, that you check if an update for your devices is available either from the vendor or by using a Custom ROM.
+
+      - title: My external Bluetooth-GPS is no longer working with c:geo!
+        content: |
+            We are now using Google Play location services if they are installed on your device. 
+            This location services is not compatible with external GPS receivers.
+
+            You have to disable the usage of those location services in\\
+            c:geo Menu - Settings - System\\
+            in order to be able to use your external GPS receiver.
+
+            After disabling Google Play location services the interworking with Bluetooth GPS receivers should work as it used to in older versions of c:geo.
+
 - title: Actionbar menus
   items:
   
