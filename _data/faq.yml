@@ -802,9 +802,6 @@
         content: |
             If the distance to a cache on a list of caches or on the compass is jumping between some meters to some kilometers and you are
             using Cyanogenmod ROM, this might be caused by a known bug in Cyanogenmod 10.
-            
-            More information can be found here:\\
-            [http://code.google.com/p/cyanogenmod/issues/detail?id=6883](http://code.google.com/p/cyanogenmod/issues/detail?id=6883)
 
             Pleasae udpate to a newer version of Cyanogenmod or change to another ROM.
 
