@@ -17,9 +17,9 @@ We kindly ask you to make sure your problem is not covered by the following info
 
 - Finally please check out our social network presence (and follow us there) to get the latest information about recent problems or service interruptions:\\
 \\
-<a href="https://www.facebook.com/android.geocaching"><img src="/images/socialmedia/facebook.png" alt="Facebook"></a>
-<a href="https://plus.google.com/105588163414303246956" rel="publisher"><img src="/images/socialmedia/googleplus.png" alt="Google+"></a>
-<a href="https://twitter.com/android_gc"><img src="/images/socialmedia/twitter.png" alt="Twitter"></a>
+[![Facebook](/images/socialmedia/facebook.png)](https://www.facebook.com/android.geocaching)
+[![Google+](/images/socialmedia/googleplus.png)](https://plus.google.com/105588163414303246956)
+[![Twitter](/images/socialmedia/twitter.png)](https://twitter.com/android_gc)
 
 ### Ask our support team about your problem
 
