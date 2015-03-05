@@ -13,7 +13,7 @@ We kindly ask you to make sure your problem is not covered by the following info
 
 - First of all please check if your problem is answered in our [FAQ](/faq.html)!
 
-- You should also check if your problem is already listed on our [Bugtracking system](https://www.github.com/cgeo/cgeo/issues). In this case we are already working on it and you can follow the status of the problem there.
+- You should also check if your problem is already listed on our [Bugtracking system](https://github.com/cgeo/cgeo/issues?q=+sort%3Aupdated-desc+). In this case we are already working on it and you can follow the status of the problem there.
 
 - Finally please check out our social network presence (and follow us there) to get the latest information about recent problems or service interruptions:\\
 \\
