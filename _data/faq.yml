@@ -888,6 +888,33 @@
 
 - title: Calendar plugin
   items:
-  
+
+      - title: What does the calendar plugin of c:geo do?
+        content: |
+            It allows adding event caches to your personal calendar.
+            As it is a plugin it will only work if also c:geo itself is installed on your device.
+
+      - title: How do I add an event cache to my calendar?
+        content: |
+            When you open an event cache in c:geo select\\
+            Menu - Add to Calendar. 
+
+            A new appointment for the event will be created in your calendar.
+
+      - title: Why is the appointment added without or with a wrong time?
+        content: |
+            Event cache listings on the geocaching website do only contain the date but not the time of an event.
+
+            Nevertheless c:geo will scan the event description and try to extract a time from it.
+            In some cases it might be wrong or we are unable to do so. In these cases you have to manually correct the entry. 
+
+      - title: I always get a failure when trying to add an event to my calendar!
+        content: |
+            First of all you should make sure that your device has a calendar app installed and it is working properly.
+            Also if you are asked which calendar app to use when trying to add an event, please make sure you select the correct one.
+
+            On some Samsung devices adding events to the calendar will always fail due to an incorrect implementation of this function by Samsung.
+            Please check for a software update of your device in this case.
+
 - title: Contacts plugin
   items:
