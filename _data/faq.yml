@@ -779,10 +779,20 @@
 
             Please check\\
             c:geo Menu - Settings - Services\\
-            to see which platforms are supported.
+            to see which platforms are already supported.
+            Whithin the seperate platform settings you also have the possibility to see which features are supported for the specific platform.
 
-            To use these you have to activate the platform and authorize yourself to the opencaching website with your login credentials.
-            Afterwards opencaching caches will be shown on live map, nearby search and you can post logs online.
+            To use these you need to have an account on the opencaching website.
+            With this account data you can activate the platform in c:geo and authorize yourself to the opencaching website with your login credentials.
+            Afterwards opencaching caches will be shown on the live map,in nearby searches and you can post logs online.
+
+      - title: The authorization to Opencaching fails, does not start or is not completed!
+        content: |
+            If this is happening to you, please check that your device has the correct date, time and timezone information. 
+            For security reasons the Opencaching API will reject requests which are not matching the server time (+- 5 minutes).
+
+            On some devices the internet browser does not correctly redirect back to c:geo after you logged in on the opencaching website but tries to open a website like "callback://www.cgeo.org[...]".
+            This is a faulty behavior of the internet browser you are using, please try another internet browser application to perform the authorization.
 
 - title: Device specific
   items:
