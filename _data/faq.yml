@@ -918,3 +918,23 @@
 
 - title: Contacts plugin
   items:
+
+      - title: What does the contacts plugin of c:geo do?
+        content: |
+            It allows you direct access to your phonebook when clicking on a username in c:geo.
+            As it is a plugin it will only work if also c:geo itself is installed on your device.
+
+      - title: How to use the contacts plugin?
+        content: |
+             When you click on a username in c:geo (e.g. in the cache logbook) the menu will contain an item to open the corresponding contact card in your phone contacts. 
+             This will allow you to directly call or message the user.
+
+      - title: How do I have to store the contacts in my phonebook to make it work?
+        content: |
+            The username of the person needs to be stored in the 'name' or 'alias' field of your contacts in order for the plugin to match the geocaching username to the contact.
+
+      - title: The contact is not matched although it is stored!
+        content: |
+            Please make sure you stored the geocaching name of the person like it is shown in c:geo in the 'alias' field of the contact in your phonebook.
+
+            Alternatively the plugin will also match if the geocaching name equals the full name stored in your phonebook.
