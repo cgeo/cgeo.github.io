@@ -248,20 +248,6 @@
 
             If nothing helps and the problem persists, please contact us and provide detailed information about your device and the compass misbehaviour.
 
-      - title: Is c:geo available for iOS or WindowsPhone?
-        content: |
-            No, c:geo is written for Android and has more than 50 000 lines of code. We will not port it to iOS or other non android systems because it is too much work. Furthermore the iOS AppStore / Apple is very restrictive and most of us don't like it.
-
-            But c:geo is open source! That means that everyone can get the code from [GitHub](https://github.com/cgeo/cgeo) and rewrite it for other operating systems. Feel free to port (and maintain) it, but please keep the open source license in mind.
-
-      - title: Does c:geo work on Blackberry devices?
-        content: |
-            Although there is no native c:geo app for Blackberry OS you can still run c:geo on it.
-            The current version of Blackberry OS supports sideloading of Android applications. 
-
-            Just download the Android APK file [here](https://github.com/cgeo/cgeo/releases/latest) and install it to your Blackberry phone. Instructions about sideloading Android applications can be found in the internet.
-            But please be aware, that we can not give a guarantee that all features are working and can't provide support in case of problems.
-
       - title: Translations are missing or wrong!
         content: |
             We are using a crowd sourced translation platform to improve the translation and even include new languages.
@@ -377,13 +363,6 @@
 
             The only possibility is to hide them in your lists and search results by applying a local filter in c:geo: \\
             Menu - Filter - Status - "All member access"
-
-      - title: I can't see PM only caches although I am Premium Member!
-        content: |
-            While logging in to the geocaching.com website c:geo will automatically detect whether you are basic or premium member, but c:geo will only perform a login if it is necessary.
-            So after you became a premium member it can happen, that c:geo does not know this yet.
-
-            In this case you can force c:geo to login by either selecting Menu - Settings - Services - geocaching.com - Check Login or simply rebooting your phone and starting c:geo again.
 
       - title: What is the meaning of the icons on the right side of cache lists?
         content: |
@@ -709,18 +688,253 @@
 
 - title: Offline caching
   items:
-  
+
+      - title: Can I use c:geo also for offline caching?
+        content: |
+            The main purpose of c:geo is to have an online access to your geocaching platform.
+            However c:geo also provides an offline functionality to use it without any network connection (e.g. while caching abroad).
+
+            In order to use c:geo completely offline you will have to prepare some things depending on your needs:
+
+            1. Store the caches for offline use (manually or via GPX import).
+            2. Optionally download an offline map as described in [this section of the FAQ](./faq.html#faq.WhatisOSM:).
+
+            In case you want to avoid any data transfer you should generally disable the internet connection on your device anyhow, because c:geo will always try to login once you started it.
+            On most devices the internet connection is disconnected automatically in roaming conditions or if the mobile part is switched off.
+        
+            To allow offline logging of caches please go to\\
+            c:geo Menu - Settings - Logging\\
+            and enable "Offline Logging".
+
+            Afterwards c:geo will not post logs online but only store the found status offline.
+            You can then at a later point either upload the logs via field note export or reaccess the log page and submit them online while having an internet connection.
+
+      - title: What are fieldnotes and how do I use them?
+        content: |
+            Fieldnotes are supported by geocaching.com and allow an offline logging of cache finds and batch uploading them to the website.
+            c:geo is supporting fieldnote export and also an automatic upload to the website.
+
+            If you save your cache logs offline in c:geo (e.g. when caching abroad) you have the possibility to export these logs as fieldnote instead of logging them online.
+            The offline logged caches are marked by an orange line in your lists. To export the logs you have to open the relevant list of saved caches or the history and select\\
+            Menu - Manage - Export - Fieldnotes.\\
+            From there you can either only export the fieldnote file to your device or additionally upload them to the geocaching website.
+            The option 'Since last export' will check the last upload date on geocaching.com and only export those which are composed after this date.
+
+            After you exported your fieldnotes to the geocaching website, the website will show that you have pending fieldnotes [on this page](https://www.geocaching.com/my/fieldnotes.aspx) and you can compose your logs in your browser.
+            Please be aware that it might take a minute after the upload until the website shows the pending fieldnotes.
+
+      - title: What are static maps?
+        content: |
+            c:geo optionally downloads Google Maps snapshots of the area around the cache and its waypoints for offline usage while storing a cache.
+            It will download satellite views as well as map views on different zoom levels. So you will have a map function also in case you don't have an internet connection and you don't use an OSM:Offline map.
+
+            You have to enable this function in\\
+            c:geo Menu - Settings - Offline data\\
+            for the cache position itself  and (if needed) also for the additional waypoints of a cache.
+
+            To access the static maps of a cache later on please select Menu - Navigate - Static Maps from the cache details.
+
+      - title: Some caches are missing the static maps!
+        content: |
+            Google limits the download of static maps to 1000 requests per day for a single user.
+            So if you batch download or refresh a lot of caches this limit can be reached easily (because for each cache at least five maps are loaded and optionally even more if you enabled the download also for waypoints of a cache).
+
+            If the limit is reached you will have to wait for the next day to get more static maps. c:geo will automatically refresh those caches without a static map first.
+            You can also consider to switch off static map loading for additional waypoints to limit the amount of maps which are downloaded.
+
+      - title: Can I batch submit offline logs to the website with c:geo?
+        content: |
+            This is not (yet) possible.
+
+            While we are against mass logging of caches still batch sending offline stored logs might be meaningful as this is another usecase.
+            Therefore we are thinking about implementing this but we encourage you to use the existing field note submission for the time being.
+
 - title: Opencaching platforms
   items:
-  
-- title: Device specific
+
+      - title: Is Opencaching supported with c:geo?
+        content: |
+            Yes, c:geo supports Opencaching platforms in several countries already and we are also planning to add more platforms once they provide an OKAPI interface.
+
+            Please check\\
+            c:geo Menu - Settings - Services\\
+            to see which platforms are already supported.
+            Whithin the seperate platform settings you also have the possibility to see which features are supported for the specific platform.
+
+            To use these you need to have an account on the opencaching website.
+            With this account data you can activate the platform in c:geo and authorize yourself to the opencaching website with your login credentials.
+
+            Afterwards opencaching caches will be shown on the live map,in nearby searches and you can post logs online.
+
+      - title: The authorization to Opencaching fails, does not start or is not completed!
+        content: |
+            If this is happening to you, please check that your device has the correct date, time and timezone information. 
+            For security reasons the Opencaching API will reject requests which are not matching the server time (+- 5 minutes).
+
+            On some devices the internet browser does not correctly redirect back to c:geo after you logged in on the opencaching website but tries to open a website like "callback://www.cgeo.org[...]".
+            This is a faulty behavior of the internet browser you are using, please try another internet browser application to perform the authorization.
+
+- title: Device or user specific problems
   items:
 
-- title: Actionbar menus
+      - title: Is c:geo available for iOS or WindowsPhone?
+        content: |
+            No, c:geo is written for Android and has more than 50 000 lines of code. We will not port it to iOS or other non android systems because it is too much work. Furthermore the iOS AppStore / Apple is very restrictive and most of us don't like it.
+
+            But c:geo is open source! That means that everyone can get the code from [GitHub](https://github.com/cgeo/cgeo) and rewrite it for other operating systems. Feel free to port (and maintain) it, but please keep the open source license in mind.
+
+      - title: I can't see PM only caches although I am Premium Member!
+        content: |
+            While logging in to the geocaching.com website c:geo will automatically detect whether you are basic or premium member, but c:geo will only perform a login if it is necessary.
+            So after you became a premium member it can happen, that c:geo does not know this yet.
+
+            In this case you can force c:geo to login by either selecting Menu - Settings - Services - geocaching.com - Check Login or simply rebooting your phone and starting c:geo again.
+
+      - title: The distance to a cache is fluctuating heavily!
+        content: |
+            If the distance to a cache on a list of caches or on the compass is jumping between some meters to some kilometers and you are
+            using Cyanogenmod ROM, this might be caused by a known bug in Cyanogenmod 10.
+
+            Pleasae udpate to a newer version of Cyanogenmod or change to another ROM.
+
+      - title: Does c:geo work on Blackberry devices?
+        content: |
+            Although there is no native c:geo app for Blackberry OS you can still run c:geo on it.
+            The current version of Blackberry OS supports sideloading of Android applications. 
+
+            Just download the Android APK file [here](https://github.com/cgeo/cgeo/releases/latest) and install it to your Blackberry phone. Instructions about sideloading Android applications can be found in the internet.
+            But please be aware, that we can not give a guarantee that all features are working and can't provide support in case of problems.
+
+      - title: Parts of the text are not shown or shown blurred on my device!
+        content: |
+            We are using a hardware acceleration modes to speed up c:geo. 
+            It seems some devices on some Android versions have problems with that. They may show blurred fonts or no fonts at all.
+
+            For some of these known problematic devices we switched this feature off automatically, but you can also do this manually in\\
+            Menu - Settings - System - Hardware acceleration
+
+            For devices with Android versions <4.2 we deactivate hardware acceleration by default on a new installation. Nevertheless check the setting if you encounter problems.
+
+      - title: The map does not have a menu bar!
+        content: |
+            Our current version has a problem to show the menu bar in map screens (like the live map) on tablet devices running Android 3.x.
+            We are trying to find a solution for this, but it is not that easy to solve.
+
+            As Android 3 is quite old and since some years Android 4 is available for tablet devices we also recommend, that you check if an update for your devices is available either from the vendor or by using a Custom ROM.
+
+      - title: My external Bluetooth-GPS is no longer working with c:geo!
+        content: |
+            We are now using Google Play location services if they are installed on your device. 
+            This location services is not compatible with external GPS receivers.
+
+            You have to disable the usage of those location services in\\
+            c:geo Menu - Settings - System\\
+            in order to be able to use your external GPS receiver.
+
+            After disabling Google Play location services the interworking with Bluetooth GPS receivers should work as it used to in older versions of c:geo.
+
+- title: New menu implementation
   items:
-  
+
+      - title: Why was the menu implementation changed at all?
+        content: |
+            We are now following the Android design guidelines and thus have the same appearance like other modern apps.
+
+            This will also solve the problems with devices with physical buttons and no menu button as the menu is now usuable without the need for a HW button.
+            Furthermore the new title bar allows a more consistent menu usage throughout the whole app, which will make it easier for you to find all functionalities and will also help us when implementing new features.
+
+      - title: How does the new menu work?
+        content: |
+            Although the new implementation looks a lot different compared to the old menu, there is actually not much difference once you understood the mechanism.
+            The main difference is the title bar which is shown on the top in each screen of c:geo. You might already know similar title bars from other apps, and this one works alike:
+
+            All menu functions are now located on that title bar either as an icon or behind the overflow menu (three-dot button) if they do not fit into the window title.
+            If a menu entry appears as an icon or behind the overflow menu is mainly depending on the screen size of your device.
+            So e.g. turning your phone into landscape mode or using a device with higher resolution (tablet) will also change the appearance of the actionbar items.
+
+            If you are unsure about the functionality behind an icon you can always long press it to get the description of it.
+
+            Clicking the menu button on your device is now the same as clicking the overflow button.
+
+      - title: I still see the old menu!
+        content: |
+            If you use the most current version and still see the old menu your device is probably running on an Android version <2.3.
+            New features and functions will no longer be implemented for these old versions.
+
+            Please refer to [this FAQ entry](./faq.html#faq.Iamnotable) for more information.
+
+      - title: I see the new menu but no overflow (three dot) button!
+        content: |
+            If your device is running on Android 2.3 the overflow button (three dot button) is not used.
+            You have to use the menu key of your device instead, which will give you the same options like in the overflow menu.
+
+      - title: I can not find all menu entries. Did you remove features?
+        content: |
+            No, we did not remove any feature/functionality and also preserved the existing menu structure as much as possible.
+
+            Due to the actionbar style the menu entries are now divided into icons shown on the title bar itself and a list of entries behind the overflow (three dot) menu. So if you miss an entry in the overflow section it will be located as an icon on the title bar instead.
+            If you are unsure about the function of an icon just long click on it to get its description.
+
+            In some parts of the app we used the opportunity to rearrange or regroup some menu items to make the sorting more consistent.
+
+      - title: The menu Set destination is missing in the compass now!
+        content: |
+            We decided to remove this option while implementing the new menus as it may lead to problems changing the destination directly inside the compass.
+
+            You should instead use the various other functions c:geo offers for setting new target coordinates:
+
+            1. Go to the cache details and swipe to the 'Waypoint' tab. There you can create a new waypoint and afterwards start navigating to it by either long press on the waypoint or short or long click on the compass rose icon shown on the right side of the waypoint list.
+            2. Go to the 'Any destination' menu from the main screen, enter coordinates and start navigating right away.
+
 - title: Calendar plugin
   items:
-  
+
+      - title: What does the calendar plugin of c:geo do?
+        content: |
+            It allows adding event caches to your personal calendar.
+            As it is a plugin it will only work if also c:geo itself is installed on your device.
+
+      - title: How do I add an event cache to my calendar?
+        content: |
+            When you open an event cache in c:geo select\\
+            Menu - Add to Calendar. 
+
+            A new appointment for the event will be created in your calendar.
+
+      - title: Why is the appointment added without or with a wrong time?
+        content: |
+            Event cache listings on the geocaching website do only contain the date but not the time of an event.
+
+            Nevertheless c:geo will scan the event description and try to extract a time from it.
+            In some cases it might be wrong or we are unable to do so. In these cases you have to manually correct the entry. 
+
+      - title: I always get a failure when trying to add an event to my calendar!
+        content: |
+            First of all you should make sure that your device has a calendar app installed and it is working properly.
+            Also if you are asked which calendar app to use when trying to add an event, please make sure you select the correct one.
+
+            On some Samsung devices adding events to the calendar will always fail due to an incorrect implementation of this function by Samsung.
+            Please check for a software update of your device in this case.
+
 - title: Contacts plugin
   items:
+
+      - title: What does the contacts plugin of c:geo do?
+        content: |
+            It allows you direct access to your phonebook when clicking on a username in c:geo.
+            As it is a plugin it will only work if also c:geo itself is installed on your device.
+
+      - title: How to use the contacts plugin?
+        content: |
+             When you click on a username in c:geo (e.g. in the cache logbook) the menu will contain an item to open the corresponding contact card in your phone contacts. 
+             This will allow you to directly call or message the user.
+
+      - title: How do I have to store the contacts in my phonebook to make it work?
+        content: |
+            The username of the person needs to be stored in the 'name' or 'alias' field of your contacts in order for the plugin to match the geocaching username to the contact.
+
+      - title: The contact is not matched although it is stored!
+        content: |
+            Please make sure you stored the geocaching name of the person like it is shown in c:geo in the 'alias' field of the contact in your phonebook.
+
+            Alternatively the plugin will also match if the geocaching name equals the full name stored in your phonebook.
