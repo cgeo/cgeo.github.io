@@ -882,6 +882,7 @@
             We decided to remove this option while implementing the new menus as it may lead to problems changing the destination directly inside the compass.
 
             You should instead use the various other functions c:geo offers for setting new target coordinates:
+
             1. Go to the cache details and swipe to the 'Waypoint' tab. There you can create a new waypoint and afterwards start navigating to it by either long press on the waypoint or short or long click on the compass rose icon shown on the right side of the waypoint list.
             2. Go to the 'Any destination' menu from the main screen, enter coordinates and start navigating right away.
 
