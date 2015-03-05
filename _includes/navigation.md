@@ -1,5 +1,5 @@
 [send2cgeo](#)
-[F.A.Q.](faq.html)
+[FAQ](faq.html)
 [Support](#)
 [Status](/status.html)
 [Changelog](https://github.com/cgeo/cgeo/releases)
