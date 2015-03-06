@@ -5,9 +5,15 @@ title: Support
 
 # Support
 
+We usually get quite a lot of support mails dealing with various topics. This can be either mails about problems you have with c:geo or ideas for new features,functionalities or general improvement proposals.
+
+As we are only a small team answering a lot of mails is very time consuming, so we want to give you an overview about how to help yourself before contacting us.
+
+We divided this information into "Help for problems" and "Ideas for c:geo":
+
 ## You have a problem using c:geo?
 
-### Before sending us a mail...
+### Before sending us a mail regarding a problem...
 
 We kindly ask you to make sure your problem is not covered by the following information before sending us a mail:
 
@@ -40,7 +46,7 @@ Send your email to [support@cgeo.org](mailto:support@cgeo.org?subject=Support ne
 
 ## You have an idea for improvements or new features?
 
-### Before sending us a mail...
+### Before sending us a mail regarding a new feature...
 
 There are already a lot of ideas for possible new features and functionalities of c:geo. However we are only a small team of developers with limited ressources, who are maintaining c:geo in their free time and it is already a lot of work to maintain c:geo and solve bugs.
 
@@ -58,5 +64,5 @@ Please try to write your mail in one of these languages to make it easier for us
 
 We are always trying to answer all of your mails, but sometimes we receive a high amount of requests thus our team might need some time to answer.
 
-Send your email to [support@cgeo.org](mailto:support@cgeo.org?subject=Idea for c:geo&body=Before sending us your idea please check if it is not already listed as advised on our support page!)
+Send your email to [support@cgeo.org](mailto:support@cgeo.org?subject=Idea for c:geo&body=Before sending us your idea please check if it is not already known as advised on our support page!)
 
