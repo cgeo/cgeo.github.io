@@ -41,6 +41,7 @@ Please include the following items in your mail:
 1. System information as listed in c:geo Menu - About c:geo - System
 2. A step-by-step procedure which lead to the problem (if applicable)
 3. Information about error messages shown by c:geo (if applicable)
+4. Also include all additional info which might be useful for us to reproduce the problem (e.g. screenshots, GPX files, etc.)
 
 Send your email to [support@cgeo.org](mailto:support@cgeo.org?subject=Support neeeded for c:geo&body=Please include system information and detailed problem description as advised on our support page!)
 
