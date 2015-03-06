@@ -15,12 +15,12 @@ If you would like to participate in the development you will find all relevant i
 
 
 ### Development activity
-
+\\
 <script type="text/javascript" src="http://www.openhub.net/p/585421/widgets/project_basic_stats.js"></script>
 
 ### Developer chat
 
-If you would like to contact the developers directly you can join or IRC channel [#cgeo on freenode.net](https://webchat.freenode.net/?channels=%23cgeo).
+If you would like to contact the developers directly you can join our IRC channel [#cgeo on freenode.net](https://webchat.freenode.net/?channels=%23cgeo).
 
 ### Status usage statistics
 
