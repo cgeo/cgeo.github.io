@@ -22,10 +22,10 @@ While the import function in c:geo is activated, it transmits about 5kb of data 
 ## How to install send2cgeo?
 <a name="howto"></a>
 
-Important Notes:
-The send2c:geo script supports Firefox and Chrome. Microsoft Internet Explorer is not supported! You need to allow cookies to be stored in your browser in order for the script to work.
+### Important Note:
+The send2c:geo script supports Mozilla Firefox and Google Chrome. Microsoft Internet Explorer is not supported! You need to allow cookies to be stored in your browser in order for the script to work.
 
-Script installation with Firefox:
+### Script installation with Firefox:
 
     Install the greasemonkey add-on: http://addons.mozilla.org/en-US/firefox/addon/greasemonkey/
     Open the send2c:geo script page: https://send2.cgeo.org/script.html
@@ -33,7 +33,7 @@ Script installation with Firefox:
     Greasemonkey will be triggered automatically, confirm the installation when prompted
     Continue with the registration as described below
 
-Script installation with Chrome:
+### Script installation with Chrome:
 
     Install the Tampermonkey add-on
     Open the send2c:geo script page: https://send2.cgeo.org/script.html
@@ -41,7 +41,7 @@ Script installation with Chrome:
     Tampermonkey will be triggered automatically, confirm the installation when prompted
     Continue with the registration as described below
 
-Registering browser and device:
+### Registering browser and device:
 
     After succesful installation of the script click "Register browser" on the right sidebar of the send2c:geo webpage https://send2.cgeo.org
     You can change the browser name by click on its name (optional step)
@@ -51,7 +51,7 @@ Registering browser and device:
     Now click "Add a device" in your browser and enter this PIN
     The webpage should now show a registrated browser and device on the right sidebar
 
-Usage:
+### Usage:
 
     On the geocaching.com website you should now see a "send to c:geo" button on the cache detail page as well as on the live map popup (Next to the existing "Send to my phone" button)
     Clicking this button will add the specific cache to the queue for downloading to c:geo
