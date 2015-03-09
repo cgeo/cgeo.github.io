@@ -9,6 +9,7 @@ Send2cgeo is a script available for Mozilla Firefox and Google Chrome browser. I
 
 [How to install send2cgeo?](#howto)\\
 [Get the script!](#script)\\
+[Register browser/device](#)\\
 [Usage instructions for send2cgeo](#usage)\\
 [FAQ for send2cgeo](/faq.html#faq.Whatissend)
 
