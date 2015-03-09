@@ -1,7 +1,5 @@
 [send2cgeo](https://send2.cgeo.org)
 [FAQ](faq.html)
 [Support](support.html)
-[Status](/status.html)
 [Changelog](https://github.com/cgeo/cgeo/releases)
-[Nightly](nightly.html)
 [Development](development.html)
