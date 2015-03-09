@@ -9,6 +9,7 @@ Send2cgeo is a script available for Mozilla Firefox or Google Chrome browser. It
 
 [How to install send2cgeo?](#howto)\\
 [Get the script!](#script)\\
+[Usage instructions for send2cgeo](#usage)\\
 [FAQ for send2cgeo](/faq.html#faq.Whatissend)
 
 ## Disclaimer
@@ -51,14 +52,15 @@ The send2c:geo script supports Mozilla Firefox and Google Chrome. Microsoft Inte
     Now click "Add a device" in your browser and enter this PIN
     The webpage should now show a registrated browser and device on the right sidebar
 
-### Usage:
+## How to use send2cgeo
+<a name="usage"></a>
 
-    On the geocaching.com website you should now see a "send to c:geo" button on the cache detail page as well as on the live map popup (Next to the existing "Send to my phone" button)
-    Clicking this button will add the specific cache to the queue for downloading to c:geo
-    Start c:geo on your device and go to a list of saved caches
-    Select Menu → Manage → Import from web
-    The caches will automatically be downloaded from geocaching.com to the list of saved caches
-    c:geo will continue to wait for more caches to be downloaded for 3 minutes.
+- On the geocaching.com website you should be able to see a "send to c:geo" button on the cache detail page as well as on the live map popup (Next to the existing "Send to my phone" button)
+- Clicking this button will add the specific cache to the queue for downloading to c:geo
+- Start c:geo on your device and go to a list of saved caches
+- Select Menu → Import → Import from web
+- The caches will automatically be downloaded from geocaching.com to the list of saved caches
+- c:geo will continue to wait for more caches to be downloaded for 3 minutes.
 
 ## Get the script!
 <a name="script"></a>
