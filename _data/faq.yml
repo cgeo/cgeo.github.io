@@ -31,7 +31,7 @@
             When you start c:geo the first time it will directly take you to the service settings where you can enter your username and password for the desired caching platforms.
 
             To access the service menu manually from the c:geo main screen please select: \\
-            Menu - Settings - Services
+            Menu → Settings → Services
 
             After you entered your username and password there, all you have to do is pressing the back key on your device until you reach the c:geo main menu. On the next start c:geo will automatically take you there.
 
@@ -74,14 +74,14 @@
         content: |
             First of all please check carefully whether you entered the correct username and password.
             You can find this in: \\
-            Menu - Settings - Services
+            Menu → Settings → Services
             Afterwards select "Check Login" (for geocaching.com users only) to see if login is either now possible or what error is returned.
 
             If you have doublechecked your credentials and still get an error message (e.g. Login failed, Unknown Error) the following might be helpful:
 
             Sometimes network providers insert messages into the HTML-traffic which prevents c:geo from logging in while on mobile network.
             A clear indication for this problem is, that c:geo only works on your WiFi connection at home but not while on a mobile network.
-            In this case please go to the c:geo settings Menu - Settings - Services and enable "Identify as Android Browser".
+            In this case please go to the c:geo settings Menu → Settings → Services and enable "Identify as Android Browser".
             Afterwards you might have to restart your phone to be sure these settings take effect.
 
             There have been reports, that in rare cases the login still fails although the login data is OK and also "Identify as Android browser" did not help.
@@ -94,8 +94,8 @@
             Attention: \\
             This procedure will delete all stored caches and app settings!
 
-            1. If needed, perform a backup of your caches in Menu - Settings - System - Backup
-            2. Go to your Android settings (not c:geo settings) and select Apps or Appmanager - c:geo - "Delete data"
+            1. If needed, perform a backup of your caches in Menu → Settings → System → Backup
+            2. Go to your Android settings (not c:geo settings) and select Apps or Appmanager → c:geo → "Delete data"
             3. On the next start of c:geo it will be back to factory settings and take you directly to the login screen.
             4. Enter your login data for the desired geocaching website
             5. Restore your backup (You will be asked for restoring once you enter the main screen of c:geo)
@@ -107,7 +107,7 @@
             c:geo uses metric units by default but should detect automatically if your phones default is set to imperial units.
 
             You can also manually select your preference in c:geo settings: \\
-            Menu button - Settings - Appearance - "Use Imperial units"
+            c:geo Menu → Settings → Appearance → "Use Imperial units"
 
       - title: Why do the cache details miss new information?
         content: |
@@ -123,7 +123,7 @@
 
       - title: Why does c:geo not use Groundspeak's public API?
         content: |
-            The initial idea of c:geo is to provide a free (and open-source) app for mobile geocaching for everybody. \\
+            The initial idea of c:geo is to provide a free (and open source) app for mobile geocaching for everybody. \\
             What would change with the API?
 
             - c:geo only for premium members
@@ -132,7 +132,7 @@
 
             There are also problems with the development:
 
-            - The API requires a private key for the app. But c:geo is open-source. There are a lot of independent developers, but only one would get the key. All other developers wouldn't be able to test what they do.
+            - The API requires a private key for the app. But c:geo is open source. There are a lot of independent developers, but only one would get the key. All other developers wouldn't be able to test what they do.
             - c:geo would no longer be open source
             - Only a few core developers would be allowed
             - Much slower development would result from that
@@ -153,7 +153,7 @@
 
             This does not have any impact on the c:geo functionality. As long as you have a GPS fix everything will work normal. \\
             If you want you can also disable the address information in c:geo settings so your coordinates are shown on the main screen instead of the address information: \\
-            Menu - Settings - Appearance - "Show Address"
+            Menu → Settings → Appearance → "Show Address"
 
       - title: What coordinate formats are supported in c:geo?
         content: |
@@ -198,7 +198,7 @@
             1. The geocache database containing basically the content of your lists
 
                 The database is stored in an internal folder on your device (not accessible without root access). Typically this database will only have a size of some megabyte.
-                For the database you can choose in the c:geo settings whether it is stored internally or on the SD-card.
+                For the database you can choose in the c:geo settings whether it is stored internally or on the SD card.
 
             2. The additional data (e.g. images, maps) for all the caches stored in the database
 
@@ -271,7 +271,7 @@
             It is useful to put all of your PQs into a specific folder and set this as the default import directory for gpx imports. This folder will be scanned first which will speed up the process. 
 
             You can specify the GPX import and export folders in the settings of c:geo: \\
-            Menu - Settings - System - "GPX Export Directory" / "GPX Import Directory"
+            Menu → Settings → System → "GPX Export Directory" / "GPX Import Directory"
 
       - title: I am not able to install c:geo from PlayStore!
         content: |
@@ -344,7 +344,7 @@
             Please select all possible sources in that menu or (in newer Android versions) select the "High accuracy mode".
 
             Furthermore you should check if your device supports "Google Play Services" and eventually enable the usage of that in c:geo: \\
-            Menu - Settings - System - "Use Google Play Services"
+            Menu → Settings → System → "Use Google Play Services"
 
       - title: I am not able to post a log online!
         content: |
@@ -362,7 +362,7 @@
             Sadly it is not possible to hide them by default due to server limitations.
 
             The only possibility is to hide them in your lists and search results by applying a local filter in c:geo: \\
-            Menu - Filter - Status - "All member access"
+            Menu → Filter → Status → "All member access"
 
       - title: What is the meaning of the icons on the right side of cache lists?
         content: |
@@ -394,7 +394,7 @@
             Please check if your device is connected to the internet and also try other connections (e.g. Wifi instead of mobile network or vice versa).
             If c:geo works on another connection there seems to be a problem with your network.
 
-            Go to c:geo settings (Menu - Settings - Services) and check your login. 
+            Go to c:geo settings (Menu → Settings → Services) and check your login. 
             If it fails please make sure you are using the correct login credentials. Those are the same you use for the geocaching website.
 
             Check if there are any notifications about problems shown on the c:geo main screen and check our [Facebook page](https://www.facebook.com/android.geocaching) to see if others also have a problem and/or we reported a known problem there.
@@ -408,7 +408,7 @@
 
             if you however accidentally activate an opencaching platform of a foreign country (e.g. you are living in Germany and have activated "opencaching.org.uk") you will see caches some hundred kilometers away in the nearby list as those are the nearest caches on this platform.
             In this case please deactivate the unneeded opencaching platforms in: \\
-            Menu - Settings - Services - "Opencaching.xx". 
+            Menu → Settings → Services → "Opencaching.xx". 
 
       - title: c:geo does not know the location of a cache!
         content: |
@@ -424,7 +424,7 @@
 
             1. Open the details or save the geocache to your device. This will request the exact coordinates.
 
-            2. Enable the CAPTCHA in the c:geo settings if desired (Menu - Settings - Services - geocaching.com - Basic member options). 
+            2. Enable the CAPTCHA in the c:geo settings if desired (Menu → Settings → Services → geocaching.com → Basic member options). 
             After entering the CAPTCHA c:geo will have the coordinates and proper sorting by distance, showing on map and navigating is possible.
 
             If you are premium member and c:geo does not know the location of a cache, please check your login and relogin to make sure c:geo knows you are a premium member.
@@ -498,7 +498,7 @@
             
             If all caches are shown as ?? you probably changed the live map loading strategy to "Fastest". With this setting the cache types are not requested to speed up live map loading.
             You have to change it back to another mode to see the cache types. This can be done in \\
-            Live Map - Menu - Strategy
+            Live Map → Menu → Strategy
 
       - title: Why do I see orange circles around the caches on the map?
         content: |
@@ -510,7 +510,7 @@
             In these cases the orange circle will disappear indicating that the coordinates are precise.
 
             You can influence the accuracy of the live map by selecting an appropriate live map loading strategy in \\
-            Live Map - Menu - Strategy
+            Live Map → Menu → Strategy
 
       - title: What are the live map loading strategies?
         content: |
@@ -518,7 +518,7 @@
             Some are focused on fast loading, some on accuracy of cache positions and information.
 
             You can select the strategy in \\
-            Live Map - Menu - Strategy
+            Live Map → Menu → Strategy
 
             This is the meaning of the different options:
 
@@ -560,7 +560,7 @@
             If this happens to you please send us a log (as described in this FAQ).
             
             To get around this problem start c:geo, go to \\
-            Menu - Settings - Map - "Select Map Source" \\
+            Menu → Settings → Map → "Select Map Source" \\
             and change the map to OSM:Mapnik.
 
             Now start the live map, it should work. After the live map is started you can switch back to Google Maps if desired.
@@ -572,12 +572,12 @@
             Perform a search for the desired address/region. Once the results are displayed, click on the map icon in the upper right.
             You will get the map for the location already containing the caches from your search. 
 
-            You can now use Menu - "Enable live" to activate the live map function.
+            You can now use Menu → "Enable live" to activate the live map function.
 
       - title: The live map is not showing any caches!
         content: |
             Please make sure that live mode is enabled. You might have accidentally disabled it: \\
-            Live Map - Menu - Enable live
+            Live Map → Menu → Enable live
 
             You can see whether live is enabled or not by looking at the headline: \\
             "Map" means live mode is disabled, "Live Map" means live mode is enabled
@@ -638,14 +638,14 @@
             OSM:Offline maps offer you the possibility to use all the map functionality of c:geo even when your device is not connected to the internet. This can be useful e.g. in case of roaming to avoid expensive data transfer or when you are in regions without or with slow network connection.
             We have implemented a support of mapsforge maps, which uses vector maps based on open street maps data.
 
-            In combination with caches already stored in c:geo (manually or via GPX import) and the possibility for offline-logging (e.g. for later fieldnote export) you will get a full offline solution for caching.
+            In combination with caches already stored in c:geo (manually or via GPX import) and the possibility for offline logging (e.g. for later fieldnote export) you will get a full offline solution for caching.
 
       - title: How to use an OSM:Offline map with c:geo?
         content: |
             Once you downloaded or created a map, store it into a folder (e.g. /mfmaps) on your device or SD-card. You can also store mulitple maps (e.g. for several countries) into this folder to have easy access later directly from c:geo.
             If you are additionally using Locus it is useful to store the maps in /Locus/mapsVector to have them accessible for Locus as well as for c:geo.
 
-            Afterwards go to c:geo Menu - Settings - Map and select the section "Directory with offline maps".
+            Afterwards go to c:geo Menu → Settings → Map and select the section "Directory with offline maps".
             It will automatically scan for maps on your phone memory and offer you the results.
 
             If either no results are returned or your map file is not listed you can select "Choose directory" on the top to use a dir chooser to select the correct path manually.
@@ -659,7 +659,7 @@
         content: |
             Yes, the mapsforge library we are currently using has some problems which we know of:
 
-            - If you try to start several instances of maps recursively (e.g. Live map -> Open cache -> Navigate -> Map) this may lead to memory problems depending on your device which can end up in a crash. Try to avoid using several map instances.
+            - If you try to start several instances of maps recursively (e.g. Live map → Open cache → Navigate → Map) this may lead to memory problems depending on your device which can end up in a crash. Try to avoid using several map instances.
             - Large map files can cause a slow rendering and sometimes even a crash. Try smaller files in these cases.
 
       - title: Where to get an OSM:Offline map?
@@ -684,7 +684,7 @@
             After having downloaded a theme-pacakge (usually a ZIP-file containing a lot of xml files and graphics) exract it including all its sub-directories into a folder in your device or SD-card. 
             Afterwards select this folder as base-folder for map themes in c:geo settings.
             If you have done it right and the theme is valid it should now be selectable from live map via\\
-            Live map menu - Map modes - Select map theme
+            Live map menu → Map modes → Select map theme
 
 - title: Offline caching
   items:
@@ -703,7 +703,7 @@
             On most devices the internet connection is disconnected automatically in roaming conditions or if the mobile part is switched off.
         
             To allow offline logging of caches please go to\\
-            c:geo Menu - Settings - Logging\\
+            c:geo Menu → Settings → Logging\\
             and enable "Offline Logging".
 
             Afterwards c:geo will not post logs online but only store the found status offline.
@@ -716,7 +716,7 @@
 
             If you save your cache logs offline in c:geo (e.g. when caching abroad) you have the possibility to export these logs as fieldnote instead of logging them online.
             The offline logged caches are marked by an orange line in your lists. To export the logs you have to open the relevant list of saved caches or the history and select\\
-            Menu - Manage - Export - Fieldnotes.\\
+            Menu → Manage → Export → Fieldnotes.\\
             From there you can either only export the fieldnote file to your device or additionally upload them to the geocaching website.
             The option 'Since last export' will check the last upload date on geocaching.com and only export those which are composed after this date.
 
@@ -729,10 +729,10 @@
             It will download satellite views as well as map views on different zoom levels. So you will have a map function also in case you don't have an internet connection and you don't use an OSM:Offline map.
 
             You have to enable this function in\\
-            c:geo Menu - Settings - Offline data\\
+            c:geo Menu → Settings → Offline data\\
             for the cache position itself  and (if needed) also for the additional waypoints of a cache.
 
-            To access the static maps of a cache later on please select Menu - Navigate - Static Maps from the cache details.
+            To access the static maps of a cache later on please select Menu → Navigate → Static Maps from the cache details.
 
       - title: Some caches are missing the static maps!
         content: |
@@ -757,7 +757,7 @@
             Yes, c:geo supports Opencaching platforms in several countries already and we are also planning to add more platforms once they provide an OKAPI interface.
 
             Please check\\
-            c:geo Menu - Settings - Services\\
+            c:geo Menu → Settings → Services\\
             to see which platforms are already supported.
             Whithin the seperate platform settings you also have the possibility to see which features are supported for the specific platform.
 
@@ -788,7 +788,7 @@
             While logging in to the geocaching.com website c:geo will automatically detect whether you are basic or premium member, but c:geo will only perform a login if it is necessary.
             So after you became a premium member it can happen, that c:geo does not know this yet.
 
-            In this case you can force c:geo to login by either selecting Menu - Settings - Services - geocaching.com - Check Login or simply rebooting your phone and starting c:geo again.
+            In this case you can force c:geo to login by either selecting Menu → Settings → Services → geocaching.com → Check Login or simply rebooting your phone and starting c:geo again.
 
       - title: The distance to a cache is fluctuating heavily!
         content: |
@@ -811,7 +811,7 @@
             It seems some devices on some Android versions have problems with that. They may show blurred fonts or no fonts at all.
 
             For some of these known problematic devices we switched this feature off automatically, but you can also do this manually in\\
-            Menu - Settings - System - Hardware acceleration
+            Menu → Settings → System → Hardware acceleration
 
             For devices with Android versions <4.2 we deactivate hardware acceleration by default on a new installation. Nevertheless check the setting if you encounter problems.
 
@@ -828,7 +828,7 @@
             This location services is not compatible with external GPS receivers.
 
             You have to disable the usage of those location services in\\
-            c:geo Menu - Settings - System\\
+            c:geo Menu → Settings → System\\
             in order to be able to use your external GPS receiver.
 
             After disabling Google Play location services the interworking with Bluetooth GPS receivers should work as it used to in older versions of c:geo.
@@ -897,7 +897,7 @@
       - title: How do I add an event cache to my calendar?
         content: |
             When you open an event cache in c:geo select\\
-            Menu - Add to Calendar. 
+            Menu → Add to Calendar. 
 
             A new appointment for the event will be created in your calendar.
 
