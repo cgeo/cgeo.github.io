@@ -28,7 +28,7 @@ While the import function in c:geo is activated, it transmits about 5kb of data 
 ## How to install send2cgeo?
 <a name="howto"></a>
 
-### Important Note:
+### Prerequisites:
 The send2c:geo script supports Mozilla Firefox and Google Chrome. Microsoft Internet Explorer is not supported! You need to allow cookies to be stored in your browser in order for the script to work.
 
 ### Script installation with Mozilla Firefox:
