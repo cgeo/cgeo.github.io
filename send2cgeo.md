@@ -33,7 +33,7 @@ The send2c:geo script supports Mozilla Firefox and Google Chrome. Microsoft Inte
 
 ### Script installation with Mozilla Firefox:
 
-- Install the [greasemonkey add-on](http://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) and make sure it is activated in your browser after installation
+- Install the [Greasemonkey add-on](http://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) and make sure it is activated in your browser after installation
 - Start installing the script by clicking [here](https://github.com/cgeo/cgeo/raw/master/send2cgeo/send2cgeo.user.js)
 - Greasemonkey will be triggered automatically, confirm the installation when prompted
 - Continue with the registration as described below
@@ -47,13 +47,13 @@ The send2c:geo script supports Mozilla Firefox and Google Chrome. Microsoft Inte
 
 ### Registering browser and device:
 
-- After succesful installation of the script click "Register browser" on the right sidebar of the send2cgeo webpage       TO BE COMPLETED 
+- After succesful installation of the script click "Register browser" on the right sidebar of the send2cgeo webpage <b>TO BE COMPLETED</b>
 - You can change the browser name by click on its name (optional step)
 - Run c:geo on your android device and select Menu → Settings → Services → send2c:geo
 - Specify a device name in the setting "Your device name" (optional step)
 - Select "Request Registration". You will get an info window showing a five digit PIN
-- Now click "Add a device" in your browser and enter this PIN              TO BE COMPLETED
-- The webpage should now show a registrated browser and device on the right sidebar
+- Now click "Add a device" in your browser and enter this PIN  <b>TO BE COMPLETED</b>
+- The webpage should now show a registrated browser and device on the right sidebar <b>TO BE COMPLETED</b>
 
 ## How to use send2cgeo
 <a name="usage"></a>
