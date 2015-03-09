@@ -17,7 +17,7 @@ Send2cgeo is a script available for Mozilla Firefox and Google Chrome browser. I
 
 [FAQ for send2cgeo](/faq.html#faq.Whatissend)
 
-## Disclaimer
+## Important Notes/Disclaimer
 
 No personal data (except your browser name, your device name and geocodes) will ever be stored on our servers. This service does not use any password and you will never be asked to enter any of your passwords for it.
 
