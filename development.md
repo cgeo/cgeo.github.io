@@ -31,7 +31,7 @@ Additionally you will see the active warnings of our user notification system (i
 
 Like our source code also this website is hosted on [Github](https://github.com/cgeo/cgeo.github.io).
 
-If you find errors or outdated information on it or you have ideas for improving it, you are welcome to contribute like described in the [readme file](https://github.com/cgeo/cgeo.github.io/blob/master/README.md).
+If you find errors or outdated information on it or you have ideas for improving it, you are welcome to contribute as described in the [readme file](https://github.com/cgeo/cgeo.github.io/blob/master/README.md).
 
 We are also looking for people willing to help writing a users manual for c:geo. Just contact us via Github if you are interested.
 
