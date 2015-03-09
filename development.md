@@ -22,9 +22,18 @@ If you would like to participate in the development you will find all relevant i
 
 If you would like to contact the developers directly you can join our IRC channel [#cgeo on freenode.net](https://webchat.freenode.net/?channels=%23cgeo).
 
-### Status usage statistics
+### Current status and usage statistics
 
 On our [status page](/status.html) you will see a snapshot of the current usage of c:geo splitted up into the different existing versions.
+Additionally you will see the active warnings of our user notification system (if any).
+
+### Our website
+
+Like our source code also this website is hosted on [Github](https://github.com/cgeo/cgeo.github.io).
+
+If you find errors or outdated information on it or you have ideas for improving it, you are welcome to contribute like described in the [readme file](https://github.com/cgeo/cgeo.github.io/blob/master/README.md).
+
+We are also looking for people willing to help writing a users manual for c:geo. Just contact us via Github if you are interested.
 
 ## Nightly Builds
 
