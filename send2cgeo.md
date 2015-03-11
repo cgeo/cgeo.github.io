@@ -7,13 +7,13 @@ title: Send2cgeo
 
 Send2cgeo is a script available for Mozilla Firefox and Google Chrome browser. It allows you to send geocaches directly from your browser to c:geo on your phone.
 
-[How to install send2cgeo](#howto)
+[How to install send2cgeo](#how-to-install-send2cgeo)
 
-[Download the script](#script)
+[Download the script](#download-the-script)
 
 [Register browser and/or device](#) <b>TO DO</b>
 
-[Usage instructions for send2cgeo](#usage)
+[Usage instructions for send2cgeo](#how-to-use-send2cgeo)
 
 [FAQ for send2cgeo](/faq.html#faq.Whatissend)
 
@@ -26,7 +26,6 @@ This service comes without any warranty and might be unavailable sometimes (e.g.
 While the import function in c:geo is activated, it transmits about 5kb of data over the internet per minute! Beware of this, if you are on 3G and don't have a flatrate.
 
 ## How to install send2cgeo
-<a name="howto"></a>
 
 ### Prerequisites:
 The send2c:geo script supports Mozilla Firefox and Google Chrome. Microsoft Internet Explorer is not supported! You need to allow cookies to be stored in your browser in order for the script to work.
@@ -56,7 +55,6 @@ The send2c:geo script supports Mozilla Firefox and Google Chrome. Microsoft Inte
 - The webpage should now show a registrated browser and device on the right sidebar <b>TO DO</b>
 
 ## How to use send2cgeo
-<a name="usage"></a>
 
 - On the geocaching.com website you should be able to see a "send to c:geo" button on the cache detail page as well as on the live map popup (Next to the existing "Send to my phone" button)
 - Clicking this button will add the specific cache to the queue for downloading to c:geo
@@ -66,7 +64,6 @@ The send2c:geo script supports Mozilla Firefox and Google Chrome. Microsoft Inte
 - c:geo will continue to wait for more caches to be downloaded for 3 minutes.
 
 ## Download the script
-<a name="script"></a>
 
 Make sure you have Greasemonkey/Tampermonkey **installed and active** in your browser before continuing.
 
