@@ -833,6 +833,38 @@
 
             After disabling Google Play location services the interworking with Bluetooth GPS receivers should work as it used to in older versions of c:geo.
 
+      - title: I got a new device. How to transfer all the content of c:geo?
+        content: |
+            Sometimes users are asking us how to clone the content in their c:geo installation from one device to another (e.g. in case they got a new device).
+
+            Here is a basic instruction for you:
+
+            What you need to do this:
+
+            - A good File Explorer on both devices
+            - A possibility to transfer files from one device to another (cable, mail, cloud storage, SD card, etc.)
+
+            On the old device:
+
+            - Start c:geo
+            - Go to c:geo Menu → Settings → System and perform a backup of the database (remember the file location which is shown at the end of the process)
+            - Open a File Explorer, locate the backup file (typically in /sdcard/.cgeo/cgeo.sqlite) and store it at a safe location for later restore on the new device
+            - Optional step: The same directory in which you found the backup file does also contain several folders with cache specific information (pictures, static maps, etc). If this infos are missing on the new device, c:geo will automatically download them again on the next refresh of the cache; so there is no need to copy those. If you however want to avoid that, you can also copy all the subfolders to a safe location for transfer.
+
+            On the new device:
+
+            - Install the same c:geo version as on the old device
+            - Start c:geo
+            - Store your login credentials and apply your personal settings as needed (those are not part of the backup)
+            - End c:geo
+            - Use a File Explorer to locate the similar folder from which you saved the backup on the old phone (typically sdcard/.cgeo/) and place the backup file (cgeo.sqlite) from the old phone into this folder
+            - Optional step: If you also did a backup of all the subfolders, restore them as well to the same base folder as the backup file
+            - Start c:geo again
+            - Go to c:geo Menu → Settings → System and select to restore the backup
+
+            If you did everything right, now the content of c:geo on the new device should look like on the old device.
+            This includes all caches on your lists with all its contained information (like waypoints, notes, offline logs, etc.) and - if you did the optional step - also all images on the image tab and static maps.
+
 - title: New menu implementation
   items:
 
