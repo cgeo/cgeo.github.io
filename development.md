@@ -15,8 +15,7 @@ If you would like to participate in the development you will find all relevant i
 
 
 ### Development activity
-\\
-<script type="text/javascript" src="http://www.openhub.net/p/585421/widgets/project_basic_stats.js"></script>
+<div class="openhub"><script type="text/javascript" src="http://www.openhub.net/p/585421/widgets/project_basic_stats.js"></script></div>
 
 ### Developer chat
 
