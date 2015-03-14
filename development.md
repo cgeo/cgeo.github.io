@@ -23,7 +23,7 @@ If you would like to contact the developers directly you can join our IRC channe
 
 ### Current status and usage statistics
 
-On our [status page](/status.html) you will see a snapshot of the current usage of c:geo splitted up into the different existing versions.
+On our [status page](/status.html) you will see a snapshot of the current usage of c:geo split up into the different existing versions.
 Additionally you will see the active warnings of our user notification system (if any).
 
 ### Our website
@@ -36,11 +36,11 @@ We are also looking for people willing to help writing a users manual for c:geo.
 
 ## Nightly Builds
 
-If you want to test new features of upcoming versions, you can use our nightly builds. These are current development snapshots you can install manually on your device.
+If you want to test new features of upcoming versions, you can use our nightly builds. These are current development snapshots, which you have to install manually on your device.
 
 Nightly builds are not for live usage. You should only install these versions if you know what you're doing. These versions may not be stable. The features and changes are in alpha or beta state!
 
-If you install one of our nightly build to your device, you will get no support for failures, errors, functions or crashes.
+If you install one of our nightly builds to your device, you will not get support for failures, errors, functionality or crashes.
 
 
 ### Download Nightly Builds
