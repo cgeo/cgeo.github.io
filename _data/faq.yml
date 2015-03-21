@@ -79,6 +79,8 @@
 
             If you have doublechecked your credentials and still get an error message (e.g. Login failed, Unknown Error) the following might be helpful:
 
+            Please check that your phone is working with the correct date und time. If the date is wrong this might lead to problems establishing a secure connection to the server.
+
             Sometimes network providers insert messages into the HTML-traffic which prevents c:geo from logging in while on mobile network.
             A clear indication for this problem is, that c:geo only works on your WiFi connection at home but not while on a mobile network.
             In this case please go to the c:geo settings Menu → Settings → Services and enable "Identify as Android Browser".
