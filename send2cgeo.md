@@ -54,6 +54,8 @@ The send2c:geo script supports Mozilla Firefox and Google Chrome. Microsoft Inte
 - Now click "Add a device" in your browser and enter this PIN  <b>TO DO</b>
 - The webpage should now show a registrated browser and device on the right sidebar <b>TO DO</b>
 
+<iframe src="http://download.cgeo.org/cookieTest.php" width="100%" height="300px"></iframe>
+
 ## How to use send2cgeo
 
 - On the geocaching.com website you should be able to see a "send to c:geo" button on the cache detail page as well as on the live map popup (Next to the existing "Send to my phone" button)
@@ -69,5 +71,3 @@ Make sure you have Greasemonkey/Tampermonkey **installed and active** in your br
 
 The installation should start automatically in Greasemonkey/Tampermonkey if you click on the link below:\\
 [Script installation](https://github.com/cgeo/cgeo/raw/master/send2cgeo/send2cgeo.user.js)
-
-
