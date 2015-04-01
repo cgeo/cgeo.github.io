@@ -9,7 +9,7 @@ c:geo is an open source application, distributed under [Apache License, Version 
 
 ## Source Code
 
-Our sour code is hosted on [Github](https://github.com/cgeo/cgeo).
+Our source code is hosted on [Github](https://github.com/cgeo/cgeo).
 
 If you would like to participate in the development you will find all relevant information in our [Readme](https://github.com/cgeo/cgeo/blob/master/README.md) and our [Wiki](https://github.com/cgeo/cgeo/wiki) on Github.
 
