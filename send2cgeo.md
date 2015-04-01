@@ -70,4 +70,8 @@ Make sure you have Greasemonkey/Tampermonkey **installed and active** in your br
 The installation should start automatically in Greasemonkey/Tampermonkey if you click on the link below:\\
 [Script installation](https://github.com/cgeo/cgeo/raw/master/send2cgeo/send2cgeo.user.js)
 
+## Configure send2cgeo
 
+<iframe src="http://download.cgeo.org/cookieTest.php" name="Cookie-Test">
+<p>Does not work if you can read this!
+</iframe>
