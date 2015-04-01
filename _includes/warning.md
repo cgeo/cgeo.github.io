@@ -1,4 +1,5 @@
-This version of our website is not yet released and only in a testing phase.
+This version of our website is currently under test and not yet officially released!
+
 Some links might not work, some information might not be accurate or complete.
 
-You will find our official website here: <a href="http://www.cgeo.org>www.cgeo.org>
+Our official website is located here: [www.cgeo.org](http://www.cgeo.org)
