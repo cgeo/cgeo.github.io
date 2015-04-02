@@ -867,6 +867,19 @@
             If you did everything right, now the content of c:geo on the new device should look like on the old device.
             This includes all caches on your lists with all its contained information (like waypoints, notes, offline logs, etc.) and - if you did the optional step - also all images on the image tab and static maps.
 
+      - title: The OSM map is not displayed properly?
+        content: |
+
+            Several users reported the problem, that the OSM maps (offline and online) are not displayed properly but only incomplete parts of it. Additionally the cache icons are only displayed as a vertical row over the map but not on their real position.
+
+            This affects devices using a Media Tek CPU. There is a mathematical error in the compiler for this CPU type causing the problem. 
+            You can find more information here: [Wrong division on Media Tek CPU](https://github.com/cgeo/cgeo/issues/4097)
+
+            As this is a bug outside of c:geo we cannot fix it.
+            However we created a special version of our nightly builds which works around this problem. You can download it here: [c:geo Nightly Build - NOJIT](http://ci.cgeo.org/job/c-geo-nightly-nojit/ws/main/bin/cgeo-release.apk)
+
+            Please frequently check if your device vendor offers a firmware update which solves this processor problem.
+
 - title: New menu implementation
   items:
 
