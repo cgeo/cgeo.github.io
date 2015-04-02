@@ -1,10 +1,10 @@
 # c:geo website
 
-If you are looking for the source code of the c:geo app, please visit https://github.com/cgeo/cgeo instead.
+This repository contains the [website of c:geo](http://www.cgeo.org/). If you are looking for the source code of the c:geo app, please visit [github.com/cgeo/cgeo](https://github.com/cgeo/cgeo) instead.
 
 
 
-# How to install and run
+## How to install and run
 
 This site uses Jekyll. In order to test it locally you need a working Ruby environment. See [this guide](https://www.ruby-lang.org/en/documentation/installation/) for how to install Ruby on your machine.
 
@@ -28,7 +28,7 @@ As there might be changes in the dependencies and development in Jekyll you shou
 
 
 
-# Editing the FAQ
+## Editing the FAQ
 
 The FAQ is located in `_data/faq.yml`. As you can see this is a [YAML](http://www.yaml.org/) file. You do not need to understand the complete syntax, just keep the indentation as it is.
 
@@ -36,7 +36,7 @@ Each FAQ entry uses Markdown (with [kramdown](http://kramdown.gettalong.org/) ex
 
 
 
-# Enable a warning
+## Enable a warning
 
 You can enable a warning by adding content to `_includes/warning.md` (Markdown syntax). It will be shown on the index page (currently only a single, red warning block).
 
