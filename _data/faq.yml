@@ -867,7 +867,7 @@
             If you did everything right, now the content of c:geo on the new device should look like on the old device.
             This includes all caches on your lists with all its contained information (like waypoints, notes, offline logs, etc.) and - if you did the optional step - also all images on the image tab and static maps.
 
-      - title: The OSM map is not displayed properly?
+      - title: The OSM map is not displayed properly!
         content: |
 
             Several users reported the problem, that the OSM maps (offline and online) are not displayed properly but only incomplete parts of it. Additionally the cache icons are only displayed as a vertical row over the map but not on their real position.
