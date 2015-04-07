@@ -77,9 +77,9 @@
             Menu → Settings → Services
             Afterwards select "Check Login" (for geocaching.com users only) to see if login is either now possible or what error is returned.
 
-            If you have doublechecked your credentials and still get an error message (e.g. Login failed, Unknown Error) the following might be helpful:
+            If you have double-checked your credentials and still get an error message (e.g. Login failed, Unknown Error) the following might be helpful:
 
-            Please check that your phone is working with the correct date und time. If the date is wrong this might lead to problems establishing a secure connection to the server.
+            Please check that your phone is working with the correct date and time. If the date is wrong this might lead to problems establishing a secure connection to the server.
 
             Sometimes network providers insert messages into the HTML-traffic which prevents c:geo from logging in while on mobile network.
             A clear indication for this problem is, that c:geo only works on your WiFi connection at home but not while on a mobile network.
@@ -139,7 +139,7 @@
             - Only a few core developers would be allowed
             - Much slower development would result from that
 
-            While Groundspeak's API would fix most of our current problems, c:geo would then force users to pay money to a corporation. This is not the opensource spirit.
+            While Groundspeak's API would fix most of our current problems, c:geo would then force users to pay money to a corporation. This is not the open-source spirit.
             If Groundspeak says OK to our ideas then c:geo might have an API some day...
 
       - title: The website is always shown to English!
@@ -149,7 +149,7 @@
 
             Feel free to change the language on the website back to your desired language anytime when using it. c:geo will detect this and automatically swuitch back to english on the next login.
 
-      - title: Unkown Location is shown on the main screen!
+      - title: Unknown Location is shown on the main screen!
         content: |
             The address information shown at the bottom of the main screen is an information we receive from a geocoding database based on your position. Sometimes this database has no address information for your location or the service is not running. In this case 'Unknown Location' or even a wrong city could be shown.
 
@@ -224,7 +224,7 @@
       - title: Can c:geo post to Facebook?
         content: |
             No, currently c:geo does only support Twitter as a social network.
-            As the development team has limited ressources and is focussing on new geocaching features we currently do not have plans to implement a Facebook connection.
+            As the development team has limited resources and is focusing on new geocaching features we currently do not have plans to implement a Facebook connection.
 
             However if you are Twitter user already and/or you are looking for a way to post your findings to Facebook, please note that there is a possibility to link Twitter to Facebook.
             Doing so all your tweets will also be posted on Facebook (including the c:geo tweets).
@@ -260,7 +260,7 @@
       - title: Logs made with c:geo are truncated on the website!
         content: |
             Especially on [geocaching.com](http://www.geocaching.com/) it may happen that log texts are interpreted as HTML code although they are not written in HTML. \\
-            If you e.g. include a "<" or ">" sign in your log, it may appear truncated or bad formatted later. This does not only affect c:geo but also if you write this kind of log direclty on the website.
+            If you e.g. include a "<" or ">" sign in your log, it may appear truncated or bad formatted later. This does not only affect c:geo but also if you write this kind of log directly on the website.
             Reason for this is a bad implementation for HTML detection on the website, but no fault in c:geo.
 
             You need either to avoid such special characters in your log or use HTML-formatted logs to work around this problem.
@@ -336,7 +336,7 @@
 
       - title: How to setup my device to get the best possible location?
         content: |
-            Android has different meachnisms to provide location information to apps:
+            Android has different mechanisms to provide location information to apps:
 
             1. Network based location information derived from Wifi signals and mobile networks
             2. GPS position information derived from the device GPS receiver
@@ -378,7 +378,7 @@
 
             Number in the lower half:
 
-            The number in this field represents the amount of favorite points of geocaching.com or referals for opencaching.x given to that cache by users.
+            The number in this field represents the amount of favorite points of geocaching.com or referrals for opencaching.x given to that cache by users.
 
             Symbol with number in the upper half:
 
@@ -439,7 +439,7 @@
 
       - title: The dates in the logbook are wrong or not shown at all! 
         content: |
-            If you are running the legacy version of c:geo (only for Android version below 2.3) we have some limtations regarding the supported date formats of geocaching.com.
+            If you are running the legacy version of c:geo (only for Android version below 2.3) we have some limitations regarding the supported date formats of geocaching.com.
             In all other versions of c:geo all possible date formats are supported.
 
             If you are on an Android version above 2.2 and notice incorrect dates please update to the newest version of c:geo and refresh the affected caches.
@@ -495,7 +495,7 @@
             It is normal that you sometimes see some ??-caches on the map.
 
             The ?? means that c:geo was not able to identify the type of this cache.
-            This mostly happens if too many caches are displayed at once (i.e. your zoom level is very low or the cache densitiy is very high).
+            This mostly happens if too many caches are displayed at once (i.e. your zoom level is very low or the cache density is very high).
             If you reduce the amount of caches shown (by zooming in) or if you click on a specific cache you will get the info about the cache type.
             
             If all caches are shown as ?? you probably changed the live map loading strategy to "Fastest". With this setting the cache types are not requested to speed up live map loading.
@@ -595,7 +595,7 @@
             Send to c:geo is a quicker way to transfer a cache opened in your browser to your c:geo.
             You will find all relevant information for installation ans usage here: [send2cgeo](#)
 
-      - title: I tried to register my device but it shows 'Registation failed'!
+      - title: I tried to register my device but it shows 'Registration failed'!
         content: |
             If the registration fails the reason can be one of the following:
 
@@ -644,7 +644,7 @@
 
       - title: How to use an OSM:Offline map with c:geo?
         content: |
-            Once you downloaded or created a map, store it into a folder (e.g. /mfmaps) on your device or SD-card. You can also store mulitple maps (e.g. for several countries) into this folder to have easy access later directly from c:geo.
+            Once you downloaded or created a map, store it into a folder (e.g. /mfmaps) on your device or SD-card. You can also store multiple maps (e.g. for several countries) into this folder to have easy access later directly from c:geo.
             If you are additionally using Locus it is useful to store the maps in /Locus/mapsVector to have them accessible for Locus as well as for c:geo.
 
             Afterwards go to c:geo Menu → Settings → Map and select the section "Directory with offline maps".
@@ -677,13 +677,13 @@
 
       - title: How to use custom themes for OSM:Offline?
         content: |
-            c:geo is supporting custom rendering themes for OSM:Offline maps. These can be used to change the color style of the map (e.g. to have a nightview map) or to highlight certain objects within the map (e.g. cycle paths or height lines).
+            c:geo is supporting custom rendering themes for OSM:Offline maps. These can be used to change the color style of the map (e.g. to have a night-view map) or to highlight certain objects within the map (e.g. cycle paths or height lines).
 
             Up to now we do not have build-in themes but you need to create them by yourself or download some user made themes from the internet. Try e.g. searching the net for "RGB Night Theme for Vectormaps" to find appropriate nightview themes.
 
             If you have created a personal version of a theme which you are willing to share with us, feel free to contact us.
 
-            After having downloaded a theme-pacakge (usually a ZIP-file containing a lot of xml files and graphics) exract it including all its sub-directories into a folder in your device or SD-card. 
+            After having downloaded a theme-package (usually a ZIP-file containing a lot of xml files and graphics) extract it including all its sub-directories into a folder in your device or SD-card. 
             Afterwards select this folder as base-folder for map themes in c:geo settings.
             If you have done it right and the theme is valid it should now be selectable from live map via\\
             Live map menu → Map modes → Select map theme
@@ -872,8 +872,8 @@
 
             Several users reported the problem, that the OSM maps (offline and online) are not displayed properly but only incomplete parts of it. Additionally the cache icons are only displayed as a vertical row over the map but not on their real position.
 
-            This affects devices using a Media Tek CPU. There is a mathematical error in the compiler for this CPU type causing the problem. 
-            You can find more information here: [Wrong division on Media Tek CPU](https://github.com/cgeo/cgeo/issues/4097)
+            This affects devices using a MediaTek CPU. There is a mathematical error in the compiler for this CPU type causing the problem. 
+            You can find more information here: [Wrong division on MediaTek CPU](https://github.com/cgeo/cgeo/issues/4097)
 
             As this is a bug outside of c:geo we cannot fix it.
             However we created a special version of our nightly builds which works around this problem. You can download it here: [c:geo Nightly Build - NOJIT](http://ci.cgeo.org/job/c-geo-nightly-nojit/ws/main/bin/cgeo-release.apk)
@@ -887,7 +887,7 @@
         content: |
             We are now following the Android design guidelines and thus have the same appearance like other modern apps.
 
-            This will also solve the problems with devices with physical buttons and no menu button as the menu is now usuable without the need for a HW button.
+            This will also solve the problems with devices with physical buttons and no menu button as the menu is now usable without the need for a HW button.
             Furthermore the new title bar allows a more consistent menu usage throughout the whole app, which will make it easier for you to find all functionalities and will also help us when implementing new features.
 
       - title: How does the new menu work?
