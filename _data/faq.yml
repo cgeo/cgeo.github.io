@@ -275,9 +275,9 @@
             You can specify the GPX import and export folders in the settings of c:geo: \\
             Menu → Settings → System → "GPX Export Directory" / "GPX Import Directory"
 
-      - title: I am not able to install c:geo from PlayStore!
+      - title: I am not able to install c:geo from Google Play!
         content: |
-            There are some reasons why installing c:geo from the [PlayStore](https://play.google.com/store/apps/details?id=cgeo.geocaching) might not be possible.
+            There are some reasons why installing c:geo from [Google Play](https://play.google.com/store/apps/details?id=cgeo.geocaching) might not be possible.
             
             1. c:geo is shown as "Not supported" for your device:
 
@@ -288,9 +288,9 @@
                 If you are on a Android version above 2.1 but your device has no GPS and you still want to install c:geo on it, you have to install c:geo manually by downloading the APK file [here](https://github.com/cgeo/cgeo/releases/latest).
                 But be aware, that you can not navigate to caches without GPS!
 
-            2. You can not find c:geo on the Playstore:
+            2. You can not find c:geo on Google Play:
 
-                That is probably a wrong setting in your [PlayStore settings](https://play.google.com/settings). 
+                That is probably a wrong setting in your [Google Play settings](https://play.google.com/settings). 
                 It has a content filtering with a rating that has four different levels, where "All" is the level which can be shown to all users. 
                 c:geo however is not on that level, because Google requires apps with position tracking to be level "Low".
   
@@ -318,6 +318,17 @@
 
             If you however still want to install an old version (e.g. for testing purposes) you can find a version history with download option in our [Guthub Release History](https://github.com/cgeo/cgeo/releases/).
             Please be aware that you need to uninstall a newer version of c:geo on your device before installing an older version as downgrading is not possible.
+
+      - title: Google Play is not showing a new version of c:geo which should be available!
+        content: |
+
+            Some users complain that on clicking the notification for a new version on the c:geo main screen Google Play opens but shows no available updates.
+
+            Google Play may need several hours to roll out the update in all countries. Trying again some hours later should solve the problem.
+            If the update is still not shown it will help to restart your device to force the Google Play app to synchronize with the server and detect the new version.
+
+            If you you still have problems to load the update from Google Play we suggest to download the update as described here:
+            [I don't use the Google Play but still want to use c:geo!](http://cgeo.github.io/faq.html#faq.Idon%27t)
 
       - title: I don't use Google Play but still want to use c:geo!
         content: |
