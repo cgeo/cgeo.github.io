@@ -145,7 +145,7 @@
       - title: The website is always shown to English!
         content: |
             c:geo is accessing the geocaching website as a customized internet browser. \\
-            In order to retrieve the information from the website it needs to have reliable information. Therefore c:geo will change the language to english when logging in, because iz can not support all different languages.
+            In order to retrieve the information from the website it needs to have reliable information. Therefore c:geo will change the language to english when logging in, because it cannot support all different languages.
 
             Feel free to change the language on the website back to your desired language anytime when using it. c:geo will detect this and automatically swuitch back to english on the next login.
 
@@ -318,7 +318,7 @@
             If you select the menu icon to send your log and you get a message saying "Loading Log-Page" the log page on the server was not yet loaded.
             Check if you have an internet connection and wait a moment until the required data has been loaded and then try again to send your log.
 
-            In case you can not establish an internet connection or the geocaching server is down you can also select to just save the log on your device and send it later by reaccessing the log page.
+            In case you cannot establish an internet connection or the geocaching server is down you can also select to just save the log on your device and send it later by reaccessing the log page.
             To do this just press back on your device, the log will automatically be saved.
 
             You can also batch submit offline stored logs as fieldnotes to the geocaching website at a later point of time.
@@ -454,9 +454,9 @@
                 Android versions below 2.1 are no longer supported by c:geo. 
 
                 If you are on a Android version above 2.1 but your device has no GPS and you still want to install c:geo on it, you have to install c:geo manually by downloading the APK file [here](https://github.com/cgeo/cgeo/releases/latest).
-                But be aware, that you can not navigate to caches without GPS!
+                But be aware, that you cannot navigate to caches without GPS!
 
-            2. You can not find c:geo on Google Play:
+            2. You cannot find c:geo on Google Play:
 
                 That is probably a wrong setting in your [Google Play settings](https://play.google.com/settings). 
                 It has a content filtering with a rating that has four different levels, where "All" is the level which can be shown to all users. 
@@ -469,7 +469,7 @@
             Generally we do not recommend to install an outdated version of c:geo, because it might no longer work as expected as newer versions often include adaptions to changed functions of the geocaching platforms.
             So we strongly recommend not to go back but to apply all updates as soon as they are available.
 
-            We can not guarantee that older versions will still work!
+            We cannot guarantee that older versions will still work!
 
             If you however still want to install an old version (e.g. for testing purposes) you can find a version history with download option in our [Guthub Release History](https://github.com/cgeo/cgeo/releases/).
             Please be aware that you need to uninstall a newer version of c:geo on your device before installing an older version as downgrading is not possible.
@@ -501,7 +501,7 @@
             The current version of Blackberry OS supports sideloading of Android applications. 
 
             Just download the Android APK file [here](https://github.com/cgeo/cgeo/releases/latest) and install it to your Blackberry phone. Instructions about sideloading Android applications can be found in the internet.
-            But please be aware, that we can not give a guarantee that all features are working and can't provide support in case of problems.
+            But please be aware, that we cannot give a guarantee that all features are working and can't provide support in case of problems.
 
 
       - title: I got a new device. How to transfer all the content of c:geo?
@@ -930,7 +930,7 @@
             If your device is running on Android 2.3 the overflow button (three dot button) is not used.
             You have to use the menu key of your device instead, which will give you the same options like in the overflow menu.
 
-      - title: I can not find all menu entries. Did you remove features?
+      - title: I cannot find all menu entries. Did you remove features?
         content: |
             No, we did not remove any feature/functionality and also preserved the existing menu structure as much as possible.
 
