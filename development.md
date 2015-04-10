@@ -54,6 +54,10 @@ If you install one of our nightly builds to your device, you will not get suppor
 We are using a crowd sourced translation platform to improve the translation and even include new languages.
 If you want to contribute translations you are invited to do so on this platform!
 
+Localization statistics:
+
+[![Crowdin](https://d322cqt584bo4o.cloudfront.net/cgeo/localized.png)](https://crowdin.com/project/cgeo)
+
 Just create a free account on [Crowdin](https://crowdin.com/) and start contributing translations or vote for existing proposals to the [c:geo Crowdin Project](https://crowdin.com/project/cgeo).
 
 If you would like to include a new language please contact us via Crowdin.
