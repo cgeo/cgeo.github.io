@@ -440,7 +440,7 @@
             If the update is still not shown it will help to restart your device to force the Google Play app to synchronize with the server and detect the new version.
 
             If you you still have problems to load the update from Google Play we suggest to download the update as described here:
-            [I don't use the Google Play but still want to use c:geo!](http://cgeo.github.io/faq.html#faq.Idon%27t)
+            [I don't use the Google Play but still want to use c:geo!](./faq.html#faq.Idon%27t)
 
       - title: I don't use Google Play but still want to use c:geo!
         content: |
@@ -555,6 +555,13 @@
 
             If you had a GPS fix at least once while c:geo is running it should remember this as your last position and open the live map at this position.
             Additionally you can set your home coordinates on [this page](https://www.geocaching.com/account/settings/homelocation) on geocaching.com. c:geo will then use these coordinates if no other location information is available.
+
+      - title: c:geo seems unable to get my current location!
+        content: |
+          Please first of all check if you enabled all relevant positioning methods on your system as described in [this FAQ entry](./faq.html#faq.Howtosetup).
+  
+          We received reports, that on some devices the "Google Play Services" might be faulty.
+          If all location methods are enabled but you still have problems, please try to switch off the usage of "Google Play Services" in Menu → Settings → System → "Use Google Play Services".
 
 - title: Live Map
   items:
