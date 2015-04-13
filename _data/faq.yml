@@ -237,19 +237,6 @@
 
             Please consider using the c:geo scaling function to scale down the resolution before submitting the log.
 
-      - title: The compass shows wrong directions or stops moving!
-        content: |
-            In 99% of these cases the problem is your device. 
-            c:geo only uses the position and compass information provided by the Android system.
-
-            Please first of all try to calibrate the compass sensors of your device. On most devices this can be done by turning the devices around all of its axis three times or moving it horizontally in shape of the number 8 until the compass shows the right magnetic direction.
-            Please be aware that electric field (such as high voltage lines near to you) might influence the device sensors.
-
-            If the problem is still not solved you should try another app with compass functionality (e.g. [GPS Status & Toolbox](https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2)) to verify your device capabilities.
-            If another app has the same problems you can be sure, that the problem is on your device.
-
-            If nothing helps and the problem persists, please contact us and provide detailed information about your device and the compass misbehaviour.
-
       - title: Translations are missing or wrong!
         content: |
             We are using a crowd sourced translation platform to improve the translation and even include new languages.
@@ -298,20 +285,6 @@
 
             In order to e.g. beta-test an unpublished cache you will not be able to access the cache online (because it is unpublished) but you can import the cache via GPX or add the cache waypoints manually to another cache already stored on your device.
             Furthermore you can view your own unpublished caches with c:geo by searching for its geocode online.
-
-      - title: How to setup my device to get the best possible location?
-        content: |
-            Android has different mechanisms to provide location information to apps:
-
-            1. Network based location information derived from Wifi signals and mobile networks
-            2. GPS position information derived from the device GPS receiver
-
-            You should make sure to enable both of these sources to get the best possible location information in c:geo in every situation.
-            This can usually be done in your device settings (not in c:geo itself) in a menu called "Locations" or similar.
-            Please select all possible sources in that menu or (in newer Android versions) select the "High accuracy mode".
-
-            Furthermore you should check if your device supports "Google Play Services" and eventually enable the usage of that in c:geo: \\
-            Menu → Settings → System → "Use Google Play Services"
 
       - title: I am not able to post a log online!
         content: |
@@ -396,12 +369,6 @@
 
             If you are premium member and c:geo does not know the location of a cache, please check your login and relogin to make sure c:geo knows you are a premium member.
 
-      - title: How can I use the Radar navigation? 
-        content: |
-            The "Radar" function works together with the third party app called "GPS Status & Toolbox" available on [GooglePlay](https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2).
-
-            Once you installed the app c:geo will additionally offer "Radar" as a navigation option.
-
       - title: The dates in the logbook are wrong or not shown at all! 
         content: |
             If you are running the legacy version of c:geo (only for Android version below 2.3) we have some limitations regarding the supported date formats of geocaching.com.
@@ -429,16 +396,6 @@
             Is 04/10/2011 the 4th of October or 10th of April? So we would have to guess which would lead to inconsistency. 
             Since MM/dd/yyyy is the default at the geocaching website we are supporting this. 
             No problems have ever been reported with MM/dd/yyyy. If you have problems please change the date format to this on the website and refresh the caches showing wrong dates.
-
-      - title: I am always located at Paris/France!
-        content: |
-            Paris/France is the default location if c:geo is unable to get **any** location information on your device, no home coordinates are set on geocaching.com and c:geo never before had any information about your position since start of your phone.
-
-            Please make sure all location sources are activated in your device settings.
-            Please check [this FAQ entry](./faq.html#faq.Howtosetup) for more information.
-
-            If you had a GPS fix at least once while c:geo is running it should remember this as your last position and open the live map at this position.
-            Additionally you can set your home coordinates on [this page](https://www.geocaching.com/account/settings/homelocation) on geocaching.com. c:geo will then use these coordinates if no other location information is available.
 
 - title: Installation and update
   items:
@@ -483,7 +440,7 @@
             If the update is still not shown it will help to restart your device to force the Google Play app to synchronize with the server and detect the new version.
 
             If you you still have problems to load the update from Google Play we suggest to download the update as described here:
-            [I don't use the Google Play but still want to use c:geo!](http://cgeo.github.io/faq.html#faq.Idon%27t)
+            [I don't use the Google Play but still want to use c:geo!](./faq.html#faq.Idon%27t)
 
       - title: I don't use Google Play but still want to use c:geo!
         content: |
@@ -535,6 +492,76 @@
 
             If you did everything right, now the content of c:geo on the new device should look like on the old device.
             This includes all caches on your lists with all its contained information (like waypoints, notes, offline logs, etc.) and - if you did the optional step - also all images on the image tab and static maps.
+
+- title: GPS and Navigation
+  items:
+
+      - title: How to setup my device to get the best possible location?
+        content: |
+            Android has different mechanisms to provide location information to apps:
+
+            1. Network based location information derived from Wifi signals and mobile networks
+            2. GPS position information derived from the device GPS receiver
+
+            You should make sure to enable both of these sources to get the best possible location information in c:geo in every situation.
+            This can usually be done in your device settings (not in c:geo itself) in a menu called "Locations" or similar.
+            Please select all possible sources in that menu or (in newer Android versions) select the "High accuracy mode".
+
+            Furthermore you should check if your device supports "Google Play Services" and eventually enable the usage of that in c:geo: \\
+            Menu → Settings → System → "Use Google Play Services"
+
+      - title: Why is GPS deactivated when I lock the screen or switch to another app?
+        content: |
+            While you are using c:geo GPS should always be active except if you are in the settings menu.
+            Only if you put your device to standby (switch off the screen) or switch to another app GPS will be deactivated to save battery.
+
+            We have no plans to change this behaviour or introduce another setting for this.
+            If you whish to keep GPS always on, we recommend to use a dedicated app for this (e.g. [GPS Lock](https://play.google.com/store/apps/details?id=com.silentlexx.gpslock)).
+
+      - title: Why is GPS active all the time although I might not need it?
+        content: |
+            Some users complained that their device needs a long time to reobtain a GPS fix after it was switched off.
+            So we decided to keep GPS active while c:geo is being used (except in the settings menu).
+            
+            To save more battery you can you select Menu → Settings → System → "Activate low-power mode".
+            c:geo will then use high precise location (GPS) only if needed.
+            This means, that e.g. on cache lists, cache descriptions, trackable screens GPS might be switched off or only used periodically.
+
+      - title: The compass shows wrong directions or stops moving!
+        content: |
+            In 99% of these cases the problem is your device. 
+            c:geo only uses the position and compass information provided by the Android system.
+
+            Please first of all try to calibrate the compass sensors of your device. On most devices this can be done by turning the devices around all of its axis three times or moving it horizontally in shape of the number 8 until the compass shows the right magnetic direction.
+            Please be aware that electric field (such as high voltage lines near to you) might influence the device sensors.
+
+            If the problem is still not solved you should try another app with compass functionality (e.g. [GPS Status & Toolbox](https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2)) to verify your device capabilities.
+            If another app has the same problems you can be sure, that the problem is on your device.
+
+            If nothing helps and the problem persists, please contact us and provide detailed information about your device and the compass misbehaviour.
+
+      - title: What is Radar navigation? 
+        content: |
+            The "Radar" function works together with the third party app called "GPS Status & Toolbox" available on [GooglePlay](https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2).
+
+            Once you installed the app c:geo will additionally offer "Radar" as a navigation option.
+
+      - title: I am always located at Paris/France!
+        content: |
+            Paris/France is the default location if c:geo is unable to get **any** location information on your device, no home coordinates are set on geocaching.com and c:geo never before had any information about your position since start of your phone.
+
+            Please make sure all location sources are activated in your device settings.
+            Please check [this FAQ entry](./faq.html#faq.Howtosetup) for more information.
+
+            If you had a GPS fix at least once while c:geo is running it should remember this as your last position and open the live map at this position.
+            Additionally you can set your home coordinates on [this page](https://www.geocaching.com/account/settings/homelocation) on geocaching.com. c:geo will then use these coordinates if no other location information is available.
+
+      - title: c:geo seems unable to get my current location!
+        content: |
+          Please first of all check if you enabled all relevant positioning methods on your system as described in [this FAQ entry](./faq.html#faq.Howtosetup).
+  
+          We received reports, that on some devices the "Google Play Services" might be faulty.
+          If all location methods are enabled but you still have problems, please try to switch off the usage of "Google Play Services" in Menu → Settings → System → "Use Google Play Services".
 
 - title: Live Map
   items:
