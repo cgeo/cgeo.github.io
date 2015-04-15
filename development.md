@@ -42,10 +42,13 @@ Nightly builds are not for live usage. You should only install these versions if
 
 If you install one of our nightly builds to your device, you will not get support for failures, errors, functionality or crashes.
 
+The version without JIT is necessary for some devices with a MediaTek CPU. If you observe strange behavior in the Live Map or jumping distances, try this build.
+
 
 ### Download Nightly Builds
 
 [c:geo application](http://download.cgeo.org/cgeo-nightly.apk)\\
+[c:geo application (without JIT)](http://download.cgeo.org/cgeo-nightly-nojit.apk)\\
 [calendar plugin](http://download.cgeo.org/cgeo-calendar-nightly.apk)\\
 [contacts plugin](http://download.cgeo.org/cgeo-contacts-nightly.apk)
 

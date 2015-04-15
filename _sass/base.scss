@@ -78,7 +78,16 @@ a {
     width: $contentwidth;
     margin: auto;
     margin-top: 6em;
+    margin-bottom: 4em;
     text-align: justify;
+
+    &:after {
+        content: " ";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
 
     .column.left {
         float: left;
@@ -140,12 +149,10 @@ a {
         margin-bottom: 0.5em;
     }
 
-    a{
+    a {
         color: #dd9324;
-    }
 
-    a:hover {
-        color: #7abf47;
+        &:hover { color: #7abf47; }
     }
 }
 
