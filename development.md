@@ -13,10 +13,6 @@ Our source code is hosted on [Github](https://github.com/cgeo/cgeo).
 
 If you would like to participate in the development you will find all relevant information in our [Readme](https://github.com/cgeo/cgeo/blob/master/README.md) and our [Wiki](https://github.com/cgeo/cgeo/wiki) on Github.
 
-
-### Development activity
-<div class="openhub"><script type="text/javascript" src="http://www.openhub.net/p/585421/widgets/project_basic_stats.js"></script></div>
-
 ### Developer chat
 
 If you would like to contact the developers directly you can join our IRC channel [#cgeo on freenode.net](https://webchat.freenode.net/?channels=%23cgeo).
