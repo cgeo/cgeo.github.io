@@ -9,13 +9,13 @@ Send2cgeo is a script available for Mozilla Firefox and Google Chrome browser. I
 
 [How to install send2cgeo](#how-to-install-send2cgeo)
 
-[Download the script](#download-the-script)
-
-[Register browser and/or device](#) <b>TO DO</b>
+[Register browser and/or device](#registering-browser-and-device)
 
 [Usage instructions for send2cgeo](#how-to-use-send2cgeo)
 
 [FAQ for send2cgeo](/faq.html#faq.Whatissend)
+
+[Download the script](#download-the-script)
 
 ## Important Notes/Disclaimer
 
@@ -44,15 +44,15 @@ The send2c:geo script supports Mozilla Firefox and Google Chrome. Microsoft Inte
 - Greasemonkey will be triggered automatically, confirm the installation when prompted
 - Continue with the registration as described below
 
-### Registering browser and device:
+## Registering browser and device
 
-- After succesful installation of the script click "Register browser" on the right sidebar of the send2cgeo webpage <b>TO DO</b>
+- After succesful installation of the script click "Register browser" in the window shown below
 - You can change the browser name by click on its name (optional step)
 - Run c:geo on your android device and select Menu → Settings → Services → send2c:geo
 - Specify a device name in the setting "Your device name" (optional step)
 - Select "Request Registration". You will get an info window showing a five digit PIN
-- Now click "Add a device" in your browser and enter this PIN  <b>TO DO</b>
-- The webpage should now show a registrated browser and device on the right sidebar <b>TO DO</b>
+- Now click "Add a device" in the window shown below and enter this PIN
+- The window below should now show a registrated browser and device.
 
 <iframe src="http://download.cgeo.org/cookieTest.php" width="100%" height="300px"></iframe>
 
@@ -68,6 +68,7 @@ The send2c:geo script supports Mozilla Firefox and Google Chrome. Microsoft Inte
 ## Download the script
 
 Make sure you have Greasemonkey/Tampermonkey **installed and active** in your browser before continuing.
+Otherwise please read [How to install send2cgeo](#how-to-install-send2cgeo) first.
 
 The installation should start automatically in Greasemonkey/Tampermonkey if you click on the link below:\\
 [Script installation](https://github.com/cgeo/cgeo/raw/master/send2cgeo/send2cgeo.user.js)
