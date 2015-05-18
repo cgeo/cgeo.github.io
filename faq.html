@@ -10,7 +10,7 @@ layout: page
     <li>{{ category.title }}
         <ul>
         {% for item in category.items %}
-            <li><a href="#faq.{{ item.title | escape | remove: ' ' | truncate: 10, '' }}">{{ item.title }}</a></li>
+            <li><a href="#faq.{{ item.id }}">{{ item.title }}</a></li>
         {% endfor %}
         </ul>
     </li>
@@ -22,7 +22,7 @@ layout: page
 
     {% for item in category.items %}
         <div class="faqitem">
-            <h3 id="faq.{{ item.title | escape | remove: ' ' | truncate: 10, '' }}">{{ item.title }}</h3>
+            <h3 id="faq.{{ item.id }}">{{ item.title }}</h3>
             {{ item.content | markdownify }}
         </div>
     {% endfor %}
