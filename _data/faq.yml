@@ -765,20 +765,6 @@
 
             Look into your geocaching.com browser tab. If there is a cookie symbol with a red X at the end of the URL dialog, click on it, and in the popup click "Maintain cookie blocking" (or similar) and permit [*.]send2.cgeo.org.
 
-      - title: How do I install send2cgeo on my Google Chrome browser?
-        id: send2-install
-        content: |
-            Since some versions Chrome does no longer allow direct installation of user scripts for security reasons.
-            We are planning to publish the script itself on the Chrome Webstore, but did not yet have the ressources to do that.
-
-            Until this is available please use the free Tampermonkey add-on to install the script:
-
-            1. Install the [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) add on from the Chrome Webstore
-            2. Open the send2cgeo [script page](#)
-            3. Start installing the script by clicking on 'Start'
-            4. Tampermonkey will be triggered automatically, confirm the installation when prompted
-            5. Continue with the registration as described on the send2cgeo [installation description](#)
-
 - title: Offline maps
   items:
 
