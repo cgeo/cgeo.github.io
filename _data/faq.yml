@@ -92,7 +92,7 @@
             Afterwards you might have to restart your phone to be sure these settings take effect.
 
             There have been reports, that in rare cases the login still fails although the login data is OK and also "Identify as Android browser" did not help.
-            In this case we recommend resetting c:geo to factory defaults as described [here - LINK TBC](#):
+            In this case we recommend resetting c:geo to factory defaults as described [here](./faq.html#how-to-reset):
 
             If the problem still persists, please contact our support and provide a system log.
 
@@ -736,7 +736,7 @@
         id: send2cgeo
         content: |
             Send to c:geo is a quicker way to transfer a cache opened in your browser to your c:geo.
-            You will find all relevant information for installation ans usage here: [send2cgeo](#)
+            You will find all relevant information for installation and usage here: [send2cgeo](/send2cgeo.html)
 
       - title: I tried to register my device but it shows 'Registration failed'!
         id: send2-register-fail
