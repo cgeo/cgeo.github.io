@@ -28,7 +28,7 @@ While the import function in c:geo is activated, it transmits about 5kb of data 
 ## How to install send2cgeo
 
 ### Prerequisites:
-The send2c:geo script supports Mozilla Firefox and Google Chrome. Microsoft Internet Explorer is not supported! You need to allow cookies to be stored in your browser in order for the script to work.
+The send2cgeo script supports Mozilla Firefox and Google Chrome. Microsoft Internet Explorer is not supported! You need to allow cookies to be stored in your browser in order for the script to work.
 
 ### Script installation with Mozilla Firefox:
 
@@ -48,7 +48,7 @@ The send2c:geo script supports Mozilla Firefox and Google Chrome. Microsoft Inte
 
 - After succesful installation of the script click "Register browser" in the window shown below
 - You can change the browser name by click on its name (optional step)
-- Run c:geo on your android device and select Menu → Settings → Services → send2c:geo
+- Run c:geo on your android device and select Menu → Settings → Services → Send to c:geo
 - Specify a device name in the setting "Your device name" (optional step)
 - Select "Request Registration". You will get an info window showing a five digit PIN
 - Now click "Add a device" in the window shown below and enter this PIN
