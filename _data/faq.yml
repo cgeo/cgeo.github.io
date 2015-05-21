@@ -158,7 +158,7 @@
             c:geo is accessing the geocaching website as a customized internet browser. \\
             In order to retrieve the information from the website it needs to have reliable information. Therefore c:geo will change the language to english when logging in, because it cannot support all different languages.
 
-            Feel free to change the language on the website back to your desired language anytime when using it. c:geo will detect this and automatically swuitch back to english on the next login.
+            Feel free to change the language on the website back to your desired language anytime when using it. c:geo will detect this and automatically switch back to english on the next login.
 
       - title: Unknown Location is shown on the main screen!
         id: unknown-location
@@ -461,7 +461,7 @@
 
             We cannot guarantee that older versions will still work!
 
-            If you however still want to install an old version (e.g. for testing purposes) you can find a version history with download option in our [Guthub Release History](https://github.com/cgeo/cgeo/releases/).
+            If you however still want to install an old version (e.g. for testing purposes) you can find a version history with download option in our [Github Release History](https://github.com/cgeo/cgeo/releases/).
             Please be aware that you need to uninstall a newer version of c:geo on your device before installing an older version as downgrading is not possible.
 
       - title: Google Play is not showing a new version of c:geo which should be available!
