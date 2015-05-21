@@ -156,9 +156,9 @@
         id: website-english
         content: |
             c:geo is accessing the geocaching website as a customized internet browser. \\
-            In order to retrieve the information from the website it needs to have reliable information. Therefore c:geo will change the language to english when logging in, because it cannot support all different languages.
+            In order to retrieve the information from the website it needs to have reliable information. Therefore c:geo will change the language to English when logging in, because it cannot support all different languages.
 
-            Feel free to change the language on the website back to your desired language anytime when using it. c:geo will detect this and automatically switch back to english on the next login.
+            Feel free to change the language on the website back to your desired language anytime when using it. c:geo will detect this and automatically switch back to English on the next login.
 
       - title: Unknown Location is shown on the main screen!
         id: unknown-location
