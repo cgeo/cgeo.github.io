@@ -461,7 +461,7 @@
 
             We cannot guarantee that older versions will still work!
 
-            If you however still want to install an old version (e.g. for testing purposes) you can find a version history with download option in our [Github Release History](https://github.com/cgeo/cgeo/releases/).
+            If you however still want to install an old version (e.g. for testing purposes) you can find a version history with download option in our [GitHub Release History](https://github.com/cgeo/cgeo/releases/).
             Please be aware that you need to uninstall a newer version of c:geo on your device before installing an older version as downgrading is not possible.
 
       - title: Google Play is not showing a new version of c:geo which should be available!
