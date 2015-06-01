@@ -54,7 +54,7 @@ The send2cgeo script supports Mozilla Firefox and Google Chrome. Microsoft Inter
 - Now click "Add a device" in the window shown below and enter this PIN
 - The window below should now show a registrated browser and device.
 
-<iframe src="http://sendapi.cgeo.org/api/" width="100%" height="300px"></iframe>
+<iframe src="http://send2.cgeo.org/api/" width="100%" height="300px"></iframe>
 
 ## How to use send2cgeo
 
