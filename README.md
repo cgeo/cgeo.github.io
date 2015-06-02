@@ -40,4 +40,4 @@ Each FAQ entry uses Markdown (with [kramdown](http://kramdown.gettalong.org/) ex
 
 You can enable a warning by adding content to `_includes/warning.md` (Markdown syntax). It will be shown on the index page (currently only a single, red warning block).
 
-To disable the warning again, delete the content of `_includes/warning.md` (including all whitespaces, but not the file).
+To disable the warning again, insert `WARNING_DISABLED` somewhere in `_includes/warning.md`.

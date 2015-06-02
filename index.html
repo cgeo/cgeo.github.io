@@ -18,11 +18,11 @@ layout: default
 </div>
 
 {% capture mdtmp %}{% include warning.md %}{% endcapture %}
-{% if mdtmp != "" %}
+{% unless mdtmp contains "WARNING_DISABLED" %}
     <div class="warning">
         {{ mdtmp | markdownify }}
     </div>
-{% endif %}
+{% endunless %}
 
 <div class="container">
     <div class="column left">
