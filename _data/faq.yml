@@ -453,6 +453,21 @@
   
                 To be able to install the app, you must either choose "Low" (pre teen) or set the option "Install all apps" (which looks exactly like the "All" level, but has a completely different meaning).
 
+      - title: I do see a warning in c:geo that my device is no longer supported!
+        id: legacy
+        content: |
+            We decided to drop the support of Android versions below 2.3. Only a very minor percentage of our users are affected.
+
+            The reason for this is, that we want to include more features and further improve usability and stability.
+            Newer Android versions offer a lot more possibilities which we simply can not use if we have to be compatible to e.g. Android 1.6.
+
+            Please check if the manufacturer of your device offers an update for your device. If there is no official update it may also be possible to use a Custom-ROM (like [Cyanogenmod](http://www.cyanogenmod.org/)) if it is available for your device.
+            If nothing can be done to update your device you should consider using a new(er) device running on Android version 2.3 or above.
+
+            Additionally we offer a legacy version of c:geo, which is compatible for devices with Android versions 2.1 and 2.2 for the time being. This version will not be updated with new features anymore, critical bugfixes might be done if considered necessary.
+            We might discontinue this version in newar future without any further notice.
+            The PlayStore will automatically offer the matching version for you to download and install.
+
       - title: I want to install an older version of c:geo!
         id: install-older
         content: |
