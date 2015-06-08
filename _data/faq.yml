@@ -479,7 +479,7 @@
 
             2. Photos/Media/Files
 
-                c:geo will write data onto your phone storage or SD-card ss soon as you save geocaches for offline use c:geo. Furthermore c:geo will use your phone storage for import and export of files and reading of offline maps.
+                c:geo will write data onto your phone storage or SD-card ss soon as you save geocaches for offline use. Furthermore c:geo will use your phone storage for import and export of files and reading of offline maps.
 
       - title: I want to install an older version of c:geo!
         id: install-older
@@ -1106,6 +1106,12 @@
             On some Samsung devices adding events to the calendar will always fail due to an incorrect implementation of this function by Samsung.
             Please check for a software update of your device in this case.
 
+      - title: Why does the c:geo calendar plugin need a permission on my device?
+        id: plugin-calendar-permissions
+        content: |
+            The c:geo calendar plugin needs the permission to access the calendar on your device to add event geocaches to your personal calendar in case you use the relevant option in c:geo.
+            As long as you don't use that menu option the plugin will never read or write any data from/to your calendar.
+
 - title: Contacts plugin
   items:
 
@@ -1132,3 +1138,9 @@
             Please make sure you stored the geocaching name of the person like it is shown in c:geo in the 'alias' field of the contact in your phonebook.
 
             Alternatively the plugin will also match if the geocaching name equals the full name stored in your phonebook.
+
+      - title: Why does the c:geo contacts plugin need a permission on my device?
+        id: plugin-contact-permissions
+        content: |
+            The c:geo contacts plugin needs the permission to access the contacts on your device to look up othe geocachers in case you use the relevant option in c:geo.
+            As long as you don't use that menu option the plugin will never read any data from your contacts.
