@@ -468,6 +468,19 @@
             We might discontinue this version in newar future without any further notice.
             The PlayStore will automatically offer the matching version for you to download and install.
 
+      - title: Why does c:geo need several permissions on my device?
+        id: permissions
+        content: |
+            c:geo needs the following permissions to do its job and will only use them for that purpose:
+
+            1. Location
+
+              Of course c:geo needs access to the GPS on your device to locate your position and calculate distance and direction to geocaches.
+
+            2. Photos/Media/Files
+
+              c:geo will write data onto your phone storage or SD-card ss soon as you save geocaches for offline use c:geo. Furthermore c:geo will use your phone storage for import and export of files and reading of offline maps.
+
       - title: I want to install an older version of c:geo!
         id: install-older
         content: |
