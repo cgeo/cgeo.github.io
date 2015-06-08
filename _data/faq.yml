@@ -475,11 +475,11 @@
 
             1. Location
 
-              Of course c:geo needs access to the GPS on your device to locate your position and calculate distance and direction to geocaches.
+                Of course c:geo needs access to the GPS on your device to locate your position and calculate distance and direction to geocaches.
 
             2. Photos/Media/Files
 
-              c:geo will write data onto your phone storage or SD-card ss soon as you save geocaches for offline use c:geo. Furthermore c:geo will use your phone storage for import and export of files and reading of offline maps.
+                c:geo will write data onto your phone storage or SD-card ss soon as you save geocaches for offline use c:geo. Furthermore c:geo will use your phone storage for import and export of files and reading of offline maps.
 
       - title: I want to install an older version of c:geo!
         id: install-older
