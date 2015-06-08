@@ -1142,5 +1142,5 @@
       - title: Why does the c:geo contacts plugin need a permission on my device?
         id: plugin-contact-permissions
         content: |
-            The c:geo contacts plugin needs the permission to access the contacts on your device to look up othe geocachers in case you use the relevant option in c:geo.
+            The c:geo contacts plugin needs the permission to access the contacts on your device to look up other geocachers in case you use the relevant option in c:geo.
             As long as you don't use that menu option the plugin will never read any data from your contacts.
