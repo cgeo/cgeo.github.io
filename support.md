@@ -27,7 +27,7 @@ We kindly ask you to make sure your problem is not covered by the following info
 
 ### Ask our support team about your problem
 
-Our team members speak English, German,French and Slovenian.
+Our team members speak English, German, French and Slovenian.
 Please try to write your mail in one of these languages to make it easier for us to reply to you.
 
 We are always trying to answer all of your mails, but sometimes we receive a high amount of requests thus our team might need some time to answer.
@@ -50,13 +50,13 @@ There are already a lot of ideas for possible new features and functionalities o
 So it is impossible for us to implement those wishes by ourselves on short term.
 But c:geo is open source, so anyone willing and able to help us is welcome to do so. 
 
-We are also using our bugtracking system for documentation of new ideas and feature requests. Before contacting us with your idea please check check if it is not already contained in our list of [Feature Requests](https://github.com/cgeo/cgeo/issues?q=label%3A%22Feature+Request%22+sort%3Acreated-desc).
+We are also using our bugtracking system for documentation of new ideas and feature requests. Before contacting us with your idea please check if it is not already contained in our list of [Feature Requests](https://github.com/cgeo/cgeo/issues?q=label%3A%22Feature+Request%22+sort%3Acreated-desc).
 
 Our [FAQ](/faq.html) might also contain some answers about why certain features or functions are currently not implemented.
 
 ### Contact us with your idea
 
-Our team members speak English, German,French and Slovenian.
+Our team members speak English, German, French and Slovenian.
 Please try to write your mail in one of these languages to make it easier for us to reply to you.
 
 We are always trying to answer all of your mails, but sometimes we receive a high amount of requests thus our team might need some time to answer.
