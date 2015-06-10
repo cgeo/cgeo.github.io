@@ -465,7 +465,7 @@
             If nothing can be done to update your device you should consider using a new(er) device running on Android version 2.3 or above.
 
             Additionally we offer a legacy version of c:geo, which is compatible for devices with Android versions 2.1 and 2.2 for the time being. This version will not be updated with new features anymore, critical bugfixes might be done if considered necessary.
-            We might discontinue this version in newar future without any further notice.
+            We might discontinue this version in the near future without any further notice.
             The PlayStore will automatically offer the matching version for you to download and install.
 
       - title: Why does c:geo need several permissions on my device?
