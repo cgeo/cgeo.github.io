@@ -1,5 +1,5 @@
 html, body {
-    background: url("#{$imagedir}/bg.gif");
+    background: url("#{$imagedir}/bg.gif") #1f1f1f;
     color: #c0c0c0;
     font-family: "Droid Sans", sans-serif;
     font-size: $fontsize;
