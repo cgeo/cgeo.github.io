@@ -221,13 +221,13 @@
             2. The additional data (e.g. images, maps) for all the caches stored in the database
 
                 This additional data can be much larger as it contains the images of the cache description and (optionally) the images retrieved from logs and (optionally) static maps.
-                The additional data is stored on SD-card by default (in a folder called ".cgeo").
+                The additional data is stored on SD card by default (in a folder called ".cgeo").
 
             Some users are complaining, that the additional data as well as the database (if external storage is selected) are still stored in the internal memory of their devices.
-            We always place the folder on the storage medium that the device tells us is the sdcard. And in fact, technically this is on some devices only a part of the internal memory which is mounted as a SD-card (It's like a SD-card fixed mounted in your device).
+            We always place the folder on the storage medium that the device tells us is the sdcard. And in fact, technically this is on some devices only a part of the internal memory which is mounted as a SD card (It's like a SD card fixed mounted in your device).
 
-            Unfortunately there is no standardized method to find the location of a real SD-card on your device. There are some workarounds but those might fail on some devices, thus we decided not to implement them for now.
-            Furthermore starting with Android 4.4 write access to the real SD-card is forbidden for apps.
+            Unfortunately there is no standardized method to find the location of a real SD card on your device. There are some workarounds but those might fail on some devices, thus we decided not to implement them for now.
+            Furthermore starting with Android 4.4 write access to the real SD card is forbidden for apps.
 
       - title: Can I login using my Facebook account?
         id: facbook-login
@@ -277,7 +277,7 @@
         id: gpx-search-long
         content: |
             c:geo scans the whole SD card if it cannot find gpx files in the predefined folder.
-            If you have a lot of files and folders on your SD-card this scanning might take some time.
+            If you have a lot of files and folders on your SD card this scanning might take some time.
 
             It is useful to put all of your PQs into a specific folder and set this as the default import directory for gpx imports. This folder will be scanned first which will speed up the process. 
 
@@ -479,7 +479,7 @@
 
             2. Photos/Media/Files
 
-                c:geo will write data onto your phone storage or SD-card ss soon as you save geocaches for offline use. Furthermore c:geo will use your phone storage for import and export of files and reading of offline maps.
+                c:geo will write data onto your phone storage or SD card as soon as you save geocaches for offline use. Furthermore c:geo will use your phone storage for import and export of files and reading of offline maps.
 
       - title: I want to install an older version of c:geo!
         id: install-older
@@ -807,7 +807,7 @@
       - title: How to use an OSM:Offline map with c:geo?
         id: osm-howto
         content: |
-            Once you downloaded or created a map, store it into a folder (e.g. /mfmaps) on your device or SD-card. You can also store multiple maps (e.g. for several countries) into this folder to have easy access later directly from c:geo.
+            Once you downloaded or created a map, store it into a folder (e.g. /mfmaps) on your device or SD card. You can also store multiple maps (e.g. for several countries) into this folder to have easy access later directly from c:geo.
             If you are additionally using Locus it is useful to store the maps in /Locus/mapsVector to have them accessible for Locus as well as for c:geo.
 
             Afterwards go to c:geo Menu → Settings → Map and select the section "Directory with offline maps".
@@ -849,7 +849,7 @@
 
             If you have created a personal version of a theme which you are willing to share with us, feel free to contact us.
 
-            After having downloaded a theme-package (usually a ZIP-file containing a lot of xml files and graphics) extract it including all its sub-directories into a folder in your device or SD-card. 
+            After having downloaded a theme-package (usually a ZIP-file containing a lot of xml files and graphics) extract it including all its sub-directories into a folder in your device or SD card. 
             Afterwards select this folder as base-folder for map themes in c:geo settings.
             If you have done it right and the theme is valid it should now be selectable from live map via\\
             Live map menu → Map modes → Select map theme
@@ -861,7 +861,7 @@
         id: offline-use
         content: |
             The main purpose of c:geo is to have an online access to your geocaching platform.
-            However c:geo also provides an offline functionality to use it without any network connection (e.g. while caching abroad).
+            However c:geo also provides offline functionality to use it without any network connection (e.g. while caching abroad).
 
             In order to use c:geo completely offline you will have to prepare some things depending on your needs:
 
