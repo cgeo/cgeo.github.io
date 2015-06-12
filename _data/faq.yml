@@ -1013,6 +1013,26 @@
 
             Please frequently check if your device vendor offers a firmware update which solves this processor problem.
 
+      - title: c:geo is not working on my Sony Xperia phone!
+        id: xperia
+        content: |
+            We recently got complaints that users of Xperia device experience regular crashes of c:geo and problems using the compass (compass not rotating).
+            Not only c:geo is affected by this, but also other navgiation specific apps on these devices.
+
+            Our investigation has shown, that these problems are caused by the device firmware after upgrade to Android 5.x and not by c:geo itself.
+            Thus we can not fix these problems, but can give you some workarounds based on user feedback we received:
+
+            1. Crashes while using c:geo
+
+                Users gave feedback that this issue was fixed after resetting their device to factory defaults and reinstalling c:geo.
+  
+            2. Compass problems
+
+                Go to c:geo Menu → Settings → System and disable "Google Play Services".
+                Afterwards reboot your device.
+
+            These workarounds should help to avoid the mentioned problems, however a proper fix for this has to come from Sony in another firmware update.
+
 - title: New menu implementation
   items:
 
