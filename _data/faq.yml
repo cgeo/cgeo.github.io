@@ -289,7 +289,7 @@
         content: |
             If the app is not working as it should you can send a log to the developers.
 
-            When c:geo crashes or does not work properly it writes debug messages to an android log if this option is set in c:geo settings.
+            When c:geo crashes or does not work properly it writes debug messages to an Android log if this option is set in c:geo settings.
             This log contains data of all apps for a short period of time (from several seconds to several minutes).
             Collecting a log as fast as possible after the crash is essential for us.
 
@@ -305,7 +305,7 @@
             However you can still use c:geo to record waypoints to help you planning your cache hide. 
             To do so simply use the 'All destination' function which offers a history of the coordinates you entered.
 
-            There are also other apps available on [GooglePlay](https://play.google.com/) helping you to record and average coordinates for your new cache (e.g. [GPS Averaging](https://play.google.com/store/apps/details?id=org.destil.gpsaveraging) or [Geocache Placer](https://play.google.com/store/apps/details?id=dk.rocologo.geocacheplacer)).
+            There are also other apps available on [Google Play](https://play.google.com/) helping you to record and average coordinates for your new cache (e.g. [GPS Averaging](https://play.google.com/store/apps/details?id=org.destil.gpsaveraging) or [Geocache Placer](https://play.google.com/store/apps/details?id=dk.rocologo.geocacheplacer)).
 
             In order to e.g. beta-test an unpublished cache you will not be able to access the cache online (because it is unpublished) but you can import the cache via GPX or add the cache waypoints manually to another cache already stored on your device.
             Furthermore you can view your own unpublished caches with c:geo by searching for its geocode online.
@@ -356,7 +356,7 @@
             There can be several reasons that c:geo is not working as it should.
             You should do the following steps:
 
-            First of all please check if you are using the latest version (check on [GooglePlay](https://play.google.com/store/apps/details?id=cgeo.geocaching) for updates or load the latest version directly from [here](https://github.com/cgeo/cgeo/releases/latest)). If a new version is available you should also see an update notification on the c:geo main screen.
+            First of all please check if you are using the latest version (check on [Google Play](https://play.google.com/store/apps/details?id=cgeo.geocaching) for updates or load the latest version directly from [here](https://github.com/cgeo/cgeo/releases/latest)). If a new version is available you should also see an update notification on the c:geo main screen.
             If you are using an outdated version please update, because there might be changes on the geocaching website which need a new version of c:geo to work.
 
             Please check if your device is connected to the internet and also try other connections (e.g. Wifi instead of mobile network or vice versa).
@@ -512,9 +512,9 @@
       - title: Is c:geo available for iOS or WindowsPhone?
         id: ios
         content: |
-            No, c:geo is written for Android and has more than 50 000 lines of code. We will not port it to iOS or other non android systems because it is too much work. Furthermore the iOS AppStore / Apple is very restrictive and most of us don't like it.
+            No, c:geo is written for Android and has more than 50 000 lines of code. We will not port it to iOS or other non Android systems because it is too much work. Furthermore the iOS AppStore / Apple is very restrictive and most of us don't like it.
 
-            But c:geo is open source! That means that everyone can get the code from [GitHub](https://github.com/cgeo/cgeo) and rewrite it for other operating systems. Feel free to port (and maintain) it, but please keep the open source license in mind.
+            But c:geo is open source! That means that everyone can get the code from [GitHub](https://github.com/cgeo/cgeo) and rewrite it for other operating systems. Feel free to port (and maintain) it, but be aware of the [open source license terms](./development.html).
 
       - title: Does c:geo work on Blackberry devices?
         id: blackberry
@@ -613,7 +613,7 @@
       - title: What is Radar navigation? 
         id: radar-navigation
         content: |
-            The "Radar" function works together with the third party app called "GPS Status & Toolbox" available on [GooglePlay](https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2).
+            The "Radar" function works together with the third party app called "GPS Status & Toolbox" available on [Google Play](https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2).
 
             Once you installed the app c:geo will additionally offer "Radar" as a navigation option.
 
