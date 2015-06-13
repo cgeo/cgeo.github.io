@@ -9,9 +9,9 @@ c:geo is an open source application, distributed under [Apache License, Version 
 
 ## Source Code
 
-Our source code is hosted on [Github](https://github.com/cgeo/cgeo).
+Our source code is hosted on [GitHub](https://github.com/cgeo/cgeo).
 
-If you would like to participate in the development you will find all relevant information in our [Readme](https://github.com/cgeo/cgeo/blob/master/README.md) and our [Wiki](https://github.com/cgeo/cgeo/wiki) on Github.
+If you would like to participate in the development you will find all relevant information in our [Readme](https://github.com/cgeo/cgeo/blob/master/README.md) and our [Wiki](https://github.com/cgeo/cgeo/wiki) on GitHub.
 
 ## Developer chat
 
@@ -19,11 +19,11 @@ If you would like to contact the developers directly you can join our IRC channe
 
 ## Our website
 
-Like our application also this website is open source and is hosted on [Github](https://github.com/cgeo/cgeo.github.io).
+Like our application also this website is open source and is hosted on [GitHub](https://github.com/cgeo/cgeo.github.io).
 
 If you find errors or outdated information on it or you have ideas for improving it, you are welcome to contribute as described in the [readme file](https://github.com/cgeo/cgeo.github.io/blob/master/README.md).
 
-We are also looking for people willing to help writing a users manual for c:geo. Just contact us via Github if you are interested.
+We are also looking for people willing to help writing a users manual for c:geo. Just contact us via GitHub if you are interested.
 
 ## Nightly Builds
 
