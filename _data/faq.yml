@@ -509,7 +509,7 @@
         content: |
             You can download the newest version of c:geo directly to your device from [here](https://github.com/cgeo/cgeo/releases/latest/).
 
-      - title: Is c:geo available for iOS or WindowsPhone?
+      - title: Is c:geo available for iOS or Windows Phone?
         id: ios
         content: |
             No, c:geo is written for Android and has more than 50 000 lines of code. We will not port it to iOS or other non Android systems because it is too much work. Furthermore the iOS AppStore / Apple is very restrictive and most of us don't like it.
