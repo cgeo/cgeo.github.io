@@ -5,7 +5,7 @@ title: Support
 
 # Support
 
-We usually get quite a lot of support mails dealing with various topics. This can be either mails about problems you have with c:geo or ideas for new features,functionalities or general improvement proposals.
+We usually get quite a lot of support mails dealing with various topics. This can be either mails about problems you have with c:geo or ideas for new features, functionalities or general improvement proposals.
 
 As we are only a small team answering a lot of mails is very time consuming, so we want to give you an overview about how to help yourself before contacting us.
 
