@@ -71,4 +71,4 @@ Make sure you have Greasemonkey/Tampermonkey **installed and active** in your br
 Otherwise please read [How to install send2cgeo](#how-to-install-send2cgeo) first.
 
 The installation should start automatically in Greasemonkey/Tampermonkey if you click on the link below:\\
-[Script installation](https://github.com/cgeo/cgeo/raw/master/send2cgeo/send2cgeo.user.js)
+[Script installation](https://github.com/cgeo/cgeo/raw/release/send2cgeo/send2cgeo.user.js)
