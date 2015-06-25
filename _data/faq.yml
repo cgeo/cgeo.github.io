@@ -94,7 +94,7 @@
             There have been reports, that in rare cases the login still fails although the login data is OK and also "Identify as Android browser" did not help.
             In this case we recommend resetting c:geo to factory defaults as described [here](./faq.html#how-to-reset):
 
-            If the problem still persists, please contact our support and provide a system log.
+            If the problem still persists, please contact our [support](/support.html) and provide a system log.
 
       - title: How to reset c:geo to factory defaults?
         id: how-to-reset
@@ -775,7 +775,7 @@
             - Our servers are down or busy
             - A communication error or timeout occurred
 
-            You should try again in a couple of minutes/hours and if the problem persists please contact our support.
+            You should try again in a couple of minutes/hours and if the problem persists please contact our [support](/support.html).
 
       - title: Can I use multiple devices and/or browsers with send2cgeo?
         id: send2-multiple-devices
