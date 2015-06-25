@@ -984,6 +984,7 @@
         id: trackables-gk
         content: |
             Although GeoKrets are mainly used on opencaching platforms [GeoKrety.org](http://www.geokrety.org) also supports to place GeoKrets into geocaching.com caches.
+
             This also means you can retrieve and drop them from there as well. The only difference is, that you are encouraged to add the cache coordinates to the log if you drop a GeoKret to a GC cache (as [GeoKrety.org](http://www.geokrety.org) might not know the coordinates of all GC caches).
             In case you log a GeoKret from the log window of a GC cache c:geo will even prefill the coordinate field with the listing coordinates of this cache to assist you.
 
