@@ -998,6 +998,14 @@
 
             Once you are authorized you can log GeoKrets with c:geo as described [here](./faq.html#trackables-logging).
 
+      - title: Some functions of GeoKrety.org seem not to be supported in c:geo!
+        id: trackables-gk-unsupported
+        content: |
+            Some functionalities which are available on the [GeoKrety.org](http://www.geokrety.org) webpage are not (yet) supported with c:geo as either the current version of the interface does not support it or we did not yet have time to implement it:
+
+            - Viewing the logbook of GeoKrets
+            - Mark a GeoKret as "missing"
+
 - title: Device or user specific problems
   items:
 
