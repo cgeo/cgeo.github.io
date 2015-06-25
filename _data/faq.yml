@@ -988,6 +988,16 @@
             This also means you can retrieve and drop them from there as well. The only difference is, that you are encouraged to add the cache coordinates to the log if you drop a GeoKret to a GC cache (as [GeoKrety.org](http://www.geokrety.org) might not know the coordinates of all GC caches).
             In case you log a GeoKret from the log window of a GC cache c:geo will even prefill the coordinate field with the listing coordinates of this cache to assist you.
 
+      - title: I get the message "Logging of GeoKrety cannot be done anonymously"!
+        id: trackables-gk-anonymous
+        content: |
+            While for reading GeoKrety information no login is required, you need a dedicated account on [GeoKrety.org](http://www.geokrety.org) to log these trackables with c:geo.
+
+            If you do not yet have an account you can create it on the [Geokrety.org registration page](http://www.geokrety.org/adduser.php).
+            Afterwards go to Settings → Services → GeoKrety.org in c:geo, enter your login data and authorize to the webpage.
+
+            Once you are authorized you can log GeoKrets with c:geo as described [here](./faq.html#trackables-logging).
+
 - title: Device or user specific problems
   items:
 
