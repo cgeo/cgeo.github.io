@@ -965,20 +965,20 @@
 
             1. Trackable inventory of a geocache:
 
-            If you open the details of a cache its trackable inventory will be listed on the tab "Inventory".
-            This inventory contains a maximum of 20 trackable items listed to be located in this cache.
-            Selecting an item will show more details and offer the possibility to compose a log for this trackable (i.e. to retrieve it from the cache or discover it).
+                If you open the details of a cache its trackable inventory will be listed on the tab "Inventory".
+                This inventory contains a maximum of 20 trackable items listed to be located in this cache.
+                Selecting an item will show more details and offer the possibility to compose a log for this trackable (i.e. to retrieve it from the cache or discover it).
 
             2. Managing the trackables in your personal inventory:
 
-            When composing an online log for a cache the trackable items which are currently in your personal inventory are listed underneath the log text window.
-            You have the possibility to select the desired action (visit, drop or no action) for each item individually or select a common action for all of them.
-            As soon as you post the log online the corresponding trackable action will be triggered in parallel.
+                When composing an online log for a cache the trackable items which are currently in your personal inventory are listed underneath the log text window.
+                You have the possibility to select the desired action (visit, drop or no action) for each item individually or select a common action for all of them.
+                As soon as you post the log online the corresponding trackable action will be triggered in parallel.
 
             3. Searching for a trackable to log it:
 
-            Additional to the functions explained above, you can also just search for the public code or the secret tracking code of an item by entering it either into the search bar on top of the main menu (magnifier icon) or into the trackable search field within the search menu.
-            The details of this trackable will then be shown and you can write a log for it.
+                Additional to the functions explained above, you can also just search for the public code or the secret tracking code of an item by entering it either into the search bar on top of the main menu (magnifier icon) or into the trackable search field within the search menu.
+                The details of this trackable will then be shown and you can write a log for it.
 
 - title: Device or user specific problems
   items:
