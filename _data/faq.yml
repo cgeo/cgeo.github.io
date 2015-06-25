@@ -977,7 +977,7 @@
 
             3. Searching for a trackable to log it:
 
-                Additional to the functions explained above, you can also just search for the public code or the secret tracking code of an item by entering it either into the search bar on top of the main menu (magnifier icon) or into the trackable search field within the search menu.
+                Additional to the functions explained above, you can also just search for the public code or the secret tracking code (secret code is currently only working for GC trackables) of an item by entering it either into the search bar on top of the main menu (magnifier icon) or into the trackable search field within the search menu.
                 The details of this trackable will then be shown and you can write a log for it.
 
       - title: Why do I see GeoKrets listed in the inventory of a GC cache?
