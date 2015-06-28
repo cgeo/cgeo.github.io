@@ -33,14 +33,14 @@ The send2cgeo script supports Mozilla Firefox and Google Chrome. Microsoft Inter
 ### Script installation with Mozilla Firefox:
 
 - Install the [Greasemonkey add-on](http://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) and make sure it is activated in your browser after installation
-- Start installing the script by clicking [here](https://github.com/cgeo/cgeo/raw/master/send2cgeo/send2cgeo.user.js)
+- Start installing the script by clicking [here](https://github.com/cgeo/cgeo/raw/release/send2cgeo/send2cgeo.user.js)
 - Greasemonkey will be triggered automatically, confirm the installation when prompted
 - Continue with the registration as described below
 
 ### Script installation with Google Chrome:
 
 - Install the [Tampermonkey add-on](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) and make sure it is activated in your browser after installation
-- Start installing the script by clicking [here](https://github.com/cgeo/cgeo/raw/master/send2cgeo/send2cgeo.user.js)
+- Start installing the script by clicking [here](https://github.com/cgeo/cgeo/raw/release/send2cgeo/send2cgeo.user.js)
 - Tampermonkey will be triggered automatically, confirm the installation when prompted
 - Continue with the registration as described below
 
