@@ -966,7 +966,7 @@
             1. Trackable inventory of a geocache:
 
                 If you open the details of a cache its trackable inventory will be listed on the tab "Inventory".
-                This inventory contains a maximum of 20 trackable items listed to be located in this cache.
+                This inventory contains a maximum of 20 trackable items listed to be located in this cache. If this tab is not shown the cache either does currently not contain any trackables or you may need to refresh the cache to view the current inventory.
                 Selecting an item will show more details and offer the possibility to compose a log for this trackable (i.e. to retrieve it from the cache or discover it).
 
             2. Managing the trackables in your personal inventory:
