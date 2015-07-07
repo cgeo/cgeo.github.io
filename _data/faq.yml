@@ -837,7 +837,7 @@
       - title: I want to deactivate GCVote!
         id: gcvote-deactivate
         content: |
-            If you don't want to see the GCVote ratings in c:geo you can disable the loading by deactivating\\
+            If you don't want to see the GCVote ratings in c:geo you can disable it by deactivating\\
             Menu → Settings → Services → gcvote.com
 
 - title: Offline maps
