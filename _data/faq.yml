@@ -793,6 +793,53 @@
 
             Look into your geocaching.com browser tab. If there is a cookie symbol with a red X at the end of the URL dialog, click on it, and in the popup click "Maintain cookie blocking" (or similar) and permit [*.]send2.cgeo.org.
 
+- title: GCVote
+  items:
+
+      - title: What is GCVote?
+        id: gcvote
+        content: |
+            GCVote is an extension for [www.geocaching.com](http://www.geocaching.com) that enables you to rate the quality of caches.
+            You can view the average rating of caches in c:geo and also add your own vote with c:geo.
+
+      - title: What do I need to use GCVote?
+        id: gcvote-usage
+        content: |
+            c:geo will by default always show the average cache rating of GCVote. You will find it below the D/T-rating when looking at the cache details.
+            Additionally a color index for the rating is shown in c:geo cache lists as described [here](./faq.html#icons-on-lists).
+
+            While viewing the average rating is possible without an account, you need one if you want to add your own vote for a cache.
+
+      - title: How to login to GCVote?
+        id: gcvote-login
+        content: |
+            Please go to [GCVote.com](http://www.gcvote.com) and follow their instructions to get a password for GCVote.
+            Their [FAQ](http://http://gcvote.com/FAQ_en.php) will also give you additional information how to do this.
+
+            Once you received a password for the service you have to go to\\
+            Menu → Settings → Services → gcvote.com\\
+            and enter username (always the same as your geocaching.com user name) and password there.
+
+      - title: How to add a GCVote for a cache?
+        id: gcvote-voting
+        content: |
+            There are two possibilites to add your vote for a cache with c:geo:
+
+            1. While logging a cache
+
+                If you are logged in to GCVote and start writing a log for a cache you will see a rating option (a line of stars) just below the log text where you can add your own vote.
+                As soon as you send the log your vote will be transmitted in parallel.
+
+            2. While in cache details
+
+                Open a cache with c:geo and select Menu → Rate to send a voting for a cache.
+
+      - title: I want to deactivate GCVote!
+        id: gcvote-deactivate
+        content: |
+            If you don't want to see the GCVote ratings in c:geo you can disable it by deactivating\\
+            Menu → Settings → Services → gcvote.com
+
 - title: Offline maps
   items:
 
