@@ -799,7 +799,8 @@
       - title: What is GCVote?
         id: gcvote
         content: |
-            GCVote is an extension for [www.geocaching.com](http://www.geocaching.com) that enables you to rate the quality of caches.
+            [GCVote](http://www.gcvote.com) is an extension for [www.geocaching.com](http://www.geocaching.com) that enables you to rate the quality of caches.
+            It is independent of c:geo and can also be used in your web browser.
             You can view the average rating of caches in c:geo and also add your own vote with c:geo.
 
       - title: What do I need to use GCVote?
