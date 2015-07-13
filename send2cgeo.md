@@ -61,7 +61,7 @@ The send2cgeo script supports Mozilla Firefox and Google Chrome. Microsoft Inter
 - On the geocaching.com website you should be able to see a "send to c:geo" button on the cache detail page as well as on the live map popup (Next to the existing "Send to my phone" button)
 - Clicking this button will add the specific cache to the queue for downloading to c:geo
 - Start c:geo on your device and go to a list of saved caches
-- Select Menu → Import → Import from send2cgeo
+- Select Menu → Import → Import from web
 - The caches will automatically be downloaded from geocaching.com to the list of saved caches
 - c:geo will continue to wait for more caches to be downloaded for 3 minutes.
 
