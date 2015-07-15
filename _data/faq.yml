@@ -303,7 +303,7 @@
         content: |
             Publishing a new cache with c:geo is not possible and there are no plans to implement this function.
             However you can still use c:geo to record waypoints to help you planning your cache hide. 
-            To do so simply use the 'All destination' function which offers a history of the coordinates you entered.
+            To do so simply use the 'Go to' function which offers a history of the coordinates you entered.
 
             There are also other apps available on [Google Play](https://play.google.com/) helping you to record and average coordinates for your new cache (e.g. [GPS Averaging](https://play.google.com/store/apps/details?id=org.destil.gpsaveraging) or [Geocache Placer](https://play.google.com/store/apps/details?id=dk.rocologo.geocacheplacer)).
 
