@@ -313,7 +313,7 @@
       - title: I am not able to post a log online!
         id: not-able-to-post-log
         content: |
-            If you select the menu icon to send your log and you get a message saying "Loading Log-Page" the log page on the server was not yet loaded.
+            If you select the menu icon to send your log and you get a message saying "Download of data in progress..." the log page on the server was not yet loaded.
             Check if you have an internet connection and wait a moment until the required data has been loaded and then try again to send your log.
 
             In case you cannot establish an internet connection or the geocaching server is down you can also select to just save the log on your device and send it later by reaccessing the log page.
