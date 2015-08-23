@@ -230,7 +230,7 @@
             Furthermore starting with Android 4.4 write access to the real SD card is forbidden for apps.
 
       - title: Can I login using my Facebook account?
-        id: facbook-login
+        id: facebook-login
         content: |
             No, the login via Facebook is an option on the geocaching website only.
             In order to login to geocaching.com via c:geo you need to enter the username and password dedicated to the website.
