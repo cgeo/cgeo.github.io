@@ -599,16 +599,18 @@
       - title: The compass shows wrong directions or stops moving!
         id: compass-wrong
         content: |
-            In 99% of these cases the problem is your device. 
+            In a major percentage of these cases the problem is within your device. 
             c:geo only uses the position and compass information provided by the Android system.
 
-            Please first of all try to calibrate the compass sensors of your device. On most devices this can be done by turning the devices around all of its axis three times or moving it horizontally in shape of the number 8 until the compass shows the right magnetic direction.
-            Please be aware that electric field (such as high voltage lines near to you) might influence the device sensors.
+            Please first of all try to calibrate the compass sensors of your device:\\
+            On most devices this can be done by turning the devices around all of its axis three times or moving it horizontally in shape of the number 8 until the compass shows the right magnetic direction.\\
+            Please be aware that electric fields (such as high voltage lines near to you) or magnetic fields (e.g. a phone cover with magnetic lock) might influence the device sensors.
 
             If the problem is still not solved you should try another app with compass functionality (e.g. [GPS Status & Toolbox](https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2)) to verify your device capabilities.
-            If another app has the same problems you can be sure, that the problem is on your device.
+            If the compass works normal in other apps but not in c:geo you might experience a problem of the rotation sensor which exists on some Android devices.\\
+            In this case please go to Menu → Settings → System and activate "Use orientation sensor".
 
-            If nothing helps and the problem persists, please contact us and provide detailed information about your device and the compass misbehaviour.
+            If nothing helps and the problem persists, please contact us and provide detailed information about your device, the compass misbehaviour and what steps you already tried to resolve the problem.
 
       - title: What is Radar navigation? 
         id: radar-navigation
