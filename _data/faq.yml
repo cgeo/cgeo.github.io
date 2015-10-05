@@ -877,14 +877,6 @@
 
             You can quickly switch between different offline maps or switch back to online maps by clicking the layer icon in the titlebar while on a map.
 
-      - title: Are there known problems for OSM:Offline?
-        id: osm-known-problems
-        content: |
-            Yes, the mapsforge library we are currently using has some problems which we know of:
-
-            - If you try to start several instances of maps recursively (e.g. Live map → Open cache → Navigate → Map) this may lead to memory problems depending on your device which can end up in a crash. Try to avoid using several map instances.
-            - Large map files can cause a slow rendering and sometimes even a crash. Try smaller files in these cases.
-
       - title: Where to get an OSM:Offline map?
         id: osm-get-maps
         content: |
