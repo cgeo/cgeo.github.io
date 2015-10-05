@@ -428,6 +428,17 @@
             Since MM/dd/yyyy is the default at the geocaching website we are supporting this. 
             No problems have ever been reported with MM/dd/yyyy. If you have problems please change the date format to this on the website and refresh the caches showing wrong dates.
 
+      - title: What is the "Ignore cache" function and how does it work? 
+        id: ignore-cache
+        content: |
+            Since c:geo version 2015.09.15 c:geo supports adding caches to the ignore list on geocaching.com.\\
+            As this is a premium feature of geocaching.com it can only be used by premium members of geocaching.com.
+
+            To add a cache to your ignore list open the cache details in c:geo and use Menu → Ignore Cache.
+            Afterwards this cache will no longer be returned in searches and on the live map in c:geo. Additionally it will be deleted from your device if it was stored before.
+
+            Unignoring the cache will only be possible by accessing your list of ignored caches on your [geocaching.com bookmark page](http://www.geocaching.com/bookmarks/) and removing the cache from this list.
+
 - title: Installation and update
   items:
 
