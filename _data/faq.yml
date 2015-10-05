@@ -176,17 +176,17 @@
 
             1. Degrees and decimal minutes (MinDec)
 
-                Notation: DDD° MM.MMM'
+                Notation: DDD° MM.MMM'\\
                 Example: N 51° 20.382 E 007° 01.820
 
             2. Degrees, decimal minutes and seconds (DMS)
 
-                Notation: DDD° MM' SS.SSS"
+                Notation: DDD° MM' SS.SSS"\\
                 Example: N 51° 20' 22.920" E 007° 01' 49.200"
 
             3. Only degrees (DegDec)
 
-                Notation: DDD.DDDDD°
+                Notation: DDD.DDDDD°\\
                 Example: 51.339700° 7.030333°
 
             Format 1 is commonly used for Geocaching and thus also the default notation used in c:geo.
