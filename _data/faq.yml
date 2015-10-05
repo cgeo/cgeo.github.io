@@ -758,6 +758,13 @@
 
             If still no caches are loaded please make sure you are logged in correctly.
 
+      - title: How to let the map rotate in walking direction?
+        id: map-rotation
+        content: |
+            At the moment c:geo is using versions of Google Maps and Mapsforge which do not support map rotation but are always northbound.
+
+            We are however working on implementing newer versions of both map types which will also support rotating maps in one of the future versions of c:geo.
+            As this requires a rework of the complete map implementation it will take some time to be developed.
 
 - title: Send2cgeo
   items:
