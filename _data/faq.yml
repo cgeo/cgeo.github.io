@@ -595,6 +595,24 @@
             Furthermore you should check if your device supports "Google Play Services" and eventually enable the usage of that in c:geo: \\
             Menu → Settings → System → "Use Google Play Services"
 
+      - title: c:geo is draining my battery when I use it!
+        id: battery
+        content: |
+            Of course c:geo needs quite some battery power as it utilizes almost all sensors of your device to always determine the current position and direction as needed for Geocaching.
+            Nevertheless we implemented sophisticated methods to optimize the power consumption over the last years.
+
+            If you want to further minimize the battery consumption you can additionally active the low-power mode as described in [this FAQ entry](./faq.html#gps-highpower).
+
+      - title: c:geo is even draining my battery when I do not use it!
+        id: battery-dran
+        content: |
+            Your assumption is probably based on the fact that your Android battery statistics sometimes show a high percentage of battery drain for c:geo even if you did not recently use it.
+            This is caused by a well known bug within these measurement routines in Android:
+
+            Sometimes the statistic collector misses to detect when an app stops using the phone sensors (this affects not only c:geo but all apps with high sensor usage). 
+            Because of this it keeps counting the app as running and consuming power for the sensors even if it was closed long time ago. 
+            These faulty battery statistics will only be "fixed" by a restart of your device.
+
       - title: Why is GPS deactivated when I lock the screen or switch to another app?
         id: gps-powersafe
         content: |
