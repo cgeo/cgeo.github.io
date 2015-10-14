@@ -674,6 +674,12 @@
           We received reports, that on some devices the "Google Play Services" might be faulty.
           If all location methods are enabled but you still have problems, please try to switch off the usage of "Google Play Services" in Menu → Settings → System → "Use Google Play Services".
 
+      - title: Search by address does no longer work!
+        id: address-search
+        content: |
+          In order to convert an address to coordinates we rely on an integrated Google service on your device. 
+          We have got reports that on some devices this service stops working randomly. In this case it usually helps to reboot your device to get the search function working again.
+
 - title: Live Map
   items:
       - title: What are the different markers on the cache icons?
