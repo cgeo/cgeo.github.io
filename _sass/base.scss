@@ -279,6 +279,22 @@ a {
             margin-top: -5em;
         }
     }
+
+    .quicklink {
+        float: left;
+        width: 0px;
+        position: relative;
+        left: -1.5em;
+        top: 0.8em;
+        visibility: hidden;
+        color: white;
+    }
+
+    &:hover {
+        .quicklink {
+            visibility: visible;
+        }
+    }
 }
 
 .openhub {
