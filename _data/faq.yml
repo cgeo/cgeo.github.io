@@ -610,7 +610,7 @@
             If you want to further minimize the battery consumption you can additionally active the low-power mode as described in [this FAQ entry](./faq.html#gps-highpower).
 
       - title: c:geo is even draining my battery when I do not use it!
-        id: battery-dran
+        id: battery-drain
         content: |
             Your assumption is probably based on the fact that your Android battery statistics sometimes show a high percentage of battery drain for c:geo even if you did not recently use it.
             This is caused by a well known bug within these measurement routines in Android:
