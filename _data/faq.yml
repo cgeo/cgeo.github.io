@@ -1318,3 +1318,15 @@
         content: |
             The c:geo contacts plugin needs the permission to access the contacts on your device to look up other geocachers in case you use the relevant option in c:geo.
             As long as you don't use that menu option the plugin will never read any data from your contacts.
+
+- title: Temporary issues
+  items:
+
+      - title: My find count is 0 and some functions do not work!
+        id: 5386
+        content: |
+            Currently problems may occur when using c:geo if the website of geocaching.com is not set to English language.
+            We are working on a fix and will publish it as soon as possible.
+
+            For the time beeing please open [this page on geocaching.com](https://www.geocaching.com/account/settings/preferences) and switch the language to English.
+            Afterwards please restart c:geo.
