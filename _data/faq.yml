@@ -161,7 +161,7 @@
             While Groundspeak's API would fix most of our current problems, c:geo would then force users to pay money to a corporation. This is not the open-source spirit.
             If Groundspeak says OK to our ideas then c:geo might have an API some day...
 
-      - title: The website is always shown to English!
+      - title: The website is always shown in English!
         id: website-english
         content: |
             c:geo is accessing the geocaching website as a customized internet browser. \\
