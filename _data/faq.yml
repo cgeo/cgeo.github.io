@@ -408,35 +408,6 @@
 
             If you are premium member and c:geo does not know the location of a cache, please check your login and relogin to make sure c:geo knows you are a premium member.
 
-      - title: The dates in the logbook are wrong or not shown at all! 
-        id: wrong-dates
-        content: |
-            If you are running the legacy version of c:geo (only for Android version below 2.3) we have some limitations regarding the supported date formats of geocaching.com.
-            In all other versions of c:geo all possible date formats are supported.
-
-            If you are on an Android version above 2.2 and notice incorrect dates please update to the newest version of c:geo and refresh the affected caches.
-
-            The following explanation is only applicable to the legacy version of c:geo:
-
-            With the legacy version the following formats are supported:
-
-            yyyy-MM-dd \\
-            yyyy/MM/dd \\
-            MM/dd/yyyy \\
-            dd/MMM/yyyy \\
-            MMM/dd/yyyy \\
-            dd MMM yy
-
-            (dd = day, MM = month, yyyy/yy = year)
-
-            The format can be changed on the geocaching websites user preferences page.
-
-            Maybe you notice that one format is missing: dd/MM/yyyy \\
-            The reason for this is quite simple: \\
-            Is 04/10/2011 the 4th of October or 10th of April? So we would have to guess which would lead to inconsistency. 
-            Since MM/dd/yyyy is the default at the geocaching website we are supporting this. 
-            No problems have ever been reported with MM/dd/yyyy. If you have problems please change the date format to this on the website and refresh the caches showing wrong dates.
-
       - title: What is the "Ignore cache" function and how does it work? 
         id: ignore-cache
         content: |
@@ -489,6 +460,9 @@
       - title: I do see a warning in c:geo that my device is no longer supported!
         id: legacy
         content: |
+            If you see this message your device is no longer supported and the c:geo version you are using will not work online with [geocaching.com](https://www.geocaching.com) anymore.
+            However you can still use it purely offline (via GPX files and field notes).
+
             We decided to drop the support of Android versions below 2.3. Only a very minor percentage of our users are affected.
 
             The reason for this is, that we want to include more features and further improve usability and stability.
@@ -496,10 +470,6 @@
 
             Please check if the manufacturer of your device offers an update for your device. If there is no official update it may also be possible to use a Custom-ROM (like [Cyanogenmod](http://www.cyanogenmod.org/)) if it is available for your device.
             If nothing can be done to update your device you should consider using a new(er) device running on Android version 2.3 or above.
-
-            Additionally we offer a legacy version of c:geo, which is compatible for devices with Android versions 2.1 and 2.2 for the time being. This version will not be updated with new features anymore, critical bugfixes might be done if considered necessary.
-            We might discontinue this version in the near future without any further notice.
-            The PlayStore will automatically offer the matching version for you to download and install.
 
       - title: Why does c:geo need several permissions on my device?
         id: permissions
