@@ -36,6 +36,19 @@ The version without JIT is necessary for some devices with a MediaTek CPU. If yo
 [calendar plugin](http://download.cgeo.org/cgeo-calendar-nightly.apk)\\
 [contacts plugin](http://download.cgeo.org/cgeo-contacts-nightly.apk)
 
+## F-Droid repository
+
+As an alternative to Google Play, c:geo could be downloaded from our private [F-Droid](https://f-droid.org/) repository.
+
+We provide two channels, for stable and nightly builds.
+
+* https://fdroid.cgeo.org
+* https://fdroid.cgeo.org/nightly
+
+Our repository fingerprint is:
+
+* 370BB4D550C391D5DCCB6C81FD82FDA4892964764E085A09B7E075E9BAD5ED98
+
 ## Translation of c:geo
 
 If you want to contribute translations, you need a free account on [Crowdin](https://crowdin.com/). Then start contributing translations or vote for existing translation proposals to the [c:geo Crowdin project](https://crowdin.com/project/cgeo). If you would like to include a new language please contact us via Crowdin.
