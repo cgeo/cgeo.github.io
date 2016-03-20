@@ -19,11 +19,10 @@ title: Realtime Usage
             radius: 20
         }).addTo(map);
 
-        var ws = new WebSocket("wss://cgeo-status.herokuapp.com/api/locations");
         var heatmapData = [];
-        ws.onmessage = function(msg) {
-            var data = JSON.parse(msg.data);
-            data.clients.map(function(client) {
+
+        function updateHeatmap(clients) {
+            clients.map(function(client) {
                 // client.kind[0].toUpperCase(); // version
                 heatmapData.push([client.latitude, client.longitude]);
             });
@@ -31,6 +30,16 @@ title: Realtime Usage
                 heatmapData.splice(heatmapData.length - 5000);
             }
             heat.setLatLngs(heatmapData);
+        }
+
+        $.getJSON('http://status.cgeo.org/api/recent-locations?limit=500', function(clients) {
+                updateHeatmap(clients);
+        });
+
+        var ws = new WebSocket("wss://cgeo-status.herokuapp.com/api/locations");
+        ws.onmessage = function(msg) {
+            var data = JSON.parse(msg.data);
+            updateHeatmap(data.clients);
         };
     </script>
 </div>
