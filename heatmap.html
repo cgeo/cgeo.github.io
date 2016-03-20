@@ -27,7 +27,7 @@ title: Realtime Usage
                 heatmapData.push([client.latitude, client.longitude]);
             });
             if (heatmapData.length > 5000) {
-                heatmapData.splice(heatmapData.length - 5000);
+                heatmapData.splice(0, heatmapData.length - 5000);
             }
             heat.setLatLngs(heatmapData);
         }
