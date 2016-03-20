@@ -207,14 +207,16 @@ a {
 }
 
 .status {
-    position: fixed;
-    left: 0;
-    width: 97%;
-    height: 100%;
-    margin-top: 1em;
-    margin-bottom: 0;
-    margin-left: 1em;
-    margin-right: 1em;
+    position: absolute;
+    left: 1em;
+    right: 1em;
+    top: 6em;
+    bottom: 1em;
+
+    iframe {
+        height: 100%;
+        width: 100%;
+    }
 }
 
 .warning {
