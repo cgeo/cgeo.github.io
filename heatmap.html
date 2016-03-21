@@ -24,13 +24,14 @@ title: Realtime Usage
 
         var heatmapData = [];
 
-        function updateHeatmap(clients) {
+        function updateHeatmap(clients, active) {
             clients.map(function(client) {
                 // client.kind[0].toUpperCase(); // version
                 heatmapData.push([client.latitude, client.longitude]);
             });
-            if (heatmapData.length > maxHeatPoints) {
-                heatmapData.splice(0, heatmapData.length - maxHeatPoints);
+            var limit = Math.min(maxHeatPoints, active);
+            if (heatmapData.length > limit) {
+                heatmapData.splice(0, heatmapData.length - limit);
             }
             heat.setLatLngs(heatmapData);
         }
@@ -51,7 +52,7 @@ title: Realtime Usage
         var ws = new WebSocket("wss://cgeo-status.herokuapp.com/api/locations?initial=" + maxHeatPoints);
         ws.onmessage = function(msg) {
             var data = JSON.parse(msg.data);
-            updateHeatmap(data.clients);
+            updateHeatmap(data.clients, data.active);
             info.update(data.active);
         };
     </script>
