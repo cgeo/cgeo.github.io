@@ -58,7 +58,10 @@ layout: default
                 var items = [];
                 versions.map(function(v) {
                   var line = [];
-                  line.push("<td>" + v.name + "</td>");
+                  if (v.url)
+                    line.push('<td><a href="' + v.url + '">' + v.name + '</a></td>');
+                  else
+                    line.push("<td>" + v.name + "</td>");
                   line.push("<td>" + (v.versionName || "") + "</td>");
                   line.push("<td>" + (v.versionCode || "") + "</td>");
                   line.push("<td>" + v.count + "</td>");
