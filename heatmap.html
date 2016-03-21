@@ -8,46 +8,56 @@ title: Realtime Usage
     <script>
         var maxHeatPoints = 5000;
 
+        var maxMindAttribution = 'This product includes GeoLite data created by <a href="http://www.maxmind.com">MaxMind</a>';
+
+        var layerOsmMapnik = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors | ' + maxMindAttribution,
+        });
+
+        var layerHeatAll = L.heatLayer([], {
+            minOpacity: .4,
+            radius: 20,
+            attribution: maxMindAttribution, // does not work
+        });
+
         var map = L.map('map', {
-            fullscreenControl: true
+            layers: [layerOsmMapnik, layerHeatAll],
+            fullscreenControl: true,
+            maxBounds: [[90,-180], [-90,180]],
         }).fitBounds([[75,-160], [-45,160]]);
 
-        var tiles = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors | ' +
-            'This product includes GeoLite data created by <a href="http://www.maxmind.com">MaxMind</a>',
-        }).addTo(map);
+        var UsersOnlineControl = L.Control.extend({
+            initialize: function (options) {
+                L.Util.setOptions(this, options);
+            },
 
-        var heat = L.heatLayer([], {
-            minOpacity: .4,
-            radius: 20
+            onAdd: function(map) {
+                this._div = L.DomUtil.create('div', 'infobox');
+                this.update('???');
+                return this._div;
+            },
+
+            update: function(active) {
+                this._div.innerHTML = 'Estimated number of c:geo users in online mode: ' + active;
+            },
+        });
+
+        var info = new UsersOnlineControl({
+            position: 'topright'
         }).addTo(map);
 
         var heatmapData = [];
 
         function updateHeatmap(clients, active) {
             clients.map(function(client) {
-                // client.kind[0].toUpperCase(); // version
                 heatmapData.push([client.latitude, client.longitude]);
             });
             var limit = Math.min(maxHeatPoints, active);
             if (heatmapData.length > limit) {
                 heatmapData.splice(0, heatmapData.length - limit);
             }
-            heat.setLatLngs(heatmapData);
+            layerHeatAll.setLatLngs(heatmapData);
         }
-
-        var info = L.control();
-
-        info.onAdd = function(map) {
-            this._div = L.DomUtil.create('div', 'infobox');
-            return this._div;
-        };
-
-        info.update = function(active) {
-            this._div.innerHTML = 'Estimated number of cgeo users in online mode: ' + active;
-        };
-
-        info.addTo(map);
 
         var ws = new WebSocket("wss://cgeo-status.herokuapp.com/api/locations?initial=" + maxHeatPoints);
         ws.onmessage = function(msg) {
