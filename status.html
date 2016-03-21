@@ -1,11 +1,98 @@
 ---
-title: status
+title: Deployment status
 layout: default
 ---
 <div class="container">
   <div class="status">
-      <iframe src="http://status.cgeo.org/status" allowfullscreen>
-        Your browser does not support iframes.
-      </iframe>
+    <h1>Current versions</h1>
+    <table>
+      <thead>
+          <tr>
+            <th>Kind</th>
+            <th>Version name</th>
+            <th>Version code</th>
+            <th><span title="Estimation based on recent status requests">Users online (estimated)</span></th>
+            <th>% (estimated)</th>
+          </tr>
+      </thead>
+      <tbody id="versions-body"></tbody>
+      <tfoot>
+        <tr>
+          <td>Total</td>
+          <td></td>
+          <td></td>
+          <td id="versions-total">0</td>
+          <td></td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <div id="message-div">
+      <h1>Current message</h1>
+
+      <table>
+        <thead>
+          <tr><th>Message</th><th>Message id</th><th>Icon</th><th>URL</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td id="message-text"></td>
+            <td id="message-id"></td>
+            <td id="message-icon"></td>
+            <td id="message-link"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h1>Older versions and source code</h1>
+
+    Former releases of c:geo and their source code can be found on <a href="https://github.com/cgeo/cgeo/releases" target="_top">c:geo GitHub release page</a>.
+
+    <script type="text/javascript">
+        function updateVersions() {
+          $.getJSON( "https://cgeo-status.herokuapp.com/api/count/by-kind",
+              function(versions) {
+                var total = 0;
+                versions.map(function(v) { total += v.count; });
+                var items = [];
+                versions.map(function(v) {
+                  var line = [];
+                  line.push("<td>" + v.name + "</td>");
+                  line.push("<td>" + (v.versionName || "") + "</td>");
+                  line.push("<td>" + (v.versionCode || "") + "</td>");
+                  line.push("<td>" + v.count + "</td>");
+                  line.push("<td>" + ((100 * v.count / total).toFixed(1)) + "%</td>");
+                  items.push("<tr>" + line.join("") + "</tr>");
+                });
+                $("#versions-body").html(items.join("\n"));
+                $("#versions-total").text(total);
+              });
+          window.setTimeout(updateVersions, 30000);
+        }
+
+        function updateMessage() {
+          $.getJSON("https://cgeo-status.herokuapp.com/api/message", function(data) {
+            var msg = data.message;
+            if (msg) {
+              $("#message-text").text(msg.message);
+              $("#message-id").text(msg.message_id ? msg.message_id : "");
+              if (msg.icon) {
+                var url = "https://cgeo-status.herokuapp.com/assets/icons/" + msg.icon + ".png";
+                $("#message-icon").html('<img src="' + url + '"/>');
+              } else
+                $("#message-icon").text("");
+              $("#message-link").html(msg.url ? '<a href="' + msg.url + '">Link</a>' : "");
+              $("#message-div").show();
+            } else {
+              $("#message-div").hide();
+            }
+          });
+          window.setTimeout(updateMessage, 30000);
+        };
+
+        updateVersions();
+        updateMessage();
+    </script>
   </div>
 </div>

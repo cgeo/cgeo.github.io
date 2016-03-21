@@ -213,10 +213,24 @@ a {
     top: 6em;
     bottom: 1em;
 
-    iframe, #map {
+    #map {
         height: 100%;
         width: 100%;
     }
+
+    table {
+        width:100%;
+        thead { border-bottom: 1px solid #eee; }
+        tfoot {
+                border-top: 1px solid #eee;
+                td { font-weight: bold; }
+        }
+        tbody > tr:nth-of-type(odd) { background:#2a2a2a; }
+        th { font-weight: bold; }
+        th, td { text-align: center; }
+    }
+
+    #message-div { display: none; } // Controlled by JS
 }
 
 .warning {
