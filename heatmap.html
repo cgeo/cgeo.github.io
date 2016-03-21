@@ -14,6 +14,11 @@ title: Realtime Usage
             attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors | ' + maxMindAttribution,
         });
 
+        var layerMapQuest = L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpg', {
+            subdomains: '1234',
+            attribution: 'Data, imagery and map information provided by MapQuest, <a href="http://osm.org/copyright">OpenStreetMap</a> contributors | ' + maxMindAttribution,
+        });
+
         var layerHeatAll = L.heatLayer([], {
             minOpacity: .4,
             radius: 20,
@@ -21,7 +26,7 @@ title: Realtime Usage
         });
 
         var map = L.map('map', {
-            layers: [layerOsmMapnik, layerHeatAll],
+            layers: [layerMapQuest, layerHeatAll],
             fullscreenControl: true,
             maxBounds: [[90,-180], [-90,180]],
         }).fitBounds([[75,-160], [-45,160]]);
