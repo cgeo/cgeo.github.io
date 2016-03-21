@@ -25,6 +25,15 @@ title: Realtime Usage
             attribution: maxMindAttribution, // does not work
         });
 
+        var baseMaps = {
+            "MapQuest Open": layerMapQuest,
+            "OpenStreetMap": layerOsmMapnik,
+        };
+
+        var overlayMaps = {
+            "c:geo Realtime Usage": layerHeatAll,
+        };
+
         var map = L.map('map', {
             layers: [layerMapQuest, layerHeatAll],
             fullscreenControl: true,
@@ -50,6 +59,8 @@ title: Realtime Usage
         var info = new UsersOnlineControl({
             position: 'topright'
         }).addTo(map);
+
+        L.control.layers(baseMaps, overlayMaps).addTo(map);
 
         var heatmapData = [];
 
