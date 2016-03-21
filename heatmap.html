@@ -32,11 +32,7 @@ title: Realtime Usage
             heat.setLatLngs(heatmapData);
         }
 
-        $.getJSON('http://status.cgeo.org/api/recent-locations?limit=500', function(clients) {
-                updateHeatmap(clients);
-        });
-
-        var ws = new WebSocket("wss://cgeo-status.herokuapp.com/api/locations");
+        var ws = new WebSocket("wss://cgeo-status.herokuapp.com/api/locations?initial=500");
         ws.onmessage = function(msg) {
             var data = JSON.parse(msg.data);
             updateHeatmap(data.clients);
