@@ -13,7 +13,8 @@ title: Realtime Usage
         }).fitBounds([[75,-160], [-45,160]]);
 
         var tiles = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors | ' +
+            'This product includes GeoLite data created by <a href="http://www.maxmind.com">MaxMind</a>',
         }).addTo(map);
 
         var heat = L.heatLayer([], {
