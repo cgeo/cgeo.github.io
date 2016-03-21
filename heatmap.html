@@ -6,6 +6,8 @@ title: Realtime Usage
     <div id="map"></div>
 
     <script>
+        var maxHeatPoints = 5000;
+
         var map = L.map('map', {
             fullscreenControl: true
         }).fitBounds([[75,-160], [-45,160]]);
@@ -26,13 +28,13 @@ title: Realtime Usage
                 // client.kind[0].toUpperCase(); // version
                 heatmapData.push([client.latitude, client.longitude]);
             });
-            if (heatmapData.length > 5000) {
-                heatmapData.splice(0, heatmapData.length - 5000);
+            if (heatmapData.length > maxHeatPoints) {
+                heatmapData.splice(0, heatmapData.length - maxHeatPoints);
             }
             heat.setLatLngs(heatmapData);
         }
 
-        var ws = new WebSocket("wss://cgeo-status.herokuapp.com/api/locations?initial=500");
+        var ws = new WebSocket("wss://cgeo-status.herokuapp.com/api/locations?initial=" + maxHeatPoints);
         ws.onmessage = function(msg) {
             var data = JSON.parse(msg.data);
             updateHeatmap(data.clients);
