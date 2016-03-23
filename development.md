@@ -61,4 +61,4 @@ While c:geo is in use it checks every 30 minutes for new notifications (these ar
 
 Our [status page](/status.html) shows a snapshot of the current usage of c:geo, split by version numbers. Additionally it shows the warnings of our user notification system (if there any).
 
-We use GeoIP to estimate the user's location from the IP (which usually points to the next big city or county). With this information it is possible to create a [heatmap of people currently using c:geo](heatmap.html). It is not possible to track individual users.
+We use GeoIP to estimate the user's location from the IP address (which usually points to the next big city or county). With this information it is possible to create a [heatmap of people currently using c:geo](heatmap.html). It is neither possible to track individual users, nor do we ever track your individual GPS-position.
