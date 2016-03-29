@@ -1,12 +1,6 @@
 - title: Temporary issues
   items:
 
-      - title: My find count is 0 and some functions do not work!
-        id: 5386
-        content: |
-            This problem was solved with a new release of c:geo (version 2016.02.03).
-            Please update to the newest available c:geo version!
-
 - title: Getting started
   items:
       - title: I am new to Geocaching. How does all of this work?
