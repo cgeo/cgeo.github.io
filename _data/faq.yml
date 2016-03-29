@@ -1166,6 +1166,20 @@
 
             These workarounds should help to avoid the mentioned problems, however a proper fix for this has to come from Sony in another firmware update.
 
+      - title: c:geo is not working correctly after upgrading my device to Android 6.0!
+        id: android6
+        content: |
+            We recently got complaints that users have some issues with c:geo after upgrading their devices to Android 6.0:
+
+            1. Crashes while using offline maps / Broken text in listings
+
+                Please make sure that the setting "Hardware acceleration" is enabled in Menu → Setttings → System.
+                This should solve these kind of problems.
+
+            2.  c:geo does not obtain a GPS position anymore
+
+                Please refer to [c:geo seems unable to get my current location!](./faq.html#no-location) to fix this problem.
+
 - title: New menu implementation
   items:
 
