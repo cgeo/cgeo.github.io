@@ -42,8 +42,8 @@ As an alternative to Google Play, c:geo could be downloaded from our private [F-
 
 We provide two channels, for stable and nightly builds.
 
-* https://fdroid.cgeo.org
-* https://fdroid.cgeo.org/nightly
+* [https://fdroid.cgeo.org](https://fdroid.cgeo.org)
+* [https://fdroid.cgeo.org/nightly](https://fdroid.cgeo.org/nightly)
 
 Our repository fingerprint is:
 
