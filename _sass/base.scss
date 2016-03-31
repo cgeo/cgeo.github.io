@@ -155,6 +155,25 @@ a {
 
         &:hover { color: #7abf47; }
     }
+
+    strong {
+        font-weight: bold;
+        color: #cccccc;
+    }
+
+    em {
+        font-style: italic;
+    }
+
+    hr {
+        border: 0;
+        height: 1px;
+        background: #888;
+        background-image: linear-gradient(to right, #333, #888, #333);
+        display: block;
+        visibility: visible;
+        margin: 2em 0;
+    }
 }
 
 .donate-btn {
