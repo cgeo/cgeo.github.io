@@ -425,7 +425,21 @@
         content: |
             c:geo is only a client for several geocaching platforms and does not hold own accounts or logins.
             To delete or disable your account you have to consult the website of the geocaching platform (e.g. on [this page](https://www.geocaching.com/account/settings/membership) of geocaching.com).
-  
+
+      - title: How to manage my solved mysteries in c:geo? 
+        id: modified-coords
+        content: |
+            Most of the time when you solve a puzzle for a mystery cache you might want to store the real final coordinates until you go out and log the cache.
+            Although each user might handle this different, we recommend to use a helpful feature of [geocaching.com](https://www.geocaching.com).
+
+            Premium members of [geocaching.com](https://www.geocaching.com) can store the real final coordinates of solved mystery caches (also working for multi caches) on the website by clicking on the small pencil icon right next to the listing coords.\\
+            Once you have stored the real final coordinates on the website they will also be available in c:geo once you store/refresh the cache.
+            This means, that c:geo will display the cache icon on the real final coords and only have an additional waypoints refering to the listing coords.
+
+            Of course this is also working the other way around:\\
+            Open a mystery/multi cache in c:geo and create a new waypoint with the real final coordinates. Before saving the waypoint click the selection "Set as cache coordinates in c:geo and on website".\\
+            Once you saved the waypoint the real final coordinates will be uploaded to the website.
+
 - title: Installation and update
   items:
 
