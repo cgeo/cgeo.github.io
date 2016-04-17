@@ -5,6 +5,7 @@
         content: |
             geocaching.com might be offline for maintenance on April,20th between 01:00 and 03:00 GMT.\\
             This is 05:00PM to 07:00 PM (PST) on the day before, 09:00 to 11:00PM (EDT), 03:00 to 05:00AM (CEST).
+
             Online functions of c:geo with geocaching.com (e.g. live map, searches, logging) might not work during that time. 
             Offline functions and interworking with other supported platforms will not be affected.
 
