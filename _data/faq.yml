@@ -448,6 +448,23 @@
             Open a mystery/multi cache in c:geo and create a new waypoint with the real final coordinates. Before saving the waypoint click the selection "Set as cache coordinates in c:geo and on website".\\
             Once you saved the waypoint the real final coordinates will be uploaded to the website.
 
+      - title: Missing data after import of caches via GPX (PQ)! 
+        id: missing-data-gpx
+        content: |
+            When importing caches via GPX file (e.g. download a pocket query) some data is missing. That is because the GPX file format doesn't contain all information which is available online.
+
+            The following information is missing or incomplete:
+
+            - Some logs (only the 5 recent logs are provided)
+            - Friends / Own logs
+            - Favoritpoints
+            - Spoiler and Log images
+            - Watchlist
+            - GC Vote
+            - Trackables / Inventory
+
+            These information can be downloaded by initiating a manual "Refresh", either individually cache by cache or for all caches in a list.
+
 - title: Installation and update
   items:
 
