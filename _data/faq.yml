@@ -1174,7 +1174,7 @@
         id: xperia
         content: |
             We recently got complaints that users of Xperia device experience regular crashes of c:geo and problems using the compass (compass not rotating).
-            Not only c:geo is affected by this, but also other navgiation specific apps on these devices.
+            Not only c:geo is affected by this, but also other navigation specific apps on these devices.
 
             Our investigation has shown, that these problems are caused by the device firmware after upgrade to Android 5.x and not by c:geo itself.
             Thus we can not fix these problems, but can give you some workarounds based on user feedback we received:
@@ -1195,10 +1195,10 @@
         content: |
             We recently got complaints that users have some issues with c:geo after upgrading their devices to Android 6.0:
 
-            1. Crashes while using offline maps / Broken text in listings
+            1. Crashes while using offline maps / broken text in listings
 
-                Please make sure that the setting "Hardware acceleration" is enabled in Menu → Setttings → System.
-                This should solve these kind of problems.
+                Please make sure that the setting "Enable hardware acceleration" is enabled in Menu → Settings → System.
+                This should solve these kinds of problems.
 
             2.  c:geo does not obtain a GPS position anymore
 
