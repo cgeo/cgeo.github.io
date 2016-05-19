@@ -490,7 +490,7 @@
             We decided to drop the support of Android versions below 2.3. Only a very minor percentage of our users are affected.
 
             The reason for this is, that we want to include more features and further improve usability and stability.
-            Newer Android versions offer a lot more possibilities which we simply can not use if we have to be compatible to e.g. Android 1.6.
+            Newer Android versions offer a lot more possibilities which we simply cannot use if we have to be compatible to e.g. Android 1.6.
 
             Please check if the manufacturer of your device offers an update for your device. If there is no official update it may also be possible to use a Custom-ROM (like [Cyanogenmod](http://www.cyanogenmod.org/)) if it is available for your device.
             If nothing can be done to update your device you should consider using a new(er) device running on Android version 2.3 or above.
@@ -1123,7 +1123,7 @@
             If the distance to a cache on a list of caches or on the compass is jumping between some meters to some kilometers and you are
             using Cyanogenmod ROM, this might be caused by a known bug in Cyanogenmod 10.
 
-            Pleasae udpate to a newer version of Cyanogenmod or change to another ROM.
+            Please update to a newer version of Cyanogenmod or change to another ROM.
 
       - title: Parts of the text are not shown or shown blurred on my device!
         id: blurred-text
@@ -1177,7 +1177,7 @@
             Not only c:geo is affected by this, but also other navigation specific apps on these devices.
 
             Our investigation has shown, that these problems are caused by the device firmware after upgrade to Android 5.x and not by c:geo itself.
-            Thus we can not fix these problems, but can give you some workarounds based on user feedback we received:
+            Thus we cannot fix these problems, but can give you some workarounds based on user feedback we received:
 
             1. Crashes while using c:geo
 
