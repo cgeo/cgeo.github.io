@@ -1204,6 +1204,15 @@
 
                 Please refer to [c:geo seems unable to get my current location!](./faq.html#no-location) to fix this problem.
 
+      - title: "Open in browser" does only offer c:geo itself but not my web browser!
+        id: open-in-browser
+        content: |
+            If your device is running on Android you might encounter that on selecting "Open in Browser" from the cache details menu your phone only offers "c:geo" and "c:geo internal browser" as targets.
+            This is caused by an incorrect setting on your device, which you can easily change:
+
+            Open the application manager of your device (typically in Settings → Applications → Application Manager), search and open the entry for c:geo, select "Set Default" and change the setting for "Go to supported URLs" from "Via this app" to "Always ask". \\
+            After changing this setting your web browser should be shown again when selecting "Open in Browser" from c:geo.
+
 - title: New menu implementation
   items:
 
