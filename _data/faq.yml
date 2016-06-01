@@ -1356,7 +1356,7 @@
             Some caches on the live map may not have precise coordinates until you open the cache details. Those caches are marked by an [orange circle](./faq.html#map-orange-circles) around the icon.
             If navigation is started directly from live map this may also use the approximated coords and guide you to a slightly wrong location!
 
-     - title: The fast loading strategy on the live map might show wrong cache types
+      - title: The fast loading strategy on the live map might show wrong cache types
         id: limitation-fastmode
         content: |
             If you set the live map [loading strategy](./faq.html#map-strategy) to "Fast" the cache type shown on the map might be wrong in rare cases.
