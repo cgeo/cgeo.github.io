@@ -1055,15 +1055,15 @@
       - title: Does c:geo support trackables?
         id: trackables
         content: |
-            c:geo offers full support for [geocaching.com Trackables](http://www.geocaching.com/track/) as well as for [GeoKrets](http://www.geokrety.org).
+            c:geo offers full support for [geocaching.com Trackables](http://www.geocaching.com/track/) as well as for [GeoKrety](http://www.geokrety.org).
             Additionally a basic support (view trackable information only) for Swaggies of [geocaching.com.au](http://geocaching.com.au/) is implemented.
 
-            To learm more about logging [GeoKrets](http://www.geokrety.org) with c:geo you can also refer to the [FAQ of geokrety.org](http://geokretymap.org/how-to-log-geokrety/log-geokrety-with-cgeo-android).
+            To learm more about logging [GeoKrety](http://www.geokrety.org) with c:geo you can also refer to the [FAQ of geokrety.org](http://geokretymap.org/how-to-log-geokrety/log-geokrety-with-cgeo-android).
 
       - title: How do I log trackables with c:geo?
         id: trackables-logging
         content: |
-            There are several functions in c:geo for viewing and logging trackables. The following applies to [geocaching.com Trackables](http://www.geocaching.com/track/) as well as [GeoKrets](http://www.geokrety.org).
+            There are several functions in c:geo for viewing and logging trackables. The following applies to [geocaching.com Trackables](http://www.geocaching.com/track/) as well as [GeoKrety](http://www.geokrety.org).
 
             1. Trackable inventory of a geocache:
 
@@ -1082,10 +1082,10 @@
                 Additional to the functions explained above, you can also just search for the public code or the secret tracking code (secret code is currently only working for GC trackables) of an item by entering it either into the search bar on top of the main menu (magnifier icon) or into the trackable search field within the search menu.
                 The details of this trackable will then be shown and you can write a log for it.
 
-      - title: Why do I see GeoKrets listed in the inventory of a GC cache?
+      - title: Why do I see GeoKrety listed in the inventory of a GC cache?
         id: trackables-gk
         content: |
-            Although GeoKrets are mainly used on opencaching platforms [GeoKrety.org](http://www.geokrety.org) also supports to place GeoKrets into geocaching.com caches.
+            Although GeoKrety are mainly used on opencaching platforms [GeoKrety.org](http://www.geokrety.org) also supports to place GeoKrety into geocaching.com caches.
 
             This also means you can retrieve and drop them from there as well. The only difference is, that you are encouraged to add the cache coordinates to the log if you drop a GeoKret to a GC cache (as [GeoKrety.org](http://www.geokrety.org) might not know the coordinates of all GC caches).
             In case you log a GeoKret from the log window of a GC cache c:geo will even prefill the coordinate field with the listing coordinates of this cache to assist you.
@@ -1098,14 +1098,14 @@
             If you do not yet have an account you can create it on the [Geokrety.org registration page](http://www.geokrety.org/adduser.php).
             Afterwards go to Settings → Services → GeoKrety.org in c:geo, enter your login data and authorize to the webpage.
 
-            Once you are authorized you can log GeoKrets with c:geo as described [here](./faq.html#trackables-logging).
+            Once you are authorized you can log GeoKrety with c:geo as described [here](./faq.html#trackables-logging).
 
       - title: Some functions of GeoKrety.org seem not to be supported in c:geo!
         id: trackables-gk-unsupported
         content: |
             Some functionalities which are available on the [GeoKrety.org](http://www.geokrety.org) webpage are not (yet) supported with c:geo as either the current version of the interface does not support it or we did not yet have time to implement it:
 
-            - Viewing the logbook of GeoKrets
+            - Viewing the logbook of GeoKrety
             - Mark a GeoKret as "missing"
 
 - title: Device or user specific problems
