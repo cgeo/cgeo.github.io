@@ -1349,6 +1349,7 @@
 
 - title: Known limitations of c:geo
   items:
+
       - title: Approximated cooordinates on the live map
         id: limitation-livemap
         content: |
