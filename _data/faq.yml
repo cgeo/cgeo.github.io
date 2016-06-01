@@ -1348,6 +1348,7 @@
             As long as you don't use that menu option the plugin will never read any data from your contacts.
 
 - title: Known limitations of c:geo
+  items:
       - title: Approximated cooordinates on the live map
         id: limitation-livemap
         content: |
