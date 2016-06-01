@@ -1058,6 +1058,8 @@
             c:geo offers full support for [geocaching.com Trackables](http://www.geocaching.com/track/) as well as for [GeoKrets](http://www.geokrety.org).
             Additionally a basic support (view trackable information only) for Swaggies of [geocaching.com.au](http://geocaching.com.au/) is implemented.
 
+            To learm more about logging [GeoKrets](http://www.geokrety.org) with c:geo you can also refer to the [FAQ of geokrety.org](http://geokretymap.org/how-to-log-geokrety/log-geokrety-with-cgeo-android).
+
       - title: How do I log trackables with c:geo?
         id: trackables-logging
         content: |
