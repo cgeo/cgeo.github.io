@@ -931,27 +931,28 @@
       - title: Where to get an OSM:Offline map?
         id: osm-get-maps
         content: |
-            c:geo supports offline maps from mapsforge in version 0.3.0.
+            c:geo supports offline maps from mapsforge in version 0.3.0. These map files are not only supported by c:geo, but also by other apps like *Locus Map* or *Oruxmaps*.
 
-            Many OSM:Offline maps are already pre made on the [mapsforge download site](http://download.mapsforge.org/maps/).
-            Almost all countries are available for download and will be updated frequently.
+            Many OSM:Offline maps are available for download from different sources, for example
 
-            Additionally [openandromaps.org](http://www.openandromaps.org) also offers free, compatible offline maps for many countries and regions. These maps are even including some custom map themes suitable for hiking or cycling (including the display of height lines/isohypses).
+            - [Official mapsforge download site](http://download.mapsforge.org/maps/)
+            - [Freizeitkarte](http://www.freizeitkarte-osm.de/android/de/index.html)
+            - [OpenAndroMaps](http://www.openandromaps.org/)
+            - [OpenMaps](http://openmaps.eu/mapsforgedownload)
+            - [AndroidMaps](http://www.androidmaps.co.uk/)
 
-            If you would like to create your own map please read these [instructions](https://github.com/cgeo/cgeo/wiki/How-to-create-your-own-offline-maps).
+            There are also other sources, just search for "mapsforge map". Please read the instructions for each map as some of them require a special map theme to work correctly.
+
+            If you would like to create your own map please read these [instructions](https://github.com/mapsforge/mapsforge/blob/master/docs/MapCreation.md).
 
       - title: How to use custom themes for OSM:Offline?
         id: osm-use-themes
         content: |
             c:geo is supporting custom rendering themes for OSM:Offline maps. These can be used to change the color style of the map (e.g. to have a night-view map) or to highlight certain objects within the map (e.g. cycle paths or height lines).
 
-            Up to now we do not have build-in themes but you need to create them by yourself or download some user made themes from the internet. Try e.g. searching the net for "RGB Night Theme for Vectormaps" to find appropriate nightview themes.
+            Up to now we do not have build-in themes but you need to create them by yourself or download some user made themes from the internet. Some maps require a special map theme to work correctly, so please read their instructions carefully.
 
-            If you have created a personal version of a theme which you are willing to share with us, feel free to contact us.
-
-            After having downloaded a theme-package (usually a ZIP-file containing a lot of xml files and graphics) extract it including all its sub-directories into a folder in your device or SD card. 
-            Afterwards select this folder as base-folder for map themes in c:geo settings.
-            If you have done it right and the theme is valid it should now be selectable from live map via\\
+            After having downloaded a theme-package (usually a ZIP-file containing a lot of xml files and graphics) extract it including all its sub-directories into a folder in your device or SD card. Afterwards select this folder as base-folder for map themes in c:geo settings. If you have done it right and the theme is valid it should now be selectable from live map via\\
             Live map menu → Map modes → Select map theme
 
 - title: Offline caching
