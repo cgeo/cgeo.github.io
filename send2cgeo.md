@@ -21,30 +21,28 @@ No personal data (except your browser name, your device name and geocodes) will 
 
 This service comes without any warranty and might be unavailable sometimes (e.g. due to server maintenance).
 
-While the import function in c:geo is activated, it transmits about 5kb of data over the internet per minute! Beware of this, if you are on 3G and don't have a flatrate.
+While the import function in c:geo is activated, it transmits about 5kb of data over the Internet per minute! Beware of this, if you are on 3G and don't have a flatrate.
 
 ## How to install send2cgeo
 
 ### Prerequisites:
 The send2cgeo script supports Mozilla Firefox and Google Chrome. Microsoft Internet Explorer is not supported! You need to allow cookies to be stored in your browser in order for the script to work.
 
-### Script installation with Mozilla Firefox:
+### Script installation:
 
-- Install the [Greasemonkey add-on](http://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) and make sure it is activated in your browser after installation
-- Start installing the script by clicking [here](https://github.com/cgeo/send2cgeo/raw/release/send2cgeo.user.js)
-- Greasemonkey will be triggered automatically, confirm the installation when prompted
-- Continue with the registration as described below
-
-### Script installation with Google Chrome:
-
-- Install the [Tampermonkey add-on](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) and make sure it is activated in your browser after installation
-- Start installing the script by clicking [here](https://github.com/cgeo/send2cgeo/raw/release/send2cgeo.user.js)
-- Tampermonkey will be triggered automatically, confirm the installation when prompted
-- Continue with the registration as described below
+- In Mozilla Firefox install the [Greasemonkey add-on](http://addons.mozilla.org/en-US/firefox/addon/greasemonkey/). In Google Chrome install the [Tampermonkey add-on](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) instead.
+- Make sure GreaseMonkey or Tampermonkey is now activated in your browser after installation. There is a new icon in your browser toolbar.
+- To start the installation, click on the script link below that fits your needs. You can install multiple scripts.
+  - [geocaching.com send2cgeo script](https://github.com/cgeo/send2cgeo/raw/release/send2cgeo.user.js)
+  - [opencaching.de send2cgeo script](https://github.com/cgeo/send2cgeo/raw/release/send2cgeoOc.user.js)
+  - [opencaching.pl send2cgeo script](https://github.com/cgeo/send2cgeo/raw/release/send2cgeoOcPl.user.js)
+- Greasemonkey/Tampermonkey will be triggered automatically, confirm the installation when prompted.
+- When a new version of the script is released, your browser will automatically update it.
+- Continue with the registration as described below.
 
 ## Registering browser and device
 
-- After succesful installation of the script click "Register browser" in the window shown below
+- After successful installation of the script click "Register browser" in the window shown below
 - You can change the browser name by click on its name (optional step)
 - Run c:geo on your android device and select Menu → Settings → Services → Send to c:geo
 - Specify a device name in the setting "Your device name" (optional step)
