@@ -13,9 +13,7 @@ Send2cgeo is a script available for Mozilla Firefox and Google Chrome browser. I
 
 [Usage instructions for send2cgeo](#how-to-use-send2cgeo)
 
-[FAQ for send2cgeo](/faq.html#faq.Whatissend)
-
-[Download the script](#download-the-script)
+[FAQ for send2cgeo](/faq.html#send2cgeo)
 
 ## Important Notes/Disclaimer
 
@@ -64,11 +62,3 @@ The send2cgeo script supports Mozilla Firefox and Google Chrome. Microsoft Inter
 - Select Menu → Import → Import from send2cgeo
 - The caches will automatically be downloaded from geocaching.com to the list of saved caches
 - c:geo will continue to wait for more caches to be downloaded for 3 minutes.
-
-## Download the script
-
-Make sure you have Greasemonkey/Tampermonkey **installed and active** in your browser before continuing.
-Otherwise please read [How to install send2cgeo](#how-to-install-send2cgeo) first.
-
-The installation should start automatically in Greasemonkey/Tampermonkey if you click on the link below:\\
-[Script installation](https://github.com/cgeo/send2cgeo/raw/release/send2cgeo.user.js)
