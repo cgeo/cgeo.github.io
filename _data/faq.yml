@@ -38,6 +38,8 @@
             Menu → Settings → Services
 
             After you entered your username and password there, all you have to do is pressing the back key on your device until you reach the c:geo main menu. On the next start c:geo will automatically take you there.
+  
+            If you do not have an account yet please use the button c:geo will offer to take you to the registration page of the selected geocaching platform.
 
             When you are at the main menu, most functions should be self explanatory. Otherwise you might also find some hints in this FAQ.
 
@@ -82,7 +84,7 @@
             First of all please check carefully whether you entered the correct username and password.
             You can find this in: \\
             Menu → Settings → Services
-            Afterwards select "Check Login" (for geocaching.com users only) to see if login is either now possible or what error is returned.
+            Afterwards select "Check authentication" (for geocaching.com users only) to see if login is either now possible or what error is returned.
 
             If you have double-checked your credentials and still get an error message (e.g. Login failed, Unknown Error) the following might be helpful:
 
