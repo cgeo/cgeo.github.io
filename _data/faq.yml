@@ -83,7 +83,7 @@
         content: |
             First of all please check carefully whether you entered the correct username and password.
             You can find this in: \\
-            Menu → Settings → Services
+            Menu → Settings → Services \\
             Afterwards select "Check authentication" (for geocaching.com users only) to see if login is either now possible or what error is returned.
 
             If you have double-checked your credentials and still get an error message (e.g. Login failed, Unknown Error) the following might be helpful:
