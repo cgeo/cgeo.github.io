@@ -208,21 +208,20 @@ a {
         display: inline-block;
         width: 48px;
         height: 48px;
+        opacity: 0.5;
+        &:hover { opacity: 1; }
     }
 
     .facebook {
-        background: url("#{$imagedir}/socialmedia/facebook.png");
-        &:hover { background: url("#{$imagedir}/socialmedia/facebook_hover.png"); }
+        background: url("#{$imagedir}/socialmedia/facebook.svg");
     }
 
     .googleplus {
-        background: url("#{$imagedir}/socialmedia/googleplus.png");
-        &:hover { background: url("#{$imagedir}/socialmedia/googleplus_hover.png"); }
+        background: url("#{$imagedir}/socialmedia/googleplus.svg");
     }
 
     .twitter {
-        background: url("#{$imagedir}/socialmedia/twitter.png");
-        &:hover { background: url("#{$imagedir}/socialmedia/twitter_hover.png"); }
+        background: url("#{$imagedir}/socialmedia/twitter.svg");
     }
 }
 

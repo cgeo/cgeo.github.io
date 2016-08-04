@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 48.000001 48.000001"
+   height="48"
+   width="48">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-1004.3622)"
+     id="layer1">
+    <g
+       id="text4147"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.84490585px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:1">
+      <path
+         id="path4136"
+         transform="translate(0,1004.3622)"
+         d="M 24 0 A 24 24 0 0 0 0 24 A 24 24 0 0 0 24 48 A 24 24 0 0 0 48 24 A 24 24 0 0 0 24 0 z M 24 2.375 A 21.625 21.625 0 0 1 45.625 24 A 21.625 21.625 0 0 1 24 45.625 A 21.625 21.625 0 0 1 2.375 24 A 21.625 21.625 0 0 1 24 2.375 z "
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.40000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <g
+         style="fill:#ffffff"
+         transform="matrix(0.01109235,0,0,-0.01109235,6.3631699,1039.5655)"
+         id="g12">
+        <path
+           id="path14"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 2830,1190 0,350 -250,0 0,-350 -360,0 0,-250 360,0 0,-360 250,0 0,360 350,0 0,250 -350,0 z m -1820,20 0,-400 c 0,0 388.04,0.52 546.04,0.52 C 1470.48,551.211 1337.44,410 1010,410 c -331.371,0 -590,268.629 -590,600 0,331.37 258.629,600 590,600 175.2,0 288.35,-61.58 392.14,-147.41 83.08,83.08 76.14,94.92 287.51,294.53 C 1510.22,1920.44 1271.74,2020 1010,2020 452.191,2020 0,1567.81 0,1010 0,452.199 452.191,0 1010,0 c 833.77,0 1037.56,726 970,1210 -197.38,0 -970,0 -970,0" />
+      </g>
+    </g>
+  </g>
+</svg>
