@@ -21,6 +21,20 @@ Like our application also this website is [open source](https://github.com/cgeo/
 
 We are also looking for people willing to help writing a users manual for c:geo. Just contact us via GitHub if you are interested.
 
+## Beta Testing
+
+You can also help us by becoming a beta tester for the release candidate versions of c:geo.
+
+Becoming beta tester is just one click away: [c:geo Google Play Beta Testing](https://play.google.com/apps/testing/cgeo.geocaching)
+
+After you enabled the beta testing mode you will receive beta versions (release candidates of c:geo) via Google Play update on the same way you receive the normal c:geo updates (it might take a few hours after enabling the beta testing mode). Additionally you can send us your feedback and problem reports via a dedicated Google Play feedback form.
+
+Please be aware that beta releases might be unstable or not all functions are working as expected. However before we bring a version into beta testing we do our very best to make sure, that all basic functions are working properly.
+You will not receive any possibly instable alpha versions or nightly builds (see next chapter) via this beta channel.
+
+If you wish to discontinue beta testing just use the link above and deselect the beta testing mode.
+Afterwards you might need to unstinall the beta version from your device and reinstall the normal version from Google Play.
+
 ## Nightly Builds
 
 You can use our nightly builds to test new features of upcoming versions. They are **not for normal usage**, as they contain code that is not well tested yet. Only install these versions if you know what you're doing.
