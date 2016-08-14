@@ -86,6 +86,8 @@
 
             If you have double-checked your credentials and still get an error message (e.g. Login failed, Unknown Error) the following might be helpful:
 
+            Please login on the geocaching website (using your smartphone browser or a PC) and check that your account is not deactivated and your mail address is validated on the website.
+
             Please check that your phone is working with the correct date and time. If the date is wrong this might lead to problems establishing a secure connection to the server.
 
             Sometimes network providers insert messages into the HTML-traffic which prevents c:geo from logging in while on mobile network.
