@@ -21,10 +21,12 @@ layout: page
     <h2>{{ category.title }}</h2>
 
     {% for item in category.items %}
-        <div class="faqitem">
-            <a href="#{{ item.id }}" class="quicklink">&#128279;</a>
-            <h3 id="{{ item.id }}">{{ item.title }}</h3>
-            {{ item.content | markdownify }}
+        <div id="{{ item.id }}" class="faqitem">
+            <div class="faqitem-content">
+                <a href="#{{ item.id }}" class="quicklink">&#128279;</a>
+                <h3>{{ item.title }}</h3>
+                {{ item.content | markdownify }}
+            </div>
         </div>
     {% endfor %}
 {% endfor %}
