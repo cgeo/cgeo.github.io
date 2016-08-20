@@ -343,10 +343,12 @@ a {
     &:target .faqitem-content {
         border-color: #dd9324;
     }
+}
 
-    div[lang]:not([lang="en"]) {
-        display: none;
-    }
+.faqitem div[lang]:not([lang="en"]),
+.faqnavigation[lang]:not([lang="en"]),
+h2[lang]:not([lang="en"]) {
+    display: none;
 }
 
 .openhub {
