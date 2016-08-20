@@ -1,194 +1,210 @@
-- title: Temporary issues
+- id: temporary-issues
+  title:
+      en: Temporary issues
+      de: Vorübergehende Probleme
+
+- id: getting-started
+  title:
+      en: Getting started
+      de: Erste Schritte
   items:
-      - title: Distance to caches not shown in search results!
-        id: 6029
-        content: |
-            Due to recent changes or a malfunction on the geocaching.com website c:geo is currently unable to get the coordinates for caches shown as a search result.
-            This does also mean if you try to generate a map based on this result, the resulting map might be empty.
-            
-            Please update to the newest c:geo release where this problem is fixed!
-            
-      - title: Caches have empty logbooks!
-        id: 6065
-        content: |
-            Due to recent changes on geocaching.com c:geo may fail to retrieve the logbook depending on the date format you selected on the geocaching website.
-            
-            Please update to the new c:geo release 2016.11.05 where this problem is fixed!
-            
-- title: Getting started
+      - id: newbie
+        en:
+            title: I am new to Geocaching. How does all of this work?
+            content: |
+                Explaining all details of Geocaching would be a little to much here. However there are some facts you need to know to start Geocaching with c:geo:
+
+                1. You need an account on a geocaching platform to use it in c:geo:
+
+                    We are supporting [geocaching.com](http://www.geocaching.com/), which is an international caching platform, and Opencaching platforms in several countries (e.g. [opencaching.de](http://www.opencaching.de/), [opencaching.pl](http://www.opencaching.pl/)).
+
+                    Choose the platform you would like to use, go to the website and create an account (basic accounts are usually free of charge).
+
+                    After you retrieved a username and password for one of the platforms, enter them in c:geo settings to allow c:geo to login to the server.
+
+                2. You have to learn about the different cache types, D/T-ratings, etc.
+
+                    You might not be successful finding a cache by just selecting a random one in c:geo and navigating to it. There is a lot more which you need to know in order to pick a cache which is suitable for you.
+
+                    Most of the mentioned platforms offer detailed tutorials about how Geocaching works. We strongly suggest, that you read through these tutorials to learn what you need to know to find your first cache and how to log it.
+
+                    Especially you should be aware of the different types of caches (You will typically not find a mystery cache at the given coordinates) and the T-rating (a rating of 5 means, that you need to climb/swim/dive to get the cache).
+
+                3. Find a cache near you and try it:
+
+                    Use the "Live Map" or the "Nearby" function of c:geo to see which caches are around you. Pick a cache (a traditional cache with a low D/T rating will be a good starting point) which you would like to find and go for it!
+
+                Once again: You should make yourself familiar with the different types, terrain ratings, attributes, etc. before starting out to find a cache.
+
+      - id: how-to-login
+        en:
+            title: How to login?
+            content: |
+                When you start c:geo the first time it will directly take you to the service settings where you can enter your username and password for the desired caching platforms.
+
+                To access the service menu manually from the c:geo main screen please select: \\
+                Menu → Settings → Services
+
+                After you entered your username and password there, all you have to do is pressing the back key on your device until you reach the c:geo main menu. On the next start c:geo will automatically take you there.
+
+                If you do not have an account yet please use the button c:geo will offer to take you to the registration page of the selected geocaching platform.
+
+                When you are at the main menu, most functions should be self explanatory. Otherwise you might also find some hints in this FAQ.
+        de:
+            title: Wie logge ich mich ein?
+            content: |
+                Der erste Start von c:geo bringt dich direkt zu den Konten-Einstellungen, wo du deinen Benutzernamen und dein Passwort für die gewünschte Plattform eingeben kannst.
+
+                TODO
+
+      - id: how-to-navigate
+        en:
+            title: I see caches in c:geo, but how to get them?
+            content: |
+                If you managed to see caches on the map or in the nearby list, select a cache and open its details.
+
+                Read the listing text and pay attention to the D/T-ratings and attributes to learn more about how to log this cache.
+
+                If you are good to go, press the "Navigate" icon (Pointing arrow) in the title bar.
+
+                You will have several options depending on your needs. Here is a brief description of the most important navigation methods:
+
+                - Compass:
+
+                    It will constantly show you distance and direction to the cache.
+
+                - Radar ([optional](./faq.html#radar-navigation)):
+
+                    If you installed an app supporting radar functions this will open a radar screen.
+                    It is similar to the compass, but the working mode is a little different. You will typically see the cache coordinates as a marker on the radar. If the marker reaches the center, you reached the cache coordinates.
+
+                - Navigation (Drive, Walk, Cycle):
+
+                    This will start turn-by-turn navigation using Google Maps
+
+                When you reach the coordinates, remember that GPS has an accuracy of several meters/feet only (also depending on your phones GPS performance). So you should look around your position as well to find the cache.
+
+      - id: forgot-login
+        en:
+            title: I forgot my username and/or password!
+            content: |
+                c:geo is only using the login details you specified on the geocaching website.
+
+                You have to go to the geocaching website to reset your password. After you successfully restored your password there, please go to c:geo settings and enter the new login data.
+
+                For example on [geocaching.com](http://www.geocaching.com/) you can reset your password on [this page](https://www.geocaching.com/login/password.aspx).
+
+      - id: login-failed
+        en:
+            title: Login failed is shown on the main screen!
+            content: |
+                First of all please check carefully whether you entered the correct username and password.
+                You can find this in: \\
+                Menu → Settings → Services \\
+                Afterwards select "Check authentication" (for geocaching.com users only) to see if login is either now possible or what error is returned.
+
+                If you have double-checked your credentials and still get an error message (e.g. Login failed, Unknown Error) the following might be helpful:
+
+                Please login on the geocaching website (using your smartphone browser or a PC) and check that your account is not deactivated and your mail address is validated on the website.
+
+                Please check that your phone is working with the correct date and time. If the date is wrong this might lead to problems establishing a secure connection to the server.
+
+                Sometimes network providers insert messages into the HTML-traffic which prevents c:geo from logging in while on mobile network.
+                A clear indication for this problem is, that c:geo only works on your WiFi connection at home but not while on a mobile network.
+                In this case please go to the c:geo settings Menu → Settings → Services and enable "Identify as Android Browser".
+                Afterwards you might have to restart your phone to be sure these settings take effect.
+
+                There have been reports, that in rare cases the login still fails although the login data is OK and also "Identify as Android browser" did not help.
+                In this case we recommend resetting c:geo to factory defaults as described [here](./faq.html#how-to-reset):
+
+                If the problem still persists, please contact our [support](/support.html) and provide a system log.
+
+      - id: how-to-reset
+        en:
+            title: How to reset c:geo to factory defaults?
+            content: |
+                Attention: \\
+                This procedure will delete all stored caches and app settings!
+
+                1. If needed, perform a backup of your caches in Menu → Settings → System → Backup
+                2. Go to your Android settings (not c:geo settings) and select Apps or Appmanager → c:geo → "Delete data"
+                3. On the next start of c:geo it will be back to factory settings and take you directly to the login screen.
+                4. Enter your login data for the desired geocaching website
+                5. Restore your backup (You will be asked for restoring once you enter the main screen of c:geo)
+
+- id: general
+  title:
+      en: General
+      de: Allgemein
   items:
-      - title: I am new to Geocaching. How does all of this work?
-        id: newbie
-        content: |
-            Explaining all details of Geocaching would be a little to much here. However there are some facts you need to know to start Geocaching with c:geo:
+      - id: miles-meters
+        en:
+            title: How can I change to miles instead of meters?
+            content: |
+                c:geo uses metric units by default but should detect automatically if your phones default is set to imperial units.
 
-            1. You need an account on a geocaching platform to use it in c:geo:
+                You can also manually select your preference in c:geo settings: \\
+                c:geo Menu → Settings → Appearance → "Use Imperial units"
 
-                We are supporting [geocaching.com](http://www.geocaching.com/), which is an international caching platform, and Opencaching platforms in several countries (e.g. [opencaching.de](http://www.opencaching.de/), [opencaching.pl](http://www.opencaching.pl/)).
+      - id: cache-info-missing
+        en:
+            title: Why do the cache details miss new information?
+            content: |
+                In order to minimize the network traffic c:geo downloads caches only once and stores them temporary or permanently (if you save them on your list).
 
-                Choose the platform you would like to use, go to the website and create an account (basic accounts are usually free of charge).
+                So if you miss some information (e.g. newest logs are missing, description has changed,etc.) please refresh the stored cache by selecting "Refresh" on the cache detail page.
 
-                After you retrieved a username and password for one of the platforms, enter them in c:geo settings to allow c:geo to login to the server.
+      - id: coords-wrong
+        en:
+            title: Why are all cache coords wrong by some meters/feet?
+            content: |
+                In case you are not logged in the geocaching website does not provide correct coordinates. So it seems you did not provide login data or the login data you provided is not correct.
 
-            2. You have to learn about the different cache types, D/T-ratings, etc.
+                Please refer to [Getting started](./faq.html#newbie) to learn how to login with c:geo.
 
-                You might not be successful finding a cache by just selecting a random one in c:geo and navigating to it. There is a lot more which you need to know in order to pick a cache which is suitable for you.
+      - id: why-no-api
+        en:
+            title: Why does c:geo not use Groundspeak's public API?
+            content: |
+                The initial idea of c:geo is to provide a free (and open source) app for mobile geocaching for everybody. \\
+                What would change with the API?
 
-                Most of the mentioned platforms offer detailed tutorials about how Geocaching works. We strongly suggest, that you read through these tutorials to learn what you need to know to find your first cache and how to log it.
+                - c:geo only for premium members
+                - No support for OpenCaching or other platforms than geocaching.com
+                - Groundspeak advertisements
 
-                Especially you should be aware of the different types of caches (You will typically not find a mystery cache at the given coordinates) and the T-rating (a rating of 5 means, that you need to climb/swim/dive to get the cache).
+                There are also problems with the development:
 
-            3. Find a cache near you and try it:
+                - The API requires a private key for the app. But c:geo is open source. There are a lot of independent developers, but only one would get the key. All other developers wouldn't be able to test what they do.
+                - c:geo would no longer be open source
+                - Only a few core developers would be allowed
+                - Much slower development would result from that
 
-                Use the "Live Map" or the "Nearby" function of c:geo to see which caches are around you. Pick a cache (a traditional cache with a low D/T rating will be a good starting point) which you would like to find and go for it!
+                While Groundspeak's API would fix most of our current problems, c:geo would then force users to pay money to a corporation. This is not the open-source spirit.
+                If Groundspeak says OK to our ideas then c:geo might have an API some day...
 
-            Once again: You should make yourself familiar with the different types, terrain ratings, attributes, etc. before starting out to find a cache.
+      - id: website-english
+        en:
+            title: The website is always shown in English!
+            content: |
+                c:geo is accessing the geocaching website as a customized internet browser. \\
+                In order to retrieve the information from the website it needs to have reliable information. Therefore c:geo will change the language to English when logging in, because it cannot support all different languages.
 
-      - title: How to login?
-        id: how-to-login
-        content: |
-            When you start c:geo the first time it will directly take you to the service settings where you can enter your username and password for the desired caching platforms.
+                Feel free to change the language on the website back to your desired language anytime when using it. c:geo will detect this and automatically switch back to English on the next login.
 
-            To access the service menu manually from the c:geo main screen please select: \\
-            Menu → Settings → Services
+      - id: unknown-location
+        en:
+            title: Unknown Location is shown on the main screen!
+            content: |
+                The address information shown at the bottom of the main screen is an information we receive from a geocoding database based on your position. Sometimes this database has no address information for your location or the service is not running. In this case 'Unknown Location' or even a wrong city could be shown.
 
-            After you entered your username and password there, all you have to do is pressing the back key on your device until you reach the c:geo main menu. On the next start c:geo will automatically take you there.
-  
-            If you do not have an account yet please use the button c:geo will offer to take you to the registration page of the selected geocaching platform.
+                This does not have any impact on the c:geo functionality. As long as you have a GPS fix everything will work normal. \\
+                If you want you can also disable the address information in c:geo settings so your coordinates are shown on the main screen instead of the address information: \\
+                Menu → Settings → Appearance → "Show Address"
 
-            When you are at the main menu, most functions should be self explanatory. Otherwise you might also find some hints in this FAQ.
+...
 
-      - title: I see caches in c:geo, but how to get them?
-        id: how-to-navigate
-        content: |
-            If you managed to see caches on the map or in the nearby list, select a cache and open its details.
-
-            Read the listing text and pay attention to the D/T-ratings and attributes to learn more about how to log this cache.
-
-            If you are good to go, press the "Navigate" icon (Pointing arrow) in the title bar.
-
-            You will have several options depending on your needs. Here is a brief description of the most important navigation methods:
-
-            - Compass:
-
-                It will constantly show you distance and direction to the cache.
-
-            - Radar ([optional](./faq.html#radar-navigation)):
-
-                If you installed an app supporting radar functions this will open a radar screen.
-                It is similar to the compass, but the working mode is a little different. You will typically see the cache coordinates as a marker on the radar. If the marker reaches the center, you reached the cache coordinates.
-
-            - Navigation (Drive, Walk, Cycle):
-
-                This will start turn-by-turn navigation using Google Maps
-
-            When you reach the coordinates, remember that GPS has an accuracy of several meters/feet only (also depending on your phones GPS performance). So you should look around your position as well to find the cache.
-
-      - title: I forgot my username and/or password!
-        id: forgot-login
-        content: |
-            c:geo is only using the login details you specified on the geocaching website.
-
-            You have to go to the geocaching website to reset your password. After you successfully restored your password there, please go to c:geo settings and enter the new login data.
-
-            For example on [geocaching.com](http://www.geocaching.com/) you can reset your password on [this page](https://www.geocaching.com/login/password.aspx).
-
-      - title: Login failed is shown on the main screen!
-        id: login-failed
-        content: |
-            First of all please check carefully whether you entered the correct username and password.
-            You can find this in: \\
-            Menu → Settings → Services \\
-            Afterwards select "Check authentication" (for geocaching.com users only) to see if login is either now possible or what error is returned.
-
-            If you have double-checked your credentials and still get an error message (e.g. Login failed, Unknown Error) the following might be helpful:
-
-            Please login on the geocaching website (using your smartphone browser or a PC) and check that your account is not deactivated and your mail address is validated on the website.
-
-            Please check that your phone is working with the correct date and time. If the date is wrong this might lead to problems establishing a secure connection to the server.
-
-            Sometimes network providers insert messages into the HTML-traffic which prevents c:geo from logging in while on mobile network.
-            A clear indication for this problem is, that c:geo only works on your WiFi connection at home but not while on a mobile network.
-            In this case please go to the c:geo settings Menu → Settings → Services and enable "Identify as Android Browser".
-            Afterwards you might have to restart your phone to be sure these settings take effect.
-
-            There have been reports, that in rare cases the login still fails although the login data is OK and also "Identify as Android browser" did not help.
-            In this case we recommend resetting c:geo to factory defaults as described [here](./faq.html#how-to-reset):
-
-            If the problem still persists, please contact our [support](/support.html) and provide a system log.
-
-      - title: How to reset c:geo to factory defaults?
-        id: how-to-reset
-        content: |
-            Attention: \\
-            This procedure will delete all stored caches and app settings!
-
-            1. If needed, perform a backup of your caches in Menu → Settings → System → Backup
-            2. Go to your Android settings (not c:geo settings) and select Apps or Appmanager → c:geo → "Delete data"
-            3. On the next start of c:geo it will be back to factory settings and take you directly to the login screen.
-            4. Enter your login data for the desired geocaching website
-            5. Restore your backup (You will be asked for restoring once you enter the main screen of c:geo)
-
-- title: General
-  items:
-      - title: How can I change to miles instead of meters?
-        id: miles-meters
-        content: |
-            c:geo uses metric units by default but should detect automatically if your phones default is set to imperial units.
-
-            You can also manually select your preference in c:geo settings: \\
-            c:geo Menu → Settings → Appearance → "Use Imperial units"
-
-      - title: Why do the cache details miss new information?
-        id: cache-info-missing
-        content: |
-            In order to minimize the network traffic c:geo downloads caches only once and stores them temporary or permanently (if you save them on your list).
-
-            So if you miss some information (e.g. newest logs are missing, description has changed,etc.) please refresh the stored cache by selecting "Refresh" on the cache detail page.
-
-      - title: Why are all cache coordinates wrong by some meters/feet?
-        id: coords-wrong
-        content: |
-            In case you are not logged in the geocaching website does not provide correct coordinates. So it seems you did not provide login data or the login data you provided is not correct.
-
-            Please refer to [Getting started](./faq.html#newbie) to learn how to login with c:geo.
-
-      - title: Why does c:geo not use Groundspeak's public API?
-        id: why-no-api
-        content: |
-            The initial idea of c:geo is to provide a free (and open source) app for mobile geocaching for everybody. \\
-            What would change with the API?
-
-            - c:geo only for premium members
-            - No support for OpenCaching or other platforms than geocaching.com
-            - Groundspeak advertisements
-
-            There are also problems with the development:
-
-            - The API requires a private key for the app. But c:geo is open source. There are a lot of independent developers, but only one would get the key. All other developers wouldn't be able to test what they do.
-            - c:geo would no longer be open source
-            - Only a few core developers would be allowed
-            - Much slower development would result from that
-
-            While Groundspeak's API would fix most of our current problems, c:geo would then force users to pay money to a corporation. This is not the open-source spirit.
-            If Groundspeak says OK to our ideas then c:geo might have an API some day...
-
-      - title: The website is always shown in English!
-        id: website-english
-        content: |
-            c:geo is accessing the geocaching website as a customized Internet browser. \\
-            In order to retrieve the information from the website it needs to have reliable information. Therefore c:geo will change the language to English when logging in, because it cannot support all different languages.
-
-            Feel free to change the language on the website back to your desired language anytime when using it. c:geo will detect this and automatically switch back to English on the next login.
-
-      - title: Unknown Location is shown on the main screen!
-        id: unknown-location
-        content: |
-            The address information shown at the bottom of the main screen is an information we receive from a geocoding database based on your position. Sometimes this database has no address information for your location or the service is not running. In this case 'Unknown Location' or even a wrong city could be shown.
-
-            This does not have any impact on the c:geo functionality. As long as you have a GPS fix everything will work normal. \\
-            If you want you can also disable the address information in c:geo settings so your coordinates are shown on the main screen instead of the address information: \\
-            Menu → Settings → Appearance → "Show Address"
+TODO: Format as above
 
       - title: What coordinate formats are supported in c:geo?
         id: coords-format
@@ -270,6 +286,13 @@
 
             You can find more info on the [Twitter support website](https://support.twitter.com/articles/31113-using-twitter-with-facebook/).
 
+      - title: Submitting a log with picture takes a long time!
+        id: log-sending-long
+        content: |
+            As current smartphones can produce high res pictures with a size of several MB the upload of those can take some minutes (depending on the connection speed) if you do not select to scale them.
+
+            Please consider using the c:geo scaling function to scale down the resolution before submitting the log.
+
       - title: Translations are missing or wrong!
         id: translation-missing
         content: |
@@ -328,9 +351,9 @@
         id: not-able-to-post-log
         content: |
             If you select the menu icon to send your log and you get a message saying "Download of data in progress..." the log page on the server was not yet loaded.
-            Check if you have an Internet connection and wait a moment until the required data has been loaded and then try again to send your log.
+            Check if you have an internet connection and wait a moment until the required data has been loaded and then try again to send your log.
 
-            In case you cannot establish an Internet connection or the geocaching server is down you can also select to just save the log on your device and send it later by reaccessing the log page.
+            In case you cannot establish an internet connection or the geocaching server is down you can also select to just save the log on your device and send it later by reaccessing the log page.
             To do this just press back on your device, the log will automatically be saved.
 
             You can also batch submit offline stored logs as fieldnotes to the geocaching website at a later point of time.
@@ -373,7 +396,7 @@
             First of all please check if you are using the latest version (check on [Google Play](https://play.google.com/store/apps/details?id=cgeo.geocaching) for updates or load the latest version directly from [here](https://github.com/cgeo/cgeo/releases/latest)). If a new version is available you should also see an update notification on the c:geo main screen.
             If you are using an outdated version please update, because there might be changes on the geocaching website which need a new version of c:geo to work.
 
-            Please check if your device is connected to the Internet and also try other connections (e.g. Wifi instead of mobile network or vice versa).
+            Please check if your device is connected to the internet and also try other connections (e.g. Wifi instead of mobile network or vice versa).
             If c:geo works on another connection there seems to be a problem with your network.
 
             Go to c:geo settings (Menu → Settings → Services) and check your login.
@@ -389,7 +412,7 @@
             Besides geocaching.com c:geo is also supporting opencaching platforms for several countries.
             If you activate the opencaching service in the c:geo settings the nearby search will also provide you the nearest opencaching caches.
 
-            If you however accidentally activate an opencaching platform of a foreign country (e.g. you are living in Germany and have activated  "opencaching.ro" in Romania) you will see caches some hundred kilometers away in the nearby list as those are the nearest caches on this platform.
+            if you however accidentally activate an opencaching platform of a foreign country (e.g. you are living in Germany and have activated "opencaching.org.uk") you will see caches some hundred kilometers away in the nearby list as those are the nearest caches on this platform.
             In this case please deactivate the unneeded opencaching platforms in: \\
             Menu → Settings → Services → "Opencaching.xx".
 
@@ -404,7 +427,12 @@
 
             Additionally you will not be able to show a map of those results or directly navigate to a cache as c:geo does not have the coordinates for these caches.
 
-            To get exact coordinates as a basic member you have to open the details or save the geocache to your device. This will automatically request the exact coordinates.
+            To get exact coordinates as a basic member you have to do one of the following:
+
+            1. Open the details or save the geocache to your device. This will request the exact coordinates.
+
+            2. Enable the CAPTCHA in the c:geo settings if desired (Menu → Settings → Services → geocaching.com → Basic member options).
+            After entering the CAPTCHA c:geo will have the coordinates and proper sorting by distance, showing on map and navigating is possible.
 
             If you are premium member and c:geo does not know the location of a cache, please check your login and relogin to make sure c:geo knows you are a premium member.
 
@@ -419,6 +447,13 @@
 
             Unignoring the cache will only be possible by accessing your list of ignored caches on your [geocaching.com bookmark page](http://www.geocaching.com/bookmarks/) and removing the cache from this list.
 
+      - title: I am missing the filter to show only offline logged caches!
+        id: offline-log-filter
+        content: |
+            This filter was accidentally implemented twice in older version of c:geo.
+
+            This has now been corrected starting with c:geo version 2015.09.23 only to appear once. You will find it in Menu → Filter → With personal data → With offline log
+
       - title: How to delete my account?
         id: delete-account
         content: |
@@ -431,9 +466,9 @@
             Most of the time when you solve a puzzle for a mystery cache you might want to store the real final coordinates until you go out and log the cache.
             Although each user might handle this different, we recommend to use a helpful feature of [geocaching.com](https://www.geocaching.com).
 
-            Premium members of [geocaching.com](https://www.geocaching.com) can store the real final coordinates of solved mystery caches (also working for multi caches) on the website by clicking on the small pencil icon right next to the listing coordinates.\\
+            Premium members of [geocaching.com](https://www.geocaching.com) can store the real final coordinates of solved mystery caches (also working for multi caches) on the website by clicking on the small pencil icon right next to the listing coords.\\
             Once you have stored the real final coordinates on the website they will also be available in c:geo once you store/refresh the cache.
-            This means, that c:geo will display the cache icon on the real final coordinates and only have an additional waypoints referring to the listing coordinates.
+            This means, that c:geo will display the cache icon on the real final coords and only have an additional waypoints refering to the listing coords.
 
             Of course this is also working the other way around:\\
             Open a mystery/multi cache in c:geo and create a new waypoint with the real final coordinates. Before saving the waypoint click the selection "Set as cache coordinates in c:geo and on website".\\
@@ -549,7 +584,7 @@
             Although there is no native c:geo app for Blackberry OS you can still run c:geo on it.
             The current version of Blackberry OS supports sideloading of Android applications.
 
-            Just download the Android APK file [here](https://github.com/cgeo/cgeo/releases/latest) and install it to your Blackberry phone. Instructions about sideloading Android applications can be found in the Internet.
+            Just download the Android APK file [here](https://github.com/cgeo/cgeo/releases/latest) and install it to your Blackberry phone. Instructions about sideloading Android applications can be found in the internet.
             But please be aware, that we cannot give a guarantee that all features are working and can't provide support in case of problems.
 
 
@@ -628,7 +663,7 @@
             While you are using c:geo GPS should always be active except if you are in the settings menu.
             Only if you put your device to standby (switch off the screen) or switch to another app GPS will be deactivated to save battery.
 
-            We have no plans to change this behavior or introduce another setting for this.
+            We have no plans to change this behaviour or introduce another setting for this.
             If you whish to keep GPS always on, we recommend to use a dedicated app for this (e.g. [GPS Lock](https://play.google.com/store/apps/details?id=com.silentlexx.gpslock)).
 
       - title: Why is GPS active all the time although I might not need it?
@@ -655,7 +690,7 @@
             If the compass works normal in other apps but not in c:geo you might experience a problem of the rotation sensor which exists on some Android devices.\\
             In this case please go to Menu → Settings → System and activate "Use orientation sensor".
 
-            If nothing helps and the problem persists, please contact us and provide detailed information about your device, the compass misbehavior and what steps you already tried to resolve the problem.
+            If nothing helps and the problem persists, please contact us and provide detailed information about your device, the compass misbehaviour and what steps you already tried to resolve the problem.
 
       - title: What is Radar navigation?
         id: radar-navigation
@@ -756,7 +791,7 @@
 
             For getting most accurate information you should select "Detailed", for a fast loading and less priority on detailed information you should select "Fastest" or "Fast".
 
-            The "fast" strategy will only identify "Traditional", "Multi", "Mystery" and "Event" caches. Other cache types will be shown with question marks in the icons.
+            The "fast" strategy will only identify "Traditional", "Multi", "Mystery" and "Event" caches. Other cache types will be shown as ??-caches.
 
       - title: I cannot use Google Maps anymore!
         id: map-no-gmaps
@@ -831,7 +866,7 @@
         content: |
             If the registration fails the reason can be one of the following:
 
-            - Your device does not have Internet connection
+            - Your device does not have internet connection
             - Our servers are down or busy
             - A communication error or timeout occurred
 
@@ -884,7 +919,7 @@
       - title: How to add a GCVote for a cache?
         id: gcvote-voting
         content: |
-            There are two possibilities to add your vote for a cache with c:geo:
+            There are two possibilites to add your vote for a cache with c:geo:
 
             1. While logging a cache
 
@@ -907,7 +942,7 @@
       - title: What is OSM:Offline?
         id: osm
         content: |
-            OSM:Offline maps offer you the possibility to use all the map functionality of c:geo even when your device is not connected to the Internet. This can be useful e.g. in case of roaming to avoid expensive data transfer or when you are in regions without or with slow network connection.
+            OSM:Offline maps offer you the possibility to use all the map functionality of c:geo even when your device is not connected to the internet. This can be useful e.g. in case of roaming to avoid expensive data transfer or when you are in regions without or with slow network connection.
             We have implemented a support of mapsforge maps, which uses vector maps based on open street maps data.
 
             In combination with caches already stored in c:geo (manually or via GPX import) and the possibility for offline logging (e.g. for later fieldnote export) you will get a full offline solution for caching.
@@ -950,7 +985,7 @@
         content: |
             c:geo is supporting custom rendering themes for OSM:Offline maps. These can be used to change the color style of the map (e.g. to have a night-view map) or to highlight certain objects within the map (e.g. cycle paths or height lines).
 
-            Up to now we do not have build-in themes but you need to create them by yourself or download some user made themes from the Internet. Some maps require a special map theme to work correctly, so please read their instructions carefully.
+            Up to now we do not have build-in themes but you need to create them by yourself or download some user made themes from the internet. Some maps require a special map theme to work correctly, so please read their instructions carefully.
 
             After having downloaded a theme-package (usually a ZIP-file containing a lot of xml files and graphics) extract it including all its sub-directories into a folder in your device or SD card. Afterwards select this folder as base-folder for map themes in c:geo settings. If you have done it right and the theme is valid it should now be selectable from live map via\\
             Live map menu → Map modes → Select map theme
@@ -969,15 +1004,15 @@
             1. Store the caches for offline use (manually or via GPX import).
             2. Optionally download an offline map as described in [this section of the FAQ](./faq.html#osm).
 
-            In case you want to avoid any data transfer you should generally disable the Internet connection on your device anyhow, because c:geo will always try to login once you started it.
-            On most devices the Internet connection is disconnected automatically in roaming conditions or if the mobile part is switched off.
+            In case you want to avoid any data transfer you should generally disable the internet connection on your device anyhow, because c:geo will always try to login once you started it.
+            On most devices the internet connection is disconnected automatically in roaming conditions or if the mobile part is switched off.
 
             To allow offline logging of caches please go to\\
             c:geo Menu → Settings → Logging\\
             and enable "Offline Logging".
 
             Afterwards c:geo will not post logs online but only store the found status offline.
-            You can then at a later point either upload the logs via field note export or open the log page in the app again and submit them online while having an Internet connection.
+            You can then at a later point either upload the logs via field note export or reaccess the log page and submit them online while having an internet connection.
 
       - title: What are fieldnotes and how do I use them?
         id: fieldnotes
@@ -987,7 +1022,7 @@
 
             If you save your cache logs offline in c:geo (e.g. when caching abroad) you have the possibility to export these logs as fieldnote instead of logging them online.
             The offline logged caches are marked by an orange line in your lists. To export the logs you have to open the relevant list of saved caches or the history and select\\
-            Menu → Export → Field notes.\\
+            Menu → Manage → Export → Fieldnotes.\\
             From there you can either only export the fieldnote file to your device or additionally upload them to the geocaching website.
             The option 'Since last export' will check the last upload date on geocaching.com and only export those which are composed after this date.
 
@@ -998,7 +1033,7 @@
         id: static-maps
         content: |
             c:geo optionally downloads Google Maps snapshots of the area around the cache and its waypoints for offline usage while storing a cache.
-            It will download satellite views as well as map views on different zoom levels. So you will have a map function also in case you don't have an Internet connection and you don't use an OSM:Offline map.
+            It will download satellite views as well as map views on different zoom levels. So you will have a map function also in case you don't have an internet connection and you don't use an OSM:Offline map.
 
             You have to enable this function in\\
             c:geo Menu → Settings → Offline data\\
@@ -1047,8 +1082,8 @@
             If this is happening to you, please check that your device has the correct date, time and timezone information.
             For security reasons the Opencaching API will reject requests which are not matching the server time (± 5 minutes).
 
-            On some devices the Internet browser does not correctly redirect back to c:geo after you logged in on the opencaching website but tries to open a website like "callback://www.cgeo.org[...]".
-            This is a faulty behavior of the Internet browser you are using, please try another Internet browser application to perform the authorization.
+            On some devices the internet browser does not correctly redirect back to c:geo after you logged in on the opencaching website but tries to open a website like "callback://www.cgeo.org[...]".
+            This is a faulty behavior of the internet browser you are using, please try another internet browser application to perform the authorization.
 
 - title: Trackable management
   items:
@@ -1338,9 +1373,9 @@
       - title: The contact is not matched although it is stored!
         id: plugin-contacts-no-match
         content: |
-            Please make sure you stored the geocaching name of the person like it is shown in c:geo in the 'alias' field of the contact in your contacts list.
+            Please make sure you stored the geocaching name of the person like it is shown in c:geo in the 'alias' field of the contact in your phonebook.
 
-            Alternatively the plugin will also match if the geocaching name equals the full name stored in your contacts list.
+            Alternatively the plugin will also match if the geocaching name equals the full name stored in your phonebook.
 
       - title: Why does the c:geo contacts plugin need a permission on my device?
         id: plugin-contact-permissions
@@ -1351,14 +1386,14 @@
 - title: Known limitations
   items:
 
-      - title: Approximated coordinates on the live map
+      - title: Approximated cooordinates on the live map
         id: limitation-livemap
         content: |
             Some caches on the live map may not have precise coordinates until you open the cache details. Those caches are marked by an [orange circle](./faq.html#map-orange-circles) around the icon.
-            If navigation is started directly from live map this may also use the approximated coordinates and guide you to a slightly wrong location!
+            If navigation is started directly from live map this may also use the approximated coords and guide you to a slightly wrong location!
 
       - title: The fast loading strategy on the live map might show wrong cache types
         id: limitation-fastmode
         content: |
             If you set the live map [loading strategy](./faq.html#map-strategy) to "Fast" the cache type shown on the map might be wrong in rare cases.
-            The fast mode only detects Traditional, Multi, Mystery and Event caches and might fail if the cache density is too high in the shown area.
+            The fast mode only detectes Tradi, Multi, Mystery, Event caches and might fail if the cache density is too high in the shown area.

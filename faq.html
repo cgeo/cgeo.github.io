@@ -6,30 +6,73 @@ editlink:
   data: _data/faq.yml
 ---
 
+{% assign languages = "en de" | split: ' ' %}
+
 <h1>FAQ - Frequently Asked Questions</h1>
 
-<ul class="faqnavigation">
-{% for category in site.data.faq %}
-    <li>{{ category.title }}
-        <ul>
-        {% for item in category.items %}
-            <li><a href="#{{ item.id }}">{{ item.title }}</a></li>
-        {% endfor %}
-        </ul>
-    </li>
+{% for language in languages %}
+<ul class="faqnavigation" lang="{{ language }}">
+    {% for category in site.data.faq %}
+        {% if category.title[language] == nil %}
+            {% assign lang = "en" %}
+        {% else %}
+            {% assign lang = language %}
+        {% endif %}
+        <li>{{ category.title[lang] }}
+            <ul>
+            {% for item in category.items %}
+                {% if item[language] == nil %}
+                    {% assign lang = "en" %}
+                {% else %}
+                    {% assign lang = language %}
+                {% endif %}
+                <li><a href="#{{ item.id }}">{{ item[lang].title }}</a></li>
+            {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
+    </ul>
 {% endfor %}
-</ul>
 
 {% for category in site.data.faq %}
-    <h2>{{ category.title }}</h2>
+    {% for language in languages %}
+        {% if category.title[language] == nil %}
+            {% assign lang = "en" %}
+        {% else %}
+            {% assign lang = language %}
+        {% endif %}
+        <h2 lang="{{ language }}">{{ category.title[lang] }}</h2>
+    {% endfor %}
 
     {% for item in category.items %}
         <div id="{{ item.id }}" class="faqitem">
             <div class="faqitem-content">
                 <a href="#{{ item.id }}" class="quicklink">&#128279;</a>
-                <h3>{{ item.title }}</h3>
-                {{ item.content | markdownify }}
+                {% for language in languages %}
+                    {% if item[language] == nil %}
+                        {% assign lang = "en" %}
+                    {% else %}
+                        {% assign lang = language %}
+                    {% endif %}
+                    <div lang="{{ language }}">
+                        <h3>{{ item[lang].title }}</h3>
+                        {{ item[lang].content | markdownify }}
+                    </div>
+                {% endfor %}
             </div>
         </div>
     {% endfor %}
 {% endfor %}
+
+<script type="text/javascript">
+    var userLang = (navigator.language || navigator.userLanguage).split('-')[0];
+    if ($.inArray(userLang, [ "{{ languages | join: '", "' }}" ]) > -1) {
+        $('.faqitem div[lang="en"], h2[lang="en"], .faqnavigation[lang="en"]').hide();
+        $('.faqitem div[lang="' + userLang + '"], h2[lang="' + userLang + '"], .faqnavigation[lang="' + userLang + '"]').show();
+
+        // jump to anchor again because page length might have changed
+        if (location.hash) {
+            location.hash = location.hash;
+        }
+    }
+</script>
