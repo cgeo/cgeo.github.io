@@ -1,4 +1,14 @@
 - title: Temporary issues
+  items:
+      - title: The live map is not showing (all) caches!
+        id: 5914
+        content: |
+            Currently some users experience, that the live map is sporadically not showing any caches or a high percentage of caches are not shown.
+
+            We analyzed the problem and came to the conclusion, that this is not a problem within c:geo itself but caused by a server problem on geocaching.com.
+            We will keep an eye on the situation and potentially get in touch with Groundspeak to inform them if the problem is persistent and we have more clues.
+
+            If you are currently experiencing this problem you can probably temporary solve it by disconnecting your device from the internet for a short time or change from/to Wifi before trying again.
 
 - title: Getting started
   items:
