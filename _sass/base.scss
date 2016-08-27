@@ -1,3 +1,10 @@
+// Mixins
+@mixin hover {
+  opacity: 0.5;
+  &:hover { opacity: 1; }
+  transition: opacity 0.2s;
+}
+
 html, body {
     background: url("#{$imagedir}/bg.gif") #1f1f1f;
     color: #c0c0c0;
