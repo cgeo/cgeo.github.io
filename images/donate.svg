@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 240 48.000001"
+   height="48"
+   width="240">
+  <defs
+     id="defs4">
+    <symbol
+       class="Web-Application-Icons Medical-Icons"
+       id="heart">
+      <title
+         id="title20524">Heart</title>
+      <path
+         id="path20526"
+         d="M896 -128q-26 0 -44 18l-624 602q-10 8 -27.5 26t-55.5 65.5t-68 97.5t-53.5 121t-23.5 138q0 220 127 344t351 124q62 0 126.5 -21.5t120 -58t95.5 -68.5t76 -68q36 36 76 68t95.5 68.5t120 58t126.5 21.5q224 0 351 -124t127 -344q0 -221 -229 -450l-623 -600 q-18 -18 -44 -18z"
+         transform="matrix(0.05,0,0,-0.05,0,76.8)" />
+    </symbol>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-1004.3622)"
+     id="layer1">
+    <path
+       d="m 57.448044,1037.9468 3.036502,0.1458 q 3.915489,0.188 6.268017,-2.1018 2.352528,-2.2898 2.54629,-6.3251 0.193761,-4.0354 -1.928555,-6.5402 -2.122317,-2.5046 -6.037806,-2.6926 l -3.036501,-0.1458 -0.847947,17.6597 z m 4.133845,-22.708 q 6.712266,0.3223 10.839289,4.445 4.12894,4.0827 3.829665,10.3157 -0.297357,6.1928 -4.800392,9.9011 -4.503034,3.7083 -11.215301,3.386 l -9.868631,-0.4738 1.346739,-28.0478 9.868631,0.4738 z"
+       id="path120562"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:125%;font-family:Poppins;-inkscape-font-specification:'Poppins, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 98.795913,1035.0286 q 2.085237,-2.2487 2.085237,-6.0103 0,-3.7616 -2.085237,-6.0104 -2.044348,-2.2488 -5.51974,-2.2488 -3.434506,0 -5.519741,2.2488 -2.044348,2.2488 -2.044348,6.0104 0,3.7616 2.044348,6.0103 2.085235,2.2488 5.519741,2.2488 3.475392,0 5.51974,-2.2488 z m -15.945917,4.5385 q -4.252244,-4.1705 -4.252244,-10.5488 0,-6.3784 4.252244,-10.508 4.293132,-4.1705 10.467063,-4.1705 6.214818,0 10.426181,4.1705 4.25224,4.1296 4.25224,10.508 0,6.3783 -4.25224,10.5488 -4.252243,4.1705 -10.426181,4.1705 -6.173931,0 -10.467063,-4.1705 z"
+       id="path120564"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:125%;font-family:Poppins;-inkscape-font-specification:'Poppins, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 129.99749,1014.8315 6.83821,-0.1565 0.64403,28.1528 -6.83821,0.1565 -11.84227,-17.4537 0.40526,17.7153 -6.83821,0.1565 -0.64403,-28.1527 6.83821,-0.1564 11.84227,17.4537 -0.40526,-17.7153 z"
+       id="path120566"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:125%;font-family:Poppins;-inkscape-font-specification:'Poppins, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 162.29107,1043.6071 -1.89578,-5.0336 -10.0581,0.6641 -1.21744,5.2392 -7.26418,0.4797 7.71528,-31.2875 8.30192,-0.5481 11.72239,30.0039 -7.30409,0.4823 z m -10.61128,-10.1416 6.62557,-0.4375 -4.03135,-10.6634 -2.59422,11.1009 z"
+       id="path120568"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:125%;font-family:Poppins;-inkscape-font-specification:'Poppins, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 169.9667,1020.0113 0.13676,-5.1982 22.15233,0.5828 -0.13676,5.1982 -7.67734,-0.202 -0.60175,22.8722 -6.83763,-0.1799 0.60174,-22.8722 -7.63735,-0.2009 z"
+       id="path120570"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:125%;font-family:Poppins;-inkscape-font-specification:'Poppins, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 212.47343,1014.6833 0.17325,5.197 -10.15436,0.3385 0.20123,6.0368 8.95503,-0.2985 0.17324,5.1971 -8.95502,0.2985 0.21722,6.5164 10.15436,-0.3385 0.17325,5.1971 -16.99056,0.5664 -0.9382,-28.1444 16.99056,-0.5664 z"
+       id="path120572"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:125%;font-family:Poppins;-inkscape-font-specification:'Poppins, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 221.57092,1034.199 -0.46022,-20.9092 7.73085,0.139 -1.21132,20.8791 -6.05931,-0.1089 z m 6.98459,6.7721 q -0.0293,1.6297 -1.17786,2.7377 -1.14856,1.108 -2.82009,1.078 -1.62975,-0.029 -2.73776,-1.1779 -1.10801,-1.1485 -1.07871,-2.7783 0.0301,-1.6715 1.17861,-2.7795 1.14856,-1.108 2.77831,-1.0787 1.67153,0.03 2.77954,1.1786 1.10801,1.1485 1.07796,2.8201 z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:125%;font-family:Poppins;-inkscape-font-specification:'Poppins, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path120574" />
+    <g
+       transform="translate(-21.689202,983.88772)"
+       style="fill:#ffffff;fill-opacity:1"
+       id="use120633">
+      <title
+         id="title120646">Heart</title>
+      <path
+         style="fill:#ffffff"
+         d="m 53.981554,59.788775 q -0.481886,0.114401 -0.8947,-0.140006 L 38.872761,51.236904 q -0.220543,-0.104267 -0.62409,-0.360883 -0.403548,-0.256613 -1.316845,-0.969777 -0.913297,-0.713165 -1.689323,-1.507866 -0.776024,-0.794701 -1.52398,-2.007219 -0.747955,-1.212515 -1.04276,-2.454299 -0.968015,-4.077491 0.840201,-6.934523 1.808218,-2.857033 5.959847,-3.842648 1.149111,-0.272804 2.439159,-0.158126 1.290049,0.114678 2.479302,0.546922 1.189243,0.43229 2.071407,0.849376 0.882165,0.417088 1.707794,0.92591 0.508824,-0.825627 1.109382,-1.594721 0.600561,-0.769092 1.468599,-1.68979 0.868037,-0.920698 1.968883,-1.602982 1.100846,-0.682288 2.249958,-0.955092 4.151629,-0.985616 7.051063,0.7538 2.899434,1.739413 3.867448,5.816907 0.972416,4.096027 -2.264267,9.347941 l -8.906673,13.861659 q -0.254412,0.412814 -0.736298,0.527216 z"
+         id="path120648" />
+    </g>
+  </g>
+</svg>
