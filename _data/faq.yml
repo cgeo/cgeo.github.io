@@ -1002,7 +1002,7 @@
 
             If you save your cache logs offline in c:geo (e.g. when caching abroad) you have the possibility to export these logs as fieldnote instead of logging them online.
             The offline logged caches are marked by an orange line in your lists. To export the logs you have to open the relevant list of saved caches or the history and select\\
-            Menu → Manage → Export → Fieldnotes.\\
+            Menu → Export → Field notes.\\
             From there you can either only export the fieldnote file to your device or additionally upload them to the geocaching website.
             The option 'Since last export' will check the last upload date on geocaching.com and only export those which are composed after this date.
 
