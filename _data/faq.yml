@@ -407,12 +407,7 @@
 
             Additionally you will not be able to show a map of those results or directly navigate to a cache as c:geo does not have the coordinates for these caches.
 
-            To get exact coordinates as a basic member you have to do one of the following:
-
-            1. Open the details or save the geocache to your device. This will request the exact coordinates.
-
-            2. Enable the CAPTCHA in the c:geo settings if desired (Menu → Settings → Services → geocaching.com → Basic member options).
-            After entering the CAPTCHA c:geo will have the coordinates and proper sorting by distance, showing on map and navigating is possible.
+            To get exact coordinates as a basic member you have to open the details or save the geocache to your device. This will automatically request the exact coordinates.
 
             If you are premium member and c:geo does not know the location of a cache, please check your login and relogin to make sure c:geo knows you are a premium member.
 
