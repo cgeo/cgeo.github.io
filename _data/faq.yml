@@ -266,13 +266,6 @@
 
             You can find more info on the [Twitter support website](https://support.twitter.com/articles/31113-using-twitter-with-facebook/).
 
-      - title: Submitting a log with picture takes a long time!
-        id: log-sending-long
-        content: |
-            As current smartphones can produce high res pictures with a size of several MB the upload of those can take some minutes (depending on the connection speed) if you do not select to scale them.
-
-            Please consider using the c:geo scaling function to scale down the resolution before submitting the log.
-
       - title: Translations are missing or wrong!
         id: translation-missing
         content: |
@@ -421,13 +414,6 @@
             Afterwards this cache will no longer be returned in searches and on the live map in c:geo. Additionally it will be deleted from your device if it was stored before.
 
             Unignoring the cache will only be possible by accessing your list of ignored caches on your [geocaching.com bookmark page](http://www.geocaching.com/bookmarks/) and removing the cache from this list.
-
-      - title: I am missing the filter to show only offline logged caches!
-        id: offline-log-filter
-        content: |
-            This filter was accidentally implemented twice in older version of c:geo.
-
-            This has now been corrected starting with c:geo version 2015.09.23 only to appear once. You will find it in Menu → Filter → With personal data → With offline log
 
       - title: How to delete my account?
         id: delete-account
