@@ -39,13 +39,13 @@ Please include the following items in your mail:
 3. Information about error messages shown by c:geo (if applicable)
 4. Also include all additional info which might be useful for us to reproduce the problem (e.g. screenshots, GPX files, etc.)
 
-Send your email to [support@cgeo.org](mailto:support@cgeo.org?subject=Support neeeded for c:geo&body=Please include system information and detailed problem description as advised on our support page!)
+Send your email to [support@cgeo.org](mailto:support@cgeo.org?subject=Support needed for c:geo&body=Please include system information and detailed problem description as advised on our support page!)
 
 ## You have an idea for improvements or new features?
 
 ### Before sending us a mail regarding a new feature...
 
-There are already a lot of ideas for possible new features and functionalities of c:geo. However we are only a small team of developers with limited ressources, who are maintaining c:geo in their free time and it is already a lot of work to maintain c:geo and solve bugs.
+There are already a lot of ideas for possible new features and functionalities of c:geo. However we are only a small team of developers with limited resources, who are maintaining c:geo in their free time and it is already a lot of work to maintain c:geo and solve bugs.
 
 So it is impossible for us to implement those wishes by ourselves on short term.
 But c:geo is open source, so anyone willing and able to help us is welcome to do so. 

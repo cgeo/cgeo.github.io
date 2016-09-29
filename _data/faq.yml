@@ -9,7 +9,7 @@
             We will keep an eye on the situation and potentially get in touch with Groundspeak to inform them if the problem is persistent and we have more clues.
             In the meantime the issues was also raised in the groundspeak forum by website users.
 
-            If you are currently experiencing this problem you can probably temporary solve it by disconnecting your device from the internet for a short time or change from/to Wifi before trying again.
+            If you are currently experiencing this problem you can probably temporary solve it by disconnecting your device from the Internet for a short time or change from/to Wifi before trying again.
 
 - title: Getting started
   items:
@@ -142,7 +142,7 @@
 
             So if you miss some information (e.g. newest logs are missing, description has changed,etc.) please refresh the stored cache by selecting "Refresh" on the cache detail page.
 
-      - title: Why are all cache coords wrong by some meters/feet?
+      - title: Why are all cache coordinates wrong by some meters/feet?
         id: coords-wrong
         content: |
             In case you are not logged in the geocaching website does not provide correct coordinates. So it seems you did not provide login data or the login data you provided is not correct.
@@ -172,7 +172,7 @@
       - title: The website is always shown in English!
         id: website-english
         content: |
-            c:geo is accessing the geocaching website as a customized internet browser. \\
+            c:geo is accessing the geocaching website as a customized Internet browser. \\
             In order to retrieve the information from the website it needs to have reliable information. Therefore c:geo will change the language to English when logging in, because it cannot support all different languages.
 
             Feel free to change the language on the website back to your desired language anytime when using it. c:geo will detect this and automatically switch back to English on the next login.
@@ -324,9 +324,9 @@
         id: not-able-to-post-log
         content: |
             If you select the menu icon to send your log and you get a message saying "Download of data in progress..." the log page on the server was not yet loaded.
-            Check if you have an internet connection and wait a moment until the required data has been loaded and then try again to send your log.
+            Check if you have an Internet connection and wait a moment until the required data has been loaded and then try again to send your log.
 
-            In case you cannot establish an internet connection or the geocaching server is down you can also select to just save the log on your device and send it later by reaccessing the log page.
+            In case you cannot establish an Internet connection or the geocaching server is down you can also select to just save the log on your device and send it later by reaccessing the log page.
             To do this just press back on your device, the log will automatically be saved.
 
             You can also batch submit offline stored logs as fieldnotes to the geocaching website at a later point of time.
@@ -369,7 +369,7 @@
             First of all please check if you are using the latest version (check on [Google Play](https://play.google.com/store/apps/details?id=cgeo.geocaching) for updates or load the latest version directly from [here](https://github.com/cgeo/cgeo/releases/latest)). If a new version is available you should also see an update notification on the c:geo main screen.
             If you are using an outdated version please update, because there might be changes on the geocaching website which need a new version of c:geo to work.
 
-            Please check if your device is connected to the internet and also try other connections (e.g. Wifi instead of mobile network or vice versa).
+            Please check if your device is connected to the Internet and also try other connections (e.g. Wifi instead of mobile network or vice versa).
             If c:geo works on another connection there seems to be a problem with your network.
 
             Go to c:geo settings (Menu → Settings → Services) and check your login.
@@ -427,9 +427,9 @@
             Most of the time when you solve a puzzle for a mystery cache you might want to store the real final coordinates until you go out and log the cache.
             Although each user might handle this different, we recommend to use a helpful feature of [geocaching.com](https://www.geocaching.com).
 
-            Premium members of [geocaching.com](https://www.geocaching.com) can store the real final coordinates of solved mystery caches (also working for multi caches) on the website by clicking on the small pencil icon right next to the listing coords.\\
+            Premium members of [geocaching.com](https://www.geocaching.com) can store the real final coordinates of solved mystery caches (also working for multi caches) on the website by clicking on the small pencil icon right next to the listing coordinates.\\
             Once you have stored the real final coordinates on the website they will also be available in c:geo once you store/refresh the cache.
-            This means, that c:geo will display the cache icon on the real final coords and only have an additional waypoints refering to the listing coords.
+            This means, that c:geo will display the cache icon on the real final coordinates and only have an additional waypoints referring to the listing coordinates.
 
             Of course this is also working the other way around:\\
             Open a mystery/multi cache in c:geo and create a new waypoint with the real final coordinates. Before saving the waypoint click the selection "Set as cache coordinates in c:geo and on website".\\
@@ -545,7 +545,7 @@
             Although there is no native c:geo app for Blackberry OS you can still run c:geo on it.
             The current version of Blackberry OS supports sideloading of Android applications.
 
-            Just download the Android APK file [here](https://github.com/cgeo/cgeo/releases/latest) and install it to your Blackberry phone. Instructions about sideloading Android applications can be found in the internet.
+            Just download the Android APK file [here](https://github.com/cgeo/cgeo/releases/latest) and install it to your Blackberry phone. Instructions about sideloading Android applications can be found in the Internet.
             But please be aware, that we cannot give a guarantee that all features are working and can't provide support in case of problems.
 
 
@@ -624,7 +624,7 @@
             While you are using c:geo GPS should always be active except if you are in the settings menu.
             Only if you put your device to standby (switch off the screen) or switch to another app GPS will be deactivated to save battery.
 
-            We have no plans to change this behaviour or introduce another setting for this.
+            We have no plans to change this behavior or introduce another setting for this.
             If you whish to keep GPS always on, we recommend to use a dedicated app for this (e.g. [GPS Lock](https://play.google.com/store/apps/details?id=com.silentlexx.gpslock)).
 
       - title: Why is GPS active all the time although I might not need it?
@@ -651,7 +651,7 @@
             If the compass works normal in other apps but not in c:geo you might experience a problem of the rotation sensor which exists on some Android devices.\\
             In this case please go to Menu → Settings → System and activate "Use orientation sensor".
 
-            If nothing helps and the problem persists, please contact us and provide detailed information about your device, the compass misbehaviour and what steps you already tried to resolve the problem.
+            If nothing helps and the problem persists, please contact us and provide detailed information about your device, the compass misbehavior and what steps you already tried to resolve the problem.
 
       - title: What is Radar navigation?
         id: radar-navigation
@@ -752,7 +752,7 @@
 
             For getting most accurate information you should select "Detailed", for a fast loading and less priority on detailed information you should select "Fastest" or "Fast".
 
-            The "fast" strategy will only identify "Traditional", "Multi", "Mystery" and "Event" caches. Other cache types will be shown as ??-caches.
+            The "fast" strategy will only identify "Traditional", "Multi", "Mystery" and "Event" caches. Other cache types will be shown with question marks in the icons.
 
       - title: I cannot use Google Maps anymore!
         id: map-no-gmaps
@@ -827,7 +827,7 @@
         content: |
             If the registration fails the reason can be one of the following:
 
-            - Your device does not have internet connection
+            - Your device does not have Internet connection
             - Our servers are down or busy
             - A communication error or timeout occurred
 
@@ -880,7 +880,7 @@
       - title: How to add a GCVote for a cache?
         id: gcvote-voting
         content: |
-            There are two possibilites to add your vote for a cache with c:geo:
+            There are two possibilities to add your vote for a cache with c:geo:
 
             1. While logging a cache
 
@@ -903,7 +903,7 @@
       - title: What is OSM:Offline?
         id: osm
         content: |
-            OSM:Offline maps offer you the possibility to use all the map functionality of c:geo even when your device is not connected to the internet. This can be useful e.g. in case of roaming to avoid expensive data transfer or when you are in regions without or with slow network connection.
+            OSM:Offline maps offer you the possibility to use all the map functionality of c:geo even when your device is not connected to the Internet. This can be useful e.g. in case of roaming to avoid expensive data transfer or when you are in regions without or with slow network connection.
             We have implemented a support of mapsforge maps, which uses vector maps based on open street maps data.
 
             In combination with caches already stored in c:geo (manually or via GPX import) and the possibility for offline logging (e.g. for later fieldnote export) you will get a full offline solution for caching.
@@ -946,7 +946,7 @@
         content: |
             c:geo is supporting custom rendering themes for OSM:Offline maps. These can be used to change the color style of the map (e.g. to have a night-view map) or to highlight certain objects within the map (e.g. cycle paths or height lines).
 
-            Up to now we do not have build-in themes but you need to create them by yourself or download some user made themes from the internet. Some maps require a special map theme to work correctly, so please read their instructions carefully.
+            Up to now we do not have build-in themes but you need to create them by yourself or download some user made themes from the Internet. Some maps require a special map theme to work correctly, so please read their instructions carefully.
 
             After having downloaded a theme-package (usually a ZIP-file containing a lot of xml files and graphics) extract it including all its sub-directories into a folder in your device or SD card. Afterwards select this folder as base-folder for map themes in c:geo settings. If you have done it right and the theme is valid it should now be selectable from live map via\\
             Live map menu → Map modes → Select map theme
@@ -965,15 +965,15 @@
             1. Store the caches for offline use (manually or via GPX import).
             2. Optionally download an offline map as described in [this section of the FAQ](./faq.html#osm).
 
-            In case you want to avoid any data transfer you should generally disable the internet connection on your device anyhow, because c:geo will always try to login once you started it.
-            On most devices the internet connection is disconnected automatically in roaming conditions or if the mobile part is switched off.
+            In case you want to avoid any data transfer you should generally disable the Internet connection on your device anyhow, because c:geo will always try to login once you started it.
+            On most devices the Internet connection is disconnected automatically in roaming conditions or if the mobile part is switched off.
 
             To allow offline logging of caches please go to\\
             c:geo Menu → Settings → Logging\\
             and enable "Offline Logging".
 
             Afterwards c:geo will not post logs online but only store the found status offline.
-            You can then at a later point either upload the logs via field note export or reaccess the log page and submit them online while having an internet connection.
+            You can then at a later point either upload the logs via field note export or open the log page in the app again and submit them online while having an Internet connection.
 
       - title: What are fieldnotes and how do I use them?
         id: fieldnotes
@@ -994,7 +994,7 @@
         id: static-maps
         content: |
             c:geo optionally downloads Google Maps snapshots of the area around the cache and its waypoints for offline usage while storing a cache.
-            It will download satellite views as well as map views on different zoom levels. So you will have a map function also in case you don't have an internet connection and you don't use an OSM:Offline map.
+            It will download satellite views as well as map views on different zoom levels. So you will have a map function also in case you don't have an Internet connection and you don't use an OSM:Offline map.
 
             You have to enable this function in\\
             c:geo Menu → Settings → Offline data\\
@@ -1043,8 +1043,8 @@
             If this is happening to you, please check that your device has the correct date, time and timezone information.
             For security reasons the Opencaching API will reject requests which are not matching the server time (± 5 minutes).
 
-            On some devices the internet browser does not correctly redirect back to c:geo after you logged in on the opencaching website but tries to open a website like "callback://www.cgeo.org[...]".
-            This is a faulty behavior of the internet browser you are using, please try another internet browser application to perform the authorization.
+            On some devices the Internet browser does not correctly redirect back to c:geo after you logged in on the opencaching website but tries to open a website like "callback://www.cgeo.org[...]".
+            This is a faulty behavior of the Internet browser you are using, please try another Internet browser application to perform the authorization.
 
 - title: Trackable management
   items:
@@ -1334,9 +1334,9 @@
       - title: The contact is not matched although it is stored!
         id: plugin-contacts-no-match
         content: |
-            Please make sure you stored the geocaching name of the person like it is shown in c:geo in the 'alias' field of the contact in your phonebook.
+            Please make sure you stored the geocaching name of the person like it is shown in c:geo in the 'alias' field of the contact in your contacts list.
 
-            Alternatively the plugin will also match if the geocaching name equals the full name stored in your phonebook.
+            Alternatively the plugin will also match if the geocaching name equals the full name stored in your contacts list.
 
       - title: Why does the c:geo contacts plugin need a permission on my device?
         id: plugin-contact-permissions
@@ -1347,14 +1347,14 @@
 - title: Known limitations
   items:
 
-      - title: Approximated cooordinates on the live map
+      - title: Approximated coordinates on the live map
         id: limitation-livemap
         content: |
             Some caches on the live map may not have precise coordinates until you open the cache details. Those caches are marked by an [orange circle](./faq.html#map-orange-circles) around the icon.
-            If navigation is started directly from live map this may also use the approximated coords and guide you to a slightly wrong location!
+            If navigation is started directly from live map this may also use the approximated coordinates and guide you to a slightly wrong location!
 
       - title: The fast loading strategy on the live map might show wrong cache types
         id: limitation-fastmode
         content: |
             If you set the live map [loading strategy](./faq.html#map-strategy) to "Fast" the cache type shown on the map might be wrong in rare cases.
-            The fast mode only detectes Tradi, Multi, Mystery, Event caches and might fail if the cache density is too high in the shown area.
+            The fast mode only detects Traditional, Multi, Mystery and Event caches and might fail if the cache density is too high in the shown area.

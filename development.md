@@ -30,10 +30,10 @@ Becoming beta tester is just one click away: [c:geo Google Play Beta Testing](ht
 After you enabled the beta testing mode you will receive beta versions (release candidates of c:geo) via Google Play update on the same way you receive the normal c:geo updates (it might take a few hours after enabling the beta testing mode). Additionally you can send us your feedback and problem reports via a dedicated Google Play feedback form.
 
 Please be aware that beta releases might be unstable or not all functions are working as expected. However before we bring a version into beta testing we do our very best to make sure, that all basic functions are working properly.
-You will not receive any possibly instable alpha versions or nightly builds (see next chapter) via this beta channel.
+You will not receive any possibly unstable alpha versions or nightly builds (see next chapter) via this beta channel.
 
 If you wish to discontinue beta testing just use the link above and deselect the beta testing mode.
-Afterwards you might need to unstinall the beta version from your device and reinstall the normal version from Google Play.
+Afterwards you might need to uninstall the beta version from your device and reinstall the normal version from Google Play.
 
 ## Nightly Builds
 
@@ -52,7 +52,7 @@ The version without JIT is necessary for some devices with a MediaTek CPU. If yo
 
 ## F-Droid repository
 
-As an alternative to Google Play, c:geo could be downloaded from our private [F-Droid](https://f-droid.org/) repository.
+As an alternative to Google Play, c:geo can be downloaded from our private [F-Droid](https://f-droid.org/) repository.
 
 We provide two channels, for stable and nightly builds.
 
@@ -65,9 +65,9 @@ Our repository fingerprint is:
 
 ## Translation of c:geo
 
-If you want to contribute translations, you need a free account on [Crowdin](https://crowdin.com/). Then start contributing translations or vote for existing translation proposals to the [c:geo Crowdin project](https://crowdin.com/project/cgeo). If you would like to include a new language please contact us via Crowdin.
+If you want to contribute translations, you need a free account at [Crowdin](https://crowdin.com/). Then start contributing new translations to or vote for existing translation proposals in the [c:geo translation project](http://translate.cgeo.org). If you would like to include a new language please contact us via Crowdin.
 
-Localization statistics: [![Crowdin](https://d322cqt584bo4o.cloudfront.net/cgeo/localized.png)](https://crowdin.com/project/cgeo)
+Localization statistics: [![Crowdin](https://d322cqt584bo4o.cloudfront.net/cgeo/localized.png)](http://translate.cgeo.org)
 
 ## Current status and usage statistics
 
