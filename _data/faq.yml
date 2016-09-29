@@ -193,13 +193,13 @@
 
             1. Degrees and decimal minutes (MinDec)
 
-                Notation: DDD° MM.MMM'\\
-                Example: N 51° 20.382 E 007° 01.820
+                Notation: DDD° MM.MMM′\\
+                Example: N 51° 20.382′ E 007° 01.820′
 
             2. Degrees, decimal minutes and seconds (DMS)
 
-                Notation: DDD° MM' SS.SSS"\\
-                Example: N 51° 20' 22.920" E 007° 01' 49.200"
+                Notation: DDD° MM′ SS.SSS″\\
+                Example: N 51° 20′ 22.920″ E 007° 01′ 49.200″
 
             3. Only degrees (DegDec)
 
