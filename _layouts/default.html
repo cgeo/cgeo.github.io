@@ -12,6 +12,18 @@
 
         {{ content }}
 
+        {% unless page.noeditlink %}
+            <div id="footer">
+                {% if page.editlink %}
+                    Edit page on GitHub:
+                    {% for source in page.editlink %}
+                        <a href="{{ site.github.repository_url }}/edit/{{ site.branch }}/{{ source[1] }}">{{ source[0] }}</a>
+                    {% endfor %}
+                {% else %}
+                    <a href="{{ site.github.repository_url }}/edit/{{ site.branch }}/{{ page.path }}">Edit page on GitHub</a>
+                {% endif %}
+            </div>
+        {% endunless %}
     </body>
 
 </html>
