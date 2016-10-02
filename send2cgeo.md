@@ -5,7 +5,7 @@ title: Send2cgeo
 
 # Send2cgeo
 
-Send2cgeo is a script available for Mozilla Firefox and Google Chrome browser. It allows you to send geocaches directly from your browser to c:geo on your phone.
+Send2cgeo is a script available for Mozilla Firefox and Google Chrome browser. It allows you to send geocaches directly from your desktop browser to c:geo on your phone.
 
 [How to install send2cgeo](#how-to-install-send2cgeo)
 
