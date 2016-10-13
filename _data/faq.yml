@@ -5,9 +5,8 @@
         content: |
             Due to recent changes or a malfunction on the geocaching.com website c:geo is currently unable to get the coordinates for caches shown as a search result.
             This does also mean if you try to generate a map based on this result, the resulting map might be empty.\\
-            We are looking into this at the moment and try to fix it as soon as possible.
             
-            As a workaround please store the caches from the search result for offline in c:geo. Afterwards you can use all features normally.
+            Please update to the new release 2016.10.13 where this problem was fixed!
             
 - title: Getting started
   items:
