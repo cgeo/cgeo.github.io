@@ -1,16 +1,14 @@
 - title: Temporary issues
   items:
-      - title: The live map is not showing (all) caches!
-        id: 5914
+      - title: Distance to caches not shown in search results!
+        id: 6029
         content: |
-            Currently some users experience, that the live map is sporadically not showing any caches or a high percentage of caches are not shown.
-
-            We analyzed the problem and came to the conclusion, that this is not a problem within c:geo itself but caused by a server problem on geocaching.com.
-            We will keep an eye on the situation and potentially get in touch with Groundspeak to inform them if the problem is persistent and we have more clues.
-            In the meantime the issues was also raised in the groundspeak forum by website users.
-
-            If you are currently experiencing this problem you can probably temporary solve it by disconnecting your device from the Internet for a short time or change from/to Wifi before trying again.
-
+            Due to recent changes or a malfunction on the geocaching.com website c:geo is currently unable to get the coordinates for caches shown as a search result.
+            This does also mean if you try to generate a map based on this result, the resulting map might be empty.\\
+            We are looking into this at the moment and try to fix it as soon as possible.
+            
+            As a workaround please store the caches from the search result for offline in c:geo. Afterwards you can use all features normally.
+            
 - title: Getting started
   items:
       - title: I am new to Geocaching. How does all of this work?
