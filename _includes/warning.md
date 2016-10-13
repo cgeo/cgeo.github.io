@@ -1,1 +1,1 @@
-If you are currently experiencing problems on the live map please read [this](/faq.html#5914)!
+There are currently problems with search results in c:geo. For details please read [this FAQ-entry](/faq.html#6029)!
