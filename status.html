@@ -52,7 +52,7 @@ noeditlink: true
 
     <script type="text/javascript">
         function updateVersions() {
-          $.getJSON( "https://cgeo-status.herokuapp.com/api/count/by-kind",
+          $.getJSON( "https://status.cgeo.org/api/count/by-kind",
               function(versions) {
                 var total = 0;
                 versions.map(function(v) { total += v.count; });
@@ -76,13 +76,13 @@ noeditlink: true
         }
 
         function updateMessage() {
-          $.getJSON("https://cgeo-status.herokuapp.com/api/message", function(data) {
+          $.getJSON("https://status.cgeo.org/api/message", function(data) {
             var msg = data.message;
             if (msg) {
               $("#message-text").text(msg.message);
               $("#message-id").text(msg.message_id ? msg.message_id : "");
               if (msg.icon) {
-                var url = "https://cgeo-status.herokuapp.com/assets/icons/" + msg.icon + ".png";
+                var url = "https://status.cgeo.org/assets/icons/" + msg.icon + ".png";
                 $("#message-icon").html('<img src="' + url + '"/>');
               } else
                 $("#message-icon").text("");

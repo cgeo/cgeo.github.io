@@ -63,7 +63,7 @@ noeditlink: true
         var wsLastRequest = 0;
 
         function startWebsocket() {
-            var ws = new WebSocket("wss://cgeo-status.herokuapp.com/api/locations?initial=" + maxHeatPoints + "&timestamp=" + wsLastRequest);
+            var ws = new WebSocket("wss://status.cgeo.org/api/locations?initial=" + maxHeatPoints + "&timestamp=" + wsLastRequest);
 
             ws.onmessage = function(msg) {
                 var data = JSON.parse(msg.data);
