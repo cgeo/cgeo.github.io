@@ -1,1 +1,1 @@
-There are currently problems with search results in c:geo. For details please read [this FAQ-entry](/faq.html#6029)!
+Problems with empty logbooks. Please click [here](http://www.cgeo.org/faq.html#6065) for further info and solution!
