@@ -390,7 +390,7 @@
             Besides geocaching.com c:geo is also supporting opencaching platforms for several countries.
             If you activate the opencaching service in the c:geo settings the nearby search will also provide you the nearest opencaching caches.
 
-            if you however accidentally activate an opencaching platform of a foreign country (e.g. you are living in Germany and have activated "opencaching.org.uk") you will see caches some hundred kilometers away in the nearby list as those are the nearest caches on this platform.
+            If you however accidentally activate an opencaching platform of a foreign country (e.g. you are living in Germany and have activated  "opencaching.ro" in Romania) you will see caches some hundred kilometers away in the nearby list as those are the nearest caches on this platform.
             In this case please deactivate the unneeded opencaching platforms in: \\
             Menu → Settings → Services → "Opencaching.xx".
 
