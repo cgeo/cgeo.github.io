@@ -6,15 +6,14 @@
             Due to recent changes or a malfunction on the geocaching.com website c:geo is currently unable to get the coordinates for caches shown as a search result.
             This does also mean if you try to generate a map based on this result, the resulting map might be empty.
             
-            Please update to the new release 2016.10.13 where this problem was fixed!
+            Please update to the newest c:geo release where this problem is fixed!
+            
       - title: Caches have empty logbooks!
         id: 6065
         content: |
             Due to recent changes on geocaching.com c:geo may fail to retrieve the logbook depending on the date format you selected on the geocaching website.
             
-            We are working on this issue, meanwhile there is an easy workaround:\\
-            Please go to [your preference page on geocaching.com](https://www.geocaching.com/account/settings/preferences) and change the date format to a format not containing and empty spaces.
-            Afterwards save the change and relogin/restart c:geo (or your device) and refresh the affected caches in c:geo.          
+            Please update to the new c:geo release 2016.11.05 where this problem is fixed!
             
 - title: Getting started
   items:
