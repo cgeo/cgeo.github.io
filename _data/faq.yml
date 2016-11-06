@@ -1,6 +1,7 @@
 - id: temporary-issues
   title:
       en: Temporary issues
+      de: Vorübergehende Probleme
   items:
       - id: 6029
         en:
@@ -24,6 +25,7 @@
 - id: getting-started
   title:
       en: Getting started
+      de: Erste Schritte
   items:
       - id: newbie
         en:
@@ -152,6 +154,7 @@
 - id: general
   title:
       en: General
+      de: Allgemein
   items:
       - id: miles-meters
         en:
@@ -535,6 +538,7 @@
 - id: installation-and-update
   title:
       en: Installation and update
+      de: Installation und Aktualisierung
   items:
       - id: install-fail
         en:
@@ -683,6 +687,7 @@
 - id: gps-and-navigation
   title:
       en: GPS and Navigation
+      de: GPS und Navigation
   items:
       - id: location-setup
         en:
@@ -807,6 +812,7 @@
 - id: live-map
   title:
       en: Live Map
+      de: Live-Karte
   items:
       - id: map-markers
         en:
@@ -957,6 +963,7 @@
 - id: send2cgeo
   title:
       en: Send2cgeo
+      de: Send2cgeo
   items:
       - id: send2cgeo
         en:
@@ -1002,6 +1009,7 @@
 - id: gcvote
   title:
       en: GCVote
+      de: GCVote
   items:
       - id: gcvote
         en:
@@ -1061,6 +1069,7 @@
 - id: offline-maps
   title:
       en: Offline maps
+      de: Offline Karten
   items:
       - id: osm
         en:
@@ -1124,6 +1133,7 @@
 - id: offline-caching
   title:
       en: Offline caching
+      de: Offline Cachen
   items:
       - id: offline-use
         en:
@@ -1203,6 +1213,7 @@
 - id: opencaching-platforms
   title:
       en: Opencaching platforms
+      de: Opencaching Plattformen
   items:
       - id: opencaching
         en:
@@ -1235,6 +1246,7 @@
 - id: trackable-management
   title:
       en: Trackable management
+      de: Verwaltung von Trackables
   items:
       - id: trackables
         en:
@@ -1305,6 +1317,7 @@
 - id: device-or-user-specific-problems
   title:
       en: Device or user specific problems
+      de: Geräte- und benutzerspezifische Probleme
   items:
       - id: no-premium
         en:
@@ -1431,6 +1444,7 @@
 - id: new-menu-implementation
   title:
       en: New menu implementation
+      de: Neues Menü
   items:
       - id: actionbar
         en:
@@ -1503,6 +1517,7 @@
 - id: calendar-plugin
   title:
       en: Calendar plugin
+      de: Kalender Erweiterung
   items:
       - id: plugin-calendar
         en:
@@ -1554,6 +1569,7 @@
 - id: contacts-plugin
   title:
       en: Contacts plugin
+      de: Kontakte Erweiterung
   items:
       - id: plugin-contacts
         en:
@@ -1598,6 +1614,7 @@
 - id: known-limitations
   title:
       en: Known limitations
+      de: Bekannte Einschränkungen
   items:
       - id: limitation-livemap
         en:
