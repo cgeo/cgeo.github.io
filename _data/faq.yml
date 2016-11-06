@@ -7,25 +7,21 @@
         en:
             title: Distance to caches not shown in search results!
             content: |
-                Due to recent changes or a malfunction on the geocaching.com website c:geo is currently unable to get the coordinates for caches shown as a search result.
-                This does also mean if you try to generate a map based on this result, the resulting map might be empty.
-
                 Please update to the newest c:geo release where this problem is fixed!
-
+        de:
+            title: Entfernung zu Caches wird in Suchergebnissen nicht angezeigt!
+            content: |
+                Bitte aktualisiere c:geo auf die neueste Version, in der das Problem behoben ist!
 
       - id: 6065
         en:
             title: Caches have empty logbooks!
             content: |
-                Due to recent changes on geocaching.com c:geo may fail to retrieve the logbook depending on the date format you selected on the geocaching website.
-
                 Please update to the new c:geo release 2016.11.05 where this problem is fixed!
         de:
             title: Caches haben ein leeres Logbuch!
             content: |
-                Aufgrund kürzlicher Änderungen bei geocaching.com kann c:geo das Logbuch in Abhängigkeit der Datumseinstellung auf geocaching.com nicht laden.
-
-                Bitte aktualisiere c:geo auf die neue Version 2016.11.05, welche dieses Problem behebt!
+                Bitte aktualisiere c:geo auf die neue Version 2016.11.05, in der das Problem behoben ist!
 
 
 - id: getting-started
@@ -60,8 +56,34 @@
                     Use the "Live Map" or the "Nearby" function of c:geo to see which caches are around you. Pick a cache (a traditional cache with a low D/T rating will be a good starting point) which you would like to find and go for it!
 
                 Once again: You should make yourself familiar with the different types, terrain ratings, attributes, etc. before starting out to find a cache.
+        de:
+            title: Ich bin neu beim Geocachen. Wie funktioniert das alles?
+            content: |
+                Alle Details des Geocaching zu erklären würde hier ein wenig zu weit führen. Aber es gibt einige Dinge, die du wissen solltest um mit Geocachen in c:geo zu starten:
 
+                1. Du brauchst einen Account auf einer Geocaching-Plattform um diesen in c:geo zu nutzen:
 
+                    Wir unterstützen [geocaching.com(http://www.geocaching.com/), eine internationale Caching-Plattform, sowie Opencaching-Plattformen in diversen Ländern (z.B. [opencaching.de](http://www.opencaching.de/), [opencaching.pl](http://www.opencaching.pl/)).
+                    
+                    Wähle eine Plattform, die du gerne nutzen möchtest, gehe zu deren Internet-Seite und erstelle dort ein Nutzerkonto (Basis-Konten sind normalerweise kostenlos).
+                    
+                    Nachdem du den Benutzernamen und Passwort für eine der Plattformen erhalten hast, gebe diese in den c:geo Einstellungen ein um c:geo den Zugriff auf die Plattform zu ermöglichen.
+                    
+                2. Du musst etwas über die verschiedenen Cache-Typen, D/T-Wertungen, usw. lernen
+
+                    Du könntest vielleicht keinen Erfolg beim Finden eines Caches haben, wenn du einfach einen zufälligen Cache in c:geo auswählst und dorthin navigierst. Es gibt einiges mehr, was du wissen musst um einen für dich passenden Cache auszuwählen.
+
+                    Die meisten der genannten Plattformen bieten dir detailierte Einführungen dazu, wie Geocaching funktioniert. Wir empfehlen dir wärmstens diese Einführungen zu anzusehen um zu lernen, was du zum Finden deines ersten Caches wissen musst und wie er geloggt wird.
+
+                    Insbesondere solltest du die Bedeutung der unterschiedlichen Cache-Typen (einen Mystery-Cache wirst du z.B. normalerweise nicht an den angegebenen Koordinaten finden) und T-Wertungen (eine Wertung von 5 meint, dass du klettern/schwimmen/tauchen musst um dden Cache zu finden) kennen.
+                    
+                3. Wähle einen Cache und probiere es:
+
+                    Nutze die "Live-Karte" oder die "In der Nähe"-Funktion von c:geo um zu sehen, welche Caches in deiner Nähe sind. Wähle einen Cache (ein Traditional-Cache mit einer niedrigen D/T-Wertung ist ein guter Startpunkt), den du gerne finden möchtest und leg los! 
+                  
+
+                Noch einmal: Du solltest duch vertraut machen mit den verschiedenen Typen, Gelände-Wertungen, Attributen, usw. bevor du losgehst um einen Cache zu finden.
+                
       - id: how-to-login
         en:
             title: How to login?
