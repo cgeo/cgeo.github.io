@@ -20,6 +20,12 @@
                 Due to recent changes on geocaching.com c:geo may fail to retrieve the logbook depending on the date format you selected on the geocaching website.
 
                 Please update to the new c:geo release 2016.11.05 where this problem is fixed!
+        de:
+            title: Caches haben ein leeres Logbuch!
+            content: |
+                Aufgrund kürzlicher Änderungen bei geocaching.com kann c:geo das Logbuch in Abhängigkeit der Datumseinstellung auf geocaching.com nicht laden.
+
+                Bitte aktualisiere c:geo auf die neue Version 2016.11.05, welche dieses Problem behebt!
 
 
 - id: getting-started
