@@ -243,7 +243,17 @@
                 3. On the next start of c:geo it will be back to factory settings and take you directly to the login screen.
                 4. Enter your login data for the desired geocaching website
                 5. Restore your backup (You will be asked for restoring once you enter the main screen of c:geo)
+        de:
+            title: Wie setze ich c:geo auf Werkseinstellungen zurück?
+            content: |
+                Achtung: \\
+                Diese Prozedur löscht alle gespeicherten Caches und App-Einstellungen!
 
+                1. Wenn benötigt führe eine Sicherung der Caches unter Menü → Einstellungen → System → Sicherung durch.
+                2. Gehe in deine Android-Einstellungen (nicht die c:geo Einstellungen) und wähle Apps oder Anwendungsmanager → c:geo → Daten löschen
+                3. Beim nächsten Start von c:geo sind die Werkseinstellungen wieder hergestellt und es erscheint der Anmeldebildschirm.
+                4. Gib deine Nutzerdaten für die gewünschte Geocaching-Plattform ein
+                5. Stelle deine Sicherung wieder her (du wirst im Hauptmenü von c:geo nach der Wiederherstellunge gefragt)
 
 - id: general
   title:
