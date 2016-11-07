@@ -268,7 +268,13 @@
 
                 You can also manually select your preference in c:geo settings: \\
                 c:geo Menu → Settings → Appearance → "Use Imperial units"
+        de:
+            title: Wie kann ich Meilen statt Meter einstellen?
+            content: |
+                c:geo nutzt als Standard das metrische System sollte sich aber automatisch den Telefon-Einstellungen anpassen.
 
+                Du kannst das gewünschte System aber auch in den c:geo Einstellungen setzen:\\
+                c:geo Menü → Einstellungen → Erscheinungsbild → "Imperiale Einheiten"
 
       - id: cache-info-missing
         en:
@@ -276,8 +282,13 @@
             content: |
                 In order to minimize the network traffic c:geo downloads caches only once and stores them temporary or permanently (if you save them on your list).
 
-                So if you miss some information (e.g. newest logs are missing, description has changed,etc.) please refresh the stored cache by selecting "Refresh" on the cache detail page.
+                So if you miss some information (e.g. newest logs are missing, description has changed,etc.) please refresh the stored cache by selecting the "Refresh" button on the cache detail page.
+        de:
+            title: Warum fehlen aktuelle Daten in den Cache-Details?
+            content: |
+                Um den Netzwerk-Verkehr zu minimieren lädt c:geo die Caches nur einmalig herunter und speichert sie temporär oder permanent (wenn du sie in deinen Liste speicherst).
 
+                Wenn du also einige Informationen vermisst (z.B. die neuesten Logs fehlen, die Beschreibung hat sich geändert, usw.) aktualisiere bitte den gespeicherten Cache indem du die Schaltfläche zum Aktualisieren auf der Cache-Details Seite wählst.
 
       - id: coords-wrong
         en:
@@ -286,7 +297,12 @@
                 In case you are not logged in the geocaching website does not provide correct coordinates. So it seems you did not provide login data or the login data you provided is not correct.
 
                 Please refer to [Getting started](./faq.html#newbie) to learn how to login with c:geo.
-
+        de:
+            title: Warum sind alle Cache-Koordinaten um einige Meter/Fuß falsch?
+            content: |
+                Wenn du mit c:geo nicht korrekt eingeloggt bist, liefert die Geocaching-Webseite keine korrekten Koordinaten. Es sieht also so aus, als ob du entweder keine Anmeldedaten hinterlegt hast oder deine Anmeldedaten nicht korrekt sind.
+                
+                Bitte schau unter [Erste Schritte](./faq.html#newbie) um herauszufinden, wie du dich mit c:geo einloggst.
 
       - id: why-no-api
         en:
@@ -296,29 +312,53 @@
                 What would change with the API?
 
                 - c:geo only for premium members
-                - No support for OpenCaching or other platforms than geocaching.com
+                - No support for Opencaching or other platforms than geocaching.com
                 - Groundspeak advertisements
 
-                There are also problems with the development:
+                There would also be problems with the development:
 
                 - The API requires a private key for the app. But c:geo is open source. There are a lot of independent developers, but only one would get the key. All other developers wouldn't be able to test what they do.
                 - c:geo would no longer be open source
                 - Only a few core developers would be allowed
                 - Much slower development would result from that
 
-                While Groundspeak's API would fix most of our current problems, c:geo would then force users to pay money to a corporation. This is not the open-source spirit.
-                If Groundspeak says OK to our ideas then c:geo might have an API some day...
+                While Groundspeak's API would fix some of our current problems, c:geo would then force users to pay money to a corporation. This is not the open-source spirit.
+                If Groundspeak says OK to our ideas then c:geo might have use the API some day...
+        de:
+            title: Warum nutzt c:geo nicht das Groundspeak API?
+            content: |
+                Die ursprüngliche Idee von c:geo ist es eine kostenlose (und quelloffene) Anwendung zum mobilen Geocaching für alle zur Verfügung zu stellen. \\
+                Was würde sich mit dem API ändern?
 
+                - c:geo nur für Premium-Mitglieder
+                - Keine Unterstützung von Opencaching oder anderen Plattformen außer geocaching.com
+                - Groundspeak Werbung
+                
+                Es würde auch Probleme bei der Entwicklung geben:
+
+                - Das API benötigt einen privaten Schlüssel für die App, aber c:geo ist quelloffen. Es gibt eine Menge unabhängiger Entwickler, aber nur einer davon würde über den Schlüssel verfügen. Alle anderen Entwickler wären nicht in der Lage zu testen, was sie machen.
+                - c:geo wäre nicht mehr quelloffen
+                - Nur wenige Haupt-Entwickler wären erlaubt
+                - Wesentlich langsamere Entwicklung wäre das Resultat davon
+                
+                Obwohl das API von Groundspeak einige unserer aktuellen Probleme beheben würde, würde c:geo Nutzer dann zwingen Geld an eine Firma zu zahlen. Das entspricht nicht dem Geist der quelloffenen Anwendungen.
+                Wenn Groundspeak mit unseren Ideen einverstanden ist könnte c:geo eines Tages auch das API nutzen...
 
       - id: website-english
         en:
-            title: The website is always shown in English!
+            title: The geocaching website is always switched to English!
             content: |
                 c:geo is accessing the geocaching website as a customized Internet browser. \\
                 In order to retrieve the information from the website it needs to have reliable information. Therefore c:geo will change the language to English when logging in, because it cannot support all different languages.
 
                 Feel free to change the language on the website back to your desired language anytime when using it. c:geo will detect this and automatically switch back to English on the next login.
-
+        de:
+            title: Die Geocaching-Webseite wird immer auf Englisch umgestellt!
+            content: |
+                c:geo greift auf die Geocaching-Webseite als maßgeschneiderter Internet-Browser zu. \\
+                Um Informationen von der Webseite abzurufen benötigt es verlässliche Informationen. Daher ändert c:geo die Spracheinstellung beim Einloggen auf Englisch, da es nicht möglich ist alle verschiedenen Sprachen zu unterstützen.
+                
+                Du kannst jederzeit die Sprache auf der Webseite wieder auf deine gewünschte Sprache umstellen, wenn du sie benutzt. c:geo wird dies feststellen und beim nächsten Einloggen wieder auf Englisch zurückschalten.
 
       - id: unknown-location
         en:
@@ -329,7 +369,15 @@
                 This does not have any impact on the c:geo functionality. As long as you have a GPS fix everything will work normal. \\
                 If you want you can also disable the address information in c:geo settings so your coordinates are shown on the main screen instead of the address information: \\
                 Menu → Settings → Appearance → "Show Address"
-
+        de:
+            title: Unbekannter Standort wird im Hauptmenü angezeigt!
+            content: |
+                Die Adressangabe, die unten im Hauptbildschirm angezeigt wird, basiert auf eine Information, die wir von einer Geocoding-Datenbank basierend auf deiner Position bekommen. Manchnmal hat diese Datenbank keine Adressinformation für deinen Standort oder der Dienst ist nicht verfügbar. In diesem Fall erscheint "Unbekannter Standort" oder sogar eine falsche Stadt.
+                
+                Dies hat keinen Einfluß auf die Funktionalität von c:geo. Solange du einen GPS-Fix hast, wird alles normal funktionieren. \\
+                
+                Wenn du möchtest kannst du die Adressinformation auch in den c:geo Einstellungen abschalten, so dass dir stattdessen die Koordinaten auf dem Hauptbildschirm angezeigt werden: \\
+                Menü → Einstellungen → Erscheinungsbild → "Ort statt Koordinaten"
 
       - id: coords-format
         en:
@@ -358,7 +406,33 @@
                 When entering coordinates in c:geo (e.g. creating a waypoint) you can select the desired format in the headline of the dialog according to the notations listed above.
 
                 The conversion from and to UTM notation is currently not supported by c:geo. In case you need to convert coordinates to UTM you can copy the cache coordinates by long tap on them to perform conversion in another app.
+       
+        de:
+            title: Welche Koordinatenformate werden von c:geo unterstützt?
+            content: |
+                c:geo unterstützt Geokoordinaten in den folgenden Formaten:
+                
+                1. Grad und dezimale Minuten (MinDec)
 
+                    Notation: DDD° MM.MMM'\\
+                    Beispiel: N 51° 20.382 E 007° 01.820
+
+                2. Grad, dezimale Minuten und Sekunden (DMS)
+
+                    Notation: DDD° MM' SS.SSS"\\
+                    Beispiel: N 51° 20' 22.920" E 007° 01' 49.200"
+
+                3. Nur Grad (DegDec)
+
+                    Notation: DDD.DDDDD°\\
+                    Beispiel: 51.339700° 7.030333°
+
+                Das erstgenannte Format wird üblicherweise für das Geocaching verwendet und ist daher auch die standardmäßige Notation in c:geo.
+
+                Du kannst zu anderen Formatien wechseln indem du kurz auf die Koordinaten klickst, die bei Caches und Wegpunkten angezeigt werden.
+                Wenn du Koordinaten eingibst (z.B. bei Erstellung eines Wegpunktes) kannst du das gewünschte Format in der Titelzeile des Dialogs gemäß der oben genannten Formate auswählen.
+                
+                Die Umwandlung von und nach UTM wird derzeit von c:geo nicht unterstützt. Wenn du Koordinaten in UTM konvertieren möchtest kannst du die Koordianten mit einem langen Klick kopieren und die Umwandlung in einer anderen App durchführen.
 
       - id: picture-storage
         en:
@@ -367,6 +441,11 @@
                 If you select to take a new picture it will be saved to a directory which follows a system default. \\
                 On most devices it can be found in a directory "/sdcard/Picures/cgeo".
 
+        de:
+            title: Wo werden Logbilder abgespeichert, die ich mit c:geo aufgenommen habe?
+            content: |
+                Wenn du ein neues Bild aufnimmst, wird es abhängig von deinem Gerät unterhalb des Standard-Bilderverzeichnises abgelegt. \\
+                Auf den meisten Geräten kannst du sie im Verzeichnis "/sdcard/Pictures/cgeo" finden.
 
       - id: edit-logs
         en:
@@ -374,7 +453,11 @@
             content: |
                 No, this is not possible and we do not have plans to implement this on short term.
                 Please use the geocaching website to edit your log after you posted it.
-
+        de:
+            title: Ist es möglich mit c:geo ein existierendes Log zu bearbeiten?
+            content: |
+                Nein, das ist nicht möglich und wir planen derzeit nicht dies einzubauen.
+                Bitte nutze für das Bearbeiten von Logs, die du schon gesendet hast, die Geocaching-Webseite.
 
       - id: data-on-sd
         en:
@@ -397,8 +480,27 @@
 
                 Unfortunately there is no standardized method to find the location of a real SD card on your device. There are some workarounds but those might fail on some devices, thus we decided not to implement them for now.
                 Furthermore starting with Android 4.4 write access to the real SD card is forbidden for apps.
+        de:
+            title: Daten von c:geo werden immer im internen Speicher abgelegt!
+            content: |
+                Es gibt zwei Dinge, die wir auf deinem Gerät speichern:
 
+                1. Die Geocache-Datenbank, welche im grob gesagt den Inhalt deiner Listen enthält:
 
+                    Diese Datenbank wird in einem internen Ordner auf deinem Gerät gespeichert (nicht zugänglich ohne Root-Zugriff). Typischerweise hat diese Datenbank nur die Größe von wenigen Megabyte.
+                    Du kannst in den c:geo Einstellungen auswählen, ob diese Datenbank intern oder auf deiner SD-Karte gespeichert werden soll.
+                    
+                2. Die zusätzlichen Daten (z.B. Bilder, Karten) für alle gespeicherten Caches in der Datenbank:
+
+                    Diese zusätzlichen Daten können viel größer sein, da sie die Bilder der Cachebeschreibung und (optional) die Logbilder und (optional) die statischen Karten enthalten.
+                    Die Daten werden standardmäßig auf deiner SD_Karte (im Order ".cgeo") gespeichert.
+                    
+                Einige Nutzer klagen darüber, dass sich die zusätzlichen Daten und die Datenbank (wenn externe Speicherung gewählt ist) dennoch im internen Speicher ihres Gerätes befinden.
+                Wir speichern den zugehörigen Order auf dem Speichermedium, welches uns Android als SD-Karte mitteilt. Und inder Tat ist dies technisch auf manchen Geräte weiterhin ein Teil des internen Speichers, der als SD-Karte gekennzeichnet ist (Es ist eine Art SD-Karte, die fest in deinem Gerät integriert ist).
+                
+                Leider gibt es keine standardisierte Methode um den Speicherort der realen SD-Karte auf deinem Gerät zu finden. Es gibt einige Hilfslösungen aber diese könnten auf manchen Geräten nicht funktionieren; daher haben wir für den Moment entschieden diese nicht zu implementieren.
+                Darüberhinaus ist es für Apps seit Android-Version 4.4. generell verboten Daten auf die SD-Karte zu schreiben.
+     
       - id: facebook-login
         en:
             title: Can I login using my Facebook account?
@@ -408,7 +510,14 @@
 
                 In case you currently only use Facebook to login to geocaching.com, you have to go to the [Password Reset Page](https://www.geocaching.com/login/password.aspx) to set up a regular password first.
                 After you got this password you can use it together with your username to log in with c:geo.
-
+        de:
+            title: Kann ich mich mit meinem Facebook-Account anmelden?
+            content: |
+                Nein, die Anmeldung über Facebook ist nur auf der Geocaching-Webseite möglich.
+                Um dich in c:geo bei geocaching.com anzumelden benötigst du einen Nutzernamen und Kennwort von dieser Seite.
+                
+                Wenn du dich bislang nur über Facebook bei geocaching.com angemeldet hast, gehe bitte auf ihre [Passwort-Reset Seite](https://www.geocaching.com/login/password.aspx) und fordere dort ein reguläres Passwort an.
+                Wenn du dieses Passwort erhalten hast, kannst du es zusammen mit deinem Benutzernamen in c:geo für die Anmeldung verwenden.
 
       - id: facebook-share
         en:
@@ -421,7 +530,16 @@
                 Doing so all your tweets will also be posted on Facebook (including the c:geo tweets).
 
                 You can find more info on the [Twitter support website](https://support.twitter.com/articles/31113-using-twitter-with-facebook/).
+        de:
+            title: Kann c:geo auf Facebook posten?
+            content: |
+                Nein, momentan untersützt c:geo nur Twitter als soziales Netzwerk.
+                Da das Entwickler-Team nur bgrenzte Ressourcen hat, fokussieren wir uns auf neue Geocaching-Features und habe keine Pläne eine Facebook-Verbindung in c:geo zu integrieren.
+                
+                Dennoch gibt es einen Weg auf Facebook zu posten, wenn du bereits Twitter-Nutzer bist, da du Twitter mit Facebook verknüpfen kannst.
+                Wenn du dies machst werden alle Tweets auch auf Faebook gepostet (inklusive der c:geo Tweets).
 
+                Mehr Informationen dazu findest du auf der [Twitter-Support Webseite](https://support.twitter.com/articles/31113-using-twitter-with-facebook/).
 
       - id: translation-missing
         en:
@@ -431,19 +549,14 @@
                 If you see untranslated (i.e. English) or wrong strings or your language is not even supported, you are invited to contribute on this platform!
 
                 Just create a free account on [Crowdin](https://crowdin.com/) and start contributing translations or vote for existing proposals to the [c:geo Crowdin Project](https://crowdin.com/project/cgeo).
-
-
-      - id: logs-truncated
-        en:
-            title: Logs made with c:geo are truncated on the website!
+        de:
+            title: Es fehlen Übersetzungen oder sie sind falsch!
             content: |
-                Especially on [geocaching.com](http://www.geocaching.com/) it may happen that log texts are interpreted as HTML code although they are not written in HTML. \\
-                If you e.g. include a "<" or ">" sign in your log, it may appear truncated or bad formatted later. This does not only affect c:geo but also if you write this kind of log directly on the website.
-                Reason for this is a bad implementation for HTML detection on the website, but no fault in c:geo.
-
-                You need either to avoid such special characters in your log or use HTML-formatted logs to work around this problem.
-
-
+                Wir nutzen eine offene Übersetzungs-Plattform um die Übersetzungen in c:geo zu verbessern und sogar neue Sprachen zu implementieren.
+                Wenn dir nicht übersetzte (also nur in englisch vorhande) oder falsche Wörter auffallen oder deine Sprache noch gar nicht unterstützt wird, bist du eingeladen uns auf dieser Plattform zu unterstützen!
+                
+                Lege dazu einfach einen kostenlosen Zugang bei [Crowdin]((https://crowdin.com/) an und füge Übersetzungen hinzu oder stimme über existierende Vorschläge in [unserem c:geo Crowdin Projekt](https://crowdin.com/project/cgeo) ab.
+                
       - id: gpx-search-long
         en:
             title: Scanning for GPX files takes a long time!
@@ -451,11 +564,20 @@
                 c:geo scans the whole SD card if it cannot find gpx files in the predefined folder.
                 If you have a lot of files and folders on your SD card this scanning might take some time.
 
-                It is useful to put all of your PQs into a specific folder and set this as the default import directory for gpx imports. This folder will be scanned first which will speed up the process.
+                It is useful to put all of your gpx files into a specific folder and set this as the default import directory for gpx imports. This folder will be scanned first which will speed up the process.
 
                 You can specify the GPX import and export folders in the settings of c:geo: \\
                 Menu → Settings → System → "GPX Export Directory" / "GPX Import Directory"
+        de:
+            title: Die Suche nach GPX-Dateien dauert sehr lange!
+            content: |
+                c:geo dursucht die gesamte SD-Karte, wenn es keine GPX-Dateien in einem eingestellten Ordner findet.
+                Wenn du viele Dateien und Ordner auf deiner SD-Karte hast kann diese Suche eine Weile dauern.
 
+                Es ist daher nützlich, wenn du all deine GPX-Dateien in einen speziellen Ordner speicherst und diesen als Standard-VOrdner für GPX-Importe in c:geo angibst. Dieser Ordner wird als erstes durchsucht, was den Prozess beschleunigt.
+
+                Die Standard-Ordner für den GPX-Import und Export kannst du in den Einstellungen von c:geo setzen:\\
+                Menü → Einstellungen → System → "Verzeichnis für GPX-Importe" / "Verzeichnis für GPX-Exporte"
 
       - id: log-to-devs
         en:
@@ -471,7 +593,19 @@
                 On higher Android versions Google disabled the logging ability for security reasons except your device is rooted.
 
                 Please find a detailed description of how to get a log in our [GitHub Wiki](https://github.com/cgeo/cgeo/wiki/Send-log-to-developers).
-
+        de:
+            title: Wie sende ich ein Logfile an die Entwickler?
+            content: |
+                Wenn die App nicht so funktioniert wie es sein sollte, kannst du ein Logfile an die Entwickler schicken.
+                
+                Wenn c:geo abstürzt oder nicht ordnungsgemäß arbeitet, schreibt es Debug-Nachrichten in ein Android-Logfile wenn diese Option in den c:geo Einstellungen aktiviert ist.
+                Dieses Log enthält Nachrichten aller Apps für einen kurzen Zeitabschnitt (zwischen einigen Sekunden bis zu einigen Minuten).
+                Daher ist es für uns wichtig ein Logfile so schnell wie möglich zu sichern, nachdem der Absturz aufgetreten ist.
+                
+                Bitte beachte, dass dein Gerät eine Android-Version kleiner als 4.1 haben muss um ein vernünftiges Logfile zu erzeugen.
+                Bei höheren Android-Versionen hat Google die Log-Funktionalität aus Sicherheitsgründen eingeschränkt außer dein Gerät ist gerootet.
+                
+                Eine detailierte Beschreibung, wie du ein Logfile erstellst findest du in unserem [GitHub Wiki](https://github.com/cgeo/cgeo/wiki/Send-log-to-developers).
 
       - id: hide-caches
         en:
