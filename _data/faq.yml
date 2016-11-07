@@ -1,31 +1,27 @@
 - id: temporary-issues
   title:
       en: Temporary issues
-      de: Vorübergehende Probleme
+      de: Temporäre Probleme
   items:
       - id: 6029
         en:
             title: Distance to caches not shown in search results!
             content: |
-                Due to recent changes or a malfunction on the geocaching.com website c:geo is currently unable to get the coordinates for caches shown as a search result.
-                This does also mean if you try to generate a map based on this result, the resulting map might be empty.
-
                 Please update to the newest c:geo release where this problem is fixed!
-
+        de:
+            title: Entfernung zu Caches wird in Suchergebnissen nicht angezeigt!
+            content: |
+                Bitte aktualisiere c:geo auf die neueste Version, in der das Problem behoben ist!
 
       - id: 6065
         en:
             title: Caches have empty logbooks!
             content: |
-                Due to recent changes on geocaching.com c:geo may fail to retrieve the logbook depending on the date format you selected on the geocaching website.
-
                 Please update to the new c:geo release 2016.11.05 where this problem is fixed!
         de:
             title: Caches haben ein leeres Logbuch!
             content: |
-                Aufgrund kürzlicher Änderungen bei geocaching.com kann c:geo das Logbuch in Abhängigkeit der Datumseinstellung auf geocaching.com nicht laden.
-
-                Bitte aktualisiere c:geo auf die neue Version 2016.11.05, welche dieses Problem behebt!
+                Bitte aktualisiere c:geo auf die neue Version 2016.11.05, in der das Problem behoben ist!
 
 
 - id: getting-started
@@ -60,8 +56,34 @@
                     Use the "Live Map" or the "Nearby" function of c:geo to see which caches are around you. Pick a cache (a traditional cache with a low D/T rating will be a good starting point) which you would like to find and go for it!
 
                 Once again: You should make yourself familiar with the different types, terrain ratings, attributes, etc. before starting out to find a cache.
+        de:
+            title: Ich bin neu beim Geocaching. Wie funktioniert das alles?
+            content: |
+                Alle Details des Geocaching zu erklären würde hier ein wenig zu weit führen. Aber es gibt einige Dinge, die du wissen solltest um mit Geocachen in c:geo zu starten:
 
+                1. Du brauchst ein Nutzerkonto auf einer Geocaching-Plattform um diesen in c:geo zu nutzen:
 
+                    Wir unterstützen [geocaching.com](http://www.geocaching.com/), eine internationale Caching-Plattform, sowie Opencaching-Plattformen in diversen Ländern (z.B. [opencaching.de](http://www.opencaching.de/), [opencaching.pl](http://www.opencaching.pl/)).
+                    
+                    Wähle eine Plattform, die du gerne nutzen möchtest, gehe zu deren Internet-Seite und erstelle dort ein Nutzerkonto (Basis-Konten sind normalerweise kostenlos).
+                    
+                    Nachdem du den Benutzernamen und Passwort für eine der Plattformen erhalten hast, gebe diese in den c:geo Einstellungen ein um c:geo den Zugriff auf die Plattform zu ermöglichen.
+                    
+                2. Du musst etwas über die verschiedenen Cache-Typen, D/T-Wertungen, usw. lernen
+
+                    Du könntest vielleicht keinen Erfolg beim Finden eines Caches haben, wenn du einfach einen zufälligen Cache in c:geo auswählst und dorthin navigierst. Es gibt einiges mehr, was du wissen musst um einen für dich passenden Cache auszuwählen.
+
+                    Die meisten der genannten Plattformen bieten dir detailierte Einführungen dazu, wie Geocaching funktioniert. Wir empfehlen dir wärmstens diese Einführungen zu anzusehen um zu lernen, was du zum Finden deines ersten Caches wissen musst und wie er geloggt wird.
+
+                    Insbesondere solltest du die Bedeutung der unterschiedlichen Cache-Typen (einen Mystery-Cache wirst du z.B. normalerweise nicht an den angegebenen Koordinaten finden) und T-Wertungen (eine Wertung von 5 meint, dass du klettern/schwimmen/tauchen musst um dden Cache zu finden) kennen.
+                    
+                3. Wähle einen Cache und probiere es aus:
+
+                    Nutze die "Live-Karte" oder die "In der Nähe"-Funktion von c:geo um zu sehen, welche Caches in deiner Nähe sind. Wähle einen Cache (ein Traditional-Cache mit einer niedrigen D/T-Wertung ist ein guter Startpunkt), den du gerne finden möchtest und leg los! 
+                  
+
+                Noch einmal: Du solltest duch vertraut machen mit den verschiedenen Typen, Gelände-Wertungen, Attributen, usw. bevor du losgehst um einen Cache zu finden.
+                
       - id: how-to-login
         en:
             title: How to login?
@@ -76,7 +98,19 @@
                 If you do not have an account yet please use the button c:geo will offer to take you to the registration page of the selected geocaching platform.
 
                 When you are at the main menu, most functions should be self explanatory. Otherwise you might also find some hints in this FAQ.
+        de:
+            title: Wie logge ich mich ein?
+            content: |
+                Wenn du c:geo zum ersten Mal startest siehst du direkt die Dienste-Einstellungen, in denen du deinen Nutzernamen und dein Passwort für die gewünschte Caching-Plattform eingeben kannst.
 
+                Um die Dienste-Einstellungen manuell vom c:geo Hauptmenü aufzurufen wähle bitte:\\
+                Menü → Einstellungen → Dienste
+                
+                Nachdem du deinen Nutzernamen und Passwort dort eingegeben hast, musst du nur die Zurück-Taste auf deinem Gerät drücken bis zu das Hauptmenü von c:geo erreichst. Beim nächsten Start wird c:geo automatisch im Hauptmenü starten.
+                
+                Wenn du noch kein Nutzerkonto hast wähle einfach die Schaltfläche, den c:geo dir anbietet um zur Registrierungs-Seite der ausgewählten Geocaching-Plattform zu gelangen.
+
+                Wenn du im Hauptmenü bist sollten die meisten Funktionen selbsterklärend sein. Falls nicht findest du auch einige Hinweise in dieser FAQ.
 
       - id: how-to-navigate
         en:
@@ -104,7 +138,31 @@
                     This will start turn-by-turn navigation using Google Maps
 
                 When you reach the coordinates, remember that GPS has an accuracy of several meters/feet only (also depending on your phones GPS performance). So you should look around your position as well to find the cache.
+        de:
+            title: Ich sehe Caches in c:geo, aber wie komme ich dahin?
+            content: |
+                Wenn du es geschaffst hast Caches auf der Karte oder in der Nahbereichs-Liste zu sehen, wähle einen Cache aus und öffne dessen Details.
 
+                Lies die Beschreibung und achte auch die D/T-Wertung und die Attribute um zu erfahren, wie du diesen Cache loggen kannst.
+
+                Wenn du bereit bist, wähle das "Navigations"-Symbol (Pfeil mit Punkt) in der Titelzeile.
+
+                Du hast dann je nach Bedarf verschiedene Möglichkeiten. Hier ist eine kurze Beschreibung der wichtigsten Navigationsmethosen:
+
+                - Kompass:
+
+                    Er zeigt dir dauerhaft die Entfernung und Richtung zum Cache an.
+
+                - Radar ([optional](./faq.html#radar-navigation)):
+
+                    Wenn du eine App installiert hast, die Radar-Funktion unterstützt öffnet sich ein Radar-Bildschirm.
+                    Dieser ist ähnlich zum Kompass, aber die Funktionsweise ist ein wenig unterschiedlich. Du siehst typischerweise die Cache-Koordinaten als Markierung auf dem Radar. Wenn die Markierung das Zentrum erreicht, hast du die Cache-Koordinaten erreicht.
+
+                - Navigation (Fahren, Gehen, Fahrrad):
+
+                    Dies startet die Routenführung mit Google Maps.
+
+                Wenn du die Koordinaten erreicht hast denke daran, dass GPS nur eine Genauigkeit von einigen Metern hat (hängt auch von der Leistungsfähigkeit deines Telefons ab). Du solltest also auch rund um deine Position suchen um den Cache zu finden.
 
       - id: forgot-login
         en:
@@ -115,7 +173,14 @@
                 You have to go to the geocaching website to reset your password. After you successfully restored your password there, please go to c:geo settings and enter the new login data.
 
                 For example on [geocaching.com](http://www.geocaching.com/) you can reset your password on [this page](https://www.geocaching.com/login/password.aspx).
+        de:
+            title: Ich habe meinen Benutzernamen und/oder Passwort vergessen!
+            content: |
+                c:geo nutzt nur deine Nutzerdaten, die du auf der Geocaching-Webseite festgelegt hast.
 
+                Du musst also auf die Geocaching-Webseite gehen um dein Passwort zurückzusetzen. Nachdem du es dort erfolgreich zurückgesetzt hast, gehe bitte in die c:geo Einstellungen und gebe die neuen Nutzerdaten dort ein.
+
+                Für [geocaching.com](http://www.geocaching.com/) kannst du beispielsweise [auf dieser Seite](https://www.geocaching.com/login/password.aspx) dein Passwort zurücksetzen.
 
       - id: login-failed
         en:
@@ -141,7 +206,30 @@
                 In this case we recommend resetting c:geo to factory defaults as described [here](./faq.html#how-to-reset):
 
                 If the problem still persists, please contact our [support](/support.html) and provide a system log.
+        de:
+            title: Anmeldung fehlgeschlagen wird im Hauptmenü angezeigt!
+            content: |
+                Zu allererst prüfe bitte genau ob du den richtigen Nutzernamen und Passwort angegeben hast.
+                Du findest dies unter:\\
+                Menü → Einstellungen → Dienste\\
 
+                Danach wähle "Authentisierung prüfen" um zu sehen ob die Anmeldung nun entweder funktioniert oder welche Fehlermeldung angezeigt wird.
+
+                Wenn du deine Nutzerdaten geprüft hast aber weiterhin eine Fehlermeldung bekommst (z.B. Anmeldung fehlgeschlagen, Unbekannter Fehler) könnte das Folgende hilfreich sein:
+
+                Bitte melde dich direk aut der Geocaching-Website (mit deinem Smartphone-Browser oder PC) an and prüfe, dass dein Zugang dort nicht deaktivert ist und deine Mail-Adresse auf der Webseite bestätigt ist.
+
+                Bitte prüfe, dass dein Telefon das richtige Datum und die richtige Uhrzeit hat. Wenn das Datum nicht korrekt ist, kann es zu Problemen kommen eine sichere Verbindung zur Webseite aufzubauen.
+
+                Manchmal fügen Netzwerk-Betreiber Nachrichten in den HTML-Verkehr ein, die c:geo davon abhalten sich in einem Mobilfunknetz erfolgreich einzuloggen.
+                Ein klares Indiz für dieses Problem ist, dass c:geo nur mit deiner WLAN-Verbindung funktioniert aber nicht im Mobilfunk-Netz.
+                Gehe in diesem Fall bitte in das c:geo Menü → Einstellungen → Dienste und aktiviere "Als Android-Browser identifizieren".
+                Danach musst du evtl. deine Telefon neu starten um sicherzustellen, dass die Einstellungen aktiv ist.
+
+                Es gab Berichte, dass in seltenen Fällen die Anmeldung trotz korrekter Nutzerdaten fehlschlägt und auch "Als Android-Browser identifizieren" nicht hilft.
+                In diesem Fall empfehlen wir c:geo auf Werkseinstellungen zurückzusetzen, wie es [hier](./faq.html#how-to-reset) beschrieben ist.
+
+                Wenn das Problem trotz allem weiter besteht, kontaktiere bitte unseren [Support](/support.html) und stelle uns ein Logfile zur Verfügung.
 
       - id: how-to-reset
         en:
@@ -155,12 +243,22 @@
                 3. On the next start of c:geo it will be back to factory settings and take you directly to the login screen.
                 4. Enter your login data for the desired geocaching website
                 5. Restore your backup (You will be asked for restoring once you enter the main screen of c:geo)
+        de:
+            title: Wie setze ich c:geo auf Werkseinstellungen zurück?
+            content: |
+                Achtung: \\
+                Diese Prozedur löscht alle gespeicherten Caches und App-Einstellungen!
 
+                1. Wenn benötigt führe eine Sicherung der Caches unter Menü → Einstellungen → System → Sicherung durch.
+                2. Gehe in deine Android-Einstellungen (nicht die c:geo Einstellungen) und wähle Apps oder Anwendungsmanager → c:geo → Daten löschen
+                3. Beim nächsten Start von c:geo sind die Werkseinstellungen wieder hergestellt und es erscheint der Anmeldebildschirm.
+                4. Gib deine Nutzerdaten für die gewünschte Geocaching-Plattform ein
+                5. Stelle deine Sicherung wieder her (du wirst im Hauptmenü von c:geo nach der Wiederherstellunge gefragt)
 
 - id: general
   title:
       en: General
-      de: Allgemein
+      de: Allgemeines
   items:
       - id: miles-meters
         en:
@@ -1075,7 +1173,7 @@
 - id: offline-maps
   title:
       en: Offline maps
-      de: Offline Karten
+      de: Offline-Karten
   items:
       - id: osm
         en:
@@ -1139,7 +1237,7 @@
 - id: offline-caching
   title:
       en: Offline caching
-      de: Offline Cachen
+      de: Offline cachen
   items:
       - id: offline-use
         en:
@@ -1219,7 +1317,7 @@
 - id: opencaching-platforms
   title:
       en: Opencaching platforms
-      de: Opencaching Plattformen
+      de: Opencaching-Plattformen
   items:
       - id: opencaching
         en:
@@ -1323,7 +1421,7 @@
 - id: device-or-user-specific-problems
   title:
       en: Device or user specific problems
-      de: Geräte- und benutzerspezifische Probleme
+      de: Geräte- oder benutzerspezifische Probleme
   items:
       - id: no-premium
         en:
@@ -1523,7 +1621,7 @@
 - id: calendar-plugin
   title:
       en: Calendar plugin
-      de: Kalender Erweiterung
+      de: Kalender-Erweiterung
   items:
       - id: plugin-calendar
         en:
@@ -1575,7 +1673,7 @@
 - id: contacts-plugin
   title:
       en: Contacts plugin
-      de: Kontakte Erweiterung
+      de: Kontakte-Erweiterung
   items:
       - id: plugin-contacts
         en:
