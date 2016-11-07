@@ -918,7 +918,7 @@
                 If you are on a Android version above 2.1 but your device has no GPS and you still want to install c:geo on it, you have to install c:geo manually by downloading the APK file [here](https://github.com/cgeo/cgeo/releases/latest).
                 But be aware, that you cannot navigate to caches without GPS!
 
-         de:
+        de:
             title: Ich kann c:geo nicht mit Google Play installieren!
             content: |
                 c:geo wird als "Nicht unterstützt" für das Gerät auf [Google Play](http://play.google.com) angezeigt: 
