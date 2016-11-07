@@ -1083,49 +1083,77 @@
             title: How to setup my device to get the best possible location?
             content: |
                 Android has different mechanisms to provide location information to apps:
-
+                
                 1. Network based location information derived from Wifi signals and mobile networks
                 2. GPS position information derived from the device GPS receiver
-
+                
                 You should make sure to enable both of these sources to get the best possible location information in c:geo in every situation.
-                This can usually be done in your device settings (not in c:geo itself) in a menu called "Locations" or similar.
-                Please select all possible sources in that menu or (in newer Android versions) select the "High accuracy mode".
-
+                This can usually be done in your device settings (not in c:geo itself) in a menu called "Locations" or similar. You can also reach this menu by clicking on the GPS status shown on the lower corner of the c:geo main screen.
+                
+                Please select all possible sources in that menu or (in newer Android versions) select the "High accuracy mode". 
                 Furthermore you should check if your device supports "Google Play Services" and eventually enable the usage of that in c:geo: \\
                 Menu → Settings → System → "Use Google Play Services"
-
-
+        de:
+            title: Wie stelle ich mein Gerät ein um die bestmögliche Lokalisierung zu haben?
+            content: |
+                Android hat verschiedene Mechanismen um Lokalisierungs-Informationen an Apps zu liefern:
+               
+                1. Netzwerkbasierte Lokalisierung abgeleitet aus WLAN-Signalen und den Mobilfunknetzen 
+                2. GPS-Positionsinformationen abgeleitet aus dem GPS-Empfänger des Gerätes
+                
+                Stelle sicher, dass du beide Quellen aktiviert hast um in jeder Situation die bestmögliche Positionsbestimmung in c:geo zu erhalten.
+                Dies kann normalerweise in den Geräte-Einstellungen (nicht in c:geo selbst) in einem Menü namens "Lokalisierung" oder ähnlich ausgewählt werden. Diese Einstellungen erreichst man auch mit einem Klick auf den GPS-Status in der unteren Ecke des c:geo Hauptbildschirms. 
+                
+                Bitte wähle dort alle verfügbaren Quellen oder (in neueren Android-Versionen) wähle den Modus "Hohe Genauigkeit".
+                Weiterhin sollte man prüfen ob das Gerät die "Google Play-Dienste" unterstützt und ggf. deren Nutzung in den c:geo Einstellungen aktivieren:\\
+                Menü → Einstellungen → System → "Google Play-Dienste nutzen"
       - id: battery
         en:
             title: c:geo is draining my battery when I use it!
             content: |
                 Of course c:geo needs quite some battery power as it utilizes almost all sensors of your device to always determine the current position and direction as needed for Geocaching.
                 Nevertheless we implemented sophisticated methods to optimize the power consumption over the last years.
-
                 If you want to further minimize the battery consumption you can additionally active the low-power mode as described in [this FAQ entry](./faq.html#gps-highpower).
-
-
+        de:
+            title: c:geo saugt meinen Akku leer, wenn ich es nutze!
+            content: |
+                Natürlich verbraucht c:geo einiges an Akkuladung, da es fast alle Sensoren des Gerätes verwendet um ständig die für das Geocaching notwendige aktuelle Position und Richtung zu bestimmen.
+                Dennoch haben wir in den letzten Jahren hochentwickelte Methoden integriert um den Akkuverbrauch zu optimieren.
+                Wenn man den Akkuverbrauch weiter minimieren möchte, kann man zusätzlich wie in [diesem FAQ-Eintrag](./faq.html#gps-highpower) beschrieben den Energiesparmodus aktiveren
       - id: battery-drain
         en:
             title: c:geo is even draining my battery when I do not use it!
             content: |
                 Your assumption is probably based on the fact that your Android battery statistics sometimes show a high percentage of battery drain for c:geo even if you did not recently use it.
                 This is caused by a well known bug within these measurement routines in Android:
-
                 Sometimes the statistic collector misses to detect when an app stops using the phone sensors (this affects not only c:geo but all apps with high sensor usage).
                 Because of this it keeps counting the app as running and consuming power for the sensors even if it was closed long time ago.
                 These faulty battery statistics will only be "fixed" by a restart of your device.
-
-
+        de:
+            title: c:geo saugt sogar meinen Akku leer, wenn ich es nicht nutze!
+            content: |
+                Diese Annahme beruht vermutlich darauf, dass die Android Batterie-Statistiken manchmal für c:geo eine hohe Prozentzahl des Akkuverbrauchs anzeigen auch wenn c:geo nicht kürzlich genutzt wurde. 
+                Dies wird durch einen wohlbekannten Fehler in den Messroutinen in Android verursacht:
+               
+                Machmal verpaast der Statisik-Sammler festzustllen, dass eine App aufhört die Telefon-Sensoren zu verwenden (dies betrifft nicht nur c:geo sondern alle Apps mit hoher Sensor-Nutzung).
+                Darum zählt er diese App weiterhin als aktiv und Strom für Sensoren verbrauchend auch wenn sie bereits vor längerer Zeit geschlossen wurde. 
+                Diese fehlerhaten Akku-Statistiken können nur "behoben" werden in dem man das Gerät neu startet.
+                
       - id: gps-powersafe
         en:
             title: Why is GPS deactivated when I lock the screen or switch to another app?
             content: |
                 While you are using c:geo GPS should always be active except if you are in the settings menu.
                 Only if you put your device to standby (switch off the screen) or switch to another app GPS will be deactivated to save battery.
-
                 We have no plans to change this behavior or introduce another setting for this.
                 If you whish to keep GPS always on, we recommend to use a dedicated app for this (e.g. [GPS Lock](https://play.google.com/store/apps/details?id=com.silentlexx.gpslock)).
+        de:
+            title: Warum wird GPS deaktiviert wenn ich den Bildschirm sperre oder zu einer anderen App wechsele?
+            content: |
+                Während der Nutzung von c:geo ist das GPS außer in den Einstellungen immer aktiviert.
+                Nur wenn man das Gerät in den Bereitschaftsmodus (Ausschalten des Bildschirms) schaltet oder zu einer anderen Anwendung wechselt, wird das GPS deaktiviert um Strom zu sparen.
+                Wir planen nich dieses Verhalten zu ändern oder eine weitere Einsttellung dafür einzuführen.
+                Wenn man das GPS immer aktiv halten möchte, empfehlen wir eine dedizierte App dafaür zu nutzen (z.B. [GPS Lock](https://play.google.com/store/apps/details?id=com.silentlexx.gpslock)).
 
 
       - id: gps-highpower
