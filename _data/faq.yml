@@ -480,7 +480,27 @@
 
                 Unfortunately there is no standardized method to find the location of a real SD card on your device. There are some workarounds but those might fail on some devices, thus we decided not to implement them for now.
                 Furthermore starting with Android 4.4 write access to the real SD card is forbidden for apps.
-        
+        de:
+            title: Daten von c:geo werden immer im internen Speicher abgelegt!
+            content: |
+                Es gibt zwei Dinge, die wir auf deinem Gerät speichern:
+
+                1. Die Geocache-Datenbank, welche im grob gesagt den Inhalt deiner Listen enthält:
+
+                    Diese Datenbank wird in einem internen Ordner auf deinem Gerät gespeichert (nicht zugänglich ohne Root-Zugriff). Typischerweise hat diese Datenbank nur die Größe von wenigen Megabyte.
+                    Du kannst in den c:geo Einstellungen auswählen, ob diese Datenbank intern oder auf deiner SD-Karte gespeichert werden soll.
+                    
+                2. Die zusätzlichen Daten (z.B. Bilder, Karten) für alle gespeicherten Caches in der Datenbank:
+
+                    Diese zusätzlichen Daten können viel größer sein, da sie die Bilder der Cachebeschreibung und (optional) die Logbilder und (optional) die statischen Karten enthalten.
+                    Die Daten werden standardmäßig auf deiner SD_Karte (im Order ".cgeo") gespeichert.
+                    
+                Einige Nutzer klagen darüber, dass sich die zusätzlichen Daten und die Datenbank (wenn externe Speicherung gewählt ist) dennoch im internen Speicher ihres Gerätes befinden.
+                Wir speichern den zugehörigen Order auf dem Speichermedium, welches uns Android als SD-Karte mitteilt. Und inder Tat ist dies technisch auf manchen Geräte weiterhin ein Teil des internen Speichers, der als SD-Karte gekennzeichnet ist (Es ist eine Art SD-Karte, die fest in deinem Gerät integriert ist).
+                
+                Leider gibt es keine standardisierte Methode um den Speicherort der realen SD-Karte auf deinem Gerät zu finden. Es gibt einige Hilfslösungen aber diese könnten auf manchen Geräten nicht funktionieren; daher haben wir für den Moment entschieden diese nicht zu implementieren.
+                Darüberhinaus ist es für Apps seit Android-Version 4.4. generell verboten Daten auf die SD-Karte zu schreiben.
+     
       - id: facebook-login
         en:
             title: Can I login using my Facebook account?
