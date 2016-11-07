@@ -407,7 +407,7 @@
 
                 The conversion from and to UTM notation is currently not supported by c:geo. In case you need to convert coordinates to UTM you can copy the cache coordinates by long tap on them to perform conversion in another app.
        
-       de:
+        de:
             title: Welche Koordinatenformate werden von c:geo unterstützt?
             content: |
                 c:geo unterstützt Geokoordinaten in den folgenden Formaten:
