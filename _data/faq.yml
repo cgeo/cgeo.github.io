@@ -510,7 +510,14 @@
 
                 In case you currently only use Facebook to login to geocaching.com, you have to go to the [Password Reset Page](https://www.geocaching.com/login/password.aspx) to set up a regular password first.
                 After you got this password you can use it together with your username to log in with c:geo.
-
+        de:
+            title: Kann ich mich mit meinem Facebook-Account anmelden?
+            content: |
+                Nein, die Anmeldung über Facebook ist nur auf der Geocaching-Webseite möglich.
+                Um dich in c:geo bei geocaching.com anzumelden benötigst du einen Nutzernamen und Kennwort von dieser Seite.
+                
+                Wenn du dich bislang nur über Facebook bei geocaching.com angemeldet hast, gehe bitte auf ihre [Passwort-Reset Seite](https://www.geocaching.com/login/password.aspx) und fordere dort ein reguläres Passwort an.
+                Wenn du dieses Passwort erhalten hast, kannst du es zusammen mit deinem Benutzernamen in c:geo für die Anmeldung verwenden.
 
       - id: facebook-share
         en:
@@ -523,7 +530,16 @@
                 Doing so all your tweets will also be posted on Facebook (including the c:geo tweets).
 
                 You can find more info on the [Twitter support website](https://support.twitter.com/articles/31113-using-twitter-with-facebook/).
+        de:
+            title: Kann c:geo auf Facebook posten?
+            content: |
+                Nein, momentan untersützt c:geo nur Twitter als soziales Netzwerk.
+                Da das Entwickler-Team nur bgrenzte Ressourcen hat, fokussieren wir uns auf neue Geocaching-Features und habe keine Pläne eine Facebook-Verbindung in c:geo zu integrieren.
+                
+                Dennoch gibt es einen Weg auf Facebook zu posten, wenn du bereits Twitter-Nutzer bist, da du Twitter mit Facebook verknüpfen kannst.
+                Wenn du dies machst werden alle Tweets auch auf Faebook gepostet (inklusive der c:geo Tweets).
 
+                Mehr Informationen dazu findest du auf der [Twitter-Support Webseite](https://support.twitter.com/articles/31113-using-twitter-with-facebook/).
 
       - id: translation-missing
         en:
@@ -533,19 +549,14 @@
                 If you see untranslated (i.e. English) or wrong strings or your language is not even supported, you are invited to contribute on this platform!
 
                 Just create a free account on [Crowdin](https://crowdin.com/) and start contributing translations or vote for existing proposals to the [c:geo Crowdin Project](https://crowdin.com/project/cgeo).
-
-
-      - id: logs-truncated
-        en:
-            title: Logs made with c:geo are truncated on the website!
+        de:
+            title: Es fehlen Übersetzungen oder sie sind falsch!
             content: |
-                Especially on [geocaching.com](http://www.geocaching.com/) it may happen that log texts are interpreted as HTML code although they are not written in HTML. \\
-                If you e.g. include a "<" or ">" sign in your log, it may appear truncated or bad formatted later. This does not only affect c:geo but also if you write this kind of log directly on the website.
-                Reason for this is a bad implementation for HTML detection on the website, but no fault in c:geo.
-
-                You need either to avoid such special characters in your log or use HTML-formatted logs to work around this problem.
-
-
+                Wir nutzen eine offene Übersetzungs-Plattform um die Übersetzungen in c:geo zu verbessern und sogar neue Sprachen zu implementieren.
+                Wenn dir nicht übersetzte (also nur in englisch vorhande) oder falsche Wörter auffallen oder deine Sprache noch gar nicht unterstützt wird, bist du eingeladen uns auf dieser Plattform zu unterstützen!
+                
+                Lege dazu einfach einen kostenlosen Zugang bei [Crowdin]((https://crowdin.com/) an und füge Übersetzungen hinzu oder stimme über existierende Vorschläge in [unserem c:geo Crowdin Projekt](https://crowdin.com/project/cgeo) ab.
+                
       - id: gpx-search-long
         en:
             title: Scanning for GPX files takes a long time!
@@ -553,11 +564,20 @@
                 c:geo scans the whole SD card if it cannot find gpx files in the predefined folder.
                 If you have a lot of files and folders on your SD card this scanning might take some time.
 
-                It is useful to put all of your PQs into a specific folder and set this as the default import directory for gpx imports. This folder will be scanned first which will speed up the process.
+                It is useful to put all of your gpx files into a specific folder and set this as the default import directory for gpx imports. This folder will be scanned first which will speed up the process.
 
                 You can specify the GPX import and export folders in the settings of c:geo: \\
                 Menu → Settings → System → "GPX Export Directory" / "GPX Import Directory"
+        de:
+            title: Die Suche nach GPX-Dateien dauert sehr lange!
+            content: |
+                c:geo dursucht die gesamte SD-Karte, wenn es keine GPX-Dateien in einem eingestellten Ordner findet.
+                Wenn du viele Dateien und Ordner auf deiner SD-Karte hast kann diese Suche eine Weile dauern.
 
+                Es ist daher nützlich, wenn du all deine GPX-Dateien in einen speziellen Ordner speicherst und diesen als Standard-VOrdner für GPX-Importe in c:geo angibst. Dieser Ordner wird als erstes durchsucht, was den Prozess beschleunigt.
+
+                Die Standard-Ordner für den GPX-Import und Export kannst du in den Einstellungen von c:geo setzen:\\
+                Menü → Einstellungen → System → "Verzeichnis für GPX-Importe" / "Verzeichnis für GPX-Exporte"
 
       - id: log-to-devs
         en:
@@ -573,7 +593,19 @@
                 On higher Android versions Google disabled the logging ability for security reasons except your device is rooted.
 
                 Please find a detailed description of how to get a log in our [GitHub Wiki](https://github.com/cgeo/cgeo/wiki/Send-log-to-developers).
-
+        de:
+            title: Wie sende ich ein Logfile an die Entwickler?
+            content: |
+                Wenn die App nicht so funktioniert wie es sein sollte, kannst du ein Logfile an die Entwickler schicken.
+                
+                Wenn c:geo abstürzt oder nicht ordnungsgemäß arbeitet, schreibt es Debug-Nachrichten in ein Android-Logfile wenn diese Option in den c:geo Einstellungen aktiviert ist.
+                Dieses Log enthält Nachrichten aller Apps für einen kurzen Zeitabschnitt (zwischen einigen Sekunden bis zu einigen Minuten).
+                Daher ist es für uns wichtig ein Logfile so schnell wie möglich zu sichern, nachdem der Absturz aufgetreten ist.
+                
+                Bitte beachte, dass dein Gerät eine Android-Version kleiner als 4.1 haben muss um ein vernünftiges Logfile zu erzeugen.
+                Bei höheren Android-Versionen hat Google die Log-Funktionalität aus Sicherheitsgründen eingeschränkt außer dein Gerät ist gerootet.
+                
+                Eine detailierte Beschreibung, wie du ein Logfile erstellst findest du in unserem [GitHub Wiki](https://github.com/cgeo/cgeo/wiki/Send-log-to-developers).
 
       - id: hide-caches
         en:
