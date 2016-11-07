@@ -613,26 +613,45 @@
             content: |
                 Publishing a new cache with c:geo is not possible and there are no plans to implement this function.
                 However you can still use c:geo to record waypoints to help you planning your cache hide.
-                To do so simply use the 'Go to' function which offers a history of the coordinates you entered.
+                To do so simply use the 'Go to' function which offers a history of the coordinates you entered there.
 
                 There are also other apps available on [Google Play](https://play.google.com/) helping you to record and average coordinates for your new cache (e.g. [GPS Averaging](https://play.google.com/store/apps/details?id=org.destil.gpsaveraging) or [Geocache Placer](https://play.google.com/store/apps/details?id=dk.rocologo.geocacheplacer)).
 
                 In order to e.g. beta-test an unpublished cache you will not be able to access the cache online (because it is unpublished) but you can import the cache via GPX or add the cache waypoints manually to another cache already stored on your device.
                 Furthermore you can view your own unpublished caches with c:geo by searching for its geocode online.
+        de:
+            title: Kann ich mit c:geo einen Cache verstecken und veröffentlichen?
+            content: |
+                Das Veröffentlichen eines Caches mit c:geo ist nicht möglich und es gibt keine Pläne diese Funktion zu integrieren.
+                Allerdings kannst du c:geo jedoch nutzen um Wegpunkte zu speichern, was dich bei der Cacheplanung hilft.
+                Um dies zu tun, nutze einfach die "Gehe zu"-Funktion, die dir eine Historie der dort eingegebenen Koordinaten zur Verfügung stellt.
+                
+                Es gibt auch andere Apps auf [Google Play](https://play.google.com/), die dir helfen Koordinaten für deinen neuen Cache zu mitteln und zu speichern (z.B. [GPS Averaging](https://play.google.com/store/apps/details?id=org.destil.gpsaveraging) oder  [Geocache Placer](https://play.google.com/store/apps/details?id=dk.rocologo.geocacheplacer)).
 
+                Wenn du z.B. einen Beta-Test eines noch nicht veröffentlichten Caches machen möchtest, kannst du noch nicht Online auf den Cache zugreifen (da er noch nicht veröffentlicht ist) aber du kannst den Cache per GPX-Datei importieren oder die Wegpunkte manuell zu einem auf deinem Gerät gepeicherten Cache hinzufügen.
+                Weiterhin kannst du deine eigenen unveröffentlichen Caches mit c:geo öffnen, indem du online nach dem Geocode suchst.
 
       - id: not-able-to-post-log
         en:
-            title: I am not able to post a log online!
+            title: I am not able to post my log online!
             content: |
                 If you select the menu icon to send your log and you get a message saying "Download of data in progress..." the log page on the server was not yet loaded.
                 Check if you have an Internet connection and wait a moment until the required data has been loaded and then try again to send your log.
 
-                In case you cannot establish an Internet connection or the geocaching server is down you can also select to just save the log on your device and send it later by reaccessing the log page.
+                In case you cannot establish an Internet connection or the geocaching server is down you can also select to just save the log on your device and send it later by reaccessing the log page in c:geo.
                 To do this just press back on your device, the log will automatically be saved.
 
                 You can also batch submit offline stored logs as fieldnotes to the geocaching website at a later point of time.
+        de:
+            title: Ich kann mein Log nicht online absenden!
+            content: |
+                Wenn du die Schaltfläche zum Senden deines Logs wählst und die Nachricht "Daten werden heruntergeladen..." siehst wurde die Logseite noch nicht vom Server geladen.
+                Prüfe ob du eine Internetverbindung hast und warte einen Moment bis die notwendigen Daten geladen wurden bevor du es erneut versuchst.
 
+                Wenn du keine Internetverbindung herstellen kannst oder die Geocaching-Webseite nicht erreichbar ist, kannst du auch auswählen dein Log auf dem Gerät zu speichern. Um es später zu senden, rufe erneut die Logseite in c:geo auf.
+                Um dein Log auf dem Gerät zu speichern drücke einfach die Zurück-Taste.
+
+                Du kannst gespeicherte Logs auch zu einem späteren zeitpunkt in einem Rutsch als Feldnotizen auf die Geocaching-Webseite hochladen.
 
       - id: hide-pm-caches
         en:
@@ -643,7 +662,14 @@
 
                 The only possibility is to hide them in your lists and search results by applying a local filter in c:geo: \\
                 Menu → Filter → Status → "All member access"
+        de:
+            title: Wie kann ich Caches für Premium-Mitglieder ausblenden?
+            content: |
+                Auf geoacching.com sind manche Caches nur für Premium-Mitglieder zugreifbar. Wenn du Basis-Mitglied bist siehst du dennoch diese Caches in den Suchresultaten und auf der Live-Karte, die du aber nicht öffnen kannst.
+                Leider ist es aufgrund von Einschränkungen der Webseite nicht möglich sie standardmäßig auszublenden. 
 
+                Die einzige Möglichkeit sie in deinen Listen uns Suchresultaten auszublenden ist es einen lokalen Filter in c:geo zu setzen:\\
+                Menü → Filter → Status → "Für alle Mitglieder"
 
       - id: icons-on-lists
         en:
@@ -664,8 +690,26 @@
                 Symbol with number in the upper half:
 
                 The symbol is a marker which is only shown if the cache contains trackables.
-                The number right next to it is the amount of trackables listed in this cache.
+                The number right next to it is the amount of trackables listed in this cache.   
+        de:
+            title: Welche Bedeutung haben die Symbole auf der rechten Seite der Cachelisten?
+            content: |
+                Wenn du die eine Cacheliste (ein Suchresultat oder auf deinem Gerät gespeicherte Caches) anschaust, siehst du auf der rechten seite einige Smybole, Farben und Zahlen.
+                Hier ist eine kurze Erklärung der Bedeutung:
+                
+                Farbe in der unteren Hälfte:
 
+                Die Farbe repräsentiert die durchschnittliche [GCVote](http://www.gcvote.com)-Bewertung dieses Caches, wobei grün eine gute (>3,5 Sterne), braun eine durchschnittliche (zwischen 2,5 und 3,5 Sternen) und rot eine schlechte (<2,5 Sterne) Bewertung bedeutet.
+                Wenn keine Farbe angezeigt wird, hat der Cache noch keine Bewertungen oder er wird von GCVote noch nicht unterstützt (GCVote unterstützt momentan nur geocaching.com Caches).
+
+                Zahl in der unteren Hälfte:
+
+                Die Zahl in diesem Feld sind die Favoritenpunkte auf geoaching.com oder die Empfehlungen auf opencaching.x, die diesem Cache von den Nutzern gegeben wurde.
+                
+                Symbol mit Zahl in der oberen Hälfte:
+
+                Das Symbol ist eine Markierung, die nur angezeigt wird wenn der Cache einen Trackable enthält.
+                Die Zahl direkt daneben ist die Anzahl der Trackables, die in diesem Cache gelistet sind.
 
       - id: stopped-working
         en:
@@ -674,18 +718,38 @@
                 There can be several reasons that c:geo is not working as it should.
                 You should do the following steps:
 
-                First of all please check if you are using the latest version (check on [Google Play](https://play.google.com/store/apps/details?id=cgeo.geocaching) for updates or load the latest version directly from [here](https://github.com/cgeo/cgeo/releases/latest)). If a new version is available you should also see an update notification on the c:geo main screen.
-                If you are using an outdated version please update, because there might be changes on the geocaching website which need a new version of c:geo to work.
+                First of all please check if you are using the latest version. Check on [Google Play](https://play.google.com/store/apps/details?id=cgeo.geocaching) for updates or load the latest version directly from [here](https://github.com/cgeo/cgeo/releases/latest). If a new version is available you should also see an update notification on the c:geo main screen.
+                If you are using an outdated version please update, because there might be changes on the geocaching website which need a new version of c:geo.
 
                 Please check if your device is connected to the Internet and also try other connections (e.g. Wifi instead of mobile network or vice versa).
                 If c:geo works on another connection there seems to be a problem with your network.
 
                 Go to c:geo settings (Menu → Settings → Services) and check your login.
                 If it fails please make sure you are using the correct login credentials. Those are the same you use for the geocaching website.
-
+                Furhte information regarding login problems can be found in [this FAQ entry](./faq.html#newbie).
+                
                 Check if there are any notifications about problems shown on the c:geo main screen and check our [Facebook page](https://www.facebook.com/android.geocaching) to see if others also have a problem and/or we reported a known problem there.
+                
+                If your problem is still not solved, please [contact](./support.html) us and provide a detailed description of your problem and what you tried already to solve it. We will answer as soon as possible.
+        de:
+            title: c:geo funktioniert plötzlich nicht mehr!
+            content: |
+                Es kann verschiedene Gründe geben, dass c:geo nicht so funktioniert wie es sollte.
+                Du solltest folgendermaßen vorgehen:
 
-                If your problem is still not solved, please contact us and provide a detailed description of your problem and what you tried already to solve it. We will answer as soon as possible.
+                Als Allererstes prüfe bitte, ob du die neueste Version von c:geo nutzt. Prüfe [Google Play](https://play.google.com/store/apps/details?id=cgeo.geocaching) auf Updates oder lade dir die neueste Version direkt von [hier](https://github.com/cgeo/cgeo/releases/latest). Wenn eine neue Version verfügbar ist, solltest du auch einen Update-Hinweis im c:geo Hauptmenü sehen.
+                Wenn du eine veraltete Version benutzt, dann aktualisiere diese bitte, denn es kann Änderungen auf der Geocaching-Webseite geben, die eine neue c:geo Version erfordern.
+                
+                Bitte prüfe ob dein Gerät eine Internetverbindung hat und versuche auch andere Verbindungen (z.B. WLAN anstelle des Mobilfunknetzes oder umgekehrt).
+                Wenn c:geo mit einer anderen Verbindung funktioniert, gibt es wahrscheinlich ein Problem mit deiner Netzverbindung.
+
+                Gehe in die c:geo Einstellungen (Menü → Einstellungen → Dienste) und prüfe deine Anmeldung.
+                Wenn diese fehlschlägt stelle sicher, dass du die korrekten Nutzerdaten eingegeben hast. Dies sind die gleichen Daten, die du auf der Geocaching-Webseite nutzt.
+                Weitere Informationen zu Problemen bei der Anmeldung findest du in [diesem FAQ-Eintrag](./faq.html#newbie).
+
+                Prüfe ob es irgendeine Mitteilung über Probleme mit c:geo im c:geo Hautpmenü gibt und prüfe auch unsere [Facebook-Seite](https://www.facebook.com/android.geocaching) um zu sehen, ob andere Nutzer auch ein Problem haben oder wir bereits von dem Problem wissen.
+
+                Wenn dein Probelem immer noch nicht behoben ist, [kontaktiere](./support.html) uns bitte mit einer detailierten Fehlerbeschreibung und den Punkten, die du bereits geprüft hast. Wir bemühen uns so schnell wie möglich zu antworten.
 
 
       - id: nearby-far-away
@@ -695,10 +759,18 @@
                 Besides geocaching.com c:geo is also supporting opencaching platforms for several countries.
                 If you activate the opencaching service in the c:geo settings the nearby search will also provide you the nearest opencaching caches.
 
-                If you however accidentally activate an opencaching platform of a foreign country (e.g. you are living in Germany and have activated  "opencaching.ro" in Romania) you will see caches some hundred kilometers away in the nearby list as those are the nearest caches on this platform.
+                If you however accidentally activate an opencaching platform of a foreign country (e.g. you are living in Germany and have activated  opencaching.ro for Romania) you will see caches some hundred kilometers away in the nearby list as those are the nearest caches on this platform.
                 In this case please deactivate the unneeded opencaching platforms in: \\
-                Menu → Settings → Services → "Opencaching.xx".
+                Menu → Settings → Services → opencaching.xx
+        de:
+            title: Die Nachbereichssuche zeigt auch Caches, die weit entfernt sind!
+            content: |
+                Neben geoaching.com unterstützt c:geo auch Opencaching-Plattformen in verschiedenen Ländern.
+                Wenn du den Opencaching-Dienst in den c:geo Einstelllungen aktivierst, dann liefert die Nahbereichssuche auch die nächstgelegenen Opencaching-Caches zurück.
 
+                Wenn du nun allerdings eine Opencaching-Plattform in einem anderen Land aktivierst (z.B. du wohnst in Deutschland aber hast opencaching.ro für Rumänien) werden in der Nachbereichsliste auch Caches dieser Plattform angezeigt, die mehrere hundert Kilometer entfernt liegen, da dies die nächstgelegenen Cahes auf dieser Plattform sind.
+                In diesem Fall deaktivere bitte die nicht benötigten Opencaching-Plattformen unter:\\
+                Menü → Einstellungen → Dienste → opencaching.xx
 
       - id: no-coords
         en:
@@ -712,23 +784,46 @@
 
                 Additionally you will not be able to show a map of those results or directly navigate to a cache as c:geo does not have the coordinates for these caches.
 
-                To get exact coordinates as a basic member you have to open the details or save the geocache to your device. This will automatically request the exact coordinates.
+                To avoid all of this and get correct coordinates as a basic member you have to open the details or save the geocache to your device. This will automatically request the exact coordinates.
 
-                If you are premium member and c:geo does not know the location of a cache, please check your login and relogin to make sure c:geo knows you are a premium member.
+                If you are premium member and c:geo does not know the location of a cache, please check your [login](./faq.html#login-failed) and relogin to make sure c:geo knows you are a premium member.
+        de:
+            title: c:geo kennt die Koordinaten eines Caches nicht!
+            content: |
+                Wenn du Basis-Mitglied von geoacching.com bist und versuchst direkt aus den Suchresultaten zu einem Cache zu navigieren, könntest du diese Fehlermeldung sehen.
 
+                Wenn du kein Premium-Mitglied bist, stellt die Geocaching-Webseite keine Koordiaten sondern nur eine Abschätzung des Standortes und ein "Richtungsbild" in der Suche zur Verfügung.
+                c:geo nutzt diese Entfernungs-Abschätzung und das "Richtungsbild" und zeigt es in den Suchergebnissen.
+                Die Caches werden weiterhin nach Entfernung sortiert, aber beachte, dass dies nur die Entfernung von deinem Standort zum Zeitpunkt der Suche ist. Sie wird sich nicht ändern, wenn du deine Position veränderst.
+
+                Zusätzlich wird es nicht möglich sein eine Karte dieser Suchresultate aufzurufen oder direkt zu einem Cache zu navigieren, da c:geo die Koordination dieser Caches nicht kennt.
+
+                Um das alles zu vermeiden und als Basis-Mitglied genaue Koordinaten zu erhalten, musst du die Cache-Details öffnen oder den Geocache auf deinem Gerät speichern. Dies ruft automatisch die genauen Koordinaten ab.
+
+                Wenn du Premium-Mitglied bist aber c:geo dennoch die Koordinaten eines Caches nicht kennt, dann prüfe bitte deine [Anmeldaten](./faq.html#login-failed) in c:geo und melde dich neu an, damit c:geo merkt, dass du Premium-Mitglied bist.
 
       - id: ignore-cache
         en:
             title: What is the "Ignore cache" function and how does it work?
             content: |
-                Since c:geo version 2015.09.15 c:geo supports adding caches to the ignore list on geocaching.com.\\
-                As this is a premium feature of geocaching.com it can only be used by premium members of geocaching.com.
+                c:geo supports adding caches to the ignore list on geocaching.com.\\
+                As this is a premium feature of geocaching.com it can only be used by premium members.
 
                 To add a cache to your ignore list open the cache details in c:geo and use Menu → Ignore Cache.
                 Afterwards this cache will no longer be returned in searches and on the live map in c:geo. Additionally it will be deleted from your device if it was stored before.
 
                 Unignoring the cache will only be possible by accessing your list of ignored caches on your [geocaching.com bookmark page](http://www.geocaching.com/bookmarks/) and removing the cache from this list.
+        de:
+            title: Was ist die Funktion "Cache ignorieren" und wie funktioniert sie?
+            content: |
+                
+                c:geo unterstützt es Caches zur Ignore-Liste auf geoaching.com hinzuzufügen.\\
+                Da dies eine Premium-Funktion auf geocaching.com ist, kann sie nur von Premium-Mitgliedern genutzt werden.
 
+                Um einen Cache zu deiner Igonre-Liste hinzuzufügen öffne die Cache-Details in c:geo und nutze Menü → Cache ignorieren.
+                Danach wird dieser Caches nicht mehr in den Suchergebnissen und auf der Live-Karte angezeigt. Weiterhin wird er von deinem Gerät gelöscht, wenn er vorher gespeichert war.
+
+                Diesen Cache nicht mehr zu ignorieren ist nur noch möglich, indem du die Liste der ignorierten Caches in deiner [Lesezeichen-Übersicht](http://www.geocaching.com/bookmarks/) auf geocaching.com und den Cache von dieser Liste löscht.
 
       - id: delete-account
         en:
@@ -736,7 +831,11 @@
             content: |
                 c:geo is only a client for several geocaching platforms and does not hold own accounts or logins.
                 To delete or disable your account you have to consult the website of the geocaching platform (e.g. on [this page](https://www.geocaching.com/account/settings/membership) of geocaching.com).
-
+        de:
+            title: Wie lösche ich meinen Zugang?
+            content: |
+                c:geo ist nur ein Browser für verschiedene Geocaching-Plattformen und hat keine eigenen Zugänge oder Anmeldungen.
+                Um deinen Zugang zu deaktivieren oder löschen musst du die Webseite der von dir genutzten Geocaching-Plattform aufsuchen (z.B. [diese Seite](https://www.geocaching.com/account/settings/membership) auf geocaching.com).
 
       - id: modified-coords
         en:
@@ -745,14 +844,27 @@
                 Most of the time when you solve a puzzle for a mystery cache you might want to store the real final coordinates until you go out and log the cache.
                 Although each user might handle this different, we recommend to use a helpful feature of [geocaching.com](https://www.geocaching.com).
 
-                Premium members of [geocaching.com](https://www.geocaching.com) can store the real final coordinates of solved mystery caches (also working for multi caches) on the website by clicking on the small pencil icon right next to the listing coordinates.\\
+                Premium members of [geocaching.com](https://www.geocaching.com) can store the real final coordinates of solved mystery caches (also working for all other cache types) on the website by clicking on the small pencil icon right next to the listing coordinates.\\
                 Once you have stored the real final coordinates on the website they will also be available in c:geo once you store/refresh the cache.
                 This means, that c:geo will display the cache icon on the real final coordinates and only have an additional waypoints referring to the listing coordinates.
 
                 Of course this is also working the other way around:\\
-                Open a mystery/multi cache in c:geo and create a new waypoint with the real final coordinates. Before saving the waypoint click the selection "Set as cache coordinates in c:geo and on website".\\
+                Open a cache in c:geo and create a new waypoint with the real final coordinates. Before saving the waypoint click the selection "Set as cache coordinates in c:geo and on website".\\
                 Once you saved the waypoint the real final coordinates will be uploaded to the website.
+        de:
+            title: Wie verwalte ich meine gelösten Mysteries mit c:geo?
+            content: |
+                In den meisten Fällen möchtest du nach dem Lösen eines Rätsels für einen Mystery-Cache die realen Final-Koordinaten speichern, bis du nach draußen gehst und den Cache loggst.
+                Obwohl dies jeder Nutzer unterschiedlich handhabt, empfehlen wir eine hilfreiche Funktion von [geocaching.com](https://www.geocaching.com) zu nutzen.
 
+                Premium-Mitglieder von [geocaching.com](https://www.geocaching.com) können die realen Final-Koordinaten ihrer gelösten Mystery-Caches (aber auch für alle anderen Cache-Typen) auf der Webseite abspeichern, indem man das kleine Bleistift-Symbol direkt neben den Listing-Koordiaten nutzt.\\
+                Nachdem man dort die realen Final-Koordinaten gespeichert hast, sind diese auch in c:geo verfügbar wenn man den Cache speichert bzw. aktualisiert. 
+
+                Das bedeutet, dass c:geo das Cache-Symbol an den realen Final-Koodinaten anzeigt und die Listing-Koordinaten nur noch als weiterer Wegpunkt des Caches angezeigt werden.
+
+                Natürlich funktioniert das auch andersherum:\\
+                Öffne einen Cache mit c:geo und erstelle einen neuen Wegpunkt mit den realen Final-Koordinaten. Bevor du diesen speicherst, wähle die Option "Als Cache-Koodinaten in c:geo und auf der Webseite setzen" aus.\\
+                Nachdem du den Wegpunkt gespeichert hast, werden die realen Final-Koordinaten auf die Webseite hochgeladen.
 
       - id: missing-data-gpx
         en:
@@ -766,12 +878,27 @@
                 - Friends / Own logs
                 - Favorite points
                 - Spoiler and Log images
-                - Watchlist
-                - GC Vote
-                - Trackables / Inventory
+                - Status of your watchlist
+                - GCVote rating
+                - Trackable inventory
 
-                These information can be downloaded by initiating a manual "Refresh", either individually cache by cache or for all caches in a list.
+                These information can be downloaded by manual "Refresh", either individually cache by cache or for all caches in a list.
+        de:
+            title: Fehlenden Daten nach dem Importieren von Caches per GPX (PQ)!
+            content: |
+                Wenn man Caches als GPX-Datei (z.B. Herunterladen einer Pocket-Query) importiert, fehlen einige Daten. Das ist so, weil das GPX-Dateiformat nicht jede Information enthält, die online verfügbar ist.
 
+                Die folgenden Informationen fehlen oder sind nicht komplett:
+
+                - Einige Logs (nur die fünf neuesten Logs werden mitgliefert)
+                - Freundes- und Eigene Logs
+                - Favoritenpunkte
+                - Spoiler- und Logbilder
+                - Status deiner Beobachtungsliste
+                - GCVote-Bewertung
+                - Trackable-Inventar
+
+                Diese Informationen können mit einer Aktualisierung einzelner oder der gesamten Cache-Liste heruntergeladen werden.
 
 - id: installation-and-update
   title:
