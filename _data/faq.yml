@@ -1043,10 +1043,15 @@
         en:
             title: Is c:geo available for iOS or Windows Phone?
             content: |
-                No, c:geo is written for Android and has more than 50 000 lines of code. We will not port it to iOS or other non Android systems because it is too much work. Furthermore the iOS AppStore / Apple is very restrictive and most of us don't like it.
+                No, c:geo is written for Android and has more than 50,000 lines of code. We will not port it to iOS or other non Android systems because it is too much work. Furthermore the iOS AppStore / Apple is very restrictive and most of us don't like it.
 
                 But c:geo is open source! That means that everyone can get the code from [GitHub](https://github.com/cgeo/cgeo) and rewrite it for other operating systems. Feel free to port (and maintain) it, but be aware of the [open source license terms](./development.html).
-
+        de:
+            title: Gibt es c:geo auch für iOS oder WindowsPhone?
+            content: |
+                Nein, c:geo ist für Android geschrieben und hat mehr als 50.000 Code-Zeilen. Wir werden es nicht nach iOS oder auf andere Nicht-Android-Systeme portieren, weil es für uns einfach zu viel Arbeit ist. Weiterhin ist der iOS-Appstore bzw. Apple sehr restriktiv und die meisten von uns mögen das nicht.
+                
+                Aber c:geo ist quelloffen! Das bedeutet, dass jeder den Quellcode von [GitHub](https://github.com/cgeo/cgeo) beziehen und ihn dann für andere Betriebssysteme umschreiben kann. Du kannst gerne den Code portieren (und warten), aber beachte die [OpenSource-Lizenzbedingungen](./development.html)
 
       - id: blackberry
         en:
@@ -1057,11 +1062,18 @@
 
                 Just download the Android APK file [here](https://github.com/cgeo/cgeo/releases/latest) and install it to your Blackberry phone. Instructions about sideloading Android applications can be found in the Internet.
                 But please be aware, that we cannot give a guarantee that all features are working and can't provide support in case of problems.
+        de:
+            title: Funktioniert c:geo mit Blackberry-Geräten?
+            content: |
+                Obwohl es keine native c:geo App für Blackberry OS gibt, kannst du dennoch c:geo darauf laufen lassen.
+                Die aktuelle Version des Balckberry OS untersützt das Installieren von Android-Applikationen.
 
-
+                Lade also einfach die Android APK-Datei [hier](https://github.com/cgeo/cgeo/releases/latest) herunter und installiere sie auf dein Blackberry-Telefon. Anleitungen für das Installieren von Android-Applikcationen findest du im Internet.
+                Aber beachte bitte, dass wir keine Garantie dafür geben könne, dass alles funktioniert und wir auch bei Problemen keine Hilfe geben können.
+                
       - id: replace-device
         en:
-            title: I got a new device. How to transfer all the content of c:geo?
+            title: I got a new device. How to transfer all the content of c:geo from the old device?
             content: |
                 Sometimes users are asking us how to clone the content in their c:geo installation from one device to another (e.g. in case they got a new device).
 
@@ -1091,8 +1103,39 @@
                 - Go to c:geo Menu → Settings → System and select to restore the backup
 
                 If you did everything right, now the content of c:geo on the new device should look like on the old device.
-                This includes all caches on your lists with all its contained information (like waypoints, notes, offline logs, etc.) and - if you did the optional step - also all images on the image tab and static maps.
+                This includes all caches on your lists with all its contained information (like waypoints, notes, offline logs, etc.) and - if you did the optional step - also all images and static maps.
+        de:
+            title: Ich habe ein neues Gerät. Wie übertrage ich alle Inhalte von c:geo vom alten Gerät?
+            content: |
+                Manchmal fragen uns Nutzer, wie sie den Inhalt ihrer c:geo Installation von einem Gerät zu einem anderen duplizieren (z.B. wenn sie ein neues Gerät bekommen haben).
+                
+                Hier ist eine grundlegende Anleitung für euch:
 
+                Was du dafür benötigst:
+
+                - Einen guten Datei-Explorer auf beiden Geräten
+                - Eine Möglichkeit Dateien zwischen den Geräten zu übertragen (Kabel, Mail, Cloud-Speicher, SD-Karte, usw.) 
+
+                Auf dem alten Gerät:
+
+                - Starte c:geo
+                - Gehe zu c:geo Menü → Einstellungen → System und führe eine Sicherung der Datenbank durch (Merke dir dabei den Pfad, der dir nach Abschluss der Sicherung angezeigt wird)
+                - Öffne einen Datei-Explorer und finde diese Sicherungsdatei (typischerweise /sdcard/.cgeo/cgeo.sqlite) und speichere sie an einer sicheren Stelle, um sie später auf dem neuen Gerät wieder einzuspielen
+                - Optionaler Schritt: Im selben Verzeichnis, in dem du die Sicherung gefunden hast, bedinden sich auf mehrere Ordner mit Cache-Spezifischen Informationen (Bilder, statische Karten, usw.). Wenn diese Informationen auf dem neuen Gerät fehlen, wird c:geo sie automatisch erneut herunterladen, wenn du das nächste Mal den Cache aktualisiert. Du musst diese Daten also nicht unbedingt kopieren. Wenn du es dennoch möchtest, kannst du aber alle Unterorder ebenso zur Übertragung an einer sicheren Stelle speichern- 
+
+                Auf dem neuen Gerät:
+
+                - Installiere die gleiche c:geo Version, wie auf dem alten Gerät
+                - Starte c:geo
+                - Gebe deine Nutzerdaten ein und nimm die gewünschten sonstigen Einstellungen vor (dies ist kein Teil der Sicherung) 
+                - Beende c:geo
+                - Nutze einen Datei-Explorer um den gleichen Ordner auf dem neuen Gerät ausfindig zu machen, von dem du auf dem alten Gerät die Sicherung gemacht hast (typischerweise /sdcard/.cgeo/) und kopiere die Sicherungsdatei (cgeo.sqlite) vom alten Telefon in diesen Ordner. 
+                - Optionaler Schritt: Wenn du auch eine Sicherung der Unterordner durchgeführt hast, kopiere sie ebenso in diesen Ordner zurück.
+                - Starte c:geo wieder
+                - Gehe zu Menü → Einstellungen → System und wähle die vorhandene Sicherung wiederherzustellen
+
+                Wenn du alles richtig gemacht hast, sollte der Inhalt von c:geo auf dem neuen Gerät genauso aussehen, wie auf dem alten Gerät.
+                Dies beinhaltet alle Caches auf deinen Listen mit allen enthaltenen Informationen (wie Wegpunkten, Notizen, Offline-Logs, usw.) und - wenn du den optionalen Schritt ausgeführt hast - auch alle Bilder und statischen Karten.
 
 - id: gps-and-navigation
   title:
@@ -1187,7 +1230,15 @@
                 To save more battery you can you select Menu → Settings → System → "Activate low-power mode".
                 c:geo will then use high precise location (GPS) only if needed.
                 This means, that e.g. on cache lists, cache descriptions, trackable screens GPS might be switched off or only used periodically.
+        de:
+            title: Warum ist GPS immer eingeschaltet auch wenn ich es nicht brauche?
+            content: |
+                Einige Nutzer haben sich beklagt, da ihr Gerät eine lange Zeit braucht um nach dem Ausschalten des GPS wieder einen GPS-Fix zu bekommen.
+                Daher haben wir uns dazu entscheiden GPS aktiviert zu lassen, solange c:geo läuft (außer im Einstellungsmenü).
 
+                Um mehr Akku zu sparen kannst du unter Menü → Einstellungen → System den Energiesparmodus aktivieren.
+                c:geo wird dann die hochpräzise Lokalisierung (GPS) nur nutzen, wenn es notwendig ist.
+                Das bedeutet, dass z.B. auf Cache-Listen, in der Cache-Beschreibung, auf dem Trackable-Bildschirm GPS ggf. ganz ausgeschaltet oder nur periodisch eingeschaltet wird.
 
       - id: compass-wrong
         en:
@@ -1201,20 +1252,39 @@
                 Please be aware that electric fields (such as high voltage lines near to you) or magnetic fields (e.g. a phone cover with magnetic lock) might influence the device sensors.
 
                 If the problem is still not solved you should try another app with compass functionality (e.g. [GPS Status & Toolbox](https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2)) to verify your device capabilities.
-                If the compass works normal in other apps but not in c:geo you might experience a problem of the rotation sensor which exists on some Android devices.\\
+                If the compass works normal in other apps but not in c:geo you might experience a problem of the rotation sensor.\\
                 In this case please go to Menu → Settings → System and activate "Use orientation sensor".
 
                 If nothing helps and the problem persists, please contact us and provide detailed information about your device, the compass misbehavior and what steps you already tried to resolve the problem.
+        de:
+            title: Der Kompass zeigt in die falsche Richtung oder bewegt sich nicht mehr!
+            content: |
+                In einem Großteil dieser Fälle liegt das Problem innerhalb deines Gerätes.
+                c:geo nutzt nur die Positons- und Kompass-Informationen, die vom Android-System zur Verfügung gestellt werden.               
 
+                Versuche bitte zu allererst deinen Kompass-Sensor zu kalibrieren:\\
+                Auf den meisten Geräte kann man dies dadurch erreichen, dass man das Gerät mehrfach um alle seine Achsen dreht oder horizontal in Form einer 8 bewegt, bis der Kompass die richtige magnetische Ausrichtung anzeigt.\\
+                Bitte beachte, dass elektrische Felder (z.B. Hochspannungsleitungen in deiner Nähe) oder magnetische Felder (z.B. eine Telefonhülle mit Magnetverschluss) den Sensor beeinflußen können.
+
+                Wenn das Problem immer noch nicht behoben ist, solltest du eine andere App mit Kompass-Funktion ausprobieren (z.B. [GPS Status & Toolbox](https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2)) um die Geräte-Fähigkeiten zu prüfen.
+                Wenn der Kompass zwar in der anderen App aber nicht in c:geo funktioniert ist es möglich, dass dein Gerät ein Problem mit dem Rotations-Sensor hat.\\
+                In diesem Fall aktiviere bitte in Menü → Einstellungen → System die Nutzung des Orientierungs-Sensors.
+                
+                Wenn gar nichts hilft und das Problem weiterhin besteht, [kontaktiere](./support.html) bitte unseren Support mit detailierten Informationen zu deinem Gerät, dem genauen Problem des Kompass und was du schon versucht hast das Problem zu lösen.
 
       - id: radar-navigation
         en:
             title: What is Radar navigation?
             content: |
-                The "Radar" function works together with the third party app called "GPS Status & Toolbox" available on [Google Play](https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2).
+                The "Radar" function works together with the third party app called "GPS Status & Toolbox" available [here on Google Play](https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2).
 
                 Once you installed the app c:geo will additionally offer "Radar" as a navigation option.
+        de:
+            title: Was ist die Radar-Navigation?
+            content: |
+                Die "Radar"-Funktion arbeitet mit einer Drittanbieter-App namens "GPS Status&Toolbox" zusammen, die [hier auf Google Play](https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2) verfügbar ist.
 
+                Nachdem du diese App installiert hast, bietet c:geo dir zusätzlich "Radar" als Navigations-Option an.
 
       - id: default-location
         en:
@@ -1227,17 +1297,32 @@
 
                 If you had a GPS fix at least once while c:geo is running it should remember this as your last position and open the live map at this position.
                 Additionally you can set your home coordinates on [this page](https://www.geocaching.com/account/settings/homelocation) on geocaching.com. c:geo will then use these coordinates if no other location information is available.
+        de:
+            title: Ich bin immer in Paris/Frankreich!
+            content: |
+                Paris/Frankreich ist die Standard-Lokalisierung wenn c:geo nicht in der Lage ist **irgendeine** Lokalisierungs-Information von deinem Gerät zu bekommen, keine Heimat-Koordinaten auf geocaching.com gesetzt sind und c:geo davor seit einem Neustart noch nie eine Position empfangen hat.
+                
+                Bitte stelle sicher, dass alle Lokalisierungs-Optionen in den Einstellungen deines Gerätes aktiviert sind.
+                Lies dazu bitte [diesen FAQ-Eintrag](./faq.html#location-setup) für weitere Informationen.
 
+                Wenn du mindestens einmal einen GPS-Fix hattest während c:geo aktiv war, sollte es diese Position als deine letzte Position speichern und die Live-Karte an dieser Position öffnen.
+                Zusätzlich kannst du deine Heimat-Koordinaten auf [dieser Seite](https://www.geocaching.com/account/settings/homelocation) von geocaching.com einstellen. c:geo wird diese Koordinaten nutzen, wenn keine andere Lokalisierung verfügbar ist.
 
       - id: no-location
         en:
             title: c:geo seems unable to get my current location!
             content: |
-                Please first of all check if you enabled all relevant positioning methods on your system as described in [this FAQ entry](./faq.html#location-setup).
+                Please first of all check if you enabled all positioning methods on your device as described in [this FAQ entry](./faq.html#location-setup).
 
                 We received reports, that on some devices the "Google Play Services" might be faulty.
                 If all location methods are enabled but you still have problems, please try to switch off the usage of "Google Play Services" in Menu → Settings → System → "Use Google Play Services".
-
+        de:
+            title: c:geo scheint es nicht möglich zu sein meine Position zu bestimmen!
+            content: |
+                Zu allererst prüfe bitte ob due alle Lokalisierungs-Methoden auf deinem Gerät wie in [diesem FAQ-Eintrag](./faq.html#location-setup) beschrieben aktiviert hast.
+                
+                Wir haben Berichte erhalten, dass auf manchen Geräten die "Google Play-Dienste" fehlerhaft sind.
+                Wenn alle Lokalisierungs-Methoden aktiviert sind aber du weiterhin Probleme hast, versuche bitte die Nutzung der "Google Play-Dienste" in Menü → Einstellungen → System auszuschalten.
 
       - id: address-search
         en:
@@ -1245,7 +1330,11 @@
             content: |
                 In order to convert an address to coordinates we rely on an integrated Google service on your device.
                 We have got reports that on some devices this service stops working randomly. In this case it usually helps to reboot your device to get the search function working again.
-
+        de:
+            title: Die Adress-Suche funktioniert nicht mehr!
+            content: |
+                Um eine Adresse in Koordinaten umzuwandeln nutzen wir einen auf deinem Gerät integrierten Google-Dienst.
+                Wir haben Berichte erhalten, dass dieser Dienst auf manchen Gerät unregelmäßig nicht mehr funktioniert. In diesen Fällen hilft es normalerweise das Gerät neu zu starten, damit die Such-Funktion wieder funktioniert.
 
 - id: live-map
   title:
