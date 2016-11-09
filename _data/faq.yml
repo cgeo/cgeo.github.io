@@ -1484,7 +1484,14 @@
 
                 If this happens to you, please force stop c:geo or reboot your phone and start c:geo again.
                 Then open the live map, click the layer icon and select Google Maps. After doing this once, usually Google Maps will stay available.
+        de:
+            title: Ich kann die Google-Karten nicht mehr nutzen!
+            content: |
+                Auf einigen Geräten scheint es ein Problem für c:geo zu geben, initial festzustellen ob Google Maps auf dem Gerät installiert sind.
+                Das führt zu dem Problem, dass dir nur OSM-Karten zur Auswahl nach dem ersten Starten von c:geo angeboten werden.
 
+                Wenn dir das passiert, beende c:geo oder starte dein Gerät neu und start c:geo erneut.
+                Öffne dann die Live-Karte, klcike auf das Kartenauswahl-Symbol und wähle Google-Karten. Nachdem du dies einmal gemacht hast, sollten die Google-Karten normalerweise dauerhaft verfügbar sein.
 
       - id: map-found-shown
         en:
@@ -1494,7 +1501,13 @@
                 This is the same as in the live map on the geocaching website: If you zoom out to a huge area own/found caches will no longer be hidden.
 
                 Please zoom in to allow c:geo to detect own/found and hide them.
+        de:
+            title: Meine eigenen/gefundenen Caches werden immer noch angezeigt!
+            content: |
+                Obwohl du die Option aktiviert hast, dass eigene und gefunden Caches ausgeblendet werden, gibt es einige Situationen wo einige dieser Caches dennoch auf der Live-Karte angezeigt werden.
+                Das ist genau so wie in deer Live-Karte auf der Geocaching-Webseite: Wenn du in ein großes Gebiet herauszoomst werden eigene/gefunden Caches nicht mehr ausgeblendet.
 
+                Bitte weiter hereinzoomen, damit c:geo in der Lage ist deine eigenen/gefundenen Caches zu erkennen und auszublenden.
 
       - id: map-crashes
         en:
@@ -1502,26 +1515,45 @@
             content: |
                 In rare cases starting the (live) map freezes or crashes c:geo permanently. This is a rare problem we were not yet able to debug.
 
-                If this happens to you please send us a log (as described in this FAQ).
+                If this happens to you please send us a log (as described in [this FAQ entry](./faq.html/#log-to-devs)).
 
                 To get around this problem start c:geo, go to \\
                 Menu → Settings → Map → "Select Map Source" \\
                 and change the map to OSM:Mapnik.
 
                 Now start the live map, it should work. After the live map is started you can switch back to Google Maps if desired.
+        de:
+            title: Ein Starten der Live-Karte lässt c:ge abstürzen!
+            content: |
+                In seltenen Fällen bringt das Starten der (Live-)Karte c:geo zum Absturz oder Einfrieren. Dies ist ein seltenes Problem, welches wir noch nicht analysieren konnten.
 
+                Wenn dir das passiert, sende uns bitte ein Logfile wie in [diesem FAQ-Eintrag](./faq.html/#log-to-devs) beschrieben.
+                
+                Um dieses Probelm zu umgehen start c:geo und gehe zu\\
+                Menü → Einstellungen → Karte → "Wähle Kartenquelle" \\
+                und ändere diese auf "OSM:Mapnik".
+
+                Starte nun die Live-Karte, es sollte funktionieren. Nachdem die Live-Karte nun einmal gestartet hast, kannst du auf die Google-karte zurückwechseln, wenn du das möchtest.
 
       - id: map-for-distant-location
         en:
             title: Is there an easy way to start the live map for a distant location?
             content: |
-                Yes, there is an easy way to do this without the need to zoom/scroll around:
+                Yes, there is an easy way to do this without the need to scroll around:
 
-                Perform a search for the desired address/region. Once the results are displayed, click on the map icon in the upper right.
+                Perform a search for the desired address/region. Once the results are displayed, click on the map icon in the title bar.
                 You will get the map for the location already containing the caches from your search.
 
                 You can now use Menu → "Enable live" to activate the live map function.
-
+        de:
+            title: Gibt es einen einfachen Weg die Karte für einen entfernten Ort zu öffnen?
+            content: |
+                Ja, es gibt einen einfachen Weg hierfür ohne das du herumscrollen musst:
+                
+                Führe eine Suche für die gewünschte Adresse/Region durch. Nachdem die Ergebnisse angezeigt werden, klicke auf das Kartensymbol in der Titelzeile.
+                Du bekommst dann eine Karte für diese Region, in der bereits die Suchergebnisse angezeigt werden.
+                
+                Du kannst nun über Menü → "Aktualisierung einschalten" die Live-Karte aktivieren.
 
       - id: map-no-caches
         en:
@@ -1533,8 +1565,17 @@
                 You can see whether live is enabled or not by looking at the headline: \\
                 "Map" means live mode is disabled, "Live Map" means live mode is enabled
 
-                If still no caches are loaded please make sure you are logged in correctly.
+                If still no caches are loaded please make sure you are logged in correctly in c:geo.
+        de:
+            title: Die Live-Karte zeigt keine Caches an!
+            content: |
+                Bitte stelle sicher, dass die Aktualisierung eingeschaltet ist. Du könntest sie versehentlich deaktivert haben:\\
+                Live-Karte → Menü → Aktualisierung einschalten
 
+                Du kannst mit einem Blick auf die Titelzeile sehen, ob die Live-Karte aktiv ist:\\
+                "Karte" bedeutet, dass die Aktualisierung abgeschaltet ist. Live-Karte bedeutet, dass die Aktualisierung eingeschaltet ist.
+
+                Wenn weiterhin keine Caches angezeigt werden, prüfe bitte ob du korrekt in c:geo angemeldet bist.
 
       - id: map-rotation
         en:
@@ -1544,8 +1585,14 @@
 
                 We are however working on implementing newer versions of both map types which will also support rotating maps in one of the future versions of c:geo.
                 As this requires a rework of the complete map implementation it will take some time to be developed.
+        ´de:
+            title: Wie lasse ich die Karte in Gehrichtung rotieren?
+            content: |
+                Momentan nutzt c:geo eine Version von Google Maps und Mapsforge, die die Kartendrehung nicht unterstützen sondern immer Nordwärts ausgerichtet sind.
 
-
+                Wir arbeiten aber daran in einem der zukünftigen Versionen eine neuere Version dieser beiden Kartentypen zu implementieren, die auch rotierende Karten unterstützen.
+                Da dies aber eine komplette Überarbeitung der Karten-Implementierung bedeutet kann es einige Zeit dauern, bis die Entwicklung abgeschlossen ist.
+                
 - id: send2cgeo
   title:
       en: Send2cgeo
