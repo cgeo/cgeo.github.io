@@ -1585,7 +1585,7 @@
 
                 We are however working on implementing newer versions of both map types which will also support rotating maps in one of the future versions of c:geo.
                 As this requires a rework of the complete map implementation it will take some time to be developed.
-        ´de:
+        de:
             title: Wie lasse ich die Karte in Gehrichtung rotieren?
             content: |
                 Momentan nutzt c:geo eine Version von Google Maps und Mapsforge, die die Kartendrehung nicht unterstützen sondern immer Nordwärts ausgerichtet sind.
