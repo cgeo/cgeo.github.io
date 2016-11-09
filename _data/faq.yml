@@ -63,7 +63,7 @@
 
                 1. Du brauchst ein Nutzerkonto auf einer Geocaching-Plattform um diesen in c:geo zu nutzen:
 
-                    Wir unterstützen [geocaching.com](http://www.geocaching.com/), eine internationale Caching-Plattform, sowie Opencaching-Plattformen in diversen Ländern (z.B. [opencaching.de](http://www.opencaching.de/), [opencaching.pl](http://www.opencaching.pl/), u.v.m.).
+                    Wir unterstützen [geocaching.com](http://www.geocaching.com/), eine internationale Geocaching-Plattform, sowie Opencaching-Plattformen in diversen Ländern (z.B. [opencaching.de](http://www.opencaching.de/), [opencaching.pl](http://www.opencaching.pl/), u.v.m.).
                     
                     Wähle eine Plattform, die du gerne nutzen möchtest, gehe zu deren Internet-Seite und erstelle dort ein Nutzerkonto (Basis-Konten sind normalerweise kostenlos).
                     
@@ -101,7 +101,7 @@
         de:
             title: Wie logge ich mich ein?
             content: |
-                Wenn du c:geo zum ersten Mal startest siehst du direkt die Dienste-Einstellungen, in denen du deinen Nutzernamen und dein Passwort für die gewünschte Caching-Plattform eingeben kannst.
+                Wenn du c:geo zum ersten Mal startest siehst du direkt die Dienste-Einstellungen, in denen du deinen Nutzernamen und dein Passwort für die gewünschte Geocaching-Plattform eingeben kannst.
 
                 Um die Dienste-Einstellungen manuell vom c:geo Hauptmenü aufzurufen wähle bitte:\\
                 Menü → Einstellungen → Dienste
@@ -217,7 +217,7 @@
 
                 Wenn du deine Nutzerdaten geprüft hast aber weiterhin eine Fehlermeldung bekommst (z.B. Anmeldung fehlgeschlagen, Unbekannter Fehler) könnte das Folgende hilfreich sein:
 
-                Bitte melde dich direk aut der Geocaching-Website (mit deinem Smartphone-Browser oder PC) an and prüfe, dass dein Zugang dort nicht deaktivert ist und deine Mail-Adresse auf der Webseite bestätigt ist.
+                Bitte melde dich direkt auf der Geocaching-Website (mit deinem Smartphone-Browser oder PC) an und prüfe, dass dein Zugang dort nicht deaktiviert ist und deine Mail-Adresse auf der Webseite bestätigt ist.
 
                 Bitte prüfe, dass dein Telefon das richtige Datum und die richtige Uhrzeit hat. Wenn das Datum nicht korrekt ist, kann es zu Problemen kommen eine sichere Verbindung zur Webseite aufzubauen.
 
@@ -372,7 +372,7 @@
         de:
             title: Unbekannter Standort wird im Hauptmenü angezeigt!
             content: |
-                Die Adressangabe, die unten im Hauptmenü angezeigt wird basiert auf einer Information, die wir von einer Geocoding-Datenbank basierend auf deiner Position bekommen. Manchnmal hat diese Datenbank keine Adressinformation für deinen Standort oder der Dienst ist nicht verfügbar. In diesem Fall erscheint "Unbekannter Standort" oder sogar eine falsche Stadt.
+                Die Adressangabe, die unten im Hauptmenü angezeigt wird basiert auf einer Information, die wir von einer Geocoding-Datenbank basierend auf deiner Position bekommen. Manchmal hat diese Datenbank keine Adressinformation für deinen Standort oder der Dienst ist nicht verfügbar. In diesem Fall erscheint "Unbekannter Standort" oder sogar eine falsche Stadt.
                 
                 Dies hat keinen Einfluß auf die Funktionalität von c:geo. Solange du einen GPS-Fix hast, wird alles normal funktionieren. \\
                 
@@ -429,10 +429,10 @@
 
                 Das erstgenannte Format wird üblicherweise für das Geocaching verwendet und ist daher auch die standardmäßige Notation in c:geo.
 
-                Du kannst zu anderen Formatien wechseln indem du kurz auf die Koordinaten klickst, die bei Caches und Wegpunkten angezeigt werden.
+                Du kannst zu anderen Formaten wechseln indem du kurz auf die Koordinaten klickst, die bei Caches und Wegpunkten angezeigt werden.
                 Wenn du Koordinaten eingibst (z.B. bei Erstellung eines Wegpunktes) kannst du das gewünschte Format in der Titelzeile des Dialogs gemäß der oben genannten Formate auswählen.
                 
-                Die Umwandlung von und nach UTM wird derzeit von c:geo nicht unterstützt. Wenn du Koordinaten in UTM konvertieren möchtest kannst du die Koordianten mit einem langen Klick kopieren und die Umwandlung in einer anderen App durchführen.
+                Die Umwandlung von und nach UTM wird derzeit von c:geo nicht unterstützt. Wenn du Koordinaten in UTM konvertieren möchtest kannst du die Koordinaten mit einem langen Klick kopieren und die Umwandlung in einer anderen App durchführen.
 
       - id: picture-storage
         en:
@@ -533,8 +533,8 @@
         de:
             title: Kann c:geo auf Facebook posten?
             content: |
-                Nein, momentan untersützt c:geo nur Twitter als soziales Netzwerk.
-                Da das Entwickler-Team nur bgrenzte Ressourcen hat, fokussieren wir uns auf neue Geocaching-Features und habe keine Pläne eine Facebook-Verbindung in c:geo zu integrieren.
+                Nein, momentan unterstützt c:geo nur Twitter als soziales Netzwerk.
+                Da das Entwickler-Team nur begrenzte Ressourcen hat, fokussieren wir uns auf neue Geocaching-Features und habe keine Pläne eine Facebook-Verbindung in c:geo zu integrieren.
                 
                 Dennoch gibt es einen Weg auf Facebook zu posten, wenn du bereits Twitter-Nutzer bist, da du Twitter mit Facebook verknüpfen kannst.
                 Wenn du dies machst werden alle Tweets auch auf Faebook gepostet (inklusive der c:geo Tweets).
@@ -629,7 +629,7 @@
                 Es gibt auch andere Apps auf [Google Play](https://play.google.com/), die dir helfen Koordinaten für deinen neuen Cache zu mitteln und zu speichern (z.B. [GPS Averaging](https://play.google.com/store/apps/details?id=org.destil.gpsaveraging) oder  [Geocache Placer](https://play.google.com/store/apps/details?id=dk.rocologo.geocacheplacer)).
 
                 Wenn du z.B. einen Beta-Test eines noch nicht veröffentlichten Caches machen möchtest, kannst du noch nicht Online auf den Cache zugreifen (da er noch nicht veröffentlicht ist) aber du kannst den Cache per GPX-Datei importieren oder die Wegpunkte manuell zu einem auf deinem Gerät gepeicherten Cache hinzufügen.
-                Weiterhin kannst du deine eigenen unveröffentlichen Caches mit c:geo öffnen, indem du online nach dem Geocode suchst.
+                Weiterhin kannst du deine eigenen unveröffentlichten Caches mit c:geo öffnen, indem du online nach dem Geocode suchst.
 
       - id: not-able-to-post-log
         en:
@@ -665,7 +665,7 @@
         de:
             title: Wie kann ich Caches für Premium-Mitglieder ausblenden?
             content: |
-                Auf geoacaching.com sind manche Caches nur für Premium-Mitglieder zugreifbar. Wenn du Basis-Mitglied bist, siehst du diese Caches dennoch in den Suchresultaten und auf der Live-Karte, aber du kannst sie nicht öffnen.
+                Auf geocaching.com sind manche Caches nur für Premium-Mitglieder zugreifbar. Wenn du Basis-Mitglied bist, siehst du diese Caches dennoch in den Suchresultaten und auf der Live-Karte, aber du kannst sie nicht öffnen.
                 Leider ist es aufgrund von Einschränkungen der Webseite nicht möglich sie standardmäßig auszublenden. 
 
                 Die einzige Möglichkeit sie in deinen Listen und Suchresultaten auszublenden ist es einen lokalen Filter in c:geo zu setzen:\\
@@ -765,11 +765,11 @@
         de:
             title: Die Nachbereichssuche zeigt auch Caches, die weit entfernt sind!
             content: |
-                Neben geoaching.com unterstützt c:geo auch Opencaching-Plattformen in verschiedenen Ländern.
-                Wenn du den Opencaching-Dienst in den c:geo Einstelllungen aktivierst, dann liefert die Nahbereichssuche auch die nächstgelegenen Opencaching-Caches zurück.
+                Neben geocaching.com unterstützt c:geo auch Opencaching-Plattformen in verschiedenen Ländern.
+                Wenn du den Opencaching-Dienst in den c:geo-Einstellungen aktivierst, dann liefert die Nahbereichssuche auch die nächstgelegenen Opencaching-Caches zurück.
 
-                Wenn du nun allerdings eine Opencaching-Plattform in einem anderen Land aktivierst (z.B. du wohnst in Deutschland aber hast opencaching.ro für Rumänien aktiviert) werden in der Nachbereichsliste auch Caches dieser Plattform angezeigt, die mehrere hundert Kilometer entfernt liegen, da dies die nächstgelegenen Cahes auf dieser Plattform sind.
-                In diesem Fall deaktivere bitte die nicht benötigten Opencaching-Plattformen unter:\\
+                Wenn du nun allerdings eine Opencaching-Plattform in einem anderen Land aktivierst (z.B. du wohnst in Deutschland aber hast opencaching.ro für Rumänien aktiviert) werden in der Nahbereichsliste auch Caches dieser Plattform angezeigt, die mehrere hundert Kilometer entfernt liegen, da dies die nächstgelegenen Caches auf dieser Plattform sind.
+                In diesem Fall deaktiviere bitte die nicht benötigten Opencaching-Plattformen unter:\\
                 Menü → Einstellungen → Dienste → opencaching.xx
 
       - id: no-coords
@@ -792,7 +792,7 @@
             content: |
                 Wenn du Basis-Mitglied von geocaching.com bist und versuchst direkt aus den Suchresultaten zu einem Cache zu navigieren, könntest du diese Fehlermeldung sehen.
 
-                Wenn du kein Premium-Mitglied bist, stellt die Geocaching-Webseite keine Koordiaten sondern nur eine Abschätzung des Standortes und ein "Richtungsbild" in der Suche zur Verfügung.
+                Wenn du kein Premium-Mitglied bist, stellt die Geocaching-Webseite keine Koordinaten sondern nur eine Abschätzung des Standortes und ein "Richtungsbild" in der Suche zur Verfügung.
                 c:geo nutzt diese Entfernungs-Abschätzung und das "Richtungsbild" und zeigt es in den Suchergebnissen.
                 Die Caches werden weiterhin nach Entfernung sortiert, aber beachte, dass dies nur die Entfernung von deinem Standort zum Zeitpunkt der Suche ist. Sie wird sich nicht ändern, wenn du deine Position veränderst.
 
@@ -857,13 +857,13 @@
                 In den meisten Fällen möchtest du nach dem Lösen eines Rätsels für einen Mystery-Cache die realen Final-Koordinaten speichern, bis du nach draußen gehst und den Cache loggst.
                 Obwohl dies jeder Nutzer unterschiedlich handhabt, empfehlen wir eine hilfreiche Funktion von [geocaching.com](https://www.geocaching.com) zu nutzen:
 
-                Als Premium-Mitglied von [geocaching.com](https://www.geocaching.com) kannst du die realen Final-Koordinaten der gelösten Mystery-Caches (aber auch für alle anderen Cache-Typen) auf der Webseite abspeichern, indem mdu das kleine Bleistift-Symbol direkt neben den Listing-Koordiaten nutzt.\\
+                Als Premium-Mitglied von [geocaching.com](https://www.geocaching.com) kannst du die realen Final-Koordinaten der gelösten Mystery-Caches (aber auch für alle anderen Cache-Typen) auf der Webseite abspeichern, indem du das kleine Bleistift-Symbol direkt neben den Listing-Koordinaten nutzt.\\
                 Nachdem du dort die realen Final-Koordinaten gespeichert hast, sind diese auch in c:geo verfügbar wenn du den Cache speicherst bzw. aktualisierst. 
 
-                Das bedeutet, dass c:geo das Cache-Symbol an den realen Final-Koodinaten anzeigt und die Listing-Koordinaten nur noch als weiterer Wegpunkt des Caches angezeigt werden.
+                Das bedeutet, dass c:geo das Cache-Symbol an den realen Final-Koordinaten anzeigt und die Listing-Koordinaten nur noch als weiterer Wegpunkt des Caches angezeigt werden.
 
                 Natürlich funktioniert das auch andersherum:\\
-                Öffne einen Cache mit c:geo und erstelle einen neuen Wegpunkt mit den realen Final-Koordinaten. Bevor du diesen speicherst, wähle die Option "Als Cache-Koodinaten in c:geo und auf der Webseite setzen" aus.\\
+                Öffne einen Cache mit c:geo und erstelle einen neuen Wegpunkt mit den realen Final-Koordinaten. Bevor du diesen speicherst, wähle die Option "Als Cache-Koordinaten in c:geo und auf der Webseite setzen" aus.\\
                 Nachdem du den Wegpunkt gespeichert hast, werden die realen Final-Koordinaten auf die Webseite hochgeladen.
 
       - id: missing-data-gpx
@@ -890,7 +890,7 @@
 
                 Die folgenden Informationen fehlen oder sind nicht komplett:
 
-                - Einige Logs (nur die fünf neuesten Logs werden mitgliefert)
+                - Einige Logs (nur die fünf neuesten Logs werden mitgeliefert)
                 - Freundes- und Eigene Logs
                 - Favoritenpunkte
                 - Spoiler- und Logbilder
@@ -927,7 +927,7 @@
 
                 Android-Versionen kleiner als 2.3 werden von c:geo nicht mehr unterstützt.
 
-                Wenn du eine Android-Version größer als 2.3 nutzt, dass aber kein GPS unterstützt und dennoch c:geo darauf installieren möchtest, mussst du c:geo manuell durch Herunterladen der [APK-Datei](https://github.com/cgeo/cgeo/releases/latest) installieren.
+                Wenn du eine Android-Version größer als 2.3 nutzt, dass aber kein GPS unterstützt und dennoch c:geo darauf installieren möchtest, musst du c:geo manuell durch Herunterladen der [APK-Datei](https://github.com/cgeo/cgeo/releases/latest) installieren.
                 Bitte beachte, dass eine Navigation zu einem Cache ohne GPS nicht möglich ist!
 
       - id: legacy
@@ -1066,9 +1066,9 @@
             title: Funktioniert c:geo mit Blackberry-Geräten?
             content: |
                 Obwohl es keine native c:geo App für Blackberry OS gibt, kannst du dennoch c:geo darauf laufen lassen.
-                Die aktuelle Version des Balckberry OS untersützt das Installieren von Android-Applikationen.
+                Die aktuelle Version des Blackberry OS unterstützt das Installieren von Android-Applikationen.
 
-                Lade also einfach die Android APK-Datei [hier](https://github.com/cgeo/cgeo/releases/latest) herunter und installiere sie auf dein Blackberry-Telefon. Anleitungen für das Installieren von Android-Applikcationen findest du im Internet.
+                Lade also einfach die Android APK-Datei [hier](https://github.com/cgeo/cgeo/releases/latest) herunter und installiere sie auf dein Blackberry-Telefon. Anleitungen für das Installieren von Android-Applikationen findest du im Internet.
                 Aber beachte bitte, dass wir keine Garantie dafür geben könne, dass alles funktioniert und wir auch bei Problemen keine Hilfe geben können.
                 
       - id: replace-device
@@ -1121,7 +1121,7 @@
                 - Starte c:geo
                 - Gehe zu c:geo Menü → Einstellungen → System und führe eine Sicherung der Datenbank durch (Merke dir dabei den Pfad, der dir nach Abschluss der Sicherung angezeigt wird)
                 - Öffne einen Datei-Explorer und finde diese Sicherungsdatei (typischerweise /sdcard/.cgeo/cgeo.sqlite) und speichere sie an einer sicheren Stelle, um sie später auf dem neuen Gerät wieder einzuspielen
-                - Optionaler Schritt: Im selben Verzeichnis, in dem du die Sicherung gefunden hast, bedinden sich auf mehrere Ordner mit Cache-Spezifischen Informationen (Bilder, statische Karten, usw.). Wenn diese Informationen auf dem neuen Gerät fehlen, wird c:geo sie automatisch erneut herunterladen, wenn du das nächste Mal den Cache aktualisiert. Du musst diese Daten also nicht unbedingt kopieren. Wenn du es dennoch möchtest, kannst du aber alle Unterorder ebenso zur Übertragung an einer sicheren Stelle speichern- 
+                - Optionaler Schritt: Im selben Verzeichnis, in dem du die Sicherung gefunden hast, befinden sich auf mehrere Ordner mit Cache-Spezifischen Informationen (Bilder, statische Karten, usw.). Wenn diese Informationen auf dem neuen Gerät fehlen, wird c:geo sie automatisch erneut herunterladen, wenn du das nächste Mal den Cache aktualisiert. Du musst diese Daten also nicht unbedingt kopieren. Wenn du es dennoch möchtest, kannst du aber alle Unterordner ebenso zur Übertragung an einer sicheren Stelle speichern- 
 
                 Auf dem neuen Gerät:
 
@@ -1260,11 +1260,11 @@
             title: Der Kompass zeigt in die falsche Richtung oder bewegt sich nicht mehr!
             content: |
                 In einem Großteil dieser Fälle liegt das Problem innerhalb deines Gerätes.
-                c:geo nutzt nur die Positons- und Kompass-Informationen, die vom Android-System zur Verfügung gestellt werden.               
+                c:geo nutzt nur die Positions- und Kompass-Informationen, die vom Android-System zur Verfügung gestellt werden.
 
                 Versuche bitte zu allererst deinen Kompass-Sensor zu kalibrieren:\\
                 Auf den meisten Geräte kann man dies dadurch erreichen, dass man das Gerät mehrfach um alle seine Achsen dreht oder horizontal in Form einer 8 bewegt, bis der Kompass die richtige magnetische Ausrichtung anzeigt.\\
-                Bitte beachte, dass elektrische Felder (z.B. Hochspannungsleitungen in deiner Nähe) oder magnetische Felder (z.B. eine Telefonhülle mit Magnetverschluss) den Sensor beeinflußen können.
+                Bitte beachte, dass elektrische Felder (z.B. Hochspannungsleitungen in deiner Nähe) oder magnetische Felder (z.B. eine Telefonhülle mit Magnetverschluss) den Sensor beeinflussen können.
 
                 Wenn das Problem immer noch nicht behoben ist, solltest du eine andere App mit Kompass-Funktion ausprobieren (z.B. [GPS Status & Toolbox](https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2)) um die Geräte-Fähigkeiten zu prüfen.
                 Wenn der Kompass zwar in der anderen App aber nicht in c:geo funktioniert ist es möglich, dass dein Gerät ein Problem mit dem Rotations-Sensor hat.\\
@@ -1319,7 +1319,7 @@
         de:
             title: c:geo scheint es nicht möglich zu sein meine Position zu bestimmen!
             content: |
-                Zu allererst prüfe bitte ob due alle Lokalisierungs-Methoden auf deinem Gerät wie in [diesem FAQ-Eintrag](./faq.html#location-setup) beschrieben aktiviert hast.
+                Zu allererst prüfe bitte, ob du alle Lokalisierungs-Methoden auf deinem Gerät wie in [diesem FAQ-Eintrag](./faq.html#location-setup) beschrieben aktiviert hast.
                 
                 Wir haben Berichte erhalten, dass auf manchen Geräten die "Google Play-Dienste" fehlerhaft sind.
                 Wenn alle Lokalisierungs-Methoden aktiviert sind aber du weiterhin Probleme hast, versuche bitte die Nutzung der "Google Play-Dienste" in Menü → Einstellungen → System auszuschalten.
@@ -1409,7 +1409,7 @@
                 You can influence the accuracy of the live map by selecting an appropriate live map loading strategy in \\
                 Live Map → Menu → Strategy
         de:
-            title: Warum sehe ich organge Kreise um die Cache-Symbole auf der Karte?
+            title: Warum sehe ich orange Kreise um die Cache-Symbole auf der Karte?
             content: |
                 Caches mit einem orangen Kreis bedeuten, dass c:geo nur eine graphische Näherung der Cache-Koordinaten hat.
                 Die Genauigkeit der Cache-Position auf der Karte hängt vom Zoom-Level der Karte ab und könnte einige Meter daneben liegen.
@@ -1473,7 +1473,7 @@
 
                 Um die bestmöglichen Informationen zu erhalten, solltest du "Detailiert" wählen, für ein schnelles Laden und weniger Priorität auf detailierte Informationen solltest du "Schnellste" oder "Schnell" wählen.
 
-                Die "schnelle" Strategie erkennt nur "Traditional", "Multi", "Mystery" und "Event"-Caches. Andere Cache-Typen werden weiterhin mit Fregezeichen im Symbol angezeigt.
+                Die "schnelle" Strategie erkennt nur "Traditional", "Multi", "Mystery" und "Event"-Caches. Andere Cache-Typen werden weiterhin mit Fragezeichen im Symbol angezeigt.
 
       - id: map-no-gmaps
         en:
