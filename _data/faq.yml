@@ -1355,7 +1355,19 @@
                 Yellow Smiley: You already found this cache \\
                 Red Smiley: An offline log is stored in c:geo for this cache \\
                 Yellow star: This is your own cache
+        de:
+            title: Was bedeuten die verschiedenen Markierungen der Cache-Symbole?
+            content: |
+                Um mehr Informationen über den Status eines Caches zu geben, stellt c:geo mehrere Markierungen zur Verfügung, die zusammen mit den Cache-Symbolen auf der Live-Karte angezeigt werden.
 
+                Nachfolgend findest du eine kure Beschreibung dieser Marker:
+
+                Bleistift Symbol: Für diesen Cache gibt es eine persönliche Notiz \\
+                Flaggen-Symbol: Cache wird an modifizierten Koordinaten angezeigt \\
+                Disketten-Symbol: Cache ist auf dem Gerät gespeichert \\
+                Gelber Smilie: Du hast diesen Cache bereits gefunden \\
+                Roter Smilie: Ein Offline-Log ist in c:geo für diesen Cache gespeichert \\
+                Gelber Stern: Dies ist dein eigener Cache
 
       - id: map-unknown-caches
         en:
@@ -1370,11 +1382,22 @@
                 If all caches are shown as ?? you probably changed the live map loading strategy to "Fastest". With this setting the cache types are not requested to speed up live map loading.
                 You have to change it back to another mode to see the cache types. This can be done in \\
                 Live Map → Menu → Strategy
+        de:
+            title: Warum sehe ich ??-Caches auf der Karte?
+            content: |
+                Es ist normal, dass du manchmal ??-Caches auf der Karte siehst.
 
+                Die ?? bedeuten, dass c:geo nicht in der Lage war den Typ des Caches zu erkennen.
+                Das passiert meistens wenn zu viele Caches auf einmal auf der Karte angezeigt werden (d.h. deine Zoom-Stufe ist sehr gering oder die Cache-Dichte ist sehr hoch).
+                Wenn du die Anzahl angezeigter Caches reduzierst (durch Hereinzoomen) oder wenn du auf einen bestimmten Cache klickst, erhälst du Informationen über den Cache-Typ.
+
+                Wenn alle Caches als ?? angezeigt werden, hasst du vermutlich die Ladestrategie der Live-Karte auf "Schnellste" gesetzte. In dieser Einstellung werden die Cache-Typen nicht abgefragt um den Ladevorgang zu beschleunigen.
+                Du musst die Strategie wieder auf einen anderen Modus ändern um die Cache-Typen zu sehen. Das kannst du hier machen:\\
+                Live-Karte → Menü → Strategie
 
       - id: map-orange-circles
         en:
-            title: Why do I see orange circles around the caches on the map?
+            title: Why do I see orange circles around the cache icons on the map?
             content: |
                 Caches with orange circles mean that c:geo does only have a graphical approximation of the cache coordinates.
                 The accuracy of the cache position on the map depends on the zoom level and maybe some meters/feet off.
@@ -1385,7 +1408,18 @@
 
                 You can influence the accuracy of the live map by selecting an appropriate live map loading strategy in \\
                 Live Map → Menu → Strategy
+        de:
+            title: Warum sehe ich organge Kreise um die Cache-Symbole auf der Karte?
+            content: |
+                Caches mit einem orangen Kreis bedeuten, dass c:geo nur eine graphische Näherung der Cache-Koordinaten hat.
+                Die Genauigkeit der Cache-Position auf der Karte hängt vom Zoom-Level der Karte ab und könnte einige Meter daneben liegen.
+                Je weiter du hereinzoomst, desto genauer wird die Cache-Position.
 
+                Um exakte Koordinaten auf der Karte zu erhalten, kannst du auch die Cache-Details einmalig öffnen oder den Cache für Offline-Nutzung speichern.
+                In diesem Fall verschwinden die orangen Kreise um dir anzuzeigen, dass die Koordinaten exakt sind.
+
+                Du kannst die Genauigkeit auf der Live-Karte beeinflussen indem du eine geeignete Ladestrategie für die Live-Karte hier auswählst:\\
+                Liv-Karte → Menü → Strategie
 
       - id: map-strategy
         en:
@@ -1414,7 +1448,32 @@
                 For getting most accurate information you should select "Detailed", for a fast loading and less priority on detailed information you should select "Fastest" or "Fast".
 
                 The "fast" strategy will only identify "Traditional", "Multi", "Mystery" and "Event" caches. Other cache types will be shown with question marks in the icons.
+        de:
+            title: Was bedeuten die Ladestrategien für die Live-Karte?
+            content: |
+                Abhängig von deinen Bedürfnissen bietet die Live-Karte dir vier verschiedene Strategien an.
+                Einige konzentrieren sich auf schnelles Laden, andere auf die Genauigkeit der Cache-Positionen und Informationen.
 
+                Du kannst die Strategie hier auswählen:\\
+                Live-Karte → Menü → Strategie
+
+                Die Bedeutung der verschiedenen Optionen wird im Folgenden beschrieben:
+
+                Schnellste: \\
+                Lädt ungefähre Cache-Koordinaten und erkennt keine Cache-Typen
+
+                Schnell: \\
+                Wie "Schnellste" aber erkennt die Cache-Typen
+
+                Detailiert: \\
+                Wie "Schnell" aber lädt exakte Koordinaten für die nächstgelegenen 20 Caches
+
+                Geschwindigkeitsabhängig: \\
+                Automatischer Wechsel zwischen "Schnell" und "Detailiert" abhängig von der Geschwindigkeit (Das ist die standardmäßige Einstellung).
+
+                Um die bestmöglichen Informationen zu erhalten, solltest du "Detailiert" wählen, für ein schnelles Laden und weniger Priorität auf detailierte Informationen solltest du "Schnellste" oder "Schnell" wählen.
+
+                Die "schnelle" Strategie erkennt nur "Traditional", "Multi", "Mystery" und "Event"-Caches. Andere Cache-Typen werden weiterhin mit Fregezeichen im Symbol angezeigt.
 
       - id: map-no-gmaps
         en:
