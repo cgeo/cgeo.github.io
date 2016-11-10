@@ -1772,14 +1772,20 @@
                 We have implemented a support of mapsforge maps, which uses vector maps based on open street maps data.
 
                 In combination with caches already stored in c:geo (manually or via GPX import) and the possibility for offline logging (e.g. for later fieldnote export) you will get a full offline solution for caching.
-
+        de:
+            title: Was ist OSM:Offline?
+            content: |
+                OSM:Offline-Karten geben dir die Möglichkeit alle Karten-Funktionen von c:geo zu nutzen wenn dein Gerät nicht mit dem Internet verbunden ist. Das kann z.B. im Ausland sehr hilfreich sein, um teure Datenübertragung zu vermeiden, oder wenn du in Regionen ohne oder mit nur langsamer Verbindung bist.
+                Wir haben eine Unterstützung von Mapsforge-Karten implementiert, die Vektor-Karten auf der Grundlage von OpenStreetMaps bereitstellen.
+                
+                In Kombination mit Caches, die auf deinem Gerät (manuell oder per GPX-Import) gespeichert sind, und der Möglichkeit Caches offline zu loggen (z.B. für späteren Export der Feldnotizen), hast du damit eine vollständige Offline-Lösung fürs Cachen.
 
       - id: osm-howto
         en:
             title: How to use an OSM:Offline map with c:geo?
             content: |
                 Once you downloaded or created a map, store it into a folder (e.g. /mfmaps) on your device or SD card. You can also store multiple maps (e.g. for several countries) into this folder to have easy access later directly from c:geo.
-                If you are additionally using Locus it is useful to store the maps in /Locus/mapsVector to have them accessible for Locus as well as for c:geo.
+                If you are additionally using the app [Locus](https://play.google.com/store/apps/details?id=menion.android.locus) it is useful to store the maps in /Locus/mapsVector to have them accessible for Locus as well as for c:geo.
 
                 Afterwards go to c:geo Menu → Settings → Map and select the section "Directory with offline maps".
                 It will automatically scan for maps on your phone memory and offer you the results.
@@ -1790,7 +1796,21 @@
                 If you now access any map functionality (live map, cache map,etc.) the offline file will be used.
 
                 You can quickly switch between different offline maps or switch back to online maps by clicking the layer icon in the titlebar while on a map.
+        de:
+            title: Wie benutze ich eine OSM:Offline-Karte in c:geo?
+            content: |
+                Nachdem du eine Karte heruntergeladen oder erstellt hast, speichere sie in einem Ordner (z.B. /mfmaps) auf deinem Gerät oder der SD-Karte. Du kannst auch mehrere Karten (z.B. für mehrere Länder) in diesem Ordner speichern, und kannst später in c:geo einfach zwischen diesen Karten wechseln.
+                Wenn du auch die App [Locus](https://play.google.com/store/apps/details?id=menion.android.locus) nutzt ist es hilfreich die Karten im Ordner /Locus/mapsVector zu speichern, damit sie für Locus und c:geo nutzbar sind.
 
+                Wähle danach in c:geo den Menüpunkt "Verzeichnis mit Offline-Karten" unter Menü → Einstellungen → Karte
+                Es wird automatisch nach Karten in deinem Telefon-Speicher gesucht und die Ergebnisse zur Auswahl angezeigt.
+
+                Wenn es keine Ergebnisse gibt oder deine Kartendatei nicht aufgelistet ist, kannst du "Verzeichnis wählen" oben anklicken und einen Datei-Brwoser nutzen um den Pfad manuell einzugeben.
+
+                Damit c:geo die ausgewählte Karte nutzt, musst du die gewünschte Karte im Menüpunkt "Wähle Kartenquelle" auswählen. Es werden dir dort alle Karten im gewählten Verzeichnis aufgelistet. Du kannst diese Auswahl auch direkt auf der Live-Karte ändern.
+                Wenn du nun die Karte nutzt (Live-Karte, Cache-Karte, usw.) wird die Offline-Datei genutzt.
+                
+                Du kannst einfach zwischen verschiedenen Offline-Karten wechseln oder zur Online-Karte wechseln, indem du die Ebenen-Schaltfläche in der Titelzeile der Kartendarstellung anklickst.
 
       - id: osm-get-maps
         en:
@@ -1809,7 +1829,6 @@
                 There are also other sources, just search for "mapsforge map". Please read the instructions for each map as some of them require a special map theme to work correctly.
 
                 If you would like to create your own map please read these [instructions](https://github.com/mapsforge/mapsforge/blob/master/docs/MapCreation.md).
-
 
       - id: osm-use-themes
         en:
