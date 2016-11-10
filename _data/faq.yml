@@ -1604,7 +1604,11 @@
             content: |
                 Send to c:geo is a quicker way to transfer a cache opened in your browser to your c:geo.
                 You will find all relevant information for installation and usage here: [send2cgeo](/send2cgeo.html)
-
+        de:
+            title: Was ist send2cgeo?
+            content: |
+                Send to c:geo ist ein schneller Weg um Caches, die du im Browser geöffnet hast auf c:geo zu übertragen.
+                Du findest alle relevanten Informationen zur Instllation und Nutzung hier: [send2cgeo](/send2cgeo.html)
 
       - id: send2-register-fail
         en:
@@ -1617,7 +1621,16 @@
                 - A communication error or timeout occurred
 
                 You should try again in a couple of minutes/hours and if the problem persists please contact our [support](/support.html).
+        de:
+            title: Ich versuche mich zu registrieren aber erhalte 'Registration failed'!
+            content: |
+                Wenn die Registrierung fehlschlägt, kann das folgende Gründe haben:
+                
+                - Dein Gerät hat keine Internet-Verbindung
+                - Unser Server ist gerade nicht erreichbar oder ausgelastet
+                - Ein Kommunikationsfehler oder Zeitablauf ist aufgetreten
 
+                Du solltest es einfach in ein paar Minuten/Stunden erneut versuchen und dich bei [uns melden](/support.html), wenn das Problem dauerhaft besteht
 
       - id: send2-multiple-devices
         en:
@@ -1627,7 +1640,13 @@
 
                 You need to "Register the device" for every browser. The PIN can only be used once.
                 Afterwards you can send caches to c:geo from each of the registered browsers and they will be retrieved on all registered devices on which the import is currently active.
-
+        de:
+            title: Kann ich mehrere Geräte und/oder Brwoser mit send2cgeo nutzen?
+            content: |
+                Ja, mehrere Geräte können in mehreren Browsern genutzt werden.
+                
+                Du musst dein Gerät dazu in jedem Browser registrieren. Eine PIN kann nur jeweils einmal genutzt werden.
+                Danach kannst du Caches von jedem der registrierten Browser Caches an c:geo senden und sie werden von allen Geräten empfangen, bei denen der Import gerade aktiviert ist.
 
       - id: send2-register-first
         en:
@@ -1636,8 +1655,14 @@
                 If this appears to you while using Google Chrome please check your cookie settings.
                 It might be required to allow third party cookies for send2cgeo.
 
-                Look into your geocaching.com browser tab. If there is a cookie symbol with a red X at the end of the URL dialog, click on it, and in the popup click "Maintain cookie blocking" (or similar) and permit [*.]send2.cgeo.org.
-
+                Look into your geocaching.com browser tab: If there is a cookie symbol with a red X at the end of the URL dialog, click on it, and in the popup click "Maintain cookie blocking" (or similar) and permit [*.]send2.cgeo.org.
+        de:
+            title:  Es wird 'Register first' auf der Webseite angezeigt obwohl ich registriert bin!
+            content: |
+                Wenn dies in Google Chrome passiert, kontrolliere bitte deine Cookie-Einstellungen im Browser.
+                Es könnte erforderliche sein, dass du Drittanbieter-Cookies für send2cgeo erlaubst.
+                
+                Schaue in deinen geocaching.com browser Tab: Wenn dort ein Cookie-Symbol mit einem roten X an Ende des URL-Eingabefeldes erscheint, dann klick darauf und klicke im erscheinenden Fenster auf "Maintain cookie blocking" (oder eine entsprechende Meldung in Deutsch) und erlaube [*.]send2.cgeo.org.
 
 - id: gcvote
   title:
@@ -1648,10 +1673,15 @@
         en:
             title: What is GCVote?
             content: |
-                [GCVote](http://www.gcvote.com) is an extension for [www.geocaching.com](http://www.geocaching.com) that enables you to rate the quality of caches.
+                [GCVote](http://www.gcvote.com) is an extension for [geocaching.com](http://www.geocaching.com) that enables you to rate the quality of caches.
                 It is independent of c:geo and can also be used in your web browser.
                 You can view the average rating of caches in c:geo and also add your own vote with c:geo.
-
+        de:
+            title: Was ist GCVote?
+            content: |
+                [GCVote](http://www.gcvote.com) ist eine Erweiterung für [geocaching.com](http://www.geocaching.com) die es dir ermöglichst die Qualität eines Caches zu bewerten.
+                Es ist von c:geo unabhängig und kann auch in deinem Internet-Browser verwendet werden.
+                Du kannst dir die durchscnittliche Bewertung von Caches in c:geo anschauen und deine eigene Bewertung mit c:geo abgeben.
 
       - id: gcvote-usage
         en:
@@ -1661,19 +1691,33 @@
                 Additionally a color index for the rating is shown in c:geo cache lists as described [here](./faq.html#icons-on-lists).
 
                 While viewing the average rating is possible without an account, you need one if you want to add your own vote for a cache.
-
+        de:
+            title: Was brauche ich um GCVote zu nutzen?
+            content: |
+                c:geo zeigt dir standardmäßig die durchschnittliche Cache-Bewertung an. Diese findest du unterhalb der D/T-Wertung in den Cache-Details.
+                Zusätzlich wird ein Farbindex für die Bewertung in den c:geo Cachelisten angezeigt, wie es [hier](./faq.html#icons-on-lists) beschrieben ist.
+                
+                Während das Ansehen der Bewertung ohne einen Account möglich ist, brauchst du einen Account, wenn du deine eigene Bewertung für einen Cache abgeben möchtest.
 
       - id: gcvote-login
         en:
             title: How to login to GCVote?
             content: |
                 Please go to [GCVote.com](http://www.gcvote.com) and follow their instructions to get a password for GCVote.
-                Their [FAQ](http://http://gcvote.com/FAQ_en.php) will also give you additional information how to do this.
+                Their [FAQ](http://gcvote.com/FAQ_en.php) will also give you additional information how to do this.
 
                 Once you received a password for the service you have to go to\\
                 Menu → Settings → Services → gcvote.com\\
                 and enter username (always the same as your geocaching.com user name) and password there.
-
+        de:
+            title: Wie melde ich mich für GCVote an?
+            content: |
+                Bitte gehe auf [GCVote.com](http://www.gcvote.com) und folge den Anweisungen um ein Passwort für GCVote zu erhalten.
+                Ihre [FAQ](http://gcvote.com/FAQ_de.php) gibt dir weitere Informationen, was zu tun ist.
+                
+                Nachdem du ein Passwort für den Dienst erhalten hast, gehe zu\\
+                Menü → Einstellungen → Dienste → gcvote.com\\
+                und gib den Benutzernamen (immer der gleiche wie dein geocaching.com Benutzername) und das Passwort dort ein.              
 
       - id: gcvote-voting
         en:
@@ -1689,7 +1733,19 @@
                 2. While in cache details
 
                     Open a cache with c:geo and select Menu → Rate to send a voting for a cache.
+        de:
+            title: Wie bewerte ich einen Cache mit GCVote?
+            content: |
+                Es gibt zwei Möglichkeiten deine Bewertung für einen Cache in c:geo abzugeben:
+                
+                1. Während du einen Cache loggst
 
+                    Wenn du bei GCVote angemeldet bist und ein Log für einen Cache mit c:geo schreibst, siehst du die Bewertungsoption (eine Reihe mit Sternen) direkt unter dem Logtext. Hier kannst du deine eigene Bewertung abgeben.
+                    Sobald du das Log abschickst, wird auch deine Bewertung abgesendet.
+                    
+                2. In den Cache-Details
+
+                    Öffne einen Cache in c:geo und wähle Menü → Bewerten um eine Bewertung vorzunehmen.
 
       - id: gcvote-deactivate
         en:
@@ -1697,7 +1753,11 @@
             content: |
                 If you don't want to see the GCVote ratings in c:geo you can disable it by deactivating\\
                 Menu → Settings → Services → gcvote.com
-
+        de:
+            title: Ich möchte GCVote deaktivieren!
+            content: |
+                Wenn dui die GCVOte-Bewertungen in c:geo nicht sehen möchtest, kannst du dies hier deaktivieren:\\
+                Menü → Einstellungen → Dienste → gcvote.com
 
 - id: offline-maps
   title:
