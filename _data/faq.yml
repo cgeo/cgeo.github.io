@@ -1829,6 +1829,22 @@
                 There are also other sources, just search for "mapsforge map". Please read the instructions for each map as some of them require a special map theme to work correctly.
 
                 If you would like to create your own map please read these [instructions](https://github.com/mapsforge/mapsforge/blob/master/docs/MapCreation.md).
+        de:
+            title: Woher bekomme ich eine OSM:Offline-Karte?
+            content: |
+                c:geo unterstützt Offline-Karten von Mapsforge in Version 0.3.0. Diese Karten-Dateien werden nicht nut von c:geo sondern auch von anderen Apps wie z.B. "Locus Map" und "Oruxmaps" unterstützt.
+
+                Es gibt viele OSM:Offline-Karten von diversen Quellen, wie zum Beispiel
+
+                - [Offizielle Mapsforge Seite](http://download.mapsforge.org/maps/)
+                - [Freizeitkarte](http://www.freizeitkarte-osm.de/android/de/index.html)
+                - [OpenAndroMaps](http://www.openandromaps.org/)
+                - [OpenMaps](http://openmaps.eu/mapsforgedownload)
+                - [AndroidMaps](http://www.androidmaps.co.uk/)
+
+                Es gibt auch andere Quellen, suche einfach nach "Mapsforge map". Bitte lies dir die Anleitung für jede Karte durch, da manche Karten spezielle Themen benötigen um korrekt zu funktionierern.
+
+                Wenn du deine eigene Karte erstellen möchtest, lies dir bitte [diese Anleitung](https://github.com/mapsforge/mapsforge/blob/master/docs/MapCreation.md) durch.                
 
       - id: osm-use-themes
         en:
@@ -1839,8 +1855,17 @@
                 Up to now we do not have build-in themes but you need to create them by yourself or download some user made themes from the Internet. Some maps require a special map theme to work correctly, so please read their instructions carefully.
 
                 After having downloaded a theme-package (usually a ZIP-file containing a lot of xml files and graphics) extract it including all its sub-directories into a folder in your device or SD card. Afterwards select this folder as base-folder for map themes in c:geo settings. If you have done it right and the theme is valid it should now be selectable from live map via\\
-                Live map menu → Map modes → Select map theme
+                Live map menu → Select map theme
+        de:
+            title: Wie nutze ich spezielle Themen für OSM:Offline?
+            content: |
+                c:geo unterstützt maßgeschneiderte Darstellungs-Themen für OSM:Offline-Karten. Diese kannst du nutzen um den Farbstil der Karte zu verändern (z.B. für eine Nachtsicht-Karte) oder um spezielle Objekte auf der Karte hervorzuheben (z.B. Radwege oder Höhenlinien).
 
+                Bislang haben wir keine eingebauten Themen, daher musst du diese selbst erstellen oder von anderen Nutzern erstellte Themen aus dem Internet nutzen. Einige Karten benötigen spezielle Karten-Themen um korrekt zu funktionieren, lies dir bitte deren Anweisungen genau durch.
+                
+                Nachdem du ein Themen-Paket heruntergeladen hast (üblicherweise eine ZIP-Datei mit vielen XML-Dateien und Graphiken) entpacke es mit allen Unterordnern in einen Ordner auf deinem Gerät oder der SD-Karte. Danach wähle diesesn Ordner als Basis-Order für Karten-Themen in den c:geo Einstellungen. Wenn du dies richtig gemacht hast und das Thema gültig ist sollte es nun auf der Live-Karte unter\\
+                Live.Karte → Menü → Kartendarstellung wählen\\
+                nutzbar sein.                
 
 - id: offline-caching
   title:
@@ -1868,24 +1893,56 @@
 
                 Afterwards c:geo will not post logs online but only store the found status offline.
                 You can then at a later point either upload the logs via field note export or open the log page in the app again and submit them online while having an Internet connection.
+        de:
+            title: Kann ich c:geo auch fürs Offline-Caching verwenden?
+            content: |
+                Hauptsächlich kann c:geo genutzt werden um Online-Zugriff auf deine Geocaching-Plattform zu haben.
+                Dennoch stellt c:geo auch Offline-Funktionalität zur Verfügung um es ohne jede Netzverbindung (z.B. beim Cachen im Ausland) zu nutzen.
 
+                Um c:geo komplett offline zu nutzen, musst du je nach Bedarf einige Dinge vorbereiten:
 
+                1. Speichere die Caches zur Offline-Nutzung (manuell oder mittels GPX-Import).
+                2. Lade dir optional eine Offline-Karte herunter wie in [diesem Bereich der FAQ](./faq.html#osm) beschrieben.
+
+                Wenn du jegliche Datenübertragung vermeiden möchtest, solltest du die Internetverbindung deines Gerätes komplett deaktivieren, da c:geo immer versuchen wird sich einzuloggen, wenn es gestartet wird.
+                Auf den meisten Geräten wird die Internetverbindung ohnehin automatisch deaktivert, wenn du im Auslang bist oder der Mobilfunkzugriff abgeschaltet wird.
+
+                Um Offline-Loggen zu vermöglichen, gehe bitte zu\\
+                c:geo Menü → Einstellungen → Loggen\\
+                ujnd aktiviere "Offline loggen".
+
+                Danach wird c:geo die Logs nicht online absenden, sondern den Fund-Status nur offline speichern.
+                Du kannst dann später entweder die Logs als Feldnotizen exportieren oder die Log-Seite in c:ge sobald du eine Internetverbindung hast erneut öffnen und die Logs online absenden.
+                
       - id: fieldnotes
         en:
             title: What are fieldnotes and how do I use them?
             content: |
-                Fieldnotes are supported by geocaching.com and allow an offline logging of cache finds and batch uploading them to the website.
-                c:geo is supporting fieldnote export and also an automatic upload to the website.
+                Fieldnotes are supported by geocaching.com and some opencaching sites and allow an offline logging of cache finds and batch uploading them to the website.
+                c:geo is supporting fieldnote export and also an automatic upload to the website (for geoaching.com).
 
                 If you save your cache logs offline in c:geo (e.g. when caching abroad) you have the possibility to export these logs as fieldnote instead of logging them online.
-                The offline logged caches are marked by an orange line in your lists. To export the logs you have to open the relevant list of saved caches or the history and select\\
+                The offline logged caches are marked by an orange line in your lists and with a red smiley on the map. To export the logs you have to open the relevant list of saved caches or the history and select\\
                 Menu → Export → Field notes.\\
                 From there you can either only export the fieldnote file to your device or additionally upload them to the geocaching website.
                 The option 'Since last export' will check the last upload date on geocaching.com and only export those which are composed after this date.
 
                 After you exported your fieldnotes to the geocaching website, the website will show that you have pending fieldnotes [on this page](https://www.geocaching.com/my/fieldnotes.aspx) and you can compose your logs in your browser.
                 Please be aware that it might take a minute after the upload until the website shows the pending fieldnotes.
+        de:
+            title: Was sind Feldnotizen und wie kann ich diese nutzen?
+            content: |
+                Feldnotizen werden von geocaching.com und manchen Opencaching-Seiten unterstützt und erlauben das offline loggen von Cache-Funden und das gesammelte Hochladen auf die Webseite.
+                c:geo unterstützt den Export von Feldnotizen und auch das automatische Hochladen zur Webseite (für geocaching.com).
 
+                Wenn du deine Cache-Logs offline in c:geo speicherst (z.B. beim Cachen im Ausland), hast du die Möglichkeit diese Logs als Feldnotizen zu exportieren statt sie online zu loggen.
+                Die offline geloggten Caches werden durch eien orange Linie in deinen Listen und auf der Karte mit einem roten Smiley dargestellt. Um diese zu exportieren öffne die jeweilige Liste von gepeicherten Caches oder den Verlauf und wähle\\
+                Menü → Exportieren → Field Notes.\\
+                Danach kannst du auswählen entweder nur die Feldnotizen in eine Datei auf deinem Gerät zu exportieren oder sie zusätzlich auf die Geocaching-Webseite hochzuladen.
+                Die Option "Seit letztem Export" prüft das letzte Hochlade-Datum auf geocaching.com und exportiert nur die Logs, die danach erstellt wurden.
+
+                Nachdem du die Feldnotizen auf die Geocaching-Webseite hochgeladen hast, wird dir die Webseite [hier](https://www.geocaching.com/my/fieldnotes.aspx) anzeigen, dass du ausstehende Feldnotizen hast und du kannst die Logs in deinem Internet-Browser schreiben.
+                Bitte beachte, dass es einige Minuten nach dem Hochladen dauern kann, bis die Webseite diese ausstehenden Feldnotizen anzeigt.
 
       - id: static-maps
         en:
@@ -1899,7 +1956,17 @@
                 for the cache position itself  and (if needed) also for the additional waypoints of a cache.
 
                 To access the static maps of a cache later on please select Menu → Navigate → Static Maps from the cache details.
+        de:
+            title: Was sind statische Karten?
+            content: |
+                c:geo lädt optional Google Maps Ausschnitte des Gebietes rund um den Cache und seine Wegpunkte zur Offline-Nutzung herunter während der Cache gespeichert wird.
+                Es lädt dabei Satelliten-Bilder sowie Kartenansichten in mehreren Zoom-Stufen herunter. Somit hast du eine Karten-Funktion auch in dem Fall, dass du keine Internet-Verbindung hast und auch keine OSM:Offline-Karten nutzt.
 
+                Du musst diese Funktion hier\\
+                c:geo Menü → Einstellungen → Offline-Daten\\
+                für die Cache-Position selbst und (wenn benötigt) für die zusätzlichen Wegpunkte des Caches einschalten.
+
+                Um auf die statischen Karten eines Caches später zuzugreifen, wähle bitte Menü → Navigation → Statische Karten aus den Cache-Details.
 
       - id: caches-missing-static-maps
         en:
@@ -1910,8 +1977,15 @@
 
                 If the limit is reached you will have to wait for the next day to get more static maps. c:geo will automatically refresh those caches without a static map first.
                 You can also consider to switch off static map loading for additional waypoints to limit the amount of maps which are downloaded.
+        de:
+            title: Bei einigen Caches fehlen die statischen Karten!
+            content: |
+                Google begrenzt das Herunterladen von statischen Karten auf 1000 Anfragen pro Tag für jeden Nutzer.
+                Wenn du also viele Caches herunterlädst oder aktualisierst, kann diese Begrenzung einfach erreicht werden (da für jeden Cache mindestens fünf Karten und optional sogar mehr, wenn du das Herunterladen auch für Wegpunkte des Caches aktiviert hast).
 
-
+                Wenn die Begrenzung erreicht ist, musst du bis zum nächsten Tag warten um mehr statische Karten herunterzuladen. c:geo wird automatisch die Caches ohne statische Karten zuerst aktualisieren.
+                Du solltest auch überlegen das Herunterladen von statischen Karten für die zusätzlichen Wegpunkte auszuschalten, um die Menge an Karten zu begrenzen.
+                
       - id: batch-logging
         en:
             title: Can I batch submit offline logs to the website with c:geo?
@@ -1920,7 +1994,13 @@
 
                 While we are against mass logging of caches still batch sending offline stored logs might be meaningful as this is another usecase.
                 Therefore we are thinking about implementing this but we encourage you to use the existing field note submission for the time being.
+        de:
+            title: Kann ich mehrere Offline-Logs mit c:geo automatisch absenden?
+            content: |
+                Das ist (noch) nicht möglich.
 
+                Auch wenn wir gegen das Massen-Loggen von Caches sind, könnte das gemeinsame Hochladen von gespeicherten Logs sinnvoll sein, da es ein andereer Anwendungsfall ist.
+                Daher denken wir darüber nach diese Funktion einzubauen, bis dahin solltest du die Feldnotiz-Funktion ausprobieren um deine Logs zu übermitteln.
 
 - id: opencaching-platforms
   title:
