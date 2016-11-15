@@ -2022,7 +2022,20 @@
                 With this account data you can activate the platform in c:geo and authorize yourself to the opencaching website with your login credentials.
 
                 Afterwards opencaching caches will be shown on the live map,in nearby searches and you can post logs online.
+        de:
+            title: Wird Opencaching von c:geo unterstützt?
+            content: |
+                Ja, c:geo unterstützt schon Opencaching-Plattformen diverser Länderund wir planen mehr Plattformen hinzuzufügen, sobald sie die OKAPI-Schnittstelle anbieten.
 
+                Please kontrolliere in\\
+                c:geo Menü → Einstellungen → Dienste\\
+                welche Plattformen bereits unterstützt werden.
+                Innerhalb der verschiedenen Plattform-Einstellungen hast du auch die Möglichkeit nachzusehen, welche Funktionen für die jeweilige Plattform untersützt werden.
+
+                Um diese zu nutzen benötigst du einen Zugang auf der jeweiligen Opencaching-Webseite.
+                Mit diesen Nutzerdaten kannst du die Plattformen in c:geo aktivieren und dich mit deinen Nutzerdaten authentisieren.
+
+                Danach werden dir Opencaching-Caches auf der Live-Karte und in der Nahbereichssche angezeigt und du kannst online Logs absenden.
 
       - id: oc-auth-fail
         en:
@@ -2033,7 +2046,14 @@
 
                 On some devices the Internet browser does not correctly redirect back to c:geo after you logged in on the opencaching website but tries to open a website like "callback://www.cgeo.org[...]".
                 This is a faulty behavior of the Internet browser you are using, please try another Internet browser application to perform the authorization.
+        de:
+            title: Die Authentisierung mit Opencaching schlägt fehl, wird nicht gestartet oder nicht fertiggestellt!
+            content: |
+                Wenn du dieses Problem hast, prüfe bitte ob dein Gerät das korrekte Datum, Zeit und Zeitzone hat.
+                Aus Sicherheitsgründen lehnt das Opencaching-API jede Anfrage ab, die nicht der Server-Zeit (± 5 Minuten) entspricht.
 
+                Auf einigen Geräten leitet der Internet-Brwoser die Anfrage nicht korrekt an c:geo zurück, nachdem du diche auf der Opencaching-Webseite angemeldet hast , sondern öffnet eine Webseite wie z.B. "callback://www.cgeo.org[...]". 
+                Das ist ein fehlerhaftes Verhalten des Internet-Browsers, den du nutzt. Bitte versuche eine andere Internet-Brwoser App um die Authentisierung durchzuführen.
 
 - id: trackable-management
   title:
