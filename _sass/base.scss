@@ -351,6 +351,20 @@ h2[lang]:not([lang="en"]) {
     display: none;
 }
 
+#language-selection {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #333;
+    opacity: 0.8;
+    padding: 0.1em 0.5em;
+    font-size: 0.8em;
+
+    a {
+        margin: 0 0.3em;
+    }
+}
+
 .openhub {
     text-align: center;
 

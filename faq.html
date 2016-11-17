@@ -8,7 +8,28 @@ editlink:
 
 {% assign languages = "en de" | split: ' ' %}
 
+<script type="text/javascript">
+    var languages = [ "{{ languages | join: '", "' }}" ];
+
+    function switchLanguage(lang) {
+        if ($.inArray(userLang, languages) > -1) {
+            $('.faqitem div[lang], h2[lang], .faqnavigation[lang]').hide();
+            $('.faqitem div[lang="' + lang + '"], h2[lang="' + lang + '"], .faqnavigation[lang="' + lang + '"]').show();
+
+            // jump to anchor again because page length might have changed
+            if (location.hash) {
+                location.hash = location.hash;
+            }
+        }
+    }
+</script>
+
 <h1>FAQ - Frequently Asked Questions</h1>
+
+<div id="language-selection">
+    <a href="javascript:switchLanguage('en');">English</a>
+    <a href="javascript:switchLanguage('de');">Deutsch</a>
+</div>
 
 {% for language in languages %}
 <ul class="faqnavigation" lang="{{ language }}">
@@ -66,13 +87,5 @@ editlink:
 
 <script type="text/javascript">
     var userLang = (navigator.language || navigator.userLanguage).split('-')[0];
-    if ($.inArray(userLang, [ "{{ languages | join: '", "' }}" ]) > -1) {
-        $('.faqitem div[lang="en"], h2[lang="en"], .faqnavigation[lang="en"]').hide();
-        $('.faqitem div[lang="' + userLang + '"], h2[lang="' + userLang + '"], .faqnavigation[lang="' + userLang + '"]').show();
-
-        // jump to anchor again because page length might have changed
-        if (location.hash) {
-            location.hash = location.hash;
-        }
-    }
+    switchLanguage(userLang);
 </script>
