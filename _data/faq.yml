@@ -22,7 +22,18 @@
             title: Caches haben ein leeres Logbuch!
             content: |
                 Bitte aktualisiere c:geo auf die neueste Version, in der das Problem behoben ist!
-
+                
+      - id: 6147
+        en:
+            title: I cannot connect to opencaching.us!
+            content: |
+                There seem to be problems on opencaching.us itself according to [their forum](http://forum.opencaching.us/viewtopic.php?f=31&t=1817).
+                This leads to the problem that you cannot use opencaching.us in c:geo at the moment.
+        de:
+            title: Ich kann mich nicht mit opencaching.us verbinden!
+            content: |
+                Es scheint ein Problem auf opencaching.us selbst zu geben, wie du in [ihrem Forum](http://forum.opencaching.us/viewtopic.php?f=31&t=1817) lesen kannst.
+                Das führt zu dem Probelm, dass du opencaching.us im Moment nicht in c:geo nutzen kannst.
 
 - id: getting-started
   title:
