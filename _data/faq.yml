@@ -61,13 +61,13 @@
             content: |
                 Alle Details des Geocaching zu erklären würde hier ein wenig zu weit führen. Aber es gibt einige Dinge, die du wissen solltest um mit Geocaching in c:geo zu starten:
 
-                1. Du brauchst ein Nutzerkonto auf einer Geocaching-Plattform um diesen in c:geo zu nutzen:
+                1. Du brauchst ein Nutzerkonto auf einer Geocaching-Plattform um dieses in c:geo zu nutzen:
 
                     Wir unterstützen [geocaching.com](http://www.geocaching.com/), eine internationale Geocaching-Plattform, sowie Opencaching-Plattformen in diversen Ländern (z.B. [opencaching.de](http://www.opencaching.de/), [opencaching.pl](http://www.opencaching.pl/), u.v.m.).
                     
                     Wähle eine Plattform, die du gerne nutzen möchtest, gehe zu deren Internet-Seite und erstelle dort ein Nutzerkonto (Basis-Konten sind normalerweise kostenlos).
                     
-                    Nachdem du Benutzernamen und Passwort für eine der Plattformen erhalten hast, gebe diese in den c:geo Einstellungen ein, um c:geo den Zugriff auf die Plattform zu ermöglichen.
+                    Nachdem du Benutzernamen und Passwort für eine der Plattformen erhalten hast, gib diese in den c:geo Einstellungen ein, um c:geo den Zugriff auf die Plattform zu ermöglichen.
                     
                 2. Du musst etwas über die verschiedenen Cache-Typen, D/T-Wertungen, usw. lernen
 
@@ -178,7 +178,7 @@
             content: |
                 c:geo nutzt nur deine Nutzerdaten, die du auf der Geocaching-Webseite festgelegt hast.
 
-                Du musst also auf die Geocaching-Webseite gehen um dein Passwort zurückzusetzen. Nachdem du es dort erfolgreich zurückgesetzt hast, gehe bitte in die c:geo Einstellungen und gebe die neuen Nutzerdaten dort ein.
+                Du musst also auf die Geocaching-Webseite gehen um dein Passwort zurückzusetzen. Nachdem du es dort erfolgreich zurückgesetzt hast, gehe bitte in die c:geo Einstellungen und gib die neuen Nutzerdaten dort ein.
 
                 Für [geocaching.com](http://www.geocaching.com/) kannst du beispielsweise [auf dieser Seite](https://www.geocaching.com/login/password.aspx) dein Passwort zurücksetzen.
 
@@ -763,7 +763,7 @@
                 In this case please deactivate the unneeded opencaching platforms in: \\
                 Menu → Settings → Services → opencaching.xx
         de:
-            title: Die Nachbereichssuche zeigt auch Caches, die weit entfernt sind!
+            title: Die Nahbereichssuche zeigt auch Caches, die weit entfernt sind!
             content: |
                 Neben geocaching.com unterstützt c:geo auch Opencaching-Plattformen in verschiedenen Ländern.
                 Wenn du den Opencaching-Dienst in den c:geo-Einstellungen aktivierst, dann liefert die Nahbereichssuche auch die nächstgelegenen Opencaching-Caches zurück.
@@ -1020,9 +1020,9 @@
         en:
             title: Google Play zeigt keine neue c:geo Version an, obwohl diese verfügbar sein sollte!
             content: |
-                Einige User haben sich beklagt, dass sich nach dem Klicken auf die Benachrichtigung für eine neue Version im c:geo Hauptmenü Google Play geöffnet wird aber keine neue Version dort verfügbar ist.
+                Einige User haben sich beklagt, dass nach dem Klicken auf die Benachrichtigung für eine neue Version im c:geo Hauptmenü Google Play geöffnet wird, aber keine neue Version dort verfügbar ist.
                
-                Google Play braucht mehrere Stunden um eine Aktualisierung in allen Ländern zu verteilen. Es nach ein paar Stunden nochmal zu versuchen sollte das Problem beheben.
+                Google Play braucht mehrere Stunden um eine Aktualisierung in allen Ländern zu verteilen. Versuch es nach ein paar Stunden einfach noch einmal.
                 Wird die neue Version dann immer noch nicht angezeigt, hilft ein Neustart des Gerätes um Google Play dazu zu zwingen sich zu synchronisieren und die neue Version zu finden.
 
                 Wenn dennoch weiterhin Probleme mit der Herunterladen der Aktualisierung von Google Play bestehen, empfehlen wir die Aktualisierung wie hier beschrieben vorzunehmen:
@@ -1127,7 +1127,7 @@
 
                 - Installiere die gleiche c:geo Version, wie auf dem alten Gerät
                 - Starte c:geo
-                - Gebe deine Nutzerdaten ein und nimm die gewünschten sonstigen Einstellungen vor (dies ist kein Teil der Sicherung) 
+                - Gib deine Nutzerdaten ein und nimm die gewünschten sonstigen Einstellungen vor (dies ist kein Teil der Sicherung) 
                 - Beende c:geo
                 - Nutze einen Datei-Explorer um den gleichen Ordner auf dem neuen Gerät ausfindig zu machen, von dem du auf dem alten Gerät die Sicherung gemacht hast (typischerweise /sdcard/.cgeo/) und kopiere die Sicherungsdatei (cgeo.sqlite) vom alten Telefon in diesen Ordner. 
                 - Optionaler Schritt: Wenn du auch eine Sicherung der Unterordner durchgeführt hast, kopiere sie ebenso in diesen Ordner zurück.
@@ -1999,7 +1999,7 @@
             content: |
                 Das ist (noch) nicht möglich.
 
-                Auch wenn wir gegen das Massen-Loggen von Caches sind, könnte das gemeinsame Hochladen von gespeicherten Logs sinnvoll sein, da es ein andereer Anwendungsfall ist.
+                Auch wenn wir gegen das Massen-Loggen von Caches sind, könnte das gemeinsame Hochladen von gespeicherten Logs sinnvoll sein, da es ein anderer Anwendungsfall ist.
                 Daher denken wir darüber nach diese Funktion einzubauen, bis dahin solltest du die Feldnotiz-Funktion ausprobieren um deine Logs zu übermitteln.
 
 - id: opencaching-platforms
@@ -2021,11 +2021,11 @@
                 To use these you need to have an account on the opencaching website.
                 With this account data you can activate the platform in c:geo and authorize yourself to the opencaching website with your login credentials.
 
-                Afterwards opencaching caches will be shown on the live map,in nearby searches and you can post logs online.
+                Afterwards opencaching caches will be shown on the live map, in nearby searches and you can post logs online.
         de:
             title: Wird Opencaching von c:geo unterstützt?
             content: |
-                Ja, c:geo unterstützt schon Opencaching-Plattformen diverser Länderund wir planen mehr Plattformen hinzuzufügen, sobald sie die OKAPI-Schnittstelle anbieten.
+                Ja, c:geo unterstützt schon Opencaching-Plattformen diverser Länder und wir planen mehr Plattformen hinzuzufügen, sobald sie die OKAPI-Schnittstelle anbieten.
 
                 Please kontrolliere in\\
                 c:geo Menü → Einstellungen → Dienste\\
@@ -2052,8 +2052,8 @@
                 Wenn du dieses Problem hast, prüfe bitte ob dein Gerät das korrekte Datum, Zeit und Zeitzone hat.
                 Aus Sicherheitsgründen lehnt das Opencaching-API jede Anfrage ab, die nicht der Server-Zeit (± 5 Minuten) entspricht.
 
-                Auf einigen Geräten leitet der Internet-Brwoser die Anfrage nicht korrekt an c:geo zurück, nachdem du diche auf der Opencaching-Webseite angemeldet hast , sondern öffnet eine Webseite wie z.B. "callback://www.cgeo.org[...]". 
-                Das ist ein fehlerhaftes Verhalten des Internet-Browsers, den du nutzt. Bitte versuche eine andere Internet-Brwoser App um die Authentisierung durchzuführen.
+                Auf einigen Geräten leitet der Internet-Brwoser die Anfrage nicht korrekt an c:geo zurück, nachdem du dich auf der Opencaching-Webseite angemeldet hast  sondern öffnet eine Webseite wie z.B. "callback://www.cgeo.org[...]". 
+                Das ist ein fehlerhaftes Verhalten des Internet-Browsers, den du nutzt. Bitte versuche eine andere Internet-Browser-App um die Authentisierung durchzuführen.
 
 - id: trackable-management
   title:
@@ -2167,7 +2167,7 @@
         de:
             title: Einige Funktionen von geokrety.org werden von c:geo nicht unterstützt!
             content: |
-                Einige der Funktionen, die auf der [GeoKrety.org](https://www.geokrety.org)-Webseite verfügbar sind, werden (noch) nicht von c:geo unterstützt, da diese entweder von der Schnitstelle nicht unterstützt werden oder wir einfach noch keine Zeit hatten diese einzubauen:
+                Einige der Funktionen, die auf der [GeoKrety.org](https://www.geokrety.org)-Webseite verfügbar sind, werden (noch) nicht von c:geo unterstützt, da diese entweder von der Schnittstelle nicht unterstützt werden oder wir einfach noch keine Zeit hatten diese einzubauen:
 
                 - Das Logbuch von GeoKrets einsehen 
                 - Einen GeoKret als "vermisst" markieren
@@ -2189,9 +2189,9 @@
             title: Ich kann Premium-Caches nicht sehen, obwohl ich Premium-Mitglied bin!
             content: |
                 Beim Anmelden auf der Geocaching.com-Webseite stellt c:geo automatisch fest, ob du Basis- oder Premium-Mitglied bist. Allerdings führt c:geo eine Anmeldung nur durch, wenn sie notwendig ist.
-                Wenn du also gerade Premium_-Mitglied bist kann es vorkommen, dass c:geo dies noch nicht erkannt hat.
+                Wenn du also erst seit kurzem Premium-Mitglied bist kann es vorkommen, dass c:geo dies noch nicht erkannt hat.
 
-                In diesem Fall kansnt du c:geo zwingen sich neu einzuloggen indem dein Gerät einfach neustartest und danach c:geo wieder öffnest.
+                In diesem Fall kannst du c:geo zwingen sich neu einzuloggen, indem du dein Gerät einfach neustartest und danach c:geo wieder öffnest.
 
       - id: blurred-text
         en:
@@ -2373,7 +2373,7 @@
                 Event-Caches enthalten auf der Geocaching-Webseite nur das Datum aber nicht die Uhrzeit des Events.
                 
                 c:geo durchsucht daher die Event-Beschreibung und versucht die Uhrzeit hieraus zu extrahieren.
-                In einigen Fällen kann das zu falschen Ergebnissen führen oder gar nicht funktionieren. Dann musst die die Uhrzeit im Kalender-Eintrag manuell korrigieren.
+                In einigen Fällen kann das zu falschen Ergebnissen führen oder es wird keine Uhrzeit gefunden. Dann musst die die Uhrzeit im Kalender-Eintrag manuell korrigieren.
 
       - id: plugin-calendar-fails
         en:
