@@ -26,7 +26,7 @@ editlink:
 
 <h1>FAQ - Frequently Asked Questions</h1>
 
-<div id="language-selection">
+<div id="language-selection" style="display: none;">
     <a href="javascript:switchLanguage('en');">English</a>
     <a href="javascript:switchLanguage('de');">Deutsch</a>
 </div>
@@ -86,6 +86,8 @@ editlink:
 {% endfor %}
 
 <script type="text/javascript">
+    $('#language-selection').show();
+
     var userLang = (navigator.language || navigator.userLanguage).split('-')[0];
     switchLanguage(userLang);
 </script>
