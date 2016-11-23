@@ -1334,6 +1334,32 @@
                 Um eine Adresse in Koordinaten umzuwandeln nutzen wir einen auf deinem Gerät integrierten Google-Dienst.
                 Wir haben Berichte erhalten, dass dieser Dienst auf manchen Gerät unregelmäßig nicht mehr funktioniert. In diesen Fällen hilft es normalerweise das Gerät neu zu starten, damit die Such-Funktion wieder funktioniert.
 
+      - id: brouter
+        en:
+            title: How do I use Brouter with c:geo?
+            content: |
+                Brouter is a seperate app which works together with c:geo to provide a street navigation to a waypoint or cache.
+                
+                In order to use it you need to install the [Brouter](https://play.google.com/store/apps/details?id=btools.routingapp) app on your device.
+                Once installed you need to download the routing information for the geographical area where you want to use it. To do that, please open the Brouter app and use the "Download Manager" to store the needed data.
+                
+                c:geo will automatically detect, that Brouter is installed and use it to replace the normally used straight line to a cache on the c:geo map with a routed line following the streets and paths up to the cache.
+                The quality of this routing solely depends on the routing information of Brouter and might not be suitable under all conditions.
+                
+                The routing feature is currently limited to a maximum distance of 10km.
+        de:
+            title: Wie nutze ich BRouter mit c:geo?
+            content: |
+                Brouter ist eine separate App, die mit c:geo zusammenarbeitet um dir eine Straßennavigation zu einem Wegpunkt oder Cache zur Verfügung stellt.
+                
+                Um diese Funktion zu nutzen, musst du die [Brouter](https://play.google.com/store/apps/details?id=btools.routingapp)-App auf deinem Gerät installieren.
+                Nachdem du sie installiert hast, musst du die Routing-Informationen für das von dir gewünschte geographische Gebiet herunterladen. Dazu öffne die Brouter-App und nutze den "Download Manager" um die benötigten Daten zu speichern.
+                
+                c:geo wird automatisch feststellen, dass BRouter installiert ist und es dazu nutzen die auf der c:geo-Karte normalerweise angezeigte Luftlinie zum Cache durch eine Linie zu ersetzen, die den Straßen und Wegen zum Cache folgt.
+                Die Qualität dieses Routings hängt ausschließlich von den Routing-Informationen von BRouter ab und könnte in manchen Situationen nicht geeignet sein.
+
+                Die Routing-Funktion ist derzeit auf eine maximale Entfernung von 10km begrenzt.
+                
 - id: live-map
   title:
       en: Live Map
