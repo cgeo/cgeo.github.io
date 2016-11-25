@@ -1440,8 +1440,8 @@
                 Detailed: \\
                 Same as fast but load details for 20 caches around your position
 
-                Speed dependent: \\
-                Automatic switch from "Detailed" to "Fast" at 30km/h (This is the default setting)
+                Speed dependent (default setting): \\
+                Automatic switch from "Detailed" to "Fast" at 30km/h
 
                 For getting most accurate information you should select "Detailed", for a fast loading and less priority on detailed information you should select "Fastest" or "Fast".
 
@@ -1466,8 +1466,8 @@
                 Detailiert: \\
                 Wie "Schnell" aber lädt exakte Koordinaten für die nächstgelegenen 20 Caches
 
-                Geschwindigkeitsabhängig: \\
-                Automatischer Wechsel zwischen "Schnell" und "Detailiert" abhängig von der Geschwindigkeit (Das ist die standardmäßige Einstellung).
+                Geschwindigkeitsabhängig (Standardeinstellung): \\
+                Automatischer Wechsel zwischen "Schnell" und "Detailiert" abhängig von der Geschwindigkeit
 
                 Um die bestmöglichen Informationen zu erhalten, solltest du "Detailiert" wählen, für ein schnelles Laden und weniger Priorität auf detailierte Informationen solltest du "Schnellste" oder "Schnell" wählen.
 
