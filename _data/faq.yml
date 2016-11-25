@@ -475,7 +475,7 @@
                     The additional data is stored on SD card by default (in a folder called ".cgeo").
 
                 Some users are complaining, that the additional data as well as the database (if external storage is selected) are still stored in the internal memory of their devices.
-                We always place the folder on the storage medium that the device tells us is the sdcard. And in fact, technically this is on some devices only a part of the internal memory which is mounted as a SD card (It's like a SD card fixed mounted in your device).
+                We always place the folder on the storage medium that the device provides as SD card. On some devices, this storage medium is part of the internal memory, which is mounted as an SD card (It's like an SD card fixed mounted in your device).
 
                 Unfortunately there is no standardized method to find the location of a real SD card on your device. There are some workarounds but those might fail on some devices, thus we decided not to implement them for now.
                 Furthermore starting with Android 4.4 write access to the real SD card is forbidden for apps.
@@ -680,7 +680,7 @@
                 Color in the lower half:
 
                 The color represents the average [GCVote](http://www.gcvote.com) rating for this cache, where green means good (>3,5 stars),brown means average (between 2,5 and 3,5) and red means a rather bad rating (<2,5 stars).
-                If there is no color shown the cache does not have any votes yet or is not supported in GCVote (GCVote does curerntly only support geocaching.com caches).
+                If there is no color shown the cache does not have any votes yet or is not supported in GCVote (GCVote does currently only support geocaching.com caches).
 
                 Number in the lower half:
 
@@ -720,7 +720,7 @@
                 First of all please check if you are using the latest version. Check on [Google Play](https://play.google.com/store/apps/details?id=cgeo.geocaching) for updates or load the latest version directly from [here](https://github.com/cgeo/cgeo/releases/latest). If a new version is available you should also see an update notification on the c:geo main screen.
                 If you are using an outdated version please update, because there might be changes on the geocaching website which need a new version of c:geo.
 
-                Please check if your device is connected to the Internet and also try other connections (e.g. Wifi instead of mobile network or vice versa).
+                Please check if your device is connected to the Internet and also try other connections (e.g. Wi-Fi instead of mobile network or vice versa).
                 If c:geo works on another connection there seems to be a problem with your network.
 
                 Go to c:geo settings (Menu → Settings → Services) and check your login.
@@ -2014,7 +2014,7 @@
                 Please check\\
                 c:geo Menu → Settings → Services\\
                 to see which platforms are already supported.
-                Whithin the seperate platform settings you also have the possibility to see which features are supported for the specific platform.
+                Within the separate platform settings you also have the possibility to see which features are supported for the specific platform.
 
                 To use these you need to have an account on the opencaching website.
                 With this account data you can activate the platform in c:geo and authorize yourself to the opencaching website with your login credentials.
@@ -2259,7 +2259,7 @@
                 Several users reported the problem, that the OSM maps (offline and online) are not displayed properly but only incomplete parts of it. Additionally the cache icons are only displayed as a vertical row over the map but not on their real position.
 
                 This affects devices using a MediaTek CPU. There is a mathematical error in the compiler for this CPU type causing the problem.
-                You can find more information here: [Wrong division on MediaTek CPU](https://github.com/cgeo/cgeo/issues/4097)
+                You can find more information here: [Wrong division on MediaTek CPU](https://github.com/cgeo/cgeo/issues/4097).
 
                 As this is a bug outside of c:geo we cannot fix it.
                 However we created a special version of our nightly builds which works around this problem. You can download it here: [c:geo Nightly Build - NOJIT](http://download.cgeo.org/cgeo-nightly-nojit.apk)
