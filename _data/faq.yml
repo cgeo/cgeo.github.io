@@ -10,7 +10,7 @@
                 Currently it may happen, that cache type on the live map are not recognized correctly. After clicking on them the type will be shown correct in the map popup.
                 
                 Recently geocaching.com [changed](http://forums.groundspeak.com/GC/index.php?s=19bca112f771f2123053d249fadc8e06&showtopic=342292) some contents of the live map.
-                As a consequence c:geo will need to be reflect these changes, the developers are currently looking into it and provide a fix as soon as possible. 
+                As a consequence c:geo will need to reflect these changes, the developers are currently looking into it and provide a fix as soon as possible. 
         de:
             title: Die Live-Karte zeigt falsche Cache-Typen!
             content: |
