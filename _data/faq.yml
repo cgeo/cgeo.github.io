@@ -21,18 +21,20 @@
                 
       - id: 6177
         en:
-            title: Caches have empty logbooks!
+            title: Caches might have empty logbooks!
             content: |
-                At the moment online loaded caches from geocaching.com show an empty logbook.
+                At the moment online loaded caches from geocaching.com show an empty logbook from time to time.
                 
-                We are investigating this problem and will provide a fix as soon as possible.
+                We are investigating this problem and will provide a fix as soon as possible if needed.
+                Please try to refresh the cache at a later point of time.
                 
         de:
             title: Caches haben ein leeres Logbuch!
             content: |
-                Derzeit zeigen online geladene Caches von geocaching.com ein leeres Logbuch.
+                Derzeit zeigen online geladene Caches von geocaching.com manchmal ein leeres Logbuch.
                 
-                Wir untersuchen das Problem und werden so bald wie möglich eine Korrektur bereitstellen.
+                Wir untersuchen das Problem und werden wenn notwendig so bald wie möglich eine Korrektur bereitstellen.
+                Bitte versuche den Cache zu einem späteren Zeitpunkt zu aktualisieren.
 
 - id: getting-started
   title:
