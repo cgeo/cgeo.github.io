@@ -33,7 +33,7 @@ noeditlink: true
 
       <table>
         <thead>
-          <tr><th>Message</th><th>Message id</th><th>Icon</th><th>URL</th></tr>
+          <tr><th>Message</th><th>Message id</th><th>Icon</th><th>URL</th><th>Condition</th></tr>
         </thead>
         <tbody>
           <tr>
@@ -41,6 +41,7 @@ noeditlink: true
             <td id="message-id"></td>
             <td id="message-icon"></td>
             <td id="message-link"></td>
+            <td id="message-condition"></td>
           </tr>
         </tbody>
       </table>
@@ -87,6 +88,7 @@ noeditlink: true
               } else
                 $("#message-icon").text("");
               $("#message-link").html(msg.url ? '<a href="' + msg.url + '">Link</a>' : "");
+              $("#message-condition").text(msg.condition ? msg.condition : "");
               $("#message-div").show();
             } else {
               $("#message-div").hide();
