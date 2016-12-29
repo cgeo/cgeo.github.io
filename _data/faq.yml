@@ -2254,7 +2254,7 @@
                 You can find more information here: [Wrong division on MediaTek CPU](https://github.com/cgeo/cgeo/issues/4097).
 
                 As this is a bug outside of c:geo we cannot fix it.
-                However we created a special version of our nightly builds which works around this problem. You can download it here: [c:geo Nightly Build - NOJIT](http://download.cgeo.org/cgeo-nightly-nojit.apk)
+                However we created a special version which works around this problem. You can download it here: [c:geo - NOJIT](http://download.cgeo.org/cgeo-nojit-release.apk)
 
                 Please frequently check if your device vendor offers a firmware update which solves this processor problem.
         de:
@@ -2266,7 +2266,7 @@
                 Mehr Informationen dazu kannst du hier finden: [Wrong division on MediaTek CPU](https://github.com/cgeo/cgeo/issues/4097).
 
                 Da dies ein Fehler außerhalb von c:geo ist, können wir ihn nicht beheben.
-                Dennoch haben wir eine spezielle Version unserer Nightly-Builds erstellt, die das Problem vermeidet. Du kannst sie hier herunterladen: [c:geo Nightly-Build - NOJIT](http://download.cgeo.org/cgeo-nightly-nojit.apk)
+                Dennoch haben wir eine spezielle Version erstellt, die das Problem vermeidet. Du kannst sie hier herunterladen: [c:geo - NOJIT](http://download.cgeo.org/cgeo-nojit-release.apk)
 
                 Bitte prüfe regelmäßig, ob der Geräte-Hersteller ein Firmware-Update anbietet, das dieses Prozessor-Problem behebt.
 
