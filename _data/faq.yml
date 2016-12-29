@@ -390,14 +390,17 @@
 
                     Notation: DDD.DDDDD°\\
                     Example: 51.339700° 7.030333°
+                    
+                4. Universal Transverse Mercator (UTM)
+                
+                    Notation: ZONE EASTING NORTHING\\
+                    Example: 32U E 362807 N 5689444
 
                 Format 1 is commonly used for Geocaching and thus also the default notation used in c:geo.
 
                 You can change to the other formats by short tap on coordinates shown for caches and waypoints.
-                When entering coordinates in c:geo (e.g. creating a waypoint) you can select the desired format in the headline of the dialog according to the notations listed above.
-
-                The conversion from and to UTM notation is currently not supported by c:geo. In case you need to convert coordinates to UTM you can copy the cache coordinates by long tap on them to perform conversion in another app.
-
+                When entering coordinates in c:geo (e.g. creating a waypoint) you can select the desired format in the headline of the dialog according to the notations listed above except UTM, which is not yet supported as input format.
+                
         de:
             title: Welche Koordinatenformate werden von c:geo unterstützt?
             content: |
@@ -417,13 +420,16 @@
 
                     Notation: DDD.DDDDD°\\
                     Beispiel: 51.339700° 7.030333°
-
+                    
+               4. Universal Transverse Mercator (UTM)
+                
+                    Notation: ZONE RECHTSWERT HOCHWERT\\
+                    Beispiel: 32U E 362807 N 5689444
+                    
                 Das erstgenannte Format wird üblicherweise für das Geocaching verwendet und ist daher auch die standardmäßige Notation in c:geo.
 
                 Du kannst zu anderen Formaten wechseln, indem du kurz auf die Koordinaten klickst, die bei Caches und Wegpunkten angezeigt werden.
-                Wenn du Koordinaten eingibst (z.B. bei der Erstellung eines Wegpunktes), kannst du das gewünschte Format in der Titelzeile des Dialogs gemäß der oben genannten Formate auswählen.
-
-                Die Umwandlung von und nach UTM wird derzeit von c:geo nicht unterstützt. Wenn du Koordinaten in UTM konvertieren möchtest, kannst du die Koordinaten mit einem langen Klick kopieren und die Umwandlung in einer anderen App durchführen.
+                Wenn du Koordinaten eingibst (z.B. bei der Erstellung eines Wegpunktes), kannst du das gewünschte Format in der Titelzeile des Dialogs gemäß der oben genannten Formate (außer UTM, was als Eingabeformat noch nicht unterstützt wird) auswählen.
 
       - id: picture-storage
         en:
