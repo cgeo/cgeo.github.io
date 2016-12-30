@@ -2199,7 +2199,7 @@
       en: Device or user specific problems
       de: Geräte- oder benutzerspezifische Probleme
   items:
-     - id: map-crash
+      - id: map-crash
         en:
             title: The app crashes frequently when using the map!
             content: |
