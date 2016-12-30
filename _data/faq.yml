@@ -2199,6 +2199,22 @@
       en: Device or user specific problems
       de: Geräte- oder benutzerspezifische Probleme
   items:
+     - id: map-crash
+        en:
+            title: The app crashes frequently when using the map!
+            content: |
+                There is a high probability, that you accidentally activated the debug logging which can cause this instability.
+                
+                Debug logging is only for development purposes and has to be switched off during normal usage.
+                Please disable it in Menu → Settings → System → Debug logging.
+        de:
+            title: Die App stürzt häufig ab, wenn ich die Karte nutze!
+            content: |
+                Mit hoher Wahrscheinlichkeit hast du versehentlich das Debug-Logging, welches Instabilitäten auslösen kann, aktiviert.
+                
+                Debug-Logging ist nur für Entwicklungs-Zwecke und muss bei der normalen Nutzung ausgeschaltet bleiben.
+                Bitte deaktivere es in Menü → Einstellungen → System → Debug-Log
+                
       - id: no-premium
         en:
             title: I can't see PM only caches although I am Premium Member!
