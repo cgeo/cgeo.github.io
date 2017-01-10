@@ -3,6 +3,24 @@
       en: Temporary issues
       de: Temporäre Probleme
   items:
+      - id: 6206
+        en:
+            title: c:geo crashes when I try to open the map from a cache!
+            content: |
+                Some users report, that c:geo always crashes when they use Navigate → Map from a cache details page.
+                
+                We already found and fixed this issue for the next release of c:geo.
+                Until then you can use the following workaround to make it work with the current version:
+                Go to c:geo Menu → Settings → Map and deactivate the function "Show direction".
+        de:
+            title: c:geo stürzt ab, wenn ich versuche die Karte für einen Cache zu öffnen!
+            content: |
+                Einige Nutzer bereichten, dass c:geo immer abstürzt, wenn sie Navigation → Karte aus den Cache-Details öffnen wollen.
+                
+                Wir haben den Fehler bereits gefunden und in der kommenden Version von c:geo behoben.
+                Bis dahin könnt ihr folgenden Workaround nutzen, damit es in der aktuellen Version funktioniert:
+                Geht zu c:geo Menü → Einstellungen → Karte und deaktiviert die Funktion "Zeige Richtungslinie".
+                
       - id: 6175
         en:
             title: The live map shows wrong information!
