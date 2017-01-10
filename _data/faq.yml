@@ -15,7 +15,7 @@
         de:
             title: c:geo stürzt ab, wenn ich versuche die Karte für einen Cache zu öffnen!
             content: |
-                Einige Nutzer bereichten, dass c:geo immer abstürzt, wenn sie Navigation → Karte aus den Cache-Details öffnen wollen.
+                Einige Nutzer berichten, dass c:geo immer abstürzt wenn sie Navigation → Karte aus den Cache-Details öffnen wollen.
                 
                 Wir haben den Fehler bereits gefunden und in der kommenden Version von c:geo behoben.
                 Bis dahin könnt ihr folgenden Workaround nutzen, damit es in der aktuellen Version funktioniert:
