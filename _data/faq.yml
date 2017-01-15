@@ -1442,10 +1442,6 @@
                 The ?? means that c:geo was not able to identify the type of this cache.
                 This mostly happens if too many caches are displayed at once (i.e. your zoom level is very low or the cache density is very high).
                 If you reduce the amount of caches shown (by zooming in) or if you click on a specific cache you will get the info about the cache type.
-
-                If all caches are shown as ?? you probably changed the live map loading strategy to "Fastest". With this setting the cache types are not requested to speed up live map loading.
-                You have to change it back to another mode to see the cache types. This can be done in \\
-                Live Map → Menu → Strategy
         de:
             title: Warum sehe ich ??-Caches auf der Karte?
             content: |
@@ -1454,10 +1450,6 @@
                 Die ?? bedeuten, dass c:geo nicht in der Lage war, den Typ des Caches zu erkennen.
                 Das passiert meistens, wenn zu viele Caches auf einmal auf der Karte angezeigt werden (d.h. deine Zoom-Stufe ist sehr gering oder die Cache-Dichte ist sehr hoch).
                 Wenn du die Anzahl angezeigter Caches reduzierst (durch Hereinzoomen) oder wenn du auf einen bestimmten Cache klickst, erhälst du Informationen über den Cache-Typ.
-
-                Wenn alle Caches als ?? angezeigt werden, hast du vermutlich die Ladestrategie der Live-Karte auf "Schnellste" gesetzt. In dieser Einstellung werden die Cache-Typen nicht abgefragt, um den Ladevorgang zu beschleunigen.
-                Du musst die Strategie wieder auf einen anderen Modus ändern, um die Cache-Typen zu sehen. Das kannst du hier machen:\\
-                Live-Karte → Menü → Strategie
 
       - id: map-orange-circles
         en:
