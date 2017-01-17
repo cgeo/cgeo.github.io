@@ -9,17 +9,15 @@
             content: |
                 Some users report, that c:geo always crashes when they use Navigate → Map from a cache details page.
                 
-                We already found and fixed this issue for the next release of c:geo.
-                Until then you can use the following workaround to make it work with the current version:
-                Go to c:geo Menu → Settings → Map and deactivate the function "Show direction".
+                We have fixed this problem beginning with version 2017.01.15.
+                Please update your installation!
         de:
             title: c:geo stürzt ab, wenn ich versuche die Karte für einen Cache zu öffnen!
             content: |
                 Einige Nutzer berichten, dass c:geo immer abstürzt wenn sie Navigation → Karte aus den Cache-Details öffnen wollen.
                 
-                Wir haben den Fehler bereits gefunden und in der kommenden Version von c:geo behoben.
-                Bis dahin könnt ihr folgenden Workaround nutzen, damit es in der aktuellen Version funktioniert:
-                Geht zu c:geo Menü → Einstellungen → Karte und deaktiviert die Funktion "Zeige Richtungslinie".
+                Wir haben diesen Fehler beginnend mit Version 2017.01.15 behoben.
+                Bitte aktualisiere deine Installation!
                 
       - id: 6186
         en:
@@ -28,22 +26,16 @@
                 Some users experience that when they select to "Clear history" the cache are not removed from history.
                 Also for some users the total amount of caches shown to be in the history is incorrect.
                 
-                We have a bug here which will be corrected with the next release of c:geo.
-                
-                As a workaround you should first select "Clear offline logs" and then "Clear history".
-                That will remove the caches from history.
-                The wrong total amount of caches shown for the history will be corrected with the next release.
+                We have fixed this problem beginning with version 2017.01.15.
+                Please update your installation!
         de:
             title: Ich kann den Verlauf nicht löschen oder der Verlauf zeigt die falsche Anzahl an Caches!
             content: |
                 Einige Nutzer haben das Problem, dass trotz Auwahl von "Verlauf leeren" die Caches nicht aus dem Verlauf gelöscht werden.
                 Auch ist für eininge Nutzer die Gesamtzahl an Caches im Verlauf falsch.
                 
-                Wir haben hier einen Fehler, der in der nächsten Version von c:geo behoben sein wird.
-                
-                Als Zwischenlösung solltet ihr zunächst "Offline-Logs löschen" wählen und danach "Verlauf leeren".
-                Das wird die Caches aus dem Verlauf entfernen.
-                Die falsche Gesamtzahl an Caches im Verlauf wird mit der nächsten c:geo Version behoben.
+                Wir haben diesen Fehler beginnend mit Version 2017.01.15 behoben.
+                Bitte aktualisiere deine Installation!
                 
       - id: 6175
         en:
