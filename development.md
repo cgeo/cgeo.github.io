@@ -43,6 +43,10 @@ Nightly builds can cause all kinds of crashes and malfunction. Please report suc
 
 The version without JIT is necessary for some devices with a MediaTek CPU. If you observe strange behavior in the live map or jumping distances, try the build without JIT.
 
+Please be aware:
+Direct downgrading from a nightly version to a production (or beta) version is not possible due to Android versioning restrictions. You need to manually deinstall the nightly and afterwards install the production (or beta) version.
+Furthermore also a data backup you made in a nightly version might not be compatible to be restored into the production (or beta) version as the underlying database might have been changed in the meantime. Please consider this, when using our nightly builds.
+
 ### Download Nightly Builds
 
 [c:geo application](http://download.cgeo.org/cgeo-nightly.apk)\\
