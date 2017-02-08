@@ -914,7 +914,7 @@
 
                 These information can be downloaded by manual "Refresh", either individually cache by cache or for all caches in a list.
         de:
-            title: Fehlenden Daten nach dem Importieren von Caches per GPX (PQ)!
+            title: Fehlende Daten nach dem Importieren von Caches per GPX (PQ)!
             content: |
                 Wenn du Caches als GPX-Datei (z.B. Herunterladen einer Pocket-Query) importierst, fehlen einige Daten. Das ist so, weil das GPX-Dateiformat nicht jede Information enthält, die online verfügbar ist.
 
