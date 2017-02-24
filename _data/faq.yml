@@ -1,53 +1,22 @@
 - id: temporary-issues
   title:
-      en: Temporary issues
-      de: Temporäre Probleme
+      en: Current issues
+      de: Aktuelle Probleme
   items:
-      - id: 6206
+      - id: 6337
         en:
-            title: c:geo crashes when I try to open the map from a cache!
+            title: Geokrets do not show up in the inventory of a GC cache!
             content: |
-                Some users report, that c:geo always crashes when they use Navigate → Map from a cache details page.
+                If you open a GC cache, which should contain Geokrets those are not shown in the inventory of the cache.
                 
-                We have fixed this problem beginning with version 2017.01.15.
-                Please update your installation!
+                We have identified the root cause of this bug and it will be solved with the next c:geo release.
         de:
-            title: c:geo stürzt ab, wenn ich versuche die Karte für einen Cache zu öffnen!
+            title: Geokrets werden im Inventar von GC-Caches nicht angezeigt!
             content: |
-                Einige Nutzer berichten, dass c:geo immer abstürzt wenn sie Navigation → Karte aus den Cache-Details öffnen wollen.
-                
-                Wir haben diesen Fehler beginnend mit Version 2017.01.15 behoben.
-                Bitte aktualisiere deine Installation!
-                
-      - id: 6186
-        en:
-            title: I cannot delete caches in history or the amount of caches there is shown wrong!
-            content: |
-                Some users experience that when they select to "Clear history" the cache are not removed from history.
-                Also for some users the total amount of caches shown to be in the history is incorrect.
-                
-                We have fixed this problem beginning with version 2017.01.15.
-                Please update your installation!
-        de:
-            title: Ich kann den Verlauf nicht löschen oder der Verlauf zeigt die falsche Anzahl an Caches!
-            content: |
-                Einige Nutzer haben das Problem, dass trotz Auwahl von "Verlauf leeren" die Caches nicht aus dem Verlauf gelöscht werden.
-                Auch ist für eininge Nutzer die Gesamtzahl an Caches im Verlauf falsch.
-                
-                Wir haben diesen Fehler beginnend mit Version 2017.01.15 behoben.
-                Bitte aktualisiere deine Installation!
-                
-      - id: 6175
-        en:
-            title: The live map shows wrong information!
-            content: |
-                We have fixed this problem beginning with version 2016.12.28.
-                Please update your installation!
-        de:
-            title: Die Live-Karte zeigt falsche Informationen!
-            content: |
-                Wir haben diesen Fehler beginnend mit Version 2016.12.28 behoben.
-                Bitte aktualisiere deine Installation!
+                Wenn du einen GC-Cache öffnest, der Geokrets enthalten sollte, werden sie im Inventar des Caches nicht angezeigt.
+                                
+                Wir haben die Ursache des Fehlers gefunden und werden diesen in der nächsten c:geo Version beheben.
+
                 
 - id: getting-started
   title:
