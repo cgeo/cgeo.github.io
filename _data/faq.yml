@@ -2490,20 +2490,46 @@
 
                 Alternativ wird die Erweiterung den Eintrag auch finden, wenn der Benutzername mit dem vollen Namen des Kontakts im Telefonbuch übereinstimmt.
 
-      - id: plugin-contact-permissions
+      - id: plugin-contacts-privacy
         en:
-            title: Why does the contacts plugin need a permission on my device?
+            title: Privacy policy for the c:geo contacts plugin
             content: |
-                The contacts plugin needs the permission to access the contacts on your device to look up other geocachers in case you use the relevant option in c:geo.
-                As long as you don't use that menu option the plugin will never read any data from your contacts.
-                The data in your contacts will never be used by c:geo for any other means and will never leave the app.
+                1. What information is collected by the c:geo contacts plugin?
+                
+                    The contacts plugin needs the permission to access the contacts on your device.
+                    It will access your contacts in order to be able to find the contact data of other geocachers.
+                
+                    The c:geo contacts plugin will access your contacts only on your demand if you select the menu item "Open contact card" in c:geo.
+                    As long as you don't use that function the plugin will never access any data of your contacts.
+                    
+                2. How is the information used by the c:geo contacts plugin?
+                    
+                    After you select "Open contact card" the c:geo contacts plugin will read your contact data to find a possible match of the geocachers name in the name or nickname field of your contact data.
+                    It will neither write to your contact data nor store any of your contact data within c:geo or the c:geo contacts plugin itself.
+                    
+                3. With whom is the information shared?
+                
+                    Your contact data will neither by copied into c:geo nor shared with third parties.
+                    
         de:
-            title: Warum benötigt die Kontakte-Erweiterung eine Berechtigung auf meinem Gerät?
+            title: Datenschutzerklärung für die c:geo Kontakte-Erweiterung
             content: |
-                Die Kontakte-Erweiterung benötigt Berechtigung auf die Kontakte in deinem Gerät zuzugreifen, um andere Geocacher dort zu finden, wenn du die entsprechende Funktion in c:geo nutzt.
-
-                Solange du diese Option nicht nutzt, wird die Erweiterung niemals auf irgendwelche Daten aus deinen Kontakten zugreifen.
-                Die Daten in deinen Kontakten werden von c:geo niemals für andere Zwecke genutzt und werden die App nie verlassen.
+                1. Welche Daten werden von der c:geo Kontakte-Erweiterng erfasst?
+                
+                    Die c:geo Kontakte-Erweiterung benötigt die Berechtigung auf die Kontakte in deinem Gerät zuzugreifen.
+                    Sie wird auf deine Kontakte zugreifen um Kontaktdaten anderer Geocacher zu finden.
+                
+                    Die c:geo Kontakte-Erweiterung wird nur auf deine Anforderung hin auf die Kontaktdaten zugreifen, wenn du den Menüpunkt "Kontakt öffnen" in c:geo nutzt.
+                    Solange du diese Funktion nicht nutzt, wird die Erweiterung niemals auf Daten in deinen Kontakten zugreifen.
+                
+                2. Für welche Zwecke werden die Daten durch die c:geo Kalender-Erweiterung genutzt?
+                    
+                    Nachdem du "Kontakt öffnen" ausgewählt hast, wird die c:geo Kalender-Erweiterung die Kontakte in deinem Gerät lesen um eine mögliche Übereinstimmung zwischen dem Namen des Geocachers und dem Namen oder Spitznamen in deinen Kontaktdaten zu finden.
+                    Die Erweiterung wird weder in deine Kontakte schreiben noch deine Kontakte innerhalb von c:geo oder der c:geo Kalender-Erweiterung speichern.
+                
+                3. An wen werden die Daten weitergegeben?
+                
+                    Deine Kontaktdaten werden weder in c:geo gespeichert noch an Dritte weitergegeben.
 
 - id: known-limitations
   title:
