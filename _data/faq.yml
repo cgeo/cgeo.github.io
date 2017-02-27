@@ -2422,20 +2422,42 @@
                 Zuallererst solltest du sicherstellen, dass auf deinem Gerät eine Kalender-Applikation installiert ist und diese normal funktioniert.
                 Stelle außerdem sicher, dass du die korrekte App auswählst, wenn du nach deiner Kalender-Applikation beim Hinzufügen des Events gefragt wirst.
 
-      - id: plugin-calendar-permissions
+      - id: plugin-calendar-privacy
         en:
-            title: Why does the calendar plugin need a permission on my device?
+            title: Privacy policy for the c:geo calendar plugin
             content: |
-                The calendar plugin needs the permission to access the calendar on your device to add event geocaches to your personal calendar in case you use the relevant option in c:geo.
-                As long as you don't use that menu option the plugin will never read or write any data from/to your calendar.
-                The data in your calendar will never be used by c:geo for any other means and will never leave the app.
+                1. What information is collected by the c:geo calendar plugin?
                 
+                    The calendar plugin needs the permission to access the calendar on your device.
+                    It will add the date and time for event geocaches to your calendar.
+                                    
+                    The c:geo calendar plugin will not read any of your existing calendar data.
+                                        
+                2. How is the information used by the c:geo calendar plugin?
+                    
+                    The c:geo calendar plugin will never read your calendar data, but only needs access to write to it once you select "Add to calendar" from within c:geo.
+                    
+                3. With whom is the information shared?
+                
+                    Your calendar data will neither by copied into c:geo nor shared with third parties.
+     
         de:
-            title: Warum benötigt die Kalender-Erweiterung eine Berechtigung auf meinem Gerät?
+            title: Datenschutzerklärung für die c:geo Kalender-Erweiterung
             content: |
-                Die Kalender-Erweiterung benötigt die Berechtigung für den Kalender deines Gerätes, um Event-Geocaches zu deinem persönlichen Kalender hinzuzufügen, wenn du die entsprechende Option in c:geo auswählst.
-                Solange du diese Option nicht nutzt, wird die Erweiterung niemals irgendwelche Daten aus deinem Kalender lesen oder in deinen Kalender schreiben.
-                Die Daten in deinem Kalender werden von c:geo niemals für andere Zwecke genutzt und werden die App nie verlassen.
+                1. Welche Daten werden von der c:geo Kalender-Erweiterng erfasst?
+                
+                    Die c:geo Kalender-Erweiterung benötigt die Berechtigung auf den Kalender in deinem Gerät zuzugreifen.
+                    Sie wird auf deinen Kalender zugreifen um Datum und Uhrzeit von Event-Geocaches hinzuzufügen.
+                
+                    Die c:geo Kalender-Erweiterung wird keine der existierenden Daten in deinem Kalender auslesen.
+                                    
+                2. Für welche Zwecke werden die Daten durch die c:geo Kalender-Erweiterung genutzt?
+                    
+                    Die c:geo Kalender-Erweiterung wird niemals Daten aus deinem Kalender lesen, sondern benötigt den Zugriff nur um in deinen Kalender zu schreiben wenn du die Funktion "Zum Kalender hinzufügen" innerhalb von c:geo nutzt.
+                
+                3. An wen werden die Daten weitergegeben?
+                
+                    Deine Kalenderdaten werden weder in c:geo gespeichert noch an Dritte weitergegeben.
 
 - id: contacts-plugin
   title:
