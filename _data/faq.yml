@@ -2444,7 +2444,7 @@
         de:
             title: Datenschutzerklärung für die c:geo Kalender-Erweiterung
             content: |
-                1. Welche Daten werden von der c:geo Kalender-Erweiterng erfasst?
+                1. Welche Daten werden von der c:geo Kalender-Erweiterung erfasst?
                 
                     Die c:geo Kalender-Erweiterung benötigt die Berechtigung auf den Kalender in deinem Gerät zuzugreifen.
                     Sie wird auf deinen Kalender zugreifen um Datum und Uhrzeit von Event-Geocaches hinzuzufügen.
@@ -2536,7 +2536,7 @@
         de:
             title: Datenschutzerklärung für die c:geo Kontakte-Erweiterung
             content: |
-                1. Welche Daten werden von der c:geo Kontakte-Erweiterng erfasst?
+                1. Welche Daten werden von der c:geo Kontakte-Erweiterung erfasst?
                 
                     Die c:geo Kontakte-Erweiterung benötigt die Berechtigung auf die Kontakte in deinem Gerät zuzugreifen.
                     Sie wird auf deine Kontakte zugreifen um Kontaktdaten anderer Geocacher zu finden.
