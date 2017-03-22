@@ -2,21 +2,6 @@
   title:
       en: Current issues
       de: Aktuelle Probleme
-  items:
-      - id: 6337
-        en:
-            title: Geokrets do not show up in the inventory of a GC cache!
-            content: |
-                If you open a GC cache, which should contain Geokrets those are not shown in the inventory of the cache.
-                
-                We have identified the root cause of this bug and it will be solved with the next c:geo release.
-        de:
-            title: Geokrets werden im Inventar von GC-Caches nicht angezeigt!
-            content: |
-                Wenn du einen GC-Cache öffnest, der Geokrets enthalten sollte, werden sie im Inventar des Caches nicht angezeigt.
-                                
-                Wir haben die Ursache des Fehlers gefunden und werden diesen in der nächsten c:geo Version beheben.
-
                 
 - id: getting-started
   title:
