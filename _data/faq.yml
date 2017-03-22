@@ -540,7 +540,7 @@
                 Wir nutzen eine offene Übersetzungs-Plattform, um die Übersetzungen in c:geo zu verbessern und sogar neue Sprachen zu implementieren.
                 Wenn dir nicht übersetzte (also nur in Englisch vorhandene) oder falsche Wörter auffallen oder deine Sprache noch gar nicht unterstützt wird, bist du eingeladen uns auf dieser Plattform zu unterstützen!
 
-                Lege dazu einfach einen kostenlosen Zugang bei [Crowdin]((https://crowdin.com/) an und füge Übersetzungen hinzu oder stimme über existierende Vorschläge in [unserem c:geo-Crowdin-Projekt](https://crowdin.com/project/cgeo) ab.
+                Lege dazu einfach einen kostenlosen Zugang bei [Crowdin](https://crowdin.com/) an und füge Übersetzungen hinzu oder stimme über existierende Vorschläge in [unserem c:geo-Crowdin-Projekt](https://crowdin.com/project/cgeo) ab.
 
       - id: gpx-search-long
         en:
