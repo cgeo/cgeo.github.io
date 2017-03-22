@@ -899,6 +899,28 @@
 
                 Diese Informationen kannst du mit einer Aktualisierung einzelner oder der gesamten Cache-Liste herunterladen.
 
+      - id: projection
+        en:
+            title: How to perform a coordinate projection with c:geo?
+            content: |
+                If you have a given coordinates plus direction and distance you have to perform a projection to obtain the resulting coordinates.
+                
+                To perform a projection simply add a new waypoint to a cache, enter the start coordinates and fill the field for distance and direction accordingly.
+                If you save this it will result in a waypoint with the target coordinates.
+                
+                If you want to perform a projection on an existing waypoint this is only possible if the waypoint is user defined.
+                If it is a waypoint defined by the owner you need to duplicate the waypoint to a user defined waypoint at first by selecting "Duplicate waypoint" after clicking on its coordinates.
+        de:
+            title: Wie führe ich eine Koordinaten-Projektion mit c:geo durch?
+            content: |
+                Wenn du vorgegebene Koordinaten plus Richtung und Entfernung hast, mussst du eine Projektion durchführen, um die resultierenden Koordinaten zu ermitteln.
+                
+                Um eine Projektion durchzuführen, füge einfach einen neuen Wegpunkt zu einem Cache hinzu, gebe die Start-Koordination ein und nutze die Felder für Entfernung und Richtung entsprechend.
+                Beim Speichern wird dann ein Wegpunkt an den Ziel-Koordinaten erzeugt.
+                
+                Wenn du eine Projektion für einen existierenden Wegpunkt durchführen willst, funktioniert dies nur bei nutzerdefinierten Wegpunkten.
+                Wenn der Wegpunkt vom Owner vorgegeben ist, musst du zuerst den Wegpunkt duplizieren. Dazu wähle "Dupliziere Wegpunkt" nachdem du auf die Koordinaten des Wegpunktes geklickt hast.
+                                
 - id: installation-and-update
   title:
       en: Installation and update
