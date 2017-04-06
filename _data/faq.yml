@@ -2,6 +2,20 @@
   title:
       en: Current issues
       de: Aktuelle Probleme
+  items:
+      - id: 6374
+        en:
+            title: send2cgeo does not work with Google Chrome?
+            content: |
+                There are currently problems with our SSL certificate for [https://send2.cgeo.org](https://send2.cgeo.org), that might cause send2cgeo to fail when you use it with Tampermonkey and Google Chrome.
+                
+                We are working on this issue.
+        de:
+            title: send2cgeo does not work with Google Chrome?
+            content: |
+                Es gibt derzeit Probleme mit unserem SSL-Zertifikat für [https://send2.cgeo.org](https://send2.cgeo.org), die dazu führen können, dass send2cgeo mit Tampermonkey und Google Chrome nicht funktioniert.
+                
+                Wir arbeiten an diesem Problem.
                 
 - id: getting-started
   title:
