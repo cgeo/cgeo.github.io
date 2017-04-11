@@ -7,17 +7,13 @@
         en:
             title: send2cgeo does not work with Google Chrome?
             content: |
-                There are currently problems with our SSL certificate for [https://send2.cgeo.org](https://send2.cgeo.org), that might cause send2cgeo to fail when you use it with Tampermonkey and Google Chrome.
-                As a workaround you can use send2cgeo with Greasmonkey and Firefox. This should work without problems.
-                
-                We are working on this issue.
+                The problem has been solved. 
+                You might need to register your device and/or browser once again on [http://send2.cgeo.org](http://send2.cgeo.org).
         de:
             title: send2cgeo funktioniert nicht mit Google Chrome?
             content: |
-                Es gibt derzeit Probleme mit unserem SSL-Zertifikat für [https://send2.cgeo.org](https://send2.cgeo.org), die dazu führen können, dass send2cgeo mit Tampermonkey und Google Chrome nicht funktioniert.
-                Als Zwischenlösung kann send2cgeo mit Greasemonkey und Firefox benutzt werden. Dies sollte problemlos funktionieren.
-                
-                Wir arbeiten an diesem Problem.
+                Das Problem wurde gelöst.
+                Ggf. musst du dein Gerät und/oder den Browser nochmals auf [http://send2.cgeo.org](http://send2.cgeo.org) registrieren.
                 
 - id: getting-started
   title:
