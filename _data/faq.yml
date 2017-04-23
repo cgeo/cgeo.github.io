@@ -3,17 +3,17 @@
       en: Current issues
       de: Aktuelle Probleme
   items:
-      - id: 6374
+      - id: 6512
         en:
-            title: send2cgeo does not work with Google Chrome?
+            title: OSM:Cyclemap shows "API key required"!
             content: |
-                The problem has been solved. 
-                You might need to register your device and/or browser once again on [http://send2.cgeo.org](http://send2.cgeo.org).
+                The server providing this map has recently changed the requirements for retrieving map data.
+                We will adapt these requriements in c:geo with the next regular update.
         de:
-            title: send2cgeo funktioniert nicht mit Google Chrome?
+            title: OSM:Radfahrkarte zeigt "API key required" an!
             content: |
-                Das Problem wurde gelöst.
-                Ggf. musst du dein Gerät und/oder den Browser nochmals auf [http://send2.cgeo.org](http://send2.cgeo.org) registrieren.
+                Der Server, der diese Karte zur Verfügung stellt, hat kürzlich die die Bedingungen zum Empfang von Kartendaten geändert.
+                Wir werden dies in c:geo mit dem nächsten normalen Update anpassen.
                 
 - id: getting-started
   title:
