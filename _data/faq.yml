@@ -5,12 +5,12 @@
   items:
       - id: 6512
         en:
-            title: OSM:Cyclemap shows "API key required"!
+            title: The OSM:Cyclemap shows "API key required"!
             content: |
                 The server providing this map has recently changed the requirements for retrieving map data.
                 We will adapt these requriements in c:geo with the next regular update.
         de:
-            title: OSM:Radfahrkarte zeigt "API key required" an!
+            title: Die OSM:Radfahrkarte zeigt "API key required" an!
             content: |
                 Der Server, der diese Karte zur Verfügung stellt, hat kürzlich die die Bedingungen zum Empfang von Kartendaten geändert.
                 Wir werden dies in c:geo mit dem nächsten normalen Update anpassen.
