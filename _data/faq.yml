@@ -458,46 +458,59 @@
 
       - id: data-on-sd
         en:
-            title: c:geo data is always stored in internal memory!
+            title: How can I store c:geo data on my SD card?
             content: |
-                There are two things we are storing on your device:
+                There are two main things we are storing on your device:
 
-                1. The geocache database containing basically the content of your lists
+                1. The geocache database containing basically the content of your lists:
 
-                    The database is stored in an internal folder on your device (not accessible without root access). Typically this database will only have a size of some megabyte.
-                    For the database you can choose in the c:geo settings whether it is stored internally or on the SD card.
+                    You may store the database of c:geo either system internally or in a directory on your user storage.
+                    
+                    You can change the database location in Menu → Settings → System → "Database location". \\
+                    As the database availability is critical for using c:geo and the typical size is only some megabyte, we decided to forbid moving it to the external SD card.
+                    If you enable the option "On user storage" the database will be moved to the folder /Android/data/cgeo.geocaching/files/databases (may vary depending on your device).
 
-                2. The additional data (e.g. images, maps) for all the caches stored in the database
+                2. The additional data (e.g. images, maps) for all the caches stored in the database:
 
-                    This additional data can be much larger as it contains the images of the cache description and (optionally) the images retrieved from logs and (optionally) static maps.
-                    The additional data is stored on SD card by default (in a folder called ".cgeo").
-
-                Some users are complaining, that the additional data as well as the database (if external storage is selected) are still stored in the internal memory of their devices.
-                We always place the folder on the storage medium that the device provides as SD card. On some devices, this storage medium is part of the internal memory, which is mounted as an SD card (It's like an SD card fixed mounted in your device).
-
-                Unfortunately there is no standardized method to find the location of a real SD card on your device. There are some workarounds but those might fail on some devices, thus we decided not to implement them for now.
-                Furthermore starting with Android 4.4 write access to the real SD card is forbidden for apps.
+                    This additional data can be much larger as it contains the images of the cache description and (optionally) the images retrieved from logs and (optionally) static maps. \\
+                    By default this data is stored on the internal user storage in /Android/data/cgeo.geocaching/files/GeocacheData/.
+                    
+                    You can move this data to your external SD card in Menu → Settings → System → "Geocache Data Directory". \\
+                    If your device supports using the external SD card this menu option will show you the available target directories as well as the current size of your geocache data and the available space on the target directories.
+                    
+                    Please consider the folllowing when you decide to store the geocache data on your external SD card:
+                    
+                    - The initial moving of the geocache data might take a long time depending on the amount of data to be moved.
+                      Please don't interrupt the process and make sure your device is sufficiently charged.
+                    - If you remove the external SD card or the SD card is full the additional geocache data will no longer be available and c:geo might no longer work as expected.
+                
         de:
-            title: Daten von c:geo werden immer im internen Speicher abgelegt!
+            title: Wie kann ich Daten von c:geo auf der externen SD-Karte abspeichern?
             content: |
-                Es gibt zwei Dinge, die wir auf deinem Gerät speichern:
+                Es gibt hauptsächlich zwei Dinge, die wir auf deinem Gerät speichern:
 
                 1. Die Geocache-Datenbank, welche grob gesagt den Inhalt deiner Listen enthält:
 
-                    Diese Datenbank wird in einem internen Ordner auf deinem Gerät gespeichert (nicht zugänglich ohne Root-Zugriff). Typischerweise hat diese Datenbank nur eine Größe von wenigen Megabyte.
-                    Du kannst in den c:geo-Einstellungen auswählen, ob diese Datenbank intern oder auf deiner SD-Karte gespeichert werden soll.
-
+                    Diese Datenbank wird entweder systemintern oder in einem Ordner im Benutzerspeicher abgelegt. 
+                    
+                    Du kannst den Speicherort über Menü → Einstellungen → System → "Datenbank-Speicherung" ändern. \\
+                    Da die Verfügbarkeit der Datenbank kritisch für die Nutzung von c:geo ist und die typische Größe nur wenige Megabyte beträgt, haben wir entschieden ein Verschieben der Datenbank auf die externe SD-Karte zu verbieten.
+                    Wenn du die Option "Auf Benutzerspeicher" aktivierst, wird die Datenbank in den Ordner /Android/data/cgeo.geocaching/files/databases (variiert je nach Gerät) verschoben.
+                    
                 2. Die zusätzlichen Daten (z.B. Bilder, Karten) für alle gespeicherten Caches in der Datenbank:
 
                     Diese zusätzlichen Daten können viel größer sein, da sie die Bilder der Cachebeschreibung und (optional) die Logbilder und (optional) die statischen Karten enthalten.
-                    Die Daten werden standardmäßig auf deiner SD_Karte (im Order ".cgeo") gespeichert.
-
-                Einige Nutzer klagen darüber, dass sich die zusätzlichen Daten und die Datenbank (wenn externe Speicherung ausgewählt ist) dennoch im internen Speicher ihres Gerätes befinden.
-                Wir speichern den zugehörigen Order auf dem Speichermedium, welches uns Android als SD-Karte mitteilt. In der Tat ist dies technisch auf manchen Geräte weiterhin ein Teil des internen Speichers, der als SD-Karte gekennzeichnet ist (es ist eine Art SD-Karte, die fest in deinem Gerät integriert ist).
-
-                Leider gibt es keine standardisierte Methode, um den Speicherort der realen SD-Karte auf deinem Gerät zu finden. Es gibt einige Hilfslösungen, aber diese könnten auf manchen Geräten nicht funktionieren; daher haben wir für den Moment entschieden diese nicht zu implementieren.
-                Darüberhinaus ist es für Apps seit Android-Version 4.4. generell verboten Daten auf die SD-Karte zu schreiben.
-
+                    Die Daten werden standardmäßig auf dem internen Benutzerspeicher abgelegt unter /Android/data/cgeo.geocaching/files/GeocacheData/.
+                    
+                    Du kannst diese Daten über Menü → Einstellungen → System → "Geoache-Daten Verezeichnis" auf die externe SD-Karte verschieben. \\
+                    Wenn dein Gerät die Nutzung einer externen SD-Karte hierfür unterstützt, zeigt dieses Menü die verfügbaren Zielverzeichnisse sowie die Größe deiner Geocache-Daten und den verfügbaren Speicherplatz in den Zielverzeichnissen an.
+                    
+                    Bitte berücksichtige das Folgende, wenn du dich dafür entscheidest die Geocache-Daten auf der externen SD-Karte zu speichern:
+                    
+                    - Das Verschieben der Geocache-Daten kann, je nach Menge der zu verschiebenden Daten, eine ganze Weile dauern.
+                      Bitte unterbrich diesen Prozess nicht und stelle sicher, dass dein Gerät ausreichend geladen ist.
+                    - Wenn du die externe SD-Karte entfernst oder sie voll ist, werden die Geocache-Daten nicht mehr verfügbar sein und c:geo könnte nicht mehr so wie erwartet funktionieren.
+                
       - id: facebook-login
         en:
             title: Can I login using my Facebook account?
@@ -1106,8 +1119,8 @@
 
                 - Start c:geo
                 - Go to c:geo Menu → Settings → System and perform a backup of the database (remember the file location which is shown at the end of the process)
-                - Open a File Explorer, locate the backup file (typically in /sdcard/.cgeo/cgeo.sqlite) and store it at a safe location for later restore on the new device
-                - Optional step: The same directory in which you found the backup file does also contain several folders with cache specific information (pictures, static maps, etc). If this infos are missing on the new device, c:geo will automatically download them again on the next refresh of the cache; so there is no need to copy those. If you however want to avoid that, you can also copy all the subfolders to a safe location for transfer.
+                - Open a File Explorer, locate the backup file (typically /cgeo/backup/cgeo.sqlite) and store it at a safe location for later restore on the new device
+                - Optional step: The subfolders of /Android/data/cgeo.geocaching/files/GeocacheData/ (either located on your internal or your external storage) contain additional geocache data (e.g. log pictures). If this data is not available on the new device, c:geo will just download it again. If you still want to transfer this data to the new device, copy all subfolders to a safe location.
 
                 On the new device:
 
@@ -1115,8 +1128,8 @@
                 - Start c:geo
                 - Store your login credentials and apply your personal settings as needed (those are not part of the backup)
                 - End c:geo
-                - Use a File Explorer to locate the similar folder from which you saved the backup on the old phone (typically sdcard/.cgeo/) and place the backup file (cgeo.sqlite) from the old phone into this folder
-                - Optional step: If you also did a backup of all the subfolders, restore them as well to the same base folder as the backup file
+                - Use a File Explorer to locate the similar folder from which you saved the backup on the old phone (typically /cgeo/backup/) and place the backup file (cgeo.sqlite) from the old phone into this folder. You might have to create the folder manually.
+                - Optional step: If you also did a backup of the additional geocache data, restore it to /Android/data/cgeo.geocaching/files/GeocacheData/ on your internal storage.
                 - Start c:geo again
                 - Go to c:geo Menu → Settings → System and select to restore the backup
 
@@ -1138,8 +1151,9 @@
 
                 - Starte c:geo
                 - Gehe zu c:geo Menü → Einstellungen → System und führe eine Sicherung der Datenbank durch (Merke dir dabei den Pfad, der dir nach Abschluss der Sicherung angezeigt wird)
-                - Öffne einen Datei-Explorer und finde diese Sicherungsdatei (typischerweise /sdcard/.cgeo/cgeo.sqlite) und speichere sie an einer sicheren Stelle, um sie später auf dem neuen Gerät wieder einzuspielen
-                - Optionaler Schritt: Im selben Verzeichnis, in dem du die Sicherung gefunden hast, befinden sich auf mehrere Ordner mit Cache-spezifischen Informationen (Bilder, statische Karten, usw.). Wenn diese Informationen auf dem neuen Gerät fehlen, wird c:geo sie automatisch erneut herunterladen, wenn du das nächste Mal den Cache aktualisiert. Du musst diese Daten also nicht unbedingt kopieren. Wenn du es dennoch möchtest, kannst du aber alle Unterordner ebenso zur Übertragung an einer sicheren Stelle speichern-
+                - Öffne einen Datei-Explorer und finde diese Sicherungsdatei (typischerweise /cgeo/backup/cgeo.sqlite) und speichere sie an einer sicheren Stelle, um sie später auf dem neuen Gerät wieder einzuspielen
+                - Optionaler Schritt: Das Verzeichnis /Android/data/cgeo.geocaching/files/GeocacheData/ (entweder im internen oder im externen Speicher) enthält zusätzliche Geocache-Daten (z.B. Logbilder). Wenn diese Daten auf dem neuen Gerät nicht vorhanden sind, wird c:geo sie einfach erneut herunterladen. Wenn du diese Daten dennoch auf das neue Gerät übertragen möchtest, kopiere alle Unterverzeichnisse an einem sicheren Ort.
+                
 
                 Auf dem neuen Gerät:
 
@@ -1147,8 +1161,8 @@
                 - Starte c:geo
                 - Gib deine Nutzerdaten ein und nimm die gewünschten sonstigen Einstellungen vor (dies ist kein Teil der Sicherung)
                 - Beende c:geo
-                - Nutze einen Datei-Explorer um den gleichen Ordner auf dem neuen Gerät ausfindig zu machen, von dem du auf dem alten Gerät die Sicherung gemacht hast (typischerweise /sdcard/.cgeo/) und kopiere die Sicherungsdatei (cgeo.sqlite) vom alten Telefon in diesen Ordner.
-                - Optionaler Schritt: Wenn du auch eine Sicherung der Unterordner durchgeführt hast, kopiere sie ebenso in diesen Ordner zurück.
+                - Nutze einen Datei-Explorer, um den gleichen Ordner auf dem neuen Gerät ausfindig zu machen, von dem du auf dem alten Gerät die Sicherung gemacht hast (typischerweise /cgeo/backup/) und kopiere die Sicherungsdatei (cgeo.sqlite) vom alten Telefon in diesen Ordner. Eventuell musst du das Verzeichnis manuell erstellen.
+                - Optionaler Schritt: Wenn du auch eine Sicherung der zusätzlichen Geocache-Daten durchgeführt hast, kopiere sie in den Ordner /Android/data/cgeo.geocaching/files/GeocacheData/ in deinem internen Speicher zurück.
                 - Starte c:geo wieder
                 - Gehe zu Menü → Einstellungen → System und wähle die vorhandene Sicherung wiederherzustellen
 
