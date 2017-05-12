@@ -2404,11 +2404,13 @@
             content: |
                 It allows adding event caches to your personal calendar.
                 As it is a plugin it will only work if also c:geo itself is installed on your device.
+                The plugin is only needed for devices running Android 2.3 or 3.x. On all newer Android versions the functions described below do not require the plugin.
         de:
             title: Wozu dient die Kalender-Erweiterung?
             content: |
                 Sie ermöglicht es Event-Caches zu deinen persönlichen Kalender hinzuzufügen.
                 Da es eine Erweiterung ist, funktioniert sie nur wenn auch c:geo auf deinem Gerät installiert ist.
+                Die Erweiterung wird nur für Geräte mit Android-Version 2.3 oder 3.x benötigt. Für alle neueren Android-Versionen wird die Erweiterung zur Nutzung der unten beschriebenen Funktionen nicht benötigt.
 
       - id: plugin-calendar-howto
         en:
