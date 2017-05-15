@@ -2394,7 +2394,7 @@
                 Wenn dein Gerät mit Android 6 läuft, könnte er passieren, dass nach der Auswahl "Öffne in Browser" in den Cache-Details nur "c:geo" und "c:geo internal browser" angeboten wird.
                 Dies wird durch eine falsche Enstellung auf deinem Gerät verursacht, die du einfach korrigieren kannst:
 
-                Öffne den Anwendungsmanager deines Gerätes (typischerweise unter Einstellungen → Anwendung → Anwendungsmanager), suche und öffne den Eintrag für c:geo, wähle "Standard wählen" und  etze "Unterstützte URLs öffnen" von "Mit dieser App" auf "Immer fragen".\\
+                Öffne den Anwendungsmanager deines Gerätes (typischerweise unter Einstellungen → Anwendung → Anwendungsmanager), suche und öffne den Eintrag für c:geo, wähle "Standard wählen" und setze "Unterstützte URLs öffnen" von "Mit dieser App" auf "Immer fragen".\\
                 Nach dieser Änderung sollte dein Internet-Browser wieder auswählbar sein, wenn du "Öffne in Browser" aus c:geo wählst.
 
 - id: calendar-plugin
