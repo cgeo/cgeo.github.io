@@ -194,8 +194,10 @@
                 Afterwards you might have to restart your phone to be sure these settings take effect.
 
                 There have been reports, that in rare cases the login still fails although the login data is OK and also "Identify as Android browser" did not help.
-                In this case we recommend resetting c:geo to factory defaults as described [here](./faq.html#how-to-reset):
-
+                In this case we recommend resetting your login by long press on "Authorize c:geo" in the platform settings below Menu → Settings → Services. Afterwards you should restart your device and enter the login data again as described above.
+                
+                As last possibility you can reset c:geo to factory defaults as described [here](./faq.html#how-to-reset).
+                
                 If the problem still persists, please contact our [support](/support.html) and provide a system log.
         de:
             title: Anmeldung fehlgeschlagen wird im Hauptmenü angezeigt!
@@ -218,7 +220,9 @@
                 Danach musst du evtl. dein Telefon neu starten, um sicherzustellen, dass die Einstellung aktiv ist.
 
                 Es gab Berichte, dass in seltenen Fällen die Anmeldung trotz korrekter Nutzerdaten fehlschlägt und auch "Als Android-Browser identifizieren" nicht hilft.
-                In diesem Fall empfehlen wir c:geo auf die Werkseinstellungen zurückzusetzen, wie es [hier](./faq.html#how-to-reset) beschrieben ist.
+                In diesem Fall empfehlen wir deine Logindaten zurückzusetzen, indem du lange auf das Feld "c:geo autorisieren" in den Plattform-Einstellungen unter  Menü → Einstellungen → Dienste klickst. Danach solltest du dein Gerät neu starten und die Anmeldedaten wie oben beschrieben neu eingeben.
+                
+                Als letzte Möglichkeit kannst du c:geo auf Werkseinstellungen zurückzusetzen, wie es [hier](./faq.html#how-to-reset) beschrieben ist.
 
                 Wenn das Problem trotz allem weiter besteht, kontaktiere bitte unseren [Support](/support.html) und stelle uns ein Logfile zur Verfügung.
 
