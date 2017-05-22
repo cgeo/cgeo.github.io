@@ -14,7 +14,19 @@
             content: |
                Dies wurde ab c:geo Version 2017.05.09 behoben.
                Bitte aktualisiere deine Installation.
-             
+
+      - id: 6519
+        en:
+            title: Sometimes I get the warning "c:geo cannot load data required to log visit"!
+            content: |
+                We are investigating this issue, which appears only sporadically.
+                As a workaround please leave the log page and try again.
+        de:
+            title: Manchmal erhalte ich die Meldung "c:geo konnte die benötigten Daten nicht laden, um den Besuch zu loggen"!
+            content: |
+               Wir untersuchen momentan diesen Fehler, der nur sporadisch auftritt.
+               Als Übergangslösung verlasse bitte die Log-Seite und versuche es erneut.
+               
 - id: getting-started
   title:
       en: Getting started
