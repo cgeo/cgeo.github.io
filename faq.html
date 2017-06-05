@@ -10,19 +10,19 @@ editLink:
 {% assign languages = "en de" | split: ' ' %}
 
 <script>
-    const languages = ["{{ languages | join: '", "' }}"]
+	const languages = ["{{ languages | join: '", "' }}"]
 
-    function switchLanguage(lang) {
-        if ($.inArray(userLang, languages) > -1) {
-            $('.faq-item div[lang], .faq-category-header[lang], .faq-navigation[lang]').hide()
-            $(`.faq-item div[lang="${lang}"], .faq-category-header[lang="${lang}"], .faq-navigation[lang="${lang}"]`).show()
+	function switchLanguage(lang) {
+		if ($.inArray(userLang, languages) > -1) {
+			$('.faq-item div[lang], .faq-category-header[lang], .faq-navigation[lang]').hide()
+			$(`.faq-item div[lang="${lang}"], .faq-category-header[lang="${lang}"], .faq-navigation[lang="${lang}"]`).show()
 
-            // Jump to anchor again because page length might have changed
-            if (location.hash) {
-                location.hash = location.hash
-            }
-        }
-    }
+			// Jump to anchor again because page length might have changed
+			if (location.hash) {
+				location.hash = location.hash
+			}
+		}
+	}
 </script>
 
 <h1>FAQ</h1>
@@ -33,42 +33,42 @@ feature of your browser - usually accessible by pressing <kbd>Ctrl+F</kbd>.</p>
 <p>If you still don't find the answer you're looking for, check out our Support page.</p>
 
 <div id="faq-language-selection" style="display: none;">
-    <span onclick="switchLanguage('en')">English</span>
-    <span onclick="switchLanguage('de')">Deutsch</span>
+	<span onclick="switchLanguage('en')">English</span>
+	<span onclick="switchLanguage('de')">Deutsch</span>
 </div>
 
 <div class="faq-container">
 	{% for category in site.data.faq %}
 	<div class="faq-category">
-	    {% for language in languages %}
-	        {% if category.title[language] == nil %}
-	            {% assign lang = "en" %}
-	        {% else %}
-	            {% assign lang = language %}
-	        {% endif %}
-	        <div class="faq-category-header" lang="{{ language }}">{{ category.title[lang] }}</div>
-	    {% endfor %}
+		{% for language in languages %}
+			{% if category.title[language] == nil %}
+				{% assign lang = "en" %}
+			{% else %}
+				{% assign lang = language %}
+			{% endif %}
+			<div class="faq-category-header" lang="{{ language }}">{{ category.title[lang] }}</div>
+		{% endfor %}
 
-	    {% for item in category.items %}
+		{% for item in category.items %}
 			<div class="faq-item" id="{{ item.id }}">
-		        <div class="faq-item-content">
-		            {% for language in languages %}
-		                {% if item[language] == nil %}
-		                    {% assign lang = "en" %}
-		                {% else %}
-		                    {% assign lang = language %}
-		                {% endif %}
-		                <div lang="{{ language }}">
-		                    <div class="question">
+				<div class="faq-item-content">
+					{% for language in languages %}
+						{% if item[language] == nil %}
+							{% assign lang = "en" %}
+						{% else %}
+							{% assign lang = language %}
+						{% endif %}
+						<div lang="{{ language }}">
+							<div class="question">
 								<div class="icon"><div class="mdi mdi-help"></div></div>
 								<div class="text"><a href="#{{ item.id }}">{{ item[lang].title }}</a></div>
 							</div>
 							<div class="answer">{{ item[lang].content | markdownify }}</div>
-		                </div>
-		            {% endfor %}
-		        </div>
+						</div>
+					{% endfor %}
+				</div>
 			</div>
-	    {% endfor %}
+		{% endfor %}
 		</div>
 	{% endfor %}
 </div>
