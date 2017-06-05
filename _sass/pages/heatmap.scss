@@ -1,0 +1,18 @@
+.infobox {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(white, .8);
+    box-shadow: 0 0 15px rgba(black, .2);
+    border-radius: 5px;
+}
+
+
+#map {
+    position: fixed;
+    top: $height-navigation;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+}

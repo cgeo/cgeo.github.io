@@ -1,0 +1,152 @@
+header {
+    @include shadow(1px, 5px, .2);
+    padding-top: 50px;
+    color: #ffffff;
+    background: url("../images/header.jpg");
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    margin-top: -$height-navigation;
+
+    .center {
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        padding: 90px;
+
+        @media(max-width: 480px) {
+            padding: 40px;
+        }
+
+        .logo {
+            width: 200px;
+        }
+
+        .description {
+            font-size: 18px;
+            line-height: 1.4;
+            padding: $padding-box 0;
+            text-shadow: 0 1px 10px black;
+        }
+
+        #download-button {
+            position: relative;
+            display: inline-flex;
+            cursor: pointer;
+
+            padding: 20px;
+            $color-base: #1EB040;
+            background-image: $gradient-overlay;
+            background-color: $color-base;
+            $shadow: shadow(1px, 5px, .4);
+            box-shadow: $shadow, 0 1px rgba(white, .2) inset;
+            border-radius: 5px;
+            overflow: hidden;
+
+            transition: all .3s ease-in-out;
+            &:hover {
+                background-color: lighten($color-base, 3%);
+            }
+
+            &:focus {
+                background-color: $color-dark-grey;
+            }
+
+            &:not(:focus) {
+                .options {
+                    opacity: 0;
+                    visibility: hidden;
+                    transition-delay: .1s;
+                }
+
+                transition-delay: .1s;
+            }
+
+            &:focus {
+                outline: none;
+                padding: 20px 50px;
+            }
+
+            > .mdi {
+                font-size: 32px;
+                margin-right: 20px;
+            }
+
+            .text {
+                margin: auto 0;
+                padding-right: 3px;
+                text-align: left;
+
+                * { display: block; }
+
+                strong {
+                    font-weight: 500;
+                    font-size: 17px;
+                    margin-bottom: 2px;
+                }
+
+                small {
+                    font-size: 13px;
+                    opacity: .6;
+                }
+            }
+
+            .options {
+                $width: 300px;
+
+                position: absolute;
+                top: 0; left: 0; bottom: 0; right: 0;
+
+                display: flex;
+                background: $color-dark-grey;
+                box-shadow: $shadow;
+                pointer-events: visible;
+
+                transition: all .3s ease-in-out;
+
+                a {
+                    flex: 1;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 10px 0;
+                    opacity: .9;
+
+                    transition: all .1s ease-in-out;
+                    &:hover {
+                        opacity: 1;
+                    }
+
+                    &+a {
+                        border-left: 1px solid rgba(black, .2);
+                    }
+
+                    .mdi {
+                        margin: auto;
+                        font-size: 31px;
+                    }
+
+                    small {
+                        font-size: 12px;
+                        line-height: 1.5;
+                    }
+                }
+            }
+        }
+
+        #download-alternatives {
+            font-size: 13px;
+        }
+
+        #buttons {
+            margin-top: 2em;
+            text-align: center;
+
+            a {
+                margin-right: 5px;
+                margin-left: 5px;
+            }
+        }
+    }
+}

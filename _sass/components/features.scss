@@ -1,0 +1,29 @@
+.feature {
+    &s {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 15px;
+    }
+
+    &-container {
+        @extend .box;
+        text-align: center;
+        color: rgba(white, .7);
+    }
+
+    &-icon {
+        font-size: 90px;
+        margin-bottom: 15px !important;
+        opacity: .7;
+    }
+
+    &-title {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+
+    &-description {
+        opacity: .6;
+        line-height: 1.2;
+    }
+}

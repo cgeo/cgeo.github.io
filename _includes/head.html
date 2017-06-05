@@ -5,20 +5,20 @@
 
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Twitter metadata -->
+    <meta name="twitter:card" content="app">
+    <meta name="twitter:site" content="@android_gc">
+    <meta name="twitter:description" content="{% include description.md %}">
+    <meta name="twitter:app:name:googleplay" content="c:geo">
+    <meta name="twitter:app:id:googleplay" content="cgeo.geocaching">
 
     <link rel="stylesheet" href="/css/main.css">
 
-    <script type="text/javascript" src="/js/jquery.js"></script>
-    <script type="text/javascript" src="/js/jquery.fancybox.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $(".fancybox").fancybox();
-        });
-    </script>
-
-    <link rel="stylesheet" href="/css/leaflet.css" />
-    <script src="/js/leaflet.js"></script>
-    <script src="/js/leaflet.heat.js"></script>
-    <link rel='stylesheet' href='/css/leaflet.fullscreen.css' />
-    <script src='/js/leaflet.fullscreen.js'></script>
+    <!-- Vendor scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.heat/0.2.0/leaflet-heat.js"></script>
+    <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script>
 </head>

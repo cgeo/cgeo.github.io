@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Pro Version
+redirect_from: /pro.html
 ---
 
 # Now available: c:geo Pro
@@ -25,7 +26,7 @@ With a monthly subscription of only $4.99 you'll get the most wanted features:
 
 ## Get it now!
 
-The regular price for *c:geo pro* is $7.99, but for a short time it will be available for **only $3.99**, so [get it now](pro_get.html)!
+The regular price for *c:geo pro* is $7.99, but for a short time it will be available for **only $3.99**, so [get it now](pro_get)!
 
 ----
 

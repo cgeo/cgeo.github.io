@@ -1,0 +1,124 @@
+.faq {
+    &-navigation {
+        padding: $padding-box;
+
+        &-category {
+            &+.faq-navigation-category {
+                margin-top: 15px;
+            }
+
+            &-title {
+                font-size: 17px;
+                color: rgba(white, .9);
+            }
+        }
+
+        &-link {
+            display: block;
+            font-size: 15px;
+            margin-left: 9px;
+            text-decoration: none;
+            color: rgba(white, .7);
+        }
+
+        @media(max-width: 550px) {
+            padding: 0;
+        }
+    }
+
+    &-container {
+        margin-top: $padding-box;
+    }
+
+    &-category {
+        &-header {
+            font-size: 25px;
+            margin-bottom: $padding-box;
+            font-weight: 500;
+            color: rgba(white, .9);
+        }
+
+        &+.faq-category {
+            margin-top: $padding-box + 15px;
+        }
+    }
+
+    &-item {
+        $offset: 70px;
+        padding-top: $offset;
+        margin-top: -$offset;
+
+        &+.faq-item {
+            margin-top: -$offset + 30px;
+        }
+
+        &:target .faq-item-content {
+            border: 1px solid $color-orange;
+        }
+
+        &-content {
+            @extend .box;
+            padding: 0;
+
+            .question {
+                font-size: 18px;
+                background: rgba(white, .05);
+                display: flex;
+                $height: 70px;
+
+                @media(max-width: 900px) {
+                    .icon { display: none !important; }
+                }
+
+                .icon {
+                    display: flex;
+                    background: rgba(black, .1);
+                    width: $height;
+                    max-height: 1000px;
+                    align-items: center;
+                    justify-content: center;
+
+                    .mdi {
+                        font-size: 28px;
+                    }
+                }
+
+                .text {
+                    padding: $padding-box - 3.5px;
+                    font-weight: 500;
+                    flex-flow: 1;
+                    line-height: 1.5;
+
+                    a { text-decoration: none; }
+                }
+            }
+
+            .answer {
+                padding: $padding-box;
+            }
+        }
+    }
+}
+
+.faq-item div[lang]:not([lang="en"]),
+.avigation[lang]:not([lang="en"]),
+h2[lang]:not([lang="en"]) {
+    display: none;
+}
+
+#faq-language-selection {
+    @extend .box;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(white, .1);
+    opacity: 0.8;
+    font-size: 0.8em;
+    padding: 0;
+
+    span {
+        cursor: pointer;
+        padding: 10px;
+        display: inline-block;
+    }
+}

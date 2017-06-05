@@ -1,278 +1,107 @@
-@mixin hover {
-  opacity: 0.5;
-  &:hover { opacity: 1; }
-  transition: opacity 0.2s;
+@import "variables";
+@import "mixins";
+@import "reset";
+
+@import "article";
+
+@import "https://cdn.materialdesignicons.com/1.9.32/css/materialdesignicons.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.css";
+@import "https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css";
+
+body {
+    background: $color-dark-grey;
+    font-family: $font-family-text, sans-serif;
+    font-size: $font-size;
+    padding-top: $height-navigation;
 }
 
-html, body {
-    background: url("#{$imagedir}/bg.gif") #1f1f1f;
-    color: #c0c0c0;
-    font-family: "Droid Sans", sans-serif;
-    font-size: $fontsize;
+::selection {
+    background: rgba(white, .2);
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
+.box {
+    display: block;
+    padding: $padding-box;
+    background: rgba(white, .05);
+    @include shadow();
+    border-radius: 3px;
+    overflow: hidden;
 }
 
-#navigation {
+nav {
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 1em 0;
-    text-align: right;
-    background: rgba(10,10,10,0.75);
+    top: 0; left: 0; right: 0;
+    text-align: center;
     z-index: 1000;
+    display: flex;
+    justify-content: center;
+
+    background: rgba(black, .75);
+    @include shadow(1px, 5px, .35);
 
     a {
-        margin-right: 1.5em;
+        display: block;
+        padding: 12px 15px;
+        border-top: 3px solid transparent;
+        border-bottom: 3px solid transparent;
         font-size: 1.2em;
+        color: white;
+        opacity: .9;
 
-        &:hover {
-            color: #ffffff;
+        &.active {
+            border-bottom: 3px solid white;
         }
-    }
 
-    .home {
-        float: left;
-        margin-left: 1.5em;
+        transition: all .1s ease-in-out;
+
+        &:not(:hover) {
+            opacity: .6;
+        }
+
+        &.only-icon {
+            .label { display: none; }
+        }
+
+        &:not(.only-icon) {
+            $max-width: 800px;
+            @media(max-width: $max-width) { .label { display: none; } }
+            @media(min-width: $max-width + 1px) { .mdi { display: none; } }
+        }
+
+        .mdi {
+            display: inline-block;
+            transform: scale(1.25);
+        }
     }
 }
 
-#bar {
-    width: 100%;
-    background: rgba(255,255,255,0.1);
-    padding: 2em 0;
-    color: #ffffff;
-    margin: 10em 0 6em 0;
+main, footer {
+    padding: 90px;
 
-    .cont {
-        width: $contentwidth;
-        margin: auto;
-        text-align: justify;
-
-        .logo {
-            float: left;
-            display: block;
-            width: 200px;
-        }
-
-        .column.right {
-            margin-left: 250px;
-        }
-
-        h1 {
-            font-weight: bold;
-            font-size: 2em;
-            margin-bottom: 0.8em;
-        }
-
-        p {
-            margin-bottom: 1em;
-            line-height: 1.3em;
-        }
-
-        #buttons {
-            margin-top: 2em;
-            text-align: center;
-
-            a {
-              margin-right: 5px;
-              margin-left: 5px;
-            }
-        }
+    @media(max-width: 850px) {
+        padding: 35px;
     }
 }
 
 .container {
-    width: $contentwidth;
+    max-width: $width-container;
     margin: auto;
-    margin-top: 6em;
-    margin-bottom: 4em;
-    text-align: justify;
-
-    &:after {
-        content: " ";
-        display: block;
-        height: 0;
-        clear: both;
-        visibility: hidden;
-    }
-
-    .column.left {
-        float: left;
-        width: $leftcolumnwidth;
-    }
-
-    .column.right {
-        margin-left: $leftcolumnwidth + $columnpadding;
-    }
-
-    $paragraphskip: 1em;
-
-    h1 {
-        font-size: 1.8em;
-        font-weight: bold;
-        color: #eeeeee;
-        margin-top: 1.5 * $fontsize;
-        margin-bottom: $fontsize;
-
-        &:before {
-            content: '';
-            display: block;
-            position: relative;
-            width: 0;
-            height: 5em;
-            margin-top: -5em;
-        }
-    }
-
-    h2 {
-        @extend h1;
-        font-size: 1.3em;
-    }
-
-    h3 {
-        @extend h1;
-        font-size: 1em;
-        margin-bottom: 0.5 * $fontsize;
-    }
-
-    p {
-        margin-bottom: $paragraphskip;
-        line-height: 1.3em;
-    }
-
-    ul {
-        list-style-type: disc;
-        margin-left: 2.5em;
-        margin-bottom: $paragraphskip;
-    }
-
-    ol {
-        list-style-type: decimal;
-        margin-left: 2.5em;
-        margin-bottom: $paragraphskip;
-    }
-
-    li {
-        margin-bottom: 0.5em;
-    }
-
-    a {
-        color: #dd9324;
-
-        &:hover { color: #7abf47; }
-    }
-
-    strong {
-        font-weight: bold;
-        color: #cccccc;
-    }
-
-    em {
-        font-style: italic;
-    }
-
-    hr {
-        border: 0;
-        height: 1px;
-        background: #888;
-        background-image: linear-gradient(to right, #333, #888, #333);
-        display: block;
-        visibility: visible;
-        margin: 2em 0;
-    }
-}
-
-#donate-btn {
-    @include hover;
-}
-
-.screenshots {
-    text-align: justify;
-    text-align-last: justify;
-
-    &:after {
-        content: "";
-        display: inline-block;
-        width: 100%;
-    }
-
-    img {
-        width: 0.3 * ($contentwidth - $leftcolumnwidth - $columnpadding);
-    }
-}
-
-.socialmedia {
-    text-align: center;
-    margin-bottom: 2em;
-
-    a {
-        margin: 0 0.5em;
-        display: inline-block;
-        width: 48px;
-        height: 48px;
-        @include hover;
-    }
-
-    .facebook {
-        background: url("#{$imagedir}/socialmedia/facebook.svg");
-    }
-
-    .googleplus {
-        background: url("#{$imagedir}/socialmedia/googleplus.svg");
-    }
-
-    .twitter {
-        background: url("#{$imagedir}/socialmedia/twitter.svg");
-    }
-}
-
-.status {
-    position: absolute;
-    left: 1em;
-    right: 1em;
-    top: 6em;
-    bottom: 1em;
-
-    #map {
-        height: 100%;
-        width: 100%;
-    }
-
-    table {
-        width:100%;
-        thead { border-bottom: 1px solid #eee; }
-        tfoot {
-                border-top: 1px solid #eee;
-                td { font-weight: bold; }
-        }
-        tbody > tr:nth-of-type(odd) { background:#2a2a2a; }
-        th { font-weight: bold; }
-        th, td { text-align: center; }
-    }
-
-    #message-div { display: none; } // Controlled by JS
 }
 
 .warning {
-    @extend .container;
-    width: 0.7 * $contentwidth;
-    margin: 6em auto;
-    padding: 2em;
-    border: 3px solid rgba(128,0,0,0.3);
-    border-radius: 0.8em;
-    background: rgba(128,0,0,0.1);
+    @extend .box;
+    max-width: 400px;
+    margin: auto;
+    background: #B71C1C;
+    margin-bottom: 90px;
     color: white;
+    line-height: 1.3;
 
     h1 {
         text-align: center;
         margin: 0;
-        margin-bottom: 0.8em;
-        font-size: 1.5em;
+        margin-bottom: 15px;
+        font-size: 30px;
     }
 
     p:last-child {
@@ -280,118 +109,29 @@ a {
     }
 }
 
-.faqnavigation {
-    list-style-type: none !important;
-    margin-left: 0 !important;
-    color: white;
-    font-weight: bold;
-    line-height: 2em;
-    background: rgba(0,0,0,0.3);
-    border-radius: 0.7em;
-    padding: 1em 2em;
-
-    ul {
-        list-style-type: none;
-        margin-left: 2em;
-    }
-
-    ul li {
-        margin-bottom: 0;
-        font-weight: normal;
-        line-height: 1em;
-    }
-}
-
-.faqitem {
-    .faqitem-content {
-        background: rgba(0,0,0,0.3);
-        border: 1px solid rgba(100,100,100,0.3);
-        padding: 0.5em 2em;
-        font-size: 0.9em;
-
-        h3 {
-            margin-top: 0.5em;
-            margin-bottom: 1em;
-            font-size: 1.3em;
-
-            &:before {
-                display: none;
-            }
-        }
-
-        .quicklink {
-            float: left;
-            width: 0px;
-            position: relative;
-            left: -1.5em;
-            top: 0.8em;
-            visibility: hidden;
-            color: white;
-        }
-
-        &:hover {
-            .quicklink {
-                visibility: visible;
-            }
-        }
-    }
-
-    padding-top: 5em;
-    margin-top: -5em;
-    margin-bottom: 2em;
-
-    &:target .faqitem-content {
-        border-color: #dd9324;
-    }
-}
-
-.faqitem div[lang]:not([lang="en"]),
-.faqnavigation[lang]:not([lang="en"]),
-h2[lang]:not([lang="en"]) {
-    display: none;
-}
-
-#language-selection {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    background: #333;
-    opacity: 0.8;
-    padding: 0.1em 0.5em;
-    font-size: 0.8em;
-
-    a {
-        margin: 0 0.3em;
-    }
-}
-
-.openhub {
-    text-align: center;
-
-    iframe {
-        background: #eeeeee;
-        height: 190px !important;
-        width: 330px !important;
-    }
-}
-
 .infobox {
     padding: 6px 8px;
     font: 14px/16px Arial, Helvetica, sans-serif;
     background: white;
-    background: rgba(255,255,255,0.8);
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    background: rgba(white, .8);
+    box-shadow: 0 0 15px rgba(black, .2);
     border-radius: 5px;
 }
 
-#footer {
+footer {
+    background-color: rgba(white, .05);
+    background-size: cover;
+    background-position: center;
+    @include shadow();
     text-align: center;
-    font-size: 0.6em;
-    margin-bottom: 2em;
-    color: #777777;
-
-    a {
-        margin-left: 1em;
-        &:hover { color: #ffffff; }
-    }
+    position: relative;
 }
+
+@import "pages/faq";
+@import "pages/heatmap";
+@import "pages/index";
+@import "pages/status";
+
+@import "components/actions";
+@import "components/features";
+@import "components/editongithub";

@@ -1,0 +1,13 @@
+@mixin hover {
+    opacity: 0.5;
+    &:hover { opacity: 1; }
+    transition: opacity 0.2s;
+}
+
+@function shadow($yOffset: 1px, $blur: 3px, $opacity: .2) {
+    @return 0 $yOffset $blur rgba(black, $opacity);
+}
+
+@mixin shadow($yOffset: 1px, $blur: 3px, $opacity: .2) {
+    box-shadow: shadow($yOffset, $blur, $opacity);
+}

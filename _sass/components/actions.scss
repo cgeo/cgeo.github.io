@@ -1,0 +1,55 @@
+.action {
+    &s {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: $padding-box;
+    }
+
+    &-container {
+        text-align: center;
+        line-height: 1.3;
+        color: white;
+        opacity: .8;
+    }
+
+    &-title {
+        font-size: 28px;
+        font-weight: 500;
+    }
+
+    &-subtitle {
+        font-size: 19px;
+        margin-bottom: 15px;
+        opacity: .8;
+    }
+
+    &-description {
+        font-size: 16px;
+        opacity: .6;
+    }
+
+    &-buttons {
+        margin-top: 20px;
+        display: inline-flex;
+        background: rgba(white, .05);
+        @include shadow;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    &-button {
+        display: block;
+        padding: 10px 12px;
+        color: rgba(white, .6);
+
+        &+.action-button {
+            border-left: 1px solid rgba(black, .1);
+        }
+
+        transition: all .1s ease-in-out;
+
+        &:hover:not(:active) {
+            background: rgba(white, .02);
+        }
+    }
+}
