@@ -1,0 +1,26 @@
+.status {
+    #map {
+        height: 100%;
+        width: 100%;
+    }
+
+    table {
+		$border-color: rgba(white, .7);
+        width:100%;
+		margin-bottom: 15px;
+
+        thead { border-bottom: 1px solid $border-color; }
+        tfoot {
+                border-top: 1px solid $border-color;
+                td { font-weight: bold; }
+        }
+        tbody > tr:nth-of-type(odd) { background: rgba(white, .05); }
+        th { font-weight: bold; }
+        th, td {
+			text-align: center;
+			padding: 15px;
+		}
+    }
+
+    #message-div { display: none; } // Controlled by JS
+}

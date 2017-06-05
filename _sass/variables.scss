@@ -1,0 +1,24 @@
+// COLORS
+$color-orange: #dd9324;
+$color-green: #7abf47;
+$color-dark-grey: #1f1f1f;
+// $color-grey: #CCD6E4;
+
+// GRADIENTS
+$gradient-overlay: linear-gradient(to bottom, rgba(white, .1), rgba(black, .1));
+
+// FONTS
+$font-size: 16px;
+
+@import "http://fonts.googleapis.com/css?family=Roboto:400,500";
+$font-family-text: "Roboto";
+
+// SIZES
+$width-container: 800px;
+$height-navigation: 50px;
+
+// PADDINGS
+$padding-box: 25px;
+
+// DIRECTORIES
+$imagedir: "../images";

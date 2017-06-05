@@ -4,25 +4,53 @@
     {% include head.html %}
 
     <body>
-        <div id="navigation">
-            <a href="/" class="home">Home</a>
-            {% capture mdtmp %}{% include navigation.md %}{% endcapture %}
-            {{ mdtmp | markdownify }}
-        </div>
+        <nav>
+			{% for item in site.data.navigation %}
+				{% assign is_page = false %}
+				{% assign page_url = page.url | remove: '.html' | remove: '/' %}
+				{% assign item_url = item.url | remove: '/' %}
+				<a href="{{ item.url }}" class="{% if item_url == page_url %}active{% endif %} {% if item.onlyIcon %}only-icon{% endif %}" title="{{ item.name }}">
+                    <span class="mdi mdi-{{ item.icon }}"></span>
+                    <span class="label">{{ item.name }}</span>
+				</a>
+			{% endfor %}
+        </nav>
 
-        {{ content }}
+    	{{ content }}
 
-        {% unless page.noeditlink %}
-            <div id="footer">
-                {% if page.editlink %}
+		<footer>
+			<div class="container">
+				<div class="actions">
+					{% for action in site.data.actions %}
+						<div class="action-container" id="action-{{ action.title | slugify }}">
+							<div class="action-title">{{ action.title }}</div>
+							<div class="action-subtitle">{{ action.subtitle }}</div>
+							<div class="action-description">{{ action.description }}</div>
+							<div class="action-buttons">
+								{% for button in action.buttons %}
+									{% if button.icon %}
+										<a class="action-button" href="{{ button.url }}"><span class="mdi mdi-{{ button.icon }}"></span></a>
+									{% else %}
+										<a class="action-button" href="{{ button.url }}">{{ button.label }}</a>
+									{% endif %}
+								{% endfor %}
+							</div>
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+		</footer>
+        {% unless page.noEditLink %}
+            <article class="edit-on-github">
+                {% if page.editLink %}
                     Edit page on GitHub:
-                    {% for source in page.editlink %}
+                    {% for source in page.editLink %}
                         <a href="{{ site.github.repository_url }}/edit/master/{{ source[1] }}">{{ source[0] }}</a>
                     {% endfor %}
                 {% else %}
                     <a href="{{ site.github.repository_url }}/edit/master/{{ page.path }}">Edit page on GitHub</a>
                 {% endif %}
-            </div>
+            </article>
         {% endunless %}
     </body>
 

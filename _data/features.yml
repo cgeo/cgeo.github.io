@@ -1,0 +1,31 @@
+# This file is used for managing for the features displayed on the homepage.
+- icon: database-plus
+  title: Multiple Platforms
+  description: Use multiple Geocaching platforms at once.
+  faq: opencaching
+- icon: map
+  title: Live Map
+  description: View caches on an auto-updating live map.
+- icon: google-maps
+  title: Multiple Map Providers
+  description: Choose between Google Maps and OpenStreetMap.
+- icon: magnify
+  title: Advanced Cache Search
+  description: Search for new and saved caches by various criteria.
+- icon: map-marker-plus
+  title: Custom Waypoints
+  description: Create and manage custom waypoints for caches.
+- icon: compass-outline
+  title: Many Navigation Options
+  description: Navigate using compass, map, or other apps.
+- icon: file-export
+  title: GPX Import And Export
+  description: Export and import caches in the GPS Exchange Format.
+- icon: tag-multiple
+  title: Trackable Support
+  description: Track and log trackables and GeoKrety inside the app.
+  faq: trackables
+- icon: download-network
+  title: Full Offline Support
+  description: Download caches, create offline logs and more.
+  faq: offline-use
