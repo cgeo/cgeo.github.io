@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Development
-redirect_from: /development.html
 ---
 
 # Development

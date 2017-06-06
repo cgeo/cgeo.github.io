@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Support
-redirect_from: /support.html
 ---
 
 # Support

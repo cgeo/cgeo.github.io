@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Send2cgeo
-redirect_from: /send2cgeo.html
 ---
 
 # Send2cgeo

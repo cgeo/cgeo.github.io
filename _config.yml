@@ -7,7 +7,3 @@ exclude:
 - CNAME
 
 markdown: kramdown
-permalink: pretty
-
-gems:
-- jekyll-redirect-from
