@@ -16,6 +16,7 @@
             display: block;
             font-size: 15px;
             margin-left: 9px;
+            text-decoration: none;
         }
 
 		@media(max-width: 550px) {
@@ -36,7 +37,7 @@
 		}
 
 		&+.faq-category {
-			margin-top: $padding-box;
+			margin-top: $padding-box + 15px;
 		}
 	}
 
