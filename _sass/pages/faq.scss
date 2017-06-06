@@ -1,4 +1,24 @@
 .faq {
+    &-navigation {
+        padding: $padding-box;
+
+        &-category {
+            &+.faq-navigation-category {
+                margin-top: 15px;
+            }
+
+            &-title {
+                font-size: 17px;
+            }
+        }
+
+        &-link {
+            display: block;
+            font-size: 15px;
+            margin-left: 9px;
+        }
+    }
+
 	&-container {
 		margin-top: $padding-box;
 	}
@@ -81,7 +101,7 @@
 }
 
 .faq-item div[lang]:not([lang="en"]),
-.faqnavigation[lang]:not([lang="en"]),
+.avigation[lang]:not([lang="en"]),
 h2[lang]:not([lang="en"]) {
     display: none;
 }
