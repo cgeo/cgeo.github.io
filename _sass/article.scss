@@ -40,12 +40,11 @@ article {
 		cursor: pointer;
 		padding-bottom: 1px;
 		color: rgba(white, .9);
-		border-bottom: 1px solid rgba(white, .5);
+        text-decoration: underline;
 
 		transition: all .2s ease-in-out;
 		&:hover {
 			color: white;
-			border-bottom: 1px solid rgba(white, .8);
 		}
 	}
 
