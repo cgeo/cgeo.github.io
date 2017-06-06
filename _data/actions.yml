@@ -3,7 +3,7 @@
   description: c:geo is and always will be 100% free and open-source. Join our team and help make it better.
   buttons:
   - label: Get involved
-    url: development
+    url: /development
 - title: Donate
   subtitle: Support c:geo development.
   description: Donate a few bucks and help us pay for servers and other costs, so we can focus on development.
