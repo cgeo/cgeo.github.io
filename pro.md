@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Pro Version
+redirect_from: /pro.html
 ---
 
 # Now available: c:geo Pro

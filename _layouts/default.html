@@ -7,7 +7,7 @@
         <nav>
 			{% for item in site.data.navigation %}
 				{% assign is_page = false %}
-				{% assign page_url = page.url | remove: '' | remove: '/' %}
+				{% assign page_url = page.url | remove: '/' %}
 				{% assign item_url = item.url | remove: '/' %}
 				<a href="{{ item.url }}" class="{% if item_url == page_url %}active{% endif %} {% if item.onlyIcon %}only-icon{% endif %}" title="{{ item.name }}">
                     <span class="mdi mdi-{{ item.icon }}"></span>

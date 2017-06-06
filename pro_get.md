@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Not a pro version
+redirect_from: /pro_get.html
 ---
 
 # April Fool!
