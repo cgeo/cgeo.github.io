@@ -17,6 +17,10 @@
             font-size: 15px;
             margin-left: 9px;
         }
+
+		@media(max-width: 550px) {
+            padding: 0;
+		}
     }
 
 	&-container {
@@ -33,13 +37,6 @@
 
 		&+.faq-category {
 			margin-top: $padding-box;
-		}
-
-
-		@media(max-width: 550px) {
-			border-radius: 0 !important;
-			margin-left: -35px;
-			margin-right: -35px;
 		}
 	}
 
