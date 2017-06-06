@@ -131,7 +131,7 @@
 
             It will constantly show you distance and direction to the cache.
 
-          - Radar ([optional](./faq.html#radar-navigation)):
+          - Radar ([optional](./faq#radar-navigation)):
 
             If you installed an app supporting radar functions this will open a radar screen.
             It is similar to the compass, but the working mode is a little different. You will typically see the cache coordinates as a marker on the radar. If the marker reaches the center, you reached the cache coordinates.
@@ -156,7 +156,7 @@
 
             Er zeigt dir dauerhaft die Entfernung und Richtung zum Cache an.
 
-          - Radar ([optional](./faq.html#radar-navigation)):
+          - Radar ([optional](./faq#radar-navigation)):
 
             Wenn du eine App installiert hast, die Radar-Funktionen unterstützt, öffnet sich ein Radar-Bildschirm.
             Dieser ist ähnlich zum Kompass, aber die Funktionsweise ist ein wenig anders. Du siehst typischerweise die Cache-Koordinaten als Markierung auf dem Radar. Wenn die Markierung das Zentrum erreicht, hast du die Cache-Koordinaten erreicht.
@@ -208,9 +208,9 @@
           There have been reports, that in rare cases the login still fails although the login data is OK and also "Identify as Android browser" did not help.
           In this case we recommend resetting your login by long press on "Authorize c:geo" in the platform settings below Menu → Settings → Services. Afterwards you should restart your device and enter the login data again as described above.
 
-          As last possibility you can reset c:geo to factory defaults as described [here](./faq.html#how-to-reset).
+          As last possibility you can reset c:geo to factory defaults as described [here](./faq#how-to-reset).
 
-          If the problem still persists, please contact our [support](/support.html) and provide a system log.
+          If the problem still persists, please contact our [support](/support) and provide a system log.
       de:
         title: Anmeldung fehlgeschlagen wird im Hauptmenü angezeigt!
         content: |
@@ -234,9 +234,9 @@
           Es gab Berichte, dass in seltenen Fällen die Anmeldung trotz korrekter Nutzerdaten fehlschlägt und auch "Als Android-Browser identifizieren" nicht hilft.
           In diesem Fall empfehlen wir deine Logindaten zurückzusetzen, indem du lange auf das Feld "c:geo autorisieren" in den Plattform-Einstellungen unter  Menü → Einstellungen → Dienste klickst. Danach solltest du dein Gerät neu starten und die Anmeldedaten wie oben beschrieben neu eingeben.
 
-          Als letzte Möglichkeit kannst du c:geo auf Werkseinstellungen zurückzusetzen, wie es [hier](./faq.html#how-to-reset) beschrieben ist.
+          Als letzte Möglichkeit kannst du c:geo auf Werkseinstellungen zurückzusetzen, wie es [hier](./faq#how-to-reset) beschrieben ist.
 
-          Wenn das Problem trotz allem weiter besteht, kontaktiere bitte unseren [Support](/support.html) und stelle uns ein Logfile zur Verfügung.
+          Wenn das Problem trotz allem weiter besteht, kontaktiere bitte unseren [Support](/support) und stelle uns ein Logfile zur Verfügung.
 
     - id: how-to-reset
       en:
@@ -303,13 +303,13 @@
         content: |
           In case you are not logged in the geocaching website does not provide correct coordinates. So it seems you did not provide login data or the login data you provided is not correct.
 
-          Please refer to [Getting started](./faq.html#newbie) to learn how to login with c:geo.
+          Please refer to [Getting started](./faq#newbie) to learn how to login with c:geo.
       de:
         title: Warum sind alle Cache-Koordinaten um einige Meter/Fuß falsch?
         content: |
           Wenn du mit c:geo nicht korrekt eingeloggt bist, liefert die Geocaching-Webseite keine korrekten Koordinaten. Es sieht also so aus, als ob du entweder keine Anmeldedaten hinterlegt hast oder deine Anmeldedaten nicht korrekt sind.
 
-          Bitte schau unter [Erste Schritte](./faq.html#newbie), um herauszufinden, wie du dich mit c:geo einloggst.
+          Bitte schau unter [Erste Schritte](./faq#newbie), um herauszufinden, wie du dich mit c:geo einloggst.
 
     - id: why-no-api
       en:
@@ -752,11 +752,11 @@
 
           Go to c:geo settings (Menu → Settings → Services) and check your login.
           If it fails please make sure you are using the correct login credentials. Those are the same you use for the geocaching website.
-          Further information regarding login problems can be found in [this FAQ entry](./faq.html#login-failed).
+          Further information regarding login problems can be found in [this FAQ entry](./faq#login-failed).
 
           Check if there are any notifications about problems shown on the c:geo main screen and check our [Facebook page](https://www.facebook.com/android.geocaching) to see if others also have a problem and/or we reported a known problem there.
 
-          If your problem is still not solved, please [contact](./support.html) us and provide a detailed description of your problem and what you tried already to solve it. We will answer as soon as possible.
+          If your problem is still not solved, please [contact](./support) us and provide a detailed description of your problem and what you tried already to solve it. We will answer as soon as possible.
       de:
         title: c:geo funktioniert plötzlich nicht mehr!
         content: |
@@ -771,11 +771,11 @@
 
           Gehe in die c:geo-Einstellungen (Menü → Einstellungen → Dienste) und prüfe deine Anmeldung.
           Wenn diese fehlschlägt, stelle sicher, dass du die korrekten Nutzerdaten eingegeben hast. Dies sind die gleichen Daten, die du auf der Geocaching-Webseite nutzt.
-          Weitere Informationen zu Problemen bei der Anmeldung findest du in [diesem FAQ-Eintrag](./faq.html#login-failed).
+          Weitere Informationen zu Problemen bei der Anmeldung findest du in [diesem FAQ-Eintrag](./faq#login-failed).
 
           Prüfe, ob es irgendeine Mitteilung über Probleme mit c:geo im c:geo-Hautpmenü gibt und schaue auch auf unsere [Facebook-Seite](https://www.facebook.com/android.geocaching), um zu sehen, ob andere Nutzer auch ein Problem haben oder wir bereits von dem Problem wissen.
 
-          Wenn dein Problem immer noch nicht behoben ist, [kontaktiere](./support.html) uns bitte mit einer detailierten Fehlerbeschreibung und den Punkten, die du bereits geprüft hast. Wir bemühen uns so schnell wie möglich zu antworten.
+          Wenn dein Problem immer noch nicht behoben ist, [kontaktiere](./support) uns bitte mit einer detailierten Fehlerbeschreibung und den Punkten, die du bereits geprüft hast. Wir bemühen uns so schnell wie möglich zu antworten.
 
 
     - id: nearby-far-away
@@ -812,7 +812,7 @@
 
           To avoid all of this and get correct coordinates as a basic member you have to open the details or save the geocache to your device. This will automatically request the exact coordinates.
 
-          If you are premium member and c:geo does not know the location of a cache, please check your [login](./faq.html#login-failed) and relogin to make sure c:geo knows you are a premium member.
+          If you are premium member and c:geo does not know the location of a cache, please check your [login](./faq#login-failed) and relogin to make sure c:geo knows you are a premium member.
       de:
         title: c:geo kennt die Koordinaten eines Caches nicht!
         content: |
@@ -826,7 +826,7 @@
 
           Um das alles zu vermeiden und als Basis-Mitglied genaue Koordinaten zu erhalten, musst du die Cache-Details öffnen oder den Geocache auf deinem Gerät speichern. Dies ruft automatisch die genauen Koordinaten ab.
 
-          Wenn du Premium-Mitglied bist, aber c:geo dennoch die Koordinaten eines Caches nicht kennt, dann prüfe bitte deine [Anmeldedaten](./faq.html#login-failed) in c:geo und melde dich neu an, damit c:geo merkt, dass du Premium-Mitglied bist.
+          Wenn du Premium-Mitglied bist, aber c:geo dennoch die Koordinaten eines Caches nicht kennt, dann prüfe bitte deine [Anmeldedaten](./faq#login-failed) in c:geo und melde dich neu an, damit c:geo merkt, dass du Premium-Mitglied bist.
 
     - id: ignore-cache
       en:
@@ -1063,7 +1063,7 @@
           If the update is still not shown it will help to restart your device to force the Google Play app to synchronize with the server and detect the new version.
 
           If you you still have problems to load the update from Google Play we suggest to download the update as described here:
-          [I don't use the Google Play but still want to use c:geo!](./faq.html#install-without-play)
+          [I don't use the Google Play but still want to use c:geo!](./faq#install-without-play)
       en:
         title: Google Play zeigt keine neue c:geo-Version an, obwohl diese verfügbar sein sollte!
         content: |
@@ -1073,7 +1073,7 @@
           Wird die neue Version dann immer noch nicht angezeigt, hilft ein Neustart des Gerätes, um Google Play dazu zu zwingen, sich zu synchronisieren und die neue Version zu finden.
 
           Wenn dennoch weiterhin Probleme mit dem Herunterladen der Aktualisierung von Google Play bestehen, empfehlen wir die Aktualisierung wie hier beschrieben vorzunehmen:
-          [Ich nutze Google Play nicht, möchte aber dennoch c:geo nutzen!](./faq.html#install-without-play)
+          [Ich nutze Google Play nicht, möchte aber dennoch c:geo nutzen!](./faq#install-without-play)
 
 
     - id: install-without-play
@@ -1092,13 +1092,13 @@
         content: |
           No, c:geo is written for Android and has more than 50,000 lines of code. We will not port it to iOS or other non Android systems because it is too much work. Furthermore the iOS AppStore / Apple is very restrictive and most of us don't like it.
 
-          But c:geo is open source! That means that everyone can get the code from [GitHub](https://github.com/cgeo/cgeo) and rewrite it for other operating systems. Feel free to port (and maintain) it, but be aware of the [open source license terms](./development.html).
+          But c:geo is open source! That means that everyone can get the code from [GitHub](https://github.com/cgeo/cgeo) and rewrite it for other operating systems. Feel free to port (and maintain) it, but be aware of the [open source license terms](./development).
       de:
         title: Gibt es c:geo auch für iOS oder WindowsPhone?
         content: |
           Nein, c:geo ist für Android geschrieben und hat mehr als 50.000 Code-Zeilen. Wir werden es nicht nach iOS oder auf andere Nicht-Android-Systeme portieren, weil es für uns einfach zu viel Arbeit ist. Weiterhin ist der iOS-Appstore bzw. Apple sehr restriktiv und die meisten von uns mögen das nicht.
 
-          Aber c:geo ist quelloffen! Das bedeutet, dass jeder den Quellcode von [GitHub](https://github.com/cgeo/cgeo) beziehen und ihn dann für andere Betriebssysteme umschreiben kann. Du kannst gerne den Code portieren (und warten), aber beachte die [OpenSource-Lizenzbedingungen](./development.html)
+          Aber c:geo ist quelloffen! Das bedeutet, dass jeder den Quellcode von [GitHub](https://github.com/cgeo/cgeo) beziehen und ihn dann für andere Betriebssysteme umschreiben kann. Du kannst gerne den Code portieren (und warten), aber beachte die [OpenSource-Lizenzbedingungen](./development)
 
     - id: blackberry
       en:
@@ -1225,13 +1225,13 @@
         content: |
           Of course c:geo needs quite some battery power as it utilizes almost all sensors of your device to always determine the current position and direction as needed for Geocaching.
           Nevertheless we implemented sophisticated methods to optimize the power consumption over the last years.
-          If you want to further minimize the battery consumption you can additionally active the low-power mode as described in [this FAQ entry](./faq.html#gps-highpower).
+          If you want to further minimize the battery consumption you can additionally active the low-power mode as described in [this FAQ entry](./faq#gps-highpower).
       de:
         title: c:geo saugt meinen Akku leer, wenn ich es nutze!
         content: |
           Natürlich verbraucht c:geo einiges an Akkuladung, da es fast alle Sensoren des Gerätes verwendet, um ständig die für das Geocaching notwendige aktuelle Position und Richtung zu bestimmen.
           Dennoch haben wir in den letzten Jahren hochentwickelte Methoden integriert, um den Akkuverbrauch zu optimieren.
-          Wenn du den Akkuverbrauch weiter minimieren möchtest, kannst du zusätzlich, wie in [diesem FAQ-Eintrag](./faq.html#gps-highpower) beschrieben, den Energiesparmodus aktiveren.
+          Wenn du den Akkuverbrauch weiter minimieren möchtest, kannst du zusätzlich, wie in [diesem FAQ-Eintrag](./faq#gps-highpower) beschrieben, den Energiesparmodus aktiveren.
     - id: battery-drain
       en:
         title: c:geo is even draining my battery when I do not use it!
@@ -1318,7 +1318,7 @@
           Wenn der Kompass zwar in der anderen App aber nicht in c:geo funktioniert, ist es möglich, dass dein Gerät ein Problem mit dem Rotations-Sensor hat.\\
           In diesem Fall aktiviere bitte in Menü → Einstellungen → System die Nutzung des Orientierungs-Sensors.
 
-          Wenn gar nichts hilft und das Problem weiterhin besteht, [kontaktiere](./support.html) bitte unseren Support mit detailierten Informationen zu deinem Gerät, dem genauen Problem des Kompasses und was du schon versucht hast, um das Problem zu lösen.
+          Wenn gar nichts hilft und das Problem weiterhin besteht, [kontaktiere](./support) bitte unseren Support mit detailierten Informationen zu deinem Gerät, dem genauen Problem des Kompasses und was du schon versucht hast, um das Problem zu lösen.
 
     - id: radar-navigation
       en:
@@ -1341,7 +1341,7 @@
           Paris/France is the default location if c:geo is unable to get **any** location information on your device, no home coordinates are set on geocaching.com and c:geo never before had any information about your position since start of your phone.
 
           Please make sure all location sources are activated in your device settings.
-          Please check [this FAQ entry](./faq.html#location-setup) for more information.
+          Please check [this FAQ entry](./faq#location-setup) for more information.
 
           If you had a GPS fix at least once while c:geo is running it should remember this as your last position and open the live map at this position.
           Additionally you can set your home coordinates on [this page](https://www.geocaching.com/account/settings/homelocation) on geocaching.com. c:geo will then use these coordinates if no other location information is available.
@@ -1351,7 +1351,7 @@
           Paris/Frankreich ist die Standard-Lokalisierung, wenn c:geo nicht in der Lage ist **irgendeine** Lokalisierungs-Information von deinem Gerät zu bekommen, keine Heimat-Koordinaten auf geocaching.com gesetzt sind und c:geo davor seit einem Neustart noch nie eine Position empfangen hat.
 
           Bitte stelle sicher, dass alle Lokalisierungs-Optionen in den Einstellungen deines Gerätes aktiviert sind.
-          Lies dazu bitte [diesen FAQ-Eintrag](./faq.html#location-setup) für weitere Informationen.
+          Lies dazu bitte [diesen FAQ-Eintrag](./faq#location-setup) für weitere Informationen.
 
           Wenn du mindestens einmal einen GPS-Fix hattest während c:geo aktiv war, sollte es diese Position als deine letzte Position speichern und die Live-Karte an dieser Position öffnen.
           Zusätzlich kannst du deine Heimat-Koordinaten auf [dieser Seite](https://www.geocaching.com/account/settings/homelocation) von geocaching.com einstellen. c:geo wird diese Koordinaten nutzen, wenn keine andere Lokalisierung verfügbar ist.
@@ -1360,14 +1360,14 @@
       en:
         title: c:geo seems unable to get my current location!
         content: |
-          Please first of all check if you enabled all positioning methods on your device as described in [this FAQ entry](./faq.html#location-setup).
+          Please first of all check if you enabled all positioning methods on your device as described in [this FAQ entry](./faq#location-setup).
 
           We received reports, that on some devices the "Google Play Services" might be faulty.
           If all location methods are enabled but you still have problems, please try to switch off the usage of "Google Play Services" in Menu → Settings → System → "Use Google Play Services".
       de:
         title: c:geo scheint es nicht möglich zu sein, meine Position zu bestimmen!
         content: |
-          Zuallererst prüfe bitte, ob du alle Lokalisierungs-Methoden auf deinem Gerät, wie in [diesem FAQ-Eintrag](./faq.html#location-setup) beschrieben, aktiviert hast.
+          Zuallererst prüfe bitte, ob du alle Lokalisierungs-Methoden auf deinem Gerät, wie in [diesem FAQ-Eintrag](./faq#location-setup) beschrieben, aktiviert hast.
 
           Wir haben Berichte erhalten, dass auf manchen Geräten die "Google Play-Dienste" fehlerhaft sind.
           Wenn alle Lokalisierungs-Methoden aktiviert sind, aber du weiterhin Probleme hast, versuche bitte die Nutzung der "Google Play-Dienste" in Menü → Einstellungen → System auszuschalten.
@@ -1582,7 +1582,7 @@
         content: |
           In rare cases starting the (live) map freezes or crashes c:geo permanently. This is a rare problem we were not yet able to debug.
 
-          If this happens to you please send us a log (as described in [this FAQ entry](./faq.html/#log-to-devs)).
+          If this happens to you please send us a log (as described in [this FAQ entry](./faq/#log-to-devs)).
 
           To get around this problem start c:geo, go to \\
           Menu → Settings → Map → "Select Map Source" \\
@@ -1594,7 +1594,7 @@
         content: |
           In seltenen Fällen bringt das Starten der (Live-)Karte c:geo zum Absturz oder Einfrieren. Dies ist ein seltenes Problem, welches wir noch nicht analysieren konnten.
 
-          Wenn dir das passiert, sende uns bitte ein Logfile wie in [diesem FAQ-Eintrag](./faq.html/#log-to-devs) beschrieben.
+          Wenn dir das passiert, sende uns bitte ein Logfile wie in [diesem FAQ-Eintrag](./faq/#log-to-devs) beschrieben.
 
           Um dieses Problem zu umgehen, starte c:geo und gehe zu\\
           Menü → Einstellungen → Karte → "Wähle Kartenquelle" \\
@@ -1670,12 +1670,12 @@
         title: What is send2cgeo?
         content: |
           Send to c:geo is a quicker way to transfer a cache opened in your browser to your c:geo.
-          You will find all relevant information for installation and usage here: [send2cgeo](/send2cgeo.html)
+          You will find all relevant information for installation and usage here: [send2cgeo](/send2cgeo)
       de:
         title: Was ist send2cgeo?
         content: |
           Send to c:geo ist ein schneller Weg um Caches, die du im Browser geöffnet hast, auf c:geo zu übertragen.
-          Du findest alle relevanten Informationen zur Installation und Nutzung hier: [send2cgeo](/send2cgeo.html)
+          Du findest alle relevanten Informationen zur Installation und Nutzung hier: [send2cgeo](/send2cgeo)
 
     - id: send2-register-fail
       en:
@@ -1687,7 +1687,7 @@
           - Our servers are down or busy
           - A communication error or timeout occurred
 
-          You should try again in a couple of minutes/hours and if the problem persists please contact our [support](/support.html).
+          You should try again in a couple of minutes/hours and if the problem persists please contact our [support](/support).
       de:
         title: Ich versuche mich zu registrieren, aber erhalte 'Registration failed'!
         content: |
@@ -1697,7 +1697,7 @@
           - Unser Server ist gerade nicht erreichbar oder ausgelastet
           - Ein Kommunikationsfehler oder Zeitablauf ist aufgetreten
 
-          Du solltest es einfach in ein paar Minuten/Stunden erneut versuchen und dich bei [uns melden](/support.html), wenn das Problem dauerhaft besteht
+          Du solltest es einfach in ein paar Minuten/Stunden erneut versuchen und dich bei [uns melden](/support), wenn das Problem dauerhaft besteht
 
     - id: send2-multiple-devices
       en:
@@ -1755,14 +1755,14 @@
         title: What do I need to use GCVote?
         content: |
           c:geo will by default always show the average cache rating of GCVote. You will find it below the D/T-rating when looking at the cache details.
-          Additionally a color index for the rating is shown in c:geo cache lists as described [here](./faq.html#icons-on-lists).
+          Additionally a color index for the rating is shown in c:geo cache lists as described [here](./faq#icons-on-lists).
 
           While viewing the average rating is possible without an account, you need one if you want to add your own vote for a cache.
       de:
         title: Was brauche ich, um GCVote zu nutzen?
         content: |
           c:geo zeigt dir standardmäßig die durchschnittliche Cache-Bewertung an. Diese findest du unterhalb der D/T-Wertung in den Cache-Details.
-          Zusätzlich wird ein Farbindex für die Bewertung in den c:geo Cachelisten angezeigt, wie es [hier](./faq.html#icons-on-lists) beschrieben ist.
+          Zusätzlich wird ein Farbindex für die Bewertung in den c:geo Cachelisten angezeigt, wie es [hier](./faq#icons-on-lists) beschrieben ist.
 
           Während das Ansehen der Bewertung ohne einen Account möglich ist, brauchst du einen Account, wenn du deine eigene Bewertung für einen Cache abgeben möchtest.
 
@@ -1888,7 +1888,7 @@
           Many OSM:Offline maps are available for download from different sources, for example
 
           - [Official mapsforge download site](http://download.mapsforge.org/maps/)
-          - [Freizeitkarte](http://www.freizeitkarte-osm.de/android/de/index.html)
+          - [Freizeitkarte](http://www.freizeitkarte-osm.de/android/de/index)
           - [OpenAndroMaps](http://www.openandromaps.org/)
           - [OpenMaps](http://openmaps.eu/mapsforgedownload)
           - [AndroidMaps](http://www.androidmaps.co.uk/)
@@ -1904,7 +1904,7 @@
           Es gibt viele OSM:Offline-Karten von diversen Quellen, wie zum Beispiel
 
           - [Offizielle Mapsforge-Seite](http://download.mapsforge.org/maps/)
-          - [Freizeitkarte](http://www.freizeitkarte-osm.de/android/de/index.html)
+          - [Freizeitkarte](http://www.freizeitkarte-osm.de/android/de/index)
           - [OpenAndroMaps](http://www.openandromaps.org/)
           - [OpenMaps](http://openmaps.eu/mapsforgedownload)
           - [AndroidMaps](http://www.androidmaps.co.uk/)
@@ -1949,7 +1949,7 @@
           In order to use c:geo completely offline you will have to prepare some things depending on your needs:
 
           1. Store the caches for offline use (manually or via GPX import).
-          2. Optionally download an offline map as described in [this section of the FAQ](./faq.html#osm).
+          2. Optionally download an offline map as described in [this section of the FAQ](./faq#osm).
 
           In case you want to avoid any data transfer you should generally disable the Internet connection on your device anyhow, because c:geo will always try to login once you started it.
           On most devices the Internet connection is disconnected automatically in roaming conditions or if the mobile part is switched off.
@@ -1969,7 +1969,7 @@
           Um c:geo komplett offline zu nutzen, musst du je nach Bedarf einige Dinge vorbereiten:
 
           1. Speichere die Caches zur Offline-Nutzung (manuell oder mittels GPX-Import).
-          2. Lade dir optional eine Offline-Karte herunter, wie in [diesem Bereich der FAQ](./faq.html#osm) beschrieben.
+          2. Lade dir optional eine Offline-Karte herunter, wie in [diesem Bereich der FAQ](./faq#osm) beschrieben.
 
           Wenn du jegliche Datenübertragung vermeiden möchtest, solltest du die Internetverbindung deines Gerätes komplett deaktivieren, da c:geo immer versuchen wird, sich einzuloggen, wenn es gestartet wird.
           Auf den meisten Geräten wird die Internetverbindung ohnehin automatisch deaktiviert, wenn du im Ausland bist oder der Mobilfunkzugriff abgeschaltet wird.
@@ -2212,7 +2212,7 @@
           If you do not yet have an account you can create it on the [Geokrety.org registration page](https://www.geokrety.org/adduser.php).
           Afterwards go to Settings → Services → GeoKrety.org in c:geo, enter your login data and authorize to the webpage.
 
-          Once you are authorized you can log GeoKrety with c:geo as described [here](./faq.html#trackables-logging).
+          Once you are authorized you can log GeoKrety with c:geo as described [here](./faq#trackables-logging).
       de:
         title: Ich sehe die Meldung "Loggen von GeoKrets kann nicht anonym erfolgen"!
         content: |
@@ -2221,7 +2221,7 @@
           Wenn du noch kein Nutzerkonto hast, kannst du dies auf der [Geokrety.org-Registrierungsseite](https://www.geokrety.org/adduser.php) anlegen.
           Danach kannst in c:geo du unter Einstellungen → Dienste → GeoKrety.org deine Zugangsdaten eingeben und dich authentisieren.
 
-          Nachdem du authentisiert bist, kannst du GeoKrets mit c:geo loggen, wie es [hier](./faq.html#trackables-logging) beschrieben ist.
+          Nachdem du authentisiert bist, kannst du GeoKrets mit c:geo loggen, wie es [hier](./faq#trackables-logging) beschrieben ist.
 
     - id: trackables-gk-unsupported
       en:
@@ -2376,7 +2376,7 @@
 
           2.  c:geo does not obtain a GPS position anymore
 
-            Please refer to [this FAQ entry](./faq.html#no-location) to fix this problem.
+            Please refer to [this FAQ entry](./faq#no-location) to fix this problem.
       de:
         title: c:geo funktioniert nach der Aktualisierung auf Android 6.0 nicht mehr!
         content: |
@@ -2389,7 +2389,7 @@
 
           2.  c:geo erhält keine GPS-Position mehr
 
-            Bitte schau dir [diesen FAQ-Eintrag](./faq.html#no-location) an, um das Problem zu beheben.
+            Bitte schau dir [diesen FAQ-Eintrag](./faq#no-location) an, um das Problem zu beheben.
 
     - id: open-in-browser
       en:
@@ -2613,22 +2613,22 @@
       en:
         title: Approximated coordinates on the live map
         content: |
-          Some caches on the live map may not have precise coordinates until you open the cache details. Those caches are marked by an [orange circle](./faq.html#map-orange-circles) around the icon.
+          Some caches on the live map may not have precise coordinates until you open the cache details. Those caches are marked by an [orange circle](./faq#map-orange-circles) around the icon.
           If navigation is started directly from live map this may also use the approximated coordinates and guide you to a slightly wrong location!
       de:
         title: Genäherte Koordinaten auf der Live-Karte
         content: |
-          Einige Caches auf der Live-Karte haben keine exakten Koordinaten, bis du die Cache-Details öffnest. Diese Caches sind mit [orangen Kreisen](./faq.html#map-orange-circles) um das Symbol gekennzeichnet.
+          Einige Caches auf der Live-Karte haben keine exakten Koordinaten, bis du die Cache-Details öffnest. Diese Caches sind mit [orangen Kreisen](./faq#map-orange-circles) um das Symbol gekennzeichnet.
           Wenn du die Navigation zu diesen Caches direkt von der Live-Karte startest, könnten die genäherten Koordinaten genutzt werden und dich zu einer leicht falschen Position führen!
 
     - id: limitation-fastmode
       en:
         title: The fast loading strategy on the live map might show wrong cache types
         content: |
-          If you set the live map [loading strategy](./faq.html#map-strategy) to "Fast" the cache type shown on the map might be wrong in rare cases.
+          If you set the live map [loading strategy](./faq#map-strategy) to "Fast" the cache type shown on the map might be wrong in rare cases.
           The fast mode only detects Traditional, Multi, Mystery and Event caches and might fail if the cache density is too high in the shown area.
       de:
         title: Die schnelle Lade-Strategie auf der Live-Karte könnte falsche Cache-Typen anzeigen
         content: |
-          Wenn du die [Ladestrategie](./faq.html#map-strategy) auf der Live-Karte auf "Schnell" einstellst, könnten bei einigen Caches selten die Typen falsch angezeigt werden.
+          Wenn du die [Ladestrategie](./faq#map-strategy) auf der Live-Karte auf "Schnell" einstellst, könnten bei einigen Caches selten die Typen falsch angezeigt werden.
           Der schnelle Modus erkennt nur Traditional-, Multi-, Mystery- und Event-Caches und könnte versagen, wenn die Cache-Dichte im betrachteten Gebiet zu hoch ist.

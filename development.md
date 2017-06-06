@@ -81,6 +81,6 @@ Localization statistics: [![Crowdin](https://d322cqt584bo4o.cloudfront.net/cgeo/
 
 While c:geo is in use it checks every 30 minutes for new notifications (these are shown on the homescreen of c:geo). Together with the IP of the device only the version of c:geo and the user's language are transferred to our server. This data is kept only temporarily and deleted after 30 minutes.
 
-Our [status page](/status.html) shows a snapshot of the current usage of c:geo, split by version numbers. Additionally it shows the warnings of our user notification system (if there any).
+Our [status page](/status) shows a snapshot of the current usage of c:geo, split by version numbers. Additionally it shows the warnings of our user notification system (if there any).
 
-We use GeoIP to estimate the user's location from the IP address (which usually points to the next big city or county). With this information it is possible to create a [heatmap of people currently using c:geo](heatmap.html). It is neither possible to track individual users, nor do we ever track your individual GPS-position.
+We use GeoIP to estimate the user's location from the IP address (which usually points to the next big city or county). With this information it is possible to create a [heatmap of people currently using c:geo](heatmap). It is neither possible to track individual users, nor do we ever track your individual GPS-position.

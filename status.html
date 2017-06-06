@@ -70,7 +70,7 @@ noEditLink: true
                   line.push("<td>" + ((100 * v.count / total).toFixed(1)) + "%</td>");
                   items.push("<tr>" + line.join("") + "</tr>");
                 });
-                $("#versions-body").html(items.join("\n"));
+                $("#versions-body")(items.join("\n"));
                 $("#versions-total").text(total);
               });
           window.setTimeout(updateVersions, 30000);
@@ -84,10 +84,10 @@ noEditLink: true
               $("#message-id").text(msg.message_id ? msg.message_id : "");
               if (msg.icon) {
                 var url = "https://status.cgeo.org/assets/icons/" + msg.icon + ".png";
-                $("#message-icon").html('<img src="' + url + '"/>');
+                $("#message-icon")('<img src="' + url + '"/>');
               } else
                 $("#message-icon").text("");
-              $("#message-link").html(msg.url ? '<a href="' + msg.url + '">Link</a>' : "");
+              $("#message-link")(msg.url ? '<a href="' + msg.url + '">Link</a>' : "");
               $("#message-condition").text(msg.condition ? msg.condition : "");
               $("#message-div").show();
             } else {

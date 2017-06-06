@@ -17,7 +17,7 @@ We divided this information into "Help for problems" and "Ideas for c:geo":
 
 We kindly ask you to make sure your problem is not covered by the following information before sending us a mail:
 
-- First of all please check if your problem is answered in our [FAQ](/faq.html)!
+- First of all please check if your problem is answered in our [FAQ](/faq)!
 
 - You should also check if your problem is already listed on our [Bugtracking system](https://github.com/cgeo/cgeo/issues?q=+sort%3Aupdated-desc+). In this case we are already working on it and you can follow the status of the problem there.
 
@@ -50,7 +50,7 @@ But c:geo is open source, so anyone willing and able to help us is welcome to do
 
 We are also using our bugtracking system for documentation of new ideas and feature requests. Before contacting us with your idea please check if it is not already contained in our list of [Feature Requests](https://github.com/cgeo/cgeo/issues?q=label%3A%22Feature+Request%22+sort%3Acreated-desc).
 
-Our [FAQ](/faq.html) might also contain some answers about why certain features or functions are currently not implemented.
+Our [FAQ](/faq) might also contain some answers about why certain features or functions are currently not implemented.
 
 ### Contact us with your idea
 
