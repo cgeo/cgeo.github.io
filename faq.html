@@ -1,93 +1,105 @@
 ---
 title: FAQ
+longTitle: Frequently Asked Questions
 layout: page
-editlink:
-  template: faq.html
+edit_link:
+  template: faq
   data: _data/faq.yml
+redirect_from: /faq.html
 ---
 
 {% assign languages = "en de" | split: ' ' %}
 
-<script type="text/javascript">
-    var languages = [ "{{ languages | join: '", "' }}" ];
+<script>
+	const languages = ["{{ languages | join: '", "' }}"]
 
-    function switchLanguage(lang) {
-        if ($.inArray(userLang, languages) > -1) {
-            $('.faqitem div[lang], h2[lang], .faqnavigation[lang]').hide();
-            $('.faqitem div[lang="' + lang + '"], h2[lang="' + lang + '"], .faqnavigation[lang="' + lang + '"]').show();
+	function switchLanguage(lang) {
+		if ($.inArray(userLang, languages) > -1) {
+			$('.faq-item div[lang], .faq-category-header[lang], .faq-navigation[lang]').hide()
+			$(`.faq-item div[lang="${lang}"], .faq-category-header[lang="${lang}"], .faq-navigation[lang="${lang}"]`).show()
 
-            // jump to anchor again because page length might have changed
-            if (location.hash) {
-                location.hash = location.hash;
-            }
-        }
-    }
+			// Jump to anchor again because page length might have changed
+			if (location.hash) {
+				location.hash = location.hash
+			}
+		}
+	}
 </script>
 
-<h1>FAQ - Frequently Asked Questions</h1>
-
-<div id="language-selection" style="display: none;">
-    <a href="javascript:switchLanguage('en');">English</a>
-    <a href="javascript:switchLanguage('de');">Deutsch</a>
+<div id="faq-language-selection" style="display: none;">
+	<span onclick="switchLanguage('en')">English</span>
+	<span onclick="switchLanguage('de')">Deutsch</span>
 </div>
 
+<h1>FAQ</h1>
+
+<p>Welcome to our FAQ where we collect and answer frequently asked questions.
+To quickly find an answer to your question, use the <strong>Find in page</strong>
+feature of your browser - usually accessible by pressing <kbd>Ctrl+F</kbd>.</p>
+<p>If you still don't find the answer you're looking for, check out our <a href="/support">Support</a> page.</p>
+
 {% for language in languages %}
-<ul class="faqnavigation" lang="{{ language }}">
-    {% for category in site.data.faq %}
-        {% if category.title[language] == nil %}
-            {% assign lang = "en" %}
-        {% else %}
-            {% assign lang = language %}
-        {% endif %}
-        <li>{{ category.title[lang] }}
-            <ul>
-            {% for item in category.items %}
-                {% if item[language] == nil %}
-                    {% assign lang = "en" %}
-                {% else %}
-                    {% assign lang = language %}
-                {% endif %}
-                <li><a href="#{{ item.id }}">{{ item[lang].title }}</a></li>
-            {% endfor %}
-            </ul>
-        </li>
-    {% endfor %}
-    </ul>
-{% endfor %}
-
-{% for category in site.data.faq %}
-    {% for language in languages %}
-        {% if category.title[language] == nil %}
-            {% assign lang = "en" %}
-        {% else %}
-            {% assign lang = language %}
-        {% endif %}
-        <h2 lang="{{ language }}">{{ category.title[lang] }}</h2>
-    {% endfor %}
-
-    {% for item in category.items %}
-        <div id="{{ item.id }}" class="faqitem">
-            <div class="faqitem-content">
-                <a href="#{{ item.id }}" class="quicklink">&#128279;</a>
-                {% for language in languages %}
+    <div class="faq-navigation" lang="{{ language }}">
+        {% for category in site.data.faq %}
+            {% if category.title[language] == nil %}
+                {% assign lang = "en" %}
+            {% else %}
+                {% assign lang = language %}
+            {% endif %}
+            <div class="faq-navigation-category">
+                <div class="faq-navigation-category-title">{{ category.title[lang] }}</div>
+                {% for item in category.items %}
                     {% if item[language] == nil %}
                         {% assign lang = "en" %}
                     {% else %}
                         {% assign lang = language %}
                     {% endif %}
-                    <div lang="{{ language }}">
-                        <h3>{{ item[lang].title }}</h3>
-                        {{ item[lang].content | markdownify }}
-                    </div>
+                    <a class="faq-navigation-link" href="#{{ item.id }}">{{ item[lang].title }}</a>
                 {% endfor %}
             </div>
-        </div>
-    {% endfor %}
+        {% endfor %}
+    </div>
 {% endfor %}
 
-<script type="text/javascript">
-    $('#language-selection').show();
+<div class="faq-container">
+	{% for category in site.data.faq %}
+	<div class="faq-category">
+		{% for language in languages %}
+			{% if category.title[language] == nil %}
+				{% assign lang = "en" %}
+			{% else %}
+				{% assign lang = language %}
+			{% endif %}
+			<div class="faq-category-header" lang="{{ language }}">{{ category.title[lang] }}</div>
+		{% endfor %}
 
-    var userLang = (navigator.language || navigator.userLanguage).split('-')[0];
-    switchLanguage(userLang);
+		{% for item in category.items %}
+			<div class="faq-item" id="{{ item.id }}">
+				<div class="faq-item-content">
+					{% for language in languages %}
+						{% if item[language] == nil %}
+							{% assign lang = "en" %}
+						{% else %}
+							{% assign lang = language %}
+						{% endif %}
+						<div lang="{{ language }}">
+							<div class="question">
+								<div class="icon"><div class="mdi mdi-help"></div></div>
+								<div class="text"><a href="#{{ item.id }}">{{ item[lang].title }}</a></div>
+							</div>
+							<div class="answer">{{ item[lang].content | markdownify }}</div>
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+		{% endfor %}
+		</div>
+	{% endfor %}
+</div>
+
+<script type="text/javascript">
+	$('#faq-language-selection').show();
+
+	var userLang = (navigator.language || navigator.userLanguage).split('-')[0];
+	switchLanguage(userLang);
 </script>

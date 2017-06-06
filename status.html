@@ -1,7 +1,8 @@
 ---
 title: Deployment status
-layout: default
-noeditlink: true
+layout: page
+no_edit_link: true
+redirect_from: /status.html
 ---
 <div class="container">
   <div class="status">
@@ -75,7 +76,6 @@ noeditlink: true
               });
           window.setTimeout(updateVersions, 30000);
         }
-
         function updateMessage() {
           $.getJSON("https://status.cgeo.org/api/message", function(data) {
             var msg = data.message;
@@ -96,7 +96,6 @@ noeditlink: true
           });
           window.setTimeout(updateMessage, 30000);
         };
-
         updateVersions();
         updateMessage();
     </script>

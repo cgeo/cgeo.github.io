@@ -4,5 +4,10 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - README.md
+- CNAME
 
 markdown: kramdown
+permalink: pretty
+
+gems:
+- jekyll-redirect-from

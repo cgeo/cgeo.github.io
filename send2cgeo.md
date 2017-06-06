@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Send2cgeo
+redirect_from: /send2cgeo.html
 ---
 
 # Send2cgeo
@@ -13,7 +14,7 @@ Send2cgeo is a script available for Mozilla Firefox and Google Chrome browser. I
 
 [Usage instructions for send2cgeo](#how-to-use-send2cgeo)
 
-[FAQ for send2cgeo](/faq.html#send2cgeo)
+[FAQ for send2cgeo](/faq#send2cgeo)
 
 ## Important Notes/Disclaimer
 

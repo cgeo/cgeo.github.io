@@ -1,0 +1,28 @@
+- title: Contribute
+  subtitle: Help us build c:geo.
+  description: c:geo is and always will be 100% free and open-source. Join our team and help make it better.
+  buttons:
+  - label: Get involved
+    url: /development
+- title: Donate
+  subtitle: Support c:geo development.
+  description: Donate a few bucks and help us pay for servers and other costs, so we can focus on development.
+  buttons:
+  - label: Donate
+    url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AQBS7UP76CXW2
+- title: Follow
+  subtitle: Stay informed about c:geo.
+  description: Follow us on social media and stay up to date with the latest and greatest about c:geo.
+  buttons:
+  - icon: twitter
+    label: Twitter
+    url: https://twitter.com/android_gc
+  - icon: google-plus
+    label: Google Plus
+    url: https://plus.google.com/105588163414303246956
+  - icon: facebook
+    label: Facebook
+    url: https://de-de.facebook.com/android.geocaching
+  - icon: github-face
+    label: GitHub
+    url: https://github.com/cgeo
