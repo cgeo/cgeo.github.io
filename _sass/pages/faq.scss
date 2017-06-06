@@ -9,6 +9,7 @@
 
             &-title {
                 font-size: 17px;
+                color: rgba(white, .9);
             }
         }
 
@@ -17,6 +18,7 @@
             font-size: 15px;
             margin-left: 9px;
             text-decoration: none;
+            color: rgba(white, .7);
         }
 
 		@media(max-width: 550px) {
@@ -86,6 +88,8 @@
 					font-weight: 500;
 					flex-flow: 1;
 					line-height: 1.5;
+
+                    a { text-decoration: none; }
 				}
 		    }
 
