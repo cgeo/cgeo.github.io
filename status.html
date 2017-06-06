@@ -71,12 +71,11 @@ redirect_from: /status.html
                   line.push("<td>" + ((100 * v.count / total).toFixed(1)) + "%</td>");
                   items.push("<tr>" + line.join("") + "</tr>");
                 });
-                $("#versions-body")(items.join("\n"));
+                $("#versions-body").html(items.join("\n"));
                 $("#versions-total").text(total);
               });
           window.setTimeout(updateVersions, 30000);
         }
-
         function updateMessage() {
           $.getJSON("https://status.cgeo.org/api/message", function(data) {
             var msg = data.message;
@@ -85,10 +84,10 @@ redirect_from: /status.html
               $("#message-id").text(msg.message_id ? msg.message_id : "");
               if (msg.icon) {
                 var url = "https://status.cgeo.org/assets/icons/" + msg.icon + ".png";
-                $("#message-icon")('<img src="' + url + '"/>');
+                $("#message-icon").html('<img src="' + url + '"/>');
               } else
                 $("#message-icon").text("");
-              $("#message-link")(msg.url ? '<a href="' + msg.url + '">Link</a>' : "");
+              $("#message-link").html(msg.url ? '<a href="' + msg.url + '">Link</a>' : "");
               $("#message-condition").text(msg.condition ? msg.condition : "");
               $("#message-div").show();
             } else {
@@ -97,7 +96,6 @@ redirect_from: /status.html
           });
           window.setTimeout(updateMessage, 30000);
         };
-
         updateVersions();
         updateMessage();
     </script>
