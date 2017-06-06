@@ -40,11 +40,11 @@
 				</div>
 			</div>
 		</footer>
-        {% unless page.noEditLink %}
+        {% unless page.no_edit_link %}
             <article class="edit-on-github">
-                {% if page.editLink %}
+                {% if page.edit_link %}
                     Edit page on GitHub:
-                    {% for source in page.editLink %}
+                    {% for source in page.edit_link %}
                         <a href="{{ site.github.repository_url }}/edit/master/{{ source[1] }}">{{ source[0] }}</a>
                     {% endfor %}
                 {% else %}
