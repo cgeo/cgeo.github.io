@@ -19,7 +19,7 @@
   title: Many Navigation Options
   description: Navigate using compass, map, or other apps.
 - icon: file-export
-  title: GPX Import And Export
+  title: GPX Import and Export
   description: Export and import caches in the GPS Exchange Format.
 - icon: tag-multiple
   title: Trackable Support
