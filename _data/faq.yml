@@ -315,7 +315,7 @@
         en:
             title: Why does c:geo not use Groundspeak's public API?
             content: |
-                The initial idea of c:geo is to provide a free (and open source) app for mobile geocaching for everybody. \\
+                The initial idea of c:geo is to provide a free (and open-source) app for mobile geocaching for everybody. \\
                 What would change with the API?
 
                 - c:geo only for premium members
