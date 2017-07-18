@@ -115,6 +115,7 @@ h2[lang]:not([lang="en"]) {
     opacity: 0.8;
     font-size: 0.8em;
     padding: 0;
+    z-index: 1000;
 
     span {
         cursor: pointer;
