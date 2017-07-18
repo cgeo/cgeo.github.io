@@ -3,18 +3,6 @@
       en: Current issues
       de: Aktuelle Probleme
   items:
-      - id: 6512
-        en:
-            title: The OSM:Cyclemap shows "API key required"!
-            content: |
-                This was fixed starting with c:geo version 2017.05.09.
-                Please update your installation.
-        de:
-            title: Die OSM:Radfahrkarte zeigt "API key required" an!
-            content: |
-               Dies wurde ab c:geo Version 2017.05.09 behoben.
-               Bitte aktualisiere deine Installation.
-
       - id: 6519
         en:
             title: Sometimes I get the warning "c:geo cannot load data required to log visit"!
