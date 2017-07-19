@@ -2620,3 +2620,20 @@
             content: |
                 Wenn du die [Ladestrategie](#map-strategy) auf der Live-Karte auf "Schnell" einstellst, könnten bei einigen Caches selten die Typen falsch angezeigt werden.
                 Der schnelle Modus erkennt nur Traditional-, Multi-, Mystery- und Event-Caches und könnte versagen, wenn die Cache-Dichte im betrachteten Gebiet zu hoch ist.
+                
+      - id: cyclemap
+        en:
+            title: Why is OSM:Cyclemap no longer offered as map type?
+            content: |
+                Sadly we had to remove OSM:Cyclemap as the [provider](http://www.thunderforest.com/) of this map does not offer it for free anymore.
+                This means we would have to pay a fee of several 100€ per month to keep this map in c:geo, which we cannot afford as open source team.
+                
+                For one of the future release of c:geo we are planning to instead implement a custom map provider configuration, which allows you to configure your prefered map tile server.
+        de:
+            title: Warum wird OSM:Radfahrerkarte nicht mehr als Kartentyp angeboten?
+            content: |
+                Leider mussten wir die OSM:Radfahrerkarte entfernen, da der [Anbieter](http://www.thunderforest.com/) dieser Karte diese nicht mehr kostenfrei zur Verfügung stellt.
+                Das bedeutet, dass wir eine Gebühr von mehreren 100€ pro Monat zahlen müssten, um diese Karte in c:geo zu erhalten. Dies können wir als Open Source-Team nicht leisten.
+                
+                Mit einer der künftigen c:geo Versionen planen wir stattdessen eine nutzerspezifische Konfiguration des Kartenanbieters zu implementieren, die es dir erlaubt deinen bevorzugten Kartenserver selbst zu konfigurieren.
+                
