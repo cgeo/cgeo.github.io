@@ -20,15 +20,15 @@
             title: I can no longer find the menu item "Refresh all" and other functions in my lists!
             content: |
                 We recently restructured the menu tree of the list menu to clearly categorize the different functions.
-                While it might need some time to get used to it, we still believe that this structure is clearer and also allows as to add more functions in the future without making the menu look overcrowded.
+                While it might need some time to get used to it, we still believe that this structure is clearer and also allows to add new functions in the future without making the menu look overcrowded.
                 
                 All cache related functions are now grouped below "Manage Caches", where you can also find "Refresh all" now.
                 All list related functions are now below "Manage Lists".
         de:
             title: Ich kann den Menüpunkt "Alle aktualisieren" und andere Funktionen in meinen Listen nicht mehr finden!
             content: |
-                Wir haben kürzlich den Menübaum des Listenmenüs überarbeitet um die verschiedenen Funktionen klar zu kategorisieren.
-                Es braucht evtl. etwas Zeit sich daran zu gewöhnen, aber wir denken, dass diese Struktur klarer ist und es uns hilft zukünftig neue Funktionen einzubauen. 
+                Wir haben kürzlich den Menübaum des Listenmenüs überarbeitet, um die verschiedenen Funktionen klar zu kategorisieren.
+                Es braucht evtl. etwas Zeit sich daran zu gewöhnen, aber wir denken, dass diese Struktur klarer ist und hilft zukünftig neue Funktionen einzubauen, ohne dass das Menü überladen wirkt. 
                
                 Alle Funktionen für Caches sind nun unter "Caches verwalten" gruppiert, wo du auch den Menüpunkt "Alle aktualisieren" wiederfindest.
                 Alle Funktionen für Listen sind nun unter "Listen verwalten" gruppiert.
