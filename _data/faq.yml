@@ -1582,32 +1582,6 @@
 
                 Bitte weiter hereinzoomen, damit c:geo in der Lage ist, deine eigenen/gefundenen Caches zu erkennen und auszublenden.
 
-      - id: map-crashes
-        en:
-            title: Starting the live map crashes c:geo!
-            content: |
-                In rare cases starting the (live) map freezes or crashes c:geo permanently. This is a rare problem we were not yet able to debug.
-
-                If this happens to you please send us a log (as described in [this FAQ entry](#log-to-devs)).
-
-                To get around this problem start c:geo, go to \\
-                Menu → Settings → Map → "Select Map Source" \\
-                and change the map to OSM:Mapnik.
-
-                Now start the live map, it should work. After the live map is started you can switch back to Google Maps if desired.
-        de:
-            title: Ein Starten der Live-Karte lässt c:ge abstürzen!
-            content: |
-                In seltenen Fällen bringt das Starten der (Live-)Karte c:geo zum Absturz oder Einfrieren. Dies ist ein seltenes Problem, welches wir noch nicht analysieren konnten.
-
-                Wenn dir das passiert, sende uns bitte ein Logfile wie in [diesem FAQ-Eintrag](#log-to-devs) beschrieben.
-
-                Um dieses Problem zu umgehen, starte c:geo und gehe zu\\
-                Menü → Einstellungen → Karte → "Wähle Kartenquelle" \\
-                und ändere diese auf "OSM:Mapnik".
-
-                Starte nun die Live-Karte, es sollte funktionieren. Nachdem die Live-Karte nun einmal gestartet hast, kannst du auf die Google-Karte zurückwechseln, wenn du das möchtest.
-
       - id: map-for-distant-location
         en:
             title: Is there an easy way to start the live map for a distant location?
