@@ -3,6 +3,22 @@
       en: Current issues
       de: Aktuelle Probleme
   items:
+      - id: 6682
+        en:
+            title: Logging a cache results in the error message "Posting log failed, Reason:Login failed"!
+            content: |
+                There are currently problems in the server communication while posting a log with c:geo.
+                Despite the error message, the log is usually posted successfully.
+                
+                We are looking into this problem and will provide a fix as soon as possible.
+        de:
+            title: Beim Loggen eines Caches erhalte ich die Fehlermeldung "Das Senden des Logs ist fehlgeschlagen, Ursache:Anmeldung fehlgeschlagen"!
+            content: |
+                Beim Senden von Logs gibt es derzeit Probleme in der Kommunikation mit dem Server. 
+                Trotz der Fehlermeldung wird der Logeintrag normalerweise erfolgreich veröffentlicht.
+                
+                Wir analysieren das Problem derzeit und werden so bald wie möglich eine Korrektur bereitstellen.
+                
       - id: 6519
         en:
             title: Sometimes I get the warning "c:geo cannot load data required to log visit"!
