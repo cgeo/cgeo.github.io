@@ -1,1 +1,1 @@
-Problems when logging a cache! Please click [here](/faq#6682) for further info!
+[Problems when logging a cache! Please click here for further info!]((/faq#6682)
