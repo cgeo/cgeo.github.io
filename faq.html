@@ -98,6 +98,14 @@ feature of your browser - usually accessible by pressing <kbd>Ctrl+F</kbd>.</p>
 
 <script type="text/javascript">
     $('#faq-language-selection').show()
-    const userLang = (navigator.language || navigator.userLanguage).split('-')[0]
+    const parameters = location.search
+        .substr(1)
+        .split("&")
+        .reduce((obj, str) => {
+            const parts = str.split("=")
+            if(parts.length === 2) obj[parts[0]] = decodeURIComponent(parts[1])
+            return obj
+        }, {})
+    const userLang = (parameters.lang || navigator.language || navigator.userLanguage).split('-')[0]
     switchLanguage(userLang)
 </script>
