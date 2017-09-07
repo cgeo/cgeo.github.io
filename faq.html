@@ -13,7 +13,7 @@ edit_link:
     const languages = ["{{ languages | join: '", "' }}"]
 
     function switchLanguage(lang) {
-        if ($.inArray(userLang, languages) > -1) {
+        if (languages.includes(lang)) {
             $('.faq-item div[lang], .faq-category-header[lang], .faq-navigation[lang]').hide()
             $(`.faq-item div[lang="${lang}"], .faq-category-header[lang="${lang}"], .faq-navigation[lang="${lang}"]`).show()
 
@@ -97,8 +97,7 @@ feature of your browser - usually accessible by pressing <kbd>Ctrl+F</kbd>.</p>
 </div>
 
 <script type="text/javascript">
-    $('#faq-language-selection').show();
-
-    var userLang = (navigator.language || navigator.userLanguage).split('-')[0];
-    switchLanguage(userLang);
+    $('#faq-language-selection').show()
+    const userLang = (navigator.language || navigator.userLanguage).split('-')[0]
+    switchLanguage(userLang)
 </script>
