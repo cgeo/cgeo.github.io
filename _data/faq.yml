@@ -7,17 +7,15 @@
         en:
             title: Logging a cache results in the error message "Posting log failed, Reason:Login failed"!
             content: |
-                There are currently problems in the server communication while posting a log with c:geo.
-                Despite the error message, the log is usually posted successfully.
+                The problem is solved with c:geo version 2017.08.23. Please update your installation.
                 
-                We are looking into this problem and will provide a fix as soon as possible.
+                In case you are not sure, whether you already logged a cache or your log type changes automatically to DNF, please refresh the cache in c:geo and check the logbook first to see whether you already logged the cache.
         de:
             title: Beim Loggen eines Caches erhalte ich die Fehlermeldung "Das Senden des Logs ist fehlgeschlagen, Ursache:Anmeldung fehlgeschlagen"!
             content: |
-                Beim Senden von Logs gibt es derzeit Probleme in der Kommunikation mit dem Server. 
-                Trotz der Fehlermeldung wird der Logeintrag normalerweise erfolgreich veröffentlicht.
-                
-                Wir analysieren das Problem derzeit und werden so bald wie möglich eine Korrektur bereitstellen.
+                Das Problem wurde mit der c:geo Version 2017.08.23 behoben. Bitte aktualisiere deine Installation.
+                              
+                Falls du dir nicht sicher bist, ob du einen Cache bereits geloggt hast oder sich der Logtyp automatisch auf "Nicht gefunden" ändert, aktualisiere bitte den Cache in c:geo und prüfe im Logbuch, ob du den Cache bereits geloggt hast.
                 
       - id: 6519
         en:
