@@ -25,7 +25,7 @@ We kindly ask you to make sure your problem is not covered by the following info
 
 ### Ask our support team about your problem
 
-Our team members speak English, German, French and Slovenian.
+Our team members speak English, German and Slovenian.
 Please try to write your mail in one of these languages to make it easier for us to reply to you.
 
 We are always trying to answer all of your mails, but sometimes we receive a high amount of requests thus our team might need some time to answer.
@@ -54,7 +54,7 @@ Our [FAQ](/faq) might also contain some answers about why certain features or fu
 
 ### Contact us with your idea
 
-Our team members speak English, German, French and Slovenian.
+Our team members speak English, German and Slovenian.
 Please try to write your mail in one of these languages to make it easier for us to reply to you.
 
 We are always trying to answer all of your mails, but sometimes we receive a high amount of requests thus our team might need some time to answer.
