@@ -538,7 +538,7 @@
                     Diese zusätzlichen Daten können viel größer sein, da sie die Bilder der Cachebeschreibung und (optional) die Logbilder und (optional) die statischen Karten enthalten.
                     Die Daten werden standardmäßig auf dem internen Benutzerspeicher abgelegt unter /Android/data/cgeo.geocaching/files/GeocacheData/.
 
-                    Du kannst diese Daten über Menü → Einstellungen → System → "Geoache-Daten Verezeichnis" auf die externe SD-Karte verschieben. \\
+                    Du kannst diese Daten über Menü → Einstellungen → System → "Geoache-Daten Verzeichnis" auf die externe SD-Karte verschieben. \\
                     Wenn dein Gerät die Nutzung einer externen SD-Karte hierfür unterstützt, zeigt dieses Menü die verfügbaren Zielverzeichnisse sowie die Größe deiner Geocache-Daten und den verfügbaren Speicherplatz in den Zielverzeichnissen an.
 
                     Bitte berücksichtige das Folgende, wenn du dich dafür entscheidest die Geocache-Daten auf der externen SD-Karte zu speichern:
