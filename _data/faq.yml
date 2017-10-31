@@ -92,7 +92,7 @@
 
                     Nachdem du Benutzernamen und Passwort für eine der Plattformen erhalten hast, gib diese in den c:geo-Einstellungen ein, um c:geo den Zugriff auf die Plattform zu ermöglichen.
 
-                2. Du musst etwas über die verschiedenen Cache-Typen, D/T-Wertungen, usw. lernen
+                2. Du musst etwas über die verschiedenen Cache-Typen, D/T-Wertungen, usw. lernen.
 
                     Du wirst vielleicht keinen Erfolg beim Finden eines Caches haben, wenn du einfach einen zufälligen Cache in c:geo auswählst und dorthin navigierst. Es gibt einiges mehr, was du wissen musst, um einen für dich passenden Cache auszuwählen.
 
@@ -1649,7 +1649,7 @@
         de:
             title: Wie lasse ich die Karte in Gehrichtung rotieren?
             content: |
-                Momentan nutzt c:geo Versionen von Google Maps und Mapsforge, die die Kartendrehung nicht unterstützen, sondern immer Nordwärts ausgerichtet sind.
+                Momentan nutzt c:geo Versionen von Google Maps und Mapsforge, die die Kartendrehung nicht unterstützen, sondern immer nordwärts ausgerichtet sind.
 
                 Wir arbeiten aber daran, in einer der zukünftigen c:geo-Versionen neuere Karten-Versionen zu implementieren, die auch rotierende Karten unterstützen.
                 Da dies aber eine komplette Überarbeitung der Karten-Implementierung bedeutet, kann es einige Zeit dauern, bis die Entwicklung abgeschlossen ist.
@@ -1677,9 +1677,9 @@
             content: |
                 If the registration fails the reason can be one of the following:
 
-                - Your device does not have Internet connection
-                - Our servers are down or busy
-                - A communication error or timeout occurred
+                - Your device does not have Internet connection.
+                - Our servers are down or busy.
+                - A communication error or timeout occurred.
 
                 You should try again in a couple of minutes/hours and if the problem persists please contact our [support](/support).
         de:
@@ -1687,11 +1687,11 @@
             content: |
                 Wenn die Registrierung fehlschlägt, kann das folgende Gründe haben:
 
-                - Dein Gerät hat keine Internet-Verbindung
-                - Unser Server ist gerade nicht erreichbar oder ausgelastet
-                - Ein Kommunikationsfehler oder Zeitablauf ist aufgetreten
+                - Dein Gerät hat keine Internet-Verbindung.
+                - Unser Server ist gerade nicht erreichbar oder ausgelastet.
+                - Ein Kommunikationsfehler oder Zeitablauf ist aufgetreten.
 
-                Du solltest es einfach in ein paar Minuten/Stunden erneut versuchen und dich bei [uns melden](/support), wenn das Problem dauerhaft besteht
+                Du solltest es einfach in ein paar Minuten/Stunden erneut versuchen und dich bei [uns melden](/support), wenn das Problem dauerhaft besteht.
 
       - id: send2-multiple-devices
         en:
@@ -1721,9 +1721,9 @@
             title:  Es wird 'Register first' auf der Webseite angezeigt, obwohl ich registriert bin!
             content: |
                 Wenn dies in Google Chrome passiert, kontrolliere bitte deine Cookie-Einstellungen im Browser.
-                Es könnte erforderliche sein, dass du Drittanbieter-Cookies für send2cgeo erlaubst.
+                Es könnte erforderlich sein, dass du Drittanbieter-Cookies für send2cgeo erlaubst.
 
-                Schaue in deinen geocaching.com browser Tab: Wenn dort ein Cookie-Symbol mit einem roten X an Ende des URL-Eingabefeldes erscheint, dann klicke darauf und klicke im erscheinenden Fenster auf "Maintain cookie blocking" (oder eine entsprechende Meldung in Deutsch) und erlaube [*.]send2.cgeo.org.
+                Schaue in deinen geocaching.com Browser-Tab: Wenn dort ein Cookie-Symbol mit einem roten X am Ende des URL-Eingabefeldes erscheint, dann klicke darauf und klicke im erscheinenden Fenster auf "Maintain cookie blocking" (oder eine entsprechende Meldung in Deutsch) und erlaube [*.]send2.cgeo.org.
 
 - id: gcvote
   title:
@@ -1737,18 +1737,20 @@
                 [GCVote](http://www.gcvote.com) is an extension for [geocaching.com](http://www.geocaching.com) that enables you to rate the quality of caches.
                 It is independent of c:geo and can also be used in your web browser.
                 You can view the average rating of caches in c:geo and also add your own vote with c:geo.
+                In contrast to the favorite points on geocaching.com (1 per 10 founds) you can vote for every cache with GCVote.
         de:
             title: Was ist GCVote?
             content: |
-                [GCVote](http://www.gcvote.com) ist eine Erweiterung für [geocaching.com](http://www.geocaching.com), die es dir ermöglichst, die Qualität eines Caches zu bewerten.
+                [GCVote](http://www.gcvote.com) ist eine Erweiterung für [geocaching.com](http://www.geocaching.com), die es dir ermöglicht, die Qualität eines Caches zu bewerten.
                 Es ist von c:geo unabhängig und kann auch in deinem Internet-Browser verwendet werden.
                 Du kannst dir die durchschnittliche Bewertung von Caches in c:geo anschauen und deine eigene Bewertung mit c:geo abgeben.
+                Im Gegensatz zu den Favoritenpunkten auf geocaching.com (1 pro 10 Funde) kannst du mit GCVote jeden Cache bewerten.
 
       - id: gcvote-usage
         en:
             title: What do I need to use GCVote?
             content: |
-                c:geo will by default always show the average cache rating of GCVote. You will find it below the D/T-rating when looking at the cache details.
+                c:geo will show the average cache rating of GCVote by default without you providing login data for it. You will find it below the D/T-rating when looking at the cache details.
                 Additionally a color index for the rating is shown in c:geo cache lists as described [here](#icons-on-lists).
 
                 While viewing the average rating is possible without an account, you need one if you want to add your own vote for a cache.
@@ -2126,14 +2128,14 @@
             title: Does c:geo support trackables?
             content: |
                 c:geo offers full support for [geocaching.com Trackables](http://www.geocaching.com/track/) as well as for [GeoKrety](https://www.geokrety.org).
-                Additionally a basic support (view trackable information only) for Swaggies of [geocaching.com.au](http://geocaching.com.au/) is implemented.
+                Swaggies of [geocaching.com.au](http://geocaching.com.au/) are no longer supported, since they have been removed from the original website.
 
                 To learn more about logging [GeoKrety](https://www.geokrety.org) with c:geo you can also refer to the [FAQ of geokrety.org](https://geokretymap.org/how-to-log-geokrety/log-geokrety-with-cgeo-android).
         de:
             title: Unterstützt c:geo Trackables?
             content: |
                 c:geo bietet volle Unterstützung für [Geocaching.com Trackables](http://www.geocaching.com/track/) sowie [GeoKrety](https://www.geokrety.org).
-                Weiterhin gibt es eine grundlegende Unterstützung (nur Trackable-Informationen ansehen) für Swaggies von [geocaching.com.au](http://geocaching.com.au/).
+                Swaggies von [geocaching.com.au](http://geocaching.com.au/) werden nicht länger unterstützt, da sie von der ursprünglichen Webseite aufgegeben wurden.
 
                 Um mehr über das Loggen von [GeoKrets](https://www.geokrety.org) mit c:geo zu erfahren, schaue bitte auch in die [FAQ von geokrety.org](https://geokretymap.org/how-to-log-geokrety/log-geokrety-with-cgeo-android).
 
