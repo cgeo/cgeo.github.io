@@ -946,11 +946,11 @@
             content: |
                 c:geo is shown as "Not supported" for your device on [Google Play](http://play.google.com):
 
-                This means that either your device is running on an Android version below 2.1 or it does not support GPS.
+                This means that either your device is running on an Android version below 4.0 or it does not support GPS.
 
-                Android versions below 2.3 are no longer supported by c:geo.
+                Android versions below 4.0 are no longer supported by c:geo.
 
-                If you are on a Android version above 2.1 but your device has no GPS and you still want to install c:geo on it, you have to install c:geo manually by downloading the APK file [here](https://github.com/cgeo/cgeo/releases/latest).
+                If you are on a minimum Android version of 4.0 but your device has no GPS and you still want to install c:geo on it, you have to install c:geo manually by downloading the APK file [here](https://github.com/cgeo/cgeo/releases/latest).
                 But be aware, that you cannot navigate to caches without GPS!
 
         de:
@@ -958,11 +958,11 @@
             content: |
                 c:geo wird als "Nicht unterstützt" für das Gerät auf [Google Play](http://play.google.com) angezeigt:
 
-                Dies bedeutet, dass dein Gerät entweder mit einer Android-Version kleiner als 2.1 läuft oder kein GPS unterstützt.
+                Dies bedeutet, dass dein Gerät entweder mit einer Android-Version kleiner als 4.0 läuft oder kein GPS unterstützt.
 
-                Android-Versionen kleiner als 2.3 werden von c:geo nicht mehr unterstützt.
+                Android-Versionen kleiner als 4.0 werden von c:geo nicht mehr unterstützt.
 
-                Wenn du ein Gerät mit einer Android-Version größer als 2.3 nutzt, das aber kein GPS unterstützt, und dennoch c:geo darauf installieren möchtest, musst du c:geo manuell durch Herunterladen der [APK-Datei](https://github.com/cgeo/cgeo/releases/latest) installieren.
+                Wenn du ein Gerät mit einer Android-Version von mindestens 4.0 nutzt, das aber kein GPS unterstützt, und dennoch c:geo darauf installieren möchtest, musst du c:geo manuell durch Herunterladen der [APK-Datei](https://github.com/cgeo/cgeo/releases/latest) installieren.
                 Bitte beachte, dass eine Navigation zu einem Cache ohne GPS nicht möglich ist!
 
       - id: legacy
