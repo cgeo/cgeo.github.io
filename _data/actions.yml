@@ -1,18 +1,18 @@
-- title: Contribute
-  subtitle: Help us build c:geo.
-  description: c:geo is and always will be 100% free and open source. Join our team and help make it better.
+- title: Zapojte sa
+  subtitle: Pomôžte nám vytvárať c:geo.
+  description: c:geo je a vždy bude úplne zadarmo a s otvoreným zdrojovým kódom. Pridajte sa k nášmu tímu a pomôžte nám ho vylepšiť.
   buttons:
-  - label: Get involved
+  - label: Pridajte sa
     url: /development
-- title: Donate
-  subtitle: Support c:geo development.
-  description: Donate a few bucks and help us pay for servers and other costs, so we can focus on development.
+- title: Darujte
+  subtitle: Podporte vývoj c:geo.
+  description: Podarujte pár dolárov a pomôžte nám zaplatiť za servery a ďalšie náklady, aby sme sa mohli zamerať na vývoj.
   buttons:
-  - label: Donate
+  - label: Darujte
     url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AQBS7UP76CXW2
-- title: Follow
-  subtitle: Stay informed about c:geo.
-  description: Follow us on social media and stay up to date with the latest and greatest about c:geo.
+- title: Sledujte nás
+  subtitle: Majte prehľad o c:geo.
+  description: Sledujte nás v spoločenských médiách a majte prehľad o novinkách v c:geo.
   buttons:
   - icon: twitter
     label: Twitter
