@@ -1,31 +1,31 @@
 # This file is used for managing for the features displayed on the homepage.
 - icon: database-plus
-  title: Multiple Platforms
-  description: Use multiple Geocaching platforms at once.
+  title: Viaceré platformy
+  description: Používajte súčasnie viaceré platformy geocachingu.
   faq: opencaching
 - icon: map
-  title: Live Map
-  description: View caches on an auto-updating live map.
+  title: Live mapa
+  description: Zobrazte kešky na automaticky aktualizovanej live mape.
 - icon: google-maps
-  title: Multiple Map Providers
-  description: Choose between Google Maps and OpenStreetMap.
+  title: Viac poskytovateľov máp
+  description: Vyberte si medzi mapami Google a OpenStreetMap.
 - icon: magnify
-  title: Advanced Cache Search
-  description: Search for new and saved caches by various criteria.
+  title: Rozšírené vyhľadávanie kešiek
+  description: Vyhľadávajte nové a uložené kešky podľa rôznych kritérií.
 - icon: map-marker-plus
-  title: Custom Waypoints
-  description: Create and manage custom waypoints for caches.
+  title: Vlastné body trasy
+  description: Vytvárajte a spravujte vlastné body trasy pre kešky.
 - icon: compass-outline
-  title: Many Navigation Options
-  description: Navigate using compass, map, or other apps.
+  title: Veľa možností navigácie
+  description: Navigujte pomocou kompasu, mapy alebo iných aplikácií.
 - icon: file-export
-  title: GPX Import and Export
-  description: Export and import caches in the GPS Exchange Format.
+  title: Import a export GPX
+  description: Exportujte a importujte kešky vo formáte GPS Exchange.
 - icon: tag-multiple
-  title: Trackable Support
-  description: Track and log trackables and GeoKrety inside the app.
+  title: Podpora trasovateľných predmetov
+  description: Sledujte a logujte trasovateľné predmety a GeoKrety priamo v aplikácii.
   faq: trackables
 - icon: download-network
-  title: Full Offline Support
-  description: Download caches, create offline logs and more.
+  title: Úplná podpora off-line
+  description: Pevezmite si kešky, vytvárajte off-line logy a podobne.
   faq: offline-use
