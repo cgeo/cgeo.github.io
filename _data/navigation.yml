@@ -1,5 +1,5 @@
 - icon: home
-  name: Home
+  name: Úvod
   url: /
   onlyIcon: true
 - icon: file-send
@@ -9,11 +9,11 @@
   name: FAQ
   url: /faq
 - icon: help-circle-outline
-  name: Support
+  name: Podpora
   url: /support
 - icon: history
-  name: Changelog
+  name: Denník zmien
   url: https://github.com/cgeo/cgeo/releases
 - icon: code-braces
-  name: Development
+  name: Vývoj
   url: /development
