@@ -1,15 +1,15 @@
 - icon: google-play
   name: Google Play
   color: "#D82652"
-  title: "Download c:geo from Google Play"
+  title: "Prevziať c:geo z Google Play"
   url: https://play.google.com/store/apps/details?id=cgeo.geocaching
 - icon: package-down
   name: APK File
-  title: "Download the latest c:geo APK file"
+  title: "Prevziať najnovší súbor c:geo APK"
   url: https://github.com/cgeo/cgeo/releases/latest
   color: "#A4C639"
 - icon: plus-network
   name: F-Droid
-  title: "Add the c:geo F-Droid repository"
+  title: "Pridať repozitár c:geo F-Droid"
   url: https://fdroid.cgeo.org/
   color: "#1C78D3"
