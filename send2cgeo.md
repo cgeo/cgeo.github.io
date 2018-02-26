@@ -30,14 +30,14 @@ The send2cgeo script supports Mozilla Firefox and Google Chrome. Microsoft Inter
 
 ### Script installation:
 
-- In Mozilla Firefox install the [Greasemonkey add-on](http://addons.mozilla.org/en-US/firefox/addon/greasemonkey/). In Google Chrome install the [Tampermonkey add-on](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) instead.
-- Make sure GreaseMonkey or Tampermonkey is now activated in your browser after installation. There is a new icon in your browser toolbar.
+- Install the Tampermonkey Add-On ([Installation link for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) , [Installation link for Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)). 
+- Make sure Tampermonkey is now activated in your browser after installation. There is a new icon in your browser toolbar.
 - To start the installation, click on the script link below that fits your needs. You can install multiple scripts.
   - [geocaching.com send2cgeo script](https://github.com/cgeo/send2cgeo/raw/release/send2cgeo.user.js)
   - [opencaching.de send2cgeo script](https://github.com/cgeo/send2cgeo/raw/release/send2cgeoOc.user.js)
   - [opencaching.pl send2cgeo script](https://github.com/cgeo/send2cgeo/raw/release/send2cgeoOcPl.user.js)
-- Greasemonkey/Tampermonkey will be triggered automatically, confirm the installation when prompted.
-- When a new version of the script is released, your browser will automatically update it.
+- Tampermonkey will be triggered automatically, confirm the installation when prompted.
+- When a new version of the script is released, your browser will either automatically update it or prompt you to allow the update.
 - Continue with the registration as described below.
 
 ## Registering browser and device
