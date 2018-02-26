@@ -1681,15 +1681,15 @@
         en:
             title: Register first is shown on the website although I am registered!
             content: |
-                If this appears to you while using Google Chrome please check your cookie settings.
-                It might be required to allow third party cookies for send2cgeo.
+                Please check your browsers cookie settings.
+                It is required to allow third party cookies for send2cgeo.
 
                 Look into your geocaching.com browser tab: If there is a cookie symbol with a red X at the end of the URL dialog, click on it, and in the popup click "Maintain cookie blocking" (or similar) and permit [*.]send2.cgeo.org.
         de:
             title:  Es wird 'Register first' auf der Webseite angezeigt, obwohl ich registriert bin!
             content: |
-                Wenn dies in Google Chrome passiert, kontrolliere bitte deine Cookie-Einstellungen im Browser.
-                Es könnte erforderlich sein, dass du Drittanbieter-Cookies für send2cgeo erlaubst.
+                Kontrolliere bitte deine Cookie-Einstellungen im Browser.
+                Es ist erforderlich, dass du Drittanbieter-Cookies für send2cgeo erlaubst.
 
                 Schaue in deinen geocaching.com Browser-Tab: Wenn dort ein Cookie-Symbol mit einem roten X am Ende des URL-Eingabefeldes erscheint, dann klicke darauf und klicke im erscheinenden Fenster auf "Maintain cookie blocking" (oder eine entsprechende Meldung in Deutsch) und erlaube [*.]send2.cgeo.org.
 
