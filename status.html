@@ -48,9 +48,18 @@ no_edit_link: true
       </table>
     </div>
 
+    <div>
     <h1>Older versions and source code</h1>
 
     Former releases of c:geo and their source code can be found on <a href="https://github.com/cgeo/cgeo/releases" target="_top">c:geo GitHub release page</a>.
+    </div>
+
+    <div id="gc-div">
+
+      <h1>GC membership information</h1>
+
+      Premium membership user ratio: <span id="gc-premium">unknown</span>.
+    </div>
 
     <script type="text/javascript">
         function updateVersions() {
@@ -96,8 +105,24 @@ no_edit_link: true
           });
           window.setTimeout(updateMessage, 30000);
         };
+        function updateGCMembership() {
+          $.getJSON("https://status.cgeo.org/api/count/by-gc-membership",
+            function(data) {
+              var total = data["basic"] + data["premium"];
+              if (total == 0) {
+                $("#gc-div").hide();
+                $("#gc-premium").text("unknown");
+              } else {
+                var ratio = Math.round(1000 * data["premium"] / total) / 10;
+                $("#gc-premium").text(ratio + "% (out of " + total + " users)");
+                $("#gc-div").show();
+              }
+            });
+          window.setTimeout(updateGCMembership, 30000);
+        }
         updateVersions();
         updateMessage();
+        updateGCMembership();
     </script>
   </div>
 </div>
