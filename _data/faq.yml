@@ -3,17 +3,46 @@
       en: Current issues
       de: Aktuelle Probleme
   items:
-      - id: 6519
+      - id: 5885
         en:
-            title: Sometimes I get the warning "c:geo cannot load data required to log visit"!
+            title: I am missing the possibility to show the minimum cache distance circles on the map!
             content: |
-                We are investigating this issue, which appears only sporadically.
-                As a workaround please leave the log page and try again.
+                You are probably using an OSM online or offline map.
+                We implemented a new library version for this map, which currently does not yet support the distance circles around caches.
+                If you urgently need this feature, you can either switch to a Google map or switch back to the old library in Settings -> Map.
         de:
-            title: Manchmal erhalte ich die Meldung "c:geo konnte die benötigten Daten nicht laden, um den Besuch zu loggen"!
+            title: Ich vermisse die Möglichkeit die Kreise für die minimale Cacheentfernung auf der Karte anzuzeigen!
             content: |
-                Wir untersuchen momentan diesen Fehler, der nur sporadisch auftritt.
-                Als Übergangslösung verlasse bitte die Log-Seite und versuche es erneut.
+                Du nutzt wahrscheinlich eine OSM Online- oder Offline Karte.
+                Wir haben eine neue Version der Bibliothenk implementiert, die derzeit noch keine Entfernungskreise unterstützt.
+                Wenn du sie dringend benötigst, kannst du entweder zu eine Google-Karte wechseln oder unter Einstellungen -> Karte die alte Bibliothek aktivieren.
+      - id: 5900
+        en:
+            title: Cache waypoints are hidden on the map even below the selected limit!
+            content: |
+                You are probably using an OSM online or offline map.
+                We implemented a new library version for this map, which currently has a known problem with respecting the correct limit.
+                If you urgently need this feature, you can either switch to a Google map or switch back to the old library in Settings -> Map.
+        de:
+            title: Wegpunkte von Caches werden auf der Karte bereits unter der gewählten Grenze versteckt!
+            content: |
+                Du nutzt wahrscheinlich eine OSM Online- oder Offline Karte.
+                Wir haben eine neue Version der Bibliothenk implementiert, die derzeit noch bekannte Probleme mit dem korrekten Limit hat.
+                Wenn du sie dringend benötigst, kannst du entweder zu eine Google-Karte wechseln oder unter Einstellungen -> Karte die alte Bibliothek aktivieren.
+      - id: 5902
+        en:
+            title: Sometimes all caches have orange circles on the map!
+            content: |
+                You are probably using an OSM online or offline map.
+                We implemented a new library version for this map, which currently has a known problem with updating the view under certain conditions.
+                It should be sufficient to move the map a little to get it updated.
+                To avoid this problem, you can also either switch to a Google map or switch back to the old library in Settings -> Map.
+        de:
+            title: Manchmal haben alle Caches auf der Karte orange Markierungen!
+            content: |
+                Du nutzt wahrscheinlich eine OSM Online- oder Offline Karte.
+                Wir haben eine neue Version der Bibliothenk implementiert, die derzeit noch bekannte Probleme mit der Aktualisierung der Ansicht unter bestimmten Bedingungen hat.
+                Um das Problem zu umgehen, kannst du auch entweder zu eine Google-Karte wechseln oder unter Einstellungen -> Karte die alte Bibliothek aktivieren.
 
 - id: getting-started
   title:
