@@ -1876,7 +1876,7 @@
         en:
             title: Where to get an OSM:Offline map?
             content: |
-                c:geo supports offline maps from mapsforge in version 0.3.0. These map files are not only supported by c:geo, but also by other apps like *Locus Map* or *Oruxmaps*.
+                c:geo supports offline maps in mapsforge format. These map files are not only supported by c:geo, but also by other apps like *Locus Map* or *Oruxmaps*.
 
                 Many OSM:Offline maps are available for download from different sources, for example
 
@@ -1892,7 +1892,7 @@
         de:
             title: Woher bekomme ich eine OSM:Offline-Karte?
             content: |
-                c:geo unterstützt Offline-Karten von Mapsforge in Version 0.3.0. Diese Karten-Dateien werden nicht nur von c:geo, sondern auch von anderen Apps wie z.B. "Locus Map" und "Oruxmaps" unterstützt.
+                c:geo unterstützt Offline-Karten im Mapsforge-Format. Diese Karten-Dateien werden nicht nur von c:geo, sondern auch von anderen Apps wie z.B. "Locus Map" und "Oruxmaps" unterstützt.
 
                 Es gibt viele OSM:Offline-Karten von diversen Quellen, wie zum Beispiel
 
