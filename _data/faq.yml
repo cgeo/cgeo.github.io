@@ -8,13 +8,13 @@
             title: I am unable to login to geocaching.com (Android 4.0.x, e.g. Garmin Monterra)!
             content: |
                 Geocaching.com decided to drop the support of older encryption methods (TSL 1.0).
-                Newer encryption methods are only supported starting with Android 4.1, so devices below that version cannot establish a secure connection anymore.
-                As this is no bug in c:geo but a explicit setting on geocaching.com, we can probably do nothing about it. Your device is to old.
+                Newer encryption methods are only supported starting with Android 4.4 (for Android 4.1 - 4.4 we already use a workaround in c:geo), so devices below Version 4.1 cannot establish a secure connection anymore.
+                As this is no bug in c:geo but a explicit setting on geocaching.com, we can probably do nothing about it. Your device is too old.
         de:
             title: Ich kann mich auf geocaching.com nicht einloggen (Android 4.0.x, z.B. Garmin Monterra)!
             content: |
                 Geocaching.com hat entschieden die Unterstützung für ältere Verschlüsselungen (TSL 1.0) abzuschalten.
-                Neuere Verschlüsselungsmethoden werden erst ab Android 4.1 unterstützt, so dass Geräte mit einer kleineren Version keine verschlüsselte Verbindung mehr aufbauen können.
+                Neuere Verschlüsselungsmethoden werden erst ab Android 4.4 (für Android 4.1 - 4.3 nutzen wir bereits einen Workaround) unterstützt, so dass Geräte mit kleineren Version als 4.1 keine verschlüsselte Verbindung mehr aufbauen können.
                 Da dies kein Fehler in c:geo, sondern eine explizite Einstellung auf geocaching.com ist, können wir wahrscheinlich keine Lösung anbieten. Dein Gerät ist zu alt.
       - id: 5885
         en:
