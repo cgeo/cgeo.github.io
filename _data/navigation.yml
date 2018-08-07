@@ -8,6 +8,9 @@
 - icon: comment-question-outline
   name: FAQ
   url: /faq
+- icon: book
+  name: User Guide
+  url: https://manual.cgeo.org
 - icon: help-circle-outline
   name: Support
   url: /support
