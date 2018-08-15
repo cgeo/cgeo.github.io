@@ -2308,22 +2308,6 @@
 
                 Für Geräte mit einer Android-Version <4.2 deaktivieren wir bei der Installation standardmäßig die Hardware-Beschleunigung. Nichtsdestotrotz solltest du die Einstellung prüfen, wenn du Probleme feststellst.
 
-      - id: map-no-menu-bar
-        en:
-            title: The map does not have a menu bar!
-            content: |
-                Our current version has a problem to show the menu bar in map screens (like the live map) on tablet devices running Android 3.x.
-                We are trying to find a solution for this, but it is not that easy to solve.
-
-                As Android 3 is quite old and since some years Android 4 is available for tablet devices we also recommend, that you check if an update for your devices is available either from the vendor or by using a Custom ROM.
-        en:
-            title: Die Karte hat keine Menüzeile!
-            content: |
-                Unsere aktuelle Version hat das Problem, dass in der Kartenanzeige (z.B. auf der Live-Karte) auf Tablets mit Android 3.x keine Menüzeile erscheint.
-                Wir versuchen eine Lösung hierfür zu finden, was leider nicht einfach ist.
-
-                Da Android 3 recht alt und seit einigen Jahren Android 4 für Tablet-Geräte verfügbar ist, empfehlen wir dir zu prüfen, ob eine Aktualisierung für dein Gerät entweder vom Hersteller oder durch Nutzung eines Custom-ROM verfügbar ist.
-
       - id: external-gps
         en:
             title: My external Bluetooth-GPS is no longer working with c:geo!
@@ -2346,32 +2330,6 @@
                 c:geo Menü → Einstellungen → System
 
                 Nach dem Abschalten des Google Play-Dienstes sollte dein Bluetooth GPS-Empfänger wieder wie in älteren c:geo-Versionen funktionieren.
-
-      - id: osm-mediatek-problem
-        en:
-            title: The OSM map is not displayed properly!
-            content: |
-                Several users reported the problem, that the OSM maps (offline and online) are not displayed properly but only incomplete parts of it. Additionally the cache icons are only displayed as a vertical row over the map but not on their real position.
-
-                This affects devices using a MediaTek CPU. There is a mathematical error in the compiler for this CPU type causing the problem.
-                You can find more information here: [Wrong division on MediaTek CPU](https://github.com/cgeo/cgeo/issues/4097).
-
-                As this is a bug outside of c:geo we cannot fix it.
-                However we created a special version which works around this problem. You can download it here: [c:geo - NOJIT](http://download.cgeo.org/cgeo-nojit-release.apk)
-
-                Please frequently check if your device vendor offers a firmware update which solves this processor problem.
-        de:
-            title: Die OSM-Karte wird nicht korrekt dargestellt!
-            content: |
-                Einige Nutzer berichten, dass OSM-Karte (Online und Offline) gar nicht vernünftig oder nur teilweise angezeigt werden. Zusätzlich werden die Cache-Symbole nur als vertikale Reihe über den Bildschirm und nicht an ihrer richtigen Position angezeigt.
-
-                Dies betrifft nur Geräte mit einer MediaTek CPU. Es gibt einen mathematischen Fehler im Compiler dieses CPU-Typs, der das Problem verursacht.
-                Mehr Informationen dazu kannst du hier finden: [Wrong division on MediaTek CPU](https://github.com/cgeo/cgeo/issues/4097).
-
-                Da dies ein Fehler außerhalb von c:geo ist, können wir ihn nicht beheben.
-                Dennoch haben wir eine spezielle Version erstellt, die das Problem vermeidet. Du kannst sie hier herunterladen: [c:geo - NOJIT](http://download.cgeo.org/cgeo-nojit-release.apk)
-
-                Bitte prüfe regelmäßig, ob der Geräte-Hersteller ein Firmware-Update anbietet, das dieses Prozessor-Problem behebt.
 
       - id: android6
         en:
@@ -2418,107 +2376,6 @@
 
                 Öffne den Anwendungsmanager deines Gerätes (typischerweise unter Einstellungen → Anwendung → Anwendungsmanager), suche und öffne den Eintrag für c:geo, wähle "Standard wählen" und setze "Unterstützte URLs öffnen" von "Mit dieser App" auf "Immer fragen".\\
                 Nach dieser Änderung sollte dein Internet-Browser wieder auswählbar sein, wenn du "Öffne in Browser" aus c:geo wählst.
-
-- id: calendar-plugin
-  title:
-      en: Calendar plugin
-      de: Kalender-Erweiterung
-  items:
-      - id: plugin-calendar
-        en:
-            title: What does the calendar plugin do?
-            content: |
-                It allows adding event caches to your personal calendar.
-                As it is a plugin it will only work if also c:geo itself is installed on your device.
-                The plugin is only needed for devices running Android 2.3 or 3.x. On all newer Android versions the functions described below do not require the plugin.
-        de:
-            title: Wozu dient die Kalender-Erweiterung?
-            content: |
-                Sie ermöglicht es Event-Caches zu deinen persönlichen Kalender hinzuzufügen.
-                Da es eine Erweiterung ist, funktioniert sie nur wenn auch c:geo auf deinem Gerät installiert ist.
-                Die Erweiterung wird nur für Geräte mit Android-Version 2.3 oder 3.x benötigt. Für alle neueren Android-Versionen wird die Erweiterung zur Nutzung der unten beschriebenen Funktionen nicht benötigt.
-
-      - id: plugin-calendar-howto
-        en:
-            title: How do I add an event to my calendar?
-            content: |
-                When you open an event cache in c:geo select\\
-                Menu → Add to Calendar.
-
-                A new appointment for the event will be created in your calendar.
-        de:
-            title: Wie füge ich ein Event zu meinem Kalender hinzu?
-            content: |
-                Nachdem du einen Event-Cache in c:geo geöffnet hast, wähle:\\
-                Menü → Zu Kalender hinzufügen
-
-                Ein neuer Termin für das Event wird daraufhin in deinem Kalender erstellt.
-
-      - id: plugin-calendar-wrong-time
-        en:
-            title: Why is the appointment added without or with a wrong time?
-            content: |
-                Event cache listings on the geocaching website do only contain the date but not the time of an event.
-
-                Therefore c:geo will scan the event description and try to extract a time from it.
-                In some cases it might be wrong or we are unable to do so. In these cases you have to manually correct the entry.
-        de:
-            title: Warum wird der Termin ohne oder mit falscher Zeit hinzugefügt?
-            content: |
-                Event-Caches enthalten auf der Geocaching-Webseite nur das Datum, aber nicht die Uhrzeit des Events.
-
-                c:geo durchsucht daher die Event-Beschreibung und versucht die Uhrzeit hieraus zu extrahieren.
-                In einigen Fällen kann das zu falschen Ergebnissen führen oder es wird keine Uhrzeit gefunden. Dann musst die die Uhrzeit im Kalender-Eintrag manuell korrigieren.
-
-      - id: plugin-calendar-fails
-        en:
-            title: I always get a failure when trying to add an event to my calendar!
-            content: |
-                First of all you should make sure that your device has a calendar app installed and it is working properly.
-                Also if you are asked which calendar app to use when trying to add an event, please make sure you select the correct one.
-
-        de:
-            title: Ich erhalte immer Fehlermeldungen, wenn ich ein Event zum Kalender hinzufüge!
-            content: |
-                Zuallererst solltest du sicherstellen, dass auf deinem Gerät eine Kalender-Applikation installiert ist und diese normal funktioniert.
-                Stelle außerdem sicher, dass du die korrekte App auswählst, wenn du nach deiner Kalender-Applikation beim Hinzufügen des Events gefragt wirst.
-
-      - id: plugin-calendar-privacy
-        en:
-            title: Privacy policy for the c:geo calendar plugin
-            content: |
-                1. What information is collected by the c:geo calendar plugin?
-
-                    The calendar plugin needs the permission to access the calendar on your device.
-                    It will add the date and time for event geocaches to your calendar.
-
-                    The c:geo calendar plugin will not read any of your existing calendar data.
-
-                2. How is the information used by the c:geo calendar plugin?
-
-                    The c:geo calendar plugin will never read your calendar data, but only needs access to write to it once you select "Add to calendar" from within c:geo.
-
-                3. With whom is the information shared?
-
-                    Your calendar data will neither by copied into c:geo nor shared with third parties.
-
-        de:
-            title: Datenschutzerklärung für die c:geo Kalender-Erweiterung
-            content: |
-                1. Welche Daten werden von der c:geo Kalender-Erweiterung erfasst?
-
-                    Die c:geo Kalender-Erweiterung benötigt die Berechtigung auf den Kalender in deinem Gerät zuzugreifen.
-                    Sie wird auf deinen Kalender zugreifen um Datum und Uhrzeit von Event-Geocaches hinzuzufügen.
-
-                    Die c:geo Kalender-Erweiterung wird keine der existierenden Daten in deinem Kalender auslesen.
-
-                2. Für welche Zwecke werden die Daten durch die c:geo Kalender-Erweiterung genutzt?
-
-                    Die c:geo Kalender-Erweiterung wird niemals Daten aus deinem Kalender lesen, sondern benötigt den Zugriff nur um in deinen Kalender zu schreiben wenn du die Funktion "Zum Kalender hinzufügen" innerhalb von c:geo nutzt.
-
-                3. An wen werden die Daten weitergegeben?
-
-                    Deine Kalenderdaten werden weder in c:geo gespeichert noch an Dritte weitergegeben.
 
 - id: contacts-plugin
   title:
