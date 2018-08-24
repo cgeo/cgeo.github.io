@@ -54,7 +54,7 @@
             title: Manchmal haben alle Caches auf der Karte orange Markierungen!
             content: |
                 Du nutzt wahrscheinlich eine OSM Online- oder Offline Karte.
-                Wir haben eine neue Version der Bibliothenk implementiert, die derzeit noch bekannte Probleme mit der Aktualisierung der Ansicht unter bestimmten Bedingungen hat.
+                Wir haben eine neue Version der Karten-Bibliothek implementiert, die derzeit noch bekannte Probleme mit der Aktualisierung der Ansicht unter bestimmten Bedingungen hat.
                 Um das Problem zu umgehen, kannst du auch entweder zu eine Google-Karte wechseln oder unter Einstellungen -> Karte die alte Bibliothek aktivieren.
 
 - id: getting-started
