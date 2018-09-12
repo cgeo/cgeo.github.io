@@ -66,136 +66,11 @@
         en:
             title: I am new to Geocaching. How does all of this work?
             content: |
-                Explaining all details of Geocaching would be a little to much here. However there are some facts you need to know to start Geocaching with c:geo:
-
-                1. You need an account on a geocaching platform to use it in c:geo:
-
-                    We are supporting [geocaching.com](http://www.geocaching.com/), which is an international caching platform, and Opencaching platforms in several countries (e.g. [opencaching.de](http://www.opencaching.de/), [opencaching.pl](http://www.opencaching.pl/)).
-
-                    Choose the platform you would like to use, go to the website and create an account (basic accounts are usually free of charge).
-
-                    After you retrieved a username and password for one of the platforms, enter them in c:geo settings to allow c:geo to login to the server.
-
-                2. You have to learn about the different cache types, D/T-ratings, etc.
-
-                    You might not be successful finding a cache by just selecting a random one in c:geo and navigating to it. There is a lot more which you need to know in order to pick a cache which is suitable for you.
-
-                    Most of the mentioned platforms offer detailed tutorials about how Geocaching works. We strongly suggest, that you read through these tutorials to learn what you need to know to find your first cache and how to log it.
-
-                    Especially you should be aware of the different types of caches (You will typically not find a mystery cache at the given coordinates) and the T-rating (a rating of 5 means, that you need to climb/swim/dive to get the cache).
-
-                3. Find a cache near you and try it:
-
-                    Use the "Live Map" or the "Nearby" function of c:geo to see which caches are around you. Pick a cache (a traditional cache with a low D/T rating will be a good starting point) which you would like to find and go for it!
-
-                Once again: You should make yourself familiar with the different types, terrain ratings, attributes, etc. before starting out to find a cache.
+                You can find information about how to get started with c:geo in our [user guide](https://manual.cgeo.org).
         de:
             title: Ich bin neu beim Geocaching. Wie funktioniert das alles?
             content: |
-                Alle Details des Geocaching zu erklären, würde hier ein wenig zu weit führen. Aber es gibt einige Dinge, die du wissen solltest, um mit Geocaching in c:geo zu starten:
-
-                1. Du brauchst ein Nutzerkonto auf einer Geocaching-Plattform, um dieses in c:geo zu nutzen:
-
-                    Wir unterstützen [geocaching.com](http://www.geocaching.com/), eine internationale Geocaching-Plattform, sowie Opencaching-Plattformen in diversen Ländern (z.B. [opencaching.de](http://www.opencaching.de/), [opencaching.pl](http://www.opencaching.pl/), u.v.m.).
-
-                    Wähle eine Plattform, die du gerne nutzen möchtest, gehe zu deren Internet-Seite und erstelle dort ein Nutzerkonto (Basis-Konten sind normalerweise kostenlos).
-
-                    Nachdem du Benutzernamen und Passwort für eine der Plattformen erhalten hast, gib diese in den c:geo-Einstellungen ein, um c:geo den Zugriff auf die Plattform zu ermöglichen.
-
-                2. Du musst etwas über die verschiedenen Cache-Typen, D/T-Wertungen, usw. lernen.
-
-                    Du wirst vielleicht keinen Erfolg beim Finden eines Caches haben, wenn du einfach einen zufälligen Cache in c:geo auswählst und dorthin navigierst. Es gibt einiges mehr, was du wissen musst, um einen für dich passenden Cache auszuwählen.
-
-                    Die meisten der genannten Plattformen bieten dir detailierte Einführungen dazu, wie Geocaching funktioniert. Wir empfehlen dir wärmstens diese Einführungen anzusehen, um zu lernen, was du zum Finden deines ersten Caches wissen musst und wie er geloggt wird.
-
-                    Insbesondere solltest du die Bedeutung der unterschiedlichen Cache-Typen (einen Mystery-Cache wirst du z.B. normalerweise nicht an den angegebenen Koordinaten finden) und T-Wertungen (eine Wertung von 5 meint, dass du klettern/schwimmen/tauchen musst, um den Cache zu finden) kennen.
-
-                3. Wähle einen Cache und probiere es aus:
-
-                    Nutze die "Live-Karte" oder die "In der Nähe"-Funktion von c:geo, um zu sehen, welche Caches in deiner Nähe sind. Wähle einen Cache (ein Traditional-Cache mit einer niedrigen D/T-Wertung ist ein guter Startpunkt), den du gerne finden möchtest und leg los!
-
-
-                Noch einmal: Du solltest dich vertraut machen mit den verschiedenen Typen, Gelände-Wertungen, Attributen, usw. bevor du losgehst, um einen Cache zu finden.
-
-      - id: how-to-login
-        en:
-            title: How to login?
-            content: |
-                When you start c:geo the first time it will directly take you to the service settings where you can enter your username and password for the desired caching platforms.
-
-                To access the service menu manually from the c:geo main screen please select: \\
-                Menu → Settings → Services
-
-                After you entered your username and password there, all you have to do is pressing the back key on your device until you reach the c:geo main menu. On the next start c:geo will automatically take you there.
-
-                If you do not have an account yet please use the button c:geo will offer to take you to the registration page of the selected geocaching platform.
-
-                When you are at the main menu, most functions should be self explanatory. Otherwise you might also find some hints in this FAQ.
-        de:
-            title: Wie logge ich mich ein?
-            content: |
-                Wenn du c:geo zum ersten Mal startest, siehst du direkt die Dienste-Einstellungen, in denen du deinen Benutzernamen und dein Passwort für die gewünschte Geocaching-Plattform eingeben kannst.
-
-                Um die Dienste-Einstellungen manuell vom c:geo-Hauptmenü aufzurufen, wähle bitte:\\
-                Menü → Einstellungen → Dienste
-
-                Nachdem du deinen Benutzernamen und Passwort dort eingegeben und bestätigt hast, musst du nur die Zurück-Taste auf deinem Gerät drücken bis du das Hauptmenü von c:geo erreichst. Beim nächsten Start wird c:geo automatisch im Hauptmenü starten.
-
-                Wenn du noch kein Nutzerkonto hast, wähle einfach die Schaltfläche, die c:geo dir anbietet, um zur Registrierungs-Seite der ausgewählten Geocaching-Plattform zu gelangen.
-
-                Wenn du im Hauptmenü bist, sollten die meisten Funktionen selbsterklärend sein. Falls nicht, findest du auch einige Hinweise in dieser FAQ.
-
-      - id: how-to-navigate
-        en:
-            title: I see caches in c:geo, but how to get them?
-            content: |
-                If you managed to see caches on the map or in the nearby list, select a cache and open its details.
-
-                Read the listing text and pay attention to the D/T-ratings and attributes to learn more about how to log this cache.
-
-                If you are good to go, press the "Navigate" icon (Pointing arrow) in the title bar.
-
-                You will have several options depending on your needs. Here is a brief description of the most important navigation methods:
-
-                - Compass:
-
-                    It will constantly show you distance and direction to the cache.
-
-                - Radar ([optional](#radar-navigation)):
-
-                    If you installed an app supporting radar functions this will open a radar screen.
-                    It is similar to the compass, but the working mode is a little different. You will typically see the cache coordinates as a marker on the radar. If the marker reaches the center, you reached the cache coordinates.
-
-                - Navigation (Drive, Walk, Cycle):
-
-                    This will start turn-by-turn navigation using Google Maps
-
-                When you reach the coordinates, remember that GPS has an accuracy of several meters/feet only (also depending on your phones GPS performance). So you should look around your position as well to find the cache.
-        de:
-            title: Ich sehe Caches in c:geo, aber wie komme ich dahin?
-            content: |
-                Wenn du es geschafft hast, Caches auf der Karte oder in der Nahbereichs-Liste zu sehen, wähle einen Cache aus und öffne dessen Details.
-
-                Lies die Beschreibung und achte auf die D/T-Wertung und die Attribute, um zu erfahren, wie du diesen Cache loggen kannst.
-
-                Wenn du bereit bist, wähle das "Navigations"-Symbol (Pfeil mit Punkt) in der Titelzeile.
-
-                Du hast dann je nach Bedarf verschiedene Möglichkeiten. Hier ist eine kurze Beschreibung der wichtigsten Navigationsmethoden:
-
-                - Kompass:
-
-                    Er zeigt dir dauerhaft die Entfernung und Richtung zum Cache an.
-
-                - Radar ([optional](#radar-navigation)):
-
-                    Wenn du eine App installiert hast, die Radar-Funktionen unterstützt, öffnet sich ein Radar-Bildschirm.
-                    Dieser ist ähnlich zum Kompass, aber die Funktionsweise ist ein wenig anders. Du siehst typischerweise die Cache-Koordinaten als Markierung auf dem Radar. Wenn die Markierung das Zentrum erreicht, hast du die Cache-Koordinaten erreicht.
-
-                - Navigation (Fahren, Gehen, Fahrrad):
-
-                    Dies startet die Routenführung mit Google Maps.
-
-                Wenn du die Koordinaten erreicht hast, denke daran, dass GPS nur eine Genauigkeit von einigen Metern hat (hängt auch von der Leistungsfähigkeit deines Telefons ab). Du solltest also auch rund um deine Position suchen, um den Cache zu finden.
+                Informationen zur Nutzung von c:geo findest du in unserem [Benutzerhandbuch](https://manual.cgeo.org).
 
       - id: forgot-login
         en:
@@ -213,7 +88,7 @@
 
                 Du musst also auf die Geocaching-Webseite gehen, um dein Passwort zurückzusetzen. Nachdem du es dort erfolgreich zurückgesetzt hast, gehe bitte in die c:geo-Einstellungen und gib die neuen Nutzerdaten dort ein.
 
-                Für [geocaching.com](http://www.geocaching.com/) kannst du beispielsweise [auf dieser Seite](https://www.geocaching.com/login/password.aspx) dein Passwort zurücksetzen.
+                Für [geocaching.com](https://www.geocaching.com/) kannst du beispielsweise [auf dieser Seite](https://www.geocaching.com/login/password.aspx) dein Passwort zurücksetzen.
 
       - id: login-failed
         en:
@@ -426,63 +301,13 @@
         en:
             title: What coordinate formats are supported in c:geo?
             content: |
-                c:geo supports geocoordinate notations in the following formats:
-
-                1. Degrees and decimal minutes (MinDec)
-
-                    Notation: DDD° MM.MMM'\\
-                    Example: N 51° 20.382 E 007° 01.820
-
-                2. Degrees, decimal minutes and seconds (DMS)
-
-                    Notation: DDD° MM' SS.SSS"\\
-                    Example: N 51° 20' 22.920" E 007° 01' 49.200"
-
-                3. Only degrees (DegDec)
-
-                    Notation: DDD.DDDDD°\\
-                    Example: 51.339700° 7.030333°
-
-                4. Universal Transverse Mercator (UTM)
-
-                    Notation: ZONE EASTING NORTHING\\
-                    Example: 32U E 362807 N 5689444
-
-                Format 1 is commonly used for Geocaching and thus also the default notation used in c:geo.
-
-                You can change to the other formats by short tap on coordinates shown for caches and waypoints.
-                When entering coordinates in c:geo (e.g. creating a waypoint) you can select the desired format in the headline of the dialog according to the notations listed above except UTM, which is not yet supported as input format.
+                You will find a detailed explanation regarding the supported coordinate formats in our [user guide](https://manual.cgeo.org/en/coordformat).
 
         de:
             title: Welche Koordinatenformate werden von c:geo unterstützt?
             content: |
-                c:geo unterstützt Geokoordinaten in den folgenden Formaten:
-
-                1. Grad und dezimale Minuten (MinDec)
-
-                    Notation: DDD° MM.MMM'\\
-                    Beispiel: N 51° 20.382 E 007° 01.820
-
-                2. Grad, dezimale Minuten und Sekunden (DMS)
-
-                    Notation: DDD° MM' SS.SSS"\\
-                    Beispiel: N 51° 20' 22.920" E 007° 01' 49.200"
-
-                3. Nur Grad (DegDec)
-
-                    Notation: DDD.DDDDD°\\
-                    Beispiel: 51.339700° 7.030333°
-
-                4. Universal Transverse Mercator (UTM)
-
-                    Notation: ZONE RECHTSWERT HOCHWERT\\
-                    Beispiel: 32U E 362807 N 5689444
-
-                Das erstgenannte Format wird üblicherweise für das Geocaching verwendet und ist daher auch die standardmäßige Notation in c:geo.
-
-                Du kannst zu anderen Formaten wechseln, indem du kurz auf die Koordinaten klickst, die bei Caches und Wegpunkten angezeigt werden.
-                Wenn du Koordinaten eingibst (z.B. bei der Erstellung eines Wegpunktes), kannst du das gewünschte Format in der Titelzeile des Dialogs gemäß der oben genannten Formate (außer UTM, was als Eingabeformat noch nicht unterstützt wird) auswählen.
-
+                Detailierte Informationen zu den unterstützten Koordinatenformaten findest du in unserem [Benutzerhandbuch](https://manual.cgeo.org/de/coordformat).
+                
       - id: picture-storage
         en:
             title: What is the storage path for log pictures taken with c:geo?
@@ -732,47 +557,7 @@
 
                 Die einzige Möglichkeit sie in deinen Listen und Suchresultaten auszublenden, ist es, einen lokalen Filter in c:geo zu setzen:\\
                 Menü → Filter → Status → "Für alle Mitglieder"
-
-      - id: icons-on-lists
-        en:
-            title: What is the meaning of the icons on the right side of cache lists?
-            content: |
-                If you look at a list of caches (a search result or caches saved on your device) the right side contains some symbols, colors and numbers.
-                Here is a brief explanation of their meaning:
-
-                Color in the lower half:
-
-                The color represents the average [GCVote](http://www.gcvote.com) rating for this cache, where green means good (>3,5 stars),brown means average (between 2,5 and 3,5) and red means a rather bad rating (<2,5 stars).
-                If there is no color shown the cache does not have any votes yet or is not supported in GCVote (GCVote does currently only support geocaching.com caches).
-
-                Number in the lower half:
-
-                The number in this field represents the amount of favorite points of geocaching.com or referrals for opencaching.x given to that cache by users.
-
-                Symbol with number in the upper half:
-
-                The symbol is a marker which is only shown if the cache contains trackables.
-                The number right next to it is the amount of trackables listed in this cache.
-        de:
-            title: Welche Bedeutung haben die Symbole auf der rechten Seite der Cachelisten?
-            content: |
-                Wenn du dir eine Cacheliste (ein Suchresultat oder auf deinem Gerät gespeicherte Caches) anschaust, siehst du auf der rechten Seite einige Symbole, Farben und Zahlen.
-                Hier ist eine kurze Erklärung der Bedeutung:
-
-                Farbe in der unteren Hälfte:
-
-                Die Farbe repräsentiert die durchschnittliche [GCVote](http://www.gcvote.com)-Bewertung dieses Caches, wobei grün eine gute (>3,5 Sterne), braun eine durchschnittliche (zwischen 2,5 und 3,5 Sternen) und rot eine schlechte (<2,5 Sterne) Bewertung bedeutet.
-                Wenn keine Farbe angezeigt wird, hat der Cache noch keine Bewertungen oder er wird von GCVote noch nicht unterstützt (GCVote unterstützt momentan nur geocaching.com-Caches).
-
-                Zahl in der unteren Hälfte:
-
-                Die Zahl in diesem Feld sind die Favoritenpunkte auf geoaching.com oder die Empfehlungen auf opencaching.x, die diesem Cache von den Nutzern gegeben wurde.
-
-                Symbol mit Zahl in der oberen Hälfte:
-
-                Das Symbol ist eine Markierung, die nur angezeigt wird, wenn der Cache einen Trackable enthält.
-                Die Zahl direkt daneben ist die Anzahl der Trackables, die in diesem Cache gelistet sind.
-
+  
       - id: stopped-working
         en:
             title: c:geo suddenly stopped working!
@@ -874,7 +659,7 @@
                 To add a cache to your ignore list open the cache details in c:geo and use Menu → Ignore Cache.
                 Afterwards this cache will no longer be returned in searches and on the live map in c:geo. Additionally it will be deleted from your device if it was stored before.
 
-                Unignoring the cache will only be possible by accessing your list of ignored caches on your [geocaching.com bookmark page](http://www.geocaching.com/bookmarks/) and removing the cache from this list.
+                Unignoring the cache will only be possible by accessing your list of ignored caches on your [geocaching.com bookmark page](https://www.geocaching.com/bookmarks/) and removing the cache from this list.
         de:
             title: Was ist die Funktion "Cache ignorieren" und wie funktioniert sie?
             content: |
@@ -884,7 +669,7 @@
                 Um einen Cache zu deiner Ignore-Liste hinzuzufügen, öffne die Cache-Details in c:geo und nutze Menü → Cache ignorieren.
                 Danach wird dieser Caches nicht mehr in den Suchergebnissen und auf der Live-Karte angezeigt. Weiterhin wird er von deinem Gerät gelöscht, wenn er vorher gespeichert war.
 
-                Diesen Cache nicht mehr zu ignorieren, ist nur noch möglich, indem du die Liste der ignorierten Caches in deiner [Lesezeichen-Übersicht](http://www.geocaching.com/bookmarks/) auf geocaching.com öffnest und den Cache von dieser Liste löscht.
+                Diesen Cache nicht mehr zu ignorieren, ist nur noch möglich, indem du die Liste der ignorierten Caches in deiner [Lesezeichen-Übersicht](https://www.geocaching.com/bookmarks/) auf geocaching.com öffnest und den Cache von dieser Liste löscht.
 
       - id: delete-account
         en:
@@ -982,6 +767,26 @@
 
                 Wenn du eine Projektion für einen existierenden Wegpunkt durchführen willst, funktioniert dies nur bei nutzerdefinierten Wegpunkten.
                 Wenn der Wegpunkt vom Owner vorgegeben ist, musst du zuerst den Wegpunkt duplizieren. Dazu wähle "Dupliziere Wegpunkt" nachdem du auf die Koordinaten des Wegpunktes geklickt hast.
+                
+      - id: gcvote
+        en:
+            title: What is GCVote?
+            content: |
+                [GCVote](http://www.gcvote.com) is an extension for [geocaching.com](https://www.geocaching.com) that enables you to rate the quality of caches.
+                It is independent of c:geo and can also be used in your web browser.
+                You can view the average rating of caches in c:geo and also add your own vote with c:geo.
+                In contrast to the favorite points on geocaching.com (1 per 10 founds) you can vote for every cache with GCVote.
+                
+                You can find more information about how to use GCVOte with c:geo in our [user guide](https://manual.cgeo.org).
+        de:
+            title: Was ist GCVote?
+            content: |
+                [GCVote](http://www.gcvote.com) ist eine Erweiterung für [geocaching.com](https://www.geocaching.com), die es dir ermöglicht, die Qualität eines Caches zu bewerten.
+                Es ist von c:geo unabhängig und kann auch in deinem Internet-Browser verwendet werden.
+                Du kannst dir die durchschnittliche Bewertung von Caches in c:geo anschauen und deine eigene Bewertung mit c:geo abgeben.
+                Im Gegensatz zu den Favoritenpunkten auf geocaching.com (1 pro 10 Funde) kannst du mit GCVote jeden Cache bewerten.
+
+                Mehr Informationen zur Nutzung von GCVote mit c:geo findest du in unserem [Benutzerhandbuch](https://manual.cgeo.org).
 
 - id: installation-and-update
   title:
@@ -992,7 +797,7 @@
         en:
             title: I am not able to install c:geo from Google Play!
             content: |
-                c:geo is shown as "Not supported" for your device on [Google Play](http://play.google.com):
+                c:geo is shown as "Not supported" for your device on [Google Play](https://play.google.com):
 
                 This means that either your device is running on an Android version below 4.0 or it does not support GPS.
 
@@ -1004,7 +809,7 @@
         de:
             title: Ich kann c:geo nicht über Google Play installieren!
             content: |
-                c:geo wird als "Nicht unterstützt" für das Gerät auf [Google Play](http://play.google.com) angezeigt:
+                c:geo wird als "Nicht unterstützt" für das Gerät auf [Google Play](https://play.google.com) angezeigt:
 
                 Dies bedeutet, dass dein Gerät entweder mit einer Android-Version kleiner als 4.0 läuft oder kein GPS unterstützt.
 
@@ -1092,29 +897,6 @@
 
                 Wenn du dennoch eine alte Version installieren möchtest (z.B. zu Testzwecken), findest du die Versionshistorie mit Download-Option in unserer [Github Release-Historie](https://github.com/cgeo/cgeo/releases/).
                 Bitte beachte, dass eine neuere Version vor der Installation einer älteren Version deinstalliert werden muss. Ein Downgrade ist nicht möglich.
-
-      - id: update-unavailable
-        en:
-            title: Google Play is not showing a new version of c:geo which should be available!
-            content: |
-                Some users complain that on clicking the notification for a new version on the c:geo main screen Google Play opens but shows no available updates.
-
-                Google Play may need several hours to roll out the update in all countries. Trying again some hours later should solve the problem.
-                If the update is still not shown it will help to restart your device to force the Google Play app to synchronize with the server and detect the new version.
-
-                If you you still have problems to load the update from Google Play we suggest to download the update as described here:
-                [I don't use the Google Play but still want to use c:geo!](#install-without-play)
-        en:
-            title: Google Play zeigt keine neue c:geo-Version an, obwohl diese verfügbar sein sollte!
-            content: |
-                Einige User haben sich beklagt, dass nach dem Klicken auf die Benachrichtigung für eine neue Version im c:geo-Hauptmenü Google Play geöffnet wird, aber keine neue Version dort verfügbar ist.
-
-                Google Play braucht mehrere Stunden, um eine Aktualisierung in allen Ländern zu verteilen. Versuche es nach ein paar Stunden einfach noch einmal.
-                Wird die neue Version dann immer noch nicht angezeigt, hilft ein Neustart des Gerätes, um Google Play dazu zu zwingen, sich zu synchronisieren und die neue Version zu finden.
-
-                Wenn dennoch weiterhin Probleme mit dem Herunterladen der Aktualisierung von Google Play bestehen, empfehlen wir die Aktualisierung wie hier beschrieben vorzunehmen:
-                [Ich nutze Google Play nicht, möchte aber dennoch c:geo nutzen!](#install-without-play)
-
 
       - id: install-without-play
         en:
@@ -1459,29 +1241,11 @@
         en:
             title: What are the different markers on the cache icons?
             content: |
-                In order to provide more info about the status of a cache c:geo provides several markers which are shown together with the cache icon on the live map.
-
-                Below you will find a short description of them:
-
-                Pen icon: Personal note available for this cache \\
-                Flagpost icon: Cache is shown at modified coordinates \\
-                Disk icon: Cache is saved on device \\
-                Yellow Smiley: You already found this cache \\
-                Red Smiley: An offline log is stored in c:geo for this cache \\
-                Yellow star: This is your own cache
+                A detailed explanation of the live map icons can be found in our [user guide](https://manual.cgeo.org/en/cachemarkers).
         de:
             title: Was bedeuten die verschiedenen Markierungen der Cache-Symbole?
             content: |
-                Um mehr Informationen über den Status eines Caches zu geben, stellt c:geo mehrere Markierungen zur Verfügung, die zusammen mit den Cache-Symbolen auf der Live-Karte angezeigt werden.
-
-                Nachfolgend findest du eine kurze Beschreibung dieser Marker:
-
-                Bleistift Symbol: Für diesen Cache gibt es eine persönliche Notiz \\
-                Flaggen-Symbol: Cache wird an modifizierten Koordinaten angezeigt \\
-                Disketten-Symbol: Cache ist auf dem Gerät gespeichert \\
-                Gelber Smiley: Du hast diesen Cache bereits gefunden \\
-                Roter Smiley: Ein Offline-Log ist in c:geo für diesen Cache gespeichert \\
-                Gelber Stern: Dies ist dein eigener Cache
+                Eine detailierte Erklärung der Markierungen findest du in unserem [Benutzerhandbuch](https://manual.cgeo.org/de/cachemarkers).
 
       - id: map-unknown-caches
         en:
@@ -1527,61 +1291,7 @@
 
                 Du kannst die Genauigkeit auf der Live-Karte beeinflussen indem du eine geeignete Ladestrategie für die Live-Karte hier auswählst:\\
                 Liv-Karte → Menü → Strategie
-
-      - id: map-strategy
-        en:
-            title: What are the live map loading strategies?
-            content: |
-                Depending on your requirements the live map offers four different strategies.
-                Some are focused on fast loading, some on accuracy of cache positions and information.
-
-                You can select the strategy in \\
-                Live Map → Menu → Strategy
-
-                This is the meaning of the different options:
-
-                Fastest: \\
-                Load approximated cache coordinates only and don't identify the cache type
-
-                Fast: \\
-                Same as fastest but try to identify the cache type
-
-                Detailed: \\
-                Same as fast but load details for 20 caches around your position
-
-                Speed dependent (default setting): \\
-                Automatic switch from "Detailed" to "Fast" at 30km/h
-
-                For getting most accurate information you should select "Detailed", for a fast loading and less priority on detailed information you should select "Fastest" or "Fast".
-
-                The "fast" strategy will only identify "Traditional", "Multi", "Mystery" and "Event" caches. Other cache types will be shown with question marks in the icons.
-        de:
-            title: Was bedeuten die Ladestrategien für die Live-Karte?
-            content: |
-                Abhängig von deinen Bedürfnissen bietet die Live-Karte dir vier verschiedene Strategien an.
-                Einige konzentrieren sich auf schnelles Laden, andere auf die Genauigkeit der Cache-Positionen und Informationen.
-
-                Du kannst die Strategie hier auswählen:\\
-                Live-Karte → Menü → Strategie
-
-                Die Bedeutung der verschiedenen Optionen wird im Folgenden beschrieben:
-
-                Schnellste: \\
-                Lädt ungefähre Cache-Koordinaten und erkennt keine Cache-Typen
-
-                Schnell: \\
-                Wie "Schnellste" aber erkennt die Cache-Typen
-
-                Detailiert: \\
-                Wie "Schnell" aber lädt exakte Koordinaten für die nächstgelegenen 20 Caches
-
-                Geschwindigkeitsabhängig (Standardeinstellung): \\
-                Automatischer Wechsel zwischen "Schnell" und "Detailiert" abhängig von der Geschwindigkeit
-
-                Um die bestmöglichen Informationen zu erhalten, solltest du "Detailiert" wählen, für ein schnelles Laden und weniger Priorität auf detailierte Informationen solltest du "Schnellste" oder "Schnell" wählen.
-
-                Die "schnelle" Strategie erkennt nur "Traditional", "Multi", "Mystery" und "Event"-Caches. Andere Cache-Typen werden weiterhin mit Fragezeichen im Symbol angezeigt.
-
+ 
       - id: map-no-gmaps
         en:
             title: I cannot use Google Maps anymore!
@@ -1745,103 +1455,6 @@
 
                 Schaue in deinen geocaching.com Browser-Tab: Wenn dort ein Cookie-Symbol mit einem roten X am Ende des URL-Eingabefeldes erscheint, dann klicke darauf und klicke im erscheinenden Fenster auf "Maintain cookie blocking" (oder eine entsprechende Meldung in Deutsch) und erlaube [*.]send2.cgeo.org.
 
-- id: gcvote
-  title:
-      en: GCVote
-      de: GCVote
-  items:
-      - id: gcvote
-        en:
-            title: What is GCVote?
-            content: |
-                [GCVote](http://www.gcvote.com) is an extension for [geocaching.com](http://www.geocaching.com) that enables you to rate the quality of caches.
-                It is independent of c:geo and can also be used in your web browser.
-                You can view the average rating of caches in c:geo and also add your own vote with c:geo.
-                In contrast to the favorite points on geocaching.com (1 per 10 founds) you can vote for every cache with GCVote.
-        de:
-            title: Was ist GCVote?
-            content: |
-                [GCVote](http://www.gcvote.com) ist eine Erweiterung für [geocaching.com](http://www.geocaching.com), die es dir ermöglicht, die Qualität eines Caches zu bewerten.
-                Es ist von c:geo unabhängig und kann auch in deinem Internet-Browser verwendet werden.
-                Du kannst dir die durchschnittliche Bewertung von Caches in c:geo anschauen und deine eigene Bewertung mit c:geo abgeben.
-                Im Gegensatz zu den Favoritenpunkten auf geocaching.com (1 pro 10 Funde) kannst du mit GCVote jeden Cache bewerten.
-
-      - id: gcvote-usage
-        en:
-            title: What do I need to use GCVote?
-            content: |
-                c:geo will show the average cache rating of GCVote by default without you providing login data for it. You will find it below the D/T-rating when looking at the cache details.
-                Additionally a color index for the rating is shown in c:geo cache lists as described [here](#icons-on-lists).
-
-                While viewing the average rating is possible without an account, you need one if you want to add your own vote for a cache.
-        de:
-            title: Was brauche ich, um GCVote zu nutzen?
-            content: |
-                c:geo zeigt dir standardmäßig die durchschnittliche Cache-Bewertung an. Diese findest du unterhalb der D/T-Wertung in den Cache-Details.
-                Zusätzlich wird ein Farbindex für die Bewertung in den c:geo Cachelisten angezeigt, wie es [hier](#icons-on-lists) beschrieben ist.
-
-                Während das Ansehen der Bewertung ohne einen Account möglich ist, brauchst du einen Account, wenn du deine eigene Bewertung für einen Cache abgeben möchtest.
-
-      - id: gcvote-login
-        en:
-            title: How to login to GCVote?
-            content: |
-                Please go to [GCVote.com](http://www.gcvote.com) and follow their instructions to get a password for GCVote.
-                Their [FAQ](http://gcvote.com/FAQ_en.php) will also give you additional information how to do this.
-
-                Once you received a password for the service you have to go to\\
-                Menu → Settings → Services → gcvote.com\\
-                and enter username (always the same as your geocaching.com user name) and password there.
-        de:
-            title: Wie melde ich mich für GCVote an?
-            content: |
-                Bitte gehe auf [GCVote.com](http://www.gcvote.com) und folge den Anweisungen, um ein Passwort für GCVote zu erhalten.
-                Ihre [FAQ](http://gcvote.com/FAQ_de.php) gibt dir weitere Informationen, was zu tun ist.
-
-                Nachdem du ein Passwort für den Dienst erhalten hast, gehe zu\\
-                Menü → Einstellungen → Dienste → gcvote.com\\
-                und gib den Benutzernamen (immer der gleiche wie dein geocaching.com-Benutzername) und das Passwort dort ein.
-
-      - id: gcvote-voting
-        en:
-            title: How to add a GCVote for a cache?
-            content: |
-                There are two possibilities to add your vote for a cache with c:geo:
-
-                1. While logging a cache
-
-                    If you are logged in to GCVote and start writing a log for a cache you will see a rating option (a line of stars) just below the log text where you can add your own vote.
-                    As soon as you send the log your vote will be transmitted in parallel.
-
-                2. While in cache details
-
-                    Open a cache with c:geo and select Menu → Rate to send a voting for a cache.
-        de:
-            title: Wie bewerte ich einen Cache mit GCVote?
-            content: |
-                Es gibt zwei Möglichkeiten deine Bewertung für einen Cache in c:geo abzugeben:
-
-                1. Während du einen Cache loggst
-
-                    Wenn du bei GCVote angemeldet bist und ein Log für einen Cache mit c:geo schreibst, siehst du die Bewertungsoption (eine Reihe mit Sternen) direkt unter dem Logtext. Hier kannst du deine eigene Bewertung abgeben.
-                    Sobald du das Log abschickst, wird auch deine Bewertung abgesendet.
-
-                2. In den Cache-Details
-
-                    Öffne einen Cache in c:geo und wähle Menü → Bewerten, um eine Bewertung vorzunehmen.
-
-      - id: gcvote-deactivate
-        en:
-            title: I want to deactivate GCVote!
-            content: |
-                If you don't want to see the GCVote ratings in c:geo you can disable it by deactivating\\
-                Menu → Settings → Services → gcvote.com
-        de:
-            title: Ich möchte GCVote deaktivieren!
-            content: |
-                Wenn du die GCVote-Bewertungen in c:geo nicht sehen möchtest, kannst du diese hier deaktivieren:\\
-                Menü → Einstellungen → Dienste → gcvote.com
-
 - id: offline-maps
   title:
       en: Offline maps
@@ -1870,85 +1483,15 @@
                 Once you downloaded or created a map, store it into a folder (e.g. /mfmaps) on your device or SD card. You can also store multiple maps (e.g. for several countries) into this folder to have easy access later directly from c:geo.
                 If you are additionally using the app [Locus](https://play.google.com/store/apps/details?id=menion.android.locus) it is useful to store the maps in /Locus/mapsVector to have them accessible for Locus as well as for c:geo.
 
-                Afterwards go to c:geo Menu → Settings → Map and select the section "Directory with offline maps".
-                It will automatically scan for maps on your phone memory and offer you the results.
+                The procedure of how to configure c:geo to use this map can be found in our [user guide](https://manual.cgeo.org/en/offline#offline_maps).
 
-                If either no results are returned or your map file is not listed you can select "Choose directory" on the top to use a dir chooser to select the correct path manually.
-
-                In order for c:geo to use the selected map you have to choose one of the offline maps (it will list all the map files found in the given directory) in the dropdown menu "Select Map Source" located above the directory settings. You can change this setting also directly from live map.
-                If you now access any map functionality (live map, cache map,etc.) the offline file will be used.
-
-                You can quickly switch between different offline maps or switch back to online maps by clicking the layer icon in the titlebar while on a map.
         de:
             title: Wie benutze ich eine OSM:Offline-Karte in c:geo?
             content: |
                 Nachdem du eine Karte heruntergeladen oder erstellt hast, speichere sie in einem Ordner (z.B. /mfmaps) auf deinem Gerät oder der SD-Karte. Du kannst auch mehrere Karten (z.B. für mehrere Länder) in diesem Ordner speichern, und kannst später in c:geo einfach zwischen diesen Karten wechseln.
                 Wenn du auch die App [Locus](https://play.google.com/store/apps/details?id=menion.android.locus) nutzt, ist es hilfreich die Karten im Ordner /Locus/mapsVector zu speichern, damit sie für Locus und c:geo nutzbar sind.
-
-                Wähle danach in c:geo den Menüpunkt "Verzeichnis mit Offline-Karten" unter Menü → Einstellungen → Karte.
-                Es wird automatisch nach Karten in deinem Telefon-Speicher gesucht und die Ergebnisse zur Auswahl angezeigt.
-
-                Wenn es keine Ergebnisse gibt oder deine Kartendatei nicht aufgelistet ist, kannst du "Verzeichnis wählen" oben anklicken und einen Datei-Browser nutzen, um den Pfad manuell einzugeben.
-
-                Damit c:geo die ausgewählte Karte nutzt, musst du die gewünschte Karte im Menüpunkt "Wähle Kartenquelle" auswählen. Es werden dir dort alle Karten im gewählten Verzeichnis aufgelistet. Du kannst diese Auswahl auch direkt auf der Live-Karte ändern.
-                Wenn du nun die Karte nutzt (Live-Karte, Cache-Karte, usw.) wird die Offline-Datei genutzt.
-
-                Du kannst einfach zwischen verschiedenen Offline-Karten wechseln oder zur Online-Karte wechseln, indem du die Ebenen-Schaltfläche in der Titelzeile der Kartendarstellung anklickst.
-
-      - id: osm-get-maps
-        en:
-            title: Where to get an OSM:Offline map?
-            content: |
-                c:geo supports offline maps in mapsforge format. These map files are not only supported by c:geo, but also by other apps like *Locus Map* or *Oruxmaps*.
-
-                Many OSM:Offline maps are available for download from different sources, for example
-
-                - [Official mapsforge download site](http://download.mapsforge.org/maps/)
-                - [Freizeitkarte](http://www.freizeitkarte-osm.de/android/de/index)
-                - [OpenAndroMaps](http://www.openandromaps.org/)
-                - [OpenMaps](http://openmaps.eu/mapsforgedownload)
-                - [AndroidMaps](http://www.androidmaps.co.uk/)
-
-                There are also other sources, just search for "mapsforge map". Please read the instructions for each map as some of them require a special map theme to work correctly.
-
-                If you would like to create your own map please read these [instructions](https://github.com/mapsforge/mapsforge/blob/master/docs/MapCreation.md).
-        de:
-            title: Woher bekomme ich eine OSM:Offline-Karte?
-            content: |
-                c:geo unterstützt Offline-Karten im Mapsforge-Format. Diese Karten-Dateien werden nicht nur von c:geo, sondern auch von anderen Apps wie z.B. "Locus Map" und "Oruxmaps" unterstützt.
-
-                Es gibt viele OSM:Offline-Karten von diversen Quellen, wie zum Beispiel
-
-                - [Offizielle Mapsforge-Seite](http://download.mapsforge.org/maps/)
-                - [Freizeitkarte](http://www.freizeitkarte-osm.de/android/de/index)
-                - [OpenAndroMaps](http://www.openandromaps.org/)
-                - [OpenMaps](http://openmaps.eu/mapsforgedownload)
-                - [AndroidMaps](http://www.androidmaps.co.uk/)
-
-                Es gibt auch andere Quellen, suche einfach nach "Mapsforge map". Bitte lies dir die Anleitung für jede Karte durch, da manche Karten spezielle Themen benötigen, um korrekt zu funktionieren.
-
-                Wenn du deine eigene Karte erstellen möchtest, lies dir bitte [diese Anleitung](https://github.com/mapsforge/mapsforge/blob/master/docs/MapCreation.md) durch.
-
-      - id: osm-use-themes
-        en:
-            title: How to use custom themes for OSM:Offline?
-            content: |
-                c:geo is supporting custom rendering themes for OSM:Offline maps. These can be used to change the color style of the map (e.g. to have a night-view map) or to highlight certain objects within the map (e.g. cycle paths or height lines).
-
-                Up to now we do not have build-in themes but you need to create them by yourself or download some user made themes from the Internet. Some maps require a special map theme to work correctly, so please read their instructions carefully.
-
-                After having downloaded a theme-package (usually a ZIP-file containing a lot of xml files and graphics) extract it including all its sub-directories into a folder in your device or SD card. Afterwards select this folder as base-folder for map themes in c:geo settings. If you have done it right and the theme is valid it should now be selectable from live map via\\
-                Live map menu → Select map theme
-        de:
-            title: Wie nutze ich spezielle Themen für OSM:Offline?
-            content: |
-                c:geo unterstützt maßgeschneiderte Darstellungs-Themen für OSM:Offline-Karten. Diese kannst du nutzen, um den Farbstil der Karte zu verändern (z.B. für eine Nachtsicht-Karte) oder um spezielle Objekte auf der Karte hervorzuheben (z.B. Radwege oder Höhenlinien).
-
-                Bislang haben wir keine eingebauten Themen, daher musst du diese selbst erstellen oder von anderen Nutzern erstellte Themen aus dem Internet nutzen. Einige Karten benötigen spezielle Karten-Themen, um korrekt zu funktionieren, lies dir bitte deren Anweisungen genau durch.
-
-                Nachdem du ein Themen-Paket heruntergeladen hast (üblicherweise eine ZIP-Datei mit vielen XML-Dateien und Grafiken), entpacke es mit allen Unterordnern in einen Ordner auf deinem Gerät oder der SD-Karte. Danach wähle diesen Ordner als Basis-Order für Karten-Themen in den c:geo-Einstellungen. Wenn du dies richtig gemacht hast und das Thema gültig ist, sollte es nun auf der Live-Karte unter\\
-                Live-Karte → Menü → Kartendarstellung wählen\\
-                nutzbar sein.
+                
+                Das Vorgehen zur Konfiguration dieser Karte in c:geo findest du in unserem [Benutzerhandbuch]((https://manual.cgeo.org/de/offline#offline_maps).
 
 - id: offline-caching
   title:
@@ -1962,94 +1505,14 @@
                 The main purpose of c:geo is to have an online access to your geocaching platform.
                 However c:geo also provides offline functionality to use it without any network connection (e.g. while caching abroad).
 
-                In order to use c:geo completely offline you will have to prepare some things depending on your needs:
-
-                1. Store the caches for offline use (manually or via GPX import).
-                2. Optionally download an offline map as described in [this section of the FAQ](#osm).
-
-                In case you want to avoid any data transfer you should generally disable the Internet connection on your device anyhow, because c:geo will always try to login once you started it.
-                On most devices the Internet connection is disconnected automatically in roaming conditions or if the mobile part is switched off.
-
-                To allow offline logging of caches please go to\\
-                c:geo Menu → Settings → Logging\\
-                and enable "Offline Logging".
-
-                Afterwards c:geo will not post logs online but only store the found status offline.
-                You can then at a later point either upload the logs via field note export or open the log page in the app again and submit them online while having an Internet connection.
+                You can find more information in the chapter [Offline Caching](https://manual.cgeo.org/en/offline) of the c:geo user guide.
         de:
             title: Kann ich c:geo auch fürs Offline-Caching verwenden?
             content: |
                 Hauptsächlich kann c:geo genutzt werden, um Online-Zugriff auf deine Geocaching-Plattform zu haben.
                 Dennoch stellt c:geo auch Offline-Funktionalität zur Verfügung, um es ohne jede Netzverbindung (z.B. beim Cachen im Ausland) zu nutzen.
-
-                Um c:geo komplett offline zu nutzen, musst du je nach Bedarf einige Dinge vorbereiten:
-
-                1. Speichere die Caches zur Offline-Nutzung (manuell oder mittels GPX-Import).
-                2. Lade dir optional eine Offline-Karte herunter, wie in [diesem Bereich der FAQ](#osm) beschrieben.
-
-                Wenn du jegliche Datenübertragung vermeiden möchtest, solltest du die Internetverbindung deines Gerätes komplett deaktivieren, da c:geo immer versuchen wird, sich einzuloggen, wenn es gestartet wird.
-                Auf den meisten Geräten wird die Internetverbindung ohnehin automatisch deaktiviert, wenn du im Ausland bist oder der Mobilfunkzugriff abgeschaltet wird.
-
-                Um Offline-Loggen zu ermöglichen, gehe bitte zu\\
-                c:geo Menü → Einstellungen → Loggen\\
-                und aktiviere "Offline loggen".
-
-                Danach wird c:geo die Logs nicht online absenden, sondern den Fund-Status nur offline speichern.
-                Du kannst dann später entweder die Logs als Feldnotizen exportieren oder, sobald du eine Internetverbindung hast, die Log-Seite in c:geo erneut öffnen und die Logs online absenden.
-
-      - id: fieldnotes
-        en:
-            title: What are fieldnotes and how do I use them?
-            content: |
-                Fieldnotes are supported by geocaching.com and some opencaching sites and allow an offline logging of cache finds and batch uploading them to the website.
-                c:geo is supporting fieldnote export and also an automatic upload to the website (for geoaching.com).
-
-                If you save your cache logs offline in c:geo (e.g. when caching abroad) you have the possibility to export these logs as fieldnote instead of logging them online.
-                The offline logged caches are marked by an orange line in your lists and with a red smiley on the map. To export the logs you have to open the relevant list of saved caches or the history and select\\
-                Menu → Export → Field notes.\\
-                From there you can either only export the fieldnote file to your device or additionally upload them to the geocaching website.
-                The option 'Since last export' will check the last upload date on geocaching.com and only export those which are composed after this date.
-
-                After you exported your fieldnotes to the geocaching website, the website will show that you have pending fieldnotes [on this page](https://www.geocaching.com/my/fieldnotes.aspx) and you can compose your logs in your browser.
-                Please be aware that it might take a minute after the upload until the website shows the pending fieldnotes.
-        de:
-            title: Was sind Feldnotizen und wie kann ich diese nutzen?
-            content: |
-                Feldnotizen werden von geocaching.com und manchen Opencaching-Seiten unterstützt und erlauben das Offline-Loggen von Cache-Funden und das gesammelte Hochladen auf die Webseite.
-                c:geo unterstützt den Export von Feldnotizen und auch das automatische Hochladen zur Webseite (für geocaching.com).
-
-                Wenn du deine Cache-Logs offline in c:geo speicherst (z.B. beim Cachen im Ausland), hast du die Möglichkeit diese Logs als Feldnotizen zu exportieren statt sie online zu loggen.
-                Die offline geloggten Caches werden durch eine orange Linie in deinen Listen und auf der Karte mit einem roten Smiley dargestellt. Um diese zu exportieren, öffne die jeweilige Liste von gepeicherten Caches oder den Verlauf und wähle\\
-                Menü → Exportieren → Field Notes.\\
-                Danach kannst du auswählen entweder nur die Feldnotizen in eine Datei auf deinem Gerät zu exportieren oder sie zusätzlich auf die Geocaching-Webseite hochzuladen.
-                Die Option "Seit letztem Export" prüft das letzte Hochlade-Datum auf geocaching.com und exportiert nur die Logs, die danach erstellt wurden.
-
-                Nachdem du die Feldnotizen auf die Geocaching-Webseite hochgeladen hast, wird dir die Webseite [hier](https://www.geocaching.com/my/fieldnotes.aspx) anzeigen, dass du ausstehende Feldnotizen hast und du kannst die Logs in deinem Internet-Browser schreiben.
-                Bitte beachte, dass es einige Minuten nach dem Hochladen dauern kann, bis die Webseite diese ausstehenden Feldnotizen anzeigt.
-
-      - id: static-maps
-        en:
-            title: What are static maps?
-            content: |
-                c:geo optionally downloads Google Maps snapshots of the area around the cache and its waypoints for offline usage while storing a cache.
-                It will download satellite views as well as map views on different zoom levels. So you will have a map function also in case you don't have an Internet connection and you don't use an OSM:Offline map.
-
-                You have to enable this function in\\
-                c:geo Menu → Settings → Offline data\\
-                for the cache position itself  and (if needed) also for the additional waypoints of a cache.
-
-                To access the static maps of a cache later on please select Menu → Navigate → Static Maps from the cache details.
-        de:
-            title: Was sind statische Karten?
-            content: |
-                c:geo lädt optional Google Maps Ausschnitte des Gebietes rund um den Cache und seine Wegpunkte zur Offline-Nutzung herunter, während der Cache gespeichert wird.
-                Es lädt dabei Satelliten-Bilder sowie Kartenansichten in mehreren Zoom-Stufen herunter. Somit hast du eine Karten-Funktion auch in dem Fall, dass du keine Internet-Verbindung hast und auch keine OSM:Offline-Karten nutzt.
-
-                Du musst diese Funktion hier\\
-                c:geo Menü → Einstellungen → Offline-Daten\\
-                für die Cache-Position selbst und (wenn benötigt) für die zusätzlichen Wegpunkte des Caches einschalten.
-
-                Um auf die statischen Karten eines Caches später zuzugreifen, wähle bitte Menü → Navigation → Statische Karten aus den Cache-Details.
+                
+                Mehr Informationen findet du im Kapitel [Offline-Caching](https://manual.cgeo.org/de/offline) des c:geo Benutzerhandbuches.
 
       - id: caches-missing-static-maps
         en:
@@ -2096,30 +1559,14 @@
             content: |
                 Yes, c:geo supports Opencaching platforms in several countries already and we are also planning to add more platforms once they provide an OKAPI interface.
 
-                Please check\\
-                c:geo Menu → Settings → Services\\
-                to see which platforms are already supported.
-                Within the separate platform settings you also have the possibility to see which features are supported for the specific platform.
-
-                To use these you need to have an account on the opencaching website.
-                With this account data you can activate the platform in c:geo and authorize yourself to the opencaching website with your login credentials.
-
-                Afterwards opencaching caches will be shown on the live map, in nearby searches and you can post logs online.
+                You will find more information in our [user guide]https://manual.cgeo.org/en/mainmenu/settings#services).
         de:
             title: Wird Opencaching von c:geo unterstützt?
             content: |
                 Ja, c:geo unterstützt schon Opencaching-Plattformen diverser Länder und wir planen mehr Plattformen hinzuzufügen, sobald sie die OKAPI-Schnittstelle anbieten.
 
-                Unter\\
-                c:geo Menü → Einstellungen → Dienste\\
-                kannst du sehen, welche Plattformen bereits unterstützt werden.
-                Innerhalb der verschiedenen Plattform-Einstellungen hast du auch die Möglichkeit nachzusehen, welche Funktionen für die jeweilige Plattform unterstützt werden.
-
-                Um diese zu nutzen, benötigst du einen Zugang auf der jeweiligen Opencaching-Webseite.
-                Mit diesen Nutzerdaten kannst du die Plattformen in c:geo aktivieren und dich mit deinen Nutzerdaten authentisieren.
-
-                Danach werden dir Opencaching-Caches auf der Live-Karte und in der Nahbereichssuche angezeigt und du kannst Online-Logs absenden.
-
+                Mehr Informationen findest du in unsererm [Benutzerhandbuch](https://manual.cgeo.org/en/mainmenu/settings#services).
+                
       - id: oc-auth-fail
         en:
             title: The authorization to Opencaching fails, does not start or is not completed!
@@ -2147,77 +1594,19 @@
         en:
             title: Does c:geo support trackables?
             content: |
-                c:geo offers full support for [geocaching.com Trackables](http://www.geocaching.com/track/) as well as for [GeoKrety](https://www.geokrety.org).
-                Swaggies of [geocaching.com.au](http://geocaching.com.au/) are no longer supported, since they have been removed from the original website.
+                c:geo offers full support for [geocaching.com Trackables](https://www.geocaching.com/track/) as well as for [GeoKrety](https://www.geokrety.org).
+                Swaggies of [geocaching.com.au](https://geocaching.com.au/) are no longer supported, since they have been removed from the original website.
 
+                More information about Trackable management with c:geo can be found in our [user guide](https://manual.cgeo.org).
                 To learn more about logging [GeoKrety](https://www.geokrety.org) with c:geo you can also refer to the [FAQ of geokrety.org](https://geokretymap.org/how-to-log-geokrety/log-geokrety-with-cgeo-android).
         de:
             title: Unterstützt c:geo Trackables?
             content: |
-                c:geo bietet volle Unterstützung für [Geocaching.com Trackables](http://www.geocaching.com/track/) sowie [GeoKrety](https://www.geokrety.org).
-                Swaggies von [geocaching.com.au](http://geocaching.com.au/) werden nicht länger unterstützt, da sie von der ursprünglichen Webseite aufgegeben wurden.
-
+                c:geo bietet volle Unterstützung für [Geocaching.com Trackables](https://www.geocaching.com/track/) sowie [GeoKrety](https://www.geokrety.org).
+                Swaggies von [geocaching.com.au](https://geocaching.com.au/) werden nicht länger unterstützt, da sie von der ursprünglichen Webseite aufgegeben wurden.
+                
+                Mehr Informationen zur Verwaltung von Trackables mit c:geo findet ihr in unserem [Benutzerhandbuch](https://manual.cgeo.org).
                 Um mehr über das Loggen von [GeoKrets](https://www.geokrety.org) mit c:geo zu erfahren, schaue bitte auch in die [FAQ von geokrety.org](https://geokretymap.org/how-to-log-geokrety/log-geokrety-with-cgeo-android).
-
-      - id: trackables-logging
-        en:
-            title: How do I log trackables with c:geo?
-            content: |
-                There are several functions in c:geo for viewing and logging trackables. The following applies to [geocaching.com Trackables](http://www.geocaching.com/track/) as well as [GeoKrety](https://www.geokrety.org).
-
-                1. Trackable inventory of a geocache:
-
-                    If you open the details of a cache its trackable inventory will be listed on the tab "Inventory".
-                    This inventory contains a maximum of 20 trackable items listed to be located in this cache. If this tab is not shown the cache either does currently not contain any trackables or you may need to refresh the cache to view the current inventory.
-                    Selecting an item will show more details and offer the possibility to compose a log for this trackable (i.e. to retrieve it from the cache or discover it).
-
-                2. Managing the trackables in your personal inventory:
-
-                    When composing an online log for a cache the trackable items which are currently in your personal inventory are listed underneath the log text window.
-                    You have the possibility to select the desired action (visit, drop or no action) for each item individually or select a common action for all of them.
-                    As soon as you post the log online the corresponding trackable action will be triggered in parallel.
-
-                3. Searching for a trackable to log it:
-
-                    Additional to the functions explained above, you can also just search for the public code or the secret tracking code (secret code is currently only working for GC trackables) of an item by entering it either into the search bar on top of the main menu (magnifier icon) or into the trackable search field within the search menu.
-                    The details of this trackable will then be shown and you can write a log for it.
-        de:
-            title: Wie logge ich einen Trackable mit c:geo?
-            content: |
-               Es gibt mehrere Funktionen in c:geo für das Ansehen und Loggen von Trackables. Die folgende Anleitung gilt sowohl für [geocaching.com Trackables](http://www.geocaching.com/track/) als auch für [GeoKrets](https://www.geokrety.org).
-
-                1. Trackable-Inventar eines Geocaches:
-
-                    Wenn du die Details eines Caches öffnest, wird das Inventar des Caches im Reiter "Inventar" angezeigt.
-                    Dieses Inventar listet maximal 20 der Trackables, die in diesem Cache gelistet sind. Wenn dieser Reiter nicht angezeigt wird, enthält der Caches entweder momentan keinen Trackable oder du musst ggf. den Cache aktualisieren, um das aktuelle Inventar anzuzeigen.
-                    Die Auswahl eines Trackable zeigt dir mehr Details und gibt dir die Möglichkeit, einen Log für diesen Trackable zu schreiben (d.h. um den Trackable aus dem Cache zu nehmen oder ihn zu discovern).
-
-                2. Verwalten der Trackables in deinem Inventar:
-
-                    Wenn du ein Online-Log für einen Cache erstellst, erscheinen die Trackables, die du momentan besitzt, in deinem persönlichen Inventar unterhalb des Logtext-Fensters.
-                    Du hast dort die Möglichkeit die gewünschte Aktion (Besuchen, Ablegen oder keine Aktion) für jeden Trackable individuell oder eine gemeinsame Aktion für alle auszuwählen.
-                    Sobald du dein Log online absendest, werden parallel die gewählten Trackable-Aktionen ausgeführt.
-
-                3. Suche nach einem Trackable und Loggen:
-
-                    Zusätzlich zu den weiter oben beschriebenen Funktionen kannst du auch einfach nach dem öffentlichen Code oder dem geheimen Tracking-Code (Geheim-Code derzeit nur für GC-Trackables) suchen. Gib hierzu den Code entweder in der Suchleiste (Lupen-Symbol) oben im Hauptmenü oder in der Trackable-Suche im Suchmenü ein.
-                    Die Details des Trackables werden dir dann angezeigt und du kannst ein Log für diesen Trackable schreiben.
-
-      - id: trackables-gk
-        en:
-            title: Why do I see GeoKrety listed in the inventory of a GC cache?
-            content: |
-                Although GeoKrety are mainly used on opencaching platforms [GeoKrety.org](https://www.geokrety.org) also supports to place GeoKrety into geocaching.com caches.
-
-                This also means you can retrieve and drop them from there as well. The only difference is, that you are encouraged to add the cache coordinates to the log if you drop a GeoKret to a GC cache (as [GeoKrety.org](https://www.geokrety.org) might not know the coordinates of all GC caches).
-                In case you log a GeoKret from the log window of a GC cache c:geo will even prefill the coordinate field with the listing coordinates of this cache to assist you.
-        de:
-            title: Warum sehe ich GeoKrets im Inventar eines GC-Caches?
-            content: |
-                Obwohl GeoKrets hauptsächlich auf Opencaching-Plattformen genutzt werden, unterstützt [GeoKrety.org](https://www.geokrety.org) auch GeoKrets in geocaching.com-Caches abzulegen.
-
-                Das bedeutet auch, dass du sie auch dort ablegen und entnehmen kannst. Der einzige Unterschied ist, dass du dazu angehalten bist, die Cache-Koordinaten zum Log hinzuzufügen, wenn du einen GeoKret in einen GC-Cache ablegst (da [GeoKrety.org](https://www.geokrety.org) nicht die Koordinaten aller GC-Caches kennt).
-                In dem Fall, dass du einen GeoKret aus dem Logfenster eines GC-Caches loggst, wird c:geo das Koordinaten-Feld bereits mit den Listing-Koordinaten dieses Caches füllen.
 
       - id: trackables-gk-anonymous
         en:
@@ -2510,15 +1899,14 @@
         en:
             title: Why is OSM:Cyclemap no longer offered as map type?
             content: |
-                Sadly we had to remove OSM:Cyclemap as the [provider](http://www.thunderforest.com/) of this map does not offer it for free anymore.
+                Sadly we had to remove OSM:Cyclemap as the [provider](https://www.thunderforest.com/) of this map does not offer it for free anymore.
                 This means we would have to pay a fee of several 100€ per month to keep this map in c:geo, which we cannot afford as open source team.
                 
                 For one of the future release of c:geo we are planning to instead implement a custom map provider configuration, which allows you to configure your prefered map tile server.
         de:
             title: Warum wird OSM:Radfahrerkarte nicht mehr als Kartentyp angeboten?
             content: |
-                Leider mussten wir die OSM:Radfahrerkarte entfernen, da der [Anbieter](http://www.thunderforest.com/) dieser Karte diese nicht mehr kostenfrei zur Verfügung stellt.
+                Leider mussten wir die OSM:Radfahrerkarte entfernen, da der [Anbieter](https://www.thunderforest.com/) dieser Karte diese nicht mehr kostenfrei zur Verfügung stellt.
                 Das bedeutet, dass wir eine Gebühr von mehreren 100€ pro Monat zahlen müssten, um diese Karte in c:geo zu erhalten. Dies können wir als Open Source-Team nicht leisten.
                 
                 Mit einer der künftigen c:geo Versionen planen wir stattdessen eine nutzerspezifische Konfiguration des Kartenanbieters zu implementieren, die es dir erlaubt deinen bevorzugten Kartenserver selbst zu konfigurieren.
-                
