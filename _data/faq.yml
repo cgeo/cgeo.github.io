@@ -224,8 +224,11 @@
                 Menu → Settings → Services \\
                 Afterwards select "Check authentication" (for geocaching.com users only) to see if login is either now possible or what error is returned.
 
-                If you have double-checked your credentials and still get an error message (e.g. Login failed, Unknown Error) the following might be helpful:
-
+                If you have double-checked your credentials and still get an error message (e.g. Login failed, Unknown Error) one of the following hints might be helpful:
+                
+                In case you are using any anti-virus or firewall tool (such as F-Secure) please check if this might be blocking or disturbing your internet connection. 
+                Try disabling such tool and check if the login works now.
+                
                 Please login on the geocaching website (using your smartphone browser or a PC) and check that your account is not deactivated and your mail address is validated on the website.
 
                 Please check that your phone is working with the correct date and time. If the date is wrong this might lead to problems establishing a secure connection to the server.
@@ -250,7 +253,10 @@
 
                 Danach wähle "Authentifizierung überprüfen", um zu sehen, ob die Anmeldung nun entweder funktioniert oder welche Fehlermeldung angezeigt wird.
 
-                Wenn du deine Nutzerdaten geprüft hast, aber weiterhin eine Fehlermeldung bekommst (z.B. Anmeldung fehlgeschlagen, Unbekannter Fehler), könnte das Folgende hilfreich sein:
+                Wenn du deine Nutzerdaten geprüft hast, aber weiterhin eine Fehlermeldung bekommst (z.B. Anmeldung fehlgeschlagen, Unbekannter Fehler), könnte einer der folgenden Tipps hilfreich sein:
+                
+                Falls du ein Antivirus- oder Firewall-Tool (wie z.B. F-Secure) benutzt, prüfe bitte ob das Tool den Internetverkehr blockiert oder stört.
+                Versuche ein solches Tool zu deaktivieren und erneut zu prüfen, ob die Anmeldung nun funktioniert.            
 
                 Bitte melde dich direkt auf der Geocaching-Website (mit deinem Smartphone-Browser oder PC) an und prüfe, dass dein Zugang dort nicht deaktiviert ist und deine Mail-Adresse auf der Webseite bestätigt ist.
 
