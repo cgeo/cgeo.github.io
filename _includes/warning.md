@@ -1,1 +1,3 @@
-WARNING_DISABLED
+We need your help!
+
+[Call for developers](/callfordevelopers)
