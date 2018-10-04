@@ -1559,7 +1559,7 @@
             content: |
                 Yes, c:geo supports Opencaching platforms in several countries already and we are also planning to add more platforms once they provide an OKAPI interface.
 
-                You will find more information in our [user guide]https://manual.cgeo.org/en/mainmenu/settings#services).
+                You will find more information in our [user guide](https://manual.cgeo.org/en/mainmenu/settings#services).
         de:
             title: Wird Opencaching von c:geo unterstützt?
             content: |
