@@ -3,6 +3,21 @@
       en: Current issues
       de: Aktuelle Probleme
   items:
+      - id: 7150
+        en:
+            title: The preview map on the cache details page is missing!
+            content: |
+                There seems to be a problem with the corresponding Google service, which is used to fetch this map. 
+                We are looking into it.
+
+                If you usually use the long click on this map to start navigation: You will also find all navigation options in the Navigate menu (Arrow with Point) on the top bar menu.
+        de:
+            title: Die Vorschaukarte in den Cache-Details fehlt!
+            content: |
+                Es scheint ein Problem mit dem entsprechenden Google-Dienst zu geben, der verwendet wird, um diese Karte abzurufen. 
+                Wir prüfen dies gerade.
+
+                Wenn ihr die Navigation zum Cache normalerweise durch langen Klick auf diese Karte startet: Ihr findet alle Navigationsoptionen auch im Menü "Navigation" (Pfeil mit Punkt) im Titelzeilen-Menü.
       - id: 7078
         en:
             title: I am unable to login to geocaching.com (Android 4.0.x, e.g. Garmin Monterra)!
