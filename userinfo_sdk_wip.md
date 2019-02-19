@@ -18,7 +18,7 @@ At this moment our small volunteer developer team is still in the progress of cl
 Recently the geocaching.com website made some changes, which required an adaption on c:geo side as well. So we had to release a new c:geo version to get you back into the game, although we do not really consider it ready. You might therefore notice, that some aspects of the user interface does not look clean and the app might have some bugs or instabilities.
 
 We will keep on working to fix the remaining drawbacks with subsequent updates as soon as possible.
-If you want to help us, you can do so by reporting problems and bugs you encounter while using the new c:geo version on our [bugtracker](https://githubc.com/cgeo/cgeo/issues).
+If you want to help us, you can do so by reporting problems and bugs you encounter while using the new c:geo version on our [bugtracker](https://github.com/cgeo/cgeo/issues).
 
 Happy Caching!
 
