@@ -3,7 +3,7 @@ layout: page
 title: User information
 ---
 
-# User information regarding c:geo version 2019.xx.xx
+# User information regarding c:geo version 2019.02.23
 
 Dear c:geo users,
 
