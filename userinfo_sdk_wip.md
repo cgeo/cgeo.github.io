@@ -15,7 +15,7 @@ That is also the reason, why you did not see any version updates since last Octo
 
 At this moment our small volunteer developer team is still in the progress of cleaning up the code and fixing regressions caused by this forced changes.
 
-Recently the geocaching.com website made some changes, which required an adaption on c:geo side as well. So we had to release a new c:geo version to get you back into the game, although we do not really consider it ready. You might therefore notice, that some aspects of the user interface does not look clean and the app might have some bugs or instabilities.
+Recently the geocaching.com website made some changes, which required an adaption on c:geo side as well. So we had to release a new c:geo version to get you back into the game, although we do not really consider it ready. You might therefore notice, that some aspects of the user interface do not look clean and the app might have some bugs or instabilities.
 
 We will keep on working to fix the remaining drawbacks with subsequent updates as soon as possible.
 
