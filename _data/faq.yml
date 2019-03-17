@@ -1773,7 +1773,7 @@
         en:
             title: Open in browser does only offer c:geo itself but not my web browser!
             content: |
-                If your device is running on Android 6 you might encounter that on selecting "Open in Browser" from the cache details menu your phone only offers "c:geo" and "c:geo internal browser" as targets.
+                If your device is running on Android 6 or higher you might encounter that on selecting "Open in Browser" from the cache details menu your phone only offers "c:geo" and "c:geo internal browser" as targets.
                 This is caused by an incorrect setting on your device, which you can easily change:
 
                 Open the application manager of your device (typically in Settings → Applications → Application Manager), search and open the entry for c:geo, select "Set Default" and change the setting for "Go to supported URLs" from "Via this app" to "Always ask". \\
@@ -1781,7 +1781,7 @@
         de:
             title: Öffnen im Browser bietet mir nur c:geo selbst, aber nicht den Internet-Browser an!
             content: |
-                Wenn dein Gerät mit Android 6 läuft, könnte er passieren, dass nach der Auswahl "Öffne in Browser" in den Cache-Details nur "c:geo" und "c:geo internal browser" angeboten wird.
+                Wenn dein Gerät mit Android 6 oder höher läuft, könnte er passieren, dass nach der Auswahl "Öffne in Browser" in den Cache-Details nur "c:geo" und "c:geo internal browser" angeboten wird.
                 Dies wird durch eine falsche Enstellung auf deinem Gerät verursacht, die du einfach korrigieren kannst:
 
                 Öffne den Anwendungsmanager deines Gerätes (typischerweise unter Einstellungen → Anwendung → Anwendungsmanager), suche und öffne den Eintrag für c:geo, wähle "Standard wählen" und setze "Unterstützte URLs öffnen" von "Mit dieser App" auf "Immer fragen".\\
