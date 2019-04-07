@@ -1506,7 +1506,7 @@
                 Nachdem du eine Karte heruntergeladen oder erstellt hast, speichere sie in einem Ordner (z.B. /mfmaps) auf deinem Gerät oder der SD-Karte. Du kannst auch mehrere Karten (z.B. für mehrere Länder) in diesem Ordner speichern, und kannst später in c:geo einfach zwischen diesen Karten wechseln.
                 Wenn du auch die App [Locus](https://play.google.com/store/apps/details?id=menion.android.locus) nutzt, ist es hilfreich die Karten im Ordner /Locus/mapsVector zu speichern, damit sie für Locus und c:geo nutzbar sind.
                 
-                Das Vorgehen zur Konfiguration dieser Karte in c:geo findest du in unserem [Benutzerhandbuch]((https://manual.cgeo.org/de/offline#offline_maps).
+                Das Vorgehen zur Konfiguration dieser Karte in c:geo findest du in unserem [Benutzerhandbuch](https://manual.cgeo.org/de/offline#offline_maps).
 
 - id: offline-caching
   title:
