@@ -3,34 +3,45 @@
       en: Current issues
       de: Aktuelle Probleme
   items:
+      - id: 7340
+        en:
+            title: I cannot start navigation with maps.me!
+            content: |
+                There is some bug in the interface between c:geo and maps.me. We are currently investigating the root cause and will fix it as soon as possible.
+                
+                As a workaround you can select Navigate → "Other external app" and then select maps.me from the app selection dialog.
+        de:
+            title: Ich kann die Navigation mit maps.me nicht starten!
+            content: |
+                Es gibt einen Fehler in der Verbindung zwischen c:geo und maps.me. Wir suchen gerade die Ursache und werden das Problem so schnell wie möglich beheben.
+
+                Als Zwischenlösung kannst du Navigation → "Andere externe App" auswählen und anschließend maps.me vom App-Auswahldialog wählen.
       - id: 7150
         en:
             title: The preview map on the cache details page is missing!
             content: |
-                There seems to be a problem with the corresponding Google service, which is used to fetch this map. 
-                We are looking into it.
+                Google does no longer offer these static maps for free. We therefore had to remove this feature.
+                We are currently looking into possible alternatives.
 
                 If you usually use the long click on this map to start navigation: You will also find all navigation options in the Navigate menu (Arrow with Point) on the top bar menu.
         de:
             title: Die Vorschaukarte in den Cache-Details fehlt!
             content: |
-                Es scheint ein Problem mit dem entsprechenden Google-Dienst zu geben, der verwendet wird, um diese Karte abzurufen. 
-                Wir prüfen dies gerade.
+                Google bietet diese statischen Karten leider nicht mehr kostenlos an. Daher mussten wir die Funktion entfernen.
+                Wir schauen uns derzeit nach Alternativen um.
 
                 Wenn ihr die Navigation zum Cache normalerweise durch langen Klick auf diese Karte startet: Ihr findet alle Navigationsoptionen auch im Menü "Navigation" (Pfeil mit Punkt) im Titelzeilen-Menü.
-      - id: 7078
+      - id: 7209
         en:
-            title: I am unable to login to geocaching.com (Android 4.0.x, e.g. Garmin Monterra)!
+            title: When I view the map of a cache (list) it also shows waypoints of other caches!
             content: |
-                Geocaching.com decided to drop the support of older encryption methods (TSL 1.0).
-                Newer encryption methods are only supported starting with Android 4.4 (for Android 4.1 - 4.4 we already use a workaround in c:geo), so devices below Version 4.1 cannot establish a secure connection anymore.
-                As this is no bug in c:geo but a explicit setting on geocaching.com, we can probably do nothing about it. Your device is too old.
+                This is a bug in our new map implementation. We will try to fix this as soon as possible.
+                If you want to avoid this problem, you can switch back to the old map implementation in Settings → Map → "Use old mapsforge (V3)".
         de:
-            title: Ich kann mich auf geocaching.com nicht einloggen (Android 4.0.x, z.B. Garmin Monterra)!
+            title: Wenn ich die Karte eines Caches/einer Liste ansehe, zeigt sie auch Wegpunkte anderer Caches!
             content: |
-                Geocaching.com hat entschieden die Unterstützung für ältere Verschlüsselungen (TSL 1.0) abzuschalten.
-                Neuere Verschlüsselungsmethoden werden erst ab Android 4.4 (für Android 4.1 - 4.3 nutzen wir bereits einen Workaround) unterstützt, so dass Geräte mit kleineren Version als 4.1 keine verschlüsselte Verbindung mehr aufbauen können.
-                Da dies kein Fehler in c:geo, sondern eine explizite Einstellung auf geocaching.com ist, können wir wahrscheinlich keine Lösung anbieten. Dein Gerät ist zu alt.
+                Dies ist ein Fehler in unserer neuen Kartenimplementierung. Wir arbeiten an einer schnellen Behebung.
+                Wenn du dieses Problem vermeiden möchtest, kannst du unter Einstellungen → Karte "Nutze alte Mapsforge (V3)" zur alten Kartenimplementierung wechseln.
       - id: 5885
         en:
             title: I am missing the possibility to show the minimum cache distance circles on the map!
