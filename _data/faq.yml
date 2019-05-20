@@ -1254,51 +1254,6 @@
             title: Was bedeuten die verschiedenen Markierungen der Cache-Symbole?
             content: |
                 Eine detailierte Erklärung der Markierungen findest du in unserem [Benutzerhandbuch](https://manual.cgeo.org/de/cachemarkers).
-
-      - id: map-unknown-caches
-        en:
-            title: Why do I see ??-caches on the map?
-            content: |
-                It is normal that you sometimes see some ??-caches on the map.
-
-                The ?? means that c:geo was not able to identify the type of this cache.
-                This mostly happens if too many caches are displayed at once (i.e. your zoom level is very low or the cache density is very high).
-                If you reduce the amount of caches shown (by zooming in) or if you click on a specific cache you will get the info about the cache type.
-
-        de:
-            title: Warum sehe ich ??-Caches auf der Karte?
-            content: |
-                Es ist normal, dass du manchmal ??-Caches auf der Karte siehst.
-
-                Die ?? bedeuten, dass c:geo nicht in der Lage war, den Typ des Caches zu erkennen.
-                Das passiert meistens, wenn zu viele Caches auf einmal auf der Karte angezeigt werden (d.h. deine Zoom-Stufe ist sehr gering oder die Cache-Dichte ist sehr hoch).
-                Wenn du die Anzahl angezeigter Caches reduzierst (durch Hereinzoomen) oder wenn du auf einen bestimmten Cache klickst, erhälst du Informationen über den Cache-Typ.
-
-      - id: map-orange-circles
-        en:
-            title: Why do I see orange circles around the cache icons on the map?
-            content: |
-                Caches with orange circles mean that c:geo does only have a graphical approximation of the cache coordinates.
-                The accuracy of the cache position on the map depends on the zoom level and maybe some meters/feet off.
-                The closer you zoom in the more precise the cache position will get.
-
-                To retrieve precise coordinates for the map you can also open the cache details once or store the cache for offline.
-                In these cases the orange circle will disappear indicating that the coordinates are precise.
-
-                You can influence the accuracy of the live map by selecting an appropriate live map loading strategy in \\
-                Live Map → Menu → Strategy
-        de:
-            title: Warum sehe ich orange Kreise um die Cache-Symbole auf der Karte?
-            content: |
-                Caches mit einem orangen Kreis bedeuten, dass c:geo nur eine graphische Näherung der Cache-Koordinaten hat.
-                Die Genauigkeit der Cache-Position auf der Karte hängt vom Zoom-Level der Karte ab und könnte einige Meter daneben liegen.
-                Je weiter du hereinzoomst, desto genauer wird die Cache-Position.
-
-                Um exakte Koordinaten auf der Karte zu erhalten, kannst du auch die Cache-Details einmalig öffnen oder den Cache für Offline-Nutzung speichern.
-                In diesem Fall verschwinden die orangen Kreise, um dir anzuzeigen, dass die Koordinaten exakt sind.
-
-                Du kannst die Genauigkeit auf der Live-Karte beeinflussen indem du eine geeignete Ladestrategie für die Live-Karte hier auswählst:\\
-                Liv-Karte → Menü → Strategie
  
       - id: map-no-gmaps
         en:
@@ -1333,26 +1288,6 @@
                 Das ist genau so wie in der Live-Karte auf der Geocaching-Webseite: Wenn du in ein großes Gebiet herauszoomst, werden eigene/gefunden Caches nicht mehr ausgeblendet.
 
                 Bitte weiter hereinzoomen, damit c:geo in der Lage ist, deine eigenen/gefundenen Caches zu erkennen und auszublenden.
-
-      - id: map-for-distant-location
-        en:
-            title: Is there an easy way to start the live map for a distant location?
-            content: |
-                Yes, there is an easy way to do this without the need to scroll around:
-
-                Perform a search for the desired address/region. Once the results are displayed, click on the map icon in the title bar.
-                You will get the map for the location already containing the caches from your search.
-
-                You can now use Menu → "Enable live" to activate the live map function.
-        de:
-            title: Gibt es einen einfachen Weg die Karte für einen entfernten Ort zu öffnen?
-            content: |
-                Ja, es gibt einen einfachen Weg hierfür, bei dem du nicht herumscrollen musst:
-
-                Führe eine Suche für die gewünschte Adresse/Region durch. Nachdem die Ergebnisse angezeigt werden, klicke auf das Kartensymbol in der Titelzeile.
-                Du bekommst dann eine Karte für diese Region, in der bereits die Suchergebnisse angezeigt werden.
-
-                Du kannst nun über Menü → "Aktualisierung einschalten" die Live-Karte aktivieren.
 
       - id: map-no-caches
         en:
@@ -1734,34 +1669,6 @@
 
                 Nach dem Abschalten des Google Play-Dienstes sollte dein Bluetooth GPS-Empfänger wieder wie in älteren c:geo-Versionen funktionieren.
 
-      - id: android6
-        en:
-            title: c:geo is not working correctly after upgrading my device to Android 6.0!
-            content: |
-                We recently got complaints that users have some issues with c:geo after upgrading their devices to Android 6.0:
-
-                1. Crashes while using offline maps / broken text in listings
-
-                    Please make sure that the setting "Enable hardware acceleration" is enabled in Menu → Settings → System.
-                    This should solve these kinds of problems.
-
-                2.  c:geo does not obtain a GPS position anymore
-
-                    Please refer to [this FAQ entry](#no-location) to fix this problem.
-        de:
-            title: c:geo funktioniert nach der Aktualisierung auf Android 6.0 nicht mehr!
-            content: |
-                Wir erhielten kürzlich Beschwerden, dass Nutzer einige Probleme mit c:geo haben, nachdem sie ihr Gerät auf Android 6.0 aktualisiert haben:
-
-                1. Abstürze bei der Nutzung von Offline-Karten / Listing-Text wird nicht richtig angezeigt
-
-                    Bitte stelle sicher, dass die "Hardware-Beschleunigung" in Menü → Einstellungen → System aktiviert ist.
-                    Das sollte diese Art von Problemen beheben.
-
-                2.  c:geo erhält keine GPS-Position mehr
-
-                    Bitte schau dir [diesen FAQ-Eintrag](#no-location) an, um das Problem zu beheben.
-
       - id: open-in-browser
         en:
             title: Open in browser does only offer c:geo itself but not my web browser!
@@ -1878,31 +1785,7 @@
   title:
       en: Known limitations
       de: Bekannte Einschränkungen
-  items:
-      - id: limitation-livemap
-        en:
-            title: Approximated coordinates on the live map
-            content: |
-                Some caches on the live map may not have precise coordinates until you open the cache details. Those caches are marked by an [orange circle](#map-orange-circles) around the icon.
-                If navigation is started directly from live map this may also use the approximated coordinates and guide you to a slightly wrong location!
-        de:
-            title: Genäherte Koordinaten auf der Live-Karte
-            content: |
-                Einige Caches auf der Live-Karte haben keine exakten Koordinaten, bis du die Cache-Details öffnest. Diese Caches sind mit [orangen Kreisen](#map-orange-circles) um das Symbol gekennzeichnet.
-                Wenn du die Navigation zu diesen Caches direkt von der Live-Karte startest, könnten die genäherten Koordinaten genutzt werden und dich zu einer leicht falschen Position führen!
-
-      - id: limitation-fastmode
-        en:
-            title: The fast loading strategy on the live map might show wrong cache types
-            content: |
-                If you set the live map [loading strategy](#map-strategy) to "Fast" the cache type shown on the map might be wrong in rare cases.
-                The fast mode only detects Traditional, Multi, Mystery and Event caches and might fail if the cache density is too high in the shown area.
-        de:
-            title: Die schnelle Lade-Strategie auf der Live-Karte könnte falsche Cache-Typen anzeigen
-            content: |
-                Wenn du die [Ladestrategie](#map-strategy) auf der Live-Karte auf "Schnell" einstellst, könnten bei einigen Caches selten die Typen falsch angezeigt werden.
-                Der schnelle Modus erkennt nur Traditional-, Multi-, Mystery- und Event-Caches und könnte versagen, wenn die Cache-Dichte im betrachteten Gebiet zu hoch ist.
-                
+  items:                
       - id: cyclemap
         en:
             title: Why is OSM:Cyclemap no longer offered as map type?
