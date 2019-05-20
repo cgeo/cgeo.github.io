@@ -7,15 +7,11 @@
         en:
             title: I cannot start navigation with maps.me!
             content: |
-                There is some bug in the interface between c:geo and maps.me. We are currently investigating the root cause and will fix it as soon as possible.
-                
-                As a workaround you can select Navigate → "Other external app" and then select maps.me from the app selection dialog.
+                This bug was fixed with c:geo version 2019.05.20. Please update your installation!
         de:
             title: Ich kann die Navigation mit maps.me nicht starten!
             content: |
-                Es gibt einen Fehler in der Verbindung zwischen c:geo und maps.me. Wir suchen gerade die Ursache und werden das Problem so schnell wie möglich beheben.
-
-                Als Zwischenlösung kannst du Navigation → "Andere externe App" auswählen und anschließend maps.me vom App-Auswahldialog wählen.
+                Dieser Fehler wurde mit c:geo Version 2019.05.20 behoben. Bitte aktualisiere deine Installation!
       - id: 7150
         en:
             title: The preview map on the cache details page is missing!
@@ -68,20 +64,6 @@
                 Du nutzt wahrscheinlich eine OSM Online- oder Offline Karte.
                 Wir haben eine neue Version der Bibliothenk implementiert, die derzeit noch bekannte Probleme mit dem korrekten Limit hat.
                 Wenn du sie dringend benötigst, kannst du entweder zu eine Google-Karte wechseln oder unter Einstellungen -> Karte die alte Bibliothek aktivieren.
-      - id: 5902
-        en:
-            title: Sometimes all caches have orange circles on the map!
-            content: |
-                You are probably using an OSM online or offline map.
-                We implemented a new library version for this map, which currently has a known problem with updating the view under certain conditions.
-                It should be sufficient to move the map a little to get it updated.
-                To avoid this problem, you can also either switch to a Google map or switch back to the old library in Settings -> Map.
-        de:
-            title: Manchmal haben alle Caches auf der Karte orange Markierungen!
-            content: |
-                Du nutzt wahrscheinlich eine OSM Online- oder Offline Karte.
-                Wir haben eine neue Version der Karten-Bibliothek implementiert, die derzeit noch bekannte Probleme mit der Aktualisierung der Ansicht unter bestimmten Bedingungen hat.
-                Um das Problem zu umgehen, kannst du auch entweder zu eine Google-Karte wechseln oder unter Einstellungen -> Karte die alte Bibliothek aktivieren.
 
 - id: getting-started
   title:
