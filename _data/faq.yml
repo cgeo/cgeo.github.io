@@ -3,6 +3,16 @@
       en: Current issues
       de: Aktuelle Probleme
   items:
+      - id: 7533
+        en:
+            title: I cannot move the geocache data to my SD card!
+            content: |
+                This is a bug we are still working on. It will hopefully be fixed with one of the next updates.
+        de:
+            title: Ich kann die Geocache-Daten nicht auf die SD-Karte verschieben!
+            content: |
+                Dies ist ein Fehler, an dem wir momentan arbeiten. Er wird hoffentlich mit einer der nächsten Updates behoben werden.
+
       - id: 7340
         en:
             title: I cannot start navigation with maps.me!
