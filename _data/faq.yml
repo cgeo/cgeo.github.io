@@ -98,7 +98,7 @@
 
                 You have to go to the geocaching website to reset your password. After you successfully restored your password there, please go to c:geo settings and enter the new login data.
 
-                For example on [geocaching.com](http://www.geocaching.com/) you can reset your password on [this page](https://www.geocaching.com/login/password.aspx).
+                For example on [geocaching.com](http://www.geocaching.com/) you can reset your password on [this page](https://www.geocaching.com/account/identify).
         de:
             title: Ich habe meinen Benutzernamen und/oder Passwort vergessen!
             content: |
@@ -106,7 +106,7 @@
 
                 Du musst also auf die Geocaching-Webseite gehen, um dein Passwort zurückzusetzen. Nachdem du es dort erfolgreich zurückgesetzt hast, gehe bitte in die c:geo-Einstellungen und gib die neuen Nutzerdaten dort ein.
 
-                Für [geocaching.com](https://www.geocaching.com/) kannst du beispielsweise [auf dieser Seite](https://www.geocaching.com/login/password.aspx) dein Passwort zurücksetzen.
+                Für [geocaching.com](https://www.geocaching.com/) kannst du beispielsweise [auf dieser Seite](https://www.geocaching.com/account/identify) dein Passwort zurücksetzen.
 
       - id: login-failed
         en:
@@ -413,7 +413,7 @@
                 No, the login via Facebook is an option on the geocaching website only.
                 In order to login to geocaching.com via c:geo you need to enter the username and password dedicated to the website.
 
-                In case you currently only use Facebook to login to geocaching.com, you have to go to the [Password Reset Page](https://www.geocaching.com/login/password.aspx) to set up a regular password first.
+                In case you currently only use Facebook to login to geocaching.com, you have to go to the [Password Reset Page](https://www.geocaching.com/account/identify) to set up a regular password first.
                 After you got this password you can use it together with your username to log in with c:geo.
         de:
             title: Kann ich mich mit meinem Facebook-Account anmelden?
@@ -421,7 +421,7 @@
                 Nein, die Anmeldung über Facebook ist nur auf der Geocaching-Webseite möglich.
                 Um dich in c:geo bei geocaching.com anzumelden, benötigst du einen Benutzernamen und Passwort von dieser Seite.
 
-                Wenn du dich bislang nur über Facebook bei geocaching.com angemeldet hast, gehe bitte auf ihre [Passwort-Reset Seite](https://www.geocaching.com/login/password.aspx) und fordere dort ein reguläres Passwort an.
+                Wenn du dich bislang nur über Facebook bei geocaching.com angemeldet hast, gehe bitte auf ihre [Passwort-Reset Seite](https://www.geocaching.com/account/identify) und fordere dort ein reguläres Passwort an.
                 Wenn du dieses Passwort erhalten hast, kannst du es zusammen mit deinem Benutzernamen in c:geo für die Anmeldung verwenden.
 
       - id: facebook-share
