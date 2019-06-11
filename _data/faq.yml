@@ -3,6 +3,18 @@
       en: Current issues
       de: Aktuelle Probleme
   items:
+      - id: 7230
+        en:
+            title: After upgrading c:geo I do not see caches on the live map!
+            content: |
+                The live map now requires, that you are logged to a geocaching platform to show caches. Please check your login status.\\
+                You can find more information on how to authorize c:geo to a geocaching platform in our [user guide](https://manual.cgeo.org/en/firststeps).
+        de:
+            title: Nach der Aktualisierung von c:geo sehe ich keine Caches auf der Live-Karte!
+            content: |
+                Um Caches auf der Live-Karte zu sehen ist es nun erforderlich, dass du bei einer Geocaching-Plattform eingeloggt bist. Bitte prüfe deinen Login-Status.\\
+                Mehr Informationen wie du c:geo mit einer Geocaching-Plattform autorisiert findest du in unserem [Benutzerhandbuch](https://manual.cgeo.org/de/firststeps).
+
       - id: 7533
         en:
             title: I cannot move the geocache data to my SD card!
