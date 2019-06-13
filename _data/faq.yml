@@ -25,15 +25,6 @@
             content: |
                 Dies ist ein Fehler, an dem wir momentan arbeiten. Er wird hoffentlich mit einem der nächsten Updates behoben werden.
 
-      - id: 7340
-        en:
-            title: I cannot start navigation with maps.me!
-            content: |
-                This bug was fixed with c:geo version 2019.05.20. Please update your installation!
-        de:
-            title: Ich kann die Navigation mit maps.me nicht starten!
-            content: |
-                Dieser Fehler wurde mit c:geo Version 2019.05.20 behoben. Bitte aktualisiere deine Installation!
       - id: 7150
         en:
             title: The preview map on the cache details page is missing!
@@ -1614,21 +1605,17 @@
       en: Device or user specific problems
       de: Geräte- oder benutzerspezifische Probleme
   items:
-      - id: map-crash
+      - id: samsungs7
         en:
-            title: The app crashes frequently when using the map!
+            title: I have no GPS signal after upgrading my Samsung S7 to Android 8!
             content: |
-                There is a high probability, that you accidentally activated the debug logging which can cause this instability.
-
-                Debug logging is only for development purposes and has to be switched off during normal usage.
-                Please disable it in Menu → Settings → System → Debug logging.
+                There seems to be a problem in this update with GPS in connection with "Google Play Location Services".
+                Please disable "Google Play Service" usage in c:geo as described [in this FAQ entry](#no-location) to get it working again.
         de:
-            title: Die App stürzt häufig ab, wenn ich die Karte nutze!
+            title: Ich habe kein GPS-Signal nach dem Update meines Samsung S7 auf Android 8!
             content: |
-                Mit hoher Wahrscheinlichkeit hast du versehentlich das Debug-Logging, welches Instabilitäten auslösen kann, aktiviert.
-
-                Debug-Logging ist nur für Entwicklungs-Zwecke und muss bei der normalen Nutzung ausgeschaltet bleiben.
-                Bitte deaktivere es in Menü → Einstellungen → System → Debug-Log
+                Es gibt anscheinend ein Problem mit diesem Update mit dem GPS in Verbindung mit den "Google Play Location Diensten".
+                Um das Problem zu beheben deaktiviere bitte die Nutzung von "Google Play Services" in c:geo, wie es in [diesem FAQ-Eintrag](#no-location) beschrieben wird.
 
       - id: no-premium
         en:
