@@ -1786,3 +1786,21 @@
                 Das bedeutet, dass wir eine Gebühr von mehreren 100€ pro Monat zahlen müssten, um diese Karte in c:geo zu erhalten. Dies können wir als Open Source-Team nicht leisten.
                 
                 Mit einer der künftigen c:geo Versionen planen wir stattdessen eine nutzerspezifische Konfiguration des Kartenanbieters zu implementieren, die es dir erlaubt deinen bevorzugten Kartenserver selbst zu konfigurieren.
+      - id: favpercentage
+        en:
+            title: The favorite percentage shown in c:geo does not match with other sources!
+            content: |
+                As c:geo cannot retrieve this information from the website, we have to calculate the favorite percentage ourselves.
+                Since c:geo does not know how many finders could theoretically award a favorite point to the cache (only those, who are premium members) we can only calculate using the favorite points divided by the number of total finds.
+                
+                This means, that the percentage shown in c:geo will be less then the percentage shown on the website.
+                There is nothing we can do about this for the time being.
+        de:
+            title: Die Favoritenquote in c:geo stimmmt nicht mit anderen Quellen überein?
+            content: |
+                Da c:geo diese Information nicht von der Webseite bekommen kann, müssen wir die Favoritenquote selbst berechnen.
+                Allerdings weiß c:geo nicht, wie viele Finder theoretisch einen Favoritenpuntk vergeben könnten (nur die, die Premium-Mitglieder sind), daher können wir nur die Favoritenpuntke durch die Anzahl aller Funde teilen.
+                
+                Das bedeutet, dass die in c:geo eangezeigte Prozentzahl meist kleiner ist, als die Prozentzahl auf der Webseite.
+                Es gibt für den Moment nichts, was wir daran ändern könnten.
+                
