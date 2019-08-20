@@ -1796,11 +1796,11 @@
                 This means, that the percentage shown in c:geo will be less then the percentage shown on the website.
                 There is nothing we can do about this for the time being.
         de:
-            title: Die Favoritenquote in c:geo stimmmt nicht mit anderen Quellen überein?
+            title: Die Favoritenquote in c:geo stimmmt nicht mit anderen Quellen überein!
             content: |
                 Da c:geo diese Information nicht von der Webseite bekommen kann, müssen wir die Favoritenquote selbst berechnen.
                 Allerdings weiß c:geo nicht, wie viele Finder theoretisch einen Favoritenpuntk vergeben könnten (nur die, die Premium-Mitglieder sind), daher können wir nur die Favoritenpuntke durch die Anzahl aller Funde teilen.
-                
-                Das bedeutet, dass die in c:geo eangezeigte Prozentzahl meist kleiner ist, als die Prozentzahl auf der Webseite.
+               
+                Das bedeutet, dass die in c:geo angezeigte Prozentzahl meist kleiner ist, als die Prozentzahl auf der Webseite.
                 Es gibt für den Moment nichts, was wir daran ändern könnten.
                 
