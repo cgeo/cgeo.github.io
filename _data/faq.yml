@@ -40,17 +40,6 @@
                 Wir schauen uns derzeit nach Alternativen um.
 
                 Wenn ihr die Navigation zum Cache normalerweise durch langen Klick auf diese Karte startet: Ihr findet alle Navigationsoptionen auch im Menü "Navigation" (Pfeil mit Punkt) im Titelzeilen-Menü.
-      - id: 7209
-        en:
-            title: When I view the map of a cache (list) it also shows waypoints of other caches!
-            content: |
-                This is a bug in our new map implementation. We will try to fix this as soon as possible.
-                If you want to avoid this problem, you can switch back to the old map implementation in Settings → Map → "Use old mapsforge (V3)".
-        de:
-            title: Wenn ich die Karte eines Caches/einer Liste ansehe, zeigt sie auch Wegpunkte anderer Caches!
-            content: |
-                Dies ist ein Fehler in unserer neuen Kartenimplementierung. Wir arbeiten an einer schnellen Behebung.
-                Wenn du dieses Problem vermeiden möchtest, kannst du unter Einstellungen → Karte "Nutze alte Mapsforge (V3)" zur alten Kartenimplementierung wechseln.
       - id: 5885
         en:
             title: I am missing the possibility to show the minimum cache distance circles on the map!
@@ -63,19 +52,6 @@
             content: |
                 Du nutzt wahrscheinlich eine OSM Online- oder Offline Karte.
                 Wir haben eine neue Version der Bibliothenk implementiert, die derzeit noch keine Entfernungskreise unterstützt.
-                Wenn du sie dringend benötigst, kannst du entweder zu eine Google-Karte wechseln oder unter Einstellungen -> Karte die alte Bibliothek aktivieren.
-      - id: 5900
-        en:
-            title: Cache waypoints are hidden on the map even below the selected limit!
-            content: |
-                You are probably using an OSM online or offline map.
-                We implemented a new library version for this map, which currently has a known problem with respecting the correct limit.
-                If you urgently need this feature, you can either switch to a Google map or switch back to the old library in Settings -> Map.
-        de:
-            title: Wegpunkte von Caches werden auf der Karte bereits unter der gewählten Grenze versteckt!
-            content: |
-                Du nutzt wahrscheinlich eine OSM Online- oder Offline Karte.
-                Wir haben eine neue Version der Bibliothenk implementiert, die derzeit noch bekannte Probleme mit dem korrekten Limit hat.
                 Wenn du sie dringend benötigst, kannst du entweder zu eine Google-Karte wechseln oder unter Einstellungen -> Karte die alte Bibliothek aktivieren.
 
 - id: getting-started
