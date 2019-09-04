@@ -3,14 +3,32 @@
       en: Current issues
       de: Aktuelle Probleme
   items:
+      - id: 7369
+        en:
+            title: After updating my device to Android 10 c:geo often crashes while using the map!
+            content: |
+                Sadly the version of Google Maps we are currently using in c:geo is not compatible to Android 10.
+                We are already underway of changing to a new Google Maps implementation, but this still requires quite some programming and testing, before we can pusblish it in a new c:geo version.\\
+                
+                As a workaround you can select "OSM:Online" (or an offline map) as map source in c:geo Menu → Settings → Map.
+                This should work normal.
+                
+            title: Nach dem Update meines Gerätes auf Android 10 stürtzt c:geo während der Kartennutzung oft ab!
+            content: |
+                Leider ist die von uns derzeit in c:geo genutzte Version von Google Maps nicht kompatibel zu Android 10.
+                Wir sind bereits dabei auf eine neue Implementierung von Google Maps zu wechseln, aber dies benötigt immer noch einiges an Programmierung und Test, bevor wir es in einer neuen c:geo Version veröffentlichen können.\\
+                
+                Als Übergangslösung kannst du "OSM:Online" (oder eine Offline-Karte) als Kartenquelle in c:geo Menü → Einstellungen → Karte auswählen. 
+                Dies sollte normal funktionieren.
+
       - id: 7230
         en:
-            title: After upgrading c:geo I do not see caches on the live map!
+            title: I do not see caches on the live map!
             content: |
                 The live map now requires, that you are logged to a geocaching platform to show caches. Please check your login status.\\
                 You can find more information on how to authorize c:geo to a geocaching platform in our [user guide](https://manual.cgeo.org/en/firststeps).
         de:
-            title: Nach der Aktualisierung von c:geo sehe ich keine Caches auf der Live-Karte!
+            title: Ich sehe keine Caches auf der Live-Karte!
             content: |
                 Um Caches auf der Live-Karte zu sehen ist es nun erforderlich, dass du bei einer Geocaching-Plattform eingeloggt bist. Bitte prüfe deinen Login-Status.\\
                 Mehr Informationen wie du c:geo mit einer Geocaching-Plattform autorisiert findest du in unserem [Benutzerhandbuch](https://manual.cgeo.org/de/firststeps).
@@ -25,21 +43,6 @@
             content: |
                 Dies ist ein Fehler, an dem wir momentan arbeiten. Er wird hoffentlich mit einem der nächsten Updates behoben werden.
 
-      - id: 7150
-        en:
-            title: The preview map on the cache details page is missing!
-            content: |
-                Google does no longer offer these static maps for free. We therefore had to remove this feature.
-                We are currently looking into possible alternatives.
-
-                If you usually use the long click on this map to start navigation: You will also find all navigation options in the Navigate menu (Arrow with Point) on the top bar menu.
-        de:
-            title: Die Vorschaukarte in den Cache-Details fehlt!
-            content: |
-                Google bietet diese statischen Karten leider nicht mehr kostenlos an. Daher mussten wir die Funktion entfernen.
-                Wir schauen uns derzeit nach Alternativen um.
-
-                Wenn ihr die Navigation zum Cache normalerweise durch langen Klick auf diese Karte startet: Ihr findet alle Navigationsoptionen auch im Menü "Navigation" (Pfeil mit Punkt) im Titelzeilen-Menü.
       - id: 5885
         en:
             title: I am missing the possibility to show the minimum cache distance circles on the map!
