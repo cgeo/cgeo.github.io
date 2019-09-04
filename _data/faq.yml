@@ -8,7 +8,7 @@
             title: After updating my device to Android 10 c:geo often crashes while using the map!
             content: |
                 Sadly the version of Google Maps we are currently using in c:geo is not compatible to Android 10.
-                We are already underway of changing to a new Google Maps implementation, but this still requires quite some programming and testing, before we can pusblish it in a new c:geo version.\\
+                We are already underway of changing to a new Google Maps implementation, but this still requires quite some programming and testing, before we can pusblish it in a new c:geo version.
                 
                 As a workaround you can select "OSM:Online" (or an offline map) as map source in c:geo Menu → Settings → Map.
                 This should work normal.
@@ -16,7 +16,7 @@
             title: Nach dem Update meines Gerätes auf Android 10 stürtzt c:geo während der Kartennutzung oft ab!
             content: |
                 Leider ist die von uns derzeit in c:geo genutzte Version von Google Maps nicht kompatibel zu Android 10.
-                Wir sind bereits dabei auf eine neue Implementierung von Google Maps zu wechseln, aber dies benötigt immer noch einiges an Programmierung und Test, bevor wir es in einer neuen c:geo Version veröffentlichen können.\\
+                Wir sind bereits dabei auf eine neue Implementierung von Google Maps zu wechseln, aber dies benötigt immer noch einiges an Programmierung und Test, bevor wir es in einer neuen c:geo Version veröffentlichen können.
                 
                 Als Übergangslösung kannst du "OSM:Online" (oder eine Offline-Karte) als Kartenquelle in c:geo Menü → Einstellungen → Karte auswählen. 
                 Dies sollte normal funktionieren.
