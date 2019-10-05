@@ -154,7 +154,7 @@
                 Attention: \\
                 This procedure will delete all stored caches and app settings!
 
-                1. If needed, perform a backup of your caches in Menu → Settings → System → Backup
+                1. If needed, perform a backup of your caches in Menu → Settings → Backup/Restore
                 2. Go to your Android settings (not c:geo settings) and select Apps or Appmanager → c:geo → "Delete data"
                 3. On the next start of c:geo it will be back to factory settings and take you directly to the login screen.
                 4. Enter your login data for the desired geocaching website
@@ -165,7 +165,7 @@
                 Achtung: \\
                 Diese Prozedur löscht alle gespeicherten Caches und App-Einstellungen!
 
-                1. Wenn benötigt, führe eine Sicherung der Caches unter Menü → Einstellungen → System → Sicherung durch.
+                1. Wenn benötigt, führe eine Sicherung der Caches unter Menü → Einstellungen → Sicherung/Wiederherstellung durch.
                 2. Gehe in deine Android-Einstellungen (nicht die c:geo-Einstellungen) und wähle Apps oder Anwendungsmanager → c:geo → Daten löschen
                 3. Beim nächsten Start von c:geo sind die Werkseinstellungen wieder hergestellt und es erscheint der Anmeldebildschirm.
                 4. Gib deine Nutzerdaten für die gewünschte Geocaching-Plattform ein
@@ -954,7 +954,7 @@
                 On the old device:
 
                 - Start c:geo
-                - Go to c:geo Menu → Settings → System and perform a backup of the database (remember the file location which is shown at the end of the process)
+                - Go to c:geo Menu → Settings → Backup/Restore and perform a backup of the database (remember the file location which is shown at the end of the process)
                 - Open a File Explorer, locate the backup file (typically /cgeo/backup/cgeo.sqlite) and store it at a safe location for later restore on the new device
                 - Optional step: The subfolders of /Android/data/cgeo.geocaching/files/GeocacheData/ (either located on your internal or your external storage) contain additional geocache data (e.g. log pictures). If this data is not available on the new device, c:geo will just download it again. If you still want to transfer this data to the new device, copy all subfolders to a safe location.
 
@@ -967,7 +967,7 @@
                 - Use a File Explorer to locate the similar folder from which you saved the backup on the old phone (typically /cgeo/backup/) and place the backup file (cgeo.sqlite) from the old phone into this folder. You might have to create the folder manually.
                 - Optional step: If you also did a backup of the additional geocache data, restore it to /Android/data/cgeo.geocaching/files/GeocacheData/ on your internal storage.
                 - Start c:geo again
-                - Go to c:geo Menu → Settings → System and select to restore the backup
+                - Go to c:geo Menu → Settings → Backup/Restore and select to restore the backup
 
                 If you did everything right, now the content of c:geo on the new device should look like on the old device.
                 This includes all caches on your lists with all its contained information (like waypoints, notes, offline logs, etc.) and - if you did the optional step - also all images and static maps.
@@ -986,7 +986,7 @@
                 Auf dem alten Gerät:
 
                 - Starte c:geo
-                - Gehe zu c:geo Menü → Einstellungen → System und führe eine Sicherung der Datenbank durch (Merke dir dabei den Pfad, der dir nach Abschluss der Sicherung angezeigt wird)
+                - Gehe zu c:geo Menü → Einstellungen → Sicherung/Wiederherstellung und führe eine Sicherung der Datenbank durch (Merke dir dabei den Pfad, der dir nach Abschluss der Sicherung angezeigt wird)
                 - Öffne einen Datei-Explorer und finde diese Sicherungsdatei (typischerweise /cgeo/backup/cgeo.sqlite) und speichere sie an einer sicheren Stelle, um sie später auf dem neuen Gerät wieder einzuspielen
                 - Optionaler Schritt: Das Verzeichnis /Android/data/cgeo.geocaching/files/GeocacheData/ (entweder im internen oder im externen Speicher) enthält zusätzliche Geocache-Daten (z.B. Logbilder). Wenn diese Daten auf dem neuen Gerät nicht vorhanden sind, wird c:geo sie einfach erneut herunterladen. Wenn du diese Daten dennoch auf das neue Gerät übertragen möchtest, kopiere alle Unterverzeichnisse an einem sicheren Ort.
 
@@ -1000,7 +1000,7 @@
                 - Nutze einen Datei-Explorer, um den gleichen Ordner auf dem neuen Gerät ausfindig zu machen, von dem du auf dem alten Gerät die Sicherung gemacht hast (typischerweise /cgeo/backup/) und kopiere die Sicherungsdatei (cgeo.sqlite) vom alten Telefon in diesen Ordner. Eventuell musst du das Verzeichnis manuell erstellen.
                 - Optionaler Schritt: Wenn du auch eine Sicherung der zusätzlichen Geocache-Daten durchgeführt hast, kopiere sie in den Ordner /Android/data/cgeo.geocaching/files/GeocacheData/ in deinem internen Speicher zurück.
                 - Starte c:geo wieder
-                - Gehe zu Menü → Einstellungen → System und wähle die vorhandene Sicherung wiederherzustellen
+                - Gehe zu Menü → Einstellungen → Sicherung/Wiederherstellung und wähle die vorhandene Sicherung wiederherzustellen
 
                 Wenn du alles richtig gemacht hast, sollte der Inhalt von c:geo auf dem neuen Gerät genauso aussehen wie auf dem alten Gerät.
                 Dies beinhaltet alle Caches auf deinen Listen mit allen enthaltenen Informationen (wie Wegpunkten, Notizen, Offline-Logs, usw.) und – wenn du den optionalen Schritt ausgeführt hast – auch alle Bilder und statischen Karten.
