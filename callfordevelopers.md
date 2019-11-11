@@ -9,7 +9,7 @@ As you probably know c:geo is an opensource app maintained and enhanced by volun
 While the core team and additional contributors kept c:geo running over last couple of years with great contributions to our code, we recently experience some obstacles we need to solve:
 
 On one hand some long time members of the c:geo team decided to leave the project due to personal reasons, on the other hand we have quite a bunch of rather urgent issues on our ToDo list to keep c:geo running for all of you.  
-For example we need to redesign the app code to be compliant with new Google Play requirements until November 2018. Also we are still willing to try to get onto the official geocaching.com API (if conditions for that are OK) and are in contact with Groundspeak but also for this we need more helping hands in order to even start looking into it.
+For example we are still willing to try to get onto the official geocaching.com API (if conditions for that are OK) and are in contact with Groundspeak but also for this we need more helping hands in order to even start looking into it. Furthermore many fixes for bugs and feature requests are waiting to be implemented.
 
 To cut a long story short: We need your help!
 
