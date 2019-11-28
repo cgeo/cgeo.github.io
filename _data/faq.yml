@@ -1287,6 +1287,26 @@
                 Wir arbeiten aber daran, in einer der zukünftigen c:geo-Versionen neuere Karten-Versionen zu implementieren, die auch rotierende Karten unterstützen.
                 Da dies aber eine komplette Überarbeitung der Karten-Implementierung bedeutet, kann es einige Zeit dauern, bis die Entwicklung abgeschlossen ist.
 
+      - id: map-playservice
+        en:
+            title: "c:geo won't run unless you install/update Google Play services" is shown instead of the map!
+            content: |
+                In order to use Google Maps in c:geo you need to have Google Play Services installed using a recent version on your device.
+                This is a precondition by Google to use the Maps service.
+                
+                A button will be shown on the screen to allow to install/update Google Play Services on your device. This requires a Google account and access to the Google Play Store app.
+                
+                If you do not want or cannot install it, you can use the OSM map supported in c:geo. Simply click the map icon in the title bar and change to "OSM:Map".
+        de:
+            title: "c:geo won't run unless you install/update Google Play services" wird statt der Karte angezeigt!
+            content: |
+                Um Google Maps in c:geo nutzen zu können, müssen die Google Play Dienste in einer aktuellen Version installiert sein.
+                Dies ist eine Vorbedingung von Google um den Kartendienst nutzen zu können.
+
+                Es wird auf dem Bildschirm eine Schaltfläche angezeigt, die es dir erlaubt die Google Play Dienste zu installieren/aktualisieren. Dazu wird ein Google-Konto und ZUgriff auf den Google Playstore benötigt.
+                
+                Wenn du dies nicht installieren kannst oder möchtest, kannst du stattdessen die OSM-Karten nutzen, die von c:geo unterstützt werden. Klicke hierzu einfach auf das Kartensymbol in der Titelzeile und wähle "OSM:Karte" aus.
+                
 - id: send2cgeo
   title:
       en: Send2cgeo
