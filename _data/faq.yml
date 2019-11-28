@@ -1303,7 +1303,7 @@
                 Um Google Maps in c:geo nutzen zu können, müssen die Google Play Dienste in einer aktuellen Version installiert sein.
                 Dies ist eine Vorbedingung von Google um den Kartendienst nutzen zu können.
 
-                Es wird auf dem Bildschirm eine Schaltfläche angezeigt, die es dir erlaubt die Google Play Dienste zu installieren/aktualisieren. Dazu wird ein Google-Konto und ZUgriff auf den Google Playstore benötigt.
+                Es wird auf dem Bildschirm eine Schaltfläche angezeigt, die es dir erlaubt die Google Play Dienste zu installieren/aktualisieren. Dazu wird ein Google-Konto und Zugriff auf den Google Playstore benötigt.
                 
                 Wenn du dies nicht installieren kannst oder möchtest, kannst du stattdessen die OSM-Karten nutzen, die von c:geo unterstützt werden. Klicke hierzu einfach auf das Kartensymbol in der Titelzeile und wähle "OSM:Karte" aus.
                 
