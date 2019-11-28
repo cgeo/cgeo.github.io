@@ -1289,7 +1289,7 @@
 
       - id: map-playservice
         en:
-            title: "c:geo won't run unless you install/update Google Play services" is shown instead of the map!
+            title: c:geo won't run unless you install/update Google Play services is shown instead of the map!
             content: |
                 In order to use Google Maps in c:geo you need to have Google Play Services installed using a recent version on your device.
                 This is a precondition by Google to use the Maps service.
@@ -1298,7 +1298,7 @@
                 
                 If you do not want or cannot install it, you can use the OSM map supported in c:geo. Simply click the map icon in the title bar and change to "OSM:Map".
         de:
-            title: "c:geo won't run unless you install/update Google Play services" wird statt der Karte angezeigt!
+            title: c:geo won't run unless you install/update Google Play services wird statt der Karte angezeigt!
             content: |
                 Um Google Maps in c:geo nutzen zu können, müssen die Google Play Dienste in einer aktuellen Version installiert sein.
                 Dies ist eine Vorbedingung von Google um den Kartendienst nutzen zu können.
