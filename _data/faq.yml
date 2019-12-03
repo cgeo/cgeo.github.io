@@ -1406,7 +1406,7 @@
                 Once you downloaded or created a map, store it into a folder (e.g. /mfmaps) on your device or SD card. You can also store multiple maps (e.g. for several countries) into this folder to have easy access later directly from c:geo.
                 If you are additionally using the app [Locus](https://play.google.com/store/apps/details?id=menion.android.locus) it is useful to store the maps in /Locus/mapsVector to have them accessible for Locus as well as for c:geo.
 
-                The procedure of how to configure c:geo to use this map can be found in our [user guide](https://manual.cgeo.org/en/offline#offline_maps).
+                The procedure of how to configure c:geo to use this map can be found in our [user guide](https://manual.cgeo.org/en/offlinemaps).
 
         de:
             title: Wie benutze ich eine OSM:Offline-Karte in c:geo?
@@ -1414,7 +1414,7 @@
                 Nachdem du eine Karte heruntergeladen oder erstellt hast, speichere sie in einem Ordner (z.B. /mfmaps) auf deinem Gerät oder der SD-Karte. Du kannst auch mehrere Karten (z.B. für mehrere Länder) in diesem Ordner speichern, und kannst später in c:geo einfach zwischen diesen Karten wechseln.
                 Wenn du auch die App [Locus](https://play.google.com/store/apps/details?id=menion.android.locus) nutzt, ist es hilfreich die Karten im Ordner /Locus/mapsVector zu speichern, damit sie für Locus und c:geo nutzbar sind.
                 
-                Das Vorgehen zur Konfiguration dieser Karte in c:geo findest du in unserem [Benutzerhandbuch](https://manual.cgeo.org/de/offline#offline_maps).
+                Das Vorgehen zur Konfiguration dieser Karte in c:geo findest du in unserem [Benutzerhandbuch](https://manual.cgeo.org/de/offlinemaps).
 
 - id: offline-caching
   title:
