@@ -63,12 +63,22 @@ As an alternative to Google Play, c:geo can be downloaded from our private [F-Dr
 
 We provide two channels, for stable and nightly builds.
 
-* [https://fdroid.cgeo.org](https://fdroid.cgeo.org)
-* [https://fdroid.cgeo.org/nightly](https://fdroid.cgeo.org/nightly)
+### Repositories
+
+URL:
+* `https://fdroid.cgeo.org` for mainline
+* `https://fdroid.cgeo.org/nightly` for nightly builds
 
 Our repository fingerprint is:
 
-* 370BB4D550C391D5DCCB6C81FD82FDA4892964764E085A09B7E075E9BAD5ED98
+`370BB4D550C391D5DCCB6C81FD82FDA4892964764E085A09B7E075E9BAD5ED98`
+
+### Instructions
+
+1. Install the [F-Droid](https://f-droid.org/) client app.
+1. Copy/paste the c:geo repository information into the F-Droid client app under Settings.
+1. Refresh your F-Droid client app under the Categories tab.
+1. Install c:geo from the F-Droid client app listing.
 
 ## Translation of c:geo
 
