@@ -24,6 +24,20 @@
             title: Ich kann die Geocache-Daten nicht auf die SD-Karte verschieben!
             content: |
                 Dies ist ein Fehler, an dem wir momentan arbeiten. Er wird hoffentlich mit einem der nächsten Updates behoben werden.
+                
+      - id: 8071
+        en:
+            title: The \"Go to\" menu does not work as it used to!
+            content: |
+                Starting with version 2020.03.07 we aligned the working mode of the \"Go to\" menu to the look and feel of the waypoint tab of a cache.\\
+                
+                You can still use it for creating custom waypoints and doing coordinate projections. Check the chapter [waypoint tab](https://manual.cgeo.org/en/cachedetails#waypoint_tab) in our user guide to learn how to do this.
+        de:
+            title: Das \"Gehe zu\"-Menü funktioniert nicht mehr wie früher!
+            content: |
+                Mit Version 2020.03.07 haben wir die Funktionsweise des \"Gehe zu\"-Menüs an die Funktionsweise des Wegpunkt-Reiters eines Caches angepasst.\\
+                
+                Du kannst es weiterhin zur Erstellung eigener Wegpunkte und für Peilungen nutzen. Schau in das Kapitel [Wegpunkte](https://manual.cgeo.org/de/cachedetails#wegpunkte) unseres Benutzerhandbuches um Herauszufinden, wie es funktioniert.
 
 - id: getting-started
   title:
