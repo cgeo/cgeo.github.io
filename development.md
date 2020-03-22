@@ -84,7 +84,7 @@ Our repository fingerprint is:
 
 If you want to contribute translations, you need a free account at [Crowdin](https://crowdin.com/). Then start contributing new translations to or vote for existing translation proposals in the [c:geo translation project](http://translate.cgeo.org). If you would like to include a new language please contact us via Crowdin.
 
-Localization statistics: [![Crowdin](https://d322cqt584bo4o.cloudfront.net/cgeo/localized.png)](http://translate.cgeo.org)
+Localization statistics: [![Crowdin](https://badges.crowdin.net/cgeo/localized.svg)](http://translate.cgeo.org)
 
 ## Current status and usage statistics
 
