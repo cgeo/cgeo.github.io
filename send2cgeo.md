@@ -32,10 +32,7 @@ The send2cgeo script supports Mozilla Firefox and Google Chrome. Microsoft Inter
 
 - Install the Tampermonkey Add-On ([Installation link for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) , [Installation link for Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)). 
 - Make sure Tampermonkey is now activated in your browser after installation. There is a new icon in your browser toolbar.
-- To start the installation, click on the script link below that fits your needs. You can install multiple scripts.
-  - [geocaching.com send2cgeo script](https://github.com/cgeo/send2cgeo/raw/release/send2cgeo.user.js)
-  - [opencaching.de send2cgeo script](https://github.com/cgeo/send2cgeo/raw/release/send2cgeoOc.user.js)
-  - [opencaching.pl send2cgeo script](https://github.com/cgeo/send2cgeo/raw/release/send2cgeoOcPl.user.js)
+- To start the installation, click here: [send2cgeo script](https://github.com/cgeo/send2cgeo/raw/release/send2cgeo.user.js)
 - Tampermonkey will be triggered automatically, confirm the installation when prompted.
 - When a new version of the script is released, your browser will either automatically update it or prompt you to allow the update.
 - Continue with the registration as described below.
@@ -57,7 +54,10 @@ The send2cgeo script supports Mozilla Firefox and Google Chrome. Microsoft Inter
 - On the geocaching.com website you should now be able to see a "send to c:geo" button or icon at some places:
   - On the cache details page next to the "Send to my GPS" button
   - On the live map popup next to "Log Visit"
+  - On the search map sidebar next to "Send to Garmin"
   - On the search results page you will find send2geo as an icon left of the cache type icon in a row named "Send to c:geo"
+  - On the bookmark page left of the cache type icon
+  - On the recently viewed caches page left of the distance
 - Clicking this button/icon will add the specific cache to the queue for downloading to c:geo
 - Start c:geo on your device and go to a list of saved caches
 - Select Menu → Import → Import from send2cgeo
