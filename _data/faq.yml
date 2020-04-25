@@ -805,7 +805,7 @@
             title: I do see a warning in c:geo that my device is no longer supported!
             content: |
                 If you see this message your device will no longer be supported in upcoming c:geo versions.
-                We decided to drop the support of Android versions below 5.0. Only a very minor percentage of our users are affected.
+                We decided to drop the support of Android versions below 5.0. Only a very minor percentage of our users is affected.
                 
                 The reason for this is, that we want to include more features and further improve usability and stability. Newer Android versions offer a lot more possibilities which we simply cannot use if we have to be compatible to Android 4.
 
@@ -818,15 +818,15 @@
             title: Ich sehe eine Warnung in c:geo, dass mein Gerät nicht länger unterstützt wird!
             content: |
                 Wenn du diese Nachricht siehst, wird dein Gerät in zukünftigen Versionen von c:geo nicht länger unterstützt.
-                Wir haben uns entschieden, die Unterstützung von Android-Versionen kleiner als 5.0 aufzugeben. Nur ein sehr geringer Prozentsatz unserer Nutzer sind davon betroffen.
+                Wir haben uns entschieden, die Unterstützung von Android-Versionen kleiner als 5.0 aufzugeben. Nur ein sehr geringer Prozentsatz unserer Nutzer ist davon betroffen.
                 
                 Der Grund dafür ist, dass wir neue Features einführen und Stabilität und Nutzbarkeit weiter verbessern wollen. Neuere Android-Versionen bieten viel mehr Möglichkeiten, die wir einfach nicht nutzen können, wenn wir zu Android 4 kompatibel sein müssen.
 
-                Für eine Übergangszeit wird es weiterhin neue c:geo Version für Geräte mit Android 4 geben, diese enthalten allerdings nur wichtige Fehlerbehebungen und keine neuen Funktionen.
+                Für eine Übergangszeit wird es weiterhin neue c:geo Versionen für Geräte mit Android 4 geben, diese enthalten allerdings nur wichtige Fehlerbehebungen und keine neuen Funktionen.
                 Irgendwann in der Zukunft, abhängig vom Aufwand für Fehlerbehebungen, werden diese separaten Versionen jedoch eingestellt werden.
 
                 Prüfe, ob der Hersteller deines Gerätes eine Aktualisierung anbietet. Wenn es keine offizielle Aktualisierung gibt, kann es dennoch möglich sein, ein Custom-ROM zu nutzen, wenn es für dein Gerät verfügbar ist.
-                Wenn nichts zu machen ist, solltest du überlegen ein neueres Gerät zu nutzen, dass mit einer Android-Version 5.0 oder höher ausgestattet ist.
+                Wenn nichts zu machen ist, solltest du überlegen ein neu(er)es Gerät zu nutzen, dass mit einer Android-Version 5.0 oder höher ausgestattet ist.
 
       - id: permissions
         en:
