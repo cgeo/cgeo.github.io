@@ -804,33 +804,29 @@
         en:
             title: I do see a warning in c:geo that my device is no longer supported!
             content: |
-                If you see this message your device is no longer supported and the c:geo version you are using might not work online with [geocaching.com](https://www.geocaching.com) anymore.
-                However you can still use it purely offline (via GPX files and field notes).
-
-                We decided to drop the support of Android versions below 4.1. Only a very minor percentage of our users are affected.
-
-                There are two reasons for this:
+                If you see this message your device will no longer be supported in upcoming c:geo versions.
+                We decided to drop the support of Android versions below 5.0. Only a very minor percentage of our users is affected.
                 
-                On one hand we want to include more features and further improve usability and stability. Newer Android versions offer a lot more possibilities which we simply cannot use if we have to be compatible to e.g. Android 1.6.
-                On the other hand geocaching.com decided to drop the support of older encryption methods (TSL 1.0) and is now only accepting encryption menthods, which are not supported below Android 4.1.
-                
+                The reason for this is, that we want to include more features and further improve usability and stability. Newer Android versions offer a lot more possibilities which we simply cannot use if we have to be compatible to Android 4.
+
+                For an interim period there will still be new c:geo versions on devices running Android 4, but those will only contain important bugfixes and no new feature.
+                At some point in future, depending on the efforts needed for bugfixing, these legacy versions will then finally be discontinued.
+
                 Please check if the manufacturer of your device offers an update for your device. If there is no official update it may also be possible to use a Custom ROM if it is available for your device.
-                If nothing can be done to update your device you should consider using a new(er) device running on Android version 4.1 or above.
+                If nothing can be done to update your device you should consider using a new(er) device running on Android version 5.0 or above.
         de:
             title: Ich sehe eine Warnung in c:geo, dass mein Gerät nicht länger unterstützt wird!
             content: |
-                Wenn du diese Nachricht siehst, wird das Gerät nicht länger unterstützt und diese c:geo-Version könnte für [geoaching.com](https://www.geocaching.com) nicht mehr online funktionieren.
-                Dennoch kannst du sie für reine Offline-Nutzung (mittels GPX-Dateien und Feldnotizen) weiterhin verwenden.
-
-                Wir haben uns entschieden, die Unterstützung von Android-Versionen kleiner als 4.1 aufzugeben. Nur ein sehr geringer Prozentsatz unserer Nutzer sind davon betroffen.
-
-                Es gibt zwei Gründe dafür:
+                Wenn du diese Nachricht siehst, wird dein Gerät in zukünftigen Versionen von c:geo nicht länger unterstützt.
+                Wir haben uns entschieden, die Unterstützung von Android-Versionen kleiner als 5.0 aufzugeben. Nur ein sehr geringer Prozentsatz unserer Nutzer ist davon betroffen.
                 
-                Zum einen möchten wir mehr neue Features einführen und Stabilität und Nutzbarkeit weiter verbessern wollen. Neuere Android-Versionen bieten viel mehr Möglichkeiten, die wir einfach nicht nutzen können, wenn wir beispielsweise zu Android 1.6 kompatibel sein müssen.
-                Zum anderen hat sich Geocaching.com entschieden die Unterstützung für ältere Verschlüsselungen (TSL 1.0) abzuschalten und akzeptiert nun ausschließlich neuere Verschlüsselungen, die erst ab Android 4.1 unterstützt werden.
-                
+                Der Grund dafür ist, dass wir neue Features einführen und Stabilität und Nutzbarkeit weiter verbessern wollen. Neuere Android-Versionen bieten viel mehr Möglichkeiten, die wir einfach nicht nutzen können, wenn wir zu Android 4 kompatibel sein müssen.
+
+                Für eine Übergangszeit wird es weiterhin neue c:geo Versionen für Geräte mit Android 4 geben, diese enthalten allerdings nur wichtige Fehlerbehebungen und keine neuen Funktionen.
+                Irgendwann in der Zukunft, abhängig vom Aufwand für Fehlerbehebungen, werden diese separaten Versionen jedoch eingestellt werden.
+
                 Prüfe, ob der Hersteller deines Gerätes eine Aktualisierung anbietet. Wenn es keine offizielle Aktualisierung gibt, kann es dennoch möglich sein, ein Custom-ROM zu nutzen, wenn es für dein Gerät verfügbar ist.
-                Wenn nichts zu machen ist, solltest du überlegen ein neueres Gerät zu nutzen, dass mit einer Android-Version 4.1 oder höher ausgestattet ist.
+                Wenn nichts zu machen ist, solltest du überlegen ein neu(er)es Gerät zu nutzen, dass mit einer Android-Version 5.0 oder höher ausgestattet ist.
 
       - id: permissions
         en:
