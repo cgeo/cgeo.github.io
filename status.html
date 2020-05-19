@@ -61,6 +61,27 @@ no_edit_link: true
       Premium membership user ratio: <span id="gc-premium">unknown</span>.
     </div>
 
+    <div id="connectors-div">
+      <h1>Connectors information</h1>
+        <table>
+          <thead>
+              <tr>
+                <th>Connector</th>
+                <th># Users</th>
+                <th>% Users</th>
+              </tr>
+          </thead>
+          <tbody id="connectors-body"></tbody>
+          <tfoot>
+            <tr>
+              <td>Total</td>
+              <td id="connectors-total">0</td>
+              <td></td>
+            </tr>
+          </tfoot>
+        </table>
+    </div>
+
     <script type="text/javascript">
         function updateVersions() {
           $.getJSON( "https://status.cgeo.org/api/count/by-kind",
@@ -119,10 +140,42 @@ no_edit_link: true
               }
             });
           window.setTimeout(updateGCMembership, 30000);
+        };
+        function updateConnectorsStat() {
+          $.getJSON("https://status.cgeo.org/api/count/by-connector",
+            function(data) {
+
+              var items = [];
+              var total = data["_withinfo"] + data["_noinfo"];
+
+              // Sort data by amount of users
+              var sortedData = Object.keys(data).map(function(key) {
+                return [key, data[key]];
+              });
+              sortedData.sort(function(first, second) {
+                return second[1] - first[1];
+              });
+
+              for (var [key, value] of sortedData) {
+                if (key.startsWith("_")) {
+                    continue;
+                }
+                var line = [];
+                line.push("<td>" + (key || "(empty)") + "</td>");
+                line.push("<td>" + (value || "") + "</td>");
+                line.push("<td>" + ((100 * value / total).toFixed(1)) + "%</td>");
+                items.push("<tr>" + line.join("") + "</tr>");
+             }
+
+             $("#connectors-body").html(items.join("\n"));
+             $("#connectors-total").text(total);
+            });
+          window.setTimeout(updateConnectorsStat, 30000);
         }
         updateVersions();
         updateMessage();
         updateGCMembership();
+        updateConnectorsStat();
     </script>
   </div>
 </div>
