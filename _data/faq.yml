@@ -3,18 +3,36 @@
       en: Current issues
       de: Aktuelle Probleme
   items:
-      - id: 7230
+      - id: 8097
         en:
-            title: I do not see caches on the live map!
+            title: The map is rotating all the time!
             content: |
-                The live map now requires, that you are logged to a geocaching platform to show caches. Please check your login status.\\
-                You can find more information on how to authorize c:geo to a geocaching platform in our [user guide](https://manual.cgeo.org/en/firststeps).
+                You have accidentally activated the experimental map rotation feature, which does not yet seem to work correct on your device.
+                Please disable the map rotation in Live Map - Menu (three dot button) - Map rotation.
+                
+                We are working on improving this feature in future versions of c:geo.
         de:
-            title: Ich sehe keine Caches auf der Live-Karte!
+            title: Die Karte dreht sich pausenlos!
             content: |
-                Um Caches auf der Live-Karte zu sehen ist es nun erforderlich, dass du bei einer Geocaching-Plattform eingeloggt bist. Bitte prüfe deinen Login-Status.\\
-                Mehr Informationen wie du c:geo mit einer Geocaching-Plattform autorisiert findest du in unserem [Benutzerhandbuch](https://manual.cgeo.org/de/firststeps).
-
+                Du hast aus Versehen die experimentelle Kartenrotation eingeschaltet, die auf deinem Gerät scheinbar noch nicht korrekt funktioniert.
+                Bitte deaktiviere die Kartendrehung in Live-Karte - Menü (Drei-Punkt-Button) - Kartendrehung.
+                
+                Wir arbeiten daran diese Funktion in den kommenden Versionen von c:geo zu verbessern.
+      - id: 8260
+        en:
+            title: The live map does not show all caches!
+            content: |
+                Under certain conditions, i.e. after zooming out to a large area, it might happen, that some areas of the map do not show all existing caches also after 
+                zooming in again. This is a bug we hope to solve with the next update.
+                
+                As a workaround please zoom in to the desired area, leave and reenter the live map to trigger a new loading of caches.
+        de:
+            title: Die Live-Karte zeigt nicht alle Caches!
+            content: |
+                Unter bestimmten Bedingungen, nämlich wenn auf ein großes Gebiet herausgezoomt wird, kann es passieren, dass in einigen Gebieten der Karte nicht alle
+                existierenden Caches angezeigt werden. Dies ist ein Bug, den wir mit dem nächsten Update beheben wollen.
+                
+                Als Zwischenlösung zoome bitte in das gewünschte Gebiet, verlasse die Live-Karte und starte die Live-Karte erneut, damit die fehlenden Caches geladen werde.
       - id: 7533
         en:
             title: I cannot move the geocache data to my SD card!
