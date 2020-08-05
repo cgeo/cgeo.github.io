@@ -343,7 +343,7 @@
 
                 2. The additional data (e.g. images, maps) for all the caches stored in the database:
 
-                    This additional data can be much larger as it contains the images of the cache description and (optionally) the images retrieved from logs and (optionally) static maps. \\
+                    This additional data can be much larger as it contains the images of the cache description and (optionally) and the images retrieved from logs. \\
                     By default this data is stored on the internal user storage in /Android/data/cgeo.geocaching/files/GeocacheData/.
 
                     You can move this data to your external SD card in Menu → Settings → System → "Geocache Data Directory". \\
@@ -370,7 +370,7 @@
 
                 2. Die zusätzlichen Daten (z.B. Bilder, Karten) für alle gespeicherten Caches in der Datenbank:
 
-                    Diese zusätzlichen Daten können viel größer sein, da sie die Bilder der Cachebeschreibung und (optional) die Logbilder und (optional) die statischen Karten enthalten.
+                    Diese zusätzlichen Daten können viel größer sein, da sie die Bilder der Cachebeschreibung und (optional) und die Logbilder enthalten.
                     Die Daten werden standardmäßig auf dem internen Benutzerspeicher abgelegt unter /Android/data/cgeo.geocaching/files/GeocacheData/.
 
                     Du kannst diese Daten über Menü → Einstellungen → System → "Geoache-Daten Verzeichnis" auf die externe SD-Karte verschieben. \\
@@ -964,7 +964,7 @@
                 - Go to c:geo Menu → Settings → Backup/Restore and select to restore the backup
 
                 If you did everything right, now the content of c:geo on the new device should look like on the old device.
-                This includes all caches on your lists with all its contained information (like waypoints, notes, offline logs, etc.) and - if you did the optional step - also all images and static maps.
+                This includes all caches on your lists with all its contained information (like waypoints, notes, offline logs, etc.) and - if you did the optional step - also all images.
         de:
             title: Ich habe ein neues Gerät. Wie übertrage ich alle Inhalte von c:geo vom alten Gerät?
             content: |
@@ -997,7 +997,7 @@
                 - Gehe zu Menü → Einstellungen → Sicherung/Wiederherstellung und wähle die vorhandene Sicherung wiederherzustellen
 
                 Wenn du alles richtig gemacht hast, sollte der Inhalt von c:geo auf dem neuen Gerät genauso aussehen wie auf dem alten Gerät.
-                Dies beinhaltet alle Caches auf deinen Listen mit allen enthaltenen Informationen (wie Wegpunkten, Notizen, Offline-Logs, usw.) und – wenn du den optionalen Schritt ausgeführt hast – auch alle Bilder und statischen Karten.
+                Dies beinhaltet alle Caches auf deinen Listen mit allen enthaltenen Informationen (wie Wegpunkten, Notizen, Offline-Logs, usw.) und – wenn du den optionalen Schritt ausgeführt hast – auch alle Bilder.
 
 - id: gps-and-navigation
   title:
@@ -1416,24 +1416,6 @@
                 Dennoch stellt c:geo auch Offline-Funktionalität zur Verfügung, um es ohne jede Netzverbindung (z.B. beim Cachen im Ausland) zu nutzen.
                 
                 Mehr Informationen findet du im Kapitel [Offline-Caching](https://manual.cgeo.org/de/offline) des c:geo Benutzerhandbuches.
-
-      - id: caches-missing-static-maps
-        en:
-            title: Some caches are missing the static maps!
-            content: |
-                Google limits the download of static maps to 1000 requests per day for a single user.
-                So if you batch download or refresh a lot of caches this limit can be reached easily (because for each cache at least five maps are loaded and optionally even more if you enabled the download also for waypoints of a cache).
-
-                If the limit is reached you will have to wait for the next day to get more static maps. c:geo will automatically refresh those caches without a static map first.
-                You can also consider to switch off static map loading for additional waypoints to limit the amount of maps which are downloaded.
-        de:
-            title: Bei einigen Caches fehlen die statischen Karten!
-            content: |
-                Google begrenzt das Herunterladen von statischen Karten auf 1000 Anfragen pro Tag für jeden Nutzer.
-                Wenn du also viele Caches herunterlädst oder aktualisierst, kann diese Begrenzung einfach erreicht werden (da für jeden Cache mindestens fünf Karten geladen werden – optional sogar mehr, wenn du das Herunterladen auch für Wegpunkte des Caches aktiviert hast).
-
-                Wenn die Begrenzung erreicht ist, musst du bis zum nächsten Tag warten, um mehr statische Karten herunterzuladen. c:geo wird automatisch die Caches ohne statische Karten zuerst aktualisieren.
-                Du solltest auch überlegen, das Herunterladen von statischen Karten für die zusätzlichen Wegpunkte auszuschalten, um die Menge an Karten zu begrenzen.
 
       - id: batch-logging
         en:
