@@ -61,13 +61,14 @@ Please consider this, when using our nightly builds.
 
 As an alternative to Google Play, c:geo can be downloaded from our private [F-Droid](https://f-droid.org/) repository.
 
-We provide two channels, for stable and nightly builds.
+We provide three channels, for stable, nightly and legacy builds.
 
 ### Repositories
 
 URL:
 * `https://fdroid.cgeo.org` for mainline
 * `https://fdroid.cgeo.org/nightly` for nightly builds
+* `https://fdroid.cgeo.org/legacy` for legacy builds
 
 Our repository fingerprint is:
 
