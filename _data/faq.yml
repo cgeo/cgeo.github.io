@@ -3,6 +3,21 @@
       en: Current issues
       de: Aktuelle Probleme
   items:
+      - id: 97
+        en:
+            title: send2cgeo is not working with Google Chrome browser!
+            content: |
+                It seems Google has enforced a restriction which disallows cookie not originated by the same website you are currently viewing.
+                This means, that the registration information for send2cgeo can no longer be stored reliably which makes send2cgeo fail to keep your registration.
+                
+                We are looking into this problem right now. As a workaround please use send2cgeo with Greasemonkey and Firefox.
+        de:
+            title: send2cgeo funktioniert nicht mit dem Google Chrome Browser!
+            content: |
+                Es scheint, dass Google eine Einschränkung nun durchsetzt, die Cookies verbietet, die nicht von der gleichen Webseite stammen, die du gerade betrachtest.
+                Das bedeutet, dass die Registrierungsinformation für send2cgeo nicht mehr zuverlässig gespeichert werden kann. Dies führt dazu, dass send2cgeo deine Registrierung nicht speichert.
+                
+                Wir schauen uns das Problem derzeit an. Als Workaround nutze bitte send2cgeo mit Greasemonkey und Firefox.
       - id: 8097
         en:
             title: The map is rotating all the time!
