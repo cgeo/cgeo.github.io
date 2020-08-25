@@ -13,6 +13,8 @@ Send2cgeo is a script available for Mozilla Firefox and Google Chrome browser. I
 
 [Usage instructions for send2cgeo](#how-to-use-send2cgeo)
 
+[Workaround for Google Chrome](#special-setting-for-google-chrome)
+
 [FAQ for send2cgeo](/faq#send2cgeo)
 
 ## Important Notes/Disclaimer
@@ -36,6 +38,17 @@ The send2cgeo script supports Mozilla Firefox and Google Chrome. Microsoft Inter
 - Tampermonkey will be triggered automatically, confirm the installation when prompted.
 - When a new version of the script is released, your browser will either automatically update it or prompt you to allow the update.
 - Continue with the registration as described below.
+
+## Special setting for Google Chrome
+
+In case you want to use send2cgeo with Google Chrome, you might have to activate a setting in the send2cgeo script to get it working.
+If you are using send2cgeo with Mozilla Firefox you can skip this chapter.
+
+As Google Chrome started to block third-party cookies (which are needed for the script to work) we have implemented a workaround
+into our script. So if the registration (as described in the following chapter) does not work or is lost once you close the browser, you have to use another setting:
+ - After the send2cgeo script has been installed you will find a link called "send2cgeo settings" on the [geocaching.com dashboard page](https://www.geocaching.com/account/dashboard) or the [opencaching.de profile page](https://www.opencaching.de/myhome.php).
+ - Click this link and activate the option "Use send2cgeo without third-party cookies"
+ - You might need to activate this only **after** completing the registration process or turn it off again if you need to re-register the browser or device.
 
 ## Registering browser and device
 
@@ -63,3 +76,5 @@ The send2cgeo script supports Mozilla Firefox and Google Chrome. Microsoft Inter
 - Select Menu → Import → Import from send2cgeo
 - The caches will automatically be downloaded from geocaching.com to the list of saved caches
 - c:geo will continue to wait for more caches to be downloaded for 3 minutes.
+
+

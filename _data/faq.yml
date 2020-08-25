@@ -7,17 +7,11 @@
         en:
             title: send2cgeo is not working with Google Chrome browser!
             content: |
-                It seems Google has enforced a restriction which disallows cookie not originated by the same website you are currently viewing.
-                This means, that the registration information for send2cgeo can no longer be stored reliably which makes send2cgeo fail to keep your registration.
-                
-                We are looking into this problem right now. As a workaround please use send2cgeo with Greasemonkey and Firefox.
+                We implemented a workaround for this problem starting with send2cgeo version 0.51. Please update your script and read the description on our [send2cgeo page](https://www.cgeo.org/send2cgeo#special-setting-for-google-chrome).
         de:
             title: send2cgeo funktioniert nicht mit dem Google Chrome Browser!
             content: |
-                Es scheint, dass Google eine Einschränkung nun durchsetzt, die Cookies verbietet, die nicht von der gleichen Webseite stammen, die du gerade betrachtest.
-                Das bedeutet, dass die Registrierungsinformation für send2cgeo nicht mehr zuverlässig gespeichert werden kann. Dies führt dazu, dass send2cgeo deine Registrierung nicht speichert.
-                
-                Wir schauen uns das Problem derzeit an. Als Workaround nutze bitte send2cgeo mit Greasemonkey und Firefox.
+                Wir haben ab send2cgeo Version 0.51 einen Workaround hierfür eingebaut. Bitte aktualisiere dein Script und lies die Beschreibung auf der [send2cgeo Seite](https://www.cgeo.org/send2cgeo#special-setting-for-google-chrome).                
       - id: 8097
         en:
             title: The map is rotating all the time!
@@ -1350,6 +1344,8 @@
                 It is required to allow third party cookies for send2cgeo.
 
                 Look into your geocaching.com browser tab: If there is a cookie symbol with a red X at the end of the URL dialog, click on it, and in the popup click "Maintain cookie blocking" (or similar) and permit [*.]send2.cgeo.org.
+                
+                For recent versions of Google Chrome you need to apply a workaround which is described on our [send2cgeo page](https://www.cgeo.org/send2cgeo#special-setting-for-google-chrome).
         de:
             title:  Es wird 'Register first' auf der Webseite angezeigt, obwohl ich registriert bin!
             content: |
@@ -1357,6 +1353,8 @@
                 Es ist erforderlich, dass du Drittanbieter-Cookies für send2cgeo erlaubst.
 
                 Schaue in deinen geocaching.com Browser-Tab: Wenn dort ein Cookie-Symbol mit einem roten X am Ende des URL-Eingabefeldes erscheint, dann klicke darauf und klicke im erscheinenden Fenster auf "Maintain cookie blocking" (oder eine entsprechende Meldung in Deutsch) und erlaube [*.]send2.cgeo.org.
+                
+                In neueren Versionen von Google Chrome musst du einen Workaround anwenden, der auf unserer [send2cgeo Seite](https://www.cgeo.org/send2cgeo#special-setting-for-google-chrome) beschrieben ist.
 
 - id: offline-maps
   title:
