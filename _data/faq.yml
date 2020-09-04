@@ -24,11 +24,11 @@
         en:
             title: send2cgeo is not working with Google Chrome browser!
             content: |
-                We implemented a workaround for this problem starting with send2cgeo version 0.51. Please update your script and read the description on our [send2cgeo page](https://www.cgeo.org/send2cgeo#special-setting-for-google-chrome).
+                We implemented a workaround for this problem starting with send2cgeo version 2020.08.26. Please update your script and read the description on our [send2cgeo page](https://www.cgeo.org/send2cgeo#special-setting-for-google-chrome).
         de:
             title: send2cgeo funktioniert nicht mit dem Google Chrome Browser!
             content: |
-                Wir haben ab send2cgeo Version 0.51 einen Workaround hierfür eingebaut. Bitte aktualisiere dein Script und lies die Beschreibung auf der [send2cgeo Seite](https://www.cgeo.org/send2cgeo#special-setting-for-google-chrome).                
+                Wir haben ab send2cgeo Version 2020.08.26 einen Workaround hierfür eingebaut. Bitte aktualisiere dein Script und lies die Beschreibung auf der [send2cgeo Seite](https://www.cgeo.org/send2cgeo#special-setting-for-google-chrome).                
       - id: 8097
         en:
             title: The map is rotating all the time!
