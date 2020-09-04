@@ -18,8 +18,8 @@
                 Ab Version 2020.09.02-RC unterstützt c:geo einen Offline-Fundzähler.
                 Das bedeutet, dass deine Fundzahl auch für Offlinelogs hochgezählt wird. Auf dieser Weise kannst du die Signatur-Vorlage [NUMBERS] nun auch für Offlinelogs nutzen.
                 
-                Um dich an die existierenden Offlinelogs zu erinnern, werden diese separat zu deiner Onlinefundzahl angezeigt.
-                Wenn diese Offline-Fundzahl unerwartet angezeigt wird, hast du wahrscheinlich noch vergangenge Offlinelogs in c:geo gespeichert. Öffne die Liste "Verlauf" und filtere nach "Mit eigenen Informationen" und "Mit Offline-Logs", um die Caches zu sehen, die dies verursachen.                
+                Um dich an die existierenden Offlinelogs zu erinnern, werden diese separat zu deiner Online-Fundzahl angezeigt.
+                Wenn diese Offline-Fundzahl unerwartet angezeigt wird, hast du wahrscheinlich noch vergangenge Offlinelogs in c:geo gespeichert. Öffne die Liste "Verlauf" und filtere nach "Mit eigenen Informationen" und "Mit Offline-Logs", um die Caches zu sehen, die dies verursachen.
       - id: 97
         en:
             title: send2cgeo is not working with Google Chrome browser!
