@@ -110,59 +110,66 @@
         en:
             title: Login failed is shown on the main screen!
             content: |
-                First of all please check carefully whether you entered the correct username and password.
-                You can find this in: \\
-                Menu → Settings → Services \\
-                Afterwards select "Check authentication" (for geocaching.com users only) to see if login is either now possible or what error is returned.
-
-                If you have double-checked your credentials and still get an error message (e.g. Login failed, Unknown Error) one of the following hints might be helpful:
+                First of all please make sure you have a working network connection. c:geo cannot login without internet connection.
                 
-                In case you are using any anti-virus,firewall, adblocker or VPN tool (e.g. F-Secure, AdAway, McAfee, Orbot, Corporate VPNs) please check if this might be blocking or disturbing your internet connection. 
-                Try disabling such tool and check if the login works now.
+                If the problem persits, please go to Menu → Settings → Services select the problematic geocaching service and check, whether you entered the correct username and password.
+                Afterwards select "Check authentication" to see if login is either now possible or what error is returned.
                 
-                Please login on the geocaching website (using your smartphone browser or a PC) and check that your account is not deactivated and your mail address is validated on the website.
+                **Login failed: Wrong username and/or password.**\\
+                In 99% of cases, where this error message is shown, it really means, that you entered wrong credentials. Please carefully check the entered username and password and be aware, that username and password maybe case sensitive. Also some special characters you may use in your username and/or password might look slightly different or can be confused with other characters on your Android keyboard. [This FAQ entry](#forgot-login) describes how to reset your password and/or lookup your username.
+                
+                **Login failed: Captcha required.**\\
+                c:geo has detected, that the geocaching website requires you to solve a captcha to login. c:geo therefore cannot login.
+                geocaching.com might use such captcha after detecting consecutive login failures (e.g. due to wrong password). Please login once using your browser/PC and try again with c:geo after you successfully logged in there.
+                Furthermore geocaching.com might user such captcha, when detecting logins from an suspicious, blacklisted or unidentified IP-address. Such might happen if you use VPN tools, anonymizers (like TOR) or some public Wifi networks. Please deactivate such tools and try again to login with c:geo. You might also want to try logging in with c:geo using a different internet connection (e.g. mobile network instead of Wifi).
+                
+                **Login failed: You must validate your account on the Geocaching.com website first.**\\
+                You mail address and/or your account is not yet or no longer validated on the geocaching server. Please login using your browser or PC and validate your mail adress and/or account on the geocaching website. Afterwards try again to login with c:geo.
+                
+                **Login failed: Unknown error.**\\
+                In case you are using any anti-virus,firewall, adblocker or VPN tool (e.g. F-Secure, AdAway, McAfee, Orbot, Corporate VPNs) please check if this might be blocking or disturbing your internet connection. Try disabling such tool and check if the login works now.
+                Please also check that your phone is working with the correct date and time. If the date is wrong this might lead to problems establishing a secure connection to the server.
+                Sometimes network providers insert messages into the HTML-traffic which prevents c:geo from logging in while on mobile network. A clear indication for this problem is, that c:geo only works on your WiFi connection at home but not while on a mobile network. In this case please go to the c:geo settings Menu → Settings → Services and enable "Identify as Android Browser". Afterwards you might have to restart your phone to be sure these settings take effect.
+                
+                **Further hints:**\\
+                There have been reports, that in rare cases the login still fails although you checked all relevant topics above.
+                In this case we recommend resetting your login by long press on "Authorize c:geo" in the platform settings below Menu → Settings → Services. Afterwards you should restart your device and enter the login data again.
 
-                Please check that your phone is working with the correct date and time. If the date is wrong this might lead to problems establishing a secure connection to the server.
-
-                Sometimes network providers insert messages into the HTML-traffic which prevents c:geo from logging in while on mobile network.
-                A clear indication for this problem is, that c:geo only works on your WiFi connection at home but not while on a mobile network.
-                In this case please go to the c:geo settings Menu → Settings → Services and enable "Identify as Android Browser".
-                Afterwards you might have to restart your phone to be sure these settings take effect.
-
-                There have been reports, that in rare cases the login still fails although the login data is OK and also "Identify as Android browser" did not help.
-                In this case we recommend resetting your login by long press on "Authorize c:geo" in the platform settings below Menu → Settings → Services. Afterwards you should restart your device and enter the login data again as described above.
-
-                As last possibility you can reset c:geo to factory defaults as described [here](#how-to-reset).
-
+                As last resort you can also reset c:geo to factory defaults as described [here](#how-to-reset).
+                
                 If the problem still persists, please contact our [support](/support) and provide a system log.
         de:
             title: Anmeldung fehlgeschlagen wird im Hauptmenü angezeigt!
             content: |
-                Zuallererst prüfe bitte genau, ob du den richtigen Benutzernamen und Passwort angegeben hast.
-                Du findest dies unter:\\
-                Menü → Einstellungen → Dienste\\
-
-                Danach wähle "Authentifizierung überprüfen", um zu sehen, ob die Anmeldung nun entweder funktioniert oder welche Fehlermeldung angezeigt wird.
-
-                Wenn du deine Nutzerdaten geprüft hast, aber weiterhin eine Fehlermeldung bekommst (z.B. Anmeldung fehlgeschlagen, Unbekannter Fehler), könnte einer der folgenden Tipps hilfreich sein:
+                Bitte prüfe zuerst, ob du eine funktionierende Netzwerkverbindung hast. Ohne eine Internetverbindung kann c:geo sich nicht einloggen.
                 
-                Falls du ein Antivirus-,Firewall-, Werbeblocker oder VPN-Tool (z.B. F-Secure, AdAway, McAfee, Orbot, Firmen-VPNs) benutzt, prüfe bitte ob das Tool den Internetverkehr blockiert oder stört.
-                Versuche ein solches Tool zu deaktivieren und erneut zu prüfen, ob die Anmeldung nun funktioniert.            
-
-                Bitte melde dich direkt auf der Geocaching-Website (mit deinem Smartphone-Browser oder PC) an und prüfe, dass dein Zugang dort nicht deaktiviert ist und deine Mail-Adresse auf der Webseite bestätigt ist.
-
-                Bitte prüfe, dass dein Telefon das richtige Datum und die richtige Uhrzeit hat. Wenn das Datum nicht korrekt ist, kann es zu Problemen kommen eine sichere Verbindung zur Webseite aufzubauen.
-
+                Wenn das Problem weiterhin besteht, gehe bitte zu Menü → Einstellungen → Dienste, wähle den problematischen Geocachingdienst aus und prüfe, ob du dort den korrekten Benutzernamen und Passwort eingegeben hast. Wähle dann "Authentifizierung überprüfen", um zu sehen, ob die Anmeldung nun entweder funktioniert oder welche Fehlermeldung angezeigt wird.
+                
+                **Anmeldung fehlgeschlagen: Benutzername und/oder Kennwort falsch.**\\
+                In 99% der Fälle, in denen diese Fehlermeldung angezeigt wird, meint dies in der Tat, dass du Benutzernamen und/oder Kennwort falsch eingegeben hast. Bitte prüfe die eingegebenen Daten genauestens und beachte, die korrekte Groß- und Kleinschreibung bei Benutzername und Kennwort. Beachte auch, dass einige spezielle Zeichen, die du evtl. in deinem Benutzernamen und/oder Kennwort benutzt, auf deiner Android-Tastatur leicht anders aussehen oder verwechselt werden können. [Dieser FAQ-Eintrag](#forgot-login) beschreibt, wie du dein Passwort zurücksetzen und/oder deinen Benutzernamen herausfinden kannst.
+                
+                **Anmeldung fehlgeschlagen: Captcha erforderlich.**\\
+                c:geo hat festgestellt, dass die Geocaching-Webseite das Lösen eines Captcha erfordert. c:geo kann sich daher nicht anmelden.
+                geocaching.com benutzt solche Captchas nach mehreren erfolglosen Anmeldeversuchen (z.B. durch ein falsches Passwort). Bitte melde dich einmalig mit dem Browser/dem PC an und versuche es, nachdem du dich dort erfolgreich angemeldet hast, erneut mit c:geo.
+                Desweiteren benutzt geocaching.com solche Captchas, wenn Anmeldeversuche von verdächtigen, gesperrten oder nicht identifizierbaren IP-Adressen festgestellt werden. Dies kann passieren, wenn du VPN- oder andere Anonymisierungsdienste (z.B. TOR) oder ein öffentliches WLAN nutzt. Bitte deaktiviere solche Dienste und versuche dich erneut mit c:geo anzumelden. Du solltest auch versuchen, dich über eine andere Internetverbindung (z.B. Mobilnetz statt WLAN) anzumelden.
+                
+                **Anmeldung fehlgeschlagen: Die Anmeldedaten müssen zuerst auf Geocaching.com validiert werden.**\\
+                Deine Mailadresse und/oder dein Zugang ist noch nicht oder nicht mehr auf dem Geocaching-Server validiert. Bitte melde dich mit einem Browser oder PC auf der Geocaching-Webseite an und validiere deinen Zugang/deine Mailadresse. Versuche danach erneut dich mit c:geo anzumelden.
+                
+                **Anmeldung fehlgeschlagen: Unbekannter Fehler.**\\
+                Falls du ein Antivirus-,Firewall-, Werbeblocker oder VPN-Tool (z.B. F-Secure, AdAway, McAfee, Orbot, Firmen-VPNs) benutzt, prüfe bitte ob das Tool den Internetverkehr blockiert oder stört. Versuche ein solches Tool zu deaktivieren und erneut zu prüfen, ob die Anmeldung nun funktioniert.
+                Bitte prüfe außerdem, dass dein Telefon das richtige Datum und die richtige Uhrzeit hat. Wenn das Datum nicht korrekt ist, kann es zu Problemen kommen eine sichere Verbindung zur Webseite aufzubauen.
+                
                 Manchmal fügen Netzwerk-Betreiber Nachrichten in den HTML-Verkehr ein, die c:geo davon abhalten sich in einem Mobilfunknetz erfolgreich einzuloggen.
                 Ein klares Indiz für dieses Problem ist, dass c:geo nur mit deiner WLAN-Verbindung funktioniert, aber nicht im Mobilfunk-Netz.
                 Gehe in diesem Fall bitte in das c:geo Menü → Einstellungen → Dienste und aktiviere "Als Android-Browser identifizieren".
                 Danach musst du evtl. dein Telefon neu starten, um sicherzustellen, dass die Einstellung aktiv ist.
-
-                Es gab Berichte, dass in seltenen Fällen die Anmeldung trotz korrekter Nutzerdaten fehlschlägt und auch "Als Android-Browser identifizieren" nicht hilft.
-                In diesem Fall empfehlen wir deine Logindaten zurückzusetzen, indem du lange auf das Feld "c:geo autorisieren" in den Plattform-Einstellungen unter  Menü → Einstellungen → Dienste klickst. Danach solltest du dein Gerät neu starten und die Anmeldedaten wie oben beschrieben neu eingeben.
+                
+                **Weitere Hinweie:**\\
+                Es gibt Berichte, dass in seltenen Fällen die Anmeldung trotz Prüfung aller oben genannten Punkte weiterhin fehlschlägt.
+                In diesm Fall empfehlen wir deine Anmeldedaten in c:geo durch langen Klick auf "c:geo autorisieren" in den Diensteeinstellungen unterhalb von Menü → Einstellungen → Dienste zurückzusetzen, dein Gerät neu zu starten und danach die Anmeldedaten erneut einzugeben.
 
                 Als letzte Möglichkeit kannst du c:geo auf Werkseinstellungen zurückzusetzen, wie es [hier](#how-to-reset) beschrieben ist.
-
                 Wenn das Problem trotz allem weiter besteht, kontaktiere bitte unseren [Support](/support) und stelle uns ein Logfile zur Verfügung.
 
       - id: how-to-reset
