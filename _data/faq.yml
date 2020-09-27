@@ -1555,7 +1555,18 @@
   title:
       en: Device or user specific problems
       de: Geräte- oder benutzerspezifische Probleme
+ 
   items:
+      - id: android11
+        en:
+            title: Does c:geo work with Android 11?
+            content: |
+                Android 11 enforces a new way for storing data, which c:geo does not support yet. For the time being c:geo is using a legacy method to access data on the storage system (e.g. offline maps, imports/exports of GPX, backups, field notes) which seems to work well with Android 11. In parallel we are continuously working to implement the changes enforced by Google for the storage access in future c:geo versions. If you notice any issues on your Android 11 device, please kindly let us know on our support channels.
+        de:
+            title: Funktioniert c:geo mit Android 11?
+            content: |
+                Android 11 erzwingt einen neuen Weg um Daten zu speichern, den c:geo noch nicht unterstützt. Vorläufig nutzt c:geo eine Rückfallmethode, um auf Daten des Speichers (z.B. Offline-Karten, Import/Export von GPX, Sicherungen, Feldnotizen) zuzugreifen, was scheinbar gut funktioniert. Parallel arbeiten wir weiter daran, die von Google erzwungenen Änderungen für den Speicherzugriff in kommenden c:geo Versionen umzusetzen. Wenn du irgendwelche Probleme auf deinem Android 11 Gerät feststellst, lass uns das bitte über unsere Support-Kanäle wissen.
+
       - id: no-premium
         en:
             title: I can't see PM only caches although I am Premium Member!
