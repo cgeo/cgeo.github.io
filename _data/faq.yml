@@ -12,6 +12,8 @@
                 
                 In order to remind you of existing offline logs those are shown separate to your online find count.
                 If this offline number shows up unexpected, you might have some offline logs from the past still stored in c:geo. Open the list "History" and filter "With own information" and "with offline log" to see the caches causing this.
+                
+                If you do no longer need these offline logs you can clear them by selecting Menu → Manage caches → Clear offline logs while on the history list.
         de:
             title: Meine Fundzahl auf dem Hauptbildschirm zeigt zwei Zahlen (z.B. 1234 + 5)!
             content: |
@@ -20,6 +22,8 @@
                 
                 Um dich an die existierenden Offlinelogs zu erinnern, werden diese separat zu deiner Online-Fundzahl angezeigt.
                 Wenn diese Offline-Fundzahl unerwartet angezeigt wird, hast du wahrscheinlich noch vergangenge Offlinelogs in c:geo gespeichert. Öffne die Liste "Verlauf" und filtere nach "Mit eigenen Informationen" und "Mit Offline-Logs", um die Caches zu sehen, die dies verursachen.
+                
+                Wenn du diese Offline-Logs nicht mehr benötigst, kannst du sie löschen indem du Menü → Caches verwalten → Offline-Logs löschen wählst, während du auf der Liste "Verlauf" bist.
       - id: 97
         en:
             title: send2cgeo is not working with Google Chrome browser!
