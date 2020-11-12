@@ -849,7 +849,7 @@
                 At some point in future, depending on the efforts needed for bugfixing, these legacy versions will then finally be discontinued.
 
                 Please check if the manufacturer of your device offers an update for your device. If there is no official update it may also be possible to use a Custom ROM if it is available for your device.
-                If nothing can be done to update your device you should consider using a new(er) device running on Android version 5.0 or above.
+                If nothing can be done to update your device you should consider using a new(er) device running on an Android version as recent as possible.
         de:
             title: Ich sehe eine Warnung in c:geo, dass mein Gerät nicht länger unterstützt wird!
             content: |
@@ -862,7 +862,7 @@
                 Irgendwann in der Zukunft, abhängig vom Aufwand für Fehlerbehebungen, werden diese separaten Versionen jedoch eingestellt werden.
 
                 Prüfe, ob der Hersteller deines Gerätes eine Aktualisierung anbietet. Wenn es keine offizielle Aktualisierung gibt, kann es dennoch möglich sein, ein Custom-ROM zu nutzen, wenn es für dein Gerät verfügbar ist.
-                Wenn nichts zu machen ist, solltest du überlegen ein neu(er)es Gerät zu nutzen, dass mit einer Android-Version 5.0 oder höher ausgestattet ist.
+                Wenn nichts zu machen ist, solltest du überlegen ein neu(er)es Gerät zu nutzen, dass mit einer möglichst aktuellen Android-Version.
 
       - id: permissions
         en:
