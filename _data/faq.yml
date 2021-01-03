@@ -469,34 +469,6 @@
                 Die Standard-Ordner für den GPX-Import und Export kannst du in den Einstellungen von c:geo setzen:\\
                 Menü → Einstellungen → System → "Verzeichnis für GPX-Importe" / "Verzeichnis für GPX-Exporte"
 
-      - id: log-to-devs
-        en:
-            title: How to send a log to the developers?
-            content: |
-                If the app is not working as it should you can send a log to the developers.
-
-                When c:geo crashes or does not work properly it writes debug messages to an Android log if this option is set in c:geo settings.
-                This log contains data of all apps for a short period of time (from several seconds to several minutes).
-                Collecting a log as fast as possible after the crash is essential for us.
-
-                Please note that your device needs to have an Android version below 4.1 to get a proper system log.
-                On higher Android versions Google disabled the logging ability for security reasons except your device is rooted.
-
-                Please find a detailed description of how to get a log in our [GitHub Wiki](https://github.com/cgeo/cgeo/wiki/Send-log-to-developers).
-        de:
-            title: Wie sende ich ein Logfile an die Entwickler?
-            content: |
-                Wenn die App nicht so funktioniert, wie es sein sollte, kannst du ein Logfile an die Entwickler schicken.
-
-                Wenn c:geo abstürzt oder nicht ordnungsgemäß arbeitet, schreibt es Debug-Nachrichten in ein Android-Logfile, wenn dies in den c:geo-Einstellungen aktiviert ist.
-                Dieses Log enthält Nachrichten aller Apps für einen kurzen Zeitabschnitt (von einigen Sekunden bis zu einigen Minuten).
-                Daher ist es wichtig, ein Logfile so schnell wie möglich zu sichern, nachdem das Problem aufgetreten ist.
-
-                Bitte beachte, dass dein Gerät eine Android-Version kleiner als 4.1 haben muss, um ein vernünftiges Logfile zu erzeugen.
-                Bei höheren Android-Versionen hat Google die Log-Funktionalität aus Sicherheitsgründen eingeschränkt (außer dein Gerät ist gerootet).
-
-                Eine detailierte Beschreibung, wie du ein Logfile erstellst findest du in unserem [GitHub-Wiki](https://github.com/cgeo/cgeo/wiki/Send-log-to-developers).
-
       - id: hide-caches
         en:
             title: Can I hide a cache and publish it using c:geo?
