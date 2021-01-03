@@ -1184,46 +1184,22 @@
                 Brouter is a seperate app which works together with c:geo to provide a street navigation to a waypoint or cache.
 
                 In order to use it you need to install the [Brouter](https://play.google.com/store/apps/details?id=btools.routingapp) app on your device.
-                Once installed you need to download the routing information for the geographical area where you want to use it. To do that, please open the Brouter app and use the "Download Manager" to store the needed data.
-
-                c:geo will automatically detect, that Brouter is installed and use it to replace the normally used straight line to a cache on the c:geo map with a routed line following the streets and paths up to the cache.
-                The quality of this routing solely depends on the routing information of Brouter and might not be suitable under all conditions.
-
-                The routing feature is currently limited to a maximum distance of 10km.
+                
+                Setup and usage in c:geo is described in our [user guide](https://manual.cgeo.org/en/brouter).
         de:
             title: Wie nutze ich BRouter mit c:geo?
             content: |
                 Brouter ist eine separate App, die mit c:geo zusammenarbeitet um dir eine Straßennavigation zu einem Wegpunkt oder Cache zur Verfügung stellt.
 
                 Um diese Funktion zu nutzen, musst du die [Brouter](https://play.google.com/store/apps/details?id=btools.routingapp)-App auf deinem Gerät installieren.
-                Nachdem du sie installiert hast, musst du die Routing-Informationen für das von dir gewünschte geographische Gebiet herunterladen. Dazu öffne die Brouter-App und nutze den "Download Manager" um die benötigten Daten zu speichern.
-
-                c:geo wird automatisch feststellen, dass BRouter installiert ist und es dazu nutzen die auf der c:geo-Karte normalerweise angezeigte Luftlinie zum Cache durch eine Linie zu ersetzen, die den Straßen und Wegen zum Cache folgt.
-                Die Qualität dieses Routings hängt ausschließlich von den Routing-Informationen von BRouter ab und könnte in manchen Situationen nicht geeignet sein.
-
-                Die Routing-Funktion ist derzeit auf eine maximale Entfernung von 10km begrenzt.
+                
+                Die Konfiguration und Nutzung in c:geo ist in unserem [Benutzerhandbuch](https://manual.cgeo.org/de/brouter) beschrieben.
 
 - id: live-map
   title:
       en: Live Map
       de: Live-Karte
   items: 
-      - id: map-found-shown
-        en:
-            title: My owned/found caches are still shown!
-            content: |
-                Although you activated the option to hide your owned/found caches in c:geo there are some situations where some of them might still be shown on the live map.
-                This is the same as in the live map on the geocaching website: If you zoom out to a huge area own/found caches will no longer be hidden.
-
-                Please zoom in to allow c:geo to detect own/found and hide them.
-        de:
-            title: Meine eigenen/gefundenen Caches werden immer noch angezeigt!
-            content: |
-                Obwohl du die Option aktiviert hast, dass eigene und gefunden Caches ausgeblendet werden, gibt es einige Situationen, bei denen einige dieser Caches dennoch auf der Live-Karte angezeigt werden.
-                Das ist genau so wie in der Live-Karte auf der Geocaching-Webseite: Wenn du in ein großes Gebiet herauszoomst, werden eigene/gefunden Caches nicht mehr ausgeblendet.
-
-                Bitte weiter hereinzoomen, damit c:geo in der Lage ist, deine eigenen/gefundenen Caches zu erkennen und auszublenden.
-
       - id: map-no-caches
         en:
             title: The live map is not showing any caches!
@@ -1255,7 +1231,7 @@
                 
                 A button will be shown on the screen to allow to install/update Google Play Services on your device. This requires a Google account and access to the Google Play Store app.
                 
-                If you do not want or cannot install it, you can use the OSM map supported in c:geo. Simply click the map icon in the title bar and change to "OSM:Map".
+                If you do not want or cannot install it, you can use one of the OSM maps supported in c:geo. Simply click the map icon in the title bar and change to another map source than Google.
         de:
             title: Statt der Karte wird "c:geo won't run unless you install/update Google Play services" angezeigt!
             content: |
@@ -1264,7 +1240,7 @@
 
                 Es wird auf dem Bildschirm eine Schaltfläche angezeigt, die es dir erlaubt die Google Play Dienste zu installieren/aktualisieren. Dazu wird ein Google-Konto und Zugriff auf den Google Playstore benötigt.
                 
-                Wenn du dies nicht installieren kannst oder möchtest, kannst du stattdessen die OSM-Karten nutzen, die von c:geo unterstützt werden. Klicke hierzu einfach auf das Kartensymbol in der Titelzeile und wähle "OSM:Karte" aus.
+                Wenn du dies nicht installieren kannst oder möchtest, kannst du stattdessen eine der OSM-Karten nutzen, die von c:geo unterstützt werden. Klicke hierzu einfach auf das Kartensymbol in der Titelzeile und wähle eine andere Karte anstatt Google aus.
                 
 - id: send2cgeo
   title:
@@ -1346,25 +1322,26 @@
       en: Offline maps
       de: Offline-Karten
   items:
-      - id: osm
+      - id: offline-maps
         en:
-            title: What is OSM:Offline?
+            title: What are offline maps?
             content: |
-                OSM:Offline maps offer you the possibility to use all the map functionality of c:geo even when your device is not connected to the Internet. This can be useful e.g. in case of roaming to avoid expensive data transfer or when you are in regions without or with slow network connection.
+                Offline maps offer you the possibility to use all the map functionality of c:geo even when your device is not connected to the Internet. This can be useful e.g. in case of roaming to avoid expensive data transfer or when you are in regions without or with slow network connection.
                 We have implemented a support of mapsforge maps, which uses vector maps based on OpenStreetMap data.
 
                 In combination with caches already stored in c:geo (manually or via GPX import) and the possibility for offline logging (e.g. for later fieldnote export) you will get a full offline solution for caching.
+                
         de:
-            title: Was ist OSM:Offline?
+            title: Was sind Offline-Karten?
             content: |
-                OSM:Offline-Karten geben dir die Möglichkeit alle Karten-Funktionen von c:geo zu nutzen, wenn dein Gerät nicht mit dem Internet verbunden ist. Das kann z.B. im Ausland sehr hilfreich sein, um teure Datenübertragung zu vermeiden, oder wenn du in Regionen ohne oder mit nur langsamer Verbindung bist.
+                Offline-Karten geben dir die Möglichkeit alle Kartenfunktionen von c:geo zu nutzen, wenn dein Gerät nicht mit dem Internet verbunden ist. Das kann z.B. im Ausland sehr hilfreich sein, um teure Datenübertragung zu vermeiden, oder wenn du in Regionen ohne oder mit nur langsamer Verbindung bist.
                 Wir haben eine Unterstützung von Mapsforge-Karten implementiert, die Vektor-Karten auf der Grundlage von OpenStreetMap bereitstellen.
 
                 In Kombination mit Caches, die auf deinem Gerät (manuell oder per GPX-Import) gespeichert sind, und der Möglichkeit Caches offline zu loggen (z.B. für späteren Export der Feldnotizen), hast du damit eine vollständige Offline-Lösung fürs Cachen.
 
       - id: osm-howto
         en:
-            title: How to use an OSM:Offline map with c:geo?
+            title: How to use an offline map with c:geo?
             content: |
                 Once you downloaded or created a map, store it into a folder (e.g. /mfmaps) on your device or SD card. You can also store multiple maps (e.g. for several countries) into this folder to have easy access later directly from c:geo.
                 If you are additionally using the app [Locus](https://play.google.com/store/apps/details?id=menion.android.locus) it is useful to store the maps in /Locus/mapsVector to have them accessible for Locus as well as for c:geo.
@@ -1372,7 +1349,7 @@
                 The procedure of how to configure c:geo to use this map can be found in our [user guide](https://manual.cgeo.org/en/offlinemaps).
 
         de:
-            title: Wie benutze ich eine OSM:Offline-Karte in c:geo?
+            title: Wie benutze ich eine Offline-Karte in c:geo?
             content: |
                 Nachdem du eine Karte heruntergeladen oder erstellt hast, speichere sie in einem Ordner (z.B. /mfmaps) auf deinem Gerät oder der SD-Karte. Du kannst auch mehrere Karten (z.B. für mehrere Länder) in diesem Ordner speichern, und kannst später in c:geo einfach zwischen diesen Karten wechseln.
                 Wenn du auch die App [Locus](https://play.google.com/store/apps/details?id=menion.android.locus) nutzt, ist es hilfreich die Karten im Ordner /Locus/mapsVector zu speichern, damit sie für Locus und c:geo nutzbar sind.
