@@ -8,7 +8,7 @@
             title: I cannot find the map related settings!
             content: |
                 Starting with 2020.12.22-RC we started to clean up the map settings menu.
-                Therefore we moved all map related settings (such as hiding of certain caches/waypoints, map circles, routing setting, etc.) from the menu tree to a common easily accesible quick menu.
+                Therefore we moved all map related settings (such as hiding of certain caches/waypoints, map circles, routing setting, etc.) from the menu tree to a common easily accessible quick menu.
                 
                 You will find the new quick settings by clicking on the gear icon at bottom center of the map.
                 
