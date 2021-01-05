@@ -3,6 +3,25 @@
       en: Current issues
       de: Aktuelle Probleme
   items:
+      - id: quick-settings
+        en:
+            title: I cannot find the map related settings!
+            content: |
+                Starting with 2020.12.22-RC we started to clean up the map settings menu.
+                Therefore we moved all map related settings (such as hiding of certain caches/waypoints, map circles, routing setting, etc.) from the menu tree to a common easily accesible quick menu.
+                
+                You will find the new quick settings by clicking on the gear icon at bottom center of the map.
+                
+                More information can be found in our [user guide](https://manual.cgeo.org/en/mainmenu/livemap#map_settings).
+        de:
+            title: Ich kann die kartenspezifischen Einstellungen nicht mehr finden!
+            content: |
+                Ab Version 2020.12.22-RC haben wir damit begonnen die Karteneinstellungen aufzuräumen.
+                Daher haben wir alle kartenspezifischen Einstellungen (wie z.B. das Verbergen bestimmter Caches/Wegpunkte, Kreise um Caches, Routeneinstellungen) aus dem Menübaum in ein gemeinsames einfach zugreifbares Schnelleinstellungsmenü verschoben.
+                
+                Du findest die neuen Schnelleinstellungen durch einen Klick auf das Zahnrad-Symbol unten mittig auf der Karte.
+                
+                Weitere Informationen findest du in unserem [Benutzerhandbuch](https://manual.cgeo.org/de/mainmenu/livemap#map_settings).
       - id: offlinecount
         en:
             title: My find count on homescreen shows two numbers (e.g. 1234 + 5)!
