@@ -1,8 +1,35 @@
 - id: temporary-issues
   title:
-      en: Current issues
-      de: Aktuelle Probleme
+      en: Current issues and changes
+      de: Aktuelle Probleme und Änderungen
   items:
+      - id: cache_menu
+        en:
+            title: I am missing some functions from the cache menu!
+            content: |
+                Starting with 2021.01.24-RC we optimized the really long list of menu items behind the three-dot-button while looking at a cache.
+                We tried our best to find a reasonable distribution of some functions into submenus. Additionally we removed some funcions from that menu, which are also accessible by other means. The following list should help you if you miss a function:
+                
+                Extract waypoints, Prevent waypoints → Moved to submenu "Waypoint"
+                
+                Share cache, Export GPX, Export Field Note -> Moved to submenu "Share/Export"
+                
+                Caches around, Vote, Ignore cache → Moved into submenu "Advanced"
+                
+                Store, Remove, Refresh → These items have been removed from the menu. You can simply use the disc/pen/trashcan icons on the cache details page
+        de:
+            title: Ich vermisse einige Funktionen des Cache-Menüs!
+            content: |
+                Ab Version 2021.01.24-RC haben wir die wirklich lange Liste von Menüeinträgen hinter dem Drei-Punkt-Symbol auf der Cacheseite optimiert.
+                Wir haben unser Bestes gegeben um eine vernünftige Verteilung einiger Funktionen in Untermenüs zu finden. Zusätzlich haben wir einige Funktionen aus diesem Menü entfnernt die auch über andere Wege zu erreichen sind. Die folgende Liste hilft dir, wenn du eine Funktion vermisst:
+                
+                Wegpunkte extrahieren, Wegpunkte verhinden → Verschoben in das Untermenü "Wegpunkte"
+                
+                Cache teilen, GPX exportieren, Field Note exportieren -> Verschoben in das Untermenü "Teilen/Exportieren"
+                
+                Caches im Umkreis, Bewerten, Cache ignorieren → Verschoben in das Untermenü "Erweitert"
+                
+                Speichern, Löschen, Aktualisieren → Diese Einträge wurden entfernt. Du kannst einfach die Diskette/Stift/Mülleimer-Symbole auf der Cache-Details Seite nutzen.
       - id: quick-settings
         en:
             title: I cannot find the map related settings!
