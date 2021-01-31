@@ -94,19 +94,6 @@
                 Bitte deaktiviere die Kartendrehung in Live-Karte - Menü (Drei-Punkt-Button) - Kartendrehung.
                 
                 Wir arbeiten daran diese Funktion in den kommenden Versionen von c:geo zu verbessern.
-      - id: 8071
-        en:
-            title: The "Go to" menu does not work as it used to!
-            content: |
-                Starting with version 2020.03.07 we aligned the working mode of the "Go to" menu to the look and feel of the waypoint tab of a cache.
-                
-                You can still use it for creating custom waypoints and doing coordinate projections. Check the chapter [waypoint tab](https://manual.cgeo.org/en/cachedetails#waypoint_tab) in our user guide to learn how to do this.
-        de:
-            title: Das "Gehe zu"-Menü funktioniert nicht mehr wie früher!
-            content: |
-                Mit Version 2020.03.07 haben wir die Funktionsweise des "Gehe zu"-Menüs an die Funktionsweise des Wegpunkt-Reiters eines Caches angepasst.
-                
-                Du kannst es weiterhin zur Erstellung eigener Wegpunkte und für Peilungen nutzen. Schau in das Kapitel [Wegpunkte](https://manual.cgeo.org/de/cachedetails#wegpunkte) unseres Benutzerhandbuches um Herauszufinden, wie es funktioniert.
 
 - id: getting-started
   title:
@@ -122,7 +109,6 @@
             title: Ich bin neu beim Geocaching. Wie funktioniert das alles?
             content: |
                 Informationen zur Nutzung von c:geo findest du in unserem [Benutzerhandbuch](https://manual.cgeo.org).
-
       - id: forgot-login
         en:
             title: I forgot my username and/or password!
@@ -140,7 +126,6 @@
                 Du musst also auf die Geocaching-Webseite gehen, um dein Passwort zurückzusetzen. Nachdem du es dort erfolgreich zurückgesetzt hast, gehe bitte in die c:geo-Einstellungen und gib die neuen Nutzerdaten dort ein.
 
                 Für [geocaching.com](https://www.geocaching.com/) kannst du beispielsweise [auf dieser Seite](https://www.geocaching.com/account/signin/requestpassword) dein Passwort zurücksetzen. Wenn du deinen Benutzernamen vergessen hast, kannst du ihn auf [dieser Seite](https://www.geocaching.com/account/signin/requestusername) abfragen.
-
       - id: login-failed
         en:
             title: Login failed is shown on the main screen!
@@ -206,7 +191,6 @@
 
                 Als letzte Möglichkeit kannst du c:geo auf Werkseinstellungen zurückzusetzen, wie es [hier](#how-to-reset) beschrieben ist.
                 Wenn das Problem trotz allem weiter besteht, kontaktiere bitte unseren [Support](/support) und stelle uns ein Logfile zur Verfügung.
-
       - id: how-to-reset
         en:
             title: How to reset c:geo to factory defaults?
@@ -251,7 +235,6 @@
 
                 Du kannst das gewünschte System aber auch in den c:geo-Einstellungen setzen:\\
                 c:geo Menü → Einstellungen → Erscheinungsbild → "Imperiale Einheiten"
-
       - id: cache-info-missing
         en:
             title: Why do the cache details miss new information?
@@ -265,7 +248,6 @@
                 Um den Netzwerk-Verkehr zu minimieren, lädt c:geo die Caches nur einmalig herunter und speichert sie temporär oder permanent (wenn du sie in deinen Listen speicherst).
 
                 Wenn du also einige Informationen vermisst (z.B. die neuesten Logs fehlen, die Beschreibung hat sich geändert, usw.), aktualisiere bitte den gespeicherten Cache, indem du die Schaltfläche zum Aktualisieren auf der Cache-Details Seite wählst.
-
       - id: coords-wrong
         en:
             title: Why are all cache coordinates wrong by some meters/feet?
@@ -279,7 +261,6 @@
                 Wenn du mit c:geo nicht korrekt eingeloggt bist, liefert die Geocaching-Webseite keine korrekten Koordinaten. Es sieht also so aus, als ob du entweder keine Anmeldedaten hinterlegt hast oder deine Anmeldedaten nicht korrekt sind.
 
                 Bitte schau unter [Erste Schritte](#newbie), um herauszufinden, wie du dich mit c:geo einloggst.
-
       - id: why-no-api
         en:
             title: Why does c:geo not use Groundspeak's public API?
@@ -319,7 +300,6 @@
 
                 Obwohl das API von Groundspeak einige unserer aktuellen Probleme beheben würde, würde c:geo die Nutzer dann zwingen Geld an eine Firma zu zahlen. Das entspricht nicht dem Geist der quelloffenen Anwendungen.
                 Wenn Groundspeak mit unseren Ideen einverstanden ist, könnte c:geo eines Tages auch das API nutzen...
-
       - id: website-english
         en:
             title: The geocaching website is always switched to English!
@@ -335,7 +315,6 @@
                 Um Informationen von der Webseite abzurufen, benötigt es verlässliche Informationen. Daher ändert c:geo die Spracheinstellung beim Einloggen auf Englisch, da es nicht möglich ist, alle verschiedenen Sprachen zu unterstützen.
 
                 Du kannst jederzeit die Sprache auf der Webseite wieder auf deine gewünschte Sprache umstellen, wenn du sie benutzt. c:geo wird dies feststellen und beim nächsten Einloggen wieder auf Englisch zurückschalten.
-
       - id: unknown-location
         en:
             title: Unknown Location is shown on the main screen!
@@ -354,20 +333,6 @@
 
                 Wenn du möchtest, kannst du die Adressinformation auch in den c:geo-Einstellungen abschalten, so dass dir stattdessen die Koordinaten im Hauptmenü angezeigt werden: \\
                 Menü → Einstellungen → Erscheinungsbild → "Ort statt Koordinaten"
-                
-      - id: picture-storage
-        en:
-            title: What is the storage path for log pictures taken with c:geo?
-            content: |
-                If you select to take a new picture it will be saved to a directory which follows a system default. \\
-                On most devices it can be found in a directory "/sdcard/Picures/cgeo".
-
-        de:
-            title: Wo werden Logbilder abgespeichert, die ich mit c:geo aufgenommen habe?
-            content: |
-                Wenn du ein neues Bild aufnimmst, wird es abhängig von deinem Gerät unterhalb des Standard-Bilderverzeichnises abgelegt. \\
-                Auf den meisten Geräten kannst du es im Verzeichnis "/sdcard/Pictures/cgeo" finden.
-
       - id: edit-logs
         en:
             title: Is it possible to edit an existing geocache log with c:geo?
@@ -379,7 +344,6 @@
             content: |
                 Nein, das ist nicht möglich und wir planen derzeit nicht dies einzubauen.
                 Bitte nutze für das Bearbeiten von Logs, die du schon gesendet hast, die Geocaching-Webseite.
-
       - id: data-on-sd
         en:
             title: How can I store c:geo data on my SD card?
@@ -407,7 +371,6 @@
                     - The initial moving of the geocache data might take a long time depending on the amount of data to be moved.
                       Please don't interrupt the process and make sure your device is sufficiently charged.
                     - If you remove the external SD card or the SD card is full the additional geocache data will no longer be available and c:geo might no longer work as expected.
-
         de:
             title: Wie kann ich Daten von c:geo auf der externen SD-Karte abspeichern?
             content: |
@@ -434,7 +397,6 @@
                     - Das Verschieben der Geocache-Daten kann, je nach Menge der zu verschiebenden Daten, eine ganze Weile dauern.
                       Bitte unterbrich diesen Prozess nicht und stelle sicher, dass dein Gerät ausreichend geladen ist.
                     - Wenn du die externe SD-Karte entfernst oder sie voll ist, werden die Geocache-Daten nicht mehr verfügbar sein und c:geo könnte nicht mehr so wie erwartet funktionieren.
-
       - id: facebook-login
         en:
             title: Can I login using my Facebook or Google account?
@@ -454,7 +416,6 @@
                 Wenn du dich bislang nur über Facebook oder Google bei geocaching.com angemeldet hast, gehe bitte auf ihre [Passwort-Reset Seite](https://www.geocaching.com/account/signin/requestpassword) und fordere dort ein reguläres Passwort an.
                 Bitte beachte, dass du dich erst auf der Geocaching-Seite ausloggen musst um die Passwort-Reset Seite zu erreichen.
                 Wenn du dieses Passwort erhalten hast, kannst du es zusammen mit deinem Benutzernamen in c:geo für die Anmeldung verwenden.
-
       - id: facebook-share
         en:
             title: Can c:geo post to Facebook?
@@ -476,7 +437,6 @@
                 Wenn du dies machst, werden alle Tweets auch auf Facebook gepostet (inklusive der c:geo-Tweets).
 
                 Mehr Informationen dazu findest du auf der [Twitter-Support Webseite](https://support.twitter.com/articles/31113-using-twitter-with-facebook/).
-
       - id: translation-missing
         en:
             title: Translations are missing or wrong!
@@ -492,29 +452,6 @@
                 Wenn dir nicht übersetzte (also nur in Englisch vorhandene) oder falsche Wörter auffallen oder deine Sprache noch gar nicht unterstützt wird, bist du eingeladen uns auf dieser Plattform zu unterstützen!
 
                 Lege dazu einfach einen kostenlosen Zugang bei [Crowdin](https://crowdin.com/) an und füge Übersetzungen hinzu oder stimme über existierende Vorschläge in [unserem c:geo-Crowdin-Projekt](https://crowdin.com/project/cgeo) ab.
-
-      - id: gpx-search-long
-        en:
-            title: Scanning for GPX files takes a long time!
-            content: |
-                c:geo scans the whole SD card if it cannot find gpx files in the predefined folder.
-                If you have a lot of files and folders on your SD card this scanning might take some time.
-
-                It is useful to put all of your gpx files into a specific folder and set this as the default import directory for gpx imports. This folder will be scanned first which will speed up the process.
-
-                You can specify the GPX import and export folders in the settings of c:geo: \\
-                Menu → Settings → System → "GPX Export Directory" / "GPX Import Directory"
-        de:
-            title: Die Suche nach GPX-Dateien dauert sehr lange!
-            content: |
-                c:geo durchsucht die gesamte SD-Karte, wenn es keine GPX-Dateien in einem voreingestellten Ordner findet.
-                Wenn du viele Dateien und Ordner auf deiner SD-Karte hast, kann diese Suche eine Weile dauern.
-
-                Es ist daher hilfreich, wenn du alle deine GPX-Dateien in einem speziellen Ordner speicherst und diesen als Standard-Ordner für GPX-Importe in c:geo angibst. Dieser Ordner wird als erstes durchsucht, was den Prozess beschleunigt.
-
-                Die Standard-Ordner für den GPX-Import und Export kannst du in den Einstellungen von c:geo setzen:\\
-                Menü → Einstellungen → System → "Verzeichnis für GPX-Importe" / "Verzeichnis für GPX-Exporte"
-
       - id: hide-caches
         en:
             title: Can I hide a cache and publish it using c:geo?
@@ -538,7 +475,6 @@
 
                 Wenn du z.B. einen Beta-Test eines noch nicht veröffentlichten Caches machen möchtest, kannst du noch nicht Online auf den Cache zugreifen (da er noch nicht veröffentlicht ist), aber du kannst den Cache per GPX-Datei importieren oder die Wegpunkte manuell zu einem auf deinem Gerät gepeicherten Cache hinzufügen.
                 Weiterhin kannst du deine eigenen unveröffentlichten Caches mit c:geo öffnen, indem du online nach dem Geocode suchst.
-
       - id: not-able-to-post-log
         en:
             title: I am not able to post my log online!
@@ -560,7 +496,6 @@
                 Um dein Log auf dem Gerät zu speichern, drücke einfach die Zurück-Taste. Um es später zu senden, rufe erneut die Logseite in c:geo auf.
 
                 Du kannst gespeicherte Logs auch zu einem späteren Zeitpunkt in einem Rutsch als Feldnotizen auf die Geocaching-Webseite hochladen.
-
       - id: hide-pm-caches
         en:
             title: How can I hide PM only caches?
@@ -578,7 +513,6 @@
 
                 Die einzige Möglichkeit sie in deinen Listen und Suchresultaten auszublenden, ist es, einen lokalen Filter in c:geo zu setzen:\\
                 Menü → Filter → Status → "Für alle Mitglieder"
-  
       - id: stopped-working
         en:
             title: c:geo suddenly stopped working!
@@ -618,8 +552,6 @@
                 Prüfe, ob es irgendeine Mitteilung über Probleme mit c:geo im c:geo-Hautpmenü gibt und schaue auch auf unsere [Facebook-Seite](https://www.facebook.com/android.geocaching), um zu sehen, ob andere Nutzer auch ein Problem haben oder wir bereits von dem Problem wissen.
 
                 Wenn dein Problem immer noch nicht behoben ist, [kontaktiere](./support) uns bitte mit einer detailierten Fehlerbeschreibung und den Punkten, die du bereits geprüft hast. Wir bemühen uns so schnell wie möglich zu antworten.
-
-
       - id: nearby-far-away
         en:
             title: The nearby search also returns caches far away!
@@ -639,7 +571,6 @@
                 Wenn du nun allerdings eine Opencaching-Plattform in einem anderen Land aktivierst (z.B. du wohnst in Deutschland, aber hast opencaching.ro für Rumänien aktiviert), werden in der Nahbereichsliste auch Caches dieser Plattform angezeigt, die mehrere hundert Kilometer entfernt liegen, da dies die nächstgelegenen Caches auf dieser Plattform sind.
                 In diesem Fall deaktiviere bitte die nicht benötigten Opencaching-Plattformen unter:\\
                 Menü → Einstellungen → Dienste → opencaching.xx
-
       - id: no-coords
         en:
             title: c:geo does not know the location of a cache!
@@ -669,7 +600,6 @@
                 Um das alles zu vermeiden und als Basis-Mitglied genaue Koordinaten zu erhalten, musst du die Cache-Details öffnen oder den Geocache auf deinem Gerät speichern. Dies ruft automatisch die genauen Koordinaten ab.
 
                 Wenn du Premium-Mitglied bist, aber c:geo dennoch die Koordinaten eines Caches nicht kennt, dann prüfe bitte deine [Anmeldedaten](#login-failed) in c:geo und melde dich neu an, damit c:geo merkt, dass du Premium-Mitglied bist.
-
       - id: ignore-cache
         en:
             title: What is the "Ignore cache" function and how does it work?
@@ -691,7 +621,6 @@
                 Danach wird dieser Caches nicht mehr in den Suchergebnissen und auf der Live-Karte angezeigt. Weiterhin wird er von deinem Gerät gelöscht, wenn er vorher gespeichert war.
 
                 Diesen Cache nicht mehr zu ignorieren, ist nur noch möglich, indem du die Liste der ignorierten Caches in deiner [Lesezeichen-Übersicht](https://www.geocaching.com/bookmarks/) auf geocaching.com öffnest und den Cache von dieser Liste löscht.
-
       - id: delete-account
         en:
             title: How to delete my account?
@@ -703,7 +632,6 @@
             content: |
                 c:geo ist nur ein Browser für verschiedene Geocaching-Plattformen und hat keine eigenen Zugänge oder Anmeldungen.
                 Um deinen Zugang zu deaktivieren oder löschen, musst du die Webseite der von dir genutzten Geocaching-Plattform aufsuchen (z.B. [diese Seite](https://www.geocaching.com/account/settings/membership) auf geocaching.com).
-
       - id: modified-coords
         en:
             title: How to manage my solved mysteries in c:geo?
@@ -732,7 +660,6 @@
                 Natürlich funktioniert das auch andersherum:\\
                 Öffne einen Cache mit c:geo und erstelle einen neuen Wegpunkt mit den realen Final-Koordinaten. Bevor du diesen speicherst, wähle die Option "Als Cache-Koordinaten in c:geo und auf der Webseite setzen" aus.\\
                 Nachdem du den Wegpunkt gespeichert hast, werden die realen Final-Koordinaten auf die Webseite hochgeladen.
-
       - id: missing-data-gpx
         en:
             title: Missing data after import of caches via GPX (PQ)!
@@ -766,7 +693,6 @@
                 - Trackable-Inventar
 
                 Diese Informationen kannst du mit einer Aktualisierung einzelner oder der gesamten Cache-Liste herunterladen.
-
       - id: projection
         en:
             title: How to perform a coordinate projection with c:geo?
@@ -788,7 +714,6 @@
 
                 Wenn du eine Projektion für einen existierenden Wegpunkt durchführen willst, funktioniert dies nur bei nutzerdefinierten Wegpunkten.
                 Wenn der Wegpunkt vom Owner vorgegeben ist, musst du zuerst den Wegpunkt duplizieren. Dazu wähle "Dupliziere Wegpunkt" nachdem du auf die Koordinaten des Wegpunktes geklickt hast.
-                
       - id: gcvote
         en:
             title: What is GCVote?
@@ -826,7 +751,6 @@
 
                 If you are on a minimum Android version of 4.1 but your device has no GPS and you still want to install c:geo on it, you have to install c:geo manually by downloading the APK file [here](https://github.com/cgeo/cgeo/releases/latest).
                 But be aware, that you cannot navigate to caches without GPS!
-
         de:
             title: Ich kann c:geo nicht über Google Play installieren!
             content: |
@@ -838,7 +762,6 @@
 
                 Wenn du ein Gerät mit einer Android-Version von mindestens 4.0 nutzt, das aber kein GPS unterstützt, und dennoch c:geo darauf installieren möchtest, musst du c:geo manuell durch Herunterladen der [APK-Datei](https://github.com/cgeo/cgeo/releases/latest) installieren.
                 Bitte beachte, dass eine Navigation zu einem Cache ohne GPS nicht möglich ist!
-
       - id: legacy
         en:
             title: I do see a warning in c:geo that my device is no longer supported!
@@ -866,7 +789,6 @@
 
                 Prüfe, ob der Hersteller deines Gerätes eine Aktualisierung anbietet. Wenn es keine offizielle Aktualisierung gibt, kann es dennoch möglich sein, ein Custom-ROM zu nutzen, wenn es für dein Gerät verfügbar ist.
                 Wenn nichts zu machen ist, solltest du überlegen ein neu(er)es Gerät zu nutzen, dass mit einer möglichst aktuellen Android-Version ausgestattet ist.
-
       - id: permissions
         en:
             title: Why does c:geo need the requested permissions on my device?
@@ -892,7 +814,6 @@
                 2. Fotos/Medien/Dateien
 
                     c:geo schreibt Daten in deinen Telefonspeicher oder die SD-Karte, sobald Geocaches zur Offline-Nutzung gespeichert werden. Weiterhin nutzt c:geo den Telefonspeicher für Import und Export von Dateien und das Lesen von Offline-Karten.
-
       - id: install-older
         en:
             title: I want to install an older version of c:geo!
@@ -914,7 +835,6 @@
 
                 Wenn du dennoch eine alte Version installieren möchtest (z.B. zu Testzwecken), findest du die Versionshistorie mit Download-Option in unserer [Github Release-Historie](https://github.com/cgeo/cgeo/releases/).
                 Bitte beachte, dass eine neuere Version vor der Installation einer älteren Version deinstalliert werden muss. Ein Downgrade ist nicht möglich.
-
       - id: install-without-play
         en:
             title: I don't use Google Play but still want to use c:geo!
@@ -924,7 +844,6 @@
             title: Ich nutze Google Play nicht, möchte aber dennoch c:geo nutzen!
             content: |
                 Du kannst die neueste Version von c:geo auch direkt [hier](https://github.com/cgeo/cgeo/releases/latest/) herunterladen.
-
       - id: ios
         en:
             title: Is c:geo available for iOS or Windows Phone?
@@ -938,25 +857,6 @@
                 Nein, c:geo ist für Android geschrieben und hat mehr als 50.000 Code-Zeilen. Wir werden es nicht nach iOS oder auf andere Nicht-Android-Systeme portieren, weil es für uns einfach zu viel Arbeit ist. Weiterhin ist der iOS-Appstore bzw. Apple sehr restriktiv und die meisten von uns mögen das nicht.
 
                 Aber c:geo ist quelloffen! Das bedeutet, dass jeder den Quellcode von [GitHub](https://github.com/cgeo/cgeo) beziehen und ihn dann für andere Betriebssysteme umschreiben kann. Du kannst gerne den Code portieren (und warten), aber beachte die [OpenSource-Lizenzbedingungen](./development)
-
-      - id: blackberry
-        en:
-            title: Does c:geo work on Blackberry devices?
-            content: |
-                Although there is no native c:geo app for Blackberry OS you can still run c:geo on it.
-                The current version of Blackberry OS supports sideloading of Android applications.
-
-                Just download the Android APK file [here](https://github.com/cgeo/cgeo/releases/latest) and install it to your Blackberry phone. Instructions about sideloading Android applications can be found in the Internet.
-                But please be aware, that we cannot give a guarantee that all features are working and can't provide support in case of problems.
-        de:
-            title: Funktioniert c:geo mit Blackberry-Geräten?
-            content: |
-                Obwohl es keine native c:geo App für Blackberry OS gibt, kannst du dennoch c:geo darauf laufen lassen.
-                Die aktuelle Version des Blackberry OS unterstützt das Installieren von Android-Applikationen.
-
-                Lade also einfach die Android-APK-Datei [hier](https://github.com/cgeo/cgeo/releases/latest) herunter und installiere sie auf dein Blackberry-Telefon. Anleitungen für das Installieren von Android-Applikationen findest du im Internet.
-                Aber beachte bitte, dass wir keine Garantie dafür geben können, dass alles funktioniert und wir auch bei Problemen keine Hilfe geben können.
-
       - id: replace-device
         en:
             title: I got a new device. How to transfer all the content of c:geo from the old device?
@@ -1105,8 +1005,6 @@
                 Nur wenn du das Gerät in den Bereitschaftsmodus (Ausschalten des Bildschirms) schaltest oder zu einer anderen Anwendung wechselst, wird das GPS deaktiviert, um Strom zu sparen.
                 Wir planen nicht dieses Verhalten zu ändern oder eine weitere Einstellung dafür einzuführen.
                 Wenn du das GPS immer aktiv halten möchtest, empfehlen wir eine dedizierte App dafür zu nutzen (z.B. [GPS Lock](https://play.google.com/store/apps/details?id=com.silentlexx.gpslock)).
-
-
       - id: gps-highpower
         en:
             title: Why is GPS active all the time although I might not need it?
@@ -1126,7 +1024,6 @@
                 Um mehr Akku zu sparen, kannst du unter Menü → Einstellungen → System den Energiesparmodus aktivieren.
                 c:geo wird dann die hochpräzise Lokalisierung (GPS) nur nutzen, wenn es notwendig ist.
                 Das bedeutet, dass z.B. auf Cache-Listen, in der Cache-Beschreibung, auf dem Trackable-Bildschirm GPS ggf. ganz ausgeschaltet oder nur periodisch eingeschaltet wird.
-
       - id: compass-wrong
         en:
             title: The compass shows wrong directions or stops moving!
@@ -1158,7 +1055,6 @@
                 In diesem Fall aktiviere bitte in Menü → Einstellungen → System die Nutzung des Orientierungs-Sensors.
 
                 Wenn gar nichts hilft und das Problem weiterhin besteht, [kontaktiere](./support) bitte unseren Support mit detailierten Informationen zu deinem Gerät, dem genauen Problem des Kompasses und was du schon versucht hast, um das Problem zu lösen.
-
       - id: radar-navigation
         en:
             title: What is Radar navigation?
@@ -1172,7 +1068,6 @@
                 Die "Radar"-Funktion arbeitet mit einer Drittanbieter-App namens "GPS Status & Toolbox" zusammen, die [hier auf Google Play](https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2) verfügbar ist.
 
                 Nachdem du diese App installiert hast, bietet c:geo dir zusätzlich "Radar" als Navigations-Option an.
-
       - id: default-location
         en:
             title: I am always located at Paris/France!
@@ -1194,7 +1089,6 @@
 
                 Wenn du mindestens einmal einen GPS-Fix hattest während c:geo aktiv war, sollte es diese Position als deine letzte Position speichern und die Live-Karte an dieser Position öffnen.
                 Zusätzlich kannst du deine Heimat-Koordinaten auf [dieser Seite](https://www.geocaching.com/account/settings/homelocation) von geocaching.com einstellen. c:geo wird diese Koordinaten nutzen, wenn keine andere Lokalisierung verfügbar ist.
-
       - id: no-location
         en:
             title: c:geo seems unable to get my current location!
@@ -1210,7 +1104,6 @@
 
                 Wir haben Berichte erhalten, dass auf manchen Geräten die "Google Play-Dienste" fehlerhaft sind.
                 Wenn alle Lokalisierungs-Methoden aktiviert sind, aber du weiterhin Probleme hast, versuche bitte die Nutzung der "Google Play-Dienste" in Menü → Einstellungen → System auszuschalten.
-
       - id: address-search
         en:
             title: Search by address does no longer work!
@@ -1222,7 +1115,6 @@
             content: |
                 Um eine Adresse in Koordinaten umzuwandeln, nutzen wir einen auf deinem Gerät integrierten Google-Dienst.
                 Wir haben Berichte erhalten, dass dieser Dienst auf manchen Gerät unregelmäßig nicht mehr funktioniert. In diesen Fällen hilft es normalerweise, das Gerät neu zu starten, damit die Such-Funktion wieder funktioniert.
-
       - id: brouter
         en:
             title: How do I use Brouter with c:geo?
@@ -1267,7 +1159,6 @@
                 "Karte" bedeutet, dass die Aktualisierung abgeschaltet ist. Live-Karte bedeutet, dass die Aktualisierung eingeschaltet ist.
 
                 Wenn weiterhin keine Caches angezeigt werden, prüfe bitte, ob du korrekt in c:geo angemeldet bist.
-
       - id: map-playservice
         en:
             title: Instead of the map "c:geo won't run unless you install/update Google Play services" is shown!
@@ -1304,7 +1195,6 @@
             content: |
                 Send to c:geo ist ein schneller Weg um Caches, die du im Browser geöffnet hast, auf c:geo zu übertragen.
                 Du findest alle relevanten Informationen zur Installation und Nutzung hier: [send2cgeo](/send2cgeo)
-
       - id: send2-register-fail
         en:
             title: I tried to register my device but it shows 'Registration failed'!
@@ -1326,7 +1216,6 @@
                 - Ein Kommunikationsfehler oder Zeitablauf ist aufgetreten.
 
                 Du solltest es einfach in ein paar Minuten/Stunden erneut versuchen und dich bei [uns melden](/support), wenn das Problem dauerhaft besteht.
-
       - id: send2-multiple-devices
         en:
             title: Can I use multiple devices and/or browsers with send2cgeo?
@@ -1376,7 +1265,6 @@
                 We have implemented a support of mapsforge maps, which uses vector maps based on OpenStreetMap data.
 
                 In combination with caches already stored in c:geo (manually or via GPX import) and the possibility for offline logging (e.g. for later fieldnote export) you will get a full offline solution for caching.
-                
         de:
             title: Was sind Offline-Karten?
             content: |
@@ -1384,7 +1272,6 @@
                 Wir haben eine Unterstützung von Mapsforge-Karten implementiert, die Vektor-Karten auf der Grundlage von OpenStreetMap bereitstellen.
 
                 In Kombination mit Caches, die auf deinem Gerät (manuell oder per GPX-Import) gespeichert sind, und der Möglichkeit Caches offline zu loggen (z.B. für späteren Export der Feldnotizen), hast du damit eine vollständige Offline-Lösung fürs Cachen.
-
       - id: osm-howto
         en:
             title: How to use an offline map with c:geo?
@@ -1393,7 +1280,6 @@
                 If you are additionally using the app [Locus](https://play.google.com/store/apps/details?id=menion.android.locus) it is useful to store the maps in /Locus/mapsVector to have them accessible for Locus as well as for c:geo.
 
                 The procedure of how to configure c:geo to use this map can be found in our [user guide](https://manual.cgeo.org/en/offlinemaps).
-
         de:
             title: Wie benutze ich eine Offline-Karte in c:geo?
             content: |
@@ -1422,7 +1308,6 @@
                 Dennoch stellt c:geo auch Offline-Funktionalität zur Verfügung, um es ohne jede Netzverbindung (z.B. beim Cachen im Ausland) zu nutzen.
                 
                 Mehr Informationen findet du im Kapitel [Offline-Caching](https://manual.cgeo.org/de/offline) des c:geo Benutzerhandbuches.
-
       - id: batch-logging
         en:
             title: Can I batch submit offline logs to the website with c:geo?
@@ -1457,7 +1342,6 @@
                 Ja, c:geo unterstützt schon Opencaching-Plattformen diverser Länder und wir planen mehr Plattformen hinzuzufügen, sobald sie die OKAPI-Schnittstelle anbieten.
 
                 Mehr Informationen findest du in unsererm [Benutzerhandbuch](https://manual.cgeo.org/en/mainmenu/settings#services).
-                
       - id: oc-auth-fail
         en:
             title: The authorization to Opencaching fails, does not start or is not completed!
@@ -1498,7 +1382,6 @@
                 
                 Mehr Informationen zur Verwaltung von Trackables mit c:geo findet ihr in unserem [Benutzerhandbuch](https://manual.cgeo.org).
                 Um mehr über das Loggen von [GeoKrets](https://www.geokrety.org) mit c:geo zu erfahren, schaue bitte auch in die [FAQ von geokrety.org](https://geokretymap.org/how-to-log-geokrety/log-geokrety-with-cgeo-android).
-
       - id: trackables-gk-anonymous
         en:
             title: I get the message "Logging of GeoKrety cannot be done anonymously"!
@@ -1518,21 +1401,18 @@
                 Danach kannst in c:geo du unter Einstellungen → Dienste → GeoKrety.org deine Zugangsdaten eingeben und dich authentisieren.
 
                 Nachdem du authentisiert bist, kannst du GeoKrets mit c:geo loggen, wie es [hier](#trackables-logging) beschrieben ist.
-
       - id: trackables-gk-unsupported
         en:
             title: Some functions of GeoKrety.org seem not to be supported in c:geo!
             content: |
                 Some functionalities which are available on the [GeoKrety.org](https://www.geokrety.org) webpage are not (yet) supported with c:geo as either the current version of the interface does not support it or we did not yet have time to implement it:
 
-                - Viewing the logbook of GeoKrety
                 - Mark a GeoKret as "missing"
         de:
             title: Einige Funktionen von geokrety.org werden von c:geo nicht unterstützt!
             content: |
                 Einige der Funktionen, die auf der [GeoKrety.org](https://www.geokrety.org)-Webseite verfügbar sind, werden (noch) nicht von c:geo unterstützt, da diese entweder von der Schnittstelle nicht unterstützt werden oder wir einfach noch keine Zeit hatten diese einzubauen:
 
-                - Das Logbuch von GeoKrets einsehen
                 - Einen GeoKret als "vermisst" markieren
 
 - id: device-or-user-specific-problems
@@ -1541,16 +1421,6 @@
       de: Geräte- oder benutzerspezifische Probleme
  
   items:
-      - id: android11
-        en:
-            title: Does c:geo work with Android 11?
-            content: |
-                Android 11 enforces a new way for storing data, which c:geo does not support yet. For the time being c:geo is using a legacy method to access data on the storage system (e.g. offline maps, imports/exports of GPX, backups, field notes) which seems to work well with Android 11. In parallel we are continuously working to implement the changes enforced by Google for the storage access in future c:geo versions. If you notice any issues on your Android 11 device, please kindly let us know on our [support channels](/support).
-        de:
-            title: Funktioniert c:geo mit Android 11?
-            content: |
-                Android 11 erzwingt einen neuen Weg um Daten zu speichern, den c:geo noch nicht unterstützt. Vorläufig nutzt c:geo eine Rückfallmethode, um auf Daten des Speichers (z.B. Offline-Karten, Import/Export von GPX, Sicherungen, Feldnotizen) zuzugreifen, was scheinbar gut funktioniert. Parallel arbeiten wir weiter daran, die von Google erzwungenen Änderungen für den Speicherzugriff in kommenden c:geo Versionen umzusetzen. Wenn du irgendwelche Probleme auf deinem Android 11 Gerät feststellst, lass uns das bitte über unsere [Support-Kanäle](/support) wissen.
-
       - id: no-premium
         en:
             title: I can't see PM only caches although I am Premium Member!
@@ -1566,30 +1436,23 @@
                 Wenn du also erst seit kurzem Premium-Mitglied bist, kann es vorkommen, dass c:geo dies noch nicht erkannt hat.
 
                 In diesem Fall kannst du c:geo zwingen sich neu einzuloggen, indem du dein Gerät einfach neu startest und danach c:geo wieder öffnest.
-
       - id: external-gps
         en:
             title: My external Bluetooth-GPS is no longer working with c:geo!
             content: |
                 We are now using Google Play location services if they are installed on your device.
-                This location services is not compatible with external GPS receivers.
+                This location services might not be compatible with external GPS receivers depending on your Android version.
 
-                You have to disable the usage of those location services in\\
+                If you have problems using the GPS signal from the external receiver in c:geo, you have to disable the usage of those location services in:\\
                 c:geo Menu → Settings → System\\
-                in order to be able to use your external GPS receiver.
-
-                After disabling Google Play location services the interworking with Bluetooth GPS receivers should work as it used to in older versions of c:geo.
         de:
             title: Mein externer Bluetooth GPS-Empfänger funktioniert nicht mit c:geo!
             content: |
                 Wir benutzen jetzt die Google Play Lokalisierungs-Dienste, wenn diese auf deinem Gerät installiert sind.
-                Dieser Lokalisierungs-Dienst ist nicht kompatibel mit externen GPS-Empfängern.
+                Dieser Lokalisierungs-Dienst könnte abhängig von deiner Android-Version nicht kompatibel mit externen GPS-Empfängern sein.
 
-                Du musst daher die Nutzung dieses Dienstes ausschalten, um deinen externen GPS-Empfänger zu nutzen:\\
+                Wenn du Probleme hast das GPS-Signal von externen Empfängern mit c:geo zu verwenden, musst du die Nutzung dieses Dienstes ausschalten:\\
                 c:geo Menü → Einstellungen → System
-
-                Nach dem Abschalten des Google Play-Dienstes sollte dein Bluetooth GPS-Empfänger wieder wie in älteren c:geo-Versionen funktionieren.
-
       - id: open-in-browser
         en:
             title: Open in browser does only offer c:geo itself but not my web browser!
@@ -1624,7 +1487,6 @@
             content: |
                 Sie ermöglicht dir, direkt auf dein Telefonbuch zuzugreifen, wenn du auf einen Benutzernamen in c:geo klickst.
                 Da es eine Erweiterung ist, funktioniert sie nur wenn auch c:geo auf deinem Gerät installiert ist.
-
       - id: plugin-contacts-howto
         en:
             title: How to use the contacts plugin?
@@ -1636,7 +1498,6 @@
             content: |
                 Wenn du in c:geo auf einen Benutzernamen klickst (z.B. im Cache-Logbuch), enthält das Menü einen Eintrag, um den passenden Kontakt in deinem Telefonbuch zu öffnen.
                 Das ermöglicht es dir den Nutzer direkt anzurufen oder anzuschreiben.
-
       - id: plugin-contacts-phonebook
         en:
             title: How do I have to store the contacts in my phonebook to make it work?
@@ -1646,7 +1507,6 @@
             title: Wie muss ich meine Kontakte im Telefonbuch abspeichern, damit es funktioniert?
             content: |
                 Der Benutzername der Person muss in deinem Telefonbuch im Feld 'Name' oder 'Spitzname' eingetragen sein, damit die Erweiterung den Benutzernamen mit dem Eintrag verknüpfen kann.
-
       - id: plugin-contacts-no-match
         en:
             title: The contact is not matched although it is stored!
@@ -1660,7 +1520,6 @@
                 Bitte stelle sicher, dass der Benutzername der Person genauso in deinem Telefonbuch im 'Spitzname'-Feld eingetragen ist, wie er in c:geo angezeigt wird.
 
                 Alternativ wird die Erweiterung den Eintrag auch finden, wenn der Benutzername mit dem vollen Namen des Kontakts im Telefonbuch übereinstimmt.
-
       - id: plugin-contacts-privacy
         en:
             title: Privacy policy for the c:geo contacts plugin
@@ -1681,7 +1540,6 @@
                 3. With whom is the information shared?
 
                     Your contact data will neither by copied into c:geo nor shared with third parties.
-
         de:
             title: Datenschutzerklärung für die c:geo Kontakte-Erweiterung
             content: |
