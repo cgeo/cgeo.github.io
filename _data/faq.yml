@@ -3,6 +3,49 @@
       en: Current issues and changes
       de: Aktuelle Probleme und Änderungen
   items:
+      - id: SAF
+        en:
+            title: Changes to file system access!
+            content: |
+                Starting with Android 11, Google enforces the usage of <a href="https://developer.android.com/about/versions/11/privacy/storage">scoped storage</a> to access the public file system on mobile devices. To ensure a future proof implementation we changed to this new access method starting with c:geo version 2021.xx.xx-RC.
+                
+                This means a change to the way c:geo accesses the files it usually needs to read and/or write, such as:
+                - GPX files
+                - Field Notes
+                - Offline map files
+                - Themes for offline maps
+                - Backups
+                - etc.
+                
+                Instead of c:geo having generic access to all these mentioned files on your file system, the new approach needs explicit user permission to access certain files or folders. Therefore a migration wizard was implemented to guide you through the needed changes. The wizard will let you choose the desired folders for the following purposes:
+                - Base folder used to store your backup, field notes and some other files
+                - Folder used to export GPX files
+                - Folders, where you have stored your offline maps and themes
+                
+                The migration wizard describes the purpose of each folder and afterwards let you select a folder to be used. The folder selection should be started in the folder you previously used for each specific purpose, which means you usually just have to confirm the selection.
+                
+                If you notice any problems or have further questions, feel free to contact <a href="mailto:support@cgeo.org?subject=SAF">support@cgeo.org</a>.
+        de:
+            title: Änderung des Zugriffs auf Dateien!
+            content: |
+                Beginnend mit Android 11 erfordert Google die Nutzung des <a href="https://developer.android.com/about/versions/11/privacy/storage">Scoped Storage</a>, um auf das Dateisystem eines mobilen Gerätes zuzugreifen. Um eine zukunftssichere Implementierung sicherzustellen, haben wir ab der c:geo Version 2021.xx.xx-RC zu dieser neuen Zugriffsmethode gewechselt.
+                
+                Das bedeutet eine Veränderung in der Art und Weise wie c:geo auf Dateien zugreift, die es üblicherweise lesen und/oder schreiben muss, wie z.B.:
+                - GPX-Dateien
+                - Field Notes
+                - Offline-Karten
+                - Themen für Offline-Karten
+                - Sicherungen
+                - usw.
+                
+                Anstelle eines generischen Zugriffs auf all diese Dateien in deinem Dateisystem durch c:geo, benötigt das neue Vorgehen eine explizite Genehmigung durch den Nutzer um auf bestimmte Dateien oder Ordner zuzugreifen. Daher wurde ein Migrations-Assistent implementiert, der dich durch die notwendigen Änderungen führt. Der Assistent lässt dich den jeweils gewünschten Ordner für die folgenden Zwecke auswählen:
+                - Basisordner, der zur Speicherung von Sicherungen, Field Notes und einigen anderen Dateien genutzt wird
+                - Ordner für den Export von GPX-Dateien
+                - Ordner für deine Offline-Karten und Kartenthemen 
+                
+                Der Assistent beschreibt jeweils den Zweck jedes Ordners und läst dich danach den gewünschten Ordner auswählen. Die Ordnerauswahl sollte dabei in dem Ordner starten, den du bislang für den jeweiligen Zweck benutzt hast; das bedeutet du musst üblicherweise nur die Auswahl bestätigen.
+                
+                Wenn du Probleme feststellst oder weitere Fragen hast, kontaktiere uns gerne unter <a href="mailto:support@cgeo.org?subject=SAF">support@cgeo.org</a>.
       - id: cache_menu
         en:
             title: I am missing some functions from the cache menu!
