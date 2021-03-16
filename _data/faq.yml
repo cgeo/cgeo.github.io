@@ -7,7 +7,7 @@
         en:
             title: Changes to file system access!
             content: |
-                Starting with Android 11, Google enforces the usage of <a href="https://developer.android.com/about/versions/11/privacy/storage">scoped storage</a> to access the public file system on mobile devices. To ensure a future proof implementation we changed to this new access method starting with c:geo version 2021.xx.xx-RC.
+                Starting with Android 11, Google enforces the usage of <a href="https://developer.android.com/about/versions/11/privacy/storage">scoped storage</a> to access the public file system on mobile devices. To ensure a future proof implementation we changed to this new access method starting with c:geo version 2021.03.16-RC1.
                 
                 This means a change to the way c:geo accesses the files it usually needs to read and/or write, such as:
                 - GPX files
@@ -24,11 +24,11 @@
                 
                 The migration wizard describes the purpose of each folder and afterwards let you select a folder to be used. The folder selection should be started in the folder you previously used for each specific purpose, which means you usually just have to confirm the selection.
                 
-                If you notice any problems or have further questions, feel free to contact <a href="mailto:support@cgeo.org?subject=SAF">support@cgeo.org</a>.
+                If you notice any problems or have further questions, feel free to contact <a href="mailto:support@cgeo.org?subject=FAQ_SAF">support@cgeo.org</a>.
         de:
             title: Änderung des Zugriffs auf Dateien!
             content: |
-                Beginnend mit Android 11 erfordert Google die Nutzung des <a href="https://developer.android.com/about/versions/11/privacy/storage">Scoped Storage</a>, um auf das Dateisystem eines mobilen Gerätes zuzugreifen. Um eine zukunftssichere Implementierung sicherzustellen, haben wir ab der c:geo Version 2021.xx.xx-RC zu dieser neuen Zugriffsmethode gewechselt.
+                Beginnend mit Android 11 erfordert Google die Nutzung des <a href="https://developer.android.com/about/versions/11/privacy/storage">Scoped Storage</a>, um auf das Dateisystem eines mobilen Gerätes zuzugreifen. Um eine zukunftssichere Implementierung sicherzustellen, haben wir ab der c:geo Version 2021.03.16-RC1 zu dieser neuen Zugriffsmethode gewechselt.
                 
                 Das bedeutet eine Veränderung in der Art und Weise wie c:geo auf Dateien zugreift, die es üblicherweise lesen und/oder schreiben muss, wie z.B.:
                 - GPX-Dateien
@@ -45,7 +45,43 @@
                 
                 Der Assistent beschreibt jeweils den Zweck jedes Ordners und läst dich danach den gewünschten Ordner auswählen. Die Ordnerauswahl sollte dabei in dem Ordner starten, den du bislang für den jeweiligen Zweck benutzt hast; das bedeutet du musst üblicherweise nur die Auswahl bestätigen.
                 
-                Wenn du Probleme feststellst oder weitere Fragen hast, kontaktiere uns gerne unter <a href="mailto:support@cgeo.org?subject=SAF">support@cgeo.org</a>.
+                Wenn du Probleme feststellst oder weitere Fragen hast, kontaktiere uns gerne unter <a href="mailto:support@cgeo.org?subject=FAQ_SAF">support@cgeo.org</a>.
+      - id: theme-slow
+        en:
+            title: Starting my offline map is very slow!
+            content: |
+                Starting with c:geo version 2021.03.16-RC1 we were forced to change the method c:geo reads map theme files from your storage (see <a href="#SAF">this FAQ-entry</a>).
+                Unfortunately the new access method provided by Android is much slower to read many small files (such as in map themes). If you are using a custom map theme this could impact the time needed to initially render the map. 
+                
+                There are two possible ways to fix the problem. The fix is not related to the offline map files itself, but only to map theme files:
+                
+                1. c:geo now supports **zipped map themes**:\\
+                You can put the content of your themes folder into a zip archive and place this zip file into the theme folder instead. Alternatively download a zipped theme from your offline map provider (or via the c:geo map downloader) and directly place this file into your themes folder without unzipping it first.\\
+                This solution brings a comparable opening performance of the map as before.
+                
+                2. c:geo now supports a **sync function** for themes:\\
+                While the zip solution should be the prefereed method, you can also stay with unzipped theme files and instead let c:geo buffer the theme files internally. This method however is only recommended to advanced users with good knowledge of file storages and themes.\\
+                To activate the sync go to c:geo Menu → Settings → Map and activate the function "Synchronize themes to app-private folder". **Make sure to check the size of the data to be synced** in the following dialog, before confirming the sync!! The size should (depending on how many themes you use) only be some kB up to a few MB. Do not activate the sync if the shown size is unreasonably high! In that case your theme folder contains unrelated data, or you might use the same folder for maps and their themes. You should separate and clean up the data first and/or set the correct theme folder.\\
+                If you are not sure, that you are doing it right, please use the zip solution instead (as described above).
+                
+                If you notice any problems or have further questions, feel free to contact <a href="mailto:support@cgeo.org?subject=FAQ_theme-slow">support@cgeo.org</a>.
+        de:
+            title: Das Starten meiner Offline-Karte ist sehr langsam!
+            content: |
+                Beginnend mit der c:geo Version 2021.03.16-RC1 sind wir gezwungen die Methode zu ändern, mit der c:geo die Kartendesigns (Themes) von deinem Speicher liest (siehe <a href="#SAF">diesen FAQ-Eintrag</a>). Leider ist die neue Zugriffsmethode, die von Android bereitgestellt wird, viel langsamer beim Lesen vieler kleiner Dateien (so wie in den Kartendesigns). Wenn du ein benutzerdefiniertes Kartendesign nutzt, kann dies die Zeit beinflussen die benötigt wird, um die Karte initial darzustellen.
+                
+                Es gibt zwei Wege dieses Problem zu beheben. Die Lösung bezieht sich hierbei nicht auf die Dateien mit Offline-Karten, sondern nur auf die Dateien mit dem Kartendesign.
+                
+                1. c:geo unterstützt nun  **gezippte Kartendesigns**:\\
+                Du kannst den Inhalt deines Kartendesign-Ordners in ein Zip-Archiv packen und diese Zip-Datei stattdessen im Ordner für Kartendesigns ablegen. Alternativ lade ein gezipptes Kartendesign von deinem Offlinekarten-Anbieter (oder mit dem c:geo Karten-Downloader) and platziere diese Datei direkt in den Kartendesign-Ordner, ohne sie zuerst zu entpacken.\\
+                Diese Lösung bietet eine vergleichbare Geschwindigkeit beim Öffnen der Karten wie vorher.
+                
+                2. c:geo unterstützt nun eine **Sync-Funktion** für Kartendesigns:\\
+                Die ZIP-Lösung ist die bevorzugte Methode, du kannst aber auch bei nicht gezippten Designs bleiben und c:geo stattdessen die Design-Dateien intern puffern lassen. Diese Methode empfehlen wir allerdings nur für erfahrene Anwender mit guter Kenntnis von Dateisystemen und Kartendesigns.\\
+                Um die Synchronisierung zu aktivieren, gehe in das c:geo Menü → Einstellungen - Karte und aktiviere die Funktion "Design mit app-internem Ordner synchronisieren". **Prüfe im dann folgenden Dialog unbedingt die Größe der zu synchronisierenden Daten**, bevor du die Synchronisierung bestätigst!! Die Größe sollte (je nach Anzahl der Designs) nur einige kB bis wenige MB betragen. Aktiviere die Synchronisierung nicht, wenn die angezeigte Größe ungewöhnlich hoch ist! In diesem Fall enthält dein Kartendesign-Ordner fremde Daten, oder du nutzt den gleichen Ordner für Karten und ihre Designs. Du solltest die Dateien erst trennen und aufräumen und/oder den korrekten Design-Ordner auswählen.\\
+                Wenn du dir nicht sicher bist, ob du es richtig machst, nutze bitte stattdessen die oben beschriebene ZIP-Lösung.
+                
+                Wenn du Probleme feststellst oder weitere Fragen hast, kontaktiere uns gerne unter <a href="mailto:support@cgeo.org?subject=FAQ_theme-slow">support@cgeo.org</a>.
       - id: cache_menu
         en:
             title: I am missing some functions from the cache menu!
