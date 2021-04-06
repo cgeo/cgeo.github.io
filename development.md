@@ -19,7 +19,9 @@ If you want to contact the developers directly, join our IRC channel [#cgeo on f
 
 Like our application also this website is [open source](https://github.com/cgeo/cgeo.github.io). If you want to fix a typo or otherwise improve it, you are welcome to contribute as described in the [readme file](https://github.com/cgeo/cgeo.github.io/blob/master/README.md).
 
-We are also looking for people willing to help writing a users manual for c:geo. Just contact us via GitHub if you are interested.
+## Our user guide
+
+We do also have a [user guide](https://manual.cgeo.org) with a detailed description of all parts of the app. It is already available in some languages. We however need help to update translations and add translations into even more language. Learn here how to [help translating the user guide](https://manual.cgeo.org/en/translation).
 
 ## Beta Testing
 
