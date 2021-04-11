@@ -116,7 +116,7 @@
                 Starting with 2020.12.22-RC we started to clean up the map settings menu.
                 Therefore, we moved all map related settings (such as hiding of certain caches/waypoints, map circles, routing setting, etc.) from the menu tree to a common easily accessible quick menu.
                 
-                You will find the new quick settings by clicking on the gear icon at bottom center of the map.
+                You will find the new quick settings by tapping on the gear icon at bottom center of the map.
                 
                 More information can be found in our [user guide](https://manual.cgeo.org/en/mainmenu/livemap#map_settings).
         de:
@@ -125,7 +125,7 @@
                 Ab Version 2020.12.22-RC haben wir damit begonnen die Karteneinstellungen aufzuräumen.
                 Daher haben wir alle kartenspezifischen Einstellungen (wie z.B. das Verbergen bestimmter Caches/Wegpunkte, Kreise um Caches, Routeneinstellungen) aus dem Menübaum in ein gemeinsames einfach zugreifbares Schnelleinstellungsmenü verschoben.
                 
-                Du findest die neuen Schnelleinstellungen durch einen Klick auf das Zahnrad-Symbol unten mittig auf der Karte.
+                Du findest die neuen Schnelleinstellungen durch ein Tippen auf das Zahnrad-Symbol unten mittig auf der Karte.
                 
                 Weitere Informationen findest du in unserem [Benutzerhandbuch](https://manual.cgeo.org/de/mainmenu/livemap#map_settings).
       - id: offlinecount
@@ -718,12 +718,12 @@
                 Most of the time when you solve a puzzle for a mystery cache you might want to store the real final coordinates until you go out and log the cache.
                 Although each user might handle this different, we recommend to use a helpful feature of [geocaching.com](https://www.geocaching.com):
 
-                Premium members of [geocaching.com](https://www.geocaching.com) can store the real final coordinates of solved mystery caches (also working for all other cache types) on the website by clicking on the small pencil icon right next to the listing coordinates.\\
+                Premium members of [geocaching.com](https://www.geocaching.com) can store the real final coordinates of solved mystery caches (also working for all other cache types) on the website by tapping on the small pencil icon right next to the listing coordinates.\\
                 Once you have stored the real final coordinates on the website they will also be available in c:geo once you store/refresh the cache.
                 This means, that c:geo will display the cache icon on the real final coordinates and only have an additional waypoints referring to the listing coordinates.
 
                 Of course this is also working the other way around:\\
-                Open a cache in c:geo and create a new waypoint with the real final coordinates. Before saving the waypoint click the selection "Set as cache coordinates in c:geo and on website".\\
+                Open a cache in c:geo and create a new waypoint with the real final coordinates. Before saving the waypoint tap the selection "Set as cache coordinates in c:geo and on website".\\
                 Once you saved the waypoint the real final coordinates will be uploaded to the website.
         de:
             title: Wie verwalte ich meine gelösten Mysteries mit c:geo?
@@ -782,7 +782,7 @@
                 If you save this it will result in a waypoint with the target coordinates.
 
                 If you want to perform a projection on an existing waypoint this is only possible if the waypoint is user defined.
-                If it is a waypoint defined by the owner you need to duplicate the waypoint to a user defined waypoint at first by selecting "Duplicate waypoint" after clicking on its coordinates.
+                If it is a waypoint defined by the owner you need to duplicate the waypoint to a user defined waypoint at first by selecting "Duplicate waypoint" after tapping on its coordinates.
         de:
             title: Wie führe ich eine Koordinaten-Projektion mit c:geo durch?
             content: |
@@ -1018,7 +1018,7 @@
                 2. GPS position information derived from the device GPS receiver
 
                 You should make sure to enable both of these sources to get the best possible location information in c:geo in every situation.
-                This can usually be done in your device settings (not in c:geo itself) in a menu called "Locations" or similar. You can also reach this menu by clicking on the GPS status shown on the lower corner of the c:geo main screen.
+                This can usually be done in your device settings (not in c:geo itself) in a menu called "Locations" or similar. You can also reach this menu by tapping on the GPS status shown on the lower corner of the c:geo main screen.
 
                 Please select all possible sources in that menu or (in newer Android versions) select the "High accuracy mode".
                 Furthermore you should check if your device supports "Google Play Services" and eventually enable the usage of that in c:geo: \\
@@ -1247,7 +1247,7 @@
                 
                 A button will be shown on the screen to allow to install/update Google Play Services on your device. This requires a Google account and access to the Google Play Store app.
                 
-                If you do not want or cannot install it, you can use one of the OSM maps supported in c:geo. Simply click the map icon in the title bar and change to another map source than Google.
+                If you do not want or cannot install it, you can use one of the OSM maps supported in c:geo. Simply tap the map icon in the title bar and change to another map source than Google.
         de:
             title: Statt der Karte wird "c:geo won't run unless you install/update Google Play services" angezeigt!
             content: |
@@ -1318,7 +1318,7 @@
                 Please check your browsers cookie settings.
                 It is required to allow third party cookies for send2cgeo.
 
-                Look into your geocaching.com browser tab: If there is a cookie symbol with a red X at the end of the URL dialog, click on it, and in the popup click "Maintain cookie blocking" (or similar) and permit [*.]send2.cgeo.org.
+                Look into your geocaching.com browser tab: If there is a cookie symbol with a red X at the end of the URL dialog, tap on it, and in the popup tap "Maintain cookie blocking" (or similar) and permit [*.]send2.cgeo.org.
                 
                 For recent versions of Google Chrome you need to apply a workaround which is described on our [send2cgeo page](https://www.cgeo.org/send2cgeo#special-setting-for-google-chrome).
         de:
@@ -1559,7 +1559,7 @@
         en:
             title: What does the contacts plugin do?
             content: |
-                It allows you direct access to your phonebook when clicking on a username in c:geo.
+                It allows you direct access to your phonebook when tapping on a username in c:geo.
                 As it is a plugin it will only work if also c:geo itself is installed on your device.
         de:
             title: Wozu dient die Kontakte-Erweiterung?
@@ -1570,7 +1570,7 @@
         en:
             title: How to use the contacts plugin?
             content: |
-                When you click on a username in c:geo (e.g. in the cache logbook) the menu will contain an item to open the corresponding contact card in your phone contacts.
+                When you tap on a username in c:geo (e.g. in the cache logbook) the menu will contain an item to open the corresponding contact card in your phone contacts.
                 This will allow you to directly call or message the user.
         de:
             title: Wie nutze ich die Kontakte-Erweiterung?
