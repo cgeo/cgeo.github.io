@@ -207,12 +207,16 @@
                 Für [geocaching.com](https://www.geocaching.com/) kannst du beispielsweise [auf dieser Seite](https://www.geocaching.com/account/signin/requestpassword) dein Passwort zurücksetzen. Wenn du deinen Benutzernamen vergessen hast, kannst du ihn auf [dieser Seite](https://www.geocaching.com/account/signin/requestusername) abfragen.
       - id: login-failed
         en:
-            title: Login failed is shown on the main screen!
+            title: A login problem is shown on the main screen!
             content: |
-                First of all please make sure you have a working network connection. c:geo cannot login without internet connection.
+                First of all please make sure you have a working network connection. c:geo cannot login without internet connection. Restore internet access and restart c:geo to trigger a new login.
                 
-                If the problem persists, please go to Menu → Settings → Services select the problematic geocaching service and check, whether you entered the correct username and password.
-                Afterwards select "Check authentication" to see if login is either now possible or what error is returned.
+                It is also possible, that the geocaching service itself has some outage. Check if you can reach the website of your geocaching service using a web browser and that you can login on their website.
+                
+                If you successfully checked your internet connection and the geocaching service website and the problem in c:geo still persists, please tap on the "Not logged in..." message box shown on the main screen. Afterwards tap "Yes" to open the geocaching service configuration. Alternatively you can reach the service configuration from c:geo Menu → Settings → Services.
+                
+                Select the geocaching service you want to check (e.g. geocaching.com), make sure it is activated and select "Update or remove authorization".
+                This will open a screen, where you should again enter your username and password for that geocaching service. Afterwards select "Check authentication (again)" to see if login is either now possible or what error is returned.
                 
                 **Login failed: Wrong username and/or password.**\\
                 In 99% of cases, where this error message is shown, it really means, that you entered wrong credentials. Please carefully check the entered username and password and be aware, that username and password maybe case sensitive. Also, some special characters you may use in your username and/or password might look slightly different or can be confused with other characters on your Android keyboard. [This FAQ entry](#forgot-login) describes how to reset your password and/or lookup your username.
@@ -225,24 +229,28 @@
                 **Login failed: You must validate your account on the Geocaching.com website first.**\\
                 You mail address and/or your account is not yet or no longer validated on the geocaching server. Please login using your browser or PC and validate your mail address and/or account on the geocaching website. Afterwards try again to login with c:geo.
                 
-                **Login failed: Unknown error.**\\
+                **Login failed: Unknown communication error.**\\
                 In case you are using any anti-virus,firewall, adblocker or VPN tool (e.g. F-Secure, AdAway, McAfee, Orbot, Corporate VPNs) please check if this might be blocking or disturbing your internet connection. Try disabling such tool and check if the login works now.
                 Please also check that your phone is working with the correct date and time. If the date is wrong this might lead to problems establishing a secure connection to the server.
                 Sometimes network providers insert messages into the HTML-traffic which prevents c:geo from logging in while on mobile network. A clear indication for this problem is, that c:geo only works on your Wi-Fi connection at home but not while on a mobile network. In this case please go to the c:geo settings Menu → Settings → Services and enable "Identify as Android Browser". Afterwards you might have to restart your phone to be sure these settings take effect.
                 
                 **Further hints:**\\
                 There have been reports, that in rare cases the login still fails although you checked all relevant topics above.
-                In this case we recommend resetting your login by long press on "Authorize c:geo" in the platform settings below Menu → Settings → Services. Afterwards you should restart your device and enter the login data again.
+                In this case we recommend resetting your login by long press on "Update or remove authorization" in the service settings below Menu → Settings → Services. Afterwards you should restart your device and enter the login data again.
 
                 As last resort you can also reset c:geo to factory defaults as described [here](#how-to-reset).
                 
                 If the problem persists, please contact our [support](/support) and provide a system log.
         de:
-            title: Anmeldung fehlgeschlagen wird im Hauptmenü angezeigt!
+            title: Ein Anmeldungsfehler wird im Hauptmenü angezeigt!
             content: |
-                Bitte prüfe zuerst, ob du eine funktionierende Netzwerkverbindung hast. Ohne eine Internetverbindung kann c:geo sich nicht einloggen.
+                Bitte prüfe zuerst, ob du eine funktionierende Netzwerkverbindung hast. Ohne eine Internetverbindung kann c:geo sich nicht einloggen. Stelle die Internetverbindung wieder her und start c:geo neu, um eine erneute Anmeldung auszulösen.
                 
-                Wenn das Problem weiterhin besteht, gehe bitte zu Menü → Einstellungen → Dienste, wähle den problematischen Geocaching-Dienst aus und prüfe, ob du dort den korrekten Benutzernamen und Passwort eingegeben hast. Wähle dann "Authentifizierung überprüfen", um zu sehen, ob die Anmeldung nun entweder funktioniert oder welche Fehlermeldung angezeigt wird.
+                Es ist auch möglich, dass der Geocaching-Dienst selbst ein Problem hat. Prüfe, ob du die Webseite des Geocaching-Dienstes mit einem Internet-Browser erreichen und dich dort einloggen kannst.
+                
+                Wenn du erfolgreich deine Internetverbindung und die Erreichbarkeit des Geocaching-Dienstes geprüft hast und das Problem in c:geo weiterhin besteht, tippe auf die "Nicht angemeldet"-Nachricht im Hauptbildschirm. Wähle dann "Ja" aus, um die Konfiguration der Geocaching-Dienste zu öffnen. Alternativ erreichst du die Dienstekonfiguration über c:geo Menü → Einstellungen → Dienste.
+                
+                Wähle nun den Geocaching-Dienst aus, den du prüfen möchtest (z.B. geocaching.com), stelle sicher, dass dieser aktiviert ist und wähle "Autorisierung aktualisieren oder entfernen". Dies öffnet einen Bildschirm, in dem du erneut deinen Benutzernamen und dein Kennwort für den Geocaching-Dienst eingeben solltest. Wähle dann "Authentifizierung (erneut) überprüfen", um zu sehen, ob die Anmeldung nun entweder funktioniert oder welche Fehlermeldung angezeigt wird.
                 
                 **Anmeldung fehlgeschlagen: Benutzername und/oder Kennwort falsch.**\\
                 In 99% der Fälle, in denen diese Fehlermeldung angezeigt wird, meint dies in der Tat, dass du Benutzernamen und/oder Kennwort falsch eingegeben hast. Bitte prüfe die eingegebenen Daten genauestens und beachte, die korrekte Groß- und Kleinschreibung bei Benutzername und Kennwort. Beachte auch, dass einige spezielle Zeichen, die du evtl. in deinem Benutzernamen und/oder Kennwort benutzt, auf deiner Android-Tastatur leicht anders aussehen oder verwechselt werden können. [Dieser FAQ-Eintrag](#forgot-login) beschreibt, wie du dein Passwort zurücksetzen und/oder deinen Benutzernamen herausfinden kannst.
@@ -255,7 +263,7 @@
                 **Anmeldung fehlgeschlagen: Die Anmeldedaten müssen zuerst auf Geocaching.com validiert werden.**\\
                 Deine Mailadresse und/oder dein Zugang ist noch nicht oder nicht mehr auf dem Geocaching-Server validiert. Bitte melde dich mit einem Browser oder PC auf der Geocaching-Webseite an und validiere deinen Zugang/deine Mailadresse. Versuche danach erneut dich mit c:geo anzumelden.
                 
-                **Anmeldung fehlgeschlagen: Unbekannter Fehler.**\\
+                **Anmeldung fehlgeschlagen: Unbekannter Kommunikationsfehler.**\\
                 Falls du ein Antivirus-,Firewall-, Werbeblocker oder VPN-Tool (z.B. F-Secure, AdAway, McAfee, Orbot, Firmen-VPNs) benutzt, prüfe bitte ob das Tool den Internetverkehr blockiert oder stört. Versuche ein solches Tool zu deaktivieren und erneut zu prüfen, ob die Anmeldung nun funktioniert.
                 Bitte prüfe außerdem, dass dein Telefon das richtige Datum und die richtige Uhrzeit hat. Wenn das Datum nicht korrekt ist, kann es zu Problemen kommen eine sichere Verbindung zur Webseite aufzubauen.
                 
@@ -266,7 +274,7 @@
                 
                 **Weitere Hinweie:**\\
                 Es gibt Berichte, dass in seltenen Fällen die Anmeldung trotz Prüfung aller oben genannten Punkte weiterhin fehlschlägt.
-                In diesem Fall empfehlen wir deine Anmeldedaten in c:geo durch langen Klick auf "c:geo autorisieren" in den Diensteeinstellungen unterhalb von Menü → Einstellungen → Dienste zurückzusetzen, dein Gerät neu zu starten und danach die Anmeldedaten erneut einzugeben.
+                In diesem Fall empfehlen wir deine Anmeldedaten in c:geo durch langen Klick auf "Autorisierung aktualisieren oder entfernen" auf dem Bildschirm unterhalb von Menü → Einstellungen → Dienste zurückzusetzen, dein Gerät neu zu starten und danach die Anmeldedaten erneut einzugeben.
 
                 Als letzte Möglichkeit kannst du c:geo auf Werkseinstellungen zurückzusetzen, wie es [hier](#how-to-reset) beschrieben ist.
                 Wenn das Problem trotz allem weiter besteht, kontaktiere bitte unseren [Support](/support) und stelle uns ein Logfile zur Verfügung.
