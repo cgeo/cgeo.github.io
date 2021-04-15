@@ -1,3 +1,3 @@
 WhereYouGo - The Android WheriGo-App needs your help!
 
-[WhereYouGo - Call for developers](/whereyougolanding)
+[Call for developers - Click for more info](/whereyougolanding)
