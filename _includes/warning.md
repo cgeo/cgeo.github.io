@@ -1,3 +1,3 @@
-We need your help!
+WhereYouGo - The Android WheriGo-App needs your help!
 
-[Call for developers](/callfordevelopers)
+[WhereYouGo - Call for developers](/whereyougolanding)
