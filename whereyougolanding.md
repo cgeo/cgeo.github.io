@@ -19,7 +19,7 @@ WhereYouGo is an unofficial client for Wherigo Geocaching. It uses offline vecto
 The development of WhereYouGo was no longer continued by the last open source development team. After contacting the original author, the c:geo team has been able to take over the source code to make it available again for the open source community to allow further bugfixing and enhancement of WhereYouGo.
 In a first step we managed to fix the download function for cartridges, thus restoring the original functionality.
 
-For further development however we need help of the Geocaching community:
+**For further development however we need help of the Geocaching community:**
 If you are interested to further improve WhereYouGo and have some knowledge of Java, check out the [new WhereYouGo repository](https://github.com/cgeo/WhereYouGo) or send us a mail to [whereyougo@cgeo.org](mailto:whereyougo@cgeo.org?subject=WhereYouGo-Development).
 
 ## Support
