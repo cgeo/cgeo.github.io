@@ -975,67 +975,13 @@
             content: |
                 Sometimes users are asking us how to clone the content in their c:geo installation from one device to another (e.g. in case they got a new device).
 
-                Here is a basic instruction for you:
-
-                What you need to do this:
-
-                - A good File Explorer on both devices
-                - A possibility to transfer files from one device to another (cable, mail, cloud storage, SD card, etc.)
-
-                On the old device:
-
-                - Start c:geo
-                - Go to c:geo Menu → Settings → Backup/Restore and perform a backup and remember the file location which is shown at the end of the process.
-                - Open a File Explorer, locate the two backup files (typically below /cgeo/backup in a folder named by date/time of the backup) and store them at a safe location for later restore on the new device. The files are named cgeo.sqlite and cgeo-settings.xml.
-                - Optional step: The subfolders of /Android/data/cgeo.geocaching/files/GeocacheData/ (either located on your internal or your external storage) contain additional geocache data (e.g. log pictures). If this data is not available on the new device, c:geo will just download it again. If you still want to transfer this data to the new device, copy all subfolders to a safe location.
-
-                On the new device:
-
-                - Install the same c:geo version as on the old device
-                - Start c:geo
-                - Grant the needed app permissions
-                - End c:geo
-                - Use a File Explorer to locate or create the similar folder from which you saved the backup on the old phone (typically /cgeo/backup/) and place the two backup files (cgeo.sqlite and cgeo-settings.xml) from the old phone into this folder. There is no need to create a subfolder with date/time for this, c:geo will still detect the files.
-                - Optional step: If you also did a backup of the additional geocache data, restore it to /Android/data/cgeo.geocaching/files/GeocacheData/ on your internal storage.
-                - Start c:geo again
-                - Go to c:geo Menu → Settings → Backup/Restore and select to restore the backup
-
-                If you did everything right, now the content of c:geo on the new device should look like on the old device.
-                This includes your settings and all caches on your lists with all its contained information (like waypoints, notes, offline logs, etc.) and - if you did the optional step - also all images.
+                Our user guide provides a step by step procedure for this: [https://manual.cgeo.org/en/replacedevice](Migrate c:geo to another device)
         de:
             title: Ich habe ein neues Gerät. Wie übertrage ich alle Inhalte von c:geo vom alten Gerät?
             content: |
                 Manchmal fragen uns Nutzer, wie sie den Inhalt ihrer c:geo-Installation von einem Gerät zu einem anderen duplizieren (z.B. wenn sie ein neues Gerät bekommen haben).
 
-                Hier ist eine grundlegende Anleitung für euch:
-
-                Was du dafür benötigst:
-
-                - Einen guten Datei-Explorer auf beiden Geräten
-                - Eine Möglichkeit Dateien zwischen den Geräten zu übertragen (Kabel, Mail, Cloud-Speicher, SD-Karte, usw.)
-
-                Auf dem alten Gerät:
-
-                - Starte c:geo
-                - Gehe zu c:geo Menü → Einstellungen → Sicherung/Wiederherstellung und führe eine Sicherung durch und merke dir dabei den Pfad, der dir nach Abschluss der Sicherung angezeigt wird.
-                - Öffne einen Datei-Explorer und finde die beiden Sicherungsdateien (typischerweise unterhalb von /cgeo/backup in einem Ordner benannt mit Datum/Zeit des Backups) und speichere sie an einer sicheren Stelle, um sie später auf dem neuen Gerät wieder einzuspielen. Diese Dateien heißen cgeo.sqlite and cgeo-settings.xml.
-                - Optionaler Schritt: Das Verzeichnis /Android/data/cgeo.geocaching/files/GeocacheData/ (entweder im internen oder im externen Speicher) enthält zusätzliche Geocache-Daten (z.B. Logbilder). Wenn diese Daten auf dem neuen Gerät nicht vorhanden sind, wird c:geo sie einfach erneut herunterladen. Wenn du diese Daten dennoch auf das neue Gerät übertragen möchtest, kopiere alle Unterverzeichnisse an einem sicheren Ort.
-
-
-                Auf dem neuen Gerät:
-
-                - Installiere die gleiche c:geo-Version wie auf dem alten Gerät
-                - Starte c:geo
-                - Erteilte die notwendigen App-Berechtigungen
-                - Beende c:geo
-                - Nutze einen Datei-Explorer, um den gleichen Ordner auf dem neuen Gerät ausfindig zu machen oder zu erstellen, von dem du auf dem alten Gerät die Sicherung gemacht hast (typischerweise /cgeo/backup/) und kopiere die beiden Sicherungsdateien (cgeo.sqlite und cgeo-settings.xml) vom alten Telefon in diesen Ordner. Es muss dafür kein Unterordner mit Datum/Zeit erstellt werden, c:geo wird die Dateien dennoch erkennen.
-                - Optionaler Schritt: Wenn du auch eine Sicherung der zusätzlichen Geocache-Daten durchgeführt hast, kopiere sie in den Ordner /Android/data/cgeo.geocaching/files/GeocacheData/ in deinem internen Speicher zurück.
-                - Starte c:geo wieder
-                - Gehe zu Menü → Einstellungen → Sicherung/Wiederherstellung und wähle die vorhandene Sicherung wiederherzustellen
-
-                Wenn du alles richtig gemacht hast, sollte der Inhalt von c:geo auf dem neuen Gerät genauso aussehen wie auf dem alten Gerät.
-                Dies beinhaltet deine Einstellungen und alle Caches auf deinen Listen mit allen enthaltenen Informationen (wie Wegpunkten, Notizen, Offline-Logs, usw.) und – wenn du den optionalen Schritt ausgeführt hast – auch alle Bilder.
-
+                Unser Benutzerhandbuch enthält eine Schritt-für-Schritt Anleitung hierfür: [https://manual.cgeo.org/de/replacedevice](c:geo auf ein anderes Gerät migrieren)
 - id: gps-and-navigation
   title:
       en: GPS and Navigation
