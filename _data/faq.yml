@@ -975,13 +975,13 @@
             content: |
                 Sometimes users are asking us how to clone the content in their c:geo installation from one device to another (e.g. in case they got a new device).
 
-                Our user guide provides a step by step procedure for this: [https://manual.cgeo.org/en/replacedevice](Migrate c:geo to another device)
+                Our user guide provides a step by step procedure for this: [Migrate c:geo to another device](https://manual.cgeo.org/en/replacedevice)
         de:
             title: Ich habe ein neues Gerät. Wie übertrage ich alle Inhalte von c:geo vom alten Gerät?
             content: |
                 Manchmal fragen uns Nutzer, wie sie den Inhalt ihrer c:geo-Installation von einem Gerät zu einem anderen duplizieren (z.B. wenn sie ein neues Gerät bekommen haben).
 
-                Unser Benutzerhandbuch enthält eine Schritt-für-Schritt Anleitung hierfür: [https://manual.cgeo.org/de/replacedevice](c:geo auf ein anderes Gerät migrieren)
+                Unser Benutzerhandbuch enthält eine Schritt-für-Schritt Anleitung hierfür: [c:geo auf ein anderes Gerät migrieren](https://manual.cgeo.org/de/replacedevice)
 - id: gps-and-navigation
   title:
       en: GPS and Navigation
