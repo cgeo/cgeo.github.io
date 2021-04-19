@@ -120,7 +120,7 @@
                 
                 Caches around, Vote, Ignore cache → Moved into submenu "Advanced"
                 
-                Store, Remove, Refresh → These items have been removed from the menu. You can simply use the disc/pen/trashcan icons on the cache details page
+                Store, Remove, Refresh → These items have been removed from the menu. You can simply use the disc/pen/trashcan icons on the cache details page. For refreshing caches or trackables you can also simply use "Pull down to refresh" as you are used to from other apps.
         de:
             title: Ich vermisse einige Funktionen des Cache-Menüs!
             content: |
@@ -133,7 +133,7 @@
                 
                 Caches im Umkreis, Bewerten, Cache ignorieren → Verschoben in das Untermenü "Erweitert"
                 
-                Speichern, Löschen, Aktualisieren → Diese Einträge wurden entfernt. Du kannst einfach die Diskette/Stift/Mülleimer-Symbole auf der Cache-Details Seite nutzen.
+                Speichern, Löschen, Aktualisieren → Diese Einträge wurden entfernt. Du kannst einfach die Diskette/Stift/Mülleimer-Symbole auf der Cache-Details Seite nutzen. Zum Aktualisieren von Caches und Trackables kannst du auch einfach "Nach unten ziehen" zum Aktualisieren, wie du es aus anderen Apps kennst.
       - id: quick-settings
         en:
             title: I cannot find the map related settings!
