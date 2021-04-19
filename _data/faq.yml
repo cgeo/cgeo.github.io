@@ -82,6 +82,31 @@
                 Wenn du dir nicht sicher bist, ob du es richtig machst, nutze bitte stattdessen die oben beschriebene ZIP-Lösung.
                 
                 Wenn du Probleme feststellst oder weitere Fragen hast, kontaktiere uns gerne unter <a href="mailto:support@cgeo.org?subject=FAQ_theme-slow">support@cgeo.org</a>.
+      - id: 10406
+        en:
+            title: c:geo is stuck or slow on the startup screen!
+            content: |
+                Unfortunately a bug slipped through despite our very intense testing which in rare cases can cause c:geo version 2021.04.15 to either be stuck or take a long time on the startup screen until its finally started. We are working on a fix and will provide an update soon.
+
+                In the meantime one of the following workaround options might solve the problem:
+                
+                1. Please wait on the startup screen until c:geo finally starts. Then go to c:geo Menu - Settings - Map and make sure to set the folder for "offline map themes" to a folder which does only contain your theme files, but no additional data (e.g. offline maps or unrelated files). If in doubt, please set it to use the default value for now.
+                
+                2. If c:geo is totally stuck on the startup screen even after waiting some minutes, please use a File Explorer to locate the folder you assigned for your "offline map themes". Rename this folder or move it to another location to make it unavailable for c:geo.
+                
+                After you applied one of these workaround, c:geo should start normally.
+        de:
+            title: c:geo bleibt im Startbildschirm stehen oder startet langsam!
+            content: |
+                Leider hat sich trotz intensiven Testens ein Fehler eingeschlichen, der in selten Fällen dazu führen kann, dass die c:geo Version 2021.04.15 entweder im Startbildschirm stehen bleibt oder eine sehr lange Zeit benötigt, bis c:geo gestartet ist. Wir arbeiten bereits an einer Lösung und werden in Kürze ein Update bereitstellen.
+                
+                In der Zwischenzeit kann einer der beiden folgenden Workarounds das Problem lösen:
+                
+                1. Bitte warte auf dem Startbildschirm bis c:geo schließlich gestartet ist. Gehe dann in c:geo Menü - Einstellungen - Karte und stelle sicher, dass du für den "Ordner mit Kartendesigns" einen Ordner gewählt hast, der wirklich nur die Design-Dateien (Themes) und keine weiteren Daten (z.B. Offline-Karten, weitere Dateien) enthält. Im Zweifel setze den Ordner erstmal auf den Standardwert.
+                
+                2. Wenn c:geo, sogar nachdem du einige Minuten wartest, komplett im Startbildschirm eingefroren ist, dann öffne bitte einen Dateiexplorer und suche den Ordner, den du als "Ordner mit Kartendesigns" in c:geo ausgewählt hast. Benenne diesen Ordner um oder verschiebe ihn an eine andere Stelle, damit c:geo keinen Zugriff mehr darauf hat.
+                
+                Nachdem du eine der beiden Workarounds angewendet hast, sollte c:geo wieder normal starten.
       - id: cache_menu
         en:
             title: I am missing some functions from the cache menu!
