@@ -8,10 +8,19 @@
             title: c:geo does not login and/or my find count shows 0!
             content: |
                 Please update to c:geo version 2021.04.25 or later, where these problems are fixed.
+                
+                If your device is running on an Android version below 5.0, there will be no update available for c:geo as we had to drop support for such old Android versions in 2020.
+                You may continue to use c:geo offline on those devices, however online functions are broken and will not be fixed.
+                For more details about supported Android versions, please check [this information](#legacy).
+
         de:
             title: c:geo loggt sich nicht ein und/oder mein Fund-Zähler zeigt 0!
             content: |
                 Bitte aktualisiere c:geo auf die Version 2021.04.25 oder neuer, dort sind diese Probleme behoben.
+                
+                Wenn dein Gerät eine Android-Version kleiner als 5.0 hat, wird keine Aktualisierung für c:geo verfügbar sein, da wir die Unterstützung solch alter Android-Versionen bereits in 2020 einstellen mussten.
+                Du kannst c:geo auf diesen Geräten weiterhin offline nutzen, aber die Online-Funktion ist nicht möglich und wird nicht repariert.
+                FÜr weitere Details über die unterstützen Android-Versionen, schaue bitte [diese Information](#legacy) an.
       - id: SAF
         en:
             title: Changes to file system access!
