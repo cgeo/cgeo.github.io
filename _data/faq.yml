@@ -901,8 +901,8 @@
                 
                 The reason for this is, that we want to include more features and further improve usability and stability. Newer Android versions offer a lot more possibilities which we simply cannot use if we have to be compatible to Android 4.
 
-                For an interim period there will still be new c:geo versions on devices running Android 4, but those will only contain important bugfixes and no new feature.
-                At some point in future, depending on the efforts needed for bugfixing, these legacy versions will then finally be discontinued.
+                There will be no more c:geo updates for devices below Android 5.0. Therefore some online functions do no longer work, or might fail in future.
+                You can however still use c:geo for offline Geocaching (e.g. by importing GPX files and exporting field notes).
 
                 Please check if the manufacturer of your device offers an update for your device. If there is no official update it may also be possible to use a Custom ROM if it is available for your device.
                 If nothing can be done to update your device, you should consider using a new(er) device running on an Android version as recent as possible.
@@ -914,8 +914,8 @@
                 
                 Der Grund dafür ist, dass wir neue Features einführen und Stabilität und Nutzbarkeit weiter verbessern wollen. Neuere Android-Versionen bieten viel mehr Möglichkeiten, die wir einfach nicht nutzen können, wenn wir zu Android 4 kompatibel sein müssen.
 
-                Für eine Übergangszeit wird es weiterhin neue c:geo Versionen für Geräte mit Android 4 geben, diese enthalten allerdings nur wichtige Fehlerbehebungen und keine neuen Funktionen.
-                Irgendwann in der Zukunft, abhängig vom Aufwand für Fehlerbehebungen, werden diese separaten Versionen jedoch eingestellt werden.
+                Es wird keine weiteren c:geo Aktualisierungen für Geräte unter Android 5.0 geben. Daher funktionieren einige Online-Funktionen nicht mehr, oder könnten zukünftig nicht mehr funktionieren.
+                Du kannst jedoch weiterhin c:geo für Offline-Geocaching nutzen (z.B. durch Import von GPX-Dateien und Export von Feldnotizen).
 
                 Prüfe, ob der Hersteller deines Gerätes eine Aktualisierung anbietet. Wenn es keine offizielle Aktualisierung gibt, kann es dennoch möglich sein, ein Custom-ROM zu nutzen, wenn es für dein Gerät verfügbar ist.
                 Wenn nichts zu machen ist, solltest du überlegen ein neu(er)es Gerät zu nutzen, dass mit einer möglichst aktuellen Android-Version ausgestattet ist.
