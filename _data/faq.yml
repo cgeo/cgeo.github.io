@@ -20,7 +20,7 @@
                 
                 Wenn dein Gerät eine Android-Version kleiner als 5.0 hat, wird keine Aktualisierung für c:geo verfügbar sein, da wir die Unterstützung solch alter Android-Versionen bereits in 2020 einstellen mussten.
                 Du kannst c:geo auf diesen Geräten weiterhin offline nutzen, aber die Online-Funktion ist nicht möglich und wird nicht repariert.
-                FÜr weitere Details über die unterstützen Android-Versionen, schaue bitte [diese Information](#legacy) an.
+                Für weitere Details über die unterstützen Android-Versionen, schaue bitte [diese Information](#legacy) an.
       - id: SAF
         en:
             title: Changes to file system access!
