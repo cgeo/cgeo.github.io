@@ -5,19 +5,13 @@
   items:
       - id: 10453
         en:
-            title: My find count shows 0!
+            title: c:geo does not login and/or my find count shows 0!
             content: |
-                Last days we fixed a lot of issues caused by website changes on geocaching.com.
-                This problem is a remaining issue and we will fix it next days. We did however prefer to provide a working version as fast as possible and fix some small glitches afterwards.
-                
-                Its only the displayed figure in c:geo having a problem. Your finds - of course - are still there, just the number not shown in c:geo.
+                Please update to c:geo version 2021.04.25 or later, where these problems are fixed.
         de:
-            title: Mein Fund-Zähler zeigt 0!
+            title: c:geo loggt sich nicht ein und/oder mein Fund-Zähler zeigt 0!
             content: |
-                In den letzten Tagen haben wir viele Probleme behoben, die durch Änderungen auf geocaching.com hervorgerufen wurden.
-                Dieses Problem ist noch übrig geblieben und wir werden es in den nächsten Tagen beheben. Wir haben es aber vorgezogen eine grundsätzlich funktionierende Version schnellstmöglich zu veröffentlichen und verbliebene Kleinigkeiten danach zu beheben.
-                
-                Es ist nur die in c:geo angezeigte Zahl betroffen. Deine Funde sind natürlich noch da, nur die Zahl in c:geo stimmt nicht.
+                Bitte aktualisiere c:geo auf die Version 2021.04.25 oder neuer, dort sind diese Probleme behoben.
       - id: SAF
         en:
             title: Changes to file system access!
