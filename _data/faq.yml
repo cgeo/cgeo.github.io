@@ -1254,7 +1254,104 @@
                 Es wird auf dem Bildschirm eine Schaltfläche angezeigt, die es dir erlaubt die Google Play Dienste zu installieren/aktualisieren. Dazu wird ein Google-Konto und Zugriff auf den Google Playstore benötigt.
                 
                 Wenn du dies nicht installieren kannst oder möchtest, kannst du stattdessen eine der OSM-Karten nutzen, die von c:geo unterstützt werden. Klicke hierzu einfach auf das Kartensymbol in der Titelzeile und wähle eine andere Karte anstatt Google aus.
+ 
+- id: ALC
+  title:
+    en: Adventure Lab Caches
+    de: Adventure Lab-Caches
+  items:
+      - id: ALC_PM
+        en:
+            title: Why are Adventure Lab caches only shown to premium members?
+            content: |
+                There is no final information available from Groundspeak yet, how Adventure Labs will be implemented into their app interfaces and/or websites.
+                Therefore Groundspeak explicitly asked us to include this restriction, which is also present in other Geocaching apps. In spirit of good collaboration of c:geo and Groundspeak we decided to respect their wishes for now.
                 
+                If we would include all currently available data for both member types, we might later end up with removing functions, if they are no longer available by Groundspeak's future interfaces.
+        de:
+            title: Warum werden Adventure Lab-Caches nur Premium-Mitgliedern angezeigt?
+            content: |
+                Es gibt seitens Groundspeak noch keine finale Information darüber, wie Adventure Labs künftig in ihre App-Schnittstelle und/oder ihre Webseite implementiert werden.
+                Daher hat uns Groundspeak explizit darum gebeten diese Einschränkung aufzunehmen, die auch so in anderen Geocaching-Apps existiert. Im Sinne einer guten Zusammenarbeit von c:geo und Groundspeak haben wir entschieden, ihrem Wunsch momentan zu entsprechen.
+                
+                Wenn wir alle momentan verfügbaren Daten für beide Arten von Mitgliedern aufnehmen würden, könnten es später damit enden, dass wir Funktionen wieder entfernen müssten, wenn sie in der künftigen Groundspeak-Schnittstelle nicht mehr verfügbar sind.
+      - id: ALC_play
+        en:
+            title: Can I play Adventure Lab caches with c:geo?
+            content: |
+                No, you have to use the Adventure Lab app by Groundspeak to play the Adventure Lab Cache.
+                
+                You can install/open their app and be directed to the selected Adventure Lab cache by tapping on the Adventure Lab icon in the cache details view in c:geo.
+        de:
+            title: Kann ich Adventure Lab-Caches mit c:geo spielen?
+            content: |
+                Nein, du musst hierzu die Adventure Lab-App von Groundspeak nutzen, um den Adventure Lab-Cache spielen zu können.
+                
+                Durch Tippen auf das Adventure Lab-Symbol in den Cache-Details in c:geo kannst du ihre App installieren/öffnen und wirst direkt zum gewählten Adventure Lab-Cache geleitet.
+      - id: ALC_found
+        en:
+            title: Adventure Lab caches I have already found are not shown as found!
+            content: |
+                The current implementation works without any authorization over a public interface. 
+                As your account is not used here, we can currently not get any user specific data from it (e.g. whether you already found that Adventure Lab cache).
+                
+                You can however mark Adventure Lab caches as "Found" locally in c:geo (Open the Adventure Lab cache → Menu → "Set as Found"). Please be aware, that this "Found" marking is lost, if you delete the Adventure Lab cache from c:geo.
+        de:
+            title: Adventure Labs, die ich schon gefunden habe, werden nicht als gefunden angezeigt!
+            content: |
+                Die aktuelle Implementierung arbeitet ohne Autorisierung über eine öffentliche Schnittstelle.
+                Da dein Konto hier nicht genutzt wird, können wir aktuell keinen benutzerspezifischen Informationen darüber abrufen  (z.B. ob du diesen Adventure Lab-Cache bereits gefunden hast).
+                
+                Du kannst allerdings Adventure Lab-Caches lokal in c:geo als "Gefunden" markieren (Öffne den Adventure Lab-Cache → Menü → "Als Gefunden setzen"). Bitte beachte, dass diese "Gefunden"-Markierung verloren geht, wenn du den Adventure-Lab-Cache aus c:geo löschst.
+      - id: ALC_stage
+        en:
+            title: Why are the stages of Adventure Lab caches not shown?
+            content: |
+                There is no final information available from Groundspeak yet, how Adventure Labs will be implemented into their application interfaces and/or websites.
+                Therefore Groundspeak explicitly asked us to include this restriction, which is also present in other Geocaching apps. In spirit of good collaboration of c:geo and Groundspeak we decided to respect their wishes for now.
+                
+                If we would include all currently available data for all member types, we might later end up with removing functions, if they are no longer available by Groundspeak's future interfaces.
+        de:
+            title: Warum werden die Stationen der Adventure Lab-Caches nicht angezeigt?
+            content: |
+                Es gibt seitens Groundspeak noch keine finale Information darüber, wie Adventure Labs künftig in ihre App-Schnittstelle und/oder ihre Webseite implementiert werden.
+                Daher hat uns Groundspeak explizit darum gebeten diese Einschränkung aufzunehmen, die auch so in anderen Geocaching-Apps existiert. Im Sinne einer guten Zusammenarbeit von c:geo und Groundspeak haben wir entschieden, ihrem Wunsch momentan zu entsprechen.
+                
+                Wenn wir alle momentan verfügbaren Daten für beide Arten von Mitgliedern aufnehmen würden, könnten es später damit enden, dass wir Funktionen wieder entfernen müssten, wenn sie in der künftigen Groundspeak-Schnittstelle nicht mehr verfügbar sind.
+      - id: ALC_disable
+        en:
+            title: I don't want to see Adventure Lab caches in c:geo. How to disable it?
+            content: |
+                Go to c:geo Menu → Settings → Services → "Geocaching.com Adventure Lab" and deactivate this service.
+        de:
+            title: Ich möchte keine Adventure Lab-Caches in c:geo sehen. Wie kann ich das abschalten?
+            content: |
+                Gehe zu c:geo Menü → Einstellungen → Dienste → "Geocaching.com Adventure Lab" and deaktiviere diesen Dienst.
+      - id: ALC_future
+        en:
+            title: Will there be any additional features for Adventure Lab Caches in c:geo in the future?
+            content: |
+                We are still working on how we can best include Adventure Labs into c:geo and are also in contact with Groundspeak. We want to evaluate, if we find a mode of cooperation for using their planned official application interface to access Adventure Labs.
+                There is no final information yet about their conditions and limitations for future access to Adventure Lab data.
+                
+                We think it would at least be needed to have all stages and their description available in c:geo. This would allow a better planning of geocaching trips and further improve the interworking between c:geo and the Adventure Lab app.
+                If you also feel that Groundspeak should design their planned application interface for third party apps in a more elaborate way than just providing the header coordinates of adventure lab caches, please let them know.
+                
+                If Groundspeak offers fair conditions and an acceptable functionality range in their application interface, it might be, that its possible to provide a better implementation with more functions in c:geo.
+                It might however also end up with the current state, if we are unable to find an agreement with Groundspeak or the conditions are considered too strict by our developer team.
+                Even worse, it might also be possible, that we need to remove Adventure Labs from c:geo in future, if they close the public access to that information and there is no further acceptable way to access this information.
+        de:
+            title: Wird es zukünftig noch weitere Funktionen für Adventure Labs in c:geo geben?
+            content: |
+                Wir arbeiten noch daran, wir wir Adventure Labs zukünftig am besten in c:geo integrieren und sind hierzu auch in Kontakt mit Groundspeak. Wir wollen herausfinden, ob wir einen Weg der Zusammenarbeit finden, um über ihre geplante offizielle App-Schnittstelle auf Adventure Labs zuzugreifen.
+                Es gibt noch keine abschließende Information über die Bedingungen und Limitierungen bezüglich des zukünftigen Zugriffs auf Adventure Lab-Daten.
+                
+                Wir denken, dass zumindest alle Stationen und ihre Beschreibungen in c:geo verfügbar sein sollten. Dies würde eine bessere Planung von Geocaching-Trips und ein besseres Interworking zwischen c:geo und der Adventure Lab-App erlauben.
+                Wenn du auch denkst, dass Groundspeak ihre geplante Schnittstelle für Dritt-Apps etwas ausgefeilter anbieten sollte als nur die Startkoordinaten von Adventure Lab Caches zu übermitteln, lass es sie bitte wissen.
+                
+                Wenn Groundspeak faire Bedingungen und eine akzeptable Funktionalität über ihre App-Schnittstelle anbietet, kann es sein, dass wir eine bessere Implementierung mit mehr Funktionen in c:geo anbieten können.
+                Es kann aber auch beim aktuellen Stand bleiben, wenn wir keine Vereinbarung mit Groundspeak erzielen oder die Bedingungen von unserem Entwickler-Team als zu strikt angesehen werden.
+                Es könnte sogar dazu kommen, dass wir die Adventure Labs aus c:geo zukünftig wieder entfernen, wenn die öffentliche Schnittstelle zu diesen Informationen entfernt wird und es keinen akzeptablen Weg zum Zugriff auf diese Informationen mehr gibt.
 - id: send2cgeo
   title:
       en: Send2cgeo
