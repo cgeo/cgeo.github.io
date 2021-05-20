@@ -1303,6 +1303,19 @@
                 Da dein Konto hier nicht genutzt wird, können wir aktuell keinen benutzerspezifischen Informationen darüber abrufen  (z.B. ob du diesen Adventure Lab-Cache bereits gefunden hast).
                 
                 Du kannst allerdings Adventure Lab-Caches lokal in c:geo als "Gefunden" markieren (Öffne den Adventure Lab-Cache → Menü → "Als Gefunden setzen"). Bitte beachte, dass diese "Gefunden"-Markierung verloren geht, wenn du den Adventure-Lab-Cache aus c:geo löschst.
+      - id: ALC_10566
+        en:
+            title: Adventure Labs I marked as found still show up in search results!
+            content: |
+                Although you marked some Adventure Lab caches as found (as described above) and have set up to hide found caches, they still might be shown in search results (e.g. from nearby search).
+                
+                This is a remaining bug we will probably fix in an upcoming bugfix release.               
+        de:
+            title: Adventure Labs, die ich als Gefunden markiert habe, erscheinen dennoch in den Suchergebnissen!
+            content: |
+                Obwohl du Adventure Lab Caches (wie oben beschrieben) als Gefunden markiert hast und ausgewählt hast gefundene Caches zu verbergen, kann es sein, dass sie dennoch in Suchergebnissen (z.B. In der Nähe) auftauchen.
+                
+                Das ist ein verbliebener Fehler, den wir wahrscheinlich mit einem nächsten Bugfix-Release beheben werden.             
       - id: ALC_stage
         en:
             title: Why are the stages of Adventure Lab caches not shown?
