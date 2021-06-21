@@ -3,24 +3,22 @@
       en: Current issues and changes
       de: Aktuelle Probleme und Änderungen
   items:
-      - id: 10453
+      - id: 10940
         en:
-            title: c:geo does not login and/or my find count shows 0!
+            title: I cannot add/remove a cache to/from my watchlist!
             content: |
-                Please update to c:geo version 2021.04.25 or later, where these problems are fixed.
+                There is a related change or bug on the geocaching website causing this. 
+                Once we have confirmation about the final state of the problem we will provide a fix in our next bugfix release.
                 
-                If your device is running on an Android version below 5.0, there will be no update available for c:geo as we had to drop support for such old Android versions in 2020.
-                You may continue to use c:geo offline on those devices, however online functions are broken and will not be fixed.
-                For more details about supported Android versions, please check [this information](#legacy).
-
+                Until then the workaround is to change the watchlist state on the geoaching website (by using your PC or opening the cache page in your mobile browser).             
         de:
-            title: c:geo loggt sich nicht ein und/oder mein Fund-Zähler zeigt 0!
+            title: Ich kann Caches nicht auf die Beobachtungsliste setzen oder davon entfernen!
             content: |
-                Bitte aktualisiere c:geo auf die Version 2021.04.25 oder neuer, dort sind diese Probleme behoben.
+                Es gibt einen damit zusammenhängenden Fehler oder eine Änderung auf der Geocaching-Webseite.
+                Sobald wir den finalen Status des Problems bestätigen können, werden wir ggf. eine Fehlerbehebung im nächsten Bugfix-Release vornehmen.
                 
-                Wenn dein Gerät eine Android-Version kleiner als 5.0 hat, wird keine Aktualisierung für c:geo verfügbar sein, da wir die Unterstützung solch alter Android-Versionen bereits in 2020 einstellen mussten.
-                Du kannst c:geo auf diesen Geräten weiterhin offline nutzen, aber die Online-Funktion ist nicht möglich und wird nicht repariert.
-                Für weitere Details über die unterstützen Android-Versionen, schaue bitte [diese Information](#legacy) an.
+                Bis dahin gibt es den Workaround den Beobachtungsstatus auf der Geocaching-Webseite (mit deinem PC oder durch Öfnnen der Cache-Seite in deinem mobilen Browser) zu ändern.
+                
       - id: SAF
         en:
             title: Changes to file system access!
