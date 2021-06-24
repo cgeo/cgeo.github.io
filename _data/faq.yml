@@ -3,22 +3,21 @@
       en: Current issues and changes
       de: Aktuelle Probleme und Änderungen
   items:
-      - id: 10940
+      - id: 11001
         en:
-            title: I cannot add/remove a cache to/from my watchlist!
+            title: Adventure lab caches are no longer shown!
             content: |
-                There is a related change or bug on the geocaching website causing this. 
-                Once we have confirmation about the final state of the problem we will provide a fix in our next bugfix release.
+                Currently adventure lab caches are no longer showing up in c:geo. 
+                The reason seems to be, that the access method previously approved by Groundspeak is no longer working and we don't have any information about other possibilities.
                 
-                Until then the workaround is to change the watchlist state on the geoaching website (by using your PC or opening the cache page in your mobile browser).             
+                There is nothing we can do about this on short term, see also our [FAQ about the future of adventure labs in c:geo](https://www.cgeo.org/faq#ALC_future).      
         de:
             title: Ich kann Caches nicht auf die Beobachtungsliste setzen oder davon entfernen!
             content: |
-                Es gibt einen damit zusammenhängenden Fehler oder eine Änderung auf der Geocaching-Webseite.
-                Sobald wir den finalen Status des Problems bestätigen können, werden wir ggf. eine Fehlerbehebung im nächsten Bugfix-Release vornehmen.
+                Aktuell werden Adventure Lab Caches nicht länger in c:geo angezeigt.
+                Der Grund hierfür scheint zu sein, dass die vorab mit Groundspeak abgestimmte Zugangsmethode nicht mehr funktioniert und wir keine Informationen über andere Zugriffsmöglichkeiten haben.
                 
-                Bis dahin gibt es den Workaround den Beobachtungsstatus auf der Geocaching-Webseite (mit deinem PC oder durch Öfnnen der Cache-Seite in deinem mobilen Browser) zu ändern.
-                
+                Es gibt derzeit nichts, was wir kurzfristig daran ändern können, siehe auch [unsere FAQ zur Zukunft von Adventure Labs in c:geo](https://www.cgeo.org/faq#ALC_future).                
       - id: SAF
         en:
             title: Changes to file system access!
