@@ -3,6 +3,17 @@
       en: Current issues and changes
       de: Aktuelle Probleme und Änderungen
   items:
+      - id: 11232
+        en:
+            title: My personal note is not downloaded from the geocaching server!
+            content: |
+                This is a bug we are currently investigating. Once we fixed it, there will probably be a bugfix release on short term.
+                Due to technical reasons it might however take some days to make the new version available.
+        de:
+            title: Meine persönliche Notiz wird nicht vom Geocaching-Server heruntergeladen!
+            content: |
+                Dies ist ein Bug, den wir aktuell untersuchen. Wenn wir ihn behoben haben, wird es vermutlich kurzfristig ein Bugfix-Release geben.
+                Aus technischen Gründen kann es jedoch leider einige Tage dauern die neue Version zur Verfügung zu stellen.               
       - id: 11001
         en:
             title: Adventure lab caches are no longer shown!
