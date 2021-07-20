@@ -1281,7 +1281,7 @@
                 Schaue in deinen geocaching.com Browser-Tab: Wenn dort ein Cookie-Symbol mit einem roten X am Ende des URL-Eingabefeldes erscheint, dann klicke darauf und klicke im erscheinenden Fenster auf "Maintain cookie blocking" (oder eine entsprechende Meldung in Deutsch) und erlaube [*.]send2.cgeo.org.
                 
                 In neueren Versionen von Google Chrome musst du einen Workaround anwenden, der auf unserer [send2cgeo Seite](https://www.cgeo.org/send2cgeo#special-setting-for-google-chrome) beschrieben ist.
-    -   id: 97
+      - id: 97
         en:
             title: send2cgeo is not working with Google Chrome browser!
             content: |
