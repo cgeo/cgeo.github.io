@@ -177,31 +177,7 @@
                 Du findest die neuen Schnelleinstellungen durch ein Tippen auf das Zahnrad-Symbol unten mittig auf der Karte.
                 
                 Weitere Informationen findest du in unserem [Benutzerhandbuch](https://manual.cgeo.org/de/mainmenu/livemap#map_settings).
-      - id: 97
-        en:
-            title: send2cgeo is not working with Google Chrome browser!
-            content: |
-                We implemented a workaround for this problem starting with send2cgeo version 2020.08.26. Please update your script and read the description on our [send2cgeo page](https://www.cgeo.org/send2cgeo#special-setting-for-google-chrome).
-        de:
-            title: send2cgeo funktioniert nicht mit dem Google Chrome Browser!
-            content: |
-                Wir haben ab send2cgeo Version 2020.08.26 einen Workaround hierfür eingebaut. Bitte aktualisiere dein Script und lies die Beschreibung auf der [send2cgeo Seite](https://www.cgeo.org/send2cgeo#special-setting-for-google-chrome).                
-      - id: 8097
-        en:
-            title: The map is rotating all the time!
-            content: |
-                You have accidentally activated the experimental map rotation feature, which does not yet seem to work correct on your device.
-                Please disable the map rotation in Live Map - Menu (three dot button) - Map rotation.
-                
-                We are working on improving this feature in future versions of c:geo.
-        de:
-            title: Die Karte dreht sich pausenlos!
-            content: |
-                Du hast aus Versehen die experimentelle Kartenrotation eingeschaltet, die auf deinem Gerät scheinbar noch nicht korrekt funktioniert.
-                Bitte deaktiviere die Kartendrehung in Live-Karte - Menü (Drei-Punkt-Button) - Kartendrehung.
-                
-                Wir arbeiten daran diese Funktion in den kommenden Versionen von c:geo zu verbessern.
-
+  
 - id: getting-started
   title:
       en: Getting started
@@ -384,19 +360,6 @@
                 Um den Netzwerk-Verkehr zu minimieren, lädt c:geo die Caches nur einmalig herunter und speichert sie temporär oder permanent (wenn du sie in deinen Listen speicherst).
 
                 Wenn du also einige Informationen vermisst (z.B. die neuesten Logs fehlen, die Beschreibung hat sich geändert, usw.), aktualisiere bitte den gespeicherten Cache, indem du die Schaltfläche zum Aktualisieren auf der Cache-Details Seite wählst.
-      - id: coords-wrong
-        en:
-            title: Why are all cache coordinates wrong by some meters/feet?
-            content: |
-                In case you are not logged in the geocaching website does not provide correct coordinates. It seems you did not provide login data or the login data you provided is not correct.
-
-                Please refer to [Getting started](#newbie) to learn how to login with c:geo.
-        de:
-            title: Warum sind alle Cache-Koordinaten um einige Meter/Fuß falsch?
-            content: |
-                Wenn du mit c:geo nicht korrekt eingeloggt bist, liefert die Geocaching-Webseite keine korrekten Koordinaten. Es sieht also so aus, als ob du entweder keine Anmeldedaten hinterlegt hast oder deine Anmeldedaten nicht korrekt sind.
-
-                Bitte schau unter [Erste Schritte](#newbie), um herauszufinden, wie du dich mit c:geo einloggst.
       - id: why-no-api
         en:
             title: Why does c:geo not use Groundspeak's public API?
@@ -451,24 +414,6 @@
                 Um Informationen von der Webseite abzurufen, benötigt es verlässliche Informationen. Daher ändert c:geo die Spracheinstellung beim Einloggen auf Englisch, da es nicht möglich ist, alle verschiedenen Sprachen zu unterstützen.
 
                 Du kannst jederzeit die Sprache auf der Webseite wieder auf deine gewünschte Sprache umstellen, wenn du sie benutzt. c:geo wird dies feststellen und beim nächsten Einloggen wieder auf Englisch zurückschalten.
-      - id: unknown-location
-        en:
-            title: Unknown Location is shown on the main screen!
-            content: |
-                The address information shown at the bottom of the main screen is an information we receive from a geocoding database based on your position. Sometimes this database has no address information for your location, or the service is not running. In this case 'Unknown Location' or even a wrong city could be shown.
-
-                This does not have any impact on the c:geo functionality. As long as you have a GPS fix everything will work normal. \\
-                If you want you can also disable the address information in c:geo settings so your coordinates are shown on the main screen instead of the address information: \\
-                Menu → Settings → Appearance → "Show Address"
-        de:
-            title: Unbekannter Standort wird im Hauptmenü angezeigt!
-            content: |
-                Die Adressangabe, die unten im Hauptmenü angezeigt wird, basiert auf einer Information, die wir von einer Geocoding-Datenbank basierend auf deiner Position bekommen. Manchmal hat diese Datenbank keine Adressinformation für deinen Standort oder der Dienst ist nicht verfügbar. In diesem Fall erscheint "Unbekannter Standort" oder sogar eine falsche Stadt.
-
-                Dies hat keinen Einfluss auf die Funktionalität von c:geo. Solange du einen GPS-Fix hast, wird alles normal funktionieren. \\
-
-                Wenn du möchtest, kannst du die Adressinformation auch in den c:geo-Einstellungen abschalten, so dass dir stattdessen die Koordinaten im Hauptmenü angezeigt werden: \\
-                Menü → Einstellungen → Erscheinungsbild → "Ort statt Koordinaten"
       - id: edit-logs
         en:
             title: Is it possible to edit an existing geocache log with c:geo?
@@ -490,7 +435,7 @@
 
                     You may store the database of c:geo either system internally or in a directory on your user storage.
 
-                    You can change the database location in Menu → Settings → System → "Database location". \\
+                    You can change the database location in Menu → Settings → Offline Data → "Database location". \\
                     As the database availability is critical for using c:geo and the typical size is only some megabyte, we decided to forbid moving it to the external SD card.
                     If you enable the option "On user storage" the database will be moved to the folder /Android/data/cgeo.geocaching/files/databases (may vary depending on your device).
 
@@ -499,7 +444,7 @@
                     This additional data can be much larger as it contains the images of the cache description and (optionally) and the images retrieved from logs. \\
                     By default this data is stored on the internal user storage in /Android/data/cgeo.geocaching/files/GeocacheData/.
 
-                    You can move this data to your external SD card in Menu → Settings → System → "Geocache Data Directory". \\
+                    You can move this data to your external SD card in Menu → Settings → Offline Data → "Geocache Data Directory". \\
                     If your device supports using the external SD card this menu option will show you the available target directories as well as the current size of your geocache data and the available space on the target directories.
 
                     Please consider the following when you decide to store the geocache data on your external SD card:
@@ -516,7 +461,7 @@
 
                     Diese Datenbank wird entweder systemintern oder in einem Ordner im Benutzerspeicher abgelegt.
 
-                    Du kannst den Speicherort über Menü → Einstellungen → System → "Datenbank-Speicherung" ändern. \\
+                    Du kannst den Speicherort über Menü → Einstellungen → Offline-Daten → "Datenbank-Speicherung" ändern. \\
                     Da die Verfügbarkeit der Datenbank kritisch für die Nutzung von c:geo ist und die typische Größe nur wenige Megabyte beträgt, haben wir entschieden ein Verschieben der Datenbank auf die externe SD-Karte zu verbieten.
                     Wenn du die Option "Auf Benutzerspeicher" aktivierst, wird die Datenbank in den Ordner /Android/data/cgeo.geocaching/files/databases (variiert je nach Gerät) verschoben.
 
@@ -525,7 +470,7 @@
                     Diese zusätzlichen Daten können viel größer sein, da sie die Bilder der Cachebeschreibung und (optional) und die Logbilder enthalten.
                     Die Daten werden standardmäßig auf dem internen Benutzerspeicher abgelegt unter /Android/data/cgeo.geocaching/files/GeocacheData/.
 
-                    Du kannst diese Daten über Menü → Einstellungen → System → "Geoache-Daten Verzeichnis" auf die externe SD-Karte verschieben. \\
+                    Du kannst diese Daten über Menü → Einstellungen → Offline-Daten → "Geoache-Daten Verzeichnis" auf die externe SD-Karte verschieben. \\
                     Wenn dein Gerät die Nutzung einer externen SD-Karte hierfür unterstützt, zeigt dieses Menü die verfügbaren Zielverzeichnisse sowie die Größe deiner Geocache-Daten und den verfügbaren Speicherplatz in den Zielverzeichnissen an.
 
                     Bitte berücksichtige das Folgende, wenn du dich dafür entscheidest die Geocache-Daten auf der externen SD-Karte zu speichern:
@@ -632,62 +577,6 @@
                 Um dein Log auf dem Gerät zu speichern, drücke einfach die Zurück-Taste. Um es später zu senden, rufe erneut die Logseite in c:geo auf.
 
                 Du kannst gespeicherte Logs auch zu einem späteren Zeitpunkt in einem Rutsch als Feldnotizen auf die Geocaching-Webseite hochladen.
-      - id: hide-pm-caches
-        en:
-            title: How can I hide PM only caches?
-            content: |
-                On geocaching.com some caches are accessible for Premium Members only. If you are a Basic Member you will still see them in your search results and on the live map but can't open them.
-                Sadly it is not possible to hide them by default due to server limitations.
-
-                The only possibility is to hide them in your lists and search results by applying a local filter in c:geo: \\
-                Menu → Filter → Status → "All member access"
-        de:
-            title: Wie kann ich Caches für Premium-Mitglieder ausblenden?
-            content: |
-                Auf geocaching.com sind manche Caches nur für Premium-Mitglieder zugreifbar. Wenn du Basis-Mitglied bist, siehst du diese Caches dennoch in den Suchresultaten und auf der Live-Karte, aber du kannst sie nicht öffnen.
-                Leider ist es aufgrund von Einschränkungen der Webseite nicht möglich sie standardmäßig auszublenden.
-
-                Die einzige Möglichkeit sie in deinen Listen und Suchresultaten auszublenden, ist es, einen lokalen Filter in c:geo zu setzen:\\
-                Menü → Filter → Status → "Für alle Mitglieder"
-      - id: stopped-working
-        en:
-            title: c:geo suddenly stopped working!
-            content: |
-                There can be several reasons that c:geo is not working as it should.
-                You should do the following steps:
-
-                First of all please check if you are using the latest version. Check on [Google Play](https://play.google.com/store/apps/details?id=cgeo.geocaching) for updates or load the latest version directly from [here](https://github.com/cgeo/cgeo/releases/latest). If a new version is available you should also see an update notification on the c:geo main screen.
-                If you are using an outdated version please update, because there might be changes on the geocaching website which need a new version of c:geo.
-
-                Please check if your device is connected to the Internet and also try other connections (e.g. Wi-Fi instead of mobile network or vice versa).
-                If c:geo works on another connection there seems to be a problem with your network.
-
-                Go to c:geo settings (Menu → Settings → Services) and check your login.
-                If it fails please make sure you are using the correct login credentials. Those are the same you use for the geocaching website.
-                Further information regarding login problems can be found in [this FAQ entry](#login-failed).
-
-                Check if there are any notifications about problems shown on the c:geo main screen and check our [Facebook page](https://www.facebook.com/android.geocaching) to see if others also have a problem and/or we reported a known problem there.
-
-                If your problem is still not solved, please [contact](./support) us and provide a detailed description of your problem and what you tried already to solve it. We will answer as soon as possible.
-        de:
-            title: c:geo funktioniert plötzlich nicht mehr!
-            content: |
-                Es kann verschiedene Gründe geben, dass c:geo nicht so funktioniert, wie es sollte.
-                Du solltest folgendermaßen vorgehen:
-
-                Als Allererstes prüfe bitte, ob du die neueste Version von c:geo nutzt. Prüfe [Google Play](https://play.google.com/store/apps/details?id=cgeo.geocaching) auf Aktualisierungen oder lade dir die neueste Version direkt von [hier](https://github.com/cgeo/cgeo/releases/latest). Wenn eine neue Version verfügbar ist, solltest du auch einen Benachrichtigung im c:geo-Hauptmenü sehen.
-                Wenn du eine veraltete Version benutzt, dann aktualisiere diese bitte, denn es kann Änderungen auf der Geocaching-Webseite geben, die eine neue c:geo-Version erfordern.
-
-                Bitte prüfe, ob dein Gerät eine Internetverbindung hat und versuche auch andere Verbindungen (z.B. WLAN anstelle des Mobilfunknetzes oder umgekehrt).
-                Wenn c:geo mit einer anderen Verbindung funktioniert, gibt es wahrscheinlich ein Problem mit deiner Netzverbindung.
-
-                Gehe in die c:geo-Einstellungen (Menü → Einstellungen → Dienste) und prüfe deine Anmeldung.
-                Wenn diese fehlschlägt, stelle sicher, dass du die korrekten Nutzerdaten eingegeben hast. Dies sind die gleichen Daten, die du auf der Geocaching-Webseite nutzt.
-                Weitere Informationen zu Problemen bei der Anmeldung findest du in [diesem FAQ-Eintrag](#login-failed).
-
-                Prüfe, ob es irgendeine Mitteilung über Probleme mit c:geo im c:geo-Hautpmenü gibt und schaue auch auf unsere [Facebook-Seite](https://www.facebook.com/android.geocaching), um zu sehen, ob andere Nutzer auch ein Problem haben oder wir bereits von dem Problem wissen.
-
-                Wenn dein Problem immer noch nicht behoben ist, [kontaktiere](./support) uns bitte mit einer detaillierten Fehlerbeschreibung und den Punkten, die du bereits geprüft hast. Wir bemühen uns so schnell wie möglich zu antworten.
       - id: nearby-far-away
         en:
             title: The nearby search also returns caches far away!
@@ -707,35 +596,6 @@
                 Wenn du nun allerdings eine Opencaching-Plattform in einem anderen Land aktivierst (z.B. du wohnst in Deutschland, aber hast opencaching.ro für Rumänien aktiviert), werden in der Nahbereichsliste auch Caches dieser Plattform angezeigt, die mehrere hundert Kilometer entfernt liegen, da dies die nächstgelegenen Caches auf dieser Plattform sind.
                 In diesem Fall deaktiviere bitte die nicht benötigten Opencaching-Plattformen unter:\\
                 Menü → Einstellungen → Dienste → opencaching.xx
-      - id: no-coords
-        en:
-            title: c:geo does not know the location of a cache!
-            content: |
-                If you are Basic Member of geocaching.com and try to navigate to a cache directly from a search result, you might see this error message.
-
-                If you are no Premium member the geocaching server does not provide coordinates in searches but only an estimation of the distance to the caches and "directional images".
-                c:geo uses and shows this distance estimation and the "directional images" in the search results.
-                The caches are still sorted by distance, but be aware that the distance shown is the one based on your location when you performed that search. It will not change if your position changes.
-
-                Additionally you will not be able to show a map of those results or directly navigate to a cache as c:geo does not have the coordinates for these caches.
-
-                To avoid all of this and get correct coordinates as a basic member you have to open the details or save the geocache to your device. This will automatically request the exact coordinates.
-
-                If you are premium member and c:geo does not know the location of a cache, please check your [login](#login-failed) and relogin to make sure c:geo knows you are a premium member.
-        de:
-            title: c:geo kennt die Koordinaten eines Caches nicht!
-            content: |
-                Wenn du Basis-Mitglied von geocaching.com bist und versuchst direkt aus den Suchresultaten zu einem Cache zu navigieren, könntest du diese Fehlermeldung sehen.
-
-                Wenn du kein Premium-Mitglied bist, stellt die Geocaching-Webseite keine Koordinaten, sondern nur eine Abschätzung des Standortes und ein "Richtungsbild" in der Suche zur Verfügung.
-                c:geo nutzt diese Entfernungs-Abschätzung und das "Richtungsbild" und zeigt es in den Suchergebnissen.
-                Die Caches werden weiterhin nach Entfernung sortiert, aber beachte, dass dies nur die Entfernung von deinem Standort zum Zeitpunkt der Suche ist. Sie wird sich nicht ändern, wenn du deine Position veränderst.
-
-                Zusätzlich wird es nicht möglich sein, eine Karte dieser Suchresultate aufzurufen oder direkt zu einem Cache zu navigieren, da c:geo die Koordination dieser Caches nicht kennt.
-
-                Um das alles zu vermeiden und als Basis-Mitglied genaue Koordinaten zu erhalten, musst du die Cache-Details öffnen oder den Geocache auf deinem Gerät speichern. Dies ruft automatisch die genauen Koordinaten ab.
-
-                Wenn du Premium-Mitglied bist, aber c:geo dennoch die Koordinaten eines Caches nicht kennt, dann prüfe bitte deine [Anmeldedaten](#login-failed) in c:geo und melde dich neu an, damit c:geo merkt, dass du Premium-Mitglied bist.
       - id: ignore-cache
         en:
             title: What is the "Ignore cache" function and how does it work?
@@ -850,26 +710,7 @@
 
                 Wenn du eine Projektion für einen existierenden Wegpunkt durchführen willst, funktioniert dies nur bei nutzerdefinierten Wegpunkten.
                 Wenn der Wegpunkt vom Besitzer vorgegeben ist, musst du zuerst den Wegpunkt duplizieren. Dazu wähle "Dupliziere Wegpunkt" nachdem du auf die Koordinaten des Wegpunktes geklickt hast.
-      - id: gcvote
-        en:
-            title: What is GCVote?
-            content: |
-                [GCVote](http://www.gcvote.com) is an extension for [geocaching.com](https://www.geocaching.com) that enables you to rate the quality of caches.
-                It is independent of c:geo and can also be used in your web browser.
-                You can view the average rating of caches in c:geo and also add your own vote with c:geo.
-                In contrast to the favorite points on geocaching.com (1 per 10 founds) you can vote for every cache with GCVote.
-                
-                You can find more information about how to use GCVote with c:geo in our [user guide](https://manual.cgeo.org).
-        de:
-            title: Was ist GCVote?
-            content: |
-                [GCVote](http://www.gcvote.com) ist eine Erweiterung für [geocaching.com](https://www.geocaching.com), die es dir ermöglicht, die Qualität eines Caches zu bewerten.
-                Es ist von c:geo unabhängig und kann auch in deinem Internet-Browser verwendet werden.
-                Du kannst dir die durchschnittliche Bewertung von Caches in c:geo anschauen und deine eigene Bewertung mit c:geo abgeben.
-                Im Gegensatz zu den Favoritenpunkten auf geocaching.com (1 pro 10 Funde) kannst du mit GCVote jeden Cache bewerten.
-
-                Mehr Informationen zur Nutzung von GCVote mit c:geo findest du in unserem [Benutzerhandbuch](https://manual.cgeo.org).
-
+ 
 - id: installation-and-update
   title:
       en: Installation and update
@@ -1186,33 +1027,14 @@
 
                 Wir haben Berichte erhalten, dass auf manchen Geräten die "Google Play-Dienste" fehlerhaft sind.
                 Wenn alle Lokalisierungs-Methoden aktiviert sind, aber du weiterhin Probleme hast, versuche bitte die Nutzung der "Google Play-Dienste" in Menü → Einstellungen → System auszuschalten.
-      - id: address-search
-        en:
-            title: Search by address does no longer work!
-            content: |
-                To convert an address to coordinates we rely on an integrated Google service on your device.
-                We have got reports that on some devices this service stops working randomly. In this case it usually helps to reboot your device to get the search function working again.
-        de:
-            title: Die Adress-Suche funktioniert nicht mehr!
-            content: |
-                Um eine Adresse in Koordinaten umzuwandeln, nutzen wir einen auf deinem Gerät integrierten Google-Dienst.
-                Wir haben Berichte erhalten, dass dieser Dienst auf manchen Geräten unregelmäßig nicht mehr funktioniert. In diesen Fällen hilft es normalerweise, das Gerät neu zu starten, damit die Such-Funktion wieder funktioniert.
       - id: brouter
         en:
             title: How do I use Brouter with c:geo?
-            content: |
-                Brouter is a separate app which works together with c:geo to provide a street navigation to a waypoint or cache.
-
-                To use it you need to install the [Brouter](https://play.google.com/store/apps/details?id=btools.routingapp) app on your device.
-                
+            content: |            
                 Setup and usage in c:geo is described in our [user guide](https://manual.cgeo.org/en/brouter).
         de:
             title: Wie nutze ich BRouter mit c:geo?
-            content: |
-                Brouter ist eine separate App, die mit c:geo zusammenarbeitet um dir eine Straßennavigation zu einem Wegpunkt oder Cache zur Verfügung stellt.
-
-                Um diese Funktion zu nutzen, musst du die [Brouter](https://play.google.com/store/apps/details?id=btools.routingapp)-App auf deinem Gerät installieren.
-                
+            content: |              
                 Die Konfiguration und Nutzung in c:geo ist in unserem [Benutzerhandbuch](https://manual.cgeo.org/de/brouter) beschrieben.
 
 - id: live-map
@@ -1260,7 +1082,22 @@
                 Es wird auf dem Bildschirm eine Schaltfläche angezeigt, die es dir erlaubt die Google Play Dienste zu installieren/aktualisieren. Dazu wird ein Google-Konto und Zugriff auf den Google Playstore benötigt.
                 
                 Wenn du dies nicht installieren kannst oder möchtest, kannst du stattdessen eine der OSM-Karten nutzen, die von c:geo unterstützt werden. Klicke hierzu einfach auf das Kartensymbol in der Titelzeile und wähle eine andere Karte anstatt Google aus.
- 
+      - id: 8097
+        en:
+            title: The map is rotating all the time!
+            content: |
+                You have accidentally activated the experimental map rotation feature, which does not yet seem to work correct on your device.
+                Please disable the map rotation in Live Map - Menu (three dot button) - Map rotation.
+                
+                We are working on improving this feature in future versions of c:geo.
+        de:
+            title: Die Karte dreht sich pausenlos!
+            content: |
+                Du hast aus Versehen die experimentelle Kartenrotation eingeschaltet, die auf deinem Gerät scheinbar noch nicht korrekt funktioniert.
+                Bitte deaktiviere die Kartendrehung in Live-Karte - Menü (Drei-Punkt-Button) - Kartendrehung.
+                
+                Wir arbeiten daran diese Funktion in den kommenden Versionen von c:geo zu verbessern.
+
 - id: ALC
   title:
     en: Adventure Lab Caches
@@ -1443,6 +1280,15 @@
                 Schaue in deinen geocaching.com Browser-Tab: Wenn dort ein Cookie-Symbol mit einem roten X am Ende des URL-Eingabefeldes erscheint, dann klicke darauf und klicke im erscheinenden Fenster auf "Maintain cookie blocking" (oder eine entsprechende Meldung in Deutsch) und erlaube [*.]send2.cgeo.org.
                 
                 In neueren Versionen von Google Chrome musst du einen Workaround anwenden, der auf unserer [send2cgeo Seite](https://www.cgeo.org/send2cgeo#special-setting-for-google-chrome) beschrieben ist.
+    -   id: 97
+        en:
+            title: send2cgeo is not working with Google Chrome browser!
+            content: |
+                We implemented a workaround for this problem starting with send2cgeo version 2020.08.26. Please update your script and read the description on our [send2cgeo page](https://www.cgeo.org/send2cgeo#special-setting-for-google-chrome).
+        de:
+            title: send2cgeo funktioniert nicht mit dem Google Chrome Browser!
+            content: |
+                Wir haben ab send2cgeo Version 2020.08.26 einen Workaround hierfür eingebaut. Bitte aktualisiere dein Script und lies die Beschreibung auf der [send2cgeo Seite](https://www.cgeo.org/send2cgeo#special-setting-for-google-chrome).                
 
 - id: offline-maps
   title:
@@ -1453,32 +1299,11 @@
         en:
             title: What are offline maps?
             content: |
-                Offline maps offer you the possibility to use all the map functionality of c:geo even when your device is not connected to the Internet. This can be useful e.g. in case of roaming to avoid expensive data transfer or when you are in regions without or with slow network connection.
-                We have implemented a support of mapsforge maps, which uses vector maps based on OpenStreetMap data.
-
-                In combination with caches already stored in c:geo (manually or via GPX import) and the possibility for offline logging (e.g. for later fieldnote export) you will get a full offline solution for caching.
+                The procedure of how to use offline maps in c:geo can be found in our [user guide](https://manual.cgeo.org/en/offlinemaps).            
         de:
             title: Was sind Offline-Karten?
             content: |
-                Offline-Karten geben dir die Möglichkeit alle Kartenfunktionen von c:geo zu nutzen, wenn dein Gerät nicht mit dem Internet verbunden ist. Das kann z.B. im Ausland sehr hilfreich sein, um teure Datenübertragung zu vermeiden, oder wenn du in Regionen ohne oder mit nur langsamer Verbindung bist.
-                Wir haben eine Unterstützung von Mapsforge-Karten implementiert, die Vektor-Karten auf der Grundlage von OpenStreetMap bereitstellen.
-
-                In Kombination mit Caches, die auf deinem Gerät (manuell oder per GPX-Import) gespeichert sind, und der Möglichkeit Caches offline zu loggen (z.B. für späteren Export der Feldnotizen), hast du damit eine vollständige Offline-Lösung fürs Cachen.
-      - id: osm-howto
-        en:
-            title: How to use an offline map with c:geo?
-            content: |
-                Once you downloaded or created a map, store it into a folder (e.g. /mfmaps) on your device or SD card. You can also store multiple maps (e.g. for several countries) into this folder to have easy access later directly from c:geo.
-                If you are additionally using the app [Locus](https://play.google.com/store/apps/details?id=menion.android.locus) it is useful to store the maps in /Locus/mapsVector to have them accessible for Locus as well as for c:geo.
-
-                The procedure of how to configure c:geo to use this map can be found in our [user guide](https://manual.cgeo.org/en/offlinemaps).
-        de:
-            title: Wie benutze ich eine Offline-Karte in c:geo?
-            content: |
-                Nachdem du eine Karte heruntergeladen oder erstellt hast, speichere sie in einem Ordner (z.B. /mfmaps) auf deinem Gerät oder der SD-Karte. Du kannst auch mehrere Karten (z.B. für mehrere Länder) in diesem Ordner speichern, und kannst später in c:geo einfach zwischen diesen Karten wechseln.
-                Wenn du auch die App [Locus](https://play.google.com/store/apps/details?id=menion.android.locus) nutzt, ist es hilfreich die Karten im Ordner /Locus/mapsVector zu speichern, damit sie für Locus und c:geo nutzbar sind.
-                
-                Das Vorgehen zur Konfiguration dieser Karte in c:geo findest du in unserem [Benutzerhandbuch](https://manual.cgeo.org/de/offlinemaps).
+                Das Vorgehen zur Nutzung von Offline-Karten in c:geo findest du in unserem [Benutzerhandbuch](https://manual.cgeo.org/de/offlinemaps).
 
 - id: offline-caching
   title:
@@ -1645,24 +1470,7 @@
 
                 Wenn du Probleme hast das GPS-Signal von externen Empfängern mit c:geo zu verwenden, musst du die Nutzung dieses Dienstes ausschalten:\\
                 c:geo Menü → Einstellungen → System
-      - id: open-in-browser
-        en:
-            title: Open in browser does only offer c:geo itself but not my web browser!
-            content: |
-                If your device is running on Android 6 or higher you might encounter that on selecting "Open in Browser" from the cache details menu your phone only offers "c:geo" and "c:geo internal browser" as targets.
-                This is caused by an incorrect setting on your device, which you can easily change:
-
-                Open the application manager of your device (typically in Settings → Applications → Application Manager), search and open the entry for c:geo, select "Set Default" and change the setting for "Go to supported URLs" from "Via this app" to "Always ask". \\
-                After changing this setting your web browser should be shown again when selecting "Open in Browser" from c:geo.
-        de:
-            title: Öffnen im Browser bietet mir nur c:geo selbst, aber nicht den Internet-Browser an!
-            content: |
-                Wenn dein Gerät mit Android 6 oder höher läuft, könnte er passieren, dass nach der Auswahl "Öffne in Browser" in den Cache-Details nur "c:geo" und "c:geo internal browser" angeboten wird.
-                Dies wird durch eine falsche Einstellung auf deinem Gerät verursacht, die du einfach korrigieren kannst:
-
-                Öffne den Anwendungsmanager deines Gerätes (typischerweise unter Einstellungen → Anwendung → Anwendungsmanager), suche und öffne den Eintrag für c:geo, wähle "Standard wählen" und setze "Unterstützte URLs öffnen" von "Mit dieser App" auf "Immer fragen".\\
-                Nach dieser Änderung sollte dein Internet-Browser wieder auswählbar sein, wenn du "Öffne in Browser" aus c:geo wählst.
-
+ 
 - id: contacts-plugin
   title:
       en: Contacts plugin
