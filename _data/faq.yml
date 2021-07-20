@@ -1208,6 +1208,7 @@
                 Wenn Groundspeak faire Bedingungen und eine akzeptable Funktionalität über ihre App-Schnittstelle anbietet, kann es sein, dass wir eine bessere Implementierung mit mehr Funktionen in c:geo anbieten können.
                 Es kann aber auch beim aktuellen Stand bleiben, wenn wir keine Vereinbarung mit Groundspeak erzielen oder die Bedingungen von unserem Entwickler-Team als zu strikt angesehen werden.
                 Es könnte sogar dazu kommen, dass wir die Adventure Labs aus c:geo zukünftig wieder entfernen, wenn die öffentliche Schnittstelle zu diesen Informationen entfernt wird und es keinen akzeptablen Weg zum Zugriff auf diese Informationen mehr gibt.
+
 - id: send2cgeo
   title:
       en: Send2cgeo
