@@ -1,3 +1,182 @@
+- id: design
+  title:
+      en: Recent changes to the c:geo design
+      de: Kürzliche Design-Änderungen in c:geo
+  items:
+      - id: design-generic
+        en:
+            title: Why did you change the c:geo design?
+            content: |
+                Major parts of c:geo have been designed many years ago and were targeted to very old Android versions. Some of those designs have not even been touched ever since.
+                Over the last years much effort was needed to bugfix and patch this really old design to make it usable for new screens and features.
+                
+                Finally we ended up with a very unstructured design, which made c:geo look inconsistent or even broken at many places.
+                Additionally the old design did not allow us to make use of modern app design principles and features, which you know from many other Android apps.
+                
+                Therefore we finally decided to start from scratch and implement the so-called material design into c:geo. 
+                We tried our best to implement it in a way, that you will still recognize c:geo but have a more consistent and structured appearance.
+                
+                At some places this is still work in progress and we are unable to test it on all the different Android devices and versions.
+                Thus there might still be some minor bugs. Feel free to provide <a href="mailto:support@cgeo.org?subject=New design">feedback to our support</a> if you encounter problems or have improvement proposals.
+        de:
+            title: Warum wurde das c:geo Design geändert?
+            content: |
+                Weite Teile des Designs von c:geo wurden vor vielen Jahren entwickelt und waren auf sehr alte Android-Versionen ausgerichtet. Einige dieser alten Designs wurden seitdem nie verändert.
+                Über die letzten Jahre war es sehr aufwändig Fehler im Design zu beheben oder es zu flicken, um es für neue Ansichten und Funktionen nutzbar zu machen.
+                
+                Am Ende hatten wir ein sehr unstrukturiertes Design, welches c:geo an vielen Stellen uneinheitlich oder sogar defekt aussehen ließ.
+                Weiterhin erlaubte uns das alte Design nicht neue Design-Prinzipien und Funktionen zu nutzen, die du von vielen anderen Android-Apps kennst.
+                
+                Daher haben wir und schließlich dazu entschieden komplett neu zu starten und das sogenannte Material-Design in c:geo einzubauen.
+                Wir haben unser bestes gegeben um es so zu implementieren, dass ihr weiterhin c:geo wiedererkennt aber in einem konsistenten und strukturieren Erscheinungsbild.
+      - id: design-background
+        en:
+            title: Where is my background image?
+            content: |
+                The transparent background was a rather old feature and is no longer used in modern designs. Therefore this feature has been removed.
+                
+                We are planning to change the main menu as well in future versions and migrate to a bottom navigation with a custom dashboard. 
+                We are still working on it.
+        de:
+            title: Wo ist mein Hintergrundbild?
+            content: |
+                Der transparente Hintergrund war eine ziemlich alte Funktion und wird in neuen Designs nicht länger verwendet. Daher wurde die Funktion entfernt.
+                
+                Wir planen ohnehin auch das Hauptmenü in kommenden Versionen zu verändern und zu einer Fußzeilennavigation mit einem personalisierten Dashboard weiterzuentwickeln.
+                Wir arbeiten noch daran.
+      - id: design-font
+        en:
+            title: Why are all texts now bigger?
+            content: |
+                We do now follow the Android style guidelines for font sizes. We also had many users telling us, that the texts are rather small and hard to read compared to other apps on the same device.
+                
+                Give it a try for some days...its probably just a matter of getting used to the new look.
+                Besides that, you can also adjust the font size in c:geo by adjusting your system settings accordingly as c:geo is following that system setting.                
+        de:
+            title: Warum sind jetzt alle Texte größer?
+            content: |
+                Wir folgen nun den Android-Style-Richtlinien für Schriftgrößen. Es gab auch viele Nutzer, die uns berichtet haben, dass die Texte in c:geo relativ klein und schwer zu lesen sind verglichen mit anderen Apps auf dem selben Gerät.
+                
+                Probier es mal für einige Tage...es ist wahrscheinlich nur eine Sache der Gewohnheit.
+                Weiterhin kannst du die Schriftgröße in c:geo verändern, indem du diese in deinen Geräteeinstellungen änderst, da c:geo diesen Einstellungen folgt.
+      - id: design-popup
+        en:
+            title: The cache/waypoint name is missing on the map!
+            content: |
+                The cache popup on the map is now showing the geo code/waypoint code in its title instead of the cache/waypoint name, but the cache/waypoint name is shown immediately below.
+                
+                We changed this because long cache/waypoint names have always be truncated in the past due to the limited space on the title bar. Now you can see the whole cache/waypoint name instead of only a part of it.
+        de:
+            title: Der Cache/Wegpunkt-Name wird auf der Karte nicht mehr angezeigt!
+            content: |
+                Das Popup-Fenster auf der Karte zeigt nun den Geocode/Wegpunktcode im Titel anstatt des Cache- bzw. Wegpunktnamens, aber der Cache- bzw. Wegpunktname wird nun direkt darunter angezeigt.
+                
+                Wir haben dies verändert, da lange Cache-/Wegpunktnamen in der Vergangenheit durch den begrenzten Platz immer abgeschnitten wurden. Jetzt kannst du den gesamten Cache- bzw. Wegpunktnamen sehen, statt nur einen Teil davon.
+- id: filter
+  title:
+      en: New filtering framework
+      de: Neue Filter-Methoden
+  items:
+      - id: filter-generic
+        en:
+            title: Why did you change the filtering?
+            content: |
+                There have been several different filtering methods included into c:geo over the last years. As they have been developed independently of one another, there have been
+                several limitations and issues with that, which we could not fix.
+                
+                Instead of trying to glue those existing filters together, we therefore decided to make a clean, new and more powerful approach.
+        de:
+            title: Warum habt ihr die Filterung geändert?
+            content: |
+                In c:geo wurden über die letzten Jahre mehrere verschiedene Filtermethoden eingebaut. Da diese unabhängig voneinander entwickelt wurden, gab es dadurch mehrere Limitierungen und Fehler, die wir nicht beheben konnten.
+                
+                Statt dem Versuch dies irgendwie zusammenzukleben, haben wir uns daher dafür entschieden einen neuen, sauberen und leistungsfähigeren Versuch zu starten.
+      - id: filter-changes
+        en:
+            title: What has changed for filtering?
+            content: |             
+                There used to be several different filters at different places in c:geo, which did only partly interact properly:
+                - The global hiding of found, owned, disabled, archived caches
+                - The global switch to filter on a single cache type within the whole app
+                - A bunch of filters for your stored caches (e.g. for certain states, attributes, etc.)
+                
+                We basically removed all of those filters and replaced them by a common filter framework with more and more flexible filtering options.
+                
+                There are now two independent filter contexts (with identical filtering options):
+                - A live filter which is used for all live data (i.e. on live map and for all search actions)
+                - An offline filter which is used for your stored caches
+                
+                The reason for this differentiation is, that you e.g. might want to hide your found caches on the map and for searches, while still seeing them on your lists.              
+                Your previous global cache hiding settings (e.g. for found caches) have therefore been automatically migrated into the live filter.
+                
+                For more information about the new filter possibilities, please refer to [our user guide](https://manual.cgeo.org/en/cachefilter).
+                
+                The filter is all new and can get very complex (try the advanced mode!). So there might still be bugs or not everything you desire might be included. 
+                Feel free to provide <a href="mailto:support@cgeo.org?subject=New filter">feedback to our support</a> if you encounter problems or have improvement proposals.
+        de:
+            title: Was hat sich beim Filtern verändert?
+            content: |
+                Es gab bislang mehrere verschiedene Filter an verschiedenen Stellen in c:geo, die nur begrenzt miteinander interagierten:
+                - Den globalen Ausblenden von gefundenen, eigenen, deaktivierten, archivierten Caches
+                - Die globale Einstellung einen einzelnen Cache-Typ in der gesamtem c:geo App zu filtern
+                - Eine Sammlung von Filtern für die gespeicherten Caches (z.B. nach gewissen Statuswerten, Attributen, etc.)
+                
+                Im Grunde haben wir all diese Filter entfernt und durch eine gemeinsame Filtermethodik mit mehr und viel flexibleren Filteroptionen ersetzt.
+                
+                Es gibt nun zwei unabhängige Filterkontexte (mit identischen Filteroptionen):
+                - Einen Live-Filter, der für alle Live-Daten genutzt wird (d.h. auf der Live-Karte und für alle Suchaktionen)
+                - Einen Offline-Filter, der für deine gespeicherten Caches genutzt wird
+                
+                Der Grund für diese Unterscheidung ist, dass du z.B. deine gefundenen Caches auf der Karte und für Suchen verstecken möchtet, aber du diese dennoch auf deinen Listen sehen möchtest.
+                Die vorherigen globalen Einstellungen fürs Ausblenden (z.B. für gefundene Caches) wurden daher automatisch in den Live-Filter übertragen.
+                
+                Mehr Informationen zu den neuen Filtermöglichkeiten findet ihr in [unserem Benutzerhandbuch](https://manual.cgeo.org/de/cachefilter).
+                
+                Der Filter ist komplett neu und kann sehr komplex werden (probier den erweiterten Modus aus!). Es kann also noch Fehler geben oder es ist noch nicht alles enthalten, was du erwartest.
+                Kontaktiere und gerne mit <a href="mailto:support@cgeo.org?subject=New filter">deinem Feedback an unseren Support</a>, wenn du Probleme feststellst oder Verbesserungsvorschläge hast.
+      - id: filter-cachetype
+        en:
+            title: Why did you remove the global cache type filter?
+            content: |             
+                As you might have noticed the global cache type filter option in the main menu has been disabled. 
+                This filter had a very limited scope as only a single cache type could be selected and the filter was applied everywhere within c:geo without possibility to differentiate e.g. between map and lists.
+                
+                The new filters on map and lists do now allow a very flexible filtering, which also covers the functionality of the old global filter, but e.g. also allows to filter by multiple cache types.
+        de:
+            title: Warum wurde der globale Cachetyp-Filter entfernt?
+            content: |
+                Wie du vielleicht festgestellt hast, wurde der globale Cache-Typ Filter im Hauptmenü deaktiviert.
+                Dieser Filter hatte eine sehr geringen Umfang, da nur ein einzelner Cache-Typ ausgewählt werden konnte und dieser Filter dann überall in c:geo angewendet wurden; ohne die Möglichkeit z.B. zwischen der Karte und Listen zu unterscheiden.   
+                
+                Die neuen Filter auf der Karte und in den Listen erlauben nun eine sehr flexible Filterung, die auch alle Funktionen des alten globalen Filters abdeckt, aber auch das Filtern mehrere Cache-Typen gleichzeitig erlaubt.
+      - id: filter-globalhiding
+        en:
+            title: How can I hide found and owned caches now?
+            content: |             
+                We removed the old global hiding settings from Settings → Cache Details because you can now easily hide caches which have a certain status using the new filters.
+                
+                Just open the map or your lists and select the filter icon from the menu to setup the hiding according to your needs.
+                Initially we also migrated your old global hiding settings into the filter, which is used for the live map and searches. So the initial behavior should be the same as before.
+                
+                For more information about the new filter possibilities, please refer to [our user guide](https://manual.cgeo.org/en/cachefilter).
+        de:
+            title: Wie kann ich jetzt gefundene und eigene Caches verbergen?
+            content: |
+                Wir haben die alten globalen Einstellungen zum Ausblenden aus den Einstellungen → Cache-Details entfernt, da du nun mit den neuen Filtern sehr einfach Caches mit bestimmten Statuswerten ausfiltern kannst.
+                
+                Öffne einfach die Karte oder deine Listen und wähle das Filter-Symbol aus dem Menü um einen Filter nach deinen Bedürfnissen zu erstellen.
+                Für den Anfang haben wir auch deine bisherigen Einstellungen für das Ausblenden in den Filter übertragen, der für die Live-Karte und Suchfunktionen genutzt wird. Das initiale Verhalten sollte also genauso wie vorher sein.
+      - id: filter-foundbyuser
+        en:
+            title: Why can I no longer search for caches found by a certain user?
+            content: |            
+                We are now using the new Groundspeak search interface. 
+                On this interface this type of search is no longer supported. We don't know why Groundspeak removed it.
+        de:
+            title: Warum kann ich nicht länger nach Caches suchen, die von einem bestimmten Nutzer gefunden wurden?
+            content: |
+                Wir nutzen nun die neue Groundspeak-Suchschnittstelle.
+                Mit dieser Schnittstelle wird diese Art der Suche nicht mehr unterstützt. Wir wissen nicht, warum Groundspeak dies entfernt hat.
 - id: temporary-issues
   title:
       en: Current issues and changes
@@ -11,22 +190,7 @@
         de:
             title: Meine persönliche Notiz wird nicht vom Geocaching-Server heruntergeladen!
             content: |
-                Dieser Fehler wurde ab c:geo Version 2021.07.15 behoben. Bitte aktualisiere deine Installation.           
-      - id: 11001
-        en:
-            title: Adventure lab caches are no longer shown!
-            content: |
-                Currently adventure lab caches are no longer showing up in c:geo. 
-                The reason seems to be, that the access method previously approved by Groundspeak is no longer working and we don't have any information about other possibilities.
-                
-                There is nothing we can do about this on short term, see also our [FAQ about the future of adventure labs in c:geo](https://www.cgeo.org/faq#ALC_future).      
-        de:
-            title: Adventure Lab Caches werden nicht mehr angezeigt!
-            content: |
-                Aktuell werden Adventure Lab Caches nicht länger in c:geo angezeigt.
-                Der Grund hierfür scheint zu sein, dass die vorab mit Groundspeak abgestimmte Zugangsmethode nicht mehr funktioniert und wir keine Informationen über andere Zugriffsmöglichkeiten haben.
-                
-                Es gibt derzeit nichts, was wir kurzfristig daran ändern können, siehe auch [unsere FAQ zur Zukunft von Adventure Labs in c:geo](https://www.cgeo.org/faq#ALC_future).                
+                Dieser Fehler wurde ab c:geo Version 2021.07.15 behoben. Bitte aktualisiere deine Installation.
       - id: SAF
         en:
             title: Changes to file system access!
