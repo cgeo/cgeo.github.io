@@ -1,3 +1,7 @@
+# Generic
 .sass-cache
 _site
 Gemfile.lock
+
+# CNAME is specific to the main repo
+CNAME
