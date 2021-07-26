@@ -7,16 +7,14 @@
         en:
             title: Why did you change the c:geo design?
             content: |
-                Many parts of c:geo have been designed many years ago and were targeted to really old Android versions. Some of those designs have not even been touched since then.
-                Over the last years much effort was needed to bugfix and patch this really old design to make it useable for new screens and features.
+                Many parts of c:geo have been designed many years ago and were targeted to really old Android versions and have not been touched ever since.
+                Over the last years much effort was needed to bugfix and patch this old design for new screens and features.
                 
                 We ended up with a very unstructured design, which was used in different ways and looked different all over the place. 
-                Additionally the old design did not allow us to make use of modern app design principles and features, which you know from many other apps.
+                Additionally the old design did not allow us to make use of modern app design principles as you might be used to from many other apps.
                 
                 That is why we finally decided to start from scratch and implement the so-called material theme into c:geo.
-                We tried our best to implement it in a way, that you will still recognize c:geo but have a more consistent and structured appearance. 
-                
-                As we are unable to test it on all the different Android devices and versions, there might still be some minor bugs. Feel free to provide feedback if you encounter problems. 
+                We tried our best to implement it in a way, that you will still recognize c:geo but have a more consistent and structured appearance.             
         de:
             title: Warum wurde das c:geo Design geändert?
             content: |
@@ -25,10 +23,7 @@
         en:
             title: Where is my background image?
             content: |
-                The transparent background was a rather old feature and is no longer used in modern designs. Therefore this feature has been removed.
-                
-                We are planning to change the main menu as well in future versions and migrate to a bottom navigation with a dashboard. 
-                It might be possible, that such dashbaord will bring back a similar personalization option. We are still working on it.
+                TBC    
         de:
             title: Wo ist mein Hintergrundbild?
             content: |
@@ -93,7 +88,7 @@
                 
                 For more information about the new filter possibilities, please refer to [our user guide](https://manual.cgeo.org/en/cachefilter).
                 
-                The filter is all new and very complex (try the advanced mode)...so there might still be bugs or not everything you desire might be included. Feel free to provide feedback to us.
+                The filter is all new...so there might still be bugs or not everything you desire might be included. Feel free to provide feedback to us.
         de:
             title: Was hat sich beim Filtern verändert?
             content: |
