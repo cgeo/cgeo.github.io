@@ -1,3 +1,98 @@
+- id: design
+  title:
+      en: Current change of the c:geo design
+      de: Aktuelle Design-Änderungen in c:geo
+  items:
+      - id: design-generic
+        en:
+            title: Why did you change the c:geo design?
+            content: |
+                Many parts of c:geo have been designed many years ago and were targeted to really old Android versions and have not been touched ever since.
+                Over the last years much effort was needed to bugfix and patch this old design for new screens and features.
+                
+                We ended up with a very unstructured design, which was used in different ways and looked different all over the place. 
+                Additionally the old design did not allow us to make use of modern app design principles as you might be used to from many other apps.
+                
+                That is why we finally decided to start from scratch and implement the so-called material theme into c:geo.
+                We tried our best to implement it in a way, that you will still recognize c:geo but have a more consistent and structured appearance.             
+        de:
+            title: Warum wurde das c:geo Design geändert?
+            content: |
+                TBC     
+      - id: design-background
+        en:
+            title: Where is my background image?
+            content: |
+                TBC    
+        de:
+            title: Wo ist mein Hintergrundbild?
+            content: |
+                TBC  
+      - id: design-font
+        en:
+            title: Why are all texts now bigger?
+            content: |
+                We do now follow the Android style guidelines for font sizes. We had many users in the past, telling us, that the textx are shown to small compared to other apps.
+                
+                Give it a try for some days...its probably just a matter of getting used to the new look.
+                Besides that, you can now also adjust the font size in c:geo by adjusting your system settings accordingly as c:geo is now following that system setting.                
+        de:
+            title: Warum sind jetzt alle Texte größer?
+            content: |
+                TBC 
+      - id: design-popup
+        en:
+            title: The cache name is missing on the map!
+            content: |
+                The cache popup on the map is now showing the geocode in its title instead of the cache name, but the cache name is shown immediately below.
+                
+                We changed this because long cache names have always be truncated in the past due to the limited space on the title bar. Now you can see the whole cache name instead of only a part of it.
+        de:
+            title: Der Cachetitel wird auf der Karte nicht mehr angezeigt!
+            content: |
+                TBC  
+- id: filter
+  title:
+      en: New filtering framework
+      de: Neue Filter-Methoden
+  items:
+      - id: filter-generic
+        en:
+            title: Why did you change the filtering?
+            content: |
+                There have been several different filtering methods included into c:geo over the last years. As they have been developed independently of one another, there have been
+                several limitations and issues with that, which we could not fix.
+                
+                Instead of trying to glue those existing filters together, we therefore decided to make a clean, new and more powerful approach.
+        de:
+            title: Warum habt ihr die Filterung geändert?
+            content: |
+                TBC  
+      - id: filter-changes
+        en:
+            title: What has changed for filtering?
+            content: |             
+                There used to be several different filters at different places in c:geo, which did only partly interact properly:
+                - The global hiding of found, owned, disabled, archived caches
+                - The global switch to filter on a single cache type within the whole app
+                - A bunch of filters for your stored caches (e.g. for certain states, attributes, etc.)
+                
+                We basically removed all of those filters and replaced them by a common filter framework with more and more flexible filtering options.
+                
+                There are now two independent filter contexts with identical filtering options:
+                - A live filter which is used for all live data (i.e. on live map and for all search actions)
+                - A list filter which is used for your stored caches
+                
+                The reason for this differentiation is, that you e.g. might want to hide your found caches on the map and for searches, while still seeing them on your lists.              
+                Your previous global cache hiding settings (e.g. for found caches) have therefore been automatically migrated into the live filter.
+                
+                For more information about the new filter possibilities, please refer to [our user guide](https://manual.cgeo.org/en/cachefilter).
+                
+                The filter is all new...so there might still be bugs or not everything you desire might be included. Feel free to provide feedback to us.
+        de:
+            title: Was hat sich beim Filtern verändert?
+            content: |
+                TBC  
 - id: temporary-issues
   title:
       en: Current issues and changes
