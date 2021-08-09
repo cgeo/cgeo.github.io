@@ -182,6 +182,19 @@
       en: Current issues and changes
       de: Aktuelle Probleme und Änderungen
   items:
+      - id: nearby-limit
+        en:
+            title: The nearby search now shows more than 20 caches!
+            content: |
+                As we are now using the newer Groundspeak search engine, it will now return more than 20 results in one batch. Nothing else changed, those are still the nearest sorted by distance.
+                
+                If you use the nearby search to store some really nearby caches, you might now want to select or filter some of them before storing.
+        de:
+            title: Die "In der Nähe"-Suche zeigt mir nun mehr als 20 Caches!
+            content: |
+                Da wir jetzt die neuere Groundspeak-Suche nutzen, bekommen wir mehr als 20 Resultate auf einmal. Sonst hat sich aber nichts geändert, es werden weiterhin die nächstgelegenen Caches sortiert nach Entfernung angezeigt.
+                
+                Wenn du die Nahbereichssuche zur Speicherung der wirklich nahegelegenen Caches nutzt, kannst du einige auswählen oder einen Filter benutzen, bevor du sie speicherst.
       - id: 11232
         en:
             title: My personal note is not downloaded from the geocaching server!
