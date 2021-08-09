@@ -483,7 +483,7 @@
                 This means, that your find count will be incremented also for offline logs. This way you can use the signature template [NUMBER] also for offline logs.
                 
                 To remind you of existing offline logs those are shown separate to your online find count.
-                If this offline number shows up unexpected, you might have some offline logs from the past still stored in c:geo. Open the list "History" and filter "With own information" and "with offline log" to see the caches causing this.
+                If this offline number shows up unexpected, you might have some offline logs from the past still stored in c:geo. Open the list "History" and filter "Status" - "Has Offline Log=YES" to see the caches causing this.
                 
                 If you do no longer need these offline logs you can clear them by selecting Menu → Manage caches → Clear offline logs while on the history list.
         de:
@@ -493,7 +493,7 @@
                 Das bedeutet, dass deine Fundzahl auch für Offlinelogs hochgezählt wird. Auf dieser Weise kannst du die Signatur-Vorlage [NUMBER] nun auch für Offlinelogs nutzen.
                 
                 Um dich an die existierenden Offlinelogs zu erinnern, werden diese separat zu deiner Online-Fundzahl angezeigt.
-                Wenn diese Offline-Fundzahl unerwartet angezeigt wird, hast du wahrscheinlich noch vergangene Offlinelogs in c:geo gespeichert. Öffne die Liste "Verlauf" und filtere nach "Mit eigenen Informationen" und "Mit Offline-Logs", um die Caches zu sehen, die dies verursachen.
+                Wenn diese Offline-Fundzahl unerwartet angezeigt wird, hast du wahrscheinlich noch vergangene Offlinelogs in c:geo gespeichert. Öffne die Liste "Verlauf" und filtere nach "Status" - "Hat Offline-Log=JA", um die Caches zu sehen, die dies verursachen.
                 
                 Wenn du diese Offline-Logs nicht mehr benötigst, kannst du sie löschen, indem du Menü → Caches verwalten → Offline-Logs löschen wählst, während du auf der Liste "Verlauf" bist.
       - id: miles-meters
