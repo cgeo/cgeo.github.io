@@ -390,7 +390,8 @@
         en:
             title: A login problem is shown on the main screen!
             content: |
-                First of all please make sure you have a working network connection. c:geo cannot login without internet connection. Restore internet access and restart c:geo to trigger a new login.
+                First of all please check if there is an update of c:geo available and update if applicable. 
+                If you updated to the newest version or are already using the newest version and the problem persists, please make sure you have a working network connection. c:geo cannot login without internet connection. Restore internet access and restart c:geo to trigger a new login.
                 
                 It is also possible, that the geocaching service itself has some outage. Check if you can reach the website of your geocaching service using a web browser and that you can login on their website.
                 
@@ -425,7 +426,8 @@
         de:
             title: Ein Anmeldungsfehler wird im Hauptmenü angezeigt!
             content: |
-                Bitte prüfe zuerst, ob du eine funktionierende Netzwerkverbindung hast. Ohne eine Internetverbindung kann c:geo sich nicht einloggen. Stelle die Internetverbindung wieder her und start c:geo neu, um eine erneute Anmeldung auszulösen.
+                Bitte prüfe zuerst, ob es eine neuere Version von c:geo gibt und aktualisiere deine App gegebenenfalls.
+                Wenn du die neueste Version nutzt und das Problem weiterhin besteht, prüfe bitte ob du eine funktionierende Netzwerkverbindung hast. Ohne eine Internetverbindung kann c:geo sich nicht einloggen. Stelle die Internetverbindung wieder her und start c:geo neu, um eine erneute Anmeldung auszulösen.
                 
                 Es ist auch möglich, dass der Geocaching-Dienst selbst ein Problem hat. Prüfe, ob du die Webseite des Geocaching-Dienstes mit einem Internet-Browser erreichen und dich dort einloggen kannst.
                 
