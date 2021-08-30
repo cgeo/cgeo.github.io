@@ -195,15 +195,6 @@
                 Da wir jetzt die neuere Groundspeak-Suche nutzen, bekommen wir mehr als 20 Resultate auf einmal. Sonst hat sich aber nichts geändert, es werden weiterhin die nächstgelegenen Caches sortiert nach Entfernung angezeigt.
                 
                 Wenn du die Nahbereichssuche zur Speicherung der wirklich nahegelegenen Caches nutzt, kannst du einige auswählen oder einen Filter benutzen, bevor du sie speicherst.
-      - id: 11232
-        en:
-            title: My personal note is not downloaded from the geocaching server!
-            content: |
-                This bug was fixed starting with c:geo version 2021.07.15. Please update your installation.
-        de:
-            title: Meine persönliche Notiz wird nicht vom Geocaching-Server heruntergeladen!
-            content: |
-                Dieser Fehler wurde ab c:geo Version 2021.07.15 behoben. Bitte aktualisiere deine Installation.
       - id: SAF
         en:
             title: Changes to file system access!
@@ -308,52 +299,6 @@
                 2. Wenn c:geo, sogar nachdem du einige Minuten wartest, komplett im Startbildschirm eingefroren ist, dann öffne bitte einen Dateiexplorer und suche den Ordner, den du als "Ordner mit Kartendesigns" in c:geo ausgewählt hast. Benenne diesen Ordner um oder verschiebe ihn an eine andere Stelle, damit c:geo keinen Zugriff mehr darauf hat.
                 
                 Nachdem du eine der beiden Workarounds angewendet hast, sollte c:geo wieder normal starten.
-      - id: cache_menu
-        en:
-            title: I am missing some functions from the cache menu!
-            content: |
-                Starting with 2021.01.24-RC we optimized the really long list of menu items behind the three-dot-button while looking at a cache.
-                We tried our best to find a reasonable distribution of some functions into submenus. Additionally we removed some functions from that menu, which are also accessible by other means. The following list should help you if you miss a function:
-                
-                Extract waypoints, Prevent waypoints → Moved to submenu "Waypoint"
-                
-                Share cache, Export GPX, Export Field Note -> Moved to submenu "Share/Export"
-                
-                Caches around, Vote, Ignore cache → Moved into submenu "Advanced"
-                
-                Store, Remove, Refresh → These items have been removed from the menu. You can simply use the disc/pen/trashcan icons on the cache details page. For refreshing caches or trackables you can also simply use "Pull down to refresh" as you are used to from other apps.
-        de:
-            title: Ich vermisse einige Funktionen des Cache-Menüs!
-            content: |
-                Ab Version 2021.01.24-RC haben wir die wirklich lange Liste von Menüeinträgen hinter dem Drei-Punkt-Symbol auf der Cacheseite optimiert.
-                Wir haben unser Bestes gegeben, um eine vernünftige Verteilung einiger Funktionen in Untermenüs zu finden. Zusätzlich haben wir einige Funktionen aus diesem Menü entfernt, die auch über andere Wege zu erreichen sind. Die folgende Liste hilft dir, wenn du eine Funktion vermisst:
-                
-                Wegpunkte extrahieren, Wegpunkte verhindern → Verschoben in das Untermenü "Wegpunkte"
-                
-                Cache teilen, GPX exportieren, Field Note exportieren -> Verschoben in das Untermenü "Teilen/Exportieren"
-                
-                Caches im Umkreis, Bewerten, Cache ignorieren → Verschoben in das Untermenü "Erweitert"
-                
-                Speichern, Löschen, Aktualisieren → Diese Einträge wurden entfernt. Du kannst einfach die Diskette/Stift/Mülleimer-Symbole auf der Cache-Details Seite nutzen. Zum Aktualisieren von Caches und Trackables kannst du auch einfach "Nach unten ziehen" zum Aktualisieren, wie du es aus anderen Apps kennst.
-      - id: quick-settings
-        en:
-            title: I cannot find the map related settings!
-            content: |
-                Starting with 2020.12.22-RC we started to clean up the map settings menu.
-                Therefore, we moved all map related settings (such as hiding of certain caches/waypoints, map circles, routing setting, etc.) from the menu tree to a common easily accessible quick menu.
-                
-                You will find the new quick settings by tapping on the gear icon at bottom center of the map.
-                
-                More information can be found in our [user guide](https://manual.cgeo.org/en/mainmenu/livemap#map_settings).
-        de:
-            title: Ich kann die kartenspezifischen Einstellungen nicht mehr finden!
-            content: |
-                Ab Version 2020.12.22-RC haben wir damit begonnen die Karteneinstellungen aufzuräumen.
-                Daher haben wir alle kartenspezifischen Einstellungen (wie z.B. das Verbergen bestimmter Caches/Wegpunkte, Kreise um Caches, Routeneinstellungen) aus dem Menübaum in ein gemeinsames einfach zugreifbares Schnelleinstellungsmenü verschoben.
-                
-                Du findest die neuen Schnelleinstellungen durch ein Tippen auf das Zahnrad-Symbol unten mittig auf der Karte.
-                
-                Weitere Informationen findest du in unserem [Benutzerhandbuch](https://manual.cgeo.org/de/mainmenu/livemap#map_settings).
   
 - id: getting-started
   title:
@@ -889,7 +834,24 @@
 
                 Wenn du eine Projektion für einen existierenden Wegpunkt durchführen willst, funktioniert dies nur bei nutzerdefinierten Wegpunkten.
                 Wenn der Wegpunkt vom Besitzer vorgegeben ist, musst du zuerst den Wegpunkt duplizieren. Dazu wähle "Dupliziere Wegpunkt" nachdem du auf die Koordinaten des Wegpunktes geklickt hast.
- 
+      - id: oc-auth-fail
+        en:
+            title: The authorization to Opencaching fails, does not start or is not completed!
+            content: |
+                If this is happening to you, please check that your device has the correct date, time and time zone information.
+                For security reasons the Opencaching API will reject requests which are not matching the server time (± 5 minutes).
+
+                On some devices the Internet browser does not correctly redirect back to c:geo after you logged in on the opencaching website but tries to open a website like "callback://www.cgeo.org[...]".
+                This is a faulty behavior of the Internet browser you are using, please try another Internet browser application to perform the authorization.
+        de:
+            title: Die Authentisierung mit Opencaching schlägt fehl, wird nicht gestartet oder nicht fertiggestellt!
+            content: |
+                Wenn du dieses Problem hast, prüfe bitte, ob dein Gerät das korrekte Datum, Zeit und Zeitzone hat.
+                Aus Sicherheitsgründen lehnt das Opencaching-API jede Anfrage ab, die nicht der Server-Zeit (± 5 Minuten) entspricht.
+
+                Auf einigen Geräten leitet der Internet-Browser die Anfrage nicht korrekt an c:geo zurück, nachdem du dich auf der Opencaching-Webseite angemeldet hast, sondern öffnet eine Webseite wie z.B. "callback://www.cgeo.org[...]".
+                Das ist ein fehlerhaftes Verhalten des Internet-Browsers, den du nutzt. Bitte versuche eine andere Internet-Browser-App, um die Authentisierung durchzuführen.
+
 - id: installation-and-update
   title:
       en: Installation and update
@@ -1206,16 +1168,7 @@
 
                 Wir haben Berichte erhalten, dass auf manchen Geräten die "Google Play-Dienste" fehlerhaft sind.
                 Wenn alle Lokalisierungs-Methoden aktiviert sind, aber du weiterhin Probleme hast, versuche bitte die Nutzung der "Google Play-Dienste" in Menü → Einstellungen → System auszuschalten.
-      - id: brouter
-        en:
-            title: How do I use Brouter with c:geo?
-            content: |            
-                Setup and usage in c:geo is described in our [user guide](https://manual.cgeo.org/en/brouter).
-        de:
-            title: Wie nutze ich BRouter mit c:geo?
-            content: |              
-                Die Konfiguration und Nutzung in c:geo ist in unserem [Benutzerhandbuch](https://manual.cgeo.org/de/brouter) beschrieben.
-
+ 
 - id: live-map
   title:
       en: Live Map
@@ -1457,21 +1410,6 @@
             content: |
                 Wir haben ab send2cgeo Version 2020.08.26 einen Workaround hierfür eingebaut. Bitte aktualisiere dein Script und lies die Beschreibung auf der [send2cgeo Seite](https://www.cgeo.org/send2cgeo#special-setting-for-google-chrome).                
 
-- id: offline-maps
-  title:
-      en: Offline maps
-      de: Offline-Karten
-  items:
-      - id: offline-maps
-        en:
-            title: What are offline maps?
-            content: |
-                The procedure of how to use offline maps in c:geo can be found in our [user guide](https://manual.cgeo.org/en/offlinemaps).            
-        de:
-            title: Was sind Offline-Karten?
-            content: |
-                Das Vorgehen zur Nutzung von Offline-Karten in c:geo findest du in unserem [Benutzerhandbuch](https://manual.cgeo.org/de/offlinemaps).
-
 - id: offline-caching
   title:
       en: Offline caching
@@ -1507,42 +1445,6 @@
 
                 Auch wenn wir gegen das Massen-Loggen von Caches sind, könnte das gemeinsame Hochladen von gespeicherten Logs sinnvoll sein, da es ein anderer Anwendungsfall ist.
                 Daher denken wir darüber nach, diese Funktion einzubauen. Bis dahin solltest du die Feldnotiz-Funktion ausprobieren, um deine Logs zu übermitteln.
-
-- id: opencaching-platforms
-  title:
-      en: Opencaching platforms
-      de: Opencaching-Plattformen
-  items:
-      - id: opencaching
-        en:
-            title: Is Opencaching supported with c:geo?
-            content: |
-                Yes, c:geo supports Opencaching platforms in several countries already and we are also planning to add more platforms once they provide an OKAPI interface.
-
-                You will find more information in our [user guide](https://manual.cgeo.org/en/mainmenu/settings#services).
-        de:
-            title: Wird Opencaching von c:geo unterstützt?
-            content: |
-                Ja, c:geo unterstützt schon Opencaching-Plattformen diverser Länder und wir planen mehr Plattformen hinzuzufügen, sobald sie die OKAPI-Schnittstelle anbieten.
-
-                Mehr Informationen findest du in unsererm [Benutzerhandbuch](https://manual.cgeo.org/en/mainmenu/settings#services).
-      - id: oc-auth-fail
-        en:
-            title: The authorization to Opencaching fails, does not start or is not completed!
-            content: |
-                If this is happening to you, please check that your device has the correct date, time and time zone information.
-                For security reasons the Opencaching API will reject requests which are not matching the server time (± 5 minutes).
-
-                On some devices the Internet browser does not correctly redirect back to c:geo after you logged in on the opencaching website but tries to open a website like "callback://www.cgeo.org[...]".
-                This is a faulty behavior of the Internet browser you are using, please try another Internet browser application to perform the authorization.
-        de:
-            title: Die Authentisierung mit Opencaching schlägt fehl, wird nicht gestartet oder nicht fertiggestellt!
-            content: |
-                Wenn du dieses Problem hast, prüfe bitte, ob dein Gerät das korrekte Datum, Zeit und Zeitzone hat.
-                Aus Sicherheitsgründen lehnt das Opencaching-API jede Anfrage ab, die nicht der Server-Zeit (± 5 Minuten) entspricht.
-
-                Auf einigen Geräten leitet der Internet-Browser die Anfrage nicht korrekt an c:geo zurück, nachdem du dich auf der Opencaching-Webseite angemeldet hast, sondern öffnet eine Webseite wie z.B. "callback://www.cgeo.org[...]".
-                Das ist ein fehlerhaftes Verhalten des Internet-Browsers, den du nutzt. Bitte versuche eine andere Internet-Browser-App, um die Authentisierung durchzuführen.
 
 - id: trackable-management
   title:
