@@ -1278,6 +1278,19 @@
                 Da dein Konto hier nicht genutzt wird, können wir aktuell keinen benutzerspezifischen Informationen darüber abrufen  (z.B. ob du diesen Adventure Lab-Cache bereits gefunden hast).
                 
                 Du kannst allerdings Adventure Lab-Caches lokal in c:geo als "Gefunden" markieren (Öffne den Adventure Lab-Cache → Menü → "Als Gefunden setzen"). Bitte beachte, dass diese "Gefunden"-Markierung verloren geht, wenn du den Adventure-Lab-Cache aus c:geo löschst.
+      - id: ALC_lab2gpx
+        en:
+            title: I cannot set the found state for Adventure Labs I imported from Lab2Gpx!
+            content: |
+                By default [Lab2Gpx](https://gcutils.de/lab2gpx/) uses the geocode prefix "LC" for Adventure lab caches. Due to technical reasons c:geo has to use "AL" as prefix for Adventure Lab caches.
+                
+                Therefore please configure Lab2Gpx to use "AL" as prefix when creating your GPX files, to gain full compatibility to c:geo.
+        de:
+            title: Ich kann über Lab2Gpx importierte Adventure Labs nicht als gefunden setzen!
+            content: |
+                Standardmäßig verwendet [Lab2Gpx](https://gcutils.de/lab2gpx/) den Geocode-Präfix "LC" für Adventure Lab-Caches. Aus technischen Gründen muss c:geo "AL" als Präfix für Adventure Lab-Caches nutzen.
+                
+                Um volle Kompatibilität mit c:geo zu erhalten, konfiguriere daher bitte, dass Lab2Gpx bei der Erstellung deines GPX das Code-Präfix "AL" verwendet.
       - id: ALC_stage
         en:
             title: Why are the stages of Adventure Lab caches not shown?
