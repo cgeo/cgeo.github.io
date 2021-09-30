@@ -335,11 +335,11 @@
         en:
             title: A login problem is shown on the main screen!
             content: |
-                Please check [https://manual.cgeo.org/en/loginproblems](this page of user guide), which provides detailed help in case of login problems.
+                Please check [this page of user guide](https://manual.cgeo.org/en/loginproblems), which provides detailed help in case of login problems.
         de:
             title: Ein Anmeldungsfehler wird im Hauptmenü angezeigt!
             content: |
-                Bitte schaue dir [https://manual.cgeo.org/de/loginproblems](diese Seite unseres Benutzerhandbuchs) an, die eine detailierte Hilfestellung im Falle von Anmeldeproblemen enthält.
+                Bitte schaue dir [diese Seite unseres Benutzerhandbuchs](https://manual.cgeo.org/de/loginproblems) an, die eine detailierte Hilfestellung im Falle von Anmeldeproblemen enthält.
       - id: how-to-reset
         en:
             title: How to reset c:geo to factory defaults?
