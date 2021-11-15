@@ -299,7 +299,25 @@
                 2. Wenn c:geo, sogar nachdem du einige Minuten wartest, komplett im Startbildschirm eingefroren ist, dann öffne bitte einen Dateiexplorer und suche den Ordner, den du als "Ordner mit Kartendesigns" in c:geo ausgewählt hast. Benenne diesen Ordner um oder verschiebe ihn an eine andere Stelle, damit c:geo keinen Zugriff mehr darauf hat.
                 
                 Nachdem du eine der beiden Workarounds angewendet hast, sollte c:geo wieder normal starten.
-  
+      - id: android12
+        en:
+            title: I am using Android 12 and c:geo is not offered to open web links!
+            content: |
+                If you are using a device running Android 12 you might experience, that c:geo is not offered as target app (anymore) when tapping a geocaching related link e.g. from your email. Instead the link is opened in another app or your browser without giving you a choice.
+                
+                This is caused by the fact, that in Android 12 Google removed the dialog to let the user choose which app to use for certain web links. Instead the browser or an app which officially registered for that specific weblink is automatically used.
+                
+                You can change this by going to your device app settings, open the c:geo app settings and manually select what URLs (web links) you allow c:geo to open.
+                Unfortunately in Android 12 you can only set this as permanently (no longer asking each time you tap such link).
+        de:
+            title: Ich nutze Android 12 und c:geo wird nicht angeboten um Weblinks zu öffnen!
+            content: |
+                Wenn du ein Gerät mit Android 12 nutzt, kann es passieren, dass c:geo nicht (mehr) als Ziel-App angeboten wird, wenn ein Geocaching-bezogener Weblink (z.B. aus einer Mail) angetippt wird. Stattdessen wird der Link in einer anderen App oder deinem Browser geöffnet, ohne dir die Wahl zu lassen.
+                
+                Dies wird dadurch verursacht, dass Google den Dialog, der den Nutzer die gewünschte App auswählen lässt, entfernt hat. Stattdessen wird der Link im Browser oder einer App geöffnet, die sich für diesen Web-Link offiziell registriert hat.
+                
+                Du kannst dies ändern, in dem du die App-Einstellungen deines Gerätes und dort die c:geo App-Einstellungen öffnest und dort manuell festlegst, für welche URLs (Web-Links) du c:geo erlaubst genutzt zu werden.
+                Dies ist leider bei Android 12 nur noch dauerhaft festlegbar (keine Auswahl beim Tippen eines solchen Links). 
 - id: getting-started
   title:
       en: Getting started
@@ -1500,7 +1518,7 @@
                 This location services might not be compatible with external GPS receivers depending on your Android version.
 
                 If you have problems using the GPS signal from the external receiver in c:geo, you have to disable the usage of those location services in:\\
-                c:geo Menu → Settings → System\\
+                c:geo Menu → Settings → System
         de:
             title: Mein externer Bluetooth GPS-Empfänger funktioniert nicht mit c:geo!
             content: |
@@ -1509,7 +1527,6 @@
 
                 Wenn du Probleme hast das GPS-Signal von externen Empfängern mit c:geo zu verwenden, musst du die Nutzung dieses Dienstes ausschalten:\\
                 c:geo Menü → Einstellungen → System
- 
 - id: contacts-plugin
   title:
       en: Contacts plugin
