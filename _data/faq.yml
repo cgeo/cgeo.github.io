@@ -1237,12 +1237,16 @@
                 By default [Lab2Gpx](https://gcutils.de/lab2gpx/) uses the geocode prefix "LC" for Adventure lab caches. Due to technical reasons c:geo has to use "AL" as prefix for Adventure Lab caches.
                 
                 Therefore please configure Lab2Gpx to use "AL" as prefix when creating your GPX files, to gain full compatibility to c:geo.
+                
+                Additionally you should select "Zipped GPX with waypoints" when downloading the GPX for best results in c:geo.
         de:
             title: Ich kann über Lab2Gpx importierte Adventure Labs nicht als gefunden setzen!
             content: |
                 Standardmäßig verwendet [Lab2Gpx](https://gcutils.de/lab2gpx/) den Geocode-Präfix "LC" für Adventure Lab-Caches. Aus technischen Gründen muss c:geo "AL" als Präfix für Adventure Lab-Caches nutzen.
                 
                 Um volle Kompatibilität mit c:geo zu erhalten, konfiguriere daher bitte, dass Lab2Gpx bei der Erstellung deines GPX das Code-Präfix "AL" verwendet.
+                
+                Zusätzlich solltest du "Gezipptes GPX mit Wegpunkten" beim Herunterladen auswählen für beste Resultate in c:geo.
       - id: ALC_stage
         en:
             title: Why are the stages of Adventure Lab caches not shown?
