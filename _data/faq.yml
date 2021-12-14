@@ -20,7 +20,7 @@
         en:
             title: Starting my offline map is very slow!
             content: |
-                Starting with c:geo version 2021.03.16-RC1 we were forced to change the method c:geo reads map theme files from your storage (see <a href="#SAF">this FAQ-entry</a>).
+                Starting with c:geo version 2021.03.16-RC1 we were forced to change the method c:geo reads map theme files from your storage.
                 Unfortunately the new access method provided by Android is much slower to read many small files (such as in map themes). If you are using a custom map theme this could impact the time needed to initially render the map. 
                 
                 There are two possible ways to fix the problem. The fix is not related to the offline map files itself, but only to map theme files:
@@ -38,7 +38,8 @@
         de:
             title: Das Starten meiner Offline-Karte ist sehr langsam!
             content: |
-                Beginnend mit der c:geo Version 2021.03.16-RC1 sind wir gezwungen die Methode zu ändern, mit der c:geo die Kartendesigns (Themes) von deinem Speicher liest (siehe <a href="#SAF">diesen FAQ-Eintrag</a>). Leider ist die neue Zugriffsmethode, die von Android bereitgestellt wird, viel langsamer beim Lesen vieler kleiner Dateien (so wie in den Kartendesigns). Wenn du ein benutzerdefiniertes Kartendesign nutzt, kann dies die Zeit beinflussen die benötigt wird, um die Karte initial darzustellen.
+                Beginnend mit der c:geo Version 2021.03.16-RC1 sind wir gezwungen die Methode zu ändern, mit der c:geo die Kartendesigns (Themes) von deinem Speicher liest.
+                Leider ist die neue Zugriffsmethode, die von Android bereitgestellt wird, viel langsamer beim Lesen vieler kleiner Dateien (so wie in den Kartendesigns). Wenn du ein benutzerdefiniertes Kartendesign nutzt, kann dies die Zeit beinflussen die benötigt wird, um die Karte initial darzustellen.
                 
                 Es gibt zwei Wege dieses Problem zu beheben. Die Lösung bezieht sich hierbei nicht auf die Dateien mit Offline-Karten, sondern nur auf die Dateien mit dem Kartendesign.
                 
