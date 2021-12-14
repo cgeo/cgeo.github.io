@@ -1,3 +1,86 @@
+- id: temporary-issues
+  title:
+      en: Current issues and changes
+      de: Aktuelle Probleme und Änderungen
+  items:
+      - id: nearby-limit
+        en:
+            title: The nearby search now shows more than 20 caches!
+            content: |
+                As we are now using the newer Groundspeak search engine, it will now return more than 20 results in one batch. Nothing else changed, those are still the nearest sorted by distance.
+                
+                If you use the nearby search to store some really nearby caches, you might now want to select or filter some of them before storing.
+        de:
+            title: Die "In der Nähe"-Suche zeigt mir nun mehr als 20 Caches!
+            content: |
+                Da wir jetzt die neuere Groundspeak-Suche nutzen, bekommen wir mehr als 20 Resultate auf einmal. Sonst hat sich aber nichts geändert, es werden weiterhin die nächstgelegenen Caches sortiert nach Entfernung angezeigt.
+                
+                Wenn du die Nahbereichssuche zur Speicherung der wirklich nahegelegenen Caches nutzt, kannst du einige auswählen oder einen Filter benutzen, bevor du sie speicherst.
+      - id: theme-slow
+        en:
+            title: Starting my offline map is very slow!
+            content: |
+                Starting with c:geo version 2021.03.16-RC1 we were forced to change the method c:geo reads map theme files from your storage (see <a href="#SAF">this FAQ-entry</a>).
+                Unfortunately the new access method provided by Android is much slower to read many small files (such as in map themes). If you are using a custom map theme this could impact the time needed to initially render the map. 
+                
+                There are two possible ways to fix the problem. The fix is not related to the offline map files itself, but only to map theme files:
+                
+                1. c:geo now supports **zipped map themes**:\\
+                You can put the content of your themes folder into a zip archive and place this zip file into the theme folder instead. Alternatively download a zipped theme from your offline map provider (or via the c:geo map downloader) and directly place this file into your themes folder without unzipping it first.\\
+                This solution brings a comparable opening performance of the map as before.
+                
+                2. c:geo now supports a **sync function** for themes:\\
+                While the zip solution should be the prefereed method, you can also stay with unzipped theme files and instead let c:geo buffer the theme files internally. This method however is only recommended to advanced users with good knowledge of file storages and themes.\\
+                To activate the sync go to c:geo Menu → Settings → Map and activate the function "Synchronize themes to app-private folder". **Make sure to check the size of the data to be synced** in the following dialog, before confirming the sync!! The size should (depending on how many themes you use) only be some kB up to a few MB. Do not activate the sync if the shown size is unreasonably high! In that case your theme folder contains unrelated data, or you might use the same folder for maps and their themes. You should separate and clean up the data first and/or set the correct theme folder.\\
+                If you are not sure, that you are doing it right, please use the zip solution instead (as described above).
+                
+                If you notice any problems or have further questions, feel free to contact <a href="mailto:support@cgeo.org?subject=FAQ_theme-slow">support@cgeo.org</a>.
+        de:
+            title: Das Starten meiner Offline-Karte ist sehr langsam!
+            content: |
+                Beginnend mit der c:geo Version 2021.03.16-RC1 sind wir gezwungen die Methode zu ändern, mit der c:geo die Kartendesigns (Themes) von deinem Speicher liest (siehe <a href="#SAF">diesen FAQ-Eintrag</a>). Leider ist die neue Zugriffsmethode, die von Android bereitgestellt wird, viel langsamer beim Lesen vieler kleiner Dateien (so wie in den Kartendesigns). Wenn du ein benutzerdefiniertes Kartendesign nutzt, kann dies die Zeit beinflussen die benötigt wird, um die Karte initial darzustellen.
+                
+                Es gibt zwei Wege dieses Problem zu beheben. Die Lösung bezieht sich hierbei nicht auf die Dateien mit Offline-Karten, sondern nur auf die Dateien mit dem Kartendesign.
+                
+                1. c:geo unterstützt nun  **gezippte Kartendesigns**:\\
+                Du kannst den Inhalt deines Kartendesign-Ordners in ein Zip-Archiv packen und diese Zip-Datei stattdessen im Ordner für Kartendesigns ablegen. Alternativ lade ein gezipptes Kartendesign von deinem Offlinekarten-Anbieter (oder mit dem c:geo Karten-Downloader) and platziere diese Datei direkt in den Kartendesign-Ordner, ohne sie zuerst zu entpacken.\\
+                Diese Lösung bietet eine vergleichbare Geschwindigkeit beim Öffnen der Karten wie vorher.
+                
+                2. c:geo unterstützt nun eine **Sync-Funktion** für Kartendesigns:\\
+                Die ZIP-Lösung ist die bevorzugte Methode, du kannst aber auch bei nicht gezippten Designs bleiben und c:geo stattdessen die Design-Dateien intern puffern lassen. Diese Methode empfehlen wir allerdings nur für erfahrene Anwender mit guter Kenntnis von Dateisystemen und Kartendesigns.\\
+                Um die Synchronisierung zu aktivieren, gehe in das c:geo Menü → Einstellungen - Karte und aktiviere die Funktion "Design mit app-internem Ordner synchronisieren". **Prüfe im dann folgenden Dialog unbedingt die Größe der zu synchronisierenden Daten**, bevor du die Synchronisierung bestätigst!! Die Größe sollte (je nach Anzahl der Designs) nur einige kB bis wenige MB betragen. Aktiviere die Synchronisierung nicht, wenn die angezeigte Größe ungewöhnlich hoch ist! In diesem Fall enthält dein Kartendesign-Ordner fremde Daten, oder du nutzt den gleichen Ordner für Karten und ihre Designs. Du solltest die Dateien erst trennen und aufräumen und/oder den korrekten Design-Ordner auswählen.\\
+                Wenn du dir nicht sicher bist, ob du es richtig machst, nutze bitte stattdessen die oben beschriebene ZIP-Lösung.
+                
+                Wenn du Probleme feststellst oder weitere Fragen hast, kontaktiere uns gerne unter <a href="mailto:support@cgeo.org?subject=FAQ_theme-slow">support@cgeo.org</a>.
+      - id: android12
+        en:
+            title: I am using Android 12 and c:geo is not offered to open web links!
+            content: |
+                If you are using a device running Android 12 you might experience, that c:geo is not offered as target app (anymore) when tapping a geocaching related link e.g. from your email. Instead the link is opened in another app or your browser without giving you a choice.
+                
+                This is caused by the fact, that in Android 12 Google removed the dialog to let the user choose which app to use for certain web links. Instead the browser or an app which officially registered for that specific weblink is automatically used.
+                
+                You can change this by going to your device app settings, open the c:geo app settings and manually select what URLs (web links) you allow c:geo to open.
+                Unfortunately in Android 12 you can only set this as permanently (no longer asking each time you tap such link).
+                
+                If you experience, that this setting is removed by your device automatically, than you probably also have the Groundspeak Geocaching app installed on your device.
+                As the Groundspeak app registered itself as owner of the website, this will overrule your personal setting. 
+                Luckily there is an easy workaround: Go to your device app settings, open the setting for the Groundspeak app and completely disable the function, that it is opened for supported weblinks.
+                Afterwards activate it for c:geo as described above.
+        de:
+            title: Ich nutze Android 12 und c:geo wird nicht angeboten um Weblinks zu öffnen!
+            content: |
+                Wenn du ein Gerät mit Android 12 nutzt, kann es passieren, dass c:geo nicht (mehr) als Ziel-App angeboten wird, wenn ein Geocaching-bezogener Weblink (z.B. aus einer Mail) angetippt wird. Stattdessen wird der Link in einer anderen App oder deinem Browser geöffnet, ohne dir die Wahl zu lassen.
+                
+                Dies wird dadurch verursacht, dass Google den Dialog, der den Nutzer die gewünschte App auswählen lässt, entfernt hat. Stattdessen wird der Link im Browser oder einer App geöffnet, die sich für diesen Web-Link offiziell registriert hat.
+                
+                Du kannst dies ändern, in dem du die App-Einstellungen deines Gerätes und dort die c:geo App-Einstellungen öffnest und dort manuell festlegst, für welche URLs (Web-Links) du c:geo erlaubst genutzt zu werden.
+                Dies ist leider bei Android 12 nur noch dauerhaft festlegbar (keine Auswahl beim Tippen eines solchen Links). 
+                
+                Wenn es so sein sollte, dass diese Einstellung von deinem Gerät automatisch wieder entfernt wird, dann hast du vermutlich auch die Groundspeak Geocaching-App auf deinem Gerät installiert.
+                Da die Groundspeak-App sich selber als Inhaber der Webseite registiert, werden damit deine persönlichen Einstellungen überstimmt.
+                Glücklicherweise gibt es einen einfachen Workaround: Gehe in die App-Einstellungen deines Gerätes und dort in die Einstellungen der Groundspeak-App und deaktiviere die Funktion, dass unterstützte Webseiten dort geöffnet werden, komplett.
+                Aktiviere danach diese Funktion wieder für c:geo wie oben beschrieben.
 - id: design
   title:
       en: Recent changes to the c:geo design
@@ -177,89 +260,7 @@
             content: |
                 Wir nutzen nun die neue Groundspeak-Suchschnittstelle.
                 Mit dieser Schnittstelle wird diese Art der Suche nicht mehr unterstützt. Wir wissen nicht, warum Groundspeak dies entfernt hat.
-- id: temporary-issues
-  title:
-      en: Current issues and changes
-      de: Aktuelle Probleme und Änderungen
-  items:
-      - id: nearby-limit
-        en:
-            title: The nearby search now shows more than 20 caches!
-            content: |
-                As we are now using the newer Groundspeak search engine, it will now return more than 20 results in one batch. Nothing else changed, those are still the nearest sorted by distance.
-                
-                If you use the nearby search to store some really nearby caches, you might now want to select or filter some of them before storing.
-        de:
-            title: Die "In der Nähe"-Suche zeigt mir nun mehr als 20 Caches!
-            content: |
-                Da wir jetzt die neuere Groundspeak-Suche nutzen, bekommen wir mehr als 20 Resultate auf einmal. Sonst hat sich aber nichts geändert, es werden weiterhin die nächstgelegenen Caches sortiert nach Entfernung angezeigt.
-                
-                Wenn du die Nahbereichssuche zur Speicherung der wirklich nahegelegenen Caches nutzt, kannst du einige auswählen oder einen Filter benutzen, bevor du sie speicherst.
-      - id: theme-slow
-        en:
-            title: Starting my offline map is very slow!
-            content: |
-                Starting with c:geo version 2021.03.16-RC1 we were forced to change the method c:geo reads map theme files from your storage (see <a href="#SAF">this FAQ-entry</a>).
-                Unfortunately the new access method provided by Android is much slower to read many small files (such as in map themes). If you are using a custom map theme this could impact the time needed to initially render the map. 
-                
-                There are two possible ways to fix the problem. The fix is not related to the offline map files itself, but only to map theme files:
-                
-                1. c:geo now supports **zipped map themes**:\\
-                You can put the content of your themes folder into a zip archive and place this zip file into the theme folder instead. Alternatively download a zipped theme from your offline map provider (or via the c:geo map downloader) and directly place this file into your themes folder without unzipping it first.\\
-                This solution brings a comparable opening performance of the map as before.
-                
-                2. c:geo now supports a **sync function** for themes:\\
-                While the zip solution should be the prefereed method, you can also stay with unzipped theme files and instead let c:geo buffer the theme files internally. This method however is only recommended to advanced users with good knowledge of file storages and themes.\\
-                To activate the sync go to c:geo Menu → Settings → Map and activate the function "Synchronize themes to app-private folder". **Make sure to check the size of the data to be synced** in the following dialog, before confirming the sync!! The size should (depending on how many themes you use) only be some kB up to a few MB. Do not activate the sync if the shown size is unreasonably high! In that case your theme folder contains unrelated data, or you might use the same folder for maps and their themes. You should separate and clean up the data first and/or set the correct theme folder.\\
-                If you are not sure, that you are doing it right, please use the zip solution instead (as described above).
-                
-                If you notice any problems or have further questions, feel free to contact <a href="mailto:support@cgeo.org?subject=FAQ_theme-slow">support@cgeo.org</a>.
-        de:
-            title: Das Starten meiner Offline-Karte ist sehr langsam!
-            content: |
-                Beginnend mit der c:geo Version 2021.03.16-RC1 sind wir gezwungen die Methode zu ändern, mit der c:geo die Kartendesigns (Themes) von deinem Speicher liest (siehe <a href="#SAF">diesen FAQ-Eintrag</a>). Leider ist die neue Zugriffsmethode, die von Android bereitgestellt wird, viel langsamer beim Lesen vieler kleiner Dateien (so wie in den Kartendesigns). Wenn du ein benutzerdefiniertes Kartendesign nutzt, kann dies die Zeit beinflussen die benötigt wird, um die Karte initial darzustellen.
-                
-                Es gibt zwei Wege dieses Problem zu beheben. Die Lösung bezieht sich hierbei nicht auf die Dateien mit Offline-Karten, sondern nur auf die Dateien mit dem Kartendesign.
-                
-                1. c:geo unterstützt nun  **gezippte Kartendesigns**:\\
-                Du kannst den Inhalt deines Kartendesign-Ordners in ein Zip-Archiv packen und diese Zip-Datei stattdessen im Ordner für Kartendesigns ablegen. Alternativ lade ein gezipptes Kartendesign von deinem Offlinekarten-Anbieter (oder mit dem c:geo Karten-Downloader) and platziere diese Datei direkt in den Kartendesign-Ordner, ohne sie zuerst zu entpacken.\\
-                Diese Lösung bietet eine vergleichbare Geschwindigkeit beim Öffnen der Karten wie vorher.
-                
-                2. c:geo unterstützt nun eine **Sync-Funktion** für Kartendesigns:\\
-                Die ZIP-Lösung ist die bevorzugte Methode, du kannst aber auch bei nicht gezippten Designs bleiben und c:geo stattdessen die Design-Dateien intern puffern lassen. Diese Methode empfehlen wir allerdings nur für erfahrene Anwender mit guter Kenntnis von Dateisystemen und Kartendesigns.\\
-                Um die Synchronisierung zu aktivieren, gehe in das c:geo Menü → Einstellungen - Karte und aktiviere die Funktion "Design mit app-internem Ordner synchronisieren". **Prüfe im dann folgenden Dialog unbedingt die Größe der zu synchronisierenden Daten**, bevor du die Synchronisierung bestätigst!! Die Größe sollte (je nach Anzahl der Designs) nur einige kB bis wenige MB betragen. Aktiviere die Synchronisierung nicht, wenn die angezeigte Größe ungewöhnlich hoch ist! In diesem Fall enthält dein Kartendesign-Ordner fremde Daten, oder du nutzt den gleichen Ordner für Karten und ihre Designs. Du solltest die Dateien erst trennen und aufräumen und/oder den korrekten Design-Ordner auswählen.\\
-                Wenn du dir nicht sicher bist, ob du es richtig machst, nutze bitte stattdessen die oben beschriebene ZIP-Lösung.
-                
-                Wenn du Probleme feststellst oder weitere Fragen hast, kontaktiere uns gerne unter <a href="mailto:support@cgeo.org?subject=FAQ_theme-slow">support@cgeo.org</a>.
-      - id: android12
-        en:
-            title: I am using Android 12 and c:geo is not offered to open web links!
-            content: |
-                If you are using a device running Android 12 you might experience, that c:geo is not offered as target app (anymore) when tapping a geocaching related link e.g. from your email. Instead the link is opened in another app or your browser without giving you a choice.
-                
-                This is caused by the fact, that in Android 12 Google removed the dialog to let the user choose which app to use for certain web links. Instead the browser or an app which officially registered for that specific weblink is automatically used.
-                
-                You can change this by going to your device app settings, open the c:geo app settings and manually select what URLs (web links) you allow c:geo to open.
-                Unfortunately in Android 12 you can only set this as permanently (no longer asking each time you tap such link).
-                
-                If you experience, that this setting is removed by your device automatically, than you probably also have the Groundspeak Geocaching app installed on your device.
-                As the Groundspeak app registered itself as owner of the website, this will overrule your personal setting. 
-                Luckily there is an easy workaround: Go to your device app settings, open the setting for the Groundspeak app and completely disable the function, that it is opened for supported weblinks.
-                Afterwards activate it for c:geo as described above.
-        de:
-            title: Ich nutze Android 12 und c:geo wird nicht angeboten um Weblinks zu öffnen!
-            content: |
-                Wenn du ein Gerät mit Android 12 nutzt, kann es passieren, dass c:geo nicht (mehr) als Ziel-App angeboten wird, wenn ein Geocaching-bezogener Weblink (z.B. aus einer Mail) angetippt wird. Stattdessen wird der Link in einer anderen App oder deinem Browser geöffnet, ohne dir die Wahl zu lassen.
-                
-                Dies wird dadurch verursacht, dass Google den Dialog, der den Nutzer die gewünschte App auswählen lässt, entfernt hat. Stattdessen wird der Link im Browser oder einer App geöffnet, die sich für diesen Web-Link offiziell registriert hat.
-                
-                Du kannst dies ändern, in dem du die App-Einstellungen deines Gerätes und dort die c:geo App-Einstellungen öffnest und dort manuell festlegst, für welche URLs (Web-Links) du c:geo erlaubst genutzt zu werden.
-                Dies ist leider bei Android 12 nur noch dauerhaft festlegbar (keine Auswahl beim Tippen eines solchen Links). 
-                
-                Wenn es so sein sollte, dass diese Einstellung von deinem Gerät automatisch wieder entfernt wird, dann hast du vermutlich auch die Groundspeak Geocaching-App auf deinem Gerät installiert.
-                Da die Groundspeak-App sich selber als Inhaber der Webseite registiert, werden damit deine persönlichen Einstellungen überstimmt.
-                Glücklicherweise gibt es einen einfachen Workaround: Gehe in die App-Einstellungen deines Gerätes und dort in die Einstellungen der Groundspeak-App und deaktiviere die Funktion, dass unterstützte Webseiten dort geöffnet werden, komplett.
-                Aktiviere danach diese Funktion wieder für c:geo wie oben beschrieben.
+
 - id: getting-started
   title:
       en: Getting started
