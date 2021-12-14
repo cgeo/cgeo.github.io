@@ -195,49 +195,6 @@
                 Da wir jetzt die neuere Groundspeak-Suche nutzen, bekommen wir mehr als 20 Resultate auf einmal. Sonst hat sich aber nichts geändert, es werden weiterhin die nächstgelegenen Caches sortiert nach Entfernung angezeigt.
                 
                 Wenn du die Nahbereichssuche zur Speicherung der wirklich nahegelegenen Caches nutzt, kannst du einige auswählen oder einen Filter benutzen, bevor du sie speicherst.
-      - id: SAF
-        en:
-            title: Changes to file system access!
-            content: |
-                Starting with Android 11, Google enforces the usage of <a href="https://developer.android.com/about/versions/11/privacy/storage">scoped storage</a> to access the public file system on mobile devices. To ensure a future proof implementation we changed to this new access method starting with c:geo version 2021.03.16-RC1.
-                
-                This means a change to the way c:geo accesses the files it usually needs to read and/or write, such as:
-                - GPX files
-                - Field Notes
-                - Offline map files
-                - Themes for offline maps
-                - Backups
-                - etc.
-                
-                Instead of c:geo having generic access to all these mentioned files on your file system, the new approach needs explicit user permission to access certain files or folders. Therefore a migration wizard was implemented to guide you through the needed changes. The wizard will let you choose the desired folders for the following purposes:
-                - Base folder used to store your backup, field notes and some other files
-                - Folder used to export GPX files
-                - Folders, where you have stored your offline maps and themes
-                
-                The migration wizard describes the purpose of each folder and afterwards let you select a folder to be used. The folder selection should be started in the folder you previously used for each specific purpose, which means you usually just have to confirm the selection.
-                
-                If you notice any problems or have further questions, feel free to contact <a href="mailto:support@cgeo.org?subject=FAQ_SAF">support@cgeo.org</a>.
-        de:
-            title: Änderung des Zugriffs auf Dateien!
-            content: |
-                Beginnend mit Android 11 erfordert Google die Nutzung des <a href="https://developer.android.com/about/versions/11/privacy/storage">Scoped Storage</a>, um auf das Dateisystem eines mobilen Gerätes zuzugreifen. Um eine zukunftssichere Implementierung sicherzustellen, haben wir ab der c:geo Version 2021.03.16-RC1 zu dieser neuen Zugriffsmethode gewechselt.
-                
-                Das bedeutet eine Veränderung in der Art und Weise wie c:geo auf Dateien zugreift, die es üblicherweise lesen und/oder schreiben muss, wie z.B.:
-                - GPX-Dateien
-                - Field Notes
-                - Offline-Karten
-                - Designs für Offline-Karten
-                - Sicherungen
-                - usw.
-                
-                Anstelle eines generischen Zugriffs auf all diese Dateien in deinem Dateisystem durch c:geo, benötigt das neue Vorgehen eine explizite Genehmigung durch den Nutzer um auf bestimmte Dateien oder Ordner zuzugreifen. Daher wurde ein Migrations-Assistent implementiert, der dich durch die notwendigen Änderungen führt. Der Assistent lässt dich den jeweils gewünschten Ordner für die folgenden Zwecke auswählen:
-                - Basisordner, der zur Speicherung von Sicherungen, Field Notes und einigen anderen Dateien genutzt wird
-                - Ordner für den Export von GPX-Dateien
-                - Ordner für deine Offline-Karten und Kartenthemen 
-                
-                Der Assistent beschreibt jeweils den Zweck jedes Ordners und läst dich danach den gewünschten Ordner auswählen. Die Ordnerauswahl sollte dabei in dem Ordner starten, den du bislang für den jeweiligen Zweck benutzt hast; das bedeutet du musst üblicherweise nur die Auswahl bestätigen.
-                
-                Wenn du Probleme feststellst oder weitere Fragen hast, kontaktiere uns gerne unter <a href="mailto:support@cgeo.org?subject=FAQ_SAF">support@cgeo.org</a>.
       - id: theme-slow
         en:
             title: Starting my offline map is very slow!
@@ -274,31 +231,6 @@
                 Wenn du dir nicht sicher bist, ob du es richtig machst, nutze bitte stattdessen die oben beschriebene ZIP-Lösung.
                 
                 Wenn du Probleme feststellst oder weitere Fragen hast, kontaktiere uns gerne unter <a href="mailto:support@cgeo.org?subject=FAQ_theme-slow">support@cgeo.org</a>.
-      - id: 10406
-        en:
-            title: c:geo is stuck or slow on the startup screen!
-            content: |
-                Unfortunately a bug slipped through despite our very intense testing which in rare cases can cause c:geo version 2021.04.15 to either be stuck or take a long time on the startup screen until its finally started. We are working on a fix and will provide an update soon.
-
-                In the meantime one of the following workaround options might solve the problem:
-                
-                1. Please wait on the startup screen until c:geo finally starts. Then go to c:geo Menu - Settings - Map and make sure to set the folder for "offline map themes" to a folder which does only contain your theme files, but no additional data (e.g. offline maps or unrelated files). If in doubt, please set it to use the default value for now.
-                
-                2. If c:geo is totally stuck on the startup screen even after waiting some minutes, please use a File Explorer to locate the folder you assigned for your "offline map themes". Rename this folder or move it to another location to make it unavailable for c:geo.
-                
-                After you applied one of these workaround, c:geo should start normally.
-        de:
-            title: c:geo bleibt im Startbildschirm stehen oder startet langsam!
-            content: |
-                Leider hat sich trotz intensiven Testens ein Fehler eingeschlichen, der in selten Fällen dazu führen kann, dass die c:geo Version 2021.04.15 entweder im Startbildschirm stehen bleibt oder eine sehr lange Zeit benötigt, bis c:geo gestartet ist. Wir arbeiten bereits an einer Lösung und werden in Kürze ein Update bereitstellen.
-                
-                In der Zwischenzeit kann einer der beiden folgenden Workarounds das Problem lösen:
-                
-                1. Bitte warte auf dem Startbildschirm bis c:geo schließlich gestartet ist. Gehe dann in c:geo Menü - Einstellungen - Karte und stelle sicher, dass du für den "Ordner mit Kartendesigns" einen Ordner gewählt hast, der wirklich nur die Design-Dateien (Themes) und keine weiteren Daten (z.B. Offline-Karten, weitere Dateien) enthält. Im Zweifel setze den Ordner erstmal auf den Standardwert.
-                
-                2. Wenn c:geo, sogar nachdem du einige Minuten wartest, komplett im Startbildschirm eingefroren ist, dann öffne bitte einen Dateiexplorer und suche den Ordner, den du als "Ordner mit Kartendesigns" in c:geo ausgewählt hast. Benenne diesen Ordner um oder verschiebe ihn an eine andere Stelle, damit c:geo keinen Zugriff mehr darauf hat.
-                
-                Nachdem du eine der beiden Workarounds angewendet hast, sollte c:geo wieder normal starten.
       - id: android12
         en:
             title: I am using Android 12 and c:geo is not offered to open web links!
@@ -309,6 +241,11 @@
                 
                 You can change this by going to your device app settings, open the c:geo app settings and manually select what URLs (web links) you allow c:geo to open.
                 Unfortunately in Android 12 you can only set this as permanently (no longer asking each time you tap such link).
+                
+                If you experience, that this setting is removed by your device automatically, than you probably also have the Groundspeak Geocaching app installed on your device.
+                As the Groundspeak app registered itself as owner of the website, this will overrule your personal setting. 
+                Luckily there is an easy workaround: Go to your device app settings, open the setting for the Groundspeak app and completely disable the function, that it is opened for supported weblinks.
+                Afterwards activate it for c:geo as described above.
         de:
             title: Ich nutze Android 12 und c:geo wird nicht angeboten um Weblinks zu öffnen!
             content: |
@@ -318,6 +255,11 @@
                 
                 Du kannst dies ändern, in dem du die App-Einstellungen deines Gerätes und dort die c:geo App-Einstellungen öffnest und dort manuell festlegst, für welche URLs (Web-Links) du c:geo erlaubst genutzt zu werden.
                 Dies ist leider bei Android 12 nur noch dauerhaft festlegbar (keine Auswahl beim Tippen eines solchen Links). 
+                
+                Wenn es so sein sollte, dass diese Einstellung von deinem Gerät automatisch wieder entfernt wird, dann hast du vermutlich auch die Groundspeak Geocaching-App auf deinem Gerät installiert.
+                Da die Groundspeak-App sich selber als Inhaber der Webseite registiert, werden damit deine persönlichen Einstellungen überstimmt.
+                Glücklicherweise gibt es einen einfachen Workaround: Gehe in die App-Einstellungen deines Gerätes und dort in die Einstellungen der Groundspeak-App und deaktiviere die Funktion, dass unterstützte Webseiten dort geöffnet werden, komplett.
+                Aktiviere danach diese Funktion wieder für c:geo wie oben beschrieben.
 - id: getting-started
   title:
       en: Getting started
