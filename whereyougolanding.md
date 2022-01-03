@@ -20,7 +20,7 @@ The development of WhereYouGo was no longer continued by the last open source de
 In a first step we managed to fix the download function for cartridges, thus restoring the original functionality.
 
 **For further development however we need help of the Geocaching community:**
-If you are interested to further improve WhereYouGo and have some knowledge of Java, check out the [new WhereYouGo repository](https://github.com/cgeo/WhereYouGo) or send us a mail to [support@whereyougo.org](mailto:support@whereyougo.org?subject=WhereYouGo-Development).
+If you are interested to further improve WhereYouGo and have some knowledge of Java, check out the [new WhereYouGo repository](https://github.com/cgeo/WhereYouGo) or send us a mail to [whereyougo@cgeo.org](mailto:whereyougo@cgeo.org?subject=WhereYouGo-Development).
 
 ## Support
 
