@@ -154,19 +154,6 @@
                 
                 Probier es mal für einige Tage...es ist wahrscheinlich nur eine Sache der Gewohnheit.
                 Weiterhin kannst du die Schriftgröße in c:geo verändern, indem du diese in deinen Geräteeinstellungen änderst, da c:geo diesen Einstellungen folgt.
-      - id: design-popup
-        en:
-            title: The cache/waypoint name is missing on the map!
-            content: |
-                The cache popup on the map is now showing the geo code/waypoint code in its title instead of the cache/waypoint name, but the cache/waypoint name is shown immediately below.
-                
-                We changed this because long cache/waypoint names have always be truncated in the past due to the limited space on the title bar. Now you can see the whole cache/waypoint name instead of only a part of it.
-        de:
-            title: Der Cache/Wegpunkt-Name wird auf der Karte nicht mehr angezeigt!
-            content: |
-                Das Popup-Fenster auf der Karte zeigt nun den Geocode/Wegpunktcode im Titel anstatt des Cache- bzw. Wegpunktnamens, aber der Cache- bzw. Wegpunktname wird nun direkt darunter angezeigt.
-                
-                Wir haben dies verändert, da lange Cache-/Wegpunktnamen in der Vergangenheit durch den begrenzten Platz immer abgeschnitten wurden. Jetzt kannst du den gesamten Cache- bzw. Wegpunktnamen sehen, statt nur einen Teil davon.
 - id: filter
   title:
       en: New filtering framework
@@ -267,12 +254,15 @@
             content: |            
                 We are now using the new Groundspeak search interface. 
                 On this interface this type of search is no longer supported. We don't know why Groundspeak removed it.
+                
+                We will probably add this search again in an upcoming version of c:geo by using the old Groundspeak search interface, however it might suddenly stop working anytime in future.
         de:
             title: Warum kann ich nicht länger nach Caches suchen, die von einem bestimmten Nutzer gefunden wurden?
             content: |
                 Wir nutzen nun die neue Groundspeak-Suchschnittstelle.
                 Mit dieser Schnittstelle wird diese Art der Suche nicht mehr unterstützt. Wir wissen nicht, warum Groundspeak dies entfernt hat.
-
+                
+                Wir werden diese Suche vermutlich in einer kommenden Version von c:geo wieder hinzufügen indem wir die alte Groundspeak-Suchschnittstelle nutzen. Es kann jedoch sein, dass dies plötzlich irgendwann in der Zukunft nicht mehr funktioniert.
 - id: getting-started
   title:
       en: Getting started
@@ -608,46 +598,6 @@
                 Um dein Log auf dem Gerät zu speichern, drücke einfach die Zurück-Taste. Um es später zu senden, rufe erneut die Logseite in c:geo auf.
 
                 Du kannst gespeicherte Logs auch zu einem späteren Zeitpunkt in einem Rutsch als Feldnotizen auf die Geocaching-Webseite hochladen.
-      - id: nearby-far-away
-        en:
-            title: The nearby search also returns caches far away!
-            content: |
-                Besides geocaching.com c:geo is also supporting opencaching platforms for several countries.
-                If you activate the opencaching service in the c:geo settings the nearby search will also provide you the nearest opencaching caches.
-
-                If you however accidentally activate an opencaching platform of a foreign country (e.g. you are living in Germany and have activated opencaching.ro for Romania) you will see caches some hundred kilometers away in the nearby list as those are the nearest caches on this platform.
-                In this case please deactivate the unneeded opencaching platforms in: \\
-                Menu → Settings → Services → opencaching.xx
-        de:
-            title: Die Nahbereichssuche zeigt auch Caches, die weit entfernt sind!
-            content: |
-                Neben geocaching.com unterstützt c:geo auch Opencaching-Plattformen in verschiedenen Ländern.
-                Wenn du den Opencaching-Dienst in den c:geo-Einstellungen aktivierst, dann liefert die Nahbereichssuche auch die nächstgelegenen Opencaching-Caches zurück.
-
-                Wenn du nun allerdings eine Opencaching-Plattform in einem anderen Land aktivierst (z.B. du wohnst in Deutschland, aber hast opencaching.ro für Rumänien aktiviert), werden in der Nahbereichsliste auch Caches dieser Plattform angezeigt, die mehrere hundert Kilometer entfernt liegen, da dies die nächstgelegenen Caches auf dieser Plattform sind.
-                In diesem Fall deaktiviere bitte die nicht benötigten Opencaching-Plattformen unter:\\
-                Menü → Einstellungen → Dienste → opencaching.xx
-      - id: ignore-cache
-        en:
-            title: What is the "Ignore cache" function and how does it work?
-            content: |
-                c:geo supports adding caches to the ignore list on geocaching.com.\\
-                As this is a premium feature of geocaching.com it can only be used by premium members.
-
-                To add a cache to your ignore list open the cache details in c:geo and use Menu → Ignore Cache.
-                Afterwards this cache will no longer be returned in searches and on the live map in c:geo. Additionally it will be deleted from your device if it was stored before.
-
-                Unignoring the cache will only be possible by accessing your list of ignored caches on your [geocaching.com bookmark page](https://www.geocaching.com/bookmarks/) and removing the cache from this list.
-        de:
-            title: Was ist die Funktion "Cache ignorieren" und wie funktioniert sie?
-            content: |
-                c:geo unterstützt es Caches zur Ignore-Liste auf geoaching.com hinzuzufügen.\\
-                Da dies eine Premium-Funktion auf geocaching.com ist, kann sie nur von Premium-Mitgliedern genutzt werden.
-
-                Um einen Cache zu deiner Ignore-Liste hinzuzufügen, öffne die Cache-Details in c:geo und nutze Menü → Cache ignorieren.
-                Danach wird dieser Caches nicht mehr in den Suchergebnissen und auf der Live-Karte angezeigt. Weiterhin wird er von deinem Gerät gelöscht, wenn er vorher gespeichert war.
-
-                Diesen Cache nicht mehr zu ignorieren, ist nur noch möglich, indem du die Liste der ignorierten Caches in deiner [Lesezeichen-Übersicht](https://www.geocaching.com/bookmarks/) auf geocaching.com öffnest und den Cache von dieser Liste löscht.
       - id: delete-account
         en:
             title: How to delete my account?
@@ -1597,4 +1547,3 @@
                
                 Das bedeutet, dass die in c:geo angezeigte Prozentzahl meist kleiner ist, als die Prozentzahl auf der Webseite.
                 Es gibt für den Moment nichts, was wir daran ändern könnten.
-                
