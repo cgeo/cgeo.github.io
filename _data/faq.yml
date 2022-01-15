@@ -16,6 +16,17 @@
                 Da wir jetzt die neuere Groundspeak-Suche nutzen, bekommen wir mehr als 20 Resultate auf einmal. Sonst hat sich aber nichts geändert, es werden weiterhin die nächstgelegenen Caches sortiert nach Entfernung angezeigt.
                 
                 Wenn du die Nahbereichssuche zur Speicherung der wirklich nahegelegenen Caches nutzt, kannst du einige auswählen oder einen Filter benutzen, bevor du sie speicherst.
+      - id: trackable_indication
+        en:
+            title: The search result lists do no longer show, whether a trackable is contained in the cache!
+            content: |
+                The new Groundspeak search engine does not provide this information, so we sadly can no longer show it in the search results.
+                You have to open or save the cache first in oder to get the trackable indication shown on the list in c:geo.
+        de:
+            title: Die Liste der Suchergebnisse zeigt nicht mehr an, ob ein Trackable im Cache liegt!
+            content: |
+                Die neue Groundspeak-Suche liefert diese Information nicht mehr, so dass wir dies leider im Suchergebnis nicht mehr anzeigen können.
+                Du musst den Cache zuerst öffnen oder speichern damit die Trackable-Anzeige in der Liste in c:geo sichtbar ist.
       - id: theme-slow
         en:
             title: Starting my offline map is very slow!
