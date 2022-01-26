@@ -1451,6 +1451,23 @@
 
                 Wenn du Probleme hast das GPS-Signal von externen Empfängern mit c:geo zu verwenden, musst du die Nutzung dieses Dienstes ausschalten:\\
                 c:geo Menü → Einstellungen → System
+      - id: xiaomi_colors
+        en:
+            title: On my Xiaomi device some icons have strange colors or are not visible!
+            content: |
+                Some Xiaomi devices use some proprietary dark mode implementation, which does obviously not work according to Android standards.
+                This results in cache type icons, attribute icons and other graphical elements to be either not shown at all or shown in wrong coloring.
+                
+                Please look into your device settings and search for a function called "dark mode" or "color optimization". 
+                Either switch off this function completely or configure, that c:geo is excluded from this feature.
+        de:
+            title: Auf meinem Xiaomi-Gerät haben einige Symbole falsche Farben oder sind nicht sichtbar!
+            content: |
+                Einige Xiaomi-Geräte haben eine proprietäre Implementierung des dunklen Modues, der offensichtlich nicht nach Android-Standard funktioniert.
+                Das führt dazu, dass Cachetyp-Symbole, Attribut-Symbole und weitere graphische Elemente entweder gar nicht angezeigt oder in einer falschen Farbe angezeigt werden.
+                
+                Bitte schaue in deine Geräte-Einstellungen und suche nach der Funktion "Dunkler Modus" oder "Farboptimierung".
+                Schalte diese Funktion entweder komplett ab oder konfiguriere sie so, dass c:geo von dieser Funktion ausgenommen ist.
 - id: contacts-plugin
   title:
       en: Contacts plugin
