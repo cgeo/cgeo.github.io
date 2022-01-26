@@ -1135,6 +1135,21 @@
                 Da dein Konto hier nicht genutzt wird, können wir aktuell keinen benutzerspezifischen Informationen darüber abrufen  (z.B. ob du diesen Adventure Lab-Cache bereits gefunden hast).
                 
                 Du kannst allerdings Adventure Lab-Caches lokal in c:geo als "Gefunden" markieren (Öffne den Adventure Lab-Cache → Menü → "Als Gefunden setzen"). Bitte beachte, dass diese "Gefunden"-Markierung verloren geht, wenn du den Adventure-Lab-Cache aus c:geo löschst.
+      - id: ALC_filtered
+        en:
+            title: I have enabled everything but still can't see Adventure lab caches!
+            content: |
+                Maybe you applied a filter, which accidentally also filters out adventure lab caches. 
+                
+                As for example adventure lab caches do not have any D/T-rating, filtering for certain D/T-values will exclude adventure labs as a consequence.
+                In such cases you should enable the option "Include inconclusive results" in the advanced filter setting to have all caches included, where the filter criteria cannot be applied.
+        de:
+            title: Ich habe alles eingeschaltet, sehe aber immer noch keine Adventure Lab-Caches!
+            content: |
+                Vielleicht hast du einen Filter angewendet, der versehentlich Adventure Lab-Caches herausfiltert.
+                
+                Da z.B. Adventure Lab-Caches keinerlei D/T-Bewertung haben, resultiert das Filtern nach bestimmten D/T-Werten darin, dass alle Adventure Lab-Caches ausgenommen sind.
+                In solchen Fällen solltest du die Option "Unschlüssige Treffer einbeziehen" in den erweiterten Filtereinstellungen aktivieren, damit auch Caches eingeschlossen werden, bei denen die Filterkriterien nicht anwendbar sind.
       - id: ALC_lab2gpx
         en:
             title: I cannot set the found state for Adventure Labs I imported from Lab2Gpx!
