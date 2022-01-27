@@ -142,9 +142,6 @@
                 
                 Therefore we finally decided to start from scratch and implement the so-called material design into c:geo. 
                 We tried our best to implement it in a way, that you will still recognize c:geo but have a more consistent and structured appearance.
-                
-                At some places this is still work in progress and we are unable to test it on all the different Android devices and versions.
-                Thus there might still be some minor bugs. Feel free to provide <a href="mailto:support@cgeo.org?subject=New design">feedback to our support</a> if you encounter problems or have improvement proposals.
         de:
             title: Warum wurde das c:geo Design geändert?
             content: |
@@ -161,16 +158,10 @@
             title: Where is my background image?
             content: |
                 The transparent background was a rather old feature and is no longer used in modern designs. Therefore this feature has been removed.
-                
-                We are planning to change the main menu as well in future versions and migrate to a bottom navigation with a custom dashboard. 
-                We are still working on it.
         de:
             title: Wo ist mein Hintergrundbild?
             content: |
                 Der transparente Hintergrund war eine ziemlich alte Funktion und wird in neuen Designs nicht länger verwendet. Daher wurde die Funktion entfernt.
-                
-                Wir planen ohnehin auch das Hauptmenü in kommenden Versionen zu verändern und zu einer Fußzeilennavigation mit einem personalisierten Dashboard weiterzuentwickeln.
-                Wir arbeiten noch daran.
       - id: design-font
         en:
             title: Why are all texts now bigger?
@@ -248,53 +239,6 @@
                 
                 Der Filter ist komplett neu und kann sehr komplex werden (probier den erweiterten Modus aus!). Es kann also noch Fehler geben oder es ist noch nicht alles enthalten, was du erwartest.
                 Kontaktiere und gerne mit <a href="mailto:support@cgeo.org?subject=New filter">deinem Feedback an unseren Support</a>, wenn du Probleme feststellst oder Verbesserungsvorschläge hast.
-      - id: filter-cachetype
-        en:
-            title: Why did you remove the global cache type filter?
-            content: |             
-                As you might have noticed the global cache type filter option in the main menu has been disabled. 
-                This filter had a very limited scope as only a single cache type could be selected and the filter was applied everywhere within c:geo without possibility to differentiate e.g. between map and lists.
-                
-                The new filters on map and lists do now allow a very flexible filtering, which also covers the functionality of the old global filter, but e.g. also allows to filter by multiple cache types.
-        de:
-            title: Warum wurde der globale Cachetyp-Filter entfernt?
-            content: |
-                Wie du vielleicht festgestellt hast, wurde der globale Cache-Typ Filter im Hauptmenü deaktiviert.
-                Dieser Filter hatte eine sehr geringen Umfang, da nur ein einzelner Cache-Typ ausgewählt werden konnte und dieser Filter dann überall in c:geo angewendet wurden; ohne die Möglichkeit z.B. zwischen der Karte und Listen zu unterscheiden.   
-                
-                Die neuen Filter auf der Karte und in den Listen erlauben nun eine sehr flexible Filterung, die auch alle Funktionen des alten globalen Filters abdeckt, aber auch das Filtern mehrere Cache-Typen gleichzeitig erlaubt.
-      - id: filter-globalhiding
-        en:
-            title: How can I hide found and owned caches now?
-            content: |             
-                We removed the old global hiding settings from Settings → Cache Details because you can now easily hide caches which have a certain status using the new filters.
-                
-                Just open the map or your lists and select the filter icon from the menu to setup the hiding according to your needs.
-                Initially we also migrated your old global hiding settings into the filter, which is used for the live map and searches. So the initial behavior should be the same as before.
-                
-                For more information about the new filter possibilities, please refer to [our user guide](https://manual.cgeo.org/en/cachefilter).
-        de:
-            title: Wie kann ich jetzt gefundene und eigene Caches verbergen?
-            content: |
-                Wir haben die alten globalen Einstellungen zum Ausblenden aus den Einstellungen → Cache-Details entfernt, da du nun mit den neuen Filtern sehr einfach Caches mit bestimmten Statuswerten ausfiltern kannst.
-                
-                Öffne einfach die Karte oder deine Listen und wähle das Filter-Symbol aus dem Menü um einen Filter nach deinen Bedürfnissen zu erstellen.
-                Für den Anfang haben wir auch deine bisherigen Einstellungen für das Ausblenden in den Filter übertragen, der für die Live-Karte und Suchfunktionen genutzt wird. Das initiale Verhalten sollte also genauso wie vorher sein.
-      - id: filter-foundbyuser
-        en:
-            title: Why can I no longer search for caches found by a certain user?
-            content: |            
-                We are now using the new Groundspeak search interface. 
-                On this interface this type of search is no longer supported. We don't know why Groundspeak removed it.
-                
-                We will probably add this search again in an upcoming version of c:geo by using the old Groundspeak search interface, however it might suddenly stop working anytime in future.
-        de:
-            title: Warum kann ich nicht länger nach Caches suchen, die von einem bestimmten Nutzer gefunden wurden?
-            content: |
-                Wir nutzen nun die neue Groundspeak-Suchschnittstelle.
-                Mit dieser Schnittstelle wird diese Art der Suche nicht mehr unterstützt. Wir wissen nicht, warum Groundspeak dies entfernt hat.
-                
-                Wir werden diese Suche vermutlich in einer kommenden Version von c:geo wieder hinzufügen indem wir die alte Groundspeak-Suchschnittstelle nutzen. Es kann jedoch sein, dass dies plötzlich irgendwann in der Zukunft nicht mehr funktioniert.
 - id: getting-started
   title:
       en: Getting started
@@ -366,7 +310,7 @@
   items:
       - id: offlinecount
         en:
-            title: My find count on homescreen shows two numbers (e.g. 1234 + 5)!
+            title: My find count on home screen shows two numbers (e.g. 1234 + 5)!
             content: |
                 Starting with 2020.09.02-RC c:geo does now support an offline find count.
                 This means, that your find count will be incremented also for offline logs. This way you can use the signature template [NUMBER] also for offline logs.
@@ -376,7 +320,7 @@
                 
                 If you do no longer need these offline logs you can clear them by selecting Menu → Manage caches → Clear offline logs while on the history list.
         de:
-            title: Meine Fundzahl auf dem Hauptbildschirm zeigt zwei Zahlen (z.B. 1234 + 5)!
+            title: Meine Fundzahl auf dem Startbildschirm zeigt zwei Zahlen (z.B. 1234 + 5)!
             content: |
                 Ab Version 2020.09.02-RC unterstützt c:geo einen Offline-Fundzähler.
                 Das bedeutet, dass deine Fundzahl auch für Offlinelogs hochgezählt wird. Auf dieser Weise kannst du die Signatur-Vorlage [NUMBER] nun auch für Offlinelogs nutzen.
@@ -1428,29 +1372,6 @@
       de: Geräte- oder benutzerspezifische Probleme
  
   items:
-      - id: 10126
-        en:
-            title: I cannot open images from the cache gallery in another app on my Samsung!
-            content: |
-                On some Samsung devices there is a problem, that if you try to open an image from the cache gallery in another app by tapping on it, the target app is unable to show it.
-                It might only show an error message or an empty image screen.
-                
-                We have investigated this issue and up to our best knowledge it seems to be a bug with the permission management on Samsung devices, which occures if your geocache data is stored on a SD card.
-                
-                There are two possible workarounds until Samsung fixes this problem:
-                1. Move your geocache data from SD card into the internal storage via Menu → Settings →  Offline Data → Geocache data folder.
-                2. Long tap on the image and select to open it in your browser instead (requires to be online).
-        de:
-            title: Ich kann Bilder aus der Cache-Galerie nicht in einer anderen App öffnen!
-            content: |
-                Auf einigen Samsung-Geräten gibt es das Problem, dass beim Versuch ein Bild durch Tippen in der Cache-Galerie in einer anderen App zu öffnen, die Ziel-App dieses nicht anzeigen kann.
-                Es wird eine Fehlermeldung oder ein leeres Bild angezeigt.
-                
-                Wir haben dies untersucht und nach unserem besten Wissen scheint es ein Fehler im Rechte-Management auf Samsung-Geräten zu sein, der dann auftritt, wenn deine Geocache-Daten auf einer SD-Karte gespeichert sind.
-                
-                Es gibt zwei mögliche Workarounds bis Samsung den Fehler behebt:
-                1. Verschiebe deine Geocache-Daten von der SD-Karte in den internen Speicher über Menü → Einstellungen → Offline-Daten →  Geocache-Datenordner
-                2. Tippe lange auf ein Bild und wähle aus, dass du es im Browser öffnen möchtest (funktioniert nur online).
       - id: no-premium
         en:
             title: I can't see PM only caches although I am Premium Member!
