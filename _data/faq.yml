@@ -39,15 +39,15 @@
         en:
             title: The nearby search now shows more than 20 caches!
             content: |
-                As we are now using the newer Groundspeak search engine, it will now return more than 20 results in one batch. Nothing else changed, those are still the nearest sorted by distance.
+                As we are now using the newer Groundspeak search engine, it will now return up to 200 results in one batch.
                 
-                If you use the nearby search to store some really nearby caches, you might now want to select or filter some of them before storing.
+                You can set a distance limit in c:geo Menu → Settings → Services → "Limit for nearby search" to lower the amount of results according to your needs.
         de:
             title: Die "In der Nähe"-Suche zeigt mir nun mehr als 20 Caches!
             content: |
-                Da wir jetzt die neuere Groundspeak-Suche nutzen, bekommen wir mehr als 20 Resultate auf einmal. Sonst hat sich aber nichts geändert, es werden weiterhin die nächstgelegenen Caches sortiert nach Entfernung angezeigt.
+                Da wir jetzt die neuere Groundspeak-Suche nutzen, bekommen wir nun bis zu 200 Resultate auf einmal.
                 
-                Wenn du die Nahbereichssuche zur Speicherung der wirklich nahegelegenen Caches nutzt, kannst du einige auswählen oder einen Filter benutzen, bevor du sie speicherst.
+                Du kannst eine Begrenzung nach Entfernung in c:geo Menü → Einstellungen → Dienste → "Limit für Suche in der Nähe" einstellen, um die Anzahl der Egebnisse nach deinen Bedürfnissen zu reduzieren.
       - id: trackable_indication
         en:
             title: The search result lists do no longer show, whether a trackable is contained in the cache!
