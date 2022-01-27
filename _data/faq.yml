@@ -177,6 +177,17 @@
                 
                 Probier es mal für einige Tage...es ist wahrscheinlich nur eine Sache der Gewohnheit.
                 Weiterhin kannst du die Schriftgröße in c:geo verändern, indem du diese in deinen Geräteeinstellungen änderst, da c:geo diesen Einstellungen folgt.
+      - id: goto_menu
+        en:
+            title: I am missing the "Go to" function!
+            content: |
+                The new bottom navigation does only support five functions.
+                Therefore we placed the former "Go to" main screen function into the menu of the new home screen now. Just tap on the menu (three-dot) button on the upper right to find the "Go to" function.
+        de:
+            title: Ich vermisse die "Gehe zu"-Funktion!
+            content: |
+                Die neue Navigation am unteren Bildschirmrand unterstützt nur maximal fünf Funktionen.
+                Daher haben wir die ehemalige "Gehe zu"-Funktion des Hauptbildschirms nun in das Menü des neuen Startbildschirms verschoben. Tippe einfach auf das Menü-Symbol (drei Punkte) oben rechts, um die "Gehe zu"-Funktion zu finden.
 - id: filter
   title:
       en: New filtering framework
