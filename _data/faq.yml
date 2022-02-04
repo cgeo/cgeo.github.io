@@ -3,6 +3,19 @@
       en: Current issues and changes
       de: Aktuelle Probleme und Änderungen
   items:
+      - id: log_summary
+        en:
+            title: The favorite percentage and amount of logs are no longer shown!
+            content: |
+                We are aware of this issue and working on it.
+                This seems to be caused by a website change and will probably be fixed by our next release.
+                Unfortunately we are in the middle of a beta phase, so it might take a bit longer than usual to release a bugfix for it.
+        de:
+            title: Die Favoritenquote und die Anzahl der Logs werden nicht mehr angezeigt!
+            content: |
+                Wir haben das Problem erkannt und arbeiten bereits daran.
+                Die Ursache scheint eine Änderung auf der Webseite zu sein und wird wahrscheinlich mit unserem nächsten Release behoben.
+                Da wird leider momentan mitten in einer Beta-Phase sind, kann es etwas länger als gewöhnlich dauern eine Version mit Fehlerbehebung zu veröffentlichen.
       - id: nearby-limit
         en:
             title: The nearby search now shows more than 20 caches!
