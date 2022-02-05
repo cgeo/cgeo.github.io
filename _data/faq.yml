@@ -3,7 +3,7 @@
       en: Current issues and changes
       de: Aktuelle Probleme und Änderungen
   items:
-      - id: log_summary
+      - id: 12667
         en:
             title: The favorite percentage and amount of logs are no longer shown!
             content: |
@@ -13,6 +13,25 @@
         de:
             title: Die Favoritenquote und die Anzahl der Logs werden nicht mehr angezeigt!
             content: |
+                Wir haben das Problem erkannt und arbeiten bereits daran.
+                Die Ursache scheint eine Änderung auf der Webseite zu sein und wird wahrscheinlich mit unserem nächsten Release behoben.
+                Da wird leider momentan mitten in einer Beta-Phase sind, kann es etwas länger als gewöhnlich dauern eine Version mit Fehlerbehebung zu veröffentlichen.
+      - id: 12673
+        en:
+            title: Sending a geocache log with an image attached returns an error message!
+            content: |
+                c:geo reports a possible error if you try to send a geocache log with an image attached. The log and the image are posted online despite this error message.
+                Uploading multiple images however does not work and only the first image is uploaded.
+                
+                We are aware of this issue and working on it.
+                This seems to be caused by a website change and will probably be fixed by our next release.
+                Unfortunately we are in the middle of a beta phase, so it might take a bit longer than usual to release a bugfix for it.
+        de:
+            title: Das Senden eines Geocache-Logs mit angehangenem Bild liefert eine Fehlermeldung zurück!
+            content: |
+                c:geo meldet einen möglichen Fehlern, wenn du versuchst einen Geocache-Log mit angehangenem Bild zu senden. Das Log und das Bild sind aber trotz dieser Fehlermeldung online verfügbar.
+                Das Hochladen mehrere Bilder funktioniert allerdings nicht, sondern es wird nur das erste Bild hochgeladen.
+                
                 Wir haben das Problem erkannt und arbeiten bereits daran.
                 Die Ursache scheint eine Änderung auf der Webseite zu sein und wird wahrscheinlich mit unserem nächsten Release behoben.
                 Da wird leider momentan mitten in einer Beta-Phase sind, kann es etwas länger als gewöhnlich dauern eine Version mit Fehlerbehebung zu veröffentlichen.
