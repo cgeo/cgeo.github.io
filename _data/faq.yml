@@ -128,6 +128,8 @@
                 
                 Therefore we finally decided to start from scratch and implement the so-called material design into c:geo. 
                 We tried our best to implement it in a way, that you will still recognize c:geo but have a more consistent and structured appearance.
+                
+                If you have a suggestion what else could be shown on the new home screen, feel free to tell us your idea.
         de:
             title: Warum wurde das c:geo Design geändert?
             content: |
@@ -139,15 +141,17 @@
                 
                 Daher haben wir und schließlich dazu entschieden komplett neu zu starten und das sogenannte Material-Design in c:geo einzubauen.
                 Wir haben unser bestes gegeben um es so zu implementieren, dass ihr weiterhin c:geo wiedererkennt aber in einem konsistenten und strukturieren Erscheinungsbild.
+                
+                Wenn du einen Vorschlag hast was noch auf dem neuen Home-Bildschirm gezeigt werden könnte, teile uns deine Idee gerne mit.
       - id: design-background
         en:
             title: Where is my background image?
             content: |
-                The transparent background was a rather old feature and is no longer used in modern designs. Therefore this feature has been removed.
+                You can enable this again by using c:geo Menu → Settings → Appearance → Wallpaper.
         de:
             title: Wo ist mein Hintergrundbild?
             content: |
-                Der transparente Hintergrund war eine ziemlich alte Funktion und wird in neuen Designs nicht länger verwendet. Daher wurde die Funktion entfernt.
+                Du kannst dies unter c:geo Menü → Einstellungen → Erscheinungsbild → Hintergrundbild wieder aktivieren.
       - id: design-font
         en:
             title: Why are all texts now bigger?
