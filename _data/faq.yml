@@ -3,6 +3,20 @@
       en: Current issues and changes
       de: Aktuelle Probleme und Änderungen
   items:
+      - id: 13209
+        en:
+           title: Maps.me is no longer working when started from c:geo!
+           content: |
+               This problem started with a recent update of maps.me. As we haven't changed anything on c:geo side with regard to the maps.me connection, our best guess is that 
+               there have been changes on the maps.me side with their new version which causes this. 
+               
+               We have opened a support ticket with them, but so far no response from their side, though. You can help by also reporting this bug to maps.me to increase attention.
+        de:
+           title: Maps.me kann von c:geo nicht mehr gestartet werden!
+           content: |
+               Das Problem begann mit einem kürzlichen Update von maps.me. Da wir in c:geo in Bezug auf die maps.me-Anbindung nichts geändert haben, vermuten wir, dass es an der neuen Version von maps.me liegt. 
+               
+               Wir haben ein Supportticket bei maps.me aufgemacht. Bislang haben wir allerdings noch keine Rückmeldung von maps.me erhalten. Du kannst helfen, indem du ebenfalls eine Fehlermeldung an maps.me sendest um sie darauf aufmerksam zu machen.
       - id: 12667
         en:
             title: The favorite percentage and amount of logs are no longer shown!
