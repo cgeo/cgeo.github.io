@@ -93,10 +93,13 @@
                 You can change this by going to your device app settings, open the c:geo app settings and manually select what URLs (web links) you allow c:geo to open.
                 Unfortunately in Android 12 you can only set this as permanently (no longer asking each time you tap such link).
                 
+                Info for Xiaomi users: On some Xiaomi devices this procedure does not work as Xiaomi did not follow common Android practice and does not offer the mentioned setting. In this case you might want to look into this [helper app](https://play.google.com/store/apps/details?id=com.aboutmycode.betteropenwith) which acts as an app chooser for those cases.
+                
                 If you experience, that this setting is removed by your device automatically, than you probably also have the Groundspeak Geocaching app installed on your device.
                 As the Groundspeak app registered itself as owner of the website, this will overrule your personal setting. 
                 Luckily there is an easy workaround: Go to your device app settings, open the setting for the Groundspeak app and completely disable the function, that it is opened for supported weblinks.
                 Afterwards activate it for c:geo as described above.
+                
         de:
             title: Ich nutze Android 12 und c:geo wird nicht angeboten um Weblinks zu öffnen!
             content: |
@@ -106,6 +109,8 @@
                 
                 Du kannst dies ändern, in dem du die App-Einstellungen deines Gerätes und dort die c:geo App-Einstellungen öffnest und dort manuell festlegst, für welche URLs (Web-Links) du c:geo erlaubst genutzt zu werden.
                 Dies ist leider bei Android 12 nur noch dauerhaft festlegbar (keine Auswahl beim Tippen eines solchen Links). 
+                
+                Info für Xiaomi-Nutzer: Auf einigen Xiaomi-Geräten funktioniert diese Prozedur nicht, da Xiaomoi nicht den Android-Empfehlungen folgt und die genannte Option nicht anbietet. In diesem Fall schau dir einmal diese [Helfer-App](https://play.google.com/store/apps/details?id=com.aboutmycode.betteropenwith) an, die als App-Wähler für solche Fälle dient.
                 
                 Wenn es so sein sollte, dass diese Einstellung von deinem Gerät automatisch wieder entfernt wird, dann hast du vermutlich auch die Groundspeak Geocaching-App auf deinem Gerät installiert.
                 Da die Groundspeak-App sich selber als Inhaber der Webseite registiert, werden damit deine persönlichen Einstellungen überstimmt.
