@@ -208,11 +208,15 @@
             content: |
                 The new bottom navigation does only support five functions.
                 Therefore we placed the former "Go to" main screen function into the menu of the new home screen now. Just tap on the menu (three-dot) button on the upper right to find the "Go to" function.
+
+                On recent version of c:geo you can create a button shortcut on the homescreen for it, see settings → appearance → quick launch buttons
         de:
             title: Ich vermisse die "Gehe zu"-Funktion!
             content: |
                 Die neue Navigation am unteren Bildschirmrand unterstützt nur maximal fünf Funktionen.
                 Daher haben wir die ehemalige "Gehe zu"-Funktion des Hauptbildschirms nun in das Menü des neuen Startbildschirms verschoben. Tippe einfach auf das Menü-Symbol (drei Punkte) oben rechts, um die "Gehe zu"-Funktion zu finden.
+
+                In aktuellen Versionen von c:geo kannst Du Dir die Funktion auch als Button auf den Startbildschirm legen, siehe Einstellungen → Erscheinungsbild → Schnellstart-Schaltflächen
 - id: filter
   title:
       en: New filtering framework
