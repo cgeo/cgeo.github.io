@@ -342,6 +342,25 @@
                 3. Beim nächsten Start von c:geo sind die Werkseinstellungen wieder hergestellt und es erscheint der Anmeldebildschirm.
                 4. Gib deine Nutzerdaten für die gewünschte Geocaching-Plattform ein
                 5. Stelle ggf. deine Sicherung wieder her (du wirst im Hauptmenü von c:geo nach der Wiederherstellung gefragt)
+      - id: switch-accounts
+        en:
+            title: How to change the user account c:geo uses? / How to use c:geo with multiple accounts?
+            content: |
+                c:geo is not designed to work with multiple user accounts at the same time, but you can switch manually to a new user account by applying the following steps:
+                1. Go to settings → services → geocaching.com
+                2. Long tap on "Update or remove authorization"
+                3. Enter the new username / password
+                c:geo will then reconnect with the new account data. A similar procedure applies for the other geocaching services.
+                Be aware that some stored data still relates to the old user account (eg. "found state").
+        de:
+            title: Wie kann ich den Benutzer in c:geo wechseln? / Wie kann ich c:geo mit mehreren Benutzerkennungen nutzen?
+            content: |
+                c:geo ist nicht darauf ausgelegt zeitgleich mit mehreren Benutzerkennungen zu arbeiten, man kann aber manuell auf eine andere Benutzerkennung umschalten, indem man folgende Schritte ausführt:
+                1. Gehe zu Einstellungen → Dienste → geocaching.com
+                2. Tippe lange auf "Autorisierung aktualisieren oder entfernen"
+                3. Gebe die neuen Daten für Benutzername und Passwort ein
+                c:geo wird sich dann mit den neuen Daten verbinden. Für die übrigen Geocachingdienste gilt das Vorgehen analog.
+                Achtung: Manche gespeicherte Daten verweisen noch auf die alte Kennung (bspw. "Gefunden-Status").
 
 - id: general
   title:
