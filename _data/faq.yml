@@ -12,7 +12,7 @@
                
                We have opened a support ticket with them, but so far no response from their side, though. You can help by also reporting this bug to maps.me to increase attention.
 
-               Users of c:geo have provided us with workarounds for the techy savvy, see https://github.com/cgeo/cgeo/issues/13209 for details.
+               Users of c:geo have provided us with workarounds for the techy savvy, see [this bugtracker issue](https://github.com/cgeo/cgeo/issues/13209) for details.
         de:
            title: Maps.me kann von c:geo nicht mehr gestartet werden!
            content: |
@@ -20,7 +20,7 @@
                
                Wir haben ein Supportticket bei maps.me aufgemacht. Bislang haben wir allerdings noch keine Rückmeldung von maps.me erhalten. Du kannst helfen, indem du ebenfalls eine Fehlermeldung an maps.me sendest um sie darauf aufmerksam zu machen.
 
-               c:geo-Anwender haben uns Workarounds für technisch Versierte vorgeschlagen, siehe https://github.com/cgeo/cgeo/issues/13209 für Details.
+               c:geo-Anwender haben uns Workarounds für technisch Versierte vorgeschlagen, siehe [diesen Bugtracker-Issue](https://github.com/cgeo/cgeo/issues/13209) für Details.
       - id: 12667
         en:
             title: The favorite percentage and amount of logs are no longer shown!
