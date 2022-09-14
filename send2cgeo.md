@@ -60,7 +60,7 @@ The send2cgeo script supports Mozilla Firefox and Google Chrome. Microsoft Inter
   - On the recently viewed caches page left of the distance
 - Clicking this button/icon will add the specific cache to the queue for downloading to c:geo
 - Start c:geo on your device and go to a list of saved caches
-- Select Menu → Import → Import from send2cgeo
+- Select Menu → Import → Import from send2cgeo (Note: The import function is not available on the virtual all caches list, but you need to open or create a specific cache list)
 - The caches will automatically be downloaded from geocaching.com to the list of saved caches
 - c:geo will continue to wait for more caches to be downloaded for 3 minutes.
 
