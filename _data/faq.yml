@@ -3,6 +3,23 @@
       en: Current issues and changes
       de: Aktuelle Probleme und Änderungen
   items:
+      - id: 13599
+        en:
+           title: Loading or refreshing caches takes an unusual long time!
+           content: |
+               At the moment the GCVote cache rating service seems to have problems, which is causing longer loading times when downloading or refreshing a geocache in c:geo.
+               
+               Please disable the service in c:geo Start → Menu (three-dot icon) → Settings → Services (scroll down to Additional Services) to improve cache loading/refreshing time.
+               
+               As the GCVote service is no longer maintained, we might remove or replace it in c:geo soon.
+        de:
+           title: Das Laden oder Aktualisieren von Caches dauert ungewöhnlich lang!
+           content: |
+               Momentan hat der Cache-Bewertungsdienst GCVote scheinbar Probleme, was zu einer längeren Ladezeit beim Herunterladen oder Aktualisieren von Geocaches in c:geo führt
+               
+               Bitte deaktiviere diesen Dienst unter c:geo Start → Menü (Drei-Punkt Symbol) → Einstellungen → Dienste (herunterscrollen zu Weitere Dienste) um die Ladezeit beim Laden/Aktualisieren von Caches zu verbessern.
+               
+               Da der GCVote-Dienst nicht mehr gewartet wird, werden wir diesen in c:geo wahrscheinlich entfernen oder ersetzen.
       - id: 13209
         en:
            title: Maps.me is no longer working when started from c:geo!
