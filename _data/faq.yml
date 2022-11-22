@@ -3,6 +3,24 @@
       en: Current issues and changes
       de: Aktuelle Probleme und Änderungen
   items:
+      - id: 13408
+        en:
+           title: The background cache downloader fails for larger amount of caches!
+           content: |
+               The new feature performs batch refresh/download of caches in the background instead of blocking the usage of c:geo during download.
+               This implies, that you probably need to allow c:geo be active while in background. Otherwise cache downloads might fail as soon as your device goes into sleep or you use another app.
+               
+               On most devices you will find energy saving preferences in your device settings fur this purpose. Make sure to allow background activity for c:geo there.
+               On recent Samsung devices you will e.g. find it in Settings → Apps → c:geo → Battery, where you should set it to "Unrestricted".
+               
+        de:
+           title: Der Cache-Download im Hintergrund schlägt bei größerer Anzahl von Caches fehl!
+           content: |
+               Die neue Funktion führt die Speicherung/Aktualisierung von Caches im Hintergrund aus anstatt die Nutzung von c:geo während des Herunterladens zu blockieren.
+               Dies bedingt, dass du wahrscheinlich c:geo die Erlaubnis geben musst im Hintergrund aktiv zu sein. Andernfalls könnte das Herunterladen von Caches fehlschlagen sobald dein Gerät einschläft oder du eine andere App nutzt.
+               
+               Bei den meisten Geräten findest du zu diesem Zweck Energiespar-Präferenzen in den Einstellungen deines Gerätes. Stell sicher, dass du dort Hintergrundaktivitäten für c:geo erlaubst.
+               Bei aktuellen Geräten von Samsung findest du dies z.B. unter Einstellungen → Apps → c:geo → Akku, wo du "Unbeschränkt" einstellen solltest.
       - id: 13209
         en:
            title: Maps.me is no longer working when started from c:geo!
@@ -893,7 +911,7 @@
                 
                 Wenn du Probleme feststellst oder weitere Fragen hast, kontaktiere uns gerne unter <a href="mailto:support@cgeo.org?subject=FAQ_theme-slow">support@cgeo.org</a>.
 
- id: design
+- id: design
   title:
       en: Recent changes to the c:geo design
       de: Kürzliche Design-Änderungen in c:geo
