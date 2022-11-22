@@ -3,23 +3,6 @@
       en: Current issues and changes
       de: Aktuelle Probleme und Änderungen
   items:
-      - id: 13599
-        en:
-           title: Loading or refreshing caches takes an unusual long time!
-           content: |
-               At the moment the GCVote cache rating service seems to have problems, which is causing longer loading times when downloading or refreshing a geocache in c:geo.
-               
-               Please disable the service in c:geo Start → Menu (three-dot icon) → Settings → Services (scroll down to Additional Services) to improve cache loading/refreshing time.
-               
-               As the GCVote service is no longer maintained, we might remove or replace it in c:geo soon.
-        de:
-           title: Das Laden oder Aktualisieren von Caches dauert ungewöhnlich lang!
-           content: |
-               Momentan hat der Cache-Bewertungsdienst GCVote scheinbar Probleme, was zu einer längeren Ladezeit beim Herunterladen oder Aktualisieren von Geocaches in c:geo führt
-               
-               Bitte deaktiviere diesen Dienst unter c:geo Start → Menü (Drei-Punkt Symbol) → Einstellungen → Dienste (herunterscrollen zu Weitere Dienste) um die Ladezeit beim Laden/Aktualisieren von Caches zu verbessern.
-               
-               Da der GCVote-Dienst nicht mehr gewartet wird, werden wir diesen in c:geo wahrscheinlich entfernen oder ersetzen.
       - id: 13209
         en:
            title: Maps.me is no longer working when started from c:geo!
@@ -38,67 +21,6 @@
                Wir haben ein Supportticket bei maps.me aufgemacht. Bislang haben wir allerdings noch keine Rückmeldung von maps.me erhalten. Du kannst helfen, indem du ebenfalls eine Fehlermeldung an maps.me sendest um sie darauf aufmerksam zu machen.
 
                c:geo-Anwender haben uns Workarounds für technisch Versierte vorgeschlagen, siehe [diesen Bugtracker-Issue](https://github.com/cgeo/cgeo/issues/13209) für Details.
-      - id: nearby-limit
-        en:
-            title: The nearby search now shows more than 20 caches!
-            content: |
-                As we are now using the newer Groundspeak search engine, it will now return up to 200 results in one batch.
-                
-                You can set a distance limit in c:geo Menu → Settings → Services → "Limit for nearby search" to lower the amount of results according to your needs.
-        de:
-            title: Die "In der Nähe"-Suche zeigt mir nun mehr als 20 Caches!
-            content: |
-                Da wir jetzt die neuere Groundspeak-Suche nutzen, bekommen wir nun bis zu 200 Resultate auf einmal.
-                
-                Du kannst eine Begrenzung nach Entfernung in c:geo Menü → Einstellungen → Dienste → "Limit für Suche in der Nähe" einstellen, um die Anzahl der Egebnisse nach deinen Bedürfnissen zu reduzieren.
-      - id: trackable_indication
-        en:
-            title: The search result lists do no longer show, whether a trackable is contained in the cache!
-            content: |
-                The new Groundspeak search engine does not provide this information, so we sadly can no longer show it in the search results.
-                You have to open or save the cache first in oder to get the trackable indication shown on the list in c:geo.
-        de:
-            title: Die Liste der Suchergebnisse zeigt nicht mehr an, ob ein Trackable im Cache liegt!
-            content: |
-                Die neue Groundspeak-Suche liefert diese Information nicht mehr, so dass wir dies leider im Suchergebnis nicht mehr anzeigen können.
-                Du musst den Cache zuerst öffnen oder speichern damit die Trackable-Anzeige in der Liste in c:geo sichtbar ist.
-      - id: theme-slow
-        en:
-            title: Starting my offline map is very slow!
-            content: |
-                Starting with c:geo version 2021.03.16-RC1 we were forced to change the method c:geo reads map theme files from your storage.
-                Unfortunately the new access method provided by Android is much slower to read many small files (such as in map themes). If you are using a custom map theme this could impact the time needed to initially render the map. 
-                
-                There are two possible ways to fix the problem. The fix is not related to the offline map files itself, but only to map theme files:
-                
-                1. c:geo now supports **zipped map themes**:\\
-                You can put the content of your themes folder into a zip archive and place this zip file into the theme folder instead. Alternatively download a zipped theme from your offline map provider (or via the c:geo map downloader) and directly place this file into your themes folder without unzipping it first.\\
-                This solution brings a comparable opening performance of the map as before.
-                
-                2. c:geo now supports a **sync function** for themes:\\
-                While the zip solution should be the prefereed method, you can also stay with unzipped theme files and instead let c:geo buffer the theme files internally. This method however is only recommended to advanced users with good knowledge of file storages and themes.\\
-                To activate the sync go to c:geo Menu → Settings → Map and activate the function "Synchronize themes to app-private folder". **Make sure to check the size of the data to be synced** in the following dialog, before confirming the sync!! The size should (depending on how many themes you use) only be some kB up to a few MB. Do not activate the sync if the shown size is unreasonably high! In that case your theme folder contains unrelated data, or you might use the same folder for maps and their themes. You should separate and clean up the data first and/or set the correct theme folder.\\
-                If you are not sure, that you are doing it right, please use the zip solution instead (as described above).
-                
-                If you notice any problems or have further questions, feel free to contact <a href="mailto:support@cgeo.org?subject=FAQ_theme-slow">support@cgeo.org</a>.
-        de:
-            title: Das Starten meiner Offline-Karte ist sehr langsam!
-            content: |
-                Beginnend mit der c:geo Version 2021.03.16-RC1 sind wir gezwungen die Methode zu ändern, mit der c:geo die Kartendesigns (Themes) von deinem Speicher liest.
-                Leider ist die neue Zugriffsmethode, die von Android bereitgestellt wird, viel langsamer beim Lesen vieler kleiner Dateien (so wie in den Kartendesigns). Wenn du ein benutzerdefiniertes Kartendesign nutzt, kann dies die Zeit beinflussen die benötigt wird, um die Karte initial darzustellen.
-                
-                Es gibt zwei Wege dieses Problem zu beheben. Die Lösung bezieht sich hierbei nicht auf die Dateien mit Offline-Karten, sondern nur auf die Dateien mit dem Kartendesign.
-                
-                1. c:geo unterstützt nun  **gezippte Kartendesigns**:\\
-                Du kannst den Inhalt deines Kartendesign-Ordners in ein Zip-Archiv packen und diese Zip-Datei stattdessen im Ordner für Kartendesigns ablegen. Alternativ lade ein gezipptes Kartendesign von deinem Offlinekarten-Anbieter (oder mit dem c:geo Karten-Downloader) and platziere diese Datei direkt in den Kartendesign-Ordner, ohne sie zuerst zu entpacken.\\
-                Diese Lösung bietet eine vergleichbare Geschwindigkeit beim Öffnen der Karten wie vorher.
-                
-                2. c:geo unterstützt nun eine **Sync-Funktion** für Kartendesigns:\\
-                Die ZIP-Lösung ist die bevorzugte Methode, du kannst aber auch bei nicht gezippten Designs bleiben und c:geo stattdessen die Design-Dateien intern puffern lassen. Diese Methode empfehlen wir allerdings nur für erfahrene Anwender mit guter Kenntnis von Dateisystemen und Kartendesigns.\\
-                Um die Synchronisierung zu aktivieren, gehe in das c:geo Menü → Einstellungen - Karte und aktiviere die Funktion "Design mit app-internem Ordner synchronisieren". **Prüfe im dann folgenden Dialog unbedingt die Größe der zu synchronisierenden Daten**, bevor du die Synchronisierung bestätigst!! Die Größe sollte (je nach Anzahl der Designs) nur einige kB bis wenige MB betragen. Aktiviere die Synchronisierung nicht, wenn die angezeigte Größe ungewöhnlich hoch ist! In diesem Fall enthält dein Kartendesign-Ordner fremde Daten, oder du nutzt den gleichen Ordner für Karten und ihre Designs. Du solltest die Dateien erst trennen und aufräumen und/oder den korrekten Design-Ordner auswählen.\\
-                Wenn du dir nicht sicher bist, ob du es richtig machst, nutze bitte stattdessen die oben beschriebene ZIP-Lösung.
-                
-                Wenn du Probleme feststellst oder weitere Fragen hast, kontaktiere uns gerne unter <a href="mailto:support@cgeo.org?subject=FAQ_theme-slow">support@cgeo.org</a>.
       - id: android12
         en:
             title: I am using Android 12 and c:geo is not offered to open web links!
@@ -145,139 +67,7 @@
                 - Wähle Settings --> Manage Aplications
                 - Falls die offizielle Geocaching App installiert ist, wähle sie aus --> wähle "Open by definition" --> "Add Link" ---> lösche alle Zuordnungen --> dann zurück und wähle "Open compatible Links" ab.
                 - Wähle dann c:geo --> Aktiviere "Open compatible Links" --> Wähle alle Zuordnungen aus.
-- id: design
-  title:
-      en: Recent changes to the c:geo design
-      de: Kürzliche Design-Änderungen in c:geo
-  items:
-      - id: design-generic
-        en:
-            title: Why did you change the c:geo design?
-            content: |
-                Major parts of c:geo have been designed many years ago and were targeted to very old Android versions. Some of those designs have not even been touched ever since.
-                Over the last years much effort was needed to bugfix and patch this really old design to make it usable for new screens and features.
-                
-                Finally we ended up with a very unstructured design, which made c:geo look inconsistent or even broken at many places.
-                Additionally the old design did not allow us to make use of modern app design principles and features, which you know from many other Android apps.
-                
-                Therefore we finally decided to start from scratch and implement the so-called material design into c:geo. 
-                We tried our best to implement it in a way, that you will still recognize c:geo but have a more consistent and structured appearance.
-                
-                If you have a suggestion what else could be shown on the new home screen, feel free to tell us your idea.
-        de:
-            title: Warum wurde das c:geo Design geändert?
-            content: |
-                Weite Teile des Designs von c:geo wurden vor vielen Jahren entwickelt und waren auf sehr alte Android-Versionen ausgerichtet. Einige dieser alten Designs wurden seitdem nie verändert.
-                Über die letzten Jahre war es sehr aufwändig Fehler im Design zu beheben oder es zu flicken, um es für neue Ansichten und Funktionen nutzbar zu machen.
-                
-                Am Ende hatten wir ein sehr unstrukturiertes Design, welches c:geo an vielen Stellen uneinheitlich oder sogar defekt aussehen ließ.
-                Weiterhin erlaubte uns das alte Design nicht neue Design-Prinzipien und Funktionen zu nutzen, die du von vielen anderen Android-Apps kennst.
-                
-                Daher haben wir und schließlich dazu entschieden komplett neu zu starten und das sogenannte Material-Design in c:geo einzubauen.
-                Wir haben unser bestes gegeben um es so zu implementieren, dass ihr weiterhin c:geo wiedererkennt aber in einem konsistenten und strukturieren Erscheinungsbild.
-                
-                Wenn du einen Vorschlag hast was noch auf dem neuen Startbildschirm gezeigt werden könnte, teile uns deine Idee gerne mit.
-      - id: design-background
-        en:
-            title: Where is my background image?
-            content: |
-                You can enable this again by using c:geo Menu → Settings → Appearance → Wallpaper.
-        de:
-            title: Wo ist mein Hintergrundbild?
-            content: |
-                Du kannst dies unter c:geo Menü → Einstellungen → Erscheinungsbild → Hintergrundbild wieder aktivieren.
-      - id: design-font
-        en:
-            title: Why are all texts now bigger?
-            content: |
-                We do now follow the Android style guidelines for font sizes. We also had many users telling us, that the texts are rather small and hard to read compared to other apps on the same device.
-                
-                Give it a try for some days...its probably just a matter of getting used to the new look.
-                Besides that, you can also adjust the font size in c:geo by adjusting your system settings accordingly as c:geo is following that system setting.                
-        de:
-            title: Warum sind jetzt alle Texte größer?
-            content: |
-                Wir folgen nun den Android-Style-Richtlinien für Schriftgrößen. Es gab auch viele Nutzer, die uns berichtet haben, dass die Texte in c:geo relativ klein und schwer zu lesen sind verglichen mit anderen Apps auf dem selben Gerät.
-                
-                Probier es mal für einige Tage...es ist wahrscheinlich nur eine Sache der Gewohnheit.
-                Weiterhin kannst du die Schriftgröße in c:geo verändern, indem du diese in deinen Geräteeinstellungen änderst, da c:geo diesen Einstellungen folgt.
-      - id: goto_menu
-        en:
-            title: I am missing the "Go to" function!
-            content: |
-                The new bottom navigation does only support five functions.
-                Therefore we placed the former "Go to" main screen function into the menu of the new home screen now. Just tap on the menu (three-dot) button on the upper right to find the "Go to" function.
 
-                On recent version of c:geo you can create a button shortcut on the homescreen for it, see settings → appearance → quick launch buttons
-        de:
-            title: Ich vermisse die "Gehe zu"-Funktion!
-            content: |
-                Die neue Navigation am unteren Bildschirmrand unterstützt nur maximal fünf Funktionen.
-                Daher haben wir die ehemalige "Gehe zu"-Funktion des Hauptbildschirms nun in das Menü des neuen Startbildschirms verschoben. Tippe einfach auf das Menü-Symbol (drei Punkte) oben rechts, um die "Gehe zu"-Funktion zu finden.
-
-                In aktuellen Versionen von c:geo kannst Du Dir die Funktion auch als Button auf den Startbildschirm legen, siehe Einstellungen → Erscheinungsbild → Schnellstart-Schaltflächen
-- id: filter
-  title:
-      en: New filtering framework
-      de: Neue Filter-Methoden
-  items:
-      - id: filter-generic
-        en:
-            title: Why did you change the filtering?
-            content: |
-                There have been several different filtering methods included into c:geo over the last years. As they have been developed independently of one another, there have been
-                several limitations and issues with that, which we could not fix.
-                
-                Instead of trying to glue those existing filters together, we therefore decided to make a clean, new and more powerful approach.
-        de:
-            title: Warum habt ihr die Filterung geändert?
-            content: |
-                In c:geo wurden über die letzten Jahre mehrere verschiedene Filtermethoden eingebaut. Da diese unabhängig voneinander entwickelt wurden, gab es dadurch mehrere Limitierungen und Fehler, die wir nicht beheben konnten.
-                
-                Statt dem Versuch dies irgendwie zusammenzukleben, haben wir uns daher dafür entschieden einen neuen, sauberen und leistungsfähigeren Versuch zu starten.
-      - id: filter-changes
-        en:
-            title: What has changed for filtering?
-            content: |             
-                There used to be several different filters at different places in c:geo, which did only partly interact properly:
-                - The global hiding of found, owned, disabled, archived caches
-                - The global switch to filter on a single cache type within the whole app
-                - A bunch of filters for your stored caches (e.g. for certain states, attributes, etc.)
-                
-                We basically removed all of those filters and replaced them by a common filter framework with more and more flexible filtering options.
-                
-                There are now two independent filter contexts (with identical filtering options):
-                - A live filter which is used for all live data (i.e. on live map and for all search actions)
-                - An offline filter which is used for your stored caches
-                
-                The reason for this differentiation is, that you e.g. might want to hide your found caches on the map and for searches, while still seeing them on your lists.              
-                Your previous global cache hiding settings (e.g. for found caches) have therefore been automatically migrated into the live filter.
-                
-                For more information about the new filter possibilities, please refer to [our user guide](https://manual.cgeo.org/en/cachefilter).
-                
-                The filter is all new and can get very complex (try the advanced mode!). So there might still be bugs or not everything you desire might be included. 
-                Feel free to provide <a href="mailto:support@cgeo.org?subject=New filter">feedback to our support</a> if you encounter problems or have improvement proposals.
-        de:
-            title: Was hat sich beim Filtern verändert?
-            content: |
-                Es gab bislang mehrere verschiedene Filter an verschiedenen Stellen in c:geo, die nur begrenzt miteinander interagierten:
-                - Den globalen Ausblenden von gefundenen, eigenen, deaktivierten, archivierten Caches
-                - Die globale Einstellung einen einzelnen Cache-Typ in der gesamtem c:geo App zu filtern
-                - Eine Sammlung von Filtern für die gespeicherten Caches (z.B. nach gewissen Statuswerten, Attributen, etc.)
-                
-                Im Grunde haben wir all diese Filter entfernt und durch eine gemeinsame Filtermethodik mit mehr und viel flexibleren Filteroptionen ersetzt.
-                
-                Es gibt nun zwei unabhängige Filterkontexte (mit identischen Filteroptionen):
-                - Einen Live-Filter, der für alle Live-Daten genutzt wird (d.h. auf der Live-Karte und für alle Suchaktionen)
-                - Einen Offline-Filter, der für deine gespeicherten Caches genutzt wird
-                
-                Der Grund für diese Unterscheidung ist, dass du z.B. deine gefundenen Caches auf der Karte und für Suchen verstecken möchtet, aber du diese dennoch auf deinen Listen sehen möchtest.
-                Die vorherigen globalen Einstellungen fürs Ausblenden (z.B. für gefundene Caches) wurden daher automatisch in den Live-Filter übertragen.
-                
-                Mehr Informationen zu den neuen Filtermöglichkeiten findet ihr in [unserem Benutzerhandbuch](https://manual.cgeo.org/de/cachefilter).
-                
-                Der Filter ist komplett neu und kann sehr komplex werden (probier den erweiterten Modus aus!). Es kann also noch Fehler geben oder es ist noch nicht alles enthalten, was du erwartest.
-                Kontaktiere und gerne mit <a href="mailto:support@cgeo.org?subject=New filter">deinem Feedback an unseren Support</a>, wenn du Probleme feststellst oder Verbesserungsvorschläge hast.
 - id: getting-started
   title:
       en: Getting started
@@ -341,26 +131,7 @@
                 3. Beim nächsten Start von c:geo sind die Werkseinstellungen wieder hergestellt und es erscheint der Anmeldebildschirm.
                 4. Gib deine Nutzerdaten für die gewünschte Geocaching-Plattform ein
                 5. Stelle ggf. deine Sicherung wieder her (du wirst im Hauptmenü von c:geo nach der Wiederherstellung gefragt)
-      - id: switch-accounts
-        en:
-            title: How to change the user account c:geo uses? / How to use c:geo with multiple accounts?
-            content: |
-                c:geo is not designed to work with multiple user accounts at the same time, but you can switch manually to a new user account by applying the following steps:
-                1. Go to settings → services → geocaching.com
-                2. Long tap on "Update or remove authorization"
-                3. Enter the new username / password
-                c:geo will then reconnect with the new account data. A similar procedure applies for the other geocaching services.
-                Be aware that some stored data still relates to the old user account (eg. "found state").
-        de:
-            title: Wie kann ich den Benutzer in c:geo wechseln? / Wie kann ich c:geo mit mehreren Benutzerkennungen nutzen?
-            content: |
-                c:geo ist nicht darauf ausgelegt zeitgleich mit mehreren Benutzerkennungen zu arbeiten, man kann aber manuell auf eine andere Benutzerkennung umschalten, indem man folgende Schritte ausführt:
-                1. Gehe zu Einstellungen → Dienste → geocaching.com
-                2. Tippe lange auf "Autorisierung aktualisieren oder entfernen"
-                3. Gebe die neuen Daten für Benutzername und Passwort ein
-                c:geo wird sich dann mit den neuen Daten verbinden. Für die übrigen Geocachingdienste gilt das Vorgehen analog.
-                Achtung: Manche gespeicherte Daten verweisen noch auf die alte Kennung (bspw. "Gefunden-Status").
-
+ 
 - id: general
   title:
       en: General
@@ -454,21 +225,6 @@
 
                 Obwohl das API von Groundspeak einige unserer aktuellen Probleme beheben würde, würde c:geo die Nutzer dann zwingen Geld an eine Firma zu zahlen. Das entspricht nicht dem Geist der quelloffenen Anwendungen.
                 Wenn Groundspeak mit unseren Ideen einverstanden ist, könnte c:geo eines Tages auch das API nutzen...
-      - id: website-english
-        en:
-            title: The geocaching website is always switched to English!
-            content: |
-                c:geo is accessing the geocaching website as a customized Internet browser. \\
-                To retrieve the information from the website it needs to have reliable information. Therefore c:geo will change the language to English when logging in, because it cannot support all different languages.
-
-                Feel free to change the language on the website back to your desired language anytime when using it. c:geo will detect this and automatically switch back to English on the next login.
-        de:
-            title: Die Geocaching-Webseite wird immer auf Englisch umgestellt!
-            content: |
-                c:geo greift auf die Geocaching-Webseite als maßgeschneiderter Internet-Browser zu. \\
-                Um Informationen von der Webseite abzurufen, benötigt es verlässliche Informationen. Daher ändert c:geo die Spracheinstellung beim Einloggen auf Englisch, da es nicht möglich ist, alle verschiedenen Sprachen zu unterstützen.
-
-                Du kannst jederzeit die Sprache auf der Webseite wieder auf deine gewünschte Sprache umstellen, wenn du sie benutzt. c:geo wird dies feststellen und beim nächsten Einloggen wieder auf Englisch zurückschalten.
       - id: edit-logs
         en:
             title: Is it possible to edit an existing geocache log with c:geo?
@@ -611,27 +367,6 @@
 
                 Wenn du z.B. einen Beta-Test eines noch nicht veröffentlichten Caches machen möchtest, kannst du noch nicht Online auf den Cache zugreifen (da er noch nicht veröffentlicht ist), aber du kannst den Cache per GPX-Datei importieren oder die Wegpunkte manuell zu einem auf deinem Gerät gespeicherten Cache hinzufügen.
                 Weiterhin kannst du deine eigenen unveröffentlichten Caches mit c:geo öffnen, indem du online nach dem Geocode suchst.
-      - id: not-able-to-post-log
-        en:
-            title: I am not able to post my log online!
-            content: |
-                If you select the menu icon to send your log and you get a message saying "Download of data in progress..." the log page on the server was not yet loaded.
-                Check if you have an Internet connection and wait a moment until the required data has been loaded and then try again to send your log.
-
-                In case you cannot establish an Internet connection or the geocaching server is down you can also select to just save the log on your device and send it later by accessing the log page in c:geo once again.
-                To do this just press back on your device, the log will automatically be saved.
-
-                You can also batch submit offline stored logs as fieldnotes to the geocaching website at a later point of time.
-        de:
-            title: Ich kann mein Log nicht online absenden!
-            content: |
-                Wenn du die Schaltfläche zum Senden deines Logs wählst und die Nachricht "Daten werden heruntergeladen..." siehst, wurde die Logseite noch nicht vom Server geladen.
-                Prüfe, ob du eine Internetverbindung hast und warte einen Moment bis die notwendigen Daten geladen wurden, bevor du es erneut versuchst.
-
-                Wenn du keine Internetverbindung herstellen kannst oder die Geocaching-Webseite nicht erreichbar ist, kannst du auch auswählen dein Log auf dem Gerät zu speichern.
-                Um dein Log auf dem Gerät zu speichern, drücke einfach die Zurück-Taste. Um es später zu senden, rufe erneut die Logseite in c:geo auf.
-
-                Du kannst gespeicherte Logs auch zu einem späteren Zeitpunkt in einem Rutsch als Feldnotizen auf die Geocaching-Webseite hochladen.
       - id: delete-account
         en:
             title: How to delete my account?
@@ -1120,6 +855,136 @@
                 Bitte deaktiviere die Kartendrehung in Live-Karte - Menü (Drei-Punkt-Button) - Kartendrehung.
                 
                 Wir arbeiten daran diese Funktion in den kommenden Versionen von c:geo zu verbessern.
+      - id: theme-slow
+        en:
+            title: Starting my offline map is very slow!
+            content: |
+                Starting with c:geo version 2021.03.16-RC1 we were forced to change the method c:geo reads map theme files from your storage.
+                Unfortunately the new access method provided by Android is much slower to read many small files (such as in map themes). If you are using a custom map theme this could impact the time needed to initially render the map. 
+                
+                There are two possible ways to fix the problem. The fix is not related to the offline map files itself, but only to map theme files:
+                
+                1. c:geo now supports **zipped map themes**:\\
+                You can put the content of your themes folder into a zip archive and place this zip file into the theme folder instead. Alternatively download a zipped theme from your offline map provider (or via the c:geo map downloader) and directly place this file into your themes folder without unzipping it first.\\
+                This solution brings a comparable opening performance of the map as before.
+                
+                2. c:geo now supports a **sync function** for themes:\\
+                While the zip solution should be the prefereed method, you can also stay with unzipped theme files and instead let c:geo buffer the theme files internally. This method however is only recommended to advanced users with good knowledge of file storages and themes.\\
+                To activate the sync go to c:geo Menu → Settings → Map and activate the function "Synchronize themes to app-private folder". **Make sure to check the size of the data to be synced** in the following dialog, before confirming the sync!! The size should (depending on how many themes you use) only be some kB up to a few MB. Do not activate the sync if the shown size is unreasonably high! In that case your theme folder contains unrelated data, or you might use the same folder for maps and their themes. You should separate and clean up the data first and/or set the correct theme folder.\\
+                If you are not sure, that you are doing it right, please use the zip solution instead (as described above).
+                
+                If you notice any problems or have further questions, feel free to contact <a href="mailto:support@cgeo.org?subject=FAQ_theme-slow">support@cgeo.org</a>.
+        de:
+            title: Das Starten meiner Offline-Karte ist sehr langsam!
+            content: |
+                Beginnend mit der c:geo Version 2021.03.16-RC1 sind wir gezwungen die Methode zu ändern, mit der c:geo die Kartendesigns (Themes) von deinem Speicher liest.
+                Leider ist die neue Zugriffsmethode, die von Android bereitgestellt wird, viel langsamer beim Lesen vieler kleiner Dateien (so wie in den Kartendesigns). Wenn du ein benutzerdefiniertes Kartendesign nutzt, kann dies die Zeit beinflussen die benötigt wird, um die Karte initial darzustellen.
+                
+                Es gibt zwei Wege dieses Problem zu beheben. Die Lösung bezieht sich hierbei nicht auf die Dateien mit Offline-Karten, sondern nur auf die Dateien mit dem Kartendesign.
+                
+                1. c:geo unterstützt nun  **gezippte Kartendesigns**:\\
+                Du kannst den Inhalt deines Kartendesign-Ordners in ein Zip-Archiv packen und diese Zip-Datei stattdessen im Ordner für Kartendesigns ablegen. Alternativ lade ein gezipptes Kartendesign von deinem Offlinekarten-Anbieter (oder mit dem c:geo Karten-Downloader) and platziere diese Datei direkt in den Kartendesign-Ordner, ohne sie zuerst zu entpacken.\\
+                Diese Lösung bietet eine vergleichbare Geschwindigkeit beim Öffnen der Karten wie vorher.
+                
+                2. c:geo unterstützt nun eine **Sync-Funktion** für Kartendesigns:\\
+                Die ZIP-Lösung ist die bevorzugte Methode, du kannst aber auch bei nicht gezippten Designs bleiben und c:geo stattdessen die Design-Dateien intern puffern lassen. Diese Methode empfehlen wir allerdings nur für erfahrene Anwender mit guter Kenntnis von Dateisystemen und Kartendesigns.\\
+                Um die Synchronisierung zu aktivieren, gehe in das c:geo Menü → Einstellungen - Karte und aktiviere die Funktion "Design mit app-internem Ordner synchronisieren". **Prüfe im dann folgenden Dialog unbedingt die Größe der zu synchronisierenden Daten**, bevor du die Synchronisierung bestätigst!! Die Größe sollte (je nach Anzahl der Designs) nur einige kB bis wenige MB betragen. Aktiviere die Synchronisierung nicht, wenn die angezeigte Größe ungewöhnlich hoch ist! In diesem Fall enthält dein Kartendesign-Ordner fremde Daten, oder du nutzt den gleichen Ordner für Karten und ihre Designs. Du solltest die Dateien erst trennen und aufräumen und/oder den korrekten Design-Ordner auswählen.\\
+                Wenn du dir nicht sicher bist, ob du es richtig machst, nutze bitte stattdessen die oben beschriebene ZIP-Lösung.
+                
+                Wenn du Probleme feststellst oder weitere Fragen hast, kontaktiere uns gerne unter <a href="mailto:support@cgeo.org?subject=FAQ_theme-slow">support@cgeo.org</a>.
+
+ id: design
+  title:
+      en: Recent changes to the c:geo design
+      de: Kürzliche Design-Änderungen in c:geo
+  items:
+      - id: design-background
+        en:
+            title: Where is my background image?
+            content: |
+                You can enable this again by using c:geo Menu → Settings → Appearance → Wallpaper.
+        de:
+            title: Wo ist mein Hintergrundbild?
+            content: |
+                Du kannst dies unter c:geo Menü → Einstellungen → Erscheinungsbild → Hintergrundbild wieder aktivieren.
+      - id: goto_menu
+        en:
+            title: I am missing the "Go to" function!
+            content: |
+                The new bottom navigation does only support five functions.
+                Therefore we placed the former "Go to" main screen function into the menu of the new home screen now. Just tap on the menu (three-dot) button on the upper right to find the "Go to" function.
+
+                On recent version of c:geo you can create a button shortcut on the homescreen for it, see settings → appearance → quick launch buttons
+        de:
+            title: Ich vermisse die "Gehe zu"-Funktion!
+            content: |
+                Die neue Navigation am unteren Bildschirmrand unterstützt nur maximal fünf Funktionen.
+                Daher haben wir die ehemalige "Gehe zu"-Funktion des Hauptbildschirms nun in das Menü des neuen Startbildschirms verschoben. Tippe einfach auf das Menü-Symbol (drei Punkte) oben rechts, um die "Gehe zu"-Funktion zu finden.
+
+                In aktuellen Versionen von c:geo kannst Du Dir die Funktion auch als Button auf den Startbildschirm legen, siehe Einstellungen → Erscheinungsbild → Schnellstart-Schaltflächen
+
+- id: filter
+  title:
+      en: New filtering framework
+      de: Neue Filter-Methoden
+  items:
+      - id: filter-generic
+        en:
+            title: Why did you change the filtering?
+            content: |
+                There have been several different filtering methods included into c:geo over the last years. As they have been developed independently of one another, there have been
+                several limitations and issues with that, which we could not fix.
+                
+                Instead of trying to glue those existing filters together, we therefore decided to make a clean, new and more powerful approach.
+        de:
+            title: Warum habt ihr die Filterung geändert?
+            content: |
+                In c:geo wurden über die letzten Jahre mehrere verschiedene Filtermethoden eingebaut. Da diese unabhängig voneinander entwickelt wurden, gab es dadurch mehrere Limitierungen und Fehler, die wir nicht beheben konnten.
+                
+                Statt dem Versuch dies irgendwie zusammenzukleben, haben wir uns daher dafür entschieden einen neuen, sauberen und leistungsfähigeren Versuch zu starten.
+      - id: filter-changes
+        en:
+            title: What has changed for filtering?
+            content: |             
+                There used to be several different filters at different places in c:geo, which did only partly interact properly:
+                - The global hiding of found, owned, disabled, archived caches
+                - The global switch to filter on a single cache type within the whole app
+                - A bunch of filters for your stored caches (e.g. for certain states, attributes, etc.)
+                
+                We basically removed all of those filters and replaced them by a common filter framework with more and more flexible filtering options.
+                
+                There are now two independent filter contexts (with identical filtering options):
+                - A live filter which is used for all live data (i.e. on live map and for all search actions)
+                - An offline filter which is used for your stored caches
+                
+                The reason for this differentiation is, that you e.g. might want to hide your found caches on the map and for searches, while still seeing them on your lists.              
+                Your previous global cache hiding settings (e.g. for found caches) have therefore been automatically migrated into the live filter.
+                
+                For more information about the new filter possibilities, please refer to [our user guide](https://manual.cgeo.org/en/cachefilter).
+                
+                The filter is all new and can get very complex (try the advanced mode!). So there might still be bugs or not everything you desire might be included. 
+                Feel free to provide <a href="mailto:support@cgeo.org?subject=New filter">feedback to our support</a> if you encounter problems or have improvement proposals.
+        de:
+            title: Was hat sich beim Filtern verändert?
+            content: |
+                Es gab bislang mehrere verschiedene Filter an verschiedenen Stellen in c:geo, die nur begrenzt miteinander interagierten:
+                - Den globalen Ausblenden von gefundenen, eigenen, deaktivierten, archivierten Caches
+                - Die globale Einstellung einen einzelnen Cache-Typ in der gesamtem c:geo App zu filtern
+                - Eine Sammlung von Filtern für die gespeicherten Caches (z.B. nach gewissen Statuswerten, Attributen, etc.)
+                
+                Im Grunde haben wir all diese Filter entfernt und durch eine gemeinsame Filtermethodik mit mehr und viel flexibleren Filteroptionen ersetzt.
+                
+                Es gibt nun zwei unabhängige Filterkontexte (mit identischen Filteroptionen):
+                - Einen Live-Filter, der für alle Live-Daten genutzt wird (d.h. auf der Live-Karte und für alle Suchaktionen)
+                - Einen Offline-Filter, der für deine gespeicherten Caches genutzt wird
+                
+                Der Grund für diese Unterscheidung ist, dass du z.B. deine gefundenen Caches auf der Karte und für Suchen verstecken möchtet, aber du diese dennoch auf deinen Listen sehen möchtest.
+                Die vorherigen globalen Einstellungen fürs Ausblenden (z.B. für gefundene Caches) wurden daher automatisch in den Live-Filter übertragen.
+                
+                Mehr Informationen zu den neuen Filtermöglichkeiten findet ihr in [unserem Benutzerhandbuch](https://manual.cgeo.org/de/cachefilter).
+                
+                Der Filter ist komplett neu und kann sehr komplex werden (probier den erweiterten Modus aus!). Es kann also noch Fehler geben oder es ist noch nicht alles enthalten, was du erwartest.
+                Kontaktiere und gerne mit <a href="mailto:support@cgeo.org?subject=New filter">deinem Feedback an unseren Support</a>, wenn du Probleme feststellst oder Verbesserungsvorschläge hast.
 
 - id: ALC
   title:
@@ -1173,7 +1038,7 @@
         en:
             title: I have enabled everything but still can't see Adventure lab caches!
             content: |
-                Maybe you applied a filter, which accidentally also filters out adventure lab caches. 
+                Maybe you applied a filter, which accidentally also filters out adventure lab caches.
                 
                 As for example adventure lab caches do not have any D/T-rating, filtering for certain D/T-values will exclude adventure labs as a consequence.
                 In such cases you should enable the option "Include inconclusive results" in the advanced filter setting to have all caches included, where the filter criteria cannot be applied.
@@ -1302,15 +1167,6 @@
                 Schaue in deinen geocaching.com Browser-Tab: Wenn dort ein Cookie-Symbol mit einem roten X am Ende des URL-Eingabefeldes erscheint, dann klicke darauf und klicke im erscheinenden Fenster auf "Maintain cookie blocking" (oder eine entsprechende Meldung in Deutsch) und erlaube [*.]send2.cgeo.org.
                 
                 In neueren Versionen von Google Chrome musst du einen Workaround anwenden, der auf unserer [send2cgeo Seite](https://www.cgeo.org/send2cgeo#special-setting-for-google-chrome) beschrieben ist.
-      - id: 97
-        en:
-            title: send2cgeo is not working with Google Chrome browser!
-            content: |
-                We implemented a workaround for this problem starting with send2cgeo version 2020.08.26. Please update your script and read the description on our [send2cgeo page](https://www.cgeo.org/send2cgeo#special-setting-for-google-chrome).
-        de:
-            title: send2cgeo funktioniert nicht mit dem Google Chrome Browser!
-            content: |
-                Wir haben ab send2cgeo Version 2020.08.26 einen Workaround hierfür eingebaut. Bitte aktualisiere dein Script und lies die Beschreibung auf der [send2cgeo Seite](https://www.cgeo.org/send2cgeo#special-setting-for-google-chrome).                
 
 - id: offline-caching
   title:
@@ -1358,7 +1214,6 @@
             title: Does c:geo support trackables?
             content: |
                 c:geo offers full support for [geocaching.com Trackables](https://www.geocaching.com/track/) as well as for [GeoKrety](https://www.geokrety.org).
-                Swaggies of [geocaching.com.au](https://geocaching.com.au/) are no longer supported, since they have been removed from the original website.
 
                 More information about Trackable management with c:geo can be found in our [user guide](https://manual.cgeo.org).
                 To learn more about logging [GeoKrety](https://www.geokrety.org) with c:geo you can also refer to the [FAQ of geokrety.org](https://geokretymap.org/how-to-log-geokrety/log-geokrety-with-cgeo-android).
@@ -1366,7 +1221,6 @@
             title: Unterstützt c:geo Trackables?
             content: |
                 c:geo bietet volle Unterstützung für [Geocaching.com Trackables](https://www.geocaching.com/track/) sowie [GeoKrety](https://www.geokrety.org).
-                Swaggies von [geocaching.com.au](https://geocaching.com.au/) werden nicht länger unterstützt, da sie von der ursprünglichen Webseite aufgegeben wurden.
                 
                 Mehr Informationen zur Verwaltung von Trackables mit c:geo findet ihr in unserem [Benutzerhandbuch](https://manual.cgeo.org).
                 Um mehr über das Loggen von [GeoKrets](https://www.geokrety.org) mit c:geo zu erfahren, schaue bitte auch in die [FAQ von geokrety.org](https://geokretymap.org/how-to-log-geokrety/log-geokrety-with-cgeo-android).
@@ -1458,6 +1312,26 @@
                 
                 Bitte schaue in deine Geräte-Einstellungen und suche nach der Funktion "Dunkler Modus" oder "Farboptimierung".
                 Schalte diese Funktion entweder komplett ab oder konfiguriere sie so, dass c:geo von dieser Funktion ausgenommen ist.
+      - id: switch-accounts
+        en:
+            title: How to change the user account c:geo uses? / How to use c:geo with multiple accounts?
+            content: |
+                c:geo is not designed to work with multiple user accounts at the same time, but you can switch manually to a new user account by applying the following steps:
+                1. Go to settings → services → geocaching.com
+                2. Long tap on "Update or remove authorization"
+                3. Enter the new username / password
+                c:geo will then reconnect with the new account data. A similar procedure applies for the other geocaching services.
+                Be aware that some stored data still relates to the old user account (eg. "found state").
+        de:
+            title: Wie kann ich den Benutzer in c:geo wechseln? / Wie kann ich c:geo mit mehreren Benutzerkennungen nutzen?
+            content: |
+                c:geo ist nicht darauf ausgelegt zeitgleich mit mehreren Benutzerkennungen zu arbeiten, man kann aber manuell auf eine andere Benutzerkennung umschalten, indem man folgende Schritte ausführt:
+                1. Gehe zu Einstellungen → Dienste → geocaching.com
+                2. Tippe lange auf "Autorisierung aktualisieren oder entfernen"
+                3. Gebe die neuen Daten für Benutzername und Passwort ein
+                c:geo wird sich dann mit den neuen Daten verbinden. Für die übrigen Geocachingdienste gilt das Vorgehen analog.
+                Achtung: Manche gespeicherte Daten verweisen noch auf die alte Kennung (bspw. "Gefunden-Status").
+
 - id: contacts-plugin
   title:
       en: Contacts plugin
