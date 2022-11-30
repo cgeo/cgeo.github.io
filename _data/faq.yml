@@ -3,6 +3,21 @@
       en: Current issues and changes
       de: Aktuelle Probleme und Änderungen
   items:
+      - id: 13742
+        en:
+           title: Why did the online map of mapy.cz stop working?
+           content: |
+               The company behind mapy.cz seems to have changed the usage conditions for their map server recently and blocked the access. We are currently trying to evaluate if and how its possible to enable this map again in c:geo.
+               
+               Depending on the result of this clarification, we will either be able to provide this map source again or we might need to remove it from future versions of c:geo.
+               Please kindly use another online map source in the meantime.
+        de:
+           title: Warum funktioniert die Online-Karte von mapy.cz nicht mehr?
+           content: |
+               Die Firma hinter mapy.cz hat scheinbar vor kurzem die Nutzungsbedingungen für ihren Karten-Server geändert und den Zugriff blockiert. Wir versuchen aktuell herauszufinden, ob und wie wir diese Karte in c:geo wieder anbieten können.
+               
+               Abhängig vom Ergebnis dieser Klärung können wir entweder die Kartenquelle wieder verfügbar machen oder wir müssen sie aus zukünftigen Versionen von c:geo entfernen.
+               Bitte nutzt solange eine andere Online-Karte.
       - id: 13408
         en:
            title: The background cache downloader fails for larger amount of caches!
