@@ -3,21 +3,26 @@
       en: Current issues and changes
       de: Aktuelle Probleme und Änderungen
   items:
+      - id: 13759
+        en:
+           title: Creating and/or adding caches to an online bookmark list fails!
+           content: |
+               This is caused by a website change and we are on our way to provide a fix with the next update of c:geo.
+        de:
+           title: Erstellen und/oder Hinzufügen von Caches zu einer Online-Lesezeichenliste schlägt fehl!
+           content: |
+               Dies wird durch eine Änderung auf der Webseite verursacht und wir sind dabei eine Fehlerkorrektur mit dem nächsten Update von c:geo bereitzustellen.
       - id: 13742
         en:
            title: Why did the online map of mapy.cz stop working?
            content: |
-               The company behind mapy.cz seems to have changed the usage conditions for their map server recently and blocked the access. We are currently trying to evaluate if and how its possible to enable this map again in c:geo.
-               
-               Depending on the result of this clarification, we will either be able to provide this map source again or we might need to remove it from future versions of c:geo.
-               Please kindly use another online map source in the meantime.
+               The company behind mapy.cz seems to have changed the usage conditions for their map server recently and blocked the access.
+               Due to this change of usage conditions we are unfortunately no longer able to provide mapy.cz maps in c:geo.
         de:
            title: Warum funktioniert die Online-Karte von mapy.cz nicht mehr?
            content: |
-               Die Firma hinter mapy.cz hat scheinbar vor kurzem die Nutzungsbedingungen für ihren Karten-Server geändert und den Zugriff blockiert. Wir versuchen aktuell herauszufinden, ob und wie wir diese Karte in c:geo wieder anbieten können.
-               
-               Abhängig vom Ergebnis dieser Klärung können wir entweder die Kartenquelle wieder verfügbar machen oder wir müssen sie aus zukünftigen Versionen von c:geo entfernen.
-               Bitte nutzt solange eine andere Online-Karte.
+               Die Firma hinter mapy.cz hat scheinbar vor kurzem die Nutzungsbedingungen für ihren Karten-Server geändert und den Zugriff blockiert.
+               Aufgrund der neuen Nutzungsbedingungen können wir die Karte von mapy.cz leider nicht mehr in c:geo anbieten.
       - id: 13408
         en:
            title: The background cache downloader fails for larger amount of caches!
