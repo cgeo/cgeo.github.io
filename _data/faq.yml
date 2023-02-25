@@ -77,11 +77,12 @@
                 Luckily there is an easy workaround: Go to your device app settings, open the setting for the Groundspeak app and completely disable the function, that it is opened for supported weblinks.
                 Afterwards activate it for c:geo as described above.
 
-                One of cgeo's users reported the following steps as working on Xiaomi mobiles (thanks, rouroni):
+                Some of cgeo's users reported the following steps as working on Xiaomi and Poco mobiles:
                 - Install and open app "Hidden Settings for Miui" (It's in the PlayStore)
                 - Select Settings --> Manage Aplications
                 - If official geocaching app is installed, choose it --> select "Open by definition" --> "Add Link" ---> remove all selected --> Back and then disable "Open compatible Links".
                 - Choose c:geo --> Enable "Open compatible Links" --> Select all the links.
+                - For Poco devices tap on "Open by default" in app settings, then "open supported links", then check the links you want to have opened in c:geo
                 
         de:
             title: Ich nutze Android 12 und c:geo wird nicht angeboten um Weblinks zu öffnen!
@@ -100,12 +101,12 @@
                 Glücklicherweise gibt es einen einfachen Workaround: Gehe in die App-Einstellungen deines Gerätes und dort in die Einstellungen der Groundspeak-App und deaktiviere die Funktion, dass unterstützte Webseiten dort geöffnet werden, komplett.
                 Aktiviere danach diese Funktion wieder für c:geo wie oben beschrieben.
 
-                Ein cgeo-Anwender hat folgenden Weg für Xiamo-Handys beschrieben (danke, rouroni):
+                Einige cgeo-Anwender haben folgenden Weg für Xiamo- und Poco-Handys beschrieben:
                 - Installiere und starte die App Hidden Settings for Miui (im PlayStore zu finden)
                 - Wähle Settings --> Manage Aplications
                 - Falls die offizielle Geocaching App installiert ist, wähle sie aus --> wähle "Open by definition" --> "Add Link" ---> lösche alle Zuordnungen --> dann zurück und wähle "Open compatible Links" ab.
                 - Wähle dann c:geo --> Aktiviere "Open compatible Links" --> Wähle alle Zuordnungen aus.
-
+                - Für Poco-Geräte wähle "Open by default", dann "open supported links", und wähle dann die Adressen aus, die sich in c:geo öffnen sollen
 - id: getting-started
   title:
       en: Getting started
