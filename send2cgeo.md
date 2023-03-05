@@ -39,7 +39,7 @@ The send2cgeo script supports Mozilla Firefox and Google Chrome. Microsoft Inter
 
 ## Registering browser and device
 
-- After successful installation of the script click "Register browser" in next to the image below
+- After successful installation of the script click "Register browser" next to the image below
 - You can change the browser name by click on its name (optional step)
 - Run c:geo on your android device and select Menu → Settings → Services → Send to c:geo
 - Specify a device name in the setting "Your device name" (optional step)
