@@ -12,6 +12,23 @@
            title: Erstellen und/oder Hinzufügen von Caches zu einer Online-Lesezeichenliste schlägt fehl!
            content: |
                Dies wird durch eine Änderung auf der Webseite verursacht und wir sind dabei eine Fehlerkorrektur mit dem nächsten Update von c:geo bereitzustellen.
+      - id: 14001
+        en:
+           title: Cannot read or update maps or map themes
+           content: |
+                This is most likeley a permissions problem. Specifically some Samsung mobiles seem to be affected, sometimes also other vendors.
+                To gain access to map and map theme files stored in their configured folders, c:geo calls a system app called "external storage". This app needs to have access to those files to be able to provide them to c:geo.
+                Please check, if the following setting is enabled:
+                Samsung devices: Settings → Apps → Special Access (from "Three dots menu") → All files access → External Storage
+                Other vendors: (should be similar, but we don't know the exact navigation yet)
+        de:
+           title: Kann Karten oder Kartendesign-Dateien nicht lesen
+           content: |
+                Das ist wahrscheinlich ein Rechteproblem. Besonders einige Samsung-Modelle scheinen betroffen zu sein, manchmal auch andere Hersteller.
+                Um Zugriff auf die eigenen Karten- und Kartendesign-Dateien zu erhalten, nutzt c:geo eine Systemapp namens "Externer Speicher". Diese benötigt Zugriff auf die Dateien, um sie c:geo bereitzustellen.
+                Bitte prüfe, ob folgende Einstellung aktiv ist:
+                Samsung Geräte: Einstellungen → Apps → Spezieller Zugriff (im "Drei Punkte-Menü") → Zugriff auf alle Dateien → Externer Speicher
+                Andere Hersteller: (sollte ähnlich sein, aber wir kennen den genauen Pfad noch nicht)
       - id: 13742
         en:
            title: Why did the online map of mapy.cz stop working?
