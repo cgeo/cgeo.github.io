@@ -551,6 +551,8 @@
 
                 If you are on a minimum Android version of 4.1 but your device has no GPS and you still want to install c:geo on it, you have to install c:geo manually by downloading the APK file [here](https://github.com/cgeo/cgeo/releases/latest).
                 But be aware, that you cannot navigate to caches without GPS!
+                
+                If you are a Chromebook user and want to install c:geo, have a look at [this article](https://chromeready.com/11539/install-apks-chromebook-without-the-developer-mode/) for more details on how to sideload (manually install) an APK on those devices.
         de:
             title: Ich kann c:geo nicht über Google Play installieren!
             content: |
@@ -562,6 +564,8 @@
 
                 Wenn du ein Gerät mit einer Android-Version von mindestens 4.0 nutzt, das aber kein GPS unterstützt, und dennoch c:geo darauf installieren möchtest, musst du c:geo manuell durch Herunterladen der [APK-Datei](https://github.com/cgeo/cgeo/releases/latest) installieren.
                 Bitte beachte, dass eine Navigation zu einem Cache ohne GPS nicht möglich ist!
+                
+                Wenn Du ein Chromebook verwendest und darauf c:geo installieren möchtest, lies [diesen Artikel](https://chromeready.com/11539/install-apks-chromebook-without-the-developer-mode/) (Englisch) für Informationen, wie Du eine Installationsdatei manuell auf diesem Gerät installieren kannst.
       - id: legacy
         en:
             title: I do see a warning in c:geo that my device is no longer supported!
