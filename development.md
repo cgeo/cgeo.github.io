@@ -81,9 +81,9 @@ Our repository fingerprint is:
 
 ## Translation of c:geo
 
-If you want to contribute translations, you need a free account at [Crowdin](https://crowdin.com/). Then start contributing new translations to or vote for existing translation proposals in the [c:geo translation project](https://translate.cgeo.org). If you would like to include a new language please contact us via Crowdin.
+If you want to contribute translations, you need a free account at [Crowdin](https://crowdin.com/). Then start contributing new translations to or vote for existing translation proposals in the [c:geo translation project](https://crowdin.com/project/cgeo). If you would like to include a new language please contact us via Crowdin.
 
-Localization statistics: [![Crowdin](https://badges.crowdin.net/cgeo/localized.svg)](https://translate.cgeo.org)
+Localization statistics: [![Crowdin](https://badges.crowdin.net/cgeo/localized.svg)](https://crowdin.com/project/cgeo)
 
 ## Current status and usage statistics
 
