@@ -5,7 +5,7 @@ title: Development
 
 # Development
 
-c:geo is an open-source application, distributed under [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+c:geo is an open-source application, distributed under [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 ## Source Code
 
@@ -51,9 +51,9 @@ Please consider this, when using our nightly builds.
 
 ### Download Nightly Builds
 
-[c:geo application](http://download.cgeo.org/cgeo-nightly.apk)\\
-[c:geo application (without JIT)](http://download.cgeo.org/cgeo-nightly-nojit.apk)\\
-[contacts plugin](http://download.cgeo.org/cgeo-contacts-nightly.apk)
+[c:geo application](https://download.cgeo.org/cgeo-nightly.apk)\\
+[c:geo application (without JIT)](https://download.cgeo.org/cgeo-nightly-nojit.apk)\\
+[contacts plugin](https://download.cgeo.org/cgeo-contacts-nightly.apk)
 
 ## F-Droid repository
 
@@ -81,9 +81,9 @@ Our repository fingerprint is:
 
 ## Translation of c:geo
 
-If you want to contribute translations, you need a free account at [Crowdin](https://crowdin.com/). Then start contributing new translations to or vote for existing translation proposals in the [c:geo translation project](http://translate.cgeo.org). If you would like to include a new language please contact us via Crowdin.
+If you want to contribute translations, you need a free account at [Crowdin](https://crowdin.com/). Then start contributing new translations to or vote for existing translation proposals in the [c:geo translation project](https://translate.cgeo.org). If you would like to include a new language please contact us via Crowdin.
 
-Localization statistics: [![Crowdin](https://badges.crowdin.net/cgeo/localized.svg)](http://translate.cgeo.org)
+Localization statistics: [![Crowdin](https://badges.crowdin.net/cgeo/localized.svg)](https://translate.cgeo.org)
 
 ## Current status and usage statistics
 
