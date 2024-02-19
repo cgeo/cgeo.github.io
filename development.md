@@ -63,14 +63,10 @@ We provide three channels, for stable, nightly and legacy builds.
 
 ### Repositories
 
-URL:
-* `https://fdroid.cgeo.org` for mainline
-* `https://fdroid.cgeo.org/nightly` for nightly builds
-* `https://fdroid.cgeo.org/legacy` for legacy builds
+* [Mainline](fdroidrepos://fdroid.cgeo.org?fingerprint=370BB4D550C391D5DCCB6C81FD82FDA4892964764E085A09B7E075E9BAD5ED98)
+* [Nightly](fdroidrepos://fdroid.cgeo.org/nightly?fingerprint=370BB4D550C391D5DCCB6C81FD82FDA4892964764E085A09B7E075E9BAD5ED98)
+* [Legacy](fdroidrepos://fdroid.cgeo.org/legacy?fingerprint=370BB4D550C391D5DCCB6C81FD82FDA4892964764E085A09B7E075E9BAD5ED98)
 
-Our repository fingerprint is:
-
-`370BB4D550C391D5DCCB6C81FD82FDA4892964764E085A09B7E075E9BAD5ED98`
 
 ### Instructions
 
