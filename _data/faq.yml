@@ -3,6 +3,17 @@
       en: Current issues and changes
       de: Aktuelle Probleme und Änderungen
   items:
+      - id: 15543
+        en:
+           title: Login fails! / Missing trackable data! / Missing live map data!
+           content: |
+               These issues are caused by several website changes on geocaching.com. We are working hard on providing an update for c:geo.
+               (An update for the login problem is already available for users of the nightly / developer version.)
+        de:
+           title: Login schlägt fehl! / Fehlende Trackable-Daten! / Fehlende Daten auf der Live-Karte!
+           content: |
+               Diese Probleme werden durch eine Reihe von Änderungen auf der geocaching.com-Webseite verursacht. Wir arbeiten intensiv daran, schnell ein Update von c:geo bereitzustellen.
+               (Ein Update für das Login-Problem ist bereits verfügbar für die Nutzer unsere nightly- / Entwickler-Version.)
       - id: 13759
         en:
            title: Creating and/or adding caches to an online bookmark list fails!
