@@ -7,24 +7,15 @@
         en:
            title: Login fails! / Missing trackable data! / Missing live map data!
            content: |
-               These issues are caused by several website changes on geocaching.com. We are working hard on providing an update for c:geo.
-               (An update for the login problem is already available for users of the nightly / developer version.)
+               These issues are caused by several website changes on geocaching.com. 
+               A first update for c:geo is already available, some issues are still being worked on.
                We have created a [status overview page](https://github.com/cgeo/cgeo/issues/15555) for those issues.
         de:
            title: Login schlägt fehl! / Fehlende Trackable-Daten! / Fehlende Daten auf der Live-Karte!
            content: |
-               Diese Probleme werden durch eine Reihe von Änderungen auf der geocaching.com-Webseite verursacht. Wir arbeiten intensiv daran, schnell ein Update von c:geo bereitzustellen.
-               (Ein Update für das Login-Problem ist bereits verfügbar für die Nutzer unsere nightly- / Entwickler-Version.)
+               Diese Probleme werden durch eine Reihe von Änderungen auf der geocaching.com-Webseite verursacht. 
+               Ein erstes Update für c:geo ist bereits verfügbar, an einigen Dingen arbeiten wir noch.
                Wir haben hierzu eine [Statusseite](https://github.com/cgeo/cgeo/issues/15555) eingerichtet.
-      - id: 13759
-        en:
-           title: Creating and/or adding caches to an online bookmark list fails!
-           content: |
-               This is caused by a website change and we are on our way to provide a fix with the next update of c:geo.
-        de:
-           title: Erstellen und/oder Hinzufügen von Caches zu einer Online-Lesezeichenliste schlägt fehl!
-           content: |
-               Dies wird durch eine Änderung auf der Webseite verursacht und wir sind dabei eine Fehlerkorrektur mit dem nächsten Update von c:geo bereitzustellen.
       - id: 14001
         en:
            title: Cannot read or update maps or map themes
@@ -71,24 +62,6 @@
                
                Bei den meisten Geräten findest du zu diesem Zweck Energiespar-Präferenzen in den Einstellungen deines Gerätes. Stell sicher, dass du dort Hintergrundaktivitäten für c:geo erlaubst.
                Bei aktuellen Geräten von Samsung findest du dies z.B. unter Einstellungen → Apps → c:geo → Akku, wo du "Unbeschränkt" einstellen solltest.
-      - id: 13209
-        en:
-           title: Maps.me is no longer working when started from c:geo!
-           content: |
-               This problem started with a recent update of maps.me. As we haven't changed anything on c:geo side with regard to the maps.me connection, our best guess is that 
-               there have been changes on the maps.me side with their new version which causes this. 
-               
-               We have opened a support ticket with them, but so far no response from their side, though. You can help by also reporting this bug to maps.me to increase attention.
-
-               Users of c:geo have provided us with workarounds for the techy savvy, see [this bugtracker issue](https://github.com/cgeo/cgeo/issues/13209) for details.
-        de:
-           title: Maps.me kann von c:geo nicht mehr gestartet werden!
-           content: |
-               Das Problem begann mit einem kürzlichen Update von maps.me. Da wir in c:geo in Bezug auf die maps.me-Anbindung nichts geändert haben, vermuten wir, dass es an der neuen Version von maps.me liegt. 
-               
-               Wir haben ein Supportticket bei maps.me aufgemacht. Bislang haben wir allerdings noch keine Rückmeldung von maps.me erhalten. Du kannst helfen, indem du ebenfalls eine Fehlermeldung an maps.me sendest um sie darauf aufmerksam zu machen.
-
-               c:geo-Anwender haben uns Workarounds für technisch Versierte vorgeschlagen, siehe [diesen Bugtracker-Issue](https://github.com/cgeo/cgeo/issues/13209) für Details.
       - id: android12
         en:
             title: I am using Android 12 and c:geo is not offered to open web links!
