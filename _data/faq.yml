@@ -271,13 +271,13 @@
         en:
             title: Is it possible to edit an existing geocache log with c:geo?
             content: |
-                No, this is not possible and we do not have plans to implement this on short term.
-                Please use the geocaching website to edit your log after you posted it.
+                Yes, this is possible.
+                Tap on your log, a context menu will appear. Select "Edit log".
         de:
             title: Ist es möglich mit c:geo ein existierendes Log zu bearbeiten?
             content: |
-                Nein, das ist nicht möglich und wir planen derzeit nicht dies einzubauen.
-                Bitte nutze für das Bearbeiten von Logs, die du schon gesendet hast, die Geocaching-Webseite.
+                Ja, das ist möglich.
+                Tippe auf dein Log, ein Kontextmenü erscheint. Wähle "Log bearbeiten".
       - id: data-on-sd
         en:
             title: How can I store c:geo data on my SD card?
