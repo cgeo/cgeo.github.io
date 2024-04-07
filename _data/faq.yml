@@ -277,7 +277,7 @@
             title: Ist es möglich mit c:geo ein existierendes Log zu bearbeiten?
             content: |
                 Ja, das ist möglich.
-                Klick auf Ihr Log, ein Kontextmenü erscheint. Wählen Sie "Log bearbeiten".
+                Tippe auf dein Log, ein Kontextmenü erscheint. Wähle "Log bearbeiten".
       - id: data-on-sd
         en:
             title: How can I store c:geo data on my SD card?
