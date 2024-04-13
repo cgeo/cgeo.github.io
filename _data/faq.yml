@@ -16,6 +16,23 @@
                Diese Probleme werden durch eine Reihe von Änderungen auf der geocaching.com-Webseite verursacht. 
                Ein erstes Update für c:geo ist bereits verfügbar, an einigen Dingen arbeiten wir noch.
                Wir haben hierzu eine [Statusseite](https://github.com/cgeo/cgeo/issues/15555) eingerichtet.
+      - id: 14950
+        en:
+           title: I am no longer recognized as premium member of geocaching.com!
+           content: |
+                On the very first startup after a version upgrade of the app c:geo might not be able to detect your premium membership.
+                
+                We are workin on that problem.
+                As a workaround please force close c:geo (or restart your device) to enforce a new login by c:geo.
+                Afterwards your membership status should be shown correctly and all premium functions should be available again.
+        de:
+           title: Ich werde nicht mehr als Premium-Mitglied von geocaching.com erkannt!
+           content: |
+                Beim allerersten Start nach einer Aktualisierung der App kann es passieren, dass c:geo deinen Mitgliedsstatus nicht erkennen kann.
+                
+                Wir arbeiten an diesem Problem.
+                Als Abhilfe beende bitte c:geo zwangsweise (oder starte dein Gerät neu), um ein erneutes Einloggen durch c:geo zu erzwingen.
+                Danach sollte dein Mitgliedsschafts-Status korrekt angezeigt werden und alle Premium-Funktionen sollten verfügbar sein.
       - id: 14001
         en:
            title: Cannot read or update maps or map themes
