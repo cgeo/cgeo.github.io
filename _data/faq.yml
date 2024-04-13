@@ -50,17 +50,6 @@
                 Bitte prüfe, ob folgende Einstellung aktiv ist:
                 Samsung Geräte: Einstellungen → Apps → Spezieller Zugriff (im "Drei Punkte-Menü") → Zugriff auf alle Dateien → Externer Speicher
                 Andere Hersteller: (sollte ähnlich sein, aber wir kennen den genauen Pfad noch nicht)
-      - id: 13742
-        en:
-           title: Why did the online map of mapy.cz stop working?
-           content: |
-               The company behind mapy.cz seems to have changed the usage conditions for their map server recently and blocked the access.
-               Due to this change of usage conditions we are unfortunately no longer able to provide mapy.cz maps in c:geo.
-        de:
-           title: Warum funktioniert die Online-Karte von mapy.cz nicht mehr?
-           content: |
-               Die Firma hinter mapy.cz hat scheinbar vor kurzem die Nutzungsbedingungen für ihren Karten-Server geändert und den Zugriff blockiert.
-               Aufgrund der neuen Nutzungsbedingungen können wir die Karte von mapy.cz leider nicht mehr in c:geo anbieten.
       - id: 13408
         en:
            title: The background cache downloader fails for larger amount of caches!
@@ -367,27 +356,6 @@
                 Wenn du dich bislang nur über Facebook oder Google bei geocaching.com angemeldet hast, gehe bitte auf ihre [Passwort-Reset Seite](https://www.geocaching.com/account/signin/requestpassword) und fordere dort ein reguläres Passwort an.
                 Bitte beachte, dass du dich erst auf der Geocaching-Seite ausloggen musst, um die Passwort-Reset Seite zu erreichen.
                 Wenn du dieses Passwort erhalten hast, kannst du es zusammen mit deinem Benutzernamen in c:geo für die Anmeldung verwenden.
-      - id: facebook-share
-        en:
-            title: Can c:geo post to Facebook?
-            content: |
-                No, currently c:geo does only support Twitter as a social network.
-                As the development team has limited resources and is focusing on new geocaching features, we currently do not have plans to implement a Facebook connection.
-
-                However, if you are Twitter user already and/or you are looking for a way to post your findings to Facebook, please note that there is a possibility to link Twitter to Facebook.
-                Doing so all your tweets will also be posted on Facebook (including the c:geo tweets).
-
-                You can find more info on the [Twitter support website](https://support.twitter.com/articles/31113-using-twitter-with-facebook/).
-        de:
-            title: Kann c:geo auf Facebook posten?
-            content: |
-                Nein, momentan unterstützt c:geo nur Twitter als soziales Netzwerk.
-                Da das Entwickler-Team nur begrenzte Ressourcen hat, fokussieren wir uns auf neue Geocaching-Features und habe keine Pläne eine Facebook-Verbindung in c:geo zu integrieren.
-
-                Dennoch gibt es einen Weg auf Facebook zu posten, wenn du bereits Twitter-Nutzer bist, da du Twitter mit Facebook verknüpfen kannst.
-                Wenn du dies machst, werden alle Tweets auch auf Facebook gepostet (inklusive der c:geo-Tweets).
-
-                Mehr Informationen dazu findest du auf der [Twitter-Support Webseite](https://support.twitter.com/articles/31113-using-twitter-with-facebook/).
       - id: translation-missing
         en:
             title: Translations are missing or wrong!
@@ -602,25 +570,47 @@
             content: |
                 c:geo needs the following permissions to do its job and will only use them for that purpose:
 
-                1. Location
+                - Location
 
                     Of course c:geo needs access to the GPS on your device to locate your position and calculate distance and direction to geocaches.
 
-                2. Photos/Media/Files
+                - Photos/Media/Files
 
                     c:geo will write data onto your phone storage or SD card as soon as you save geocaches for offline use. Furthermore c:geo will use your phone storage for import and export of files and reading of offline maps.
+                
+                Additionally there are optional permissions for the following purpose:
+                
+                - Contacts
+                
+                    c:geo can lookup geocacher names in your contacts to directly contact them from c:geo.
+                    Look [here](#plugin-contacts-howto) for details.
+                    
+                - Notifications
+                
+                    c:geo can show notifications about the download progress for offline maps and caches.
         de:
             title: Warum braucht c:geo die angefragten Rechte auf meinem Gerät?
             content: |
                 c:geo benötigt die folgenden Rechte, um seine Arbeit zu erledigen und nutzt diese nur zu diesem Zweck:
 
-                1. Lokalisierung
+                - Lokalisierung
 
                     Natürlich benötigt c:geo Zugriff auf das GPS deines Gerätes, um die Position zu bestimmen und Entfernungen zu Geocaches zu berechnen.
 
-                2. Fotos/Medien/Dateien
+                - Fotos/Medien/Dateien
 
                     c:geo schreibt Daten in deinen Telefonspeicher oder die SD-Karte, sobald Geocaches zur Offline-Nutzung gespeichert werden. Weiterhin nutzt c:geo den Telefonspeicher für Import und Export von Dateien und das Lesen von Offline-Karten.
+                
+                Darüberhinaus gibt es optionale Berertigungen zu folgenden Zwecken:
+                
+                - Kontakte
+                
+                    c:geo kann Geocacher-Namen in deinen Kontakten nachschlagen, um sie direkt aus c:geo zu kontaktieren.
+                    Details findest du [hier](#plugin-contacts-howto).
+                    
+                - Benachrichtigungen
+                
+                    c:geo kann Benachrichtigungen zum Download-Fortschritt für Caches und Offlinekarten anzeigen.
       - id: install-older
         en:
             title: I want to install an older version of c:geo!
@@ -724,25 +714,6 @@
                 Natürlich verbraucht c:geo einiges an Akkuladung, da es fast alle Sensoren des Gerätes verwendet, um ständig die für das Geocaching notwendige aktuelle Position und Richtung zu bestimmen.
                 Dennoch haben wir in den letzten Jahren hochentwickelte Methoden integriert, um den Akkuverbrauch zu optimieren.
                 Wenn du den Akkuverbrauch weiter minimieren möchtest, kannst du zusätzlich, wie in [diesem FAQ-Eintrag](#gps-highpower) beschrieben, den Energiesparmodus aktiveren.
-      - id: battery-drain
-        en:
-            title: c:geo is even draining my battery when I do not use it!
-            content: |
-                Your assumption is probably based on the fact that your Android battery statistics sometimes show a high percentage of battery drain for c:geo even if you did not recently use it.
-                This is caused by a well-known bug within these measurement routines in Android:
-                Sometimes the statistic collector misses to detect when an app stops using the phone sensors (this affects not only c:geo but all apps with high sensor usage).
-                Because of this it keeps counting the app as running and consuming power for the sensors even if it was closed long time ago.
-                These faulty battery statistics will only be "fixed" by a restart of your device.
-        de:
-            title: c:geo saugt sogar meinen Akku leer, wenn ich es nicht nutze!
-            content: |
-                Deine Annahme beruht vermutlich darauf, dass deine Android Batterie-Statistik manchmal für c:geo eine hohe Prozentzahl des Akkuverbrauchs anzeigt auch wenn du c:geo nicht kürzlich genutzt hast.
-                Dies wird durch einen wohlbekannten Fehler in den Messroutinen von Android verursacht:
-
-                Manchmal verpasst der Statistik-Sammler festzustellen, dass eine App aufhört die Telefon-Sensoren zu verwenden (dies betrifft nicht nur c:geo sondern alle Apps mit hoher Sensor-Nutzung).
-                Darum zählt er diese App weiterhin als aktiv und Strom für Sensoren verbrauchend, selbst wenn sie bereits vor längerer Zeit geschlossen wurde.
-                Diese fehlerhaften Akku-Statistiken können nur "behoben" werden, indem man das Gerät neu startet.
-
       - id: gps-powersafe
         en:
             title: Why is GPS deactivated when I lock the screen or switch to another app?
@@ -903,21 +874,6 @@
                 Es wird auf dem Bildschirm eine Schaltfläche angezeigt, die es dir erlaubt die Google Play Dienste zu installieren/aktualisieren. Dazu wird ein Google-Konto und Zugriff auf den Google Playstore benötigt.
                 
                 Wenn du dies nicht installieren kannst oder möchtest, kannst du stattdessen eine der OSM-Karten nutzen, die von c:geo unterstützt werden. Klicke hierzu einfach auf das Kartensymbol in der Titelzeile und wähle eine andere Karte anstatt Google aus.
-      - id: 8097
-        en:
-            title: The map is rotating all the time!
-            content: |
-                You have accidentally activated the experimental map rotation feature, which does not yet seem to work correct on your device.
-                Please disable the map rotation in Live Map - Menu (three dot button) - Map rotation.
-                
-                We are working on improving this feature in future versions of c:geo.
-        de:
-            title: Die Karte dreht sich pausenlos!
-            content: |
-                Du hast aus Versehen die experimentelle Kartenrotation eingeschaltet, die auf deinem Gerät scheinbar noch nicht korrekt funktioniert.
-                Bitte deaktiviere die Kartendrehung in Live-Karte - Menü (Drei-Punkt-Button) - Kartendrehung.
-                
-                Wir arbeiten daran diese Funktion in den kommenden Versionen von c:geo zu verbessern.
       - id: theme-slow
         en:
             title: Starting my offline map is very slow!
@@ -955,100 +911,6 @@
                 Wenn du dir nicht sicher bist, ob du es richtig machst, nutze bitte stattdessen die oben beschriebene ZIP-Lösung.
                 
                 Wenn du Probleme feststellst oder weitere Fragen hast, kontaktiere uns gerne unter <a href="mailto:support@cgeo.org?subject=FAQ_theme-slow">support@cgeo.org</a>.
-
-- id: design
-  title:
-      en: Recent changes to the c:geo design
-      de: Kürzliche Design-Änderungen in c:geo
-  items:
-      - id: design-background
-        en:
-            title: Where is my background image?
-            content: |
-                You can enable this again by using c:geo Menu → Settings → Appearance → Wallpaper.
-        de:
-            title: Wo ist mein Hintergrundbild?
-            content: |
-                Du kannst dies unter c:geo Menü → Einstellungen → Erscheinungsbild → Hintergrundbild wieder aktivieren.
-      - id: goto_menu
-        en:
-            title: I am missing the "Go to" function!
-            content: |
-                The new bottom navigation does only support five functions.
-                Therefore we placed the former "Go to" main screen function into the menu of the new home screen now. Just tap on the menu (three-dot) button on the upper right to find the "Go to" function.
-
-                On recent version of c:geo you can create a button shortcut on the homescreen for it, see settings → appearance → quick launch buttons
-        de:
-            title: Ich vermisse die "Gehe zu"-Funktion!
-            content: |
-                Die neue Navigation am unteren Bildschirmrand unterstützt nur maximal fünf Funktionen.
-                Daher haben wir die ehemalige "Gehe zu"-Funktion des Hauptbildschirms nun in das Menü des neuen Startbildschirms verschoben. Tippe einfach auf das Menü-Symbol (drei Punkte) oben rechts, um die "Gehe zu"-Funktion zu finden.
-
-                In aktuellen Versionen von c:geo kannst Du Dir die Funktion auch als Button auf den Startbildschirm legen, siehe Einstellungen → Erscheinungsbild → Schnellstart-Schaltflächen
-
-- id: filter
-  title:
-      en: New filtering framework
-      de: Neue Filter-Methoden
-  items:
-      - id: filter-generic
-        en:
-            title: Why did you change the filtering?
-            content: |
-                There have been several different filtering methods included into c:geo over the last years. As they have been developed independently of one another, there have been
-                several limitations and issues with that, which we could not fix.
-                
-                Instead of trying to glue those existing filters together, we therefore decided to make a clean, new and more powerful approach.
-        de:
-            title: Warum habt ihr die Filterung geändert?
-            content: |
-                In c:geo wurden über die letzten Jahre mehrere verschiedene Filtermethoden eingebaut. Da diese unabhängig voneinander entwickelt wurden, gab es dadurch mehrere Limitierungen und Fehler, die wir nicht beheben konnten.
-                
-                Statt dem Versuch dies irgendwie zusammenzukleben, haben wir uns daher dafür entschieden einen neuen, sauberen und leistungsfähigeren Versuch zu starten.
-      - id: filter-changes
-        en:
-            title: What has changed for filtering?
-            content: |             
-                There used to be several different filters at different places in c:geo, which did only partly interact properly:
-                - The global hiding of found, owned, disabled, archived caches
-                - The global switch to filter on a single cache type within the whole app
-                - A bunch of filters for your stored caches (e.g. for certain states, attributes, etc.)
-                
-                We basically removed all of those filters and replaced them by a common filter framework with more and more flexible filtering options.
-                
-                There are now two independent filter contexts (with identical filtering options):
-                - A live filter which is used for all live data (i.e. on live map and for all search actions)
-                - An offline filter which is used for your stored caches
-                
-                The reason for this differentiation is, that you e.g. might want to hide your found caches on the map and for searches, while still seeing them on your lists.              
-                Your previous global cache hiding settings (e.g. for found caches) have therefore been automatically migrated into the live filter.
-                
-                For more information about the new filter possibilities, please refer to [our user guide](https://manual.cgeo.org/en/cachefilter).
-                
-                The filter is all new and can get very complex (try the advanced mode!). So there might still be bugs or not everything you desire might be included. 
-                Feel free to provide <a href="mailto:support@cgeo.org?subject=New filter">feedback to our support</a> if you encounter problems or have improvement proposals.
-        de:
-            title: Was hat sich beim Filtern verändert?
-            content: |
-                Es gab bislang mehrere verschiedene Filter an verschiedenen Stellen in c:geo, die nur begrenzt miteinander interagierten:
-                - Den globalen Ausblenden von gefundenen, eigenen, deaktivierten, archivierten Caches
-                - Die globale Einstellung einen einzelnen Cache-Typ in der gesamtem c:geo App zu filtern
-                - Eine Sammlung von Filtern für die gespeicherten Caches (z.B. nach gewissen Statuswerten, Attributen, etc.)
-                
-                Im Grunde haben wir all diese Filter entfernt und durch eine gemeinsame Filtermethodik mit mehr und viel flexibleren Filteroptionen ersetzt.
-                
-                Es gibt nun zwei unabhängige Filterkontexte (mit identischen Filteroptionen):
-                - Einen Live-Filter, der für alle Live-Daten genutzt wird (d.h. auf der Live-Karte und für alle Suchaktionen)
-                - Einen Offline-Filter, der für deine gespeicherten Caches genutzt wird
-                
-                Der Grund für diese Unterscheidung ist, dass du z.B. deine gefundenen Caches auf der Karte und für Suchen verstecken möchtet, aber du diese dennoch auf deinen Listen sehen möchtest.
-                Die vorherigen globalen Einstellungen fürs Ausblenden (z.B. für gefundene Caches) wurden daher automatisch in den Live-Filter übertragen.
-                
-                Mehr Informationen zu den neuen Filtermöglichkeiten findet ihr in [unserem Benutzerhandbuch](https://manual.cgeo.org/de/cachefilter).
-                
-                Der Filter ist komplett neu und kann sehr komplex werden (probier den erweiterten Modus aus!). Es kann also noch Fehler geben oder es ist noch nicht alles enthalten, was du erwartest.
-                Kontaktiere und gerne mit <a href="mailto:support@cgeo.org?subject=New filter">deinem Feedback an unseren Support</a>, wenn du Probleme feststellst oder Verbesserungsvorschläge hast.
-
 - id: ALC
   title:
     en: Adventure Lab Caches
@@ -1082,21 +944,6 @@
                 Nein, du musst hierzu die Adventure Lab-App von Groundspeak nutzen, um den Adventure Lab-Cache spielen zu können.
                 
                 Durch Tippen auf das Adventure Lab-Symbol in den Cache-Details in c:geo kannst du ihre App installieren/öffnen und wirst direkt zum gewählten Adventure Lab-Cache geleitet.
-      - id: ALC_found
-        en:
-            title: Adventure Lab caches I have already found are not shown as found!
-            content: |
-                The current implementation works without any authorization over a public interface. 
-                As your account is not used here, we can currently not get any user specific data from it (e.g. whether you already found that Adventure Lab cache).
-                
-                You can however mark Adventure Lab caches as "Found" locally in c:geo (Open the Adventure Lab cache → Menu → "Set as Found"). Please be aware, that this "Found" marking is lost, if you delete the Adventure Lab cache from c:geo.
-        de:
-            title: Adventure Labs, die ich schon gefunden habe, werden nicht als gefunden angezeigt!
-            content: |
-                Die aktuelle Implementierung arbeitet ohne Autorisierung über eine öffentliche Schnittstelle.
-                Da dein Konto hier nicht genutzt wird, können wir aktuell keinen benutzerspezifischen Informationen darüber abrufen  (z.B. ob du diesen Adventure Lab-Cache bereits gefunden hast).
-                
-                Du kannst allerdings Adventure Lab-Caches lokal in c:geo als "Gefunden" markieren (Öffne den Adventure Lab-Cache → Menü → "Als Gefunden setzen"). Bitte beachte, dass diese "Gefunden"-Markierung verloren geht, wenn du den Adventure-Lab-Cache aus c:geo löschst.
       - id: ALC_filtered
         en:
             title: I have enabled everything but still can't see Adventure lab caches!
@@ -1114,7 +961,7 @@
                 In solchen Fällen solltest du die Option "Unschlüssige Treffer einbeziehen" in den erweiterten Filtereinstellungen aktivieren, damit auch Caches eingeschlossen werden, bei denen die Filterkriterien nicht anwendbar sind.
       - id: ALC_lab2gpx
         en:
-            title: I cannot set the found state for Adventure Labs I imported from Lab2Gpx!
+            title: Adventure Labs I imported from Lab2Gpx look different in c:geo!
             content: |
                 By default [Lab2Gpx](https://gcutils.de/lab2gpx/) uses the geocode prefix "LC" for Adventure lab caches. Due to technical reasons c:geo has to use "AL" as prefix for Adventure Lab caches.
                 
@@ -1122,7 +969,7 @@
                 
                 Additionally you should select "Zipped GPX with waypoints" when downloading the GPX for best results in c:geo.
         de:
-            title: Ich kann über Lab2Gpx importierte Adventure Labs nicht als gefunden setzen!
+            title: Über Lab2Gpx importierte Adventure Labs sehen in c:geo anders aus!
             content: |
                 Standardmäßig verwendet [Lab2Gpx](https://gcutils.de/lab2gpx/) den Geocode-Präfix "LC" für Adventure Lab-Caches. Aus technischen Gründen muss c:geo "AL" als Präfix für Adventure Lab-Caches nutzen.
                 
@@ -1138,26 +985,6 @@
             title: Ich möchte keine Adventure Lab-Caches in c:geo sehen. Wie kann ich das abschalten?
             content: |
                 Gehe zu c:geo Menü → Einstellungen → Dienste → "Geocaching.com Adventure Lab" and deaktiviere diesen Dienst.
-      - id: ALC_future
-        en:
-            title: Will there be any additional features for Adventure Lab Caches in c:geo in the future?
-            content: |
-                We are still working on how we can best include Adventure Labs into c:geo and are also in contact with Groundspeak. We want to evaluate, if we find a mode of cooperation for using their planned official application interface to access Adventure Labs.
-                There is no final information yet about their conditions and limitations for future access to Adventure Lab data.
-                
-                If Groundspeak offers fair conditions and an acceptable functionality range in their application interface, it might be, that its possible to provide a better implementation with more functions in c:geo.
-                It might however also end up with the current state, if we are unable to find an agreement with Groundspeak or the conditions are considered too strict by our developer team.
-                Even worse, it might also be possible, that we need to remove Adventure Labs from c:geo in future, if they close the public access to that information and there is no further acceptable way to access this information.
-        de:
-            title: Wird es zukünftig noch weitere Funktionen für Adventure Labs in c:geo geben?
-            content: |
-                Wir arbeiten noch daran, wir wir Adventure Labs zukünftig am besten in c:geo integrieren und sind hierzu auch in Kontakt mit Groundspeak. Wir wollen herausfinden, ob wir einen Weg der Zusammenarbeit finden, um über ihre geplante offizielle App-Schnittstelle auf Adventure Labs zuzugreifen.
-                Es gibt noch keine abschließende Information über die Bedingungen und Limitierungen bezüglich des zukünftigen Zugriffs auf Adventure Lab-Daten.
-                
-                Wenn Groundspeak faire Bedingungen und eine akzeptable Funktionalität über ihre App-Schnittstelle anbietet, kann es sein, dass wir eine bessere Implementierung mit mehr Funktionen in c:geo anbieten können.
-                Es kann aber auch beim aktuellen Stand bleiben, wenn wir keine Vereinbarung mit Groundspeak erzielen oder die Bedingungen von unserem Entwickler-Team als zu strikt angesehen werden.
-                Es könnte sogar dazu kommen, dass wir die Adventure Labs aus c:geo zukünftig wieder entfernen, wenn die öffentliche Schnittstelle zu diesen Informationen entfernt wird und es keinen akzeptablen Weg zum Zugriff auf diese Informationen mehr gibt.
-
 - id: send2cgeo
   title:
       en: Send2cgeo
