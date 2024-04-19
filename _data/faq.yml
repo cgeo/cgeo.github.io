@@ -8,13 +8,15 @@
            title: Login fails! / Missing trackable data! / Missing live map data!
            content: |
                These issues are caused by several website changes on geocaching.com. 
-               A first update for c:geo is already available, some issues are still being worked on.
+               Please update to release 2024.04.18 which fixes all bugs known until then.
+               As there are ongoing website changes, new bugs may arise.
                We have created a [status overview page](https://github.com/cgeo/cgeo/issues/15555) for those issues.
         de:
            title: Login schlägt fehl! / Fehlende Trackable-Daten! / Fehlende Daten auf der Live-Karte!
            content: |
                Diese Probleme werden durch eine Reihe von Änderungen auf der geocaching.com-Webseite verursacht. 
-               Ein erstes Update für c:geo ist bereits verfügbar, an einigen Dingen arbeiten wir noch.
+               Bitte aktualisiere auf Version 2024.04.18, welche alle bis dahin bekannten Fehler bereinigt.
+               Da es laufend weitere Webseiten-Änderungen gibt, können neue Fehler entstehen.
                Wir haben hierzu eine [Statusseite](https://github.com/cgeo/cgeo/issues/15555) eingerichtet.
       - id: 14950
         en:
