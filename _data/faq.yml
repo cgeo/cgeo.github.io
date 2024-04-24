@@ -669,6 +669,35 @@
                 Manchmal fragen uns Nutzer, wie sie den Inhalt ihrer c:geo-Installation von einem Gerät zu einem anderen duplizieren (z.B. wenn sie ein neues Gerät bekommen haben).
 
                 Unser Benutzerhandbuch enthält eine Schritt-für-Schritt Anleitung hierfür: [c:geo auf ein anderes Gerät migrieren](https://manual.cgeo.org/de/replacedevice)
+      - id: reinstall
+        en:
+            title: I have removed and reinstalled c:geo and all my data (lists, caches) is gone
+            content: |
+                There is a good chance your data is still available! (... if you haven't switched off automatic backups in c:geo)
+                Uninstalling c:geo should not delete the public (visible) c:geo folder structure, which you have configured a "base" folder for. Normally this is "/cgeo" on your device. 
+                Beneath that folder there should be a folder "backup", and beneath that a couple of more folders containing backups of the c:geo database and its 
+                configuration (look for "/cgeo/backup/auto" and subfolders of this, which are named after creation date/time).
+
+                If such a folder exists, you can go to c:geo's main screen, select "backup/restore" and then the "restore a different backup" button. 
+                Then you can select the folder with the newest available backup and let c:geo restore the data from there.
+
+                Be aware: This will remove all data currently stored in c:geo since you have reinstalled the app!
+                And it will restore the data you had at the point in time when the latest automatic backup was created, which may not be the most up-to-date state!
+                (For the future you may want to decrease the interval in which c:geo creates automatic backups.)
+        de:
+            title: Ich habe c:geo gelöscht und neu installiert, und nun sind alle meine Daten (Listen, Caches) weg
+            content: |
+                Es gibt eine gute Chance, dass Deine Daten noch verfügbar sind! (... sofern Du nicht automatische Backups in c:geo deaktiviert hast)
+                Eine Deinstallation von c:geo löscht normalerweise nicht die öffentlichen (sichtbaren) c:geo-Verzeichnisse, welche Du mit dem Basisverzeichnis konfiguriert hast. Normalerweise ist das "/cgeo" auf Deinem Gerät.
+                Unterhalb dieses Ordners sollte ein Ordner "backup" sein, und darunter mehrere Ordner mit Backups der c:geo-Datenbank und -Konfigurationsdateien
+                (suche nach "/cgeo/backup/auto" und Unterordnern, welche nach Erstellungsdatum und -zeit benannt sind).
+                
+                Wenn ein solcher Ordner existiert, wähle auf dem c:geo-Startbildschirm "Sichern / Wiederherstellen" und dort "Eine andere Sicherung wiederherstellen".
+                Anschließend wähle den Ordner mit dem jüngsten verfügbaren Backup und lasse c:geo die Daten wiederherstellen.
+                
+                Achtung: Dies wird alle Daten überschreiben, die Du seit Neuinstallation von c:geo gespeichert hast!
+                Und es wird die Daten mit dem Stand wiederherstellen zum Zeitpunkt der letzten automatischen Sicherung, was möglicherseise nicht der aktuellste Stand ist.
+                (Bei Bedarf kannst Du das Intervall verkürzen, in dem c:geo automatische Sicherungen anlegt.)
 - id: gps-and-navigation
   title:
       en: GPS and Navigation
