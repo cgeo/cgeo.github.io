@@ -146,7 +146,7 @@ no_edit_link: true
             function(data) {
 
               var items = [];
-              var total = data["_withinfo"] + data["_noinfo"];
+              var total = ((data["_withinfo"] || 0) + (data["_noinfo"] || 0)) || 1;
 
               // Sort data by amount of users
               var sortedData = Object.keys(data).map(function(key) {
