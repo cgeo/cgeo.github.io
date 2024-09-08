@@ -129,7 +129,7 @@ no_edit_link: true
         function updateGCMembership() {
           $.getJSON("https://status.cgeo.org/api/count/by-gc-membership",
             function(data) {
-              var total = data["basic"] + data["premium"];
+              var total = (data["basic"] || 0) + (data["premium"] || 0);
               if (total == 0) {
                 $("#gc-div").hide();
                 $("#gc-premium").text("unknown");
