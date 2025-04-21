@@ -3,28 +3,13 @@
       en: Current issues and changes
       de: Aktuelle Probleme und Änderungen
   items:
-      - id: 15543
-        en:
-           title: Login fails! / Missing trackable data! / Missing live map data!
-           content: |
-               These issues are caused by several website changes on geocaching.com. 
-               Please update to release 2024.04.18 which fixes all bugs known until then.
-               As there are ongoing website changes, new bugs may arise.
-               We have created a [status overview page](https://github.com/cgeo/cgeo/issues/15555) for those issues.
-        de:
-           title: Login schlägt fehl! / Fehlende Trackable-Daten! / Fehlende Daten auf der Live-Karte!
-           content: |
-               Diese Probleme werden durch eine Reihe von Änderungen auf der geocaching.com-Webseite verursacht. 
-               Bitte aktualisiere auf Version 2024.04.18, welche alle bis dahin bekannten Fehler bereinigt.
-               Da es laufend weitere Webseiten-Änderungen gibt, können neue Fehler entstehen.
-               Wir haben hierzu eine [Statusseite](https://github.com/cgeo/cgeo/issues/15555) eingerichtet.
       - id: 14950
         en:
            title: I am no longer recognized as premium member of geocaching.com!
            content: |
                 On the very first startup after a version upgrade of the app c:geo might not be able to detect your premium membership.
                 
-                We are workin on that problem.
+                We are working on that problem.
                 As a workaround please force close c:geo (or restart your device) to enforce a new login by c:geo.
                 Afterwards your membership status should be shown correctly and all premium functions should be available again.
         de:
@@ -72,14 +57,14 @@
                Bei aktuellen Geräten von Samsung findest du dies z.B. unter Einstellungen → Apps → c:geo → Akku, wo du "Unbeschränkt" einstellen solltest.
       - id: android12
         en:
-            title: I am using Android 12 and c:geo is not offered to open web links!
+            title: I am using Android 12 (or newer) and c:geo is not offered to open web links!
             content: |
-                If you are using a device running Android 12 you might experience, that c:geo is not offered as target app (anymore) when tapping a geocaching related link e.g. from your email. Instead the link is opened in another app or your browser without giving you a choice.
+                If you are using a device running Android 12 (or newer) you might experience, that c:geo is not offered as target app (anymore) when tapping a geocaching related link e.g. from your email. Instead the link is opened in another app or your browser without giving you a choice.
                 
                 This is caused by the fact, that in Android 12 Google removed the dialog to let the user choose which app to use for certain web links. Instead the browser or an app which officially registered for that specific weblink is automatically used.
                 
                 You can change this by going to your device app settings, open the c:geo app settings and manually select what URLs (web links) you allow c:geo to open.
-                Unfortunately in Android 12 you can only set this as permanently (no longer asking each time you tap such link).
+                Unfortunately in Android 12 (and newer) you can only set this as permanently (no longer asking each time you tap such link).
                 
                 Info for Xiaomi users: On some Xiaomi devices this procedure does not work as Xiaomi did not follow common Android practice and does not offer the mentioned setting. In this case you might want to look into this [helper app](https://play.google.com/store/apps/details?id=com.aboutmycode.betteropenwith) which acts as an app chooser for those cases.
                 
@@ -96,14 +81,14 @@
                 - For Poco devices tap on "Open by default" in app settings, then "open supported links", then check the links you want to have opened in c:geo
                 
         de:
-            title: Ich nutze Android 12 und c:geo wird nicht angeboten um Weblinks zu öffnen!
+            title: Ich nutze Android 12 (oder neuer) und c:geo wird nicht angeboten um Weblinks zu öffnen!
             content: |
-                Wenn du ein Gerät mit Android 12 nutzt, kann es passieren, dass c:geo nicht (mehr) als Ziel-App angeboten wird, wenn ein Geocaching-bezogener Weblink (z.B. aus einer Mail) angetippt wird. Stattdessen wird der Link in einer anderen App oder deinem Browser geöffnet, ohne dir die Wahl zu lassen.
+                Wenn du ein Gerät mit Android 12 (oder neuer) nutzt, kann es passieren, dass c:geo nicht (mehr) als Ziel-App angeboten wird, wenn ein Geocaching-bezogener Weblink (z.B. aus einer Mail) angetippt wird. Stattdessen wird der Link in einer anderen App oder deinem Browser geöffnet, ohne dir die Wahl zu lassen.
                 
                 Dies wird dadurch verursacht, dass Google den Dialog, der den Nutzer die gewünschte App auswählen lässt, entfernt hat. Stattdessen wird der Link im Browser oder einer App geöffnet, die sich für diesen Web-Link offiziell registriert hat.
                 
                 Du kannst dies ändern, in dem du die App-Einstellungen deines Gerätes und dort die c:geo App-Einstellungen öffnest und dort manuell festlegst, für welche URLs (Web-Links) du c:geo erlaubst genutzt zu werden.
-                Dies ist leider bei Android 12 nur noch dauerhaft festlegbar (keine Auswahl beim Tippen eines solchen Links). 
+                Dies ist leider bei Android 12 (und neuer) nur noch dauerhaft festlegbar (keine Auswahl beim Tippen eines solchen Links). 
                 
                 Info für Xiaomi-Nutzer: Auf einigen Xiaomi-Geräten funktioniert diese Prozedur nicht, da Xiaomoi nicht den Android-Empfehlungen folgt und die genannte Option nicht anbietet. In diesem Fall schau dir einmal diese [Helfer-App](https://play.google.com/store/apps/details?id=com.aboutmycode.betteropenwith) an, die als App-Wähler für solche Fälle dient.
                 
@@ -518,26 +503,20 @@
             content: |
                 c:geo is shown as "Not supported" for your device on [Google Play](https://play.google.com):
 
-                This means that either your device is running on an Android version below 4.1 or it does not support GPS.
+                This means that either your device is running on an Android version below 5.0.
 
-                Android versions below 4.0 are no longer supported by c:geo.
+                Android versions below 5.0 are no longer supported by c:geo.
 
-                If you are on a minimum Android version of 4.1 but your device has no GPS and you still want to install c:geo on it, you have to install c:geo manually by downloading the APK file [here](https://github.com/cgeo/cgeo/releases/latest).
-                But be aware, that you cannot navigate to caches without GPS!
-                
                 If you are a Chromebook user and want to install c:geo, have a look at [this article](https://chromeready.com/11539/install-apks-chromebook-without-the-developer-mode/) for more details on how to sideload (manually install) an APK on those devices.
         de:
             title: Ich kann c:geo nicht über Google Play installieren!
             content: |
                 c:geo wird als "Nicht unterstützt" für das Gerät auf [Google Play](https://play.google.com) angezeigt:
 
-                Dies bedeutet, dass dein Gerät entweder mit einer Android-Version kleiner als 4.1 läuft oder kein GPS unterstützt.
+                Dies bedeutet, dass dein Gerät entweder mit einer Android-Version kleiner als 5.0 läuft.
 
-                Android-Versionen kleiner als 4.1 werden von c:geo nicht mehr unterstützt.
+                Android-Versionen kleiner als 5.0 werden von c:geo nicht mehr unterstützt.
 
-                Wenn du ein Gerät mit einer Android-Version von mindestens 4.0 nutzt, das aber kein GPS unterstützt, und dennoch c:geo darauf installieren möchtest, musst du c:geo manuell durch Herunterladen der [APK-Datei](https://github.com/cgeo/cgeo/releases/latest) installieren.
-                Bitte beachte, dass eine Navigation zu einem Cache ohne GPS nicht möglich ist!
-                
                 Wenn Du ein Chromebook verwendest und darauf c:geo installieren möchtest, lies [diesen Artikel](https://chromeready.com/11539/install-apks-chromebook-without-the-developer-mode/) (Englisch) für Informationen, wie Du eine Installationsdatei manuell auf diesem Gerät installieren kannst.
       - id: legacy
         en:
