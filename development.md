@@ -52,8 +52,7 @@ Please consider this, when using our nightly builds.
 ### Download Nightly Builds
 
 [c:geo application](https://download.cgeo.org/cgeo-nightly.apk)\\
-[c:geo application (without JIT)](https://download.cgeo.org/cgeo-nightly-nojit.apk)\\
-[contacts plugin](https://download.cgeo.org/cgeo-contacts-nightly.apk)
+[c:geo application (without JIT)](https://download.cgeo.org/cgeo-nightly-nojit.apk)
 
 ## F-Droid repository
 
