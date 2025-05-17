@@ -58,19 +58,23 @@ Please consider this, when using our nightly builds.
 
 As an alternative to Google Play, c:geo can be downloaded from our private [F-Droid](https://f-droid.org/) repository.
 
-We provide three channels, for stable, nightly and legacy builds.
+We provide two channels, for stable and nightly builds.
 
-### Repositories
+### Repository channels
 
-* [Mainline](fdroidrepos://fdroid.cgeo.org?fingerprint=370BB4D550C391D5DCCB6C81FD82FDA4892964764E085A09B7E075E9BAD5ED98)
-* [Nightly](fdroidrepos://fdroid.cgeo.org/nightly?fingerprint=370BB4D550C391D5DCCB6C81FD82FDA4892964764E085A09B7E075E9BAD5ED98)
-* [Legacy](fdroidrepos://fdroid.cgeo.org/legacy?fingerprint=370BB4D550C391D5DCCB6C81FD82FDA4892964764E085A09B7E075E9BAD5ED98)
+* [Mainline](fdroidrepos://fdroid.cgeo.org/fdroid/repo?fingerprint=370BB4D550C391D5DCCB6C81FD82FDA4892964764E085A09B7E075E9BAD5ED98)
+* [Nightly](fdroidrepos://fdroid.cgeo.org/nightly/fdroid/repo?fingerprint=58AC102C3D6F16D0F4386415D75BC0EB64468C3817410EA0A4DA28912E826F08)
+
+> ##### NIGHTLY REPO KEY CHANGE
+>
+> The Nightly repository has changed its signing key on 2025-05-17. Please import it again if you use it.
+{: .block-warning }
 
 
 ### Instructions
 
 1. Install the [F-Droid](https://f-droid.org/) client app.
-1. Copy/paste the c:geo repository information into the F-Droid client app under Settings.
+1. Click on one of the c:geo repository link above to add the repository.
 1. Refresh your F-Droid client app under the Categories tab.
 1. Install c:geo from the F-Droid client app listing.
 
