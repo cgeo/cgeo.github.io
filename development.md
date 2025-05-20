@@ -68,8 +68,7 @@ We provide two channels, for stable and nightly builds.
 > ##### NIGHTLY REPO KEY CHANGE
 >
 > The Nightly repository has changed its signing key on 2025-05-17. Please import it again if you use it.
-{: .block-warning }
-
+{: .warning }
 
 ### Instructions
 
