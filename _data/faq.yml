@@ -118,6 +118,33 @@
                 - Falls die offizielle Geocaching App installiert ist, wähle sie aus --> wähle "Open by definition" --> "Add Link" ---> lösche alle Zuordnungen --> dann zurück und wähle "Open compatible Links" ab.
                 - Wähle dann c:geo --> Aktiviere "Open compatible Links" --> Wähle alle Zuordnungen aus.
                 - Für Poco-Geräte wähle "Open by default", dann "open supported links", und wähle dann die Adressen aus, die sich in c:geo öffnen sollen
+      - id: defaultapp
+        en:
+           title: xyz always opens in c:geo / Navigation started with c:geo always opens in wrong app (or similar problem)
+           content: |
+                For some actions, Android offers several apps to choose from. You can select either "Just once" or "Always" for this app. When choosing "Always", this app will be selected automatically if starting a similar action and you won't see the selection dialog anymore.
+                You have probably selected "Always" for this action somewhere in the past, which makes that app the default app for that specific action.
+                This can be easily reset, though. On a Samsung phone please follow those steps one by one:
+                - Open Android settings
+                - Select "Apps"
+                - Select "Choose default apps"
+                - Select "Opening links"
+                - Select the app that opens wrongly
+                - Select "Clear defaults"
+                Other vendors will have a similar way, but some steps may have different names.
+        de:
+           title: xyz öffnet sich immer mit c:geo / Navigation aus c:geo öffnet sich immer mit der falschen App (oder ähnliches Problem)
+           content: |
+                Android bietet für manche Aktionen mehrere Apps zur Auswahl an. Dabei kann man die Auswahl als "nur einmal" oder "immer" festlegen. Bei "immer" wird dann zukünftig die App-Abfrage nicht mehr angezeigt, sondern direkt die gewählte App gestartet.
+                Vermutlich hast Du in der Vergangenheit für die jetzt gewünschte Aktion eine andere App als "immer" gekennzeichnet und sie damit als Standard-App für diese Aktion festgelegt.
+                Zum Glück lässt sich das zurücksetzen: Unser Samsung rufe bitte der Reihe nach folgende Schritte auf:
+                - Öffne die Android-Einstellungen
+                - Wähle "Apps"
+                - Wähle "Standard-Apps"
+                - Wähle "Links öffnen"
+                - Wähle die versehentlich gewählte App aus
+                - Tippe auf "Standardwerte löschen"
+                 Für andere Hersteller wird es einen ähnlichen Weg geben, der möglicherweise aber teils anders benannt ist.
 - id: getting-started
   title:
       en: Getting started
