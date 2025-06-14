@@ -65,6 +65,8 @@
                 
                 You can change this by going to your device app settings, open the c:geo app settings and manually select what URLs (web links) you allow c:geo to open.
                 Unfortunately in Android 12 (and newer) you can only set this as permanently (no longer asking each time you tap such link).
+                For opening caches from links allow at least "coord.info", "www.coord.info", "geocaching.com" and "www.geocaching.com".
+                If you want to open Wherigo cartridges with c:geo, additionally allow "wherigo.com" and "www.wherigo.com".
                 
                 Info for Xiaomi users: On some Xiaomi devices this procedure does not work as Xiaomi did not follow common Android practice and does not offer the mentioned setting. In this case you might want to look into this [helper app](https://play.google.com/store/apps/details?id=com.aboutmycode.betteropenwith) which acts as an app chooser for those cases.
                 
@@ -89,6 +91,8 @@
                 
                 Du kannst dies ändern, in dem du die App-Einstellungen deines Gerätes und dort die c:geo App-Einstellungen öffnest und dort manuell festlegst, für welche URLs (Web-Links) du c:geo erlaubst genutzt zu werden.
                 Dies ist leider bei Android 12 (und neuer) nur noch dauerhaft festlegbar (keine Auswahl beim Tippen eines solchen Links). 
+                Um Caches aus Links heraus zu öffnen, erlaube zumindest "coord.info", "www.coord.info", "geocaching.com" und "www.geocaching.com".
+                Falls Du auch Wherigos mit c:geo öffnen möchtest, erlaube zusätzlich "wherigo.com" und "www.wherigo.com".
                 
                 Info für Xiaomi-Nutzer: Auf einigen Xiaomi-Geräten funktioniert diese Prozedur nicht, da Xiaomoi nicht den Android-Empfehlungen folgt und die genannte Option nicht anbietet. In diesem Fall schau dir einmal diese [Helfer-App](https://play.google.com/store/apps/details?id=com.aboutmycode.betteropenwith) an, die als App-Wähler für solche Fälle dient.
                 
