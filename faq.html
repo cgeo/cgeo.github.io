@@ -30,6 +30,11 @@ edit_link:
     <span onclick="switchLanguage('de')">Deutsch</span>
 </div>
 
+<div id="faq-search-container" style="margin: 20px 0;">
+    <input type="text" id="faq-search" placeholder="Search FAQ..." style="width: 100%; max-width: 400px; padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-size: 16px;">
+    <div id="search-results-count" style="margin-top: 10px; color: #666; font-size: 14px;"></div>
+</div>
+
 <h1>FAQ</h1>
 
 <p>Welcome to our FAQ where we collect and answer frequently asked questions.
@@ -101,4 +106,84 @@ feature of your browser - usually accessible by pressing <kbd>Ctrl+F</kbd>.</p>
 
     var userLang = (navigator.language || navigator.userLanguage).split('-')[0];
     switchLanguage(userLang);
+
+    function initFAQSearch() {
+        const searchInput = document.getElementById('faq-search');
+        const searchResultsCount = document.getElementById('search-results-count');
+        const faqItems = document.querySelectorAll('.faq-item');
+        const faqCategories = document.querySelectorAll('.faq-category');
+        const faqNavigation = document.querySelectorAll('.faq-navigation');
+
+        if (!searchInput) return;
+
+        searchInput.addEventListener('input', function() {
+            const searchTerm = this.value.toLowerCase().trim();
+            
+            if (searchTerm === '') {
+                faqItems.forEach(item => {
+                    item.style.display = 'block';
+                });
+                faqCategories.forEach(category => {
+                    category.style.display = 'block';
+                });
+                faqNavigation.forEach(nav => {
+                    nav.style.display = 'block';
+                });
+                searchResultsCount.textContent = '';
+                return;
+            }
+
+            let visibleCount = 0;
+            
+            faqNavigation.forEach(nav => {
+                nav.style.display = 'none';
+            });
+            
+            faqCategories.forEach(category => {
+                category.style.display = 'none';
+            });
+
+            faqItems.forEach(item => {
+                const currentLang = userLang || 'en';
+                const langDiv = item.querySelector(`div[lang="${currentLang}"]`);
+                
+                if (langDiv) {
+                    const questionText = langDiv.querySelector('.question .text')?.textContent.toLowerCase() || '';
+                    const answerText = langDiv.querySelector('.answer')?.textContent.toLowerCase() || '';
+                    
+                    if (questionText.includes(searchTerm) || answerText.includes(searchTerm)) {
+                        item.style.display = 'block';
+
+                        const parentCategory = item.closest('.faq-category');
+                        if (parentCategory) {
+                            parentCategory.style.display = 'block';
+                        }
+                        visibleCount++;
+                    } else {
+                        item.style.display = 'none';
+                    }
+                }
+            });
+
+
+            if (visibleCount === 0) {
+                searchResultsCount.textContent = 'No results found';
+            } else if (visibleCount === 1) {
+                searchResultsCount.textContent = '1 result found';
+            } else {
+                searchResultsCount.textContent = `${visibleCount} results found`;
+            }
+        });
+
+        searchInput.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                this.value = '';
+                this.dispatchEvent(new Event('input'));
+            }
+        });
+    }
+
+    $(document).ready(function() {
+        initFAQSearch();
+    });
 </script>
