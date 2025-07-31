@@ -5,15 +5,15 @@
   items:
       - id: saf-file-access
         en:
-            title: I cannot select a base folder in the SAF folder selection dialog
+            title: I cannot select a base folder in the folder selection dialog
             content: |
                 Please remove the SD card from your device and reinsert it.
-                Afterwards you should be able to select the base folder in the SAF folder selection dialog.
+                Afterwards you should be able to select the base folder in the folder selection dialog.
         de:
-            title: Ich kann im SAF-Ordnerauswahldialog keinen Basisordner auswählen
+            title: Ich kann im Ordnerauswahldialog keinen Basisordner auswählen
             content: |
                 Entfernen Sie die SD-Karte aus Ihrem Gerät und stecken Sie diese wieder ein.
-                Danach sollten Sie im SAF-Ordnerauswahldialog den Basisordner auswählen können.
+                Danach sollten Sie im Ordnerauswahldialog den Basisordner auswählen können.
       - id: 14950
         en:
            title: I am no longer recognized as premium member of geocaching.com!
