@@ -123,3 +123,58 @@ h2[lang]:not([lang="en"]) {
         display: inline-block;
     }
 }
+
+#faq-search-container {
+    position: relative;
+    margin-bottom: 20px;
+    max-width: 600px;
+
+    #faq-search {
+        @extend .box;
+        width: 100%;
+        padding: 15px 45px 15px 15px;
+        border: 1px solid rgba(white, .2);
+        background: rgba(white, .05);
+        color: white;
+        font-size: 16px;
+        border-radius: 5px;
+        
+        &::placeholder {
+            color: rgba(white, .5);
+        }
+        
+        &:focus {
+            outline: none;
+            border-color: $color-orange;
+            background: rgba(white, .08);
+        }
+    }
+
+    #faq-search-clear {
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        color: rgba(white, .6);
+        font-size: 20px;
+        font-weight: bold;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        
+        &:hover {
+            color: white;
+            background: rgba(white, .1);
+        }
+    }
+}
+
+.search-highlight {
+    background-color: rgba($color-orange, 0.5);
+    padding: 2px 1px;
+    border-radius: 2px;
+}
