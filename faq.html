@@ -11,17 +11,141 @@ edit_link:
 
 <script>
     const languages = ["{{ languages | join: '", "' }}"]
+    let currentLanguage = 'en';
 
     function switchLanguage(lang) {
-        if ($.inArray(userLang, languages) > -1) {
+        currentLanguage = lang;
+        if ($.inArray(lang, languages) > -1) {
             $('.faq-item div[lang], .faq-category-header[lang], .faq-navigation[lang]').hide()
             $(`.faq-item div[lang="${lang}"], .faq-category-header[lang="${lang}"], .faq-navigation[lang="${lang}"]`).show()
+
+            // Update search placeholder
+            const placeholder = $('#faq-search').data(`placeholder-${lang}`);
+            if (placeholder) {
+                $('#faq-search').attr('placeholder', placeholder);
+            }
+
+            // Re-apply search filter after language switch
+            const searchTerm = $('#faq-search').val();
+            if (searchTerm) {
+                filterFAQ(searchTerm);
+            }
 
             // Jump to anchor again because page length might have changed
             if (location.hash) {
                 location.hash = location.hash
             }
         }
+    }
+
+    function highlightText(element, searchTerm) {
+        if (!searchTerm) return;
+        
+        const regex = new RegExp(`(${searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+        
+        function highlightNode(node) {
+            if (node.nodeType === 3) { // Text node
+                const text = node.nodeValue;
+                if (regex.test(text)) {
+                    const highlightedText = text.replace(regex, '<mark class="search-highlight">$1</mark>');
+                    const wrapper = document.createElement('span');
+                    wrapper.innerHTML = highlightedText;
+                    node.parentNode.replaceChild(wrapper, node);
+                }
+            } else if (node.nodeType === 1 && node.tagName !== 'SCRIPT' && node.tagName !== 'STYLE') {
+                // Element node - recurse through children
+                const children = Array.from(node.childNodes);
+                children.forEach(child => highlightNode(child));
+            }
+        }
+        
+        highlightNode(element);
+    }
+
+    function removeHighlights() {
+        $('.search-highlight').each(function() {
+            const parent = this.parentNode;
+            parent.replaceChild(document.createTextNode(this.textContent), this);
+            parent.normalize();
+        });
+    }
+
+    function filterFAQ(searchTerm) {
+        const term = searchTerm.toLowerCase().trim();
+        
+        // Remove previous highlights
+        removeHighlights();
+        
+        if (term === '') {
+            // Show all items and categories
+            $('.faq-item, .faq-category, .faq-navigation-category').show();
+            $('.faq-navigation-link').show();
+            $('#faq-search-clear').hide();
+            return;
+        }
+
+        $('#faq-search-clear').show();
+        
+        // Hide all items first
+        $('.faq-item').hide();
+        $('.faq-navigation-link').hide();
+        
+        // Find matching items
+        let hasVisibleItems = {};
+        
+        $('.faq-item').each(function() {
+            const $item = $(this);
+            const $content = $item.find(`div[lang="${currentLanguage}"]`);
+            
+            if ($content.length > 0) {
+                const title = $content.find('.question .text a').text().toLowerCase();
+                const answer = $content.find('.answer').text().toLowerCase();
+                
+                if (title.includes(term) || answer.includes(term)) {
+                    $item.show();
+                    
+                    // Highlight search terms in visible content
+                    highlightText($content.find('.question .text a')[0], term);
+                    highlightText($content.find('.answer')[0], term);
+                    
+                    // Mark category as having visible items
+                    const categoryId = $item.closest('.faq-category').index();
+                    hasVisibleItems[categoryId] = true;
+                    
+                    // Show corresponding navigation link
+                    const itemId = $item.attr('id');
+                    $(`.faq-navigation-link[href="#${itemId}"]`).show();
+                }
+            }
+        });
+        
+        // Show/hide categories and navigation categories based on visible items
+        $('.faq-category').each(function(index) {
+            const $category = $(this);
+            if (hasVisibleItems[index]) {
+                $category.show();
+            } else {
+                $category.hide();
+            }
+        });
+        
+        $('.faq-navigation-category').each(function(index) {
+            const $navCategory = $(this);
+            const hasVisibleLinks = $navCategory.find('.faq-navigation-link:visible').length > 0;
+            
+            if (hasVisibleLinks) {
+                $navCategory.show();
+            } else {
+                $navCategory.hide();
+            }
+        });
+    }
+
+    function clearSearch() {
+        $('#faq-search').val('');
+        removeHighlights();
+        filterFAQ('');
+        $('#faq-search').focus();
     }
 </script>
 
@@ -32,8 +156,13 @@ edit_link:
 
 <h1>FAQ</h1>
 
+<div id="faq-search-container">
+    <input type="text" id="faq-search" placeholder="Search FAQ..." data-placeholder-en="Search FAQ..." data-placeholder-de="FAQ durchsuchen..." />
+    <div id="faq-search-clear" onclick="clearSearch()" style="display: none;">×</div>
+</div>
+
 <p>Welcome to our FAQ where we collect and answer frequently asked questions.
-To quickly find an answer to your question, use the <strong>Find in page</strong>
+Use the search box above or the <strong>Find in page</strong>
 feature of your browser - usually accessible by pressing <kbd>Ctrl+F</kbd>.</p>
 <p>If you still don't find the answer you're looking for, check out our <a href="https://manual.cgeo.org">User Guide</a>.</p>
 
@@ -100,5 +229,26 @@ feature of your browser - usually accessible by pressing <kbd>Ctrl+F</kbd>.</p>
     $('#faq-language-selection').show();
 
     var userLang = (navigator.language || navigator.userLanguage).split('-')[0];
+    currentLanguage = userLang;
     switchLanguage(userLang);
+
+    // Initialize search functionality
+    $('#faq-search').on('input', function() {
+        const searchTerm = $(this).val();
+        filterFAQ(searchTerm);
+    });
+
+    // Handle Enter key in search box
+    $('#faq-search').on('keypress', function(e) {
+        if (e.which === 13) { // Enter key
+            e.preventDefault();
+        }
+    });
+
+    // Handle Escape key to clear search
+    $(document).on('keydown', function(e) {
+        if (e.key === 'Escape' && $('#faq-search').is(':focus')) {
+            clearSearch();
+        }
+    });
 </script>
