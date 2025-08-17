@@ -39,7 +39,7 @@ You can use our nightly builds to test new features of upcoming versions. They a
 
 Nightly builds can cause all kinds of crashes and malfunction. Please report such bugs, but don't expect us to deliver a fix right afterwards. If you need stable functionality, use the normal build.
 
-The "light" version is without MLKit translator. It is therefore smaller and without a non [FOSS](https://wikipedia.org/wiki/Free_and_open-source_software) part.
+The “Light” version does not include the MLKit translator. It is therefore smaller and contains fewer non-[FOSS](https://wikipedia.org/wiki/Free_and_open-source_software) parts than the normal version.
 
 Please be aware:
 
