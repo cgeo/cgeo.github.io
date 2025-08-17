@@ -39,6 +39,8 @@ You can use our nightly builds to test new features of upcoming versions. They a
 
 Nightly builds can cause all kinds of crashes and malfunction. Please report such bugs, but don't expect us to deliver a fix right afterwards. If you need stable functionality, use the normal build.
 
+The “Light” version does not include the MLKit translator. It is therefore smaller and contains fewer non-[FOSS](https://wikipedia.org/wiki/Free_and_open-source_software) parts than the normal version.
+
 Please be aware:
 
 Direct downgrading from a nightly version to a production (or beta) version is not possible due to Android versioning restrictions. You need to manually deinstall the nightly and afterwards install the production (or beta) version.
@@ -49,7 +51,8 @@ Please consider this, when using our nightly builds.
 
 ### Download Nightly Builds
 
-[c:geo application](https://download.cgeo.org/cgeo-nightly.apk)
+* [c:geo application](https://download.cgeo.org/cgeo-nightly.apk)
+* [c:geo application "light"](https://download.cgeo.org/cgeo-nightly-foss.apk)
 
 ## F-Droid repository
 
