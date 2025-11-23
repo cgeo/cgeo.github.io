@@ -3,6 +3,22 @@
       en: Current issues and changes
       de: Aktuelle Probleme und Änderungen
   items:
+      - id: captcha
+        en:
+            title: I cannot login to c:geo, c:geo home screen says "Captcha required"
+            content: |
+                This is caused by geocaching.com servers sending a so-called CAPTCHA and blocking login.
+                
+                Please see our [c:geo manual page on Captcha issue](https://manual.cgeo.org/en/loginproblems#login_failedcaptcha_required)
+                for possible reasons and mitigations.
+        de:
+            title: I kann mich nicht einloggen, c:geo Startbildschirm zeigt "Captcha erforderlich" an
+            content: |
+                Diese Meldung wird durch die geocaching.com Server verursacht, die ein sogenanntes
+                CAPTCHA erfordern und das Einloggen blockieren.
+                
+                Bitte schaue in das [c:geo Handbuch zu Captcha-Problemen](https://manual.cgeo.org/de/loginproblems#anmeldung_fehlgeschlagencaptcha_erforderlich)
+                für mögliche Ursachen und Umgehungslösungen.
       - id: 14950
         en:
            title: I am no longer recognized as premium member of geocaching.com!
