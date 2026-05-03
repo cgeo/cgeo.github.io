@@ -3,6 +3,19 @@
       en: Current issues and changes
       de: Aktuelle Probleme und Änderungen
   items:
+      - id: routing
+        en:
+            title: Routing only shows a straight line, even after update to release 2026.04.30
+            content: |
+                You will need to update your downloaded routing data once:
+                Go to c:geo home screen, open "Manage offline data" - "Update routing data", and let c:geo install the updated files.
+                (Reason: BRouter routing data file structure has changed and all routing data files must comply to the same version.)
+        de:
+            title: Routing zeigt nur eine gerade Linie an, auch nach dem Update auf Version 2026.04.30
+            content: |
+                Bitte aktualisiere einmalig Deine Routing-Dateien:
+                Gehe zum c:geo Startbildschirm, öffne "Offline-Daten verwalten" - "Routingdaten aktualisieren" und lass c:geo die Updates installieren.
+                (Grund: BRouter Routing Datenstruktur hat sich geändert und alle Routing-Datendateien müssen der gleichen Version entsprechen.)
       - id: captcha
         en:
             title: I cannot login to c:geo, c:geo home screen says "Captcha required"
