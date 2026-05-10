@@ -25,12 +25,20 @@
                 You will need to update your downloaded routing data once:
                 Go to c:geo home screen, open "Manage offline data" - "Update routing data", and let c:geo install the updated files.
                 (Reason: BRouter routing data file structure has changed and all routing data files must comply to the same version.)
+                If that does not help, please open a file manager, navigate to your configured c:geo's base folder, then to "routing/segments4" 
+                beneath it, and delete all files that have ".rd5" as file ending. Move one folder up to "routing" and delete "lookups.dat".
+                Finally, restart c:geo, open the map, zoom the map to the area which you want to have routing data for, and reload that data
+                by tapping on the map symbol in toolbar, then opening "Manage offline data" - "Check for missing routing data".
         de:
             title: Routing zeigt nur eine gerade Linie an, auch nach dem Update auf Version 2026.04.30
             content: |
                 Bitte aktualisiere einmalig Deine Routing-Dateien:
                 Gehe zum c:geo Startbildschirm, öffne "Offline-Daten verwalten" - "Routingdaten aktualisieren" und lass c:geo die Updates installieren.
                 (Grund: BRouter Routing Datenstruktur hat sich geändert und alle Routing-Datendateien müssen der gleichen Version entsprechen.)
+                Falls das nicht hilft, öffne bitte einen Dateimanager und navigiere zum konfigurierten Basisverzeichnis von c:geo, darunter dann nach
+                "routing/segments4", und lösche dort alle Dateien, die auf ".rd5" enden. Ein Verzeichnis höher ("routing") lösche die Datei "lookups.dat".
+                Schließlich starte c:geo neu, öffne die Karte und zoome auf die Region, für die Du Kartendaten haben möchtest, und lade diese Daten neu,
+                indem Du in der Toolbar das Kartensymbol anwählst, dort dann "Offline-Daten verwalten" - "Auf fehlende Routingdaten prüfen".
       - id: captcha
         en:
             title: I cannot login to c:geo, c:geo home screen says "Captcha required"
