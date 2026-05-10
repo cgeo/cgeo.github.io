@@ -3,21 +3,6 @@
       en: Current issues and changes
       de: Aktuelle Probleme und Änderungen
   items:
-      - id: Wherigo
-        en: 
-            title: Error on downloading cartridge
-            content: |
-                Due to a change on the website, downloading the cartridge from c:geo is currently not working.
-                To download the cartridge manually, select “Open in Browser” from the cache page menu, follow the cartridge’s link to wherigo.com, log in there with your geocaching.com credentials, and download the cartridge as “Pocket PC.”
-                To play the Wherigo in c:geo, you must move the downloaded cartridge to the “wherigo” folder (this is a subfolder of the c:geo base folder).
-                Now you can launch the Wherigo player in c:geo, select this cartridge, and play the Wherigo.
-        de: 
-            title: Fehler beim Download der Wherigo-cartridge
-            content: |
-                Aufgrund einer Änderung an der Website funktioniert das Herunterladen der Cartridge aus c:geo heraus derzeit nicht.
-                Um die Cartridge manuell herunterzuladen, wähle im Menü der Cache-Seite „Im Browser öffnen“, folge dem Link der Cartridge zu wherigo.com, melde dich dort mit deinem geocaching.com-Zugangsdaten an und lade die Cartridge als „Pocket PC“ herunter.
-                Um den Wherigo nun in c:geo spielen zu können, musst du die heruntergeladene Cartridge noch in den Ordner "wherigo" (dies ist ein Unterordner des Basis-Ordners von c:geo) verschieben.
-                Nun kannst du den Wherigo-Player in c:geo starten, diese Cartridge auswählen und den Wherigo spielen.
       - id: routing
         en:
             title: Routing only shows a straight line, even after update to release 2026.04.30
