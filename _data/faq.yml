@@ -55,6 +55,33 @@
                 
                 Bitte schaue in das [c:geo Handbuch zu Captcha-Problemen](https://manual.cgeo.org/de/loginproblems#anmeldung_fehlgeschlagencaptcha_erforderlich)
                 für mögliche Ursachen und Umgehungslösungen.
+      - id: safmissing
+        en:
+           title: Cannot access files/folders, error dialog reads like "No activity found to handle Intent { act=android.intent.action.OPEN_DOCUMENT_TREE ... }"
+           content: |
+                c:geo needs a certain system component from Android to access files and folders in a user-controlled way.
+                Typically this handling is provided by the system's default "files" app.
+                If that app is disabled or their access rights are revoked, c:geo is not able to access files/folders like offline maps, routing data etc.,
+                it even cannot store its own files like database backups, logfiles etc.
+
+                Reactivating the system component depends on the device vendor. For Samsung devices it's like this.
+                - Open Android settings - apps
+                - Select "Special access" - "All files access" from menu
+                - Enable "Show system apps" from menu
+                - Search for apps like "My files", "External storage" or similar (there may be more relevant apps we don't know yet) and grant "all files access" to them.
+        de:
+           title: Kann auf Dateien/Verzeichnisse nicht zugreifen, Fehlerdialog zeigt "No activity found to handle Intent { act=android.intent.action.OPEN_DOCUMENT_TREE ... }" an
+           content: |
+                c:geo benötigt eine bestimmte Systemkomponenten von Android, um auf Benutzer-kontrollierte Weise auf Dateien und Verzeichnisse zugreifen zu können.
+                Typischerweise wird diese über die Standard-Dateimanager-App bereitgestellt.
+                Falls diese App deaktiviert ist oder ihr die Rechte entzogen wurden, kann c:geo nicht auf Dateien/Verzeichnisse wie Offlinekarten, Routingdaten etc.
+                zugreifen, ja nichtmal eigene Dateien speichern wie Datenbank-Backups oder Logdateien.
+
+                Diese Systemkomponente zu reaktivieren ist herstellerspezifisch. Auf einem Samsung-Gerät geht diese folgendermaßen.
+                - Öffne die Android-Einstellungen - Apps
+                - Wähle "Spezieller Zugriff" - "Zugriff auf alle Dateien" aus dem Menü
+                - Aktiviere "Systemanwendungen anzeigen" im Menü
+                - Suche nach Apps wie "Eigene Dateien", "Externer Speicher" oder ähnliche (es kann weitere relevante geben, die wir noch nicht kennen) und erlaube ihnen den Zugriff auf alle Dateien.
       - id: 14950
         en:
            title: I am no longer recognized as premium member of geocaching.com!
