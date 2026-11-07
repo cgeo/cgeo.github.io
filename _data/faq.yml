@@ -223,7 +223,7 @@
                 - look for entries with value "7" in column "_type". You might need to scroll to the next page(s) using the small arrow above the table, at the right
                 - for found entries cross-check the value in "_key" column
                     - If that's one of the tracks you want to see, skip this entry
-                    - Otherwise long-tap on the "_key" column in this row. An edit popup will open. Change "7" to "999" and confirm edit.
+                    - Otherwise long-tap on the "_type" column in this row. An edit popup will open. Change "7" to "999" and confirm edit.
                 - Repeat those last steps for every entry you want to deactivate
                 - Leave this table edit mode whenever you are ready, by tapping the back button. If you now reenter the map, the error messages should be gone (as those tracks that you have marked with "999" are no longer regarded tracks to be loaded on the map).
         de:
@@ -235,7 +235,7 @@
                 - Suche nach Einträgen mit dem Wert "7" in der Spalte "_type". Blättere bei Bedarf über die kleinen Pfeile oben rechts.
                 - Für gefundene Einträge prüfe den Wert in der "_key"-Spalte
                   - Wenn das ein Track ist, den du sehen möchtest, überspringe den Eintrag
-                  - Andernfalls tippe lang auf die "_key"-Spalte in dieser Zeile. Ein Eingabefeld öffnet sich. Ändere "7" zu "999" und bestätige die Eingabe.
+                  - Andernfalls tippe lang auf die "_type"-Spalte in dieser Zeile. Ein Eingabefeld öffnet sich. Ändere "7" zu "999" und bestätige die Eingabe.
                 - Wiederhole die letzten Schritte für jeden Eintrag, den du deaktivieren möchtest
                 - Verlasse den Tabellenmodus über den "Zurück"-Button, sobald du fertig best. Wenn du nun zur Karte zurückkehrst, sollten die Fehlermeldungen weg sein (da diese Tracks, die du mit "999" markiert hast, nicht mehr als anzuzeigen erkannt werden).
 - id: getting-started
